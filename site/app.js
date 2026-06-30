@@ -158,9 +158,11 @@ function changeCell(r) {
     return `<span class="chg chg-new">新</span>`;
   }
   if (dir === "up" || dir === "down") {
+    // Visual convention matches the source site (Chinese stock-market style):
+    //   up   (rank improved) → red   ▲
+    //   down (rank worsened) → green ▼
     const arrow = dir === "up" ? "▲" : "▼";
     const cls = dir === "up" ? "chg-up" : "chg-down";
-    // Show only the magnitude (drop any leading sign / non-digit).
     const mag = cleaned.match(/\d+/)?.[0] || cleaned;
     return `<span class="chg ${cls}">${arrow} ${escapeHTML(mag)}</span>`;
   }

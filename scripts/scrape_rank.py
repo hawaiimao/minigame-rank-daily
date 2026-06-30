@@ -196,7 +196,15 @@ def scrape_current_platform(page, platform: str, top_n: int, log=print) -> dict:
         # The arrow (up/down/flat) is a SVG inside `.rank-right-item`,
         # so it's invisible to innerText. Read it separately and zip
         # the result back onto each row.
-        directions = bh.evaluate("""el => {
+        #
+        # Anchored against real samples:
+        #   羊了个羊:星球 上升一名 → 'up'   (站点显示绿色 ▼: 数字小=好)
+        #   赵云与阿斗   下降一名 → 'down' (站点显示红色 ▲: 数字大=坏)
+        #
+        # We detect the SVG path by a stable substring rather than full
+        # path equality — the site sometimes formats the d-string with
+        # extra spaces or slightly different decimals.
+        directions = bh.evaluate(r"""el => {
           const items = el.querySelectorAll('.rank-child-item');
           const out = [];
           for (const item of items) {
@@ -206,29 +214,25 @@ def scrape_current_platform(page, platform: str, top_n: int, log=print) -> dict:
             if (text.indexOf('霸榜') >= 0) { out.push('top'); continue; }
             if (text.indexOf('稳定') >= 0) { out.push('flat'); continue; }
             if (text === '--' || text === '—') { out.push('new'); continue; }
-            const icon = right.querySelector('i.el-icon');
+            const path = right.querySelector('path');
+            if (path) {
+              const d = (path.getAttribute('d') || '').replace(/\s+/g, ' ').trim();
+              // Up triangle (▲): "M512 320 192 704h639.936z" — has '704'
+              //   = rank number got bigger = worsened → 'down'
+              if (d.indexOf('704') >= 0) { out.push('down'); continue; }
+              // Down triangle (▼): "m192 384 320 384 320-384z" — has '-384'
+              //   = rank number got smaller = improved → 'up'
+              if (d.indexOf('-384') >= 0) { out.push('up'); continue; }
+            }
+            // Fallback: try computed color (green=up, red=down).
+            const icon = right.querySelector('i.el-icon, svg');
             if (icon) {
-              const style = icon.getAttribute('style') || '';
-              const styleLow = style.toLowerCase();
-              // Numeric-direction convention on the site:
-              //   green icon = rank improved (number went down)   → 'up'
-              //   red icon   = rank worsened (number went up)     → 'down'
-              if (styleLow.indexOf('00b38a') >= 0 || styleLow.indexOf('green') >= 0) {
-                out.push('up'); continue;
-              }
-              if (styleLow.indexOf('ff5759') >= 0 || styleLow.indexOf('f5222d') >= 0 || styleLow.indexOf('red') >= 0) {
-                out.push('down'); continue;
-              }
-              const path = icon.querySelector('path');
-              const d = (path && path.getAttribute('d')) || '';
-              const dTrim = d.replace(/\\s+/g, ' ').trim();
-              // Visual ▲ (apex at top) = rank number went up = worsened.
-              if (dTrim.indexOf('M512 320') === 0 || dTrim.indexOf('M 512 320') === 0) {
-                out.push('down'); continue;
-              }
-              // Visual ▼ (apex at bottom) = rank number went down = improved.
-              if (dTrim.indexOf('m192 384 320 384') === 0 || dTrim.indexOf('M192 384 320 384') === 0) {
-                out.push('up'); continue;
+              const c = window.getComputedStyle(icon).color || '';
+              const m = c.match(/(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/);
+              if (m) {
+                const r = +m[1], g = +m[2], b = +m[3];
+                if (g > 100 && r < 100) { out.push('up'); continue; }
+                if (r > 180 && g < 120) { out.push('down'); continue; }
               }
             }
             out.push(text ? 'flat' : 'unknown');

@@ -310,8 +310,8 @@ tbody tr:last-child td { border-bottom: none; }
 }
 
 .chg { font-weight: 500; font-variant-numeric: tabular-nums; }
-.chg-up   { color: #00b38a; }
-.chg-down { color: #ff5759; }
+.chg-up   { color: #ff5759; }   /* rank improved → red ▲ (CN stock convention) */
+.chg-down { color: #00b38a; }   /* rank worsened → green ▼ */
 .chg-flat { color: var(--muted); }
 .chg-top  { color: #c66019; font-weight: 600; }
 .chg-new  { color: var(--accent); font-weight: 600; }
