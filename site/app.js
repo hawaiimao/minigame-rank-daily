@@ -77,28 +77,9 @@ function findDiffBoard(diff, plat, label) {
 
 function renderKPIs() {
   if (!state.latest) return;
-  let newToBoard = 0, returning = 0;
-  if (state.diff) {
-    for (const k in state.diff.boards) {
-      const t = state.diff.boards[k].totals || {};
-      newToBoard += t.new_to_board || 0;
-      returning += t.returning || 0;
-    }
-    $("kpi-new-to-board").textContent = newToBoard;
-    $("kpi-returning").textContent = returning;
-  } else {
-    $("kpi-new-to-board").textContent = "—";
-    $("kpi-returning").textContent = "—";
-  }
-  $("kpi-latest-date").textContent = state.latest.date_beijing || "—";
-  $("kpi-latest-time").textContent = state.latest.scraped_at_beijing
-    ? state.latest.scraped_at_beijing.replace("T", " ").slice(0, 16)
-    : "";
-  $("kpi-history").textContent = state.index?.daily?.length || 0;
-
-  $("meta-date").textContent = state.latest.date_beijing
-    ? `最新数据：${state.latest.date_beijing}（北京时间）`
-    : "—";
+  const dateLabel = state.latest.date_beijing || "—";
+  $("meta-date").textContent = `最新数据：${dateLabel}（北京时间）`;
+  $("meta-days").textContent = state.index?.daily?.length || 0;
 }
 
 function renderDiffTables() {
@@ -112,6 +93,7 @@ function renderDiffTables() {
   tbodyG.innerHTML = "";
 
   if (!diffBoard) {
+    $("panel-new-count").textContent = "";
     tbodyG.innerHTML = `<tr><td colspan="7" class="muted">尚无对比数据（首日运行后才有）</td></tr>`;
     return;
   }
@@ -128,6 +110,8 @@ function renderDiffTables() {
     ...(diffBoard.new_to_board || []).map(r => ({ ...r, _tag: "新进榜", _cls: "first-board" })),
     ...(diffBoard.returning || []).map(r => ({ ...r, _tag: "回归", _cls: "returning" })),
   ].sort((a, b) => (a.rank ?? 999) - (b.rank ?? 999));
+
+  $("panel-new-count").textContent = `（共 ${rowsTagged.length} 个）`;
 
   if (!rowsTagged.length) {
     tbodyG.innerHTML = `<tr><td colspan="7" class="muted">今日此榜无新进 / 回归</td></tr>`;
