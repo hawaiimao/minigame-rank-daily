@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-30T16:06:48",
+  "scraped_at": "2026-06-30T16:24:13",
   "period": "日榜",
   "logged_in": true,
   "top_n_target": 100,
@@ -148,7 +148,7 @@
               "name": "跳一跳",
               "category": "休闲",
               "category_rank": 11,
-              "subcategory": "益智超休闲休闲",
+              "subcategory": "益智休闲超休闲",
               "slogan": "",
               "publisher": "深圳市腾讯计算机系统有限公司",
               "change": "- 稳定",
@@ -555,7 +555,7 @@
               "name": "汤姆猫跑酷",
               "category": "休闲",
               "category_rank": 40,
-              "subcategory": "益智动作跑酷",
+              "subcategory": "益智跑酷动作",
               "slogan": "",
               "publisher": "浙江金科汤姆猫文化产业股份有限公司",
               "change": "2",
@@ -1825,7 +1825,7 @@
               "name": "口袋奇兵",
               "category": "竞技",
               "category_rank": 3,
-              "subcategory": "对战策略战争策略",
+              "subcategory": "对战策略策略战争",
               "slogan": "",
               "publisher": "北京江娱互动科技有限公司",
               "change": "6",
@@ -6646,7 +6646,7 @@
       ]
     }
   },
-  "scraped_at_utc": "2026-06-30T16:07:19+00:00",
-  "scraped_at_beijing": "2026-07-01T00:06:48+08:00",
+  "scraped_at_utc": "2026-06-30T16:24:47+00:00",
+  "scraped_at_beijing": "2026-07-01T00:24:13+08:00",
   "date_beijing": "2026-07-01"
 }
