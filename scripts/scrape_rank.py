@@ -196,32 +196,42 @@ def scrape_current_platform(page, platform: str, top_n: int, log=print) -> dict:
         # The arrow (up/down/flat) is a SVG inside `.rank-right-item`,
         # so it's invisible to innerText. Read it separately and zip
         # the result back onto each row.
-        directions = bh.evaluate(
-            """el => Array.from(el.querySelectorAll('.rank-child-item')).map(item => {
-                const right = item.querySelector('.rank-right-item');
-                if (!right) return 'unknown';
-                const text = (right.innerText || '').trim();
-                // Explicit text wins over icon detection.
-                if (/霸榜/.test(text)) return 'top';        // 持续榜首
-                if (/稳定/.test(text)) return 'flat';
-                if (text === '--' || text === '—') return 'new';
-                const icon = right.querySelector('i.el-icon');
-                if (icon) {
-                    const style = icon.getAttribute('style') || '';
-                    // Site uses CSS var --color: green = up, red = down.
-                    if (/00b38a|0(0|f)b/i.test(style) || /green/i.test(style)) return 'up';
-                    if (/ff5759|f5222d|red/i.test(style)) return 'down';
-                    // Fallback: inspect the SVG path commands.
-                    const path = icon.querySelector('path');
-                    const d = path && path.getAttribute('d') || '';
-                    // Up arrow (apex at top): "M512 320 ..."
-                    if (/^M\\s*512\\s+320/i.test(d)) return 'up';
-                    // Down arrow (apex at bottom): "m192 384 320 384"
-                    if (/m\\s*192\\s+384\\s+320\\s+384/i.test(d)) return 'down';
-                }
-                return text ? 'flat' : 'unknown';
-            })"""
-        )
+        directions = bh.evaluate("""el => {
+          const items = el.querySelectorAll('.rank-child-item');
+          const out = [];
+          for (const item of items) {
+            const right = item.querySelector('.rank-right-item');
+            if (!right) { out.push('unknown'); continue; }
+            const text = (right.innerText || '').trim();
+            if (text.indexOf('霸榜') >= 0) { out.push('top'); continue; }
+            if (text.indexOf('稳定') >= 0) { out.push('flat'); continue; }
+            if (text === '--' || text === '—') { out.push('new'); continue; }
+            const icon = right.querySelector('i.el-icon');
+            if (icon) {
+              const style = icon.getAttribute('style') || '';
+              const styleLow = style.toLowerCase();
+              if (styleLow.indexOf('00b38a') >= 0 || styleLow.indexOf('green') >= 0) {
+                out.push('up'); continue;
+              }
+              if (styleLow.indexOf('ff5759') >= 0 || styleLow.indexOf('f5222d') >= 0 || styleLow.indexOf('red') >= 0) {
+                out.push('down'); continue;
+              }
+              const path = icon.querySelector('path');
+              const d = (path && path.getAttribute('d')) || '';
+              const dTrim = d.replace(/\\s+/g, ' ').trim();
+              // Up arrow: apex at top  -> path starts with "M512 320"
+              if (dTrim.indexOf('M512 320') === 0 || dTrim.indexOf('M 512 320') === 0) {
+                out.push('up'); continue;
+              }
+              // Down arrow: apex at bottom -> path starts with "m192 384 320 384"
+              if (dTrim.indexOf('m192 384 320 384') === 0 || dTrim.indexOf('M192 384 320 384') === 0) {
+                out.push('down'); continue;
+              }
+            }
+            out.push(text ? 'flat' : 'unknown');
+          }
+          return out;
+        }""")
         rows = []
         for j, t in enumerate(rows_text):
             r = parse_row(t, j)
