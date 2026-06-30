@@ -57,7 +57,11 @@ def resolve_auth(log) -> Path | None:
 def main():
     log = print
     auth = resolve_auth(log)
-    top_n = int(os.environ.get("GRAVITY_TOP_N", "100" if auth else "20"))
+    top_env = os.environ.get("GRAVITY_TOP_N", "").strip()
+    if top_env:
+        top_n = int(top_env)
+    else:
+        top_n = 100 if auth else 20
 
     daily_dir = ROOT / "data" / "daily"
     daily_dir.mkdir(parents=True, exist_ok=True)
