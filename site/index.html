@@ -4,8 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>引力小游戏榜单监控</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 </head>
 <body>
   <header>
@@ -17,28 +19,25 @@
     </div>
   </header>
 
-  <nav class="board-tabs" id="board-tabs"></nav>
+  <div class="tabs-row">
+    <nav class="board-tabs" id="board-tabs"></nav>
+    <div class="date-picker-inline">
+      <span class="dp-label">历史日期</span>
+      <select id="date-picker"></select>
+      <button id="date-load">载入</button>
+    </div>
+  </div>
 
   <section class="cards">
     <div class="card">
-      <div class="card-title">全新游戏 <span class="hint" title="任何榜从未出现过">ⓘ</span></div>
-      <div class="card-value" id="kpi-first-anywhere">—</div>
-      <div class="card-sub">first-ever</div>
-    </div>
-    <div class="card">
-      <div class="card-title">首次入此榜 <span class="hint" title="其他榜出现过，此榜首次">ⓘ</span></div>
-      <div class="card-value" id="kpi-first-on-board">—</div>
-      <div class="card-sub">cross-board newcomer</div>
+      <div class="card-title">新进榜 <span class="hint" title="此榜历史从未出现过的游戏">ⓘ</span></div>
+      <div class="card-value" id="kpi-new-to-board">—</div>
+      <div class="card-sub">never seen on this board before</div>
     </div>
     <div class="card">
       <div class="card-title">回归游戏 <span class="hint" title="此榜以前出现过、消失过、又回来">ⓘ</span></div>
       <div class="card-value" id="kpi-returning">—</div>
       <div class="card-sub">returning to board</div>
-    </div>
-    <div class="card">
-      <div class="card-title">新进发行商</div>
-      <div class="card-value" id="kpi-new-pubs">—</div>
-      <div class="card-sub">first time on this board</div>
     </div>
     <div class="card">
       <div class="card-title">最新快照</div>
@@ -52,31 +51,21 @@
     </div>
   </section>
 
-  <section class="row">
+  <section>
     <div class="panel" id="panel-new">
-      <h2>新进榜 <span id="panel-new-board" class="muted"></span></h2>
+      <h2>本日新进产品 <span class="muted">对应榜单：<span id="panel-new-board"></span></span></h2>
       <div class="sub">
-        基于全部历史数据。
-        <span class="legend"><span class="badge first-anywhere">全新</span></span>
-        <span class="legend"><span class="badge first-board">首次入此榜</span></span>
+        基于此榜历史。
+        <span class="legend"><span class="badge first-board">新进榜</span></span>
         <span class="legend"><span class="badge returning">回归</span></span>
+        <span class="legend"><span class="badge new-pub">新厂</span></span>
       </div>
       <table id="tbl-new">
         <thead>
           <tr>
             <th>类型</th><th>排名</th><th>游戏名</th><th>分类</th>
-            <th>子类 / 标语</th><th>发行商</th>
+            <th>子类 / 标语</th><th>发行商</th><th>厂商</th>
           </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-    <div class="panel" id="panel-newpub">
-      <h2>新进发行商</h2>
-      <div class="sub">首次出现在此榜的发行商</div>
-      <table id="tbl-newpub">
-        <thead>
-          <tr><th>发行商</th><th>代表游戏</th><th>排名</th></tr>
         </thead>
         <tbody></tbody>
       </table>
@@ -95,19 +84,6 @@
       </thead>
       <tbody></tbody>
     </table>
-  </section>
-
-  <section class="panel">
-    <h2>历史趋势</h2>
-    <div class="sub">每日各榜单实际抓取到的条数</div>
-    <canvas id="chart-history" height="120"></canvas>
-  </section>
-
-  <section class="panel">
-    <h2>查看任意一天</h2>
-    <div class="sub">从下拉里选一天，查看那天的快照</div>
-    <select id="date-picker"></select>
-    <button id="date-load">载入</button>
   </section>
 
   <footer>

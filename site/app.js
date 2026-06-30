@@ -77,24 +77,18 @@ function findDiffBoard(diff, plat, label) {
 
 function renderKPIs() {
   if (!state.latest) return;
-  let firstAnywhere = 0, firstOnBoard = 0, returning = 0, newPubs = 0;
+  let newToBoard = 0, returning = 0;
   if (state.diff) {
     for (const k in state.diff.boards) {
       const t = state.diff.boards[k].totals || {};
-      firstAnywhere += t.first_anywhere || 0;
-      firstOnBoard += t.first_on_board || 0;
+      newToBoard += t.new_to_board || 0;
       returning += t.returning || 0;
-      newPubs += t.new_publishers || 0;
     }
-    $("kpi-first-anywhere").textContent = firstAnywhere;
-    $("kpi-first-on-board").textContent = firstOnBoard;
+    $("kpi-new-to-board").textContent = newToBoard;
     $("kpi-returning").textContent = returning;
-    $("kpi-new-pubs").textContent = newPubs;
   } else {
-    $("kpi-first-anywhere").textContent = "—";
-    $("kpi-first-on-board").textContent = "—";
+    $("kpi-new-to-board").textContent = "—";
     $("kpi-returning").textContent = "—";
-    $("kpi-new-pubs").textContent = "—";
   }
   $("kpi-latest-date").textContent = state.latest.date_beijing || "—";
   $("kpi-latest-time").textContent = state.latest.scraped_at_beijing
@@ -116,47 +110,41 @@ function renderDiffTables() {
 
   const tbodyG = document.querySelector("#tbl-new tbody");
   tbodyG.innerHTML = "";
-  const tbodyP = document.querySelector("#tbl-newpub tbody");
-  tbodyP.innerHTML = "";
 
   if (!diffBoard) {
-    tbodyG.innerHTML = `<tr><td colspan="6" class="muted">尚无对比数据（首日运行后才有）</td></tr>`;
-    tbodyP.innerHTML = `<tr><td colspan="3" class="muted">—</td></tr>`;
+    tbodyG.innerHTML = `<tr><td colspan="7" class="muted">尚无对比数据（首日运行后才有）</td></tr>`;
     return;
   }
 
+  // Build a set of "new publisher" names for this board so we can flag
+  // which rows are new-studio entries.
+  const newPubSet = new Set(
+    (diffBoard.new_publishers || [])
+      .map(r => r.publisher)
+      .filter(Boolean),
+  );
+
   const rowsTagged = [
-    ...(diffBoard.first_anywhere || []).map(r => ({ ...r, _tag: "全新", _cls: "first-anywhere" })),
-    ...(diffBoard.first_on_board || []).map(r => ({ ...r, _tag: "首次入此榜", _cls: "first-board" })),
+    ...(diffBoard.new_to_board || []).map(r => ({ ...r, _tag: "新进榜", _cls: "first-board" })),
     ...(diffBoard.returning || []).map(r => ({ ...r, _tag: "回归", _cls: "returning" })),
   ].sort((a, b) => (a.rank ?? 999) - (b.rank ?? 999));
 
   if (!rowsTagged.length) {
-    tbodyG.innerHTML = `<tr><td colspan="6" class="muted">今日此榜无新进 / 回归</td></tr>`;
-  } else {
-    for (const r of rowsTagged) {
-      const tr = document.createElement("tr");
-      tr.innerHTML = `
-        <td><span class="badge ${r._cls}">${r._tag}</span></td>
-        <td class="rank-num">${r.rank ?? ""}</td>
-        <td><strong>${escapeHTML(r.name || "")}</strong></td>
-        <td>${escapeHTML(r.category || "")}</td>
-        <td>${escapeHTML(r.subcategory || "") || `<span class="slogan">${escapeHTML(r.slogan || "")}</span>`}</td>
-        <td>${escapeHTML(r.publisher || "")}</td>`;
-      tbodyG.appendChild(tr);
-    }
+    tbodyG.innerHTML = `<tr><td colspan="7" class="muted">今日此榜无新进 / 回归</td></tr>`;
+    return;
   }
-  if (!diffBoard.new_publishers?.length) {
-    tbodyP.innerHTML = `<tr><td colspan="3" class="muted">今日无新进发行商</td></tr>`;
-  } else {
-    for (const r of diffBoard.new_publishers) {
-      const tr = document.createElement("tr");
-      tr.innerHTML = `
-        <td>${escapeHTML(r.publisher || "")}</td>
-        <td>${escapeHTML(r.name || "")}</td>
-        <td class="rank-num">${r.rank ?? ""}</td>`;
-      tbodyP.appendChild(tr);
-    }
+  for (const r of rowsTagged) {
+    const tr = document.createElement("tr");
+    const isNewPub = r.publisher && newPubSet.has(r.publisher);
+    tr.innerHTML = `
+      <td><span class="badge ${r._cls}">${r._tag}</span></td>
+      <td class="rank-num">${r.rank ?? ""}</td>
+      <td><strong>${escapeHTML(r.name || "")}</strong></td>
+      <td>${escapeHTML(r.category || "")}</td>
+      <td>${escapeHTML(r.subcategory || "") || `<span class="slogan">${escapeHTML(r.slogan || "")}</span>`}</td>
+      <td>${escapeHTML(r.publisher || "")}</td>
+      <td>${isNewPub ? `<span class="badge new-pub">新厂</span>` : `<span class="muted">老厂</span>`}</td>`;
+    tbodyG.appendChild(tr);
   }
 }
 
@@ -170,10 +158,9 @@ function renderFullBoard() {
   tbody.innerHTML = "";
   if (!board) return;
   const diffBoard = findDiffBoard(state.diff, ab.plat, ab.label);
-  const newGameSet = new Set([
-    ...((diffBoard?.first_anywhere) || []).map(r => r.name),
-    ...((diffBoard?.first_on_board) || []).map(r => r.name),
-  ]);
+  const newGameSet = new Set(
+    ((diffBoard?.new_to_board) || []).map(r => r.name),
+  );
 
   const rows = [...board.rows].sort(sortRowsBy(state.sort));
   for (const r of rows) {
@@ -213,40 +200,6 @@ function attachSortHandlers() {
       else { state.sort.key = keys[i]; state.sort.dir = 1; }
       renderFullBoard();
     };
-  });
-}
-
-function renderHistoryChart() {
-  const canvas = $("chart-history");
-  if (!canvas || !state.history.length) return;
-  const labels = state.history.map(h => h.date);
-  const datasets = [];
-  const allKeys = new Set();
-  for (const h of state.history) {
-    for (const k in (h.boards || {})) allKeys.add(k);
-  }
-  const palette = ["#6fa8ff", "#ffae3a", "#3ddc84", "#ff6464", "#bd87ff", "#43d3df"];
-  let i = 0;
-  for (const key of allKeys) {
-    datasets.push({
-      label: key,
-      data: state.history.map(h => h.boards?.[key] ?? null),
-      borderColor: palette[i % palette.length],
-      backgroundColor: palette[i % palette.length] + "33",
-      tension: 0.3,
-    });
-    i++;
-  }
-  new Chart(canvas.getContext("2d"), {
-    type: "line",
-    data: { labels, datasets },
-    options: {
-      plugins: { legend: { labels: { color: "#e7e9ee" } } },
-      scales: {
-        x: { ticks: { color: "#8a8f9c" }, grid: { color: "#2a2e38" } },
-        y: { ticks: { color: "#8a8f9c" }, grid: { color: "#2a2e38" } },
-      },
-    },
   });
 }
 
@@ -322,20 +275,13 @@ async function init() {
       );
     } catch (e) { state.diff = null; }
   }
-  // history.jsonl
-  try {
-    const txt = await fetchText(`${DATA_BASE}/history.jsonl`);
-    state.history = txt.split("\n")
-      .filter(Boolean)
-      .map(s => { try { return JSON.parse(s); } catch (e) { return null; } })
-      .filter(Boolean);
-  } catch (e) { state.history = []; }
+  // history.jsonl is no longer rendered (chart removed) but kept on disk
+  // for future use; skip loading.
 
   renderDatePicker();
   // Default to first board.
   setActiveBoard("wx", "人气榜");
   renderKPIs();
-  renderHistoryChart();
 }
 
 init();
