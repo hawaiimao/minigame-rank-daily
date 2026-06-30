@@ -193,7 +193,43 @@ def scrape_current_platform(page, platform: str, top_n: int, log=print) -> dict:
         else:
             loaded = bh.locator(".rank-child-item").count()
         rows_text = bh.locator(".rank-child-item").all_inner_texts()
-        rows = [parse_row(t, j) for j, t in enumerate(rows_text)][:top_n]
+        # The arrow (up/down/flat) is a SVG inside `.rank-right-item`,
+        # so it's invisible to innerText. Read it separately and zip
+        # the result back onto each row.
+        directions = bh.evaluate(
+            """el => Array.from(el.querySelectorAll('.rank-child-item')).map(item => {
+                const right = item.querySelector('.rank-right-item');
+                if (!right) return 'unknown';
+                const text = (right.innerText || '').trim();
+                // Explicit text wins over icon detection.
+                if (/霸榜/.test(text)) return 'top';        // 持续榜首
+                if (/稳定/.test(text)) return 'flat';
+                if (text === '--' || text === '—') return 'new';
+                const icon = right.querySelector('i.el-icon');
+                if (icon) {
+                    const style = icon.getAttribute('style') || '';
+                    // Site uses CSS var --color: green = up, red = down.
+                    if (/00b38a|0(0|f)b/i.test(style) || /green/i.test(style)) return 'up';
+                    if (/ff5759|f5222d|red/i.test(style)) return 'down';
+                    // Fallback: inspect the SVG path commands.
+                    const path = icon.querySelector('path');
+                    const d = path && path.getAttribute('d') || '';
+                    // Up arrow (apex at top): "M512 320 ..."
+                    if (/^M\\s*512\\s+320/i.test(d)) return 'up';
+                    // Down arrow (apex at bottom): "m192 384 320 384"
+                    if (/m\\s*192\\s+384\\s+320\\s+384/i.test(d)) return 'down';
+                }
+                return text ? 'flat' : 'unknown';
+            })"""
+        )
+        rows = []
+        for j, t in enumerate(rows_text):
+            r = parse_row(t, j)
+            r["change_direction"] = (
+                directions[j] if j < len(directions) else "unknown"
+            )
+            rows.append(r)
+        rows = rows[:top_n]
         boards_out.append({"label": label, "rows": rows})
         log(f"  {PLATFORM_LABEL[platform]} / {label}: {len(rows)} rows "
             f"(loaded {loaded}, target {top_n})")

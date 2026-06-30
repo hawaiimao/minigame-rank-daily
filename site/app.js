@@ -119,7 +119,16 @@ function renderDiffTables() {
   }
   for (const r of rowsTagged) {
     const tr = document.createElement("tr");
-    const isNewPub = r.publisher && newPubSet.has(r.publisher);
+    const hasPub = !!(r.publisher && r.publisher.trim());
+    const isNewPub = hasPub && newPubSet.has(r.publisher);
+    let studioCell;
+    if (!hasPub) {
+      studioCell = `<span class="badge studio-unknown">未知</span>`;
+    } else if (isNewPub) {
+      studioCell = `<span class="badge new-pub">新厂</span>`;
+    } else {
+      studioCell = `<span class="badge studio-old">老厂</span>`;
+    }
     tr.innerHTML = `
       <td><span class="badge ${r._cls}">${r._tag}</span></td>
       <td class="rank-num">${r.rank ?? ""}</td>
@@ -127,9 +136,35 @@ function renderDiffTables() {
       <td>${escapeHTML(r.category || "")}</td>
       <td>${escapeHTML(r.subcategory || "") || `<span class="slogan">${escapeHTML(r.slogan || "")}</span>`}</td>
       <td>${escapeHTML(r.publisher || "")}</td>
-      <td>${isNewPub ? `<span class="badge new-pub">新厂</span>` : `<span class="badge studio-old">老厂</span>`}</td>`;
+      <td>${studioCell}</td>`;
     tbodyG.appendChild(tr);
   }
+}
+
+function changeCell(r) {
+  // r.change is the raw text like "1", "- 稳定", "霸榜15天".
+  // r.change_direction is one of: up / down / flat / top / new / unknown.
+  const dir = r.change_direction;
+  const raw = (r.change || "").trim();
+  // Strip a leading "- " often present on flat rows.
+  const cleaned = raw.replace(/^-\s*/, "").trim();
+  if (dir === "top") {
+    return `<span class="chg chg-top">${escapeHTML(cleaned || raw)}</span>`;
+  }
+  if (dir === "flat") {
+    return `<span class="chg chg-flat">— 稳定</span>`;
+  }
+  if (dir === "new") {
+    return `<span class="chg chg-new">新</span>`;
+  }
+  if (dir === "up" || dir === "down") {
+    const arrow = dir === "up" ? "▲" : "▼";
+    const cls = dir === "up" ? "chg-up" : "chg-down";
+    // Show only the magnitude (drop any leading sign / non-digit).
+    const mag = cleaned.match(/\d+/)?.[0] || cleaned;
+    return `<span class="chg ${cls}">${arrow} ${escapeHTML(mag)}</span>`;
+  }
+  return escapeHTML(raw);
 }
 
 function renderFullBoard() {
@@ -157,7 +192,7 @@ function renderFullBoard() {
       <td>${escapeHTML(r.category || "")}${r.category_rank ? ` <span class="muted">#${r.category_rank}</span>` : ""}</td>
       <td>${escapeHTML(r.subcategory || "")}</td>
       <td>${escapeHTML(r.publisher || "")}</td>
-      <td>${escapeHTML(r.change || "")}</td>
+      <td>${changeCell(r)}</td>
       <td>${isNew ? `<span class="badge-new">NEW</span>` : ""}</td>`;
     tbody.appendChild(tr);
   }

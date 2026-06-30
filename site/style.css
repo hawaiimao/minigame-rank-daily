@@ -294,6 +294,7 @@ tbody tr:last-child td { border-bottom: none; }
 .badge.returning      { background: rgba(45,212,164,.15);  color: #1a9b75; }
 .badge.new-pub        { background: rgba(255,138,61,.15);  color: #c66019; }
 .badge.studio-old     { background: rgba(138,138,163,.12); color: #6c6c84; font-weight: 500; }
+.badge.studio-unknown { background: rgba(138,138,163,.08); color: #9b9bb0; font-weight: 500; font-style: italic; }
 
 .legend {
   display: inline-flex;
@@ -307,6 +308,13 @@ tbody tr:last-child td { border-bottom: none; }
   font-size: 11px;
   margin-left: 4px;
 }
+
+.chg { font-weight: 500; font-variant-numeric: tabular-nums; }
+.chg-up   { color: #00b38a; }
+.chg-down { color: #ff5759; }
+.chg-flat { color: var(--muted); }
+.chg-top  { color: #c66019; font-weight: 600; }
+.chg-new  { color: var(--accent); font-weight: 600; }
 
 /* ---------- form ---------- */
 select, button {
