@@ -56,13 +56,28 @@ def main():
 
     classified = basemod.classify_today(base_before, today_snap, today)
 
+    # The frontend cares about a single "new to this board" bucket — the
+    # difference between "first ever seen anywhere" and "first time on
+    # THIS board (but seen elsewhere)" is academic for board monitoring.
+    # Merge them; keep the detailed split available in case future
+    # downstream tools want it.
+    for bk, b in classified["boards"].items():
+        merged = (b.get("first_anywhere") or []) + (b.get("first_on_board") or [])
+        # Sort by rank for stable presentation.
+        merged.sort(key=lambda r: (r.get("rank") if r.get("rank") is not None else 9999))
+        b["new_to_board"] = merged
+        b["totals"] = {
+            "new_to_board": len(merged),
+            "returning": b["totals"].get("returning", 0),
+            "new_publishers": b["totals"].get("new_publishers", 0),
+        }
+
     out_path = DIFF / f"{today}.json"
     out_path.write_text(
         json.dumps(classified, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    totals = {"first_anywhere": 0, "first_on_board": 0,
-              "returning": 0, "new_publishers": 0}
+    totals = {"new_to_board": 0, "returning": 0, "new_publishers": 0}
     for bk, b in classified["boards"].items():
         for k in totals:
             totals[k] += b["totals"][k]
