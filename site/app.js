@@ -127,7 +127,7 @@ function renderDiffTables() {
       <td>${escapeHTML(r.category || "")}</td>
       <td>${escapeHTML(r.subcategory || "") || `<span class="slogan">${escapeHTML(r.slogan || "")}</span>`}</td>
       <td>${escapeHTML(r.publisher || "")}</td>
-      <td>${isNewPub ? `<span class="badge new-pub">新厂</span>` : `<span class="muted">老厂</span>`}</td>`;
+      <td>${isNewPub ? `<span class="badge new-pub">新厂</span>` : `<span class="badge studio-old">老厂</span>`}</td>`;
     tbodyG.appendChild(tr);
   }
 }
