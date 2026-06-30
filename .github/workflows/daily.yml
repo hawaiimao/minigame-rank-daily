@@ -1,9 +1,9 @@
 name: Daily Rank Snapshot
 
 on:
-  # 北京时间每日 03:33 = UTC 19:33（前一日）
+  # 北京时间每日 13:33 = UTC 05:33（榜单 10 点更新，留 3.5h 让后端稳定）
   schedule:
-    - cron: "33 19 * * *"
+    - cron: "33 5 * * *"
   # 也允许手动触发
   workflow_dispatch:
     inputs:
