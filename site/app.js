@@ -87,7 +87,17 @@ function renderDiffTables() {
   if (!ab) return;
   const diffBoard = findDiffBoard(state.diff, ab.plat, ab.label);
   $("panel-new-board").textContent =
-    `${platLabelOf(ab.plat)} · ${ab.label}`;
+    ` · ${platLabelOf(ab.plat)} · ${ab.label}`;
+
+  // Header reflects the actual snapshot date — never the wall-clock
+  // "today" — so a visit at 11am (before the day's run) shows the
+  // previous day's label instead of an empty "today".
+  const dateLabel = state.latest?.date_beijing || "—";
+  $("panel-new-title").textContent = `新进产品 · ${dateLabel}`;
+
+  // The baseline is "everything we've ever seen on this board" — there
+  // isn't a single comparison date to point at. Just clarify that.
+  $("panel-new-baseline").textContent = "对照此榜全部历史快照。";
 
   const tbodyG = document.querySelector("#tbl-new tbody");
   tbodyG.innerHTML = "";
