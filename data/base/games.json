@@ -1,0 +1,1843 @@
+{
+  "games": {
+    "赵云与阿斗": {
+      "name": "赵云与阿斗",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "北京蜜獾工坊科技有限公司",
+        "北京蜜獾兄弟科技有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 2,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-06-30",
+          "best_rank": 1,
+          "appearances": 1
+        },
+        "douyin/热门榜": {
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-06-30",
+          "best_rank": 1,
+          "appearances": 1
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-06-30",
+          "best_rank": 1,
+          "appearances": 1
+        }
+      }
+    },
+    "腾讯欢乐斗地主": {
+      "name": "腾讯欢乐斗地主",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "棋牌"
+      ],
+      "publishers": [
+        "深圳市腾讯计算机系统有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 3,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "挪了下车": {
+      "name": "挪了下车",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "广州指望科技有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 4,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 3,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "QQ经典农场": {
+      "name": "QQ经典农场",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "深圳市腾讯计算机系统有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 5,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 20,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "抓大鹅": {
+      "name": "抓大鹅",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "青岛蓝飞互娱科技股份有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 6,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 4,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 2,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "硬核武装": {
+      "name": "硬核武装",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "动作"
+      ],
+      "publishers": [],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 7,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "贪吃蛇大作战": {
+      "name": "贪吃蛇大作战",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "武汉微派网络科技有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 8,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 10,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "开心消消乐": {
+      "name": "开心消消乐",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "乐元素科技(北京)股份有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 9,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "躺平发育": {
+      "name": "躺平发育",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "北京蜜獾工坊娱乐文化有限公司",
+        "北京蜜獾工坊科技有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 10,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 8,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 12,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "猫咪整理师": {
+      "name": "猫咪整理师",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "武汉觅趣科技有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 11,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "玩起来贼溜": {
+      "name": "玩起来贼溜",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 12,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "跳一跳": {
+      "name": "跳一跳",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "深圳市腾讯计算机系统有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 13,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "向往的生活": {
+      "name": "向往的生活",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "深圳市必凡娱乐科技有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 14,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 18,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 7,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "抓金猪游戏": {
+      "name": "抓金猪游戏",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "南京炫羽网络科技有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 15,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "解压小火锅": {
+      "name": "解压小火锅",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 16,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "天天斗地主真人版": {
+      "name": "天天斗地主真人版",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "棋牌"
+      ],
+      "publishers": [
+        "深圳市禅游科技股份有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 17,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "天天象棋": {
+      "name": "天天象棋",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "棋牌"
+      ],
+      "publishers": [
+        "深圳市腾讯天游科技有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 18,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 20,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "一找一个准": {
+      "name": "一找一个准",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "长沙指米网络科技有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 19,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 6,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "欢乐麻将": {
+      "name": "欢乐麻将",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "棋牌"
+      ],
+      "publishers": [
+        "深圳市腾讯计算机系统有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 20,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "城主别慌张": {
+      "name": "城主别慌张",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "角色"
+      ],
+      "publishers": [
+        "广州冠游信息科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 2,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "疯狂水世界": {
+      "name": "疯狂水世界",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "益世界网络科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 3,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 16,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 13,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "占城大师": {
+      "name": "占城大师",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "武汉易百优信息科技有限公司",
+        "武汉多趣信息技术有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 4,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 18,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "永远的蔚蓝星球": {
+      "name": "永远的蔚蓝星球",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "广州颂悦信息技术有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 5,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "灵画师": {
+      "name": "灵画师",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "角色"
+      ],
+      "publishers": [
+        "广州光游网络科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 6,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 4,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "奔奔王国": {
+      "name": "奔奔王国",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "竞技"
+      ],
+      "publishers": [
+        "福州点点松云网络有限公司",
+        "福州点点松禾科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 7,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 20,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "跃动小子": {
+      "name": "跃动小子",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "波克科技集团有限公司",
+        "柏项网络科技（上海）有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 8,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 9,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "三国：冰河时代": {
+      "name": "三国：冰河时代",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "其他"
+      ],
+      "publishers": [
+        "欢游互动（北京）科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 9,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 6,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 3,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "向僵尸开炮": {
+      "name": "向僵尸开炮",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "海南盛昌网络科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 10,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 5,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "我的花园世界": {
+      "name": "我的花园世界",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "厦门麟贝互娱科技有限公司",
+        "海南途趣科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 11,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 2,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "神器传说": {
+      "name": "神器传说",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "深圳全民互动科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 12,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "无尽冬日": {
+      "name": "无尽冬日",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "竞技"
+      ],
+      "publishers": [
+        "点点互动（北京）科技有限公司",
+        "上海青笛科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 13,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 6,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "星皇传奇": {
+      "name": "星皇传奇",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "角色"
+      ],
+      "publishers": [
+        "杭州悦轶网络科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 14,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "掌上谈兵": {
+      "name": "掌上谈兵",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "角色"
+      ],
+      "publishers": [
+        "郑州林凡网络科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 15,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "道友来挖宝": {
+      "name": "道友来挖宝",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "角色"
+      ],
+      "publishers": [
+        "深圳雷霆信息技术有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 16,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "荒无之下": {
+      "name": "荒无之下",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "角色"
+      ],
+      "publishers": [
+        "广州盈心网络科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 17,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "原始征途": {
+      "name": "原始征途",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "角色"
+      ],
+      "publishers": [
+        "巨人网络集团股份有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 19,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "羊了个羊：星球": {
+      "name": "羊了个羊：星球",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "北京简游科技有限公司",
+        "北京简游科技有限公司天津分公司"
+      ],
+      "board_history": {
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 2,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 3,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "wx/人气榜": {
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-06-30",
+          "best_rank": 1,
+          "appearances": 1
+        }
+      }
+    },
+    "沙画消消": {
+      "name": "沙画消消",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "长沙指极星科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 5,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "打个螺丝": {
+      "name": "打个螺丝",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "广州尊悦文化发展有限公司"
+      ],
+      "board_history": {
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 7,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "猪了个猪": {
+      "name": "猪了个猪",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "动作"
+      ],
+      "publishers": [
+        "杭州同趣科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 9,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "搬砖没我快": {
+      "name": "搬砖没我快",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "个人开发者"
+      ],
+      "board_history": {
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 10,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "密室出逃": {
+      "name": "密室出逃",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "广州三狼网络有限公司"
+      ],
+      "board_history": {
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 11,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "捞个菜": {
+      "name": "捞个菜",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "长沙指创网络科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 12,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "俄罗斯方块拼图": {
+      "name": "俄罗斯方块拼图",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "广州京游网络科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 13,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "消个水果": {
+      "name": "消个水果",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "广州尊悦文化发展有限公司"
+      ],
+      "board_history": {
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 14,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "一箭又一箭": {
+      "name": "一箭又一箭",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "海南掌趣网络科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 15,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "砖了个砖": {
+      "name": "砖了个砖",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "北京简游科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 16,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "守了个桥": {
+      "name": "守了个桥",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "深圳市米小游网络科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 17,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "掼蛋": {
+      "name": "掼蛋",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "棋牌"
+      ],
+      "publishers": [
+        "杭州边锋网络技术有限公司"
+      ],
+      "board_history": {
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 18,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "点点消不停": {
+      "name": "点点消不停",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "深圳市多乐王国科技有限公司"
+      ],
+      "board_history": {
+        "wx/畅玩榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 19,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "三国杀": {
+      "name": "三国杀",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "杭州游卡网络技术有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 4,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "时尚百货城": {
+      "name": "时尚百货城",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "深圳市爱的番茄科技有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 5,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 10,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "玩成大师": {
+      "name": "玩成大师",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "重庆苍玄科技有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 7,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "浪漫餐厅": {
+      "name": "浪漫餐厅",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "北京柠檬曲奇科技有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 8,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 8,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "天天台球": {
+      "name": "天天台球",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "北京喜云网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 9,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "梦幻消除战": {
+      "name": "梦幻消除战",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "广州喜势网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 11,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 14,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "球球大作战": {
+      "name": "球球大作战",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "上海巨人统平网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 13,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "佛系消消消": {
+      "name": "佛系消消消",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "厦门行上网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 14,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "象棋达人": {
+      "name": "象棋达人",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "深圳市一锋科技有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 15,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "狙击外星人": {
+      "name": "狙击外星人",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "厦门营火科技有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 17,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "吃大球": {
+      "name": "吃大球",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "棱晶互娱（深圳）科技有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 18,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "多乐升级": {
+      "name": "多乐升级",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "北京蓝色创想网络科技有限责任公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 19,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "你快说句话": {
+      "name": "你快说句话",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "石家庄奇焕猫科技有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 20,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "超能下蛋鸭": {
+      "name": "超能下蛋鸭",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "世熠网络科技（上海）有限公司"
+      ],
+      "board_history": {
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 11,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "四季合合": {
+      "name": "四季合合",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "青岛蓝飞互娱科技股份有限公司"
+      ],
+      "board_history": {
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 12,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "指尖幻影": {
+      "name": "指尖幻影",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "海南异界科技有限公司"
+      ],
+      "board_history": {
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 15,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "传奇之业": {
+      "name": "传奇之业",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "杭州悦昭网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 16,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "次神光之觉醒": {
+      "name": "次神光之觉醒",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "北京雪境科技有限公司"
+      ],
+      "board_history": {
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 17,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "杜拉拉升职记": {
+      "name": "杜拉拉升职记",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "苏州沁游网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/畅销榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 19,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "全能斗士": {
+      "name": "全能斗士",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "宿迁悦青网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 2,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "小兵打天下": {
+      "name": "小兵打天下",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "杭州淞羽网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 3,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "趣味时光": {
+      "name": "趣味时光",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "深圳市锦游互娱有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 4,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "仙女装扮": {
+      "name": "仙女装扮",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "厦门合梦科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 5,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "怨楼": {
+      "name": "怨楼",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "成都探游科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 6,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "原始兄弟": {
+      "name": "原始兄弟",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "广州绿之洲科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 7,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "旅人冒险": {
+      "name": "旅人冒险",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "北京豪腾创想科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 8,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "看透人心": {
+      "name": "看透人心",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "厦门筑姚网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 9,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "守塔防线": {
+      "name": "守塔防线",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "广州游界网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 10,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "硬控联盟": {
+      "name": "硬控联盟",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "广州绿之洲科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 11,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "拼个儿豆": {
+      "name": "拼个儿豆",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "四川洛水传媒有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 12,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "背水一战2": {
+      "name": "背水一战2",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "厦门筑姚网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 13,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "天天欢乐象棋": {
+      "name": "天天欢乐象棋",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "深圳市林子互娱科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 14,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "喵与花集": {
+      "name": "喵与花集",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "湖南虫洞漫游科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 15,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "挪了个马": {
+      "name": "挪了个马",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "成都果月互娱网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 16,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "沉浸清洁高手": {
+      "name": "沉浸清洁高手",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "深圳市指天椒科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 17,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "宝宝喂食模拟": {
+      "name": "宝宝喂食模拟",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "深圳市九歌互娱科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 18,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "这关好抽象": {
+      "name": "这关好抽象",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "广州湾心科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 19,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "无敌作战": {
+      "name": "无敌作战",
+      "first_seen_anywhere": "2026-06-29",
+      "categories": [],
+      "publishers": [
+        "广州绿之洲科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-29",
+          "last_seen": "2026-06-30",
+          "best_rank": 20,
+          "appearances": 2,
+          "_last_day_counted": "2026-06-30"
+        }
+      }
+    },
+    "西游降妖记": {
+      "name": "西游降妖记",
+      "first_seen_anywhere": "2026-06-30",
+      "categories": [
+        "角色"
+      ],
+      "publishers": [
+        "杭州运程网络技术有限公司"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-06-30",
+          "best_rank": 1,
+          "appearances": 1
+        }
+      }
+    },
+    "心跳陷落": {
+      "name": "心跳陷落",
+      "first_seen_anywhere": "2026-06-30",
+      "categories": [],
+      "publishers": [
+        "苏州沁游网络科技有限公司天璇分公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-06-30",
+          "best_rank": 1,
+          "appearances": 1
+        }
+      }
+    }
+  },
+  "updated_at": "2026-06-30T10:33:43Z"
+}

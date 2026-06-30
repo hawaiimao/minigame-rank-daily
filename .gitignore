@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local-only auth (use GitHub Secret in CI)
+rank_auth.json
+_auth_runtime.json
+
+# Local previews
+_pages_preview/
+
+# Per-snapshot xlsx that core writes alongside JSON; we strip them in
+# ci_scrape.py too, but ignore here as a second line of defense.
+data/daily/rank_*.xlsx
+data/daily/rank_*.json

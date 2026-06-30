@@ -1,0 +1,227 @@
+{
+  "date": "2026-06-30",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 1,
+          "name": "羊了个羊：星球",
+          "category": "休闲",
+          "category_rank": 1,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "北京简游科技有限公司",
+          "change": "1"
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "羊了个羊：星球",
+          "category": "休闲",
+          "category_rank": 1,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "北京简游科技有限公司",
+          "change": "1"
+        }
+      ],
+      "totals": {
+        "first_anywhere": 0,
+        "first_on_board": 1,
+        "returning": 0,
+        "new_publishers": 1
+      }
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "西游降妖记",
+          "category": "角色",
+          "category_rank": 1,
+          "subcategory": "ARPG",
+          "slogan": "",
+          "publisher": "杭州运程网络技术有限公司",
+          "change": "霸榜4天"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "西游降妖记",
+          "category": "角色",
+          "category_rank": 1,
+          "subcategory": "ARPG",
+          "slogan": "",
+          "publisher": "杭州运程网络技术有限公司",
+          "change": "霸榜4天"
+        }
+      ],
+      "totals": {
+        "first_anywhere": 1,
+        "first_on_board": 0,
+        "returning": 0,
+        "new_publishers": 1
+      }
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 1,
+          "name": "赵云与阿斗",
+          "category": "休闲",
+          "category_rank": 1,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "change": "霸榜8天"
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "赵云与阿斗",
+          "category": "休闲",
+          "category_rank": 1,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "change": "霸榜8天"
+        }
+      ],
+      "totals": {
+        "first_anywhere": 0,
+        "first_on_board": 1,
+        "returning": 0,
+        "new_publishers": 1
+      }
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 1,
+          "name": "赵云与阿斗",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "不是阿斗扶不起，赵云更有性价比！",
+          "publisher": "北京蜜獾兄弟科技有限公司",
+          "change": "霸榜15天"
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "赵云与阿斗",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "不是阿斗扶不起，赵云更有性价比！",
+          "publisher": "北京蜜獾兄弟科技有限公司",
+          "change": "霸榜15天"
+        }
+      ],
+      "totals": {
+        "first_anywhere": 0,
+        "first_on_board": 1,
+        "returning": 0,
+        "new_publishers": 1
+      }
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 1,
+          "name": "赵云与阿斗",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "不是阿斗扶不起，赵云更有性价比！",
+          "publisher": "北京蜜獾兄弟科技有限公司",
+          "change": "霸榜10天"
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "赵云与阿斗",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "不是阿斗扶不起，赵云更有性价比！",
+          "publisher": "北京蜜獾兄弟科技有限公司",
+          "change": "霸榜10天"
+        }
+      ],
+      "totals": {
+        "first_anywhere": 0,
+        "first_on_board": 1,
+        "returning": 0,
+        "new_publishers": 1
+      }
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "心跳陷落",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "东方志怪故事背景的恋爱卡牌养成游戏",
+          "publisher": "苏州沁游网络科技有限公司天璇分公司",
+          "change": "霸榜2天"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "心跳陷落",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "东方志怪故事背景的恋爱卡牌养成游戏",
+          "publisher": "苏州沁游网络科技有限公司天璇分公司",
+          "change": "霸榜2天"
+        }
+      ],
+      "totals": {
+        "first_anywhere": 1,
+        "first_on_board": 0,
+        "returning": 0,
+        "new_publishers": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+name: Deploy Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - "data/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stage site + data
+        run: |
+          mkdir -p _publish
+          cp -r site/* _publish/
+          mkdir -p _publish/data
+          # Copy only the JSON the dashboard needs (skip jsonl/xlsx).
+          if [ -d data ]; then
+            cp -r data/daily _publish/data/ || true
+            cp -r data/diff _publish/data/ || true
+            cp -r data/base _publish/data/ || true
+            [ -f data/latest.json ] && cp data/latest.json _publish/data/
+            [ -f data/history.jsonl ] && cp data/history.jsonl _publish/data/
+          fi
+          # Generate an index of available daily snapshots.
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          root = Path("_publish/data")
+          daily = sorted([p.stem for p in (root/"daily").glob("*.json")]) if (root/"daily").exists() else []
+          diff = sorted([p.stem for p in (root/"diff").glob("*.json")]) if (root/"diff").exists() else []
+          (root/"index.json").write_text(json.dumps({
+            "daily": daily,
+            "diff": diff,
+          }, ensure_ascii=False, indent=2), encoding="utf-8")
+          PY
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _publish
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

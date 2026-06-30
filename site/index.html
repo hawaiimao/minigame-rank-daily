@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>引力小游戏榜单监控</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+</head>
+<body>
+  <header>
+    <h1>引力小游戏榜单监控</h1>
+    <div class="meta">
+      <span id="meta-date">—</span>
+      <span class="sep">·</span>
+      <span id="meta-source">数据来源：rank.gravity-engine.com</span>
+    </div>
+  </header>
+
+  <nav class="board-tabs" id="board-tabs"></nav>
+
+  <section class="cards">
+    <div class="card">
+      <div class="card-title">全新游戏 <span class="hint" title="任何榜从未出现过">ⓘ</span></div>
+      <div class="card-value" id="kpi-first-anywhere">—</div>
+      <div class="card-sub">first-ever</div>
+    </div>
+    <div class="card">
+      <div class="card-title">首次入此榜 <span class="hint" title="其他榜出现过，此榜首次">ⓘ</span></div>
+      <div class="card-value" id="kpi-first-on-board">—</div>
+      <div class="card-sub">cross-board newcomer</div>
+    </div>
+    <div class="card">
+      <div class="card-title">回归游戏 <span class="hint" title="此榜以前出现过、消失过、又回来">ⓘ</span></div>
+      <div class="card-value" id="kpi-returning">—</div>
+      <div class="card-sub">returning to board</div>
+    </div>
+    <div class="card">
+      <div class="card-title">新进发行商</div>
+      <div class="card-value" id="kpi-new-pubs">—</div>
+      <div class="card-sub">first time on this board</div>
+    </div>
+    <div class="card">
+      <div class="card-title">最新快照</div>
+      <div class="card-value" id="kpi-latest-date">—</div>
+      <div class="card-sub" id="kpi-latest-time">—</div>
+    </div>
+    <div class="card">
+      <div class="card-title">历史天数</div>
+      <div class="card-value" id="kpi-history">—</div>
+      <div class="card-sub">days tracked</div>
+    </div>
+  </section>
+
+  <section class="row">
+    <div class="panel" id="panel-new">
+      <h2>新进榜 <span id="panel-new-board" class="muted"></span></h2>
+      <div class="sub">
+        基于全部历史数据。
+        <span class="legend"><span class="badge first-anywhere">全新</span></span>
+        <span class="legend"><span class="badge first-board">首次入此榜</span></span>
+        <span class="legend"><span class="badge returning">回归</span></span>
+      </div>
+      <table id="tbl-new">
+        <thead>
+          <tr>
+            <th>类型</th><th>排名</th><th>游戏名</th><th>分类</th>
+            <th>子类 / 标语</th><th>发行商</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="panel" id="panel-newpub">
+      <h2>新进发行商</h2>
+      <div class="sub">首次出现在此榜的发行商</div>
+      <table id="tbl-newpub">
+        <thead>
+          <tr><th>发行商</th><th>代表游戏</th><th>排名</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>当前榜单全貌 <span class="muted" id="panel-board-name"></span></h2>
+    <div class="sub">点击表头排序</div>
+    <table id="tbl-full">
+      <thead>
+        <tr>
+          <th>排名</th><th>游戏名</th><th>分类</th>
+          <th>子类</th><th>发行商</th><th>变化</th><th>新</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section class="panel">
+    <h2>历史趋势</h2>
+    <div class="sub">每日各榜单实际抓取到的条数</div>
+    <canvas id="chart-history" height="120"></canvas>
+  </section>
+
+  <section class="panel">
+    <h2>查看任意一天</h2>
+    <div class="sub">从下拉里选一天，查看那天的快照</div>
+    <select id="date-picker"></select>
+    <button id="date-load">载入</button>
+  </section>
+
+  <footer>
+    <p>本站自动每日 03:33 (北京时间) 抓取，由 GitHub Actions + Pages 驱动。</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

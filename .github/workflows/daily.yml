@@ -1,0 +1,57 @@
+name: Daily Rank Snapshot
+
+on:
+  # 北京时间每日 03:33 = UTC 19:33（前一日）
+  schedule:
+    - cron: "33 19 * * *"
+  # 也允许手动触发
+  workflow_dispatch:
+    inputs:
+      top_n:
+        description: "Top N per board (overrides default)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright openpyxl
+          python -m playwright install --with-deps chromium
+
+      - name: Scrape daily snapshot
+        env:
+          GRAVITY_AUTH: ${{ secrets.GRAVITY_AUTH }}
+          GRAVITY_TOP_N: ${{ github.event.inputs.top_n }}
+        run: python scripts/ci_scrape.py
+
+      - name: Compute diff vs previous day
+        run: python scripts/ci_diff.py
+
+      - name: Commit & push data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          DATE=$(date -u -d "+8 hours" +%F)
+          git commit -m "data: $DATE snapshot"
+          git push
