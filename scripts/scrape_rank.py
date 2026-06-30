@@ -210,6 +210,9 @@ def scrape_current_platform(page, platform: str, top_n: int, log=print) -> dict:
             if (icon) {
               const style = icon.getAttribute('style') || '';
               const styleLow = style.toLowerCase();
+              // Numeric-direction convention on the site:
+              //   green icon = rank improved (number went down)   → 'up'
+              //   red icon   = rank worsened (number went up)     → 'down'
               if (styleLow.indexOf('00b38a') >= 0 || styleLow.indexOf('green') >= 0) {
                 out.push('up'); continue;
               }
@@ -219,13 +222,13 @@ def scrape_current_platform(page, platform: str, top_n: int, log=print) -> dict:
               const path = icon.querySelector('path');
               const d = (path && path.getAttribute('d')) || '';
               const dTrim = d.replace(/\\s+/g, ' ').trim();
-              // Up arrow: apex at top  -> path starts with "M512 320"
+              // Visual ▲ (apex at top) = rank number went up = worsened.
               if (dTrim.indexOf('M512 320') === 0 || dTrim.indexOf('M 512 320') === 0) {
-                out.push('up'); continue;
-              }
-              // Down arrow: apex at bottom -> path starts with "m192 384 320 384"
-              if (dTrim.indexOf('m192 384 320 384') === 0 || dTrim.indexOf('M192 384 320 384') === 0) {
                 out.push('down'); continue;
+              }
+              // Visual ▼ (apex at bottom) = rank number went down = improved.
+              if (dTrim.indexOf('m192 384 320 384') === 0 || dTrim.indexOf('M192 384 320 384') === 0) {
+                out.push('up'); continue;
               }
             }
             out.push(text ? 'flat' : 'unknown');
