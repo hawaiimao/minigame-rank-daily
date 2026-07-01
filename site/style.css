@@ -57,39 +57,28 @@ header h1 {
   background-clip: text;
 }
 .meta { color: var(--muted); font-size: 13px; }
-.meta-flex {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-.meta-flex .meta-left {
-  flex: 1 1 auto;
-  min-width: 0;
-}
 .sep { padding: 0 8px; opacity: .6; }
 
-/* Reuse .board-tab visuals for the CTA in the header. */
+/* CTA button living in the tabs row (orange, distinct from the purple tabs). */
 a.board-tab.tab-cta {
   text-decoration: none;
-  background: linear-gradient(135deg, #6c5cff 0%, #8a7bff 100%);
+  background: linear-gradient(135deg, #ff8a3d 0%, #f06292 100%);
   color: #fff;
   border-color: transparent;
-  box-shadow: 0 4px 12px rgba(108,92,255,.35);
+  box-shadow: 0 4px 12px rgba(255,138,61,.35);
   font-weight: 600;
 }
 a.board-tab.tab-cta:hover {
-  background: linear-gradient(135deg, #5c4bff 0%, #7a6bff 100%);
+  background: linear-gradient(135deg, #ff7828 0%, #e35085 100%);
   color: #fff;
   transform: translateY(-1px);
-  box-shadow: 0 6px 16px rgba(108,92,255,.45);
+  box-shadow: 0 6px 16px rgba(255,138,61,.5);
 }
 
 @media (max-width: 720px) {
   header { padding: 20px 16px 8px; }
   header h1 { font-size: 20px; }
   .meta { font-size: 12px; }
-  .meta-flex { gap: 8px; }
   a.board-tab.tab-cta { padding: 6px 14px; }
 }
 
@@ -105,6 +94,14 @@ a.board-tab.tab-cta:hover {
   padding: 0;
   flex: 1 1 auto;
   min-width: 0;
+}
+.tabs-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 .date-picker-inline {
   display: inline-flex;
