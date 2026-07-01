@@ -168,10 +168,10 @@ function changeCell(r) {
     return `<span class="chg chg-new">新</span>`;
   }
   if (dir === "up" || dir === "down") {
-    // Visual convention matches the source site (Chinese stock-market style):
-    //   up   (rank improved) → red   ▲
-    //   down (rank worsened) → green ▼
-    const arrow = dir === "up" ? "▲" : "▼";
+    // Colors already match convention (up=red, down=green); the arrow
+    // glyph the site uses is the *opposite* of the semantic direction,
+    // so we swap it here to match user expectation.
+    const arrow = dir === "up" ? "▼" : "▲";
     const cls = dir === "up" ? "chg-up" : "chg-down";
     const mag = cleaned.match(/\d+/)?.[0] || cleaned;
     return `<span class="chg ${cls}">${arrow} ${escapeHTML(mag)}</span>`;
