@@ -496,12 +496,25 @@ footer a:hover { text-decoration: underline; }
   color: var(--text);
   font-family: inherit;
   font-size: 12.5px;
+  font-weight: 500;
   transition: border-color .15s ease, background .15s ease;
+}
+.note-input::placeholder {
+  color: #c8c8d4;
+  font-weight: 400;
+  font-style: italic;
+  opacity: 0.7;
 }
 .note-input:focus {
   outline: none;
   border-color: var(--accent);
   background: var(--panel);
+}
+/* Cell containing a real (non-empty) note gets a subtle hint. */
+.note-input:not(:placeholder-shown) {
+  background: var(--panel);
+  border-color: var(--accent-soft);
+  color: var(--text);
 }
 .note-input.saving { opacity: 0.6; }
 .note-input.saved { border-color: var(--accent-3); }
