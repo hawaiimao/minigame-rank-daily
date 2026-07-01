@@ -2,7 +2,7 @@
 
 每日抓取 [引力引擎](https://rank.gravity-engine.com/) 的小游戏榜单（微信小游戏 + 抖音小游戏，共 6 个榜的日榜），把数据 commit 进仓库，并通过 GitHub Pages 展示一个仪表盘，重点突出**每日新进游戏 / 新进发行商**。
 
-- 抓取：GitHub Actions 每日北京时间 13:33 触发（榜单 10:00 更新，留 3.5h 让后端稳定）
+- 抓取：GitHub Actions 每日北京时间 10:30 触发（榜单 10:00 更新，留 30 分钟让后端稳定）
 - 存储：每天一份 JSON 进 `data/daily/`，diff 进 `data/diff/`，cumulative base 进 `data/base/`，趋势进 `data/history.jsonl`
 - 展示：纯静态页（`site/`）通过 GitHub Pages 发布
 
@@ -161,12 +161,12 @@ python -m http.server 8000 --directory _pages_preview
 
 ```yaml
 schedule:
-  - cron: "33 5 * * *"   # 北京时间 13:33（默认）
+  - cron: "30 2 * * *"   # 北京时间 10:30（默认）
 ```
 
 cron 是 UTC，加 8 小时是北京时间。常用：
+- 每天早上 10:30 北京 = `30 2 * * *`（默认，榜单 10:00 更新后 30 分钟）
 - 每天早上 9:07 北京 = `7 1 * * *`
-- 每天下午 13:33 北京 = `33 5 * * *`（默认，引力引擎榜 10:00 更新后留 3.5h 缓冲）
 - 每 6 小时 = `0 */6 * * *`
 
 ---

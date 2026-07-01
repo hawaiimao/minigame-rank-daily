@@ -95,6 +95,19 @@ function renderDiffTables() {
   const dateLabel = state.latest?.date_beijing || "—";
   $("panel-new-title").textContent = `新进产品 · ${dateLabel}`;
 
+  // "Next update" hint: the day *after* the snapshot date, at 10:30 BJT.
+  const hint = $("panel-new-hint");
+  if (state.latest?.date_beijing) {
+    const nextDay = new Date(state.latest.date_beijing + "T00:00:00");
+    nextDay.setDate(nextDay.getDate() + 1);
+    const y = nextDay.getFullYear();
+    const m = String(nextDay.getMonth() + 1).padStart(2, "0");
+    const d = String(nextDay.getDate()).padStart(2, "0");
+    hint.textContent = `${y}-${m}-${d} 数据将于当日 10:30 更新`;
+  } else {
+    hint.textContent = "";
+  }
+
   // The baseline is "everything we've ever seen on this board" — there
   // isn't a single comparison date to point at. Just clarify that.
   $("panel-new-baseline").textContent = "对照此榜全部历史快照。";
