@@ -15,10 +15,11 @@ const STATUS_LABEL = {
   rejected:  "已拒",
   closed:    "联系中",
 };
+const NOTE_MAX = 200;
 
 const state = {
   publishers: [],   // [{name, games:[], first_seen, boards:[]}, ...]
-  status: {},       // { name: 'pending'|'contacted'|... }
+  status: {},       // { name: { status, note } }
   filter: "all",
   search: "",
   pending: new Set(), // publisher names with in-flight write
@@ -58,17 +59,34 @@ async function loadStatus() {
   if (!r.ok) throw new Error(`status api ${r.status}`);
   const j = await r.json();
   if (!j.ok) throw new Error(j.error || "status api not ok");
-  state.status = j.data || {};
+  // Backend may return either the old shape { name: "status" } or the
+  // new shape { name: { status, note } }. Normalize to the new shape.
+  const raw = j.data || {};
+  const normalized = {};
+  for (const k of Object.keys(raw)) {
+    const v = raw[k];
+    if (typeof v === "string") {
+      normalized[k] = { status: v, note: "" };
+    } else if (v && typeof v === "object") {
+      normalized[k] = {
+        status: v.status || "pending",
+        note: v.note || "",
+      };
+    }
+  }
+  state.status = normalized;
 }
 
-async function pushStatus(publisher, status) {
+async function pushStatus(publisher, patch) {
+  // patch = { status?, note? } — either or both.
   const url = window.APP_CONFIG?.SHEET_API;
-  // POSTs to Apps Script must have a "simple" content type (avoid
-  // triggering CORS preflight, which Apps Script won't answer).
+  const body = { publisher };
+  if (patch.status !== undefined) body.status = patch.status;
+  if (patch.note !== undefined) body.note = patch.note;
   const r = await fetch(url, {
     method: "POST",
     headers: { "Content-Type": "text/plain;charset=utf-8" },
-    body: JSON.stringify({ publisher, status }),
+    body: JSON.stringify(body),
   });
   if (!r.ok) throw new Error(`sheet write ${r.status}`);
   const j = await r.json();
@@ -84,7 +102,10 @@ function toast(msg, ok = true) {
 }
 
 function statusOf(name) {
-  return state.status[name] || "pending";
+  return state.status[name]?.status || "pending";
+}
+function noteOf(name) {
+  return state.status[name]?.note || "";
 }
 
 function counts() {
@@ -115,12 +136,17 @@ function renderRows() {
     const tr = document.createElement("tr");
     tr.dataset.name = p.name;
     if (st !== "pending") tr.classList.add(`row-${st}`);
+    const games = p.games.slice(0, 2).map(escapeHTML).join("、")
+      + (p.games.length > 2 ? ` <span class="muted">+${p.games.length - 2}</span>` : "");
+    const boards = p.boards.map(b =>
+      `<span class="board-tag">${escapeHTML(shortBoard(b))}</span>`).join("");
+    const note = noteOf(p.name);
     tr.innerHTML = `
       <td class="pub-name">${escapeHTML(p.name)}</td>
-      <td class="pub-games">${escapeHTML(p.games.slice(0, 3).join("、"))}${p.games.length > 3 ? ` <span class="muted">+${p.games.length - 3}</span>` : ""}</td>
-      <td class="pub-boards">${p.boards.map(b => `<span class="board-tag">${escapeHTML(b)}</span>`).join("")}</td>
-      <td class="pub-first">${escapeHTML(p.first_seen)}</td>
-      <td>${statusButtonsHTML(p.name, st)}</td>`;
+      <td class="pub-games" title="${escapeAttr(p.games.join('、'))}">${games}</td>
+      <td class="pub-boards">${boards}</td>
+      <td>${statusButtonsHTML(p.name, st)}</td>
+      <td>${noteFieldHTML(p.name, note)}</td>`;
     tbody.appendChild(tr);
   }
   if (!shown) {
@@ -128,6 +154,22 @@ function renderRows() {
     tr.innerHTML = `<td colspan="5" class="muted" style="text-align:center;padding:24px">无匹配</td>`;
     tbody.appendChild(tr);
   }
+}
+
+function shortBoard(key) {
+  // "wx/人气榜" → "微·人气"; keep the label short so many tags fit.
+  const m = key.match(/^(wx|douyin)\/(.+)$/);
+  if (!m) return key;
+  const plat = m[1] === "wx" ? "微" : "抖";
+  const board = m[2].replace("榜", "");
+  return `${plat}·${board}`;
+}
+
+function noteFieldHTML(name, note) {
+  const shown = escapeAttr(note);
+  return `<input class="note-input" type="text" maxlength="${NOTE_MAX}"
+    placeholder="备注…"
+    data-name="${escapeAttr(name)}" value="${shown}" />`;
 }
 
 function statusButtonsHTML(name, cur) {
@@ -141,33 +183,48 @@ function statusButtonsHTML(name, cur) {
 }
 
 function attachHandlers() {
-  document.querySelector("#tbl-pub").addEventListener("click", async (e) => {
+  const tbl = document.querySelector("#tbl-pub");
+
+  tbl.addEventListener("click", async (e) => {
     const btn = e.target.closest(".st-btn");
     if (!btn) return;
     const name = btn.dataset.name;
     const nextStatus = btn.dataset.status;
-    const prevStatus = statusOf(name);
-    if (nextStatus === prevStatus) return; // no-op
+    const prev = state.status[name] || { status: "pending", note: "" };
+    if (nextStatus === prev.status) return;
 
     // Optimistic update.
-    state.status[name] = nextStatus;
+    state.status[name] = { ...prev, status: nextStatus };
     state.pending.add(name);
     renderRows();
     updateCounts();
 
     try {
-      await pushStatus(name, nextStatus);
+      await pushStatus(name, { status: nextStatus });
       state.pending.delete(name);
       renderRows();
       toast(`已更新：${name} → ${STATUS_LABEL[nextStatus]}`, true);
     } catch (err) {
-      // Rollback.
-      state.status[name] = prevStatus;
+      state.status[name] = prev;
       state.pending.delete(name);
       renderRows();
       updateCounts();
       toast(`同步失败：${err.message}`, false);
     }
+  });
+
+  // Save note on blur or Enter.
+  tbl.addEventListener("focusout", async (e) => {
+    const input = e.target.closest(".note-input");
+    if (!input) return;
+    await commitNote(input);
+  });
+  tbl.addEventListener("keydown", (e) => {
+    if (e.key !== "Enter") return;
+    const input = e.target.closest(".note-input");
+    if (!input) return;
+    e.preventDefault();
+    input.blur();
   });
 
   document.getElementById("pub-search").addEventListener("input", (e) => {
@@ -183,6 +240,27 @@ function attachHandlers() {
     state.filter = b.dataset.filter;
     renderRows();
   });
+}
+
+async function commitNote(input) {
+  const name = input.dataset.name;
+  const nextNote = input.value.slice(0, NOTE_MAX);
+  const prev = state.status[name] || { status: "pending", note: "" };
+  if (nextNote === prev.note) return;
+
+  state.status[name] = { ...prev, note: nextNote };
+  input.classList.add("saving");
+  try {
+    await pushStatus(name, { note: nextNote });
+    input.classList.remove("saving");
+    input.classList.add("saved");
+    setTimeout(() => input.classList.remove("saved"), 900);
+  } catch (err) {
+    state.status[name] = prev;
+    input.classList.remove("saving");
+    input.value = prev.note;
+    toast(`备注保存失败：${err.message}`, false);
+  }
 }
 
 function escapeHTML(s) {

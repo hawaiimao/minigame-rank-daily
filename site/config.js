@@ -5,5 +5,5 @@
 // is scoped to a single Google Sheet you own and can revoke by
 // re-deploying the script.
 window.APP_CONFIG = {
-  SHEET_API: "https://script.google.com/macros/s/AKfycbxyxIqO1bsa0LmgrCw38vN5psgVH7ElTFCJbpAgCY6--8sk6h5Jqnt1YM1qMgt90uae/exec",
+  SHEET_API: "https://script.google.com/macros/s/AKfycbzaZNCgbxXeqoX8S7kjmPYkJltGwuYpAFpQldVztIVi9PMlZfu2Cnzx7ndnA1PN-OFf/exec",
 };

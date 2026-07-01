@@ -8,7 +8,7 @@
 
 1. 打开 https://sheets.google.com/
 2. 新建空白电子表格，命名为 **"minigame-publisher-status"**
-3. 第一行 A1 填 `publisher`，B1 填 `status`，C1 填 `updated_at`
+3. 第一行 A1 填 `publisher`，B1 填 `status`，C1 填 `updated_at`，D1 填 `note`
 4. 记下浏览器地址栏的 URL 里那串 ID（`https://docs.google.com/spreadsheets/d/【这一串】/edit`），后面 Apps Script 会用到 —— 但如果脚本和 Sheet 绑定就不需要，我们下面走绑定的方式。
 
 ---
@@ -24,17 +24,20 @@
 // Deploy this as a Web App (Anyone can access) and copy the URL.
 //
 // Sheet layout (first row = headers):
-//   A: publisher   B: status   C: updated_at
+//   A: publisher   B: status   C: updated_at   D: note
 
 const VALID_STATUSES = new Set(["pending", "contacted", "rejected", "closed"]);
+const NOTE_MAX = 200;
 
 function doGet(e) {
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   const values = sheet.getDataRange().getValues();
   const out = {};
   for (let i = 1; i < values.length; i++) {
-    const [pub, status] = values[i];
-    if (pub) out[pub] = status || "pending";
+    const [pub, status, updated, note] = values[i];
+    if (pub) {
+      out[pub] = { status: status || "pending", note: note || "" };
+    }
   }
   return jsonOk(out);
 }
@@ -47,9 +50,15 @@ function doPost(e) {
     return jsonErr("bad json");
   }
   const publisher = String(body.publisher || "").trim();
-  const status = String(body.status || "").trim();
   if (!publisher) return jsonErr("missing publisher");
-  if (!VALID_STATUSES.has(status)) return jsonErr("bad status");
+
+  // status is optional — allow note-only updates.
+  const status = body.status !== undefined
+    ? String(body.status || "").trim() : null;
+  const note = body.note !== undefined
+    ? String(body.note || "").slice(0, NOTE_MAX) : null;
+  if (status !== null && !VALID_STATUSES.has(status))
+    return jsonErr("bad status");
 
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   const values = sheet.getDataRange().getValues();
@@ -59,12 +68,18 @@ function doPost(e) {
     if (values[i][0] === publisher) { foundRow = i + 1; break; }
   }
   if (foundRow === -1) {
-    sheet.appendRow([publisher, status, now]);
+    sheet.appendRow([publisher, status || "pending", now, note || ""]);
   } else {
-    sheet.getRange(foundRow, 2).setValue(status);
+    if (status !== null) sheet.getRange(foundRow, 2).setValue(status);
     sheet.getRange(foundRow, 3).setValue(now);
+    if (note !== null) sheet.getRange(foundRow, 4).setValue(note);
   }
-  return jsonOk({ ok: true, publisher, status, updated_at: now });
+  return jsonOk({
+    ok: true, publisher,
+    status: status !== null ? status : (values[foundRow-1] && values[foundRow-1][1]) || "pending",
+    note: note !== null ? note : (values[foundRow-1] && values[foundRow-1][3]) || "",
+    updated_at: now,
+  });
 }
 
 function jsonOk(data) {

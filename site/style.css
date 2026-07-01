@@ -456,21 +456,55 @@ footer a:hover { text-decoration: underline; }
   font-size: 13px;
 }
 
-.pub-name { font-weight: 600; }
-.pub-games { color: var(--text-2); }
-.pub-first { font-variant-numeric: tabular-nums; color: var(--muted); }
+.pub-name { font-weight: 600; white-space: nowrap; }
+.pub-games {
+  color: var(--text-2);
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .pub-boards {
-  display: flex; gap: 4px; flex-wrap: wrap;
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+  max-width: 220px;
 }
 .board-tag {
   background: var(--accent-soft);
   color: var(--accent);
-  padding: 2px 8px;
+  padding: 1px 7px;
   border-radius: 999px;
-  font-size: 11px;
+  font-size: 10.5px;
   font-weight: 500;
   white-space: nowrap;
+  line-height: 1.5;
 }
+
+/* Compact rows in the publisher table. */
+#tbl-pub th, #tbl-pub td {
+  padding: 6px 10px;
+}
+
+.note-input {
+  width: 100%;
+  min-width: 160px;
+  padding: 5px 9px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg-2);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 12.5px;
+  transition: border-color .15s ease, background .15s ease;
+}
+.note-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  background: var(--panel);
+}
+.note-input.saving { opacity: 0.6; }
+.note-input.saved { border-color: var(--accent-3); }
 
 .status-buttons {
   display: inline-flex;
