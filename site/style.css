@@ -366,3 +366,154 @@ footer a:hover { text-decoration: underline; }
 @media (max-width: 720px) {
   footer { padding: 20px 16px 32px; font-size: 11px; }
 }
+
+/* ---------- publishers page ---------- */
+.nav-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-link:hover { text-decoration: underline; }
+
+.pub-toolbar {
+  display: flex;
+  gap: 12px;
+  padding: 4px 40px 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pub-toolbar input[type="search"] {
+  flex: 1 1 240px;
+  min-width: 0;
+  max-width: 360px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 13px;
+}
+.pub-filter {
+  display: inline-flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.pub-filter button {
+  background: var(--panel);
+  color: var(--text-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  box-shadow: none;
+}
+.pub-filter button:hover {
+  border-color: var(--accent);
+  transform: none;
+  color: var(--accent);
+}
+.pub-filter button.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: transparent;
+}
+.pub-filter button span {
+  opacity: 0.75;
+  margin-left: 4px;
+  font-variant-numeric: tabular-nums;
+}
+
+.pub-loading {
+  color: var(--muted);
+  padding: 8px 4px 16px;
+  font-size: 13px;
+}
+
+.pub-name { font-weight: 600; }
+.pub-games { color: var(--text-2); }
+.pub-first { font-variant-numeric: tabular-nums; color: var(--muted); }
+.pub-boards {
+  display: flex; gap: 4px; flex-wrap: wrap;
+}
+.board-tag {
+  background: var(--accent-soft);
+  color: var(--accent);
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.status-buttons {
+  display: inline-flex;
+  gap: 4px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  padding: 2px;
+}
+.status-buttons.is-pending { opacity: 0.6; }
+.st-btn {
+  background: transparent;
+  color: var(--text-2);
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  box-shadow: none;
+  transition: background .15s ease, color .15s ease;
+  min-width: 44px;
+}
+.st-btn:hover { background: var(--border); transform: none; }
+.st-btn.active {
+  color: #fff;
+  cursor: default;
+}
+.st-btn.st-pending.active   { background: #8a8aa3; }
+.st-btn.st-contacted.active { background: var(--accent); }
+.st-btn.st-rejected.active  { background: #d94662; }
+.st-btn.st-closed.active    { background: var(--accent-3); }
+
+/* Row-level tint by non-default status. */
+tr.row-contacted .pub-name,
+tr.row-rejected .pub-name,
+tr.row-closed .pub-name {
+  text-decoration: line-through;
+  text-decoration-thickness: 1.5px;
+  color: var(--muted);
+}
+tr.row-contacted { background: rgba(108,92,255,.04); }
+tr.row-rejected  { background: rgba(217,70,98,.04); }
+tr.row-closed    { background: rgba(45,212,164,.06); }
+
+.pub-toast {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  background: #1c1c2e;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-size: 13px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.2);
+  opacity: 0;
+  transform: translateY(8px);
+  pointer-events: none;
+  transition: opacity .2s ease, transform .2s ease;
+  max-width: 320px;
+}
+.pub-toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.pub-toast.err { background: #b23543; }
+
+@media (max-width: 720px) {
+  .pub-toolbar { padding: 4px 12px 12px; }
+  .st-btn { padding: 4px 8px; min-width: 36px; }
+}

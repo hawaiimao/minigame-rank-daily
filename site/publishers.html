@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>厂商跟进 · 小游戏榜单监控</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>厂商跟进</h1>
+    <div class="meta">
+      <a href="./" class="nav-link">← 返回榜单监控</a>
+      <span class="sep">·</span>
+      <span>历史抓到过的所有发行商，点状态即时同步到共享表格</span>
+    </div>
+  </header>
+
+  <div class="pub-toolbar">
+    <input id="pub-search" type="search" placeholder="搜索发行商 / 游戏名" />
+    <div class="pub-filter" id="pub-filter">
+      <button data-filter="all" class="active">全部 <span id="cnt-all">—</span></button>
+      <button data-filter="pending">待联 <span id="cnt-pending">—</span></button>
+      <button data-filter="contacted">已联 <span id="cnt-contacted">—</span></button>
+      <button data-filter="rejected">已拒 <span id="cnt-rejected">—</span></button>
+      <button data-filter="closed">已合 <span id="cnt-closed">—</span></button>
+    </div>
+  </div>
+
+  <section class="panel">
+    <div id="pub-loading" class="pub-loading">正在加载…</div>
+    <div class="table-wrap">
+      <table id="tbl-pub">
+        <thead>
+          <tr>
+            <th style="width: 34%">发行商</th>
+            <th style="width: 22%">代表游戏</th>
+            <th>历史榜单</th>
+            <th>首次出现</th>
+            <th style="min-width: 260px">状态</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <div id="pub-toast" class="pub-toast"></div>
+
+  <footer>
+    <p>
+      跟进状态存于共享 Google Sheet，任何访问本页的人都能看到、修改。
+      <br />
+      划错了？再点一次同一状态或选别的即可。
+    </p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="publishers.js"></script>
+</body>
+</html>
