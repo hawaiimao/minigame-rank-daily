@@ -13,7 +13,7 @@ const STATUS_LABEL = {
   pending:   "待联",
   contacted: "已联",
   rejected:  "已拒",
-  closed:    "已合",
+  closed:    "联系中",
 };
 
 const state = {
