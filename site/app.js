@@ -1,9 +1,8 @@
 /* Dashboard for the gravity-engine ranking tracker.
- * Loads ./data/latest.json + ./data/index.json + ./data/diff/<date>.json
- * Pure vanilla JS, no build step.
+ * Reads from Supabase (see sb.js). Falls back to nothing if Supabase is
+ * unreachable — the JSON files under data/ are still committed by CI as
+ * a durable backup, but the frontend no longer parses them.
  */
-
-const DATA_BASE = "./data";
 
 const PLATFORM_ORDER = [
   ["wx", "微信小游戏"],
@@ -15,27 +14,129 @@ const BOARD_LABELS = {
 };
 
 const state = {
-  latest: null,        // most recent snapshot
-  diff: null,          // diff JSON (newer vs previous)
-  index: null,         // {daily: [...], diff: [...]}
-  history: [],         // parsed history.jsonl lines
-  activeBoard: null,   // {plat, label}
-  sort: { key: "rank", dir: 1 }, // for full-board table
+  currentDate: null,          // YYYY-MM-DD (Beijing)
+  availableDates: [],         // sorted asc
+  boardsByKey: {},            // "wx/人气榜" → [row, ...] (rows for currentDate)
+  diffByKey: {},              // "wx/人气榜" → { new_to_board: [...], returning: [...], new_publishers: [...] }
+  activeBoard: null,          // {plat, label}
+  sort: { key: "rank", dir: 1 },
 };
 
-async function fetchJSON(path) {
-  const res = await fetch(path, { cache: "no-cache" });
-  if (!res.ok) throw new Error(`${path}: ${res.status}`);
-  return res.json();
-}
-
-async function fetchText(path) {
-  const res = await fetch(path, { cache: "no-cache" });
-  if (!res.ok) return "";
-  return res.text();
-}
-
 function $(id) { return document.getElementById(id); }
+
+function platLabelOf(key) {
+  return ({ wx: "微信小游戏", douyin: "抖音小游戏" })[key] || key;
+}
+
+function escapeHTML(s) {
+  return String(s ?? "").replace(/[&<>"']/g, m => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[m]));
+}
+
+function boardKey(plat, label) { return `${plat}/${label}`; }
+
+// ---------- data loading ----------
+
+async function loadAvailableDates() {
+  // Distinct dates in daily_snapshots. PostgREST doesn't have DISTINCT,
+  // but with a small dataset we can just fetch dates ordered desc and
+  // dedup. If snapshot count grows unbounded, swap to an RPC / view.
+  const rows = await window.sb.select("daily_snapshots", {
+    select: "snapshot_date",
+    order: "snapshot_date.desc",
+    limit: 5000,
+  });
+  const seen = new Set();
+  const dates = [];
+  for (const r of rows) {
+    if (!seen.has(r.snapshot_date)) {
+      seen.add(r.snapshot_date);
+      dates.push(r.snapshot_date);
+    }
+  }
+  dates.sort();  // ascending
+  state.availableDates = dates;
+  return dates;
+}
+
+async function loadSnapshotForDate(date) {
+  const rows = await window.sb.select("daily_snapshots", {
+    match: { snapshot_date: date },
+    order: "platform.asc,board.asc,rank.asc",
+    limit: 5000,
+  });
+  const byBoard = {};
+  for (const r of rows) {
+    const key = boardKey(r.platform, r.board);
+    (byBoard[key] ||= []).push({
+      rank: r.rank,
+      name: r.game_name,
+      publisher: r.publisher_name || "",
+      change: r.change_raw || "",
+      change_direction: r.change_direction,
+      category: r.category || "",
+      category_rank: r.category_rank,
+      subcategory: r.subcategory || "",
+      slogan: r.slogan || "",
+    });
+  }
+  state.boardsByKey = byBoard;
+  state.currentDate = date;
+}
+
+async function loadDiffForDate(date) {
+  // 1) Read daily_diffs (categorised game entries).
+  const diffRows = await window.sb.select("daily_diffs", {
+    match: { snapshot_date: date },
+    order: "platform.asc,board.asc,rank.asc",
+    limit: 2000,
+  });
+  const byBoard = {};
+  for (const r of diffRows) {
+    const key = boardKey(r.platform, r.board);
+    const b = (byBoard[key] ||= {
+      new_to_board: [], returning: [], new_publishers: [],
+    });
+    const rec = {
+      rank: r.rank,
+      name: r.game_name,
+      publisher: r.publisher_name || "",
+    };
+    if (r.category === "returning") b.returning.push(rec);
+    else b.new_to_board.push(rec);
+  }
+
+  // 2) Compute "new publishers per board today" without a dedicated
+  // table: a publisher is new-on-board today if publisher_board_history
+  // says its first_seen equals today's date.
+  const pbhRows = await window.sb.select("publisher_board_history", {
+    raw: { first_seen: `eq.${date}` },
+    limit: 2000,
+  });
+  const newPubKeys = new Set();
+  for (const r of pbhRows) newPubKeys.add(`${r.platform}/${r.board}/${r.publisher}`);
+
+  // Attach new_publishers by cross-referencing today's snapshot.
+  for (const [key, rows] of Object.entries(state.boardsByKey)) {
+    const [plat, board] = key.split("/");
+    const seen = new Set();
+    const list = [];
+    for (const r of rows) {
+      if (!r.publisher || seen.has(r.publisher)) continue;
+      if (newPubKeys.has(`${plat}/${board}/${r.publisher}`)) {
+        seen.add(r.publisher);
+        list.push({ rank: r.rank, name: r.name, publisher: r.publisher });
+      }
+    }
+    (byBoard[key] ||= { new_to_board: [], returning: [], new_publishers: [] })
+      .new_publishers = list;
+  }
+
+  state.diffByKey = byBoard;
+}
+
+// ---------- UI: tabs / date picker ----------
 
 function buildBoardTabs() {
   const nav = $("board-tabs");
@@ -64,41 +165,61 @@ function setActiveBoard(plat, label) {
   renderBoardViews();
 }
 
-function findBoard(snapshot, plat, label) {
-  const p = snapshot?.platforms?.[plat];
-  if (!p) return null;
-  return p.boards?.find(b => b.label === label) || null;
+function renderDatePicker() {
+  const sel = $("date-picker");
+  sel.innerHTML = "";
+  const days = state.availableDates.slice().reverse();
+  for (const d of days) {
+    const opt = document.createElement("option");
+    opt.value = d;
+    opt.textContent = d;
+    sel.appendChild(opt);
+  }
+  sel.value = state.currentDate;
+  $("date-load").onclick = async () => {
+    const d = sel.value;
+    if (!d || d === state.currentDate) return;
+    try {
+      $("date-load").disabled = true;
+      await loadSnapshotForDate(d);
+      await loadDiffForDate(d);
+      renderAll();
+    } catch (e) {
+      alert(`加载失败：${e.message}`);
+    } finally {
+      $("date-load").disabled = false;
+    }
+  };
 }
 
-function findDiffBoard(diff, plat, label) {
-  if (!diff) return null;
-  return diff.boards?.[`${plat}/${label}`] || null;
+// ---------- UI: rendering ----------
+
+function findRows(plat, label) {
+  return state.boardsByKey[boardKey(plat, label)] || [];
+}
+function findDiff(plat, label) {
+  return state.diffByKey[boardKey(plat, label)] || null;
 }
 
 function renderKPIs() {
-  if (!state.latest) return;
-  const dateLabel = state.latest.date_beijing || "—";
+  const dateLabel = state.currentDate || "—";
   $("meta-date").textContent = `最新数据：${dateLabel}（北京时间）`;
-  $("meta-days").textContent = state.index?.daily?.length || 0;
+  $("meta-days").textContent = state.availableDates.length;
 }
 
 function renderDiffTables() {
   const ab = state.activeBoard;
   if (!ab) return;
-  const diffBoard = findDiffBoard(state.diff, ab.plat, ab.label);
+  const diff = findDiff(ab.plat, ab.label);
   $("panel-new-board").textContent =
     ` · ${platLabelOf(ab.plat)} · ${ab.label}`;
 
-  // Header reflects the actual snapshot date — never the wall-clock
-  // "today" — so a visit at 11am (before the day's run) shows the
-  // previous day's label instead of an empty "today".
-  const dateLabel = state.latest?.date_beijing || "—";
+  const dateLabel = state.currentDate || "—";
   $("panel-new-title").textContent = `新进产品 · ${dateLabel}`;
 
-  // "Next update" hint: the day *after* the snapshot date, at 10:30 BJT.
   const hint = $("panel-new-hint");
-  if (state.latest?.date_beijing) {
-    const nextDay = new Date(state.latest.date_beijing + "T00:00:00");
+  if (state.currentDate) {
+    const nextDay = new Date(state.currentDate + "T00:00:00");
     nextDay.setDate(nextDay.getDate() + 1);
     const y = nextDay.getFullYear();
     const m = String(nextDay.getMonth() + 1).padStart(2, "0");
@@ -108,41 +229,43 @@ function renderDiffTables() {
     hint.textContent = "";
   }
 
-  // The baseline is "everything we've ever seen on this board" — there
-  // isn't a single comparison date to point at. Just clarify that.
-  $("panel-new-baseline").textContent = "对照此榜全部历史快照。";
+  const baselineEl = $("panel-new-baseline");
+  if (baselineEl) baselineEl.textContent = "对照此榜全部历史快照。";
 
   const tbodyG = document.querySelector("#tbl-new tbody");
   tbodyG.innerHTML = "";
 
-  if (!diffBoard) {
-    $("panel-new-count").textContent = "";
+  if (!diff) {
+    const cnt = $("panel-new-count");
+    if (cnt) cnt.textContent = "";
     tbodyG.innerHTML = `<tr><td colspan="7" class="muted">尚无对比数据（首日运行后才有）</td></tr>`;
     return;
   }
 
-  // Build a set of "new publisher" names for this board so we can flag
-  // which rows are new-studio entries.
-  const newPubSet = new Set(
-    (diffBoard.new_publishers || [])
-      .map(r => r.publisher)
-      .filter(Boolean),
-  );
+  const newPubSet = new Set((diff.new_publishers || []).map(r => r.publisher).filter(Boolean));
 
   const rowsTagged = [
-    ...(diffBoard.new_to_board || []).map(r => ({ ...r, _tag: "新进榜", _cls: "first-board" })),
-    ...(diffBoard.returning || []).map(r => ({ ...r, _tag: "回归", _cls: "returning" })),
+    ...(diff.new_to_board || []).map(r => ({ ...r, _tag: "新进榜", _cls: "first-board" })),
+    ...(diff.returning   || []).map(r => ({ ...r, _tag: "回归",   _cls: "returning" })),
   ].sort((a, b) => (a.rank ?? 999) - (b.rank ?? 999));
 
-  $("panel-new-count").textContent = `（共 ${rowsTagged.length} 个）`;
+  const cnt = $("panel-new-count");
+  if (cnt) cnt.textContent = `（共 ${rowsTagged.length} 个）`;
 
   if (!rowsTagged.length) {
     tbodyG.innerHTML = `<tr><td colspan="7" class="muted">今日此榜无新进 / 回归</td></tr>`;
     return;
   }
+  // Enrich diff rows with category / subcategory / slogan from today's snapshot.
+  const snapMap = new Map(
+    findRows(ab.plat, ab.label).map(r => [r.name, r]),
+  );
   for (const r of rowsTagged) {
-    const tr = document.createElement("tr");
-    const hasPub = !!(r.publisher && r.publisher.trim());
+    const s = snapMap.get(r.name) || {};
+    const category = s.category || "";
+    const subcategory = s.subcategory || "";
+    const slogan = s.slogan || "";
+    const hasPub = !!(r.publisher && String(r.publisher).trim());
     const isNewPub = hasPub && newPubSet.has(r.publisher);
     let studioCell;
     if (!hasPub) {
@@ -152,12 +275,13 @@ function renderDiffTables() {
     } else {
       studioCell = `<span class="badge studio-old">老厂</span>`;
     }
+    const tr = document.createElement("tr");
     tr.innerHTML = `
       <td><span class="badge ${r._cls}">${r._tag}</span></td>
       <td class="rank-num">${r.rank ?? ""}</td>
       <td><strong>${escapeHTML(r.name || "")}</strong></td>
-      <td>${escapeHTML(r.category || "")}</td>
-      <td>${escapeHTML(r.subcategory || "") || `<span class="slogan">${escapeHTML(r.slogan || "")}</span>`}</td>
+      <td>${escapeHTML(category)}</td>
+      <td>${escapeHTML(subcategory) || `<span class="slogan">${escapeHTML(slogan)}</span>`}</td>
       <td>${escapeHTML(r.publisher || "")}</td>
       <td>${studioCell}</td>`;
     tbodyG.appendChild(tr);
@@ -165,25 +289,13 @@ function renderDiffTables() {
 }
 
 function changeCell(r) {
-  // r.change is the raw text like "1", "- 稳定", "霸榜15天".
-  // r.change_direction is one of: up / down / flat / top / new / unknown.
   const dir = r.change_direction;
   const raw = (r.change || "").trim();
-  // Strip a leading "- " often present on flat rows.
   const cleaned = raw.replace(/^-\s*/, "").trim();
-  if (dir === "top") {
-    return `<span class="chg chg-top">${escapeHTML(cleaned || raw)}</span>`;
-  }
-  if (dir === "flat") {
-    return `<span class="chg chg-flat">— 稳定</span>`;
-  }
-  if (dir === "new") {
-    return `<span class="chg chg-new">新</span>`;
-  }
+  if (dir === "top")  return `<span class="chg chg-top">${escapeHTML(cleaned || raw)}</span>`;
+  if (dir === "flat") return `<span class="chg chg-flat">— 稳定</span>`;
+  if (dir === "new")  return `<span class="chg chg-new">新</span>`;
   if (dir === "up" || dir === "down") {
-    // Colors already match convention (up=red, down=green); the arrow
-    // glyph the site uses is the *opposite* of the semantic direction,
-    // so we swap it here to match user expectation.
     const arrow = dir === "up" ? "▼" : "▲";
     const cls = dir === "up" ? "chg-up" : "chg-down";
     const mag = cleaned.match(/\d+/)?.[0] || cleaned;
@@ -195,19 +307,16 @@ function changeCell(r) {
 function renderFullBoard() {
   const ab = state.activeBoard;
   if (!ab) return;
-  const board = findBoard(state.latest, ab.plat, ab.label);
+  const rows = findRows(ab.plat, ab.label);
   $("panel-board-name").textContent =
-    `${platLabelOf(ab.plat)} · ${ab.label} · 共 ${board?.rows?.length || 0} 条`;
+    `${platLabelOf(ab.plat)} · ${ab.label} · 共 ${rows.length} 条`;
   const tbody = document.querySelector("#tbl-full tbody");
   tbody.innerHTML = "";
-  if (!board) return;
-  const diffBoard = findDiffBoard(state.diff, ab.plat, ab.label);
-  const newGameSet = new Set(
-    ((diffBoard?.new_to_board) || []).map(r => r.name),
-  );
+  const diff = findDiff(ab.plat, ab.label);
+  const newGameSet = new Set(((diff?.new_to_board) || []).map(r => r.name));
 
-  const rows = [...board.rows].sort(sortRowsBy(state.sort));
-  for (const r of rows) {
+  const sorted = [...rows].sort(sortRowsBy(state.sort));
+  for (const r of sorted) {
     const tr = document.createElement("tr");
     const isNew = newGameSet.has(r.name);
     tr.innerHTML = `
@@ -247,32 +356,6 @@ function attachSortHandlers() {
   });
 }
 
-function renderDatePicker() {
-  const sel = $("date-picker");
-  sel.innerHTML = "";
-  const days = (state.index?.daily || []).slice().reverse();
-  for (const d of days) {
-    const opt = document.createElement("option");
-    opt.value = d;
-    opt.textContent = d;
-    sel.appendChild(opt);
-  }
-  $("date-load").onclick = async () => {
-    const d = sel.value;
-    if (!d) return;
-    try {
-      state.latest = await fetchJSON(`${DATA_BASE}/daily/${d}.json`);
-      // Try matching diff for that date.
-      try {
-        state.diff = await fetchJSON(`${DATA_BASE}/diff/${d}.json`);
-      } catch (e) { state.diff = null; }
-      renderAll();
-    } catch (e) {
-      alert(`加载失败：${e.message}`);
-    }
-  };
-}
-
 function renderBoardViews() {
   renderDiffTables();
   renderFullBoard();
@@ -283,47 +366,27 @@ function renderAll() {
   renderBoardViews();
 }
 
-function platLabelOf(key) {
-  return ({ wx: "微信小游戏", douyin: "抖音小游戏" })[key] || key;
-}
-
-function escapeHTML(s) {
-  return String(s).replace(/[&<>"']/g, m => ({
-    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
-  }[m]));
-}
-
 async function init() {
   buildBoardTabs();
   attachSortHandlers();
 
   try {
-    state.latest = await fetchJSON(`${DATA_BASE}/latest.json`);
+    const dates = await loadAvailableDates();
+    if (!dates.length) throw new Error("no snapshots yet");
+    const latest = dates[dates.length - 1];
+    await loadSnapshotForDate(latest);
+    await loadDiffForDate(latest);
   } catch (e) {
     document.body.insertAdjacentHTML(
       "afterbegin",
       `<div style="background:#3d1d1d;color:#ff9696;padding:10px 32px">
-        尚无 latest.json — 等首次抓取后再访问，或把 sample 数据放进 data/。
+        数据加载失败：${escapeHTML(e.message)}
       </div>`,
     );
     return;
   }
-  try {
-    state.index = await fetchJSON(`${DATA_BASE}/index.json`);
-  } catch (e) { state.index = { daily: [], diff: [] }; }
-  // Try to load the diff matching latest.
-  if (state.latest.date_beijing) {
-    try {
-      state.diff = await fetchJSON(
-        `${DATA_BASE}/diff/${state.latest.date_beijing}.json`,
-      );
-    } catch (e) { state.diff = null; }
-  }
-  // history.jsonl is no longer rendered (chart removed) but kept on disk
-  // for future use; skip loading.
 
   renderDatePicker();
-  // Default to first board.
   setActiveBoard("wx", "人气榜");
   renderKPIs();
 }

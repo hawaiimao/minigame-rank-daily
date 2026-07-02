@@ -27,65 +27,7 @@ const state = {
 
 const $ = id => document.getElementById(id);
 
-// ---------- Supabase REST helpers ----------
-
-function sbHeaders(extra = {}) {
-  const key = window.APP_CONFIG?.SUPABASE_KEY;
-  return {
-    apikey: key,
-    Authorization: `Bearer ${key}`,
-    "Content-Type": "application/json",
-    ...extra,
-  };
-}
-
-function sbURL(path) {
-  const base = window.APP_CONFIG?.SUPABASE_URL;
-  if (!base) throw new Error("SUPABASE_URL not configured");
-  return `${base.replace(/\/$/, "")}/rest/v1${path}`;
-}
-
-async function fetchJSON(path) {
-  const r = await fetch(path, { cache: "no-cache" });
-  if (!r.ok) throw new Error(`${path} ${r.status}`);
-  return r.json();
-}
-
-async function loadPublishers() {
-  const raw = await fetchJSON("./data/base/publishers.json");
-  const dict = raw.publishers || {};
-  const list = Object.values(dict).map(p => ({
-    name: p.name,
-    games: p.games || [],
-    first_seen: p.first_seen_anywhere || "",
-    boards: Object.keys(p.board_history || {}),
-  }));
-  list.sort((a, b) => {
-    if (a.first_seen !== b.first_seen)
-      return a.first_seen < b.first_seen ? 1 : -1;
-    return a.name.localeCompare(b.name, "zh");
-  });
-  state.publishers = list;
-}
-
-async function loadStatus() {
-  const url = sbURL("/publisher_status?select=publisher,status,note");
-  const r = await fetch(url, {
-    headers: sbHeaders(),
-    cache: "no-cache",
-  });
-  if (!r.ok) throw new Error(`status api ${r.status}`);
-  const rows = await r.json();
-  const out = {};
-  for (const row of rows) {
-    if (!row.publisher) continue;
-    out[row.publisher] = {
-      status: row.status || "pending",
-      note: row.note || "",
-    };
-  }
-  state.status = out;
-}
+// ---------- Supabase writes ----------
 
 async function pushStatus(publisher, patch) {
   // patch = { status?, note? }
@@ -93,20 +35,69 @@ async function pushStatus(publisher, patch) {
   if (patch.status !== undefined) body.status = patch.status;
   if (patch.note !== undefined) body.note = patch.note;
   body.updated_at = new Date().toISOString();
+  await window.sb.upsert("publisher_status", body, "publisher");
+}
 
-  // Upsert via PostgREST: POST + Prefer: resolution=merge-duplicates
-  // means insert-or-update on the primary key (publisher).
-  const r = await fetch(sbURL("/publisher_status?on_conflict=publisher"), {
-    method: "POST",
-    headers: sbHeaders({
-      Prefer: "resolution=merge-duplicates,return=minimal",
+async function loadPublishers() {
+  // Read the merged publisher list + stats + follow-up state directly
+  // from Supabase. board_history comes from a separate table.
+  const [pubs, boardHist, games] = await Promise.all([
+    window.sb.select("publisher_status", {
+      select: "publisher,status,note,first_seen_at,last_seen_at,total_games,total_boards",
+      order: "first_seen_at.desc.nullslast",
+      limit: 5000,
     }),
-    body: JSON.stringify(body),
-  });
-  if (!r.ok) {
-    const detail = await r.text().catch(() => "");
-    throw new Error(`sheet write ${r.status} ${detail.slice(0, 120)}`);
+    window.sb.select("publisher_board_history", {
+      select: "publisher,platform,board",
+      limit: 5000,
+    }),
+    window.sb.select("games", {
+      select: "name,publisher_name",
+      raw: { publisher_name: "not.is.null" },
+      limit: 5000,
+    }),
+  ]);
+
+  // Group boards by publisher.
+  const boardsBy = new Map();
+  for (const r of boardHist) {
+    const key = `${r.platform}/${r.board}`;
+    if (!boardsBy.has(r.publisher)) boardsBy.set(r.publisher, []);
+    boardsBy.get(r.publisher).push(key);
   }
+  // Group games by publisher.
+  const gamesBy = new Map();
+  for (const g of games) {
+    if (!gamesBy.has(g.publisher_name)) gamesBy.set(g.publisher_name, []);
+    gamesBy.get(g.publisher_name).push(g.name);
+  }
+
+  const list = pubs.map(p => ({
+    name: p.publisher,
+    games: gamesBy.get(p.publisher) || [],
+    first_seen: p.first_seen_at || "",
+    boards: boardsBy.get(p.publisher) || [],
+  }));
+  list.sort((a, b) => {
+    if (a.first_seen !== b.first_seen)
+      return a.first_seen < b.first_seen ? 1 : -1;
+    return a.name.localeCompare(b.name, "zh");
+  });
+  state.publishers = list;
+
+  // Also cache status/note so we don't need a separate loadStatus().
+  const statusMap = {};
+  for (const p of pubs) {
+    statusMap[p.publisher] = {
+      status: p.status || "pending",
+      note: p.note || "",
+    };
+  }
+  state.status = statusMap;
+}
+
+async function loadStatus() {
+  // No-op: loadPublishers already fetched status/note in one call.
 }
 
 // ---------- UI ----------

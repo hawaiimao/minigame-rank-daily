@@ -1,14 +1,17 @@
 """
 Sync a daily snapshot into Supabase.
 
-Reads the JSON file that ci_scrape.py just wrote (data/latest.json),
-then upserts:
-  - `games` table: dedup by name, update first_seen / last_seen
-  - `daily_snapshots` table: one row per (date, platform, board, rank)
-  - `publisher_status` table: touch first_seen / last_seen / totals
+Reads the JSON files that ci_scrape.py + ci_diff.py just wrote, then
+upserts:
+  - `games` table:                dedup by name, update first/last seen
+  - `daily_snapshots` table:      one row per (date, platform, board, rank)
+  - `daily_diffs` table:          new_to_board / returning entries
+  - `game_board_history` table:   from data/base/games.json (rebuilt daily)
+  - `publisher_board_history`:    from data/base/publishers.json
+  - `publisher_status` table:     touch first/last_seen + totals only
 
 Runs after ci_scrape and ci_diff. Uses service_role key so it bypasses
-RLS. Both key and URL come from environment variables:
+RLS. Environment variables required:
   SUPABASE_URL           https://<ref>.supabase.co
   SUPABASE_SERVICE_KEY   the service_role JWT
 
@@ -231,6 +234,99 @@ def _post_ignore_duplicates(base_url, service_key, table, rows,
         )
 
 
+def sync_diff_of_the_day(base_url, service_key, snapshot_date):
+    """Read data/diff/<date>.json (if present) and upsert into daily_diffs."""
+    p = ROOT / "data" / "diff" / f"{snapshot_date}.json"
+    if not p.exists():
+        return 0
+    diff = json.loads(p.read_text(encoding="utf-8"))
+    rows = []
+    for bkey, bdata in diff.get("boards", {}).items():
+        plat = bdata.get("platform")
+        board_label = bdata.get("board_label")
+        merged = bdata.get("new_to_board")
+        if merged is None:
+            merged = (bdata.get("first_anywhere") or []) \
+                + (bdata.get("first_on_board") or [])
+        for r in merged:
+            if not r.get("name"):
+                continue
+            rows.append({
+                "snapshot_date": snapshot_date,
+                "platform": plat,
+                "board": board_label,
+                "game_name": r["name"],
+                "category": "new_to_board",
+                "rank": r.get("rank"),
+                "publisher_name": r.get("publisher") or None,
+            })
+        for r in (bdata.get("returning") or []):
+            if not r.get("name"):
+                continue
+            rows.append({
+                "snapshot_date": snapshot_date,
+                "platform": plat,
+                "board": board_label,
+                "game_name": r["name"],
+                "category": "returning",
+                "rank": r.get("rank"),
+                "publisher_name": r.get("publisher") or None,
+            })
+    return upsert_batch(
+        base_url, service_key, "daily_diffs", rows,
+        on_conflict="snapshot_date,platform,board,game_name",
+    )
+
+
+def sync_board_history(base_url, service_key):
+    """Rebuild game_board_history + publisher_board_history from base/*.
+    ci_diff.py already rewrote these files; we mirror them wholesale."""
+    games_p = ROOT / "data" / "base" / "games.json"
+    pubs_p = ROOT / "data" / "base" / "publishers.json"
+    n_gbh = n_pbh = 0
+
+    if games_p.exists():
+        data = json.loads(games_p.read_text(encoding="utf-8"))
+        board_rows = []
+        for name, g in (data.get("games") or {}).items():
+            for bkey, bh in (g.get("board_history") or {}).items():
+                plat, _, board = bkey.partition("/")
+                board_rows.append({
+                    "game_name": name,
+                    "platform": plat,
+                    "board": board,
+                    "first_seen": bh.get("first_seen"),
+                    "last_seen": bh.get("last_seen"),
+                    "best_rank": bh.get("best_rank"),
+                    "appearances": bh.get("appearances", 1),
+                })
+        n_gbh = upsert_batch(
+            base_url, service_key, "game_board_history", board_rows,
+            on_conflict="game_name,platform,board",
+        )
+
+    if pubs_p.exists():
+        data = json.loads(pubs_p.read_text(encoding="utf-8"))
+        board_rows = []
+        for name, pub in (data.get("publishers") or {}).items():
+            for bkey, bh in (pub.get("board_history") or {}).items():
+                plat, _, board = bkey.partition("/")
+                board_rows.append({
+                    "publisher": name,
+                    "platform": plat,
+                    "board": board,
+                    "first_seen": bh.get("first_seen"),
+                    "last_seen": bh.get("last_seen"),
+                    "appearances": bh.get("appearances", 1),
+                })
+        n_pbh = upsert_batch(
+            base_url, service_key, "publisher_board_history", board_rows,
+            on_conflict="publisher,platform,board",
+        )
+
+    return n_gbh, n_pbh
+
+
 def main():
     base_url = env("SUPABASE_URL")
     service_key = env("SUPABASE_SERVICE_KEY")
@@ -254,6 +350,14 @@ def main():
     n = upsert_batch(base_url, service_key, "daily_snapshots", snapshot_rows,
                      on_conflict="snapshot_date,platform,board,rank")
     log(f"[sync] upserted daily_snapshots: {n}")
+
+    date = snapshot.get("date_beijing")
+    n = sync_diff_of_the_day(base_url, service_key, date)
+    log(f"[sync] upserted daily_diffs: {n}")
+
+    n_gbh, n_pbh = sync_board_history(base_url, service_key)
+    log(f"[sync] upserted game_board_history: {n_gbh}")
+    log(f"[sync] upserted publisher_board_history: {n_pbh}")
 
     n = merge_publisher_stats(base_url, service_key, publisher_rows)
     log(f"[sync] merged publisher_status stats: {n}")
