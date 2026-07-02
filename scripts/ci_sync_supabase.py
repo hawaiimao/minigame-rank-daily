@@ -20,6 +20,7 @@ import json
 import os
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -164,41 +165,70 @@ def build_rows(snapshot: dict):
 
 def merge_publisher_stats(base_url, service_key, incoming: list[dict]):
     """publisher_status has status + note that we DO NOT want to overwrite.
-    Merge only the stat / date fields — read the row, keep status/note if
-    present, then upsert."""
+
+    Two-phase to keep it simple and unicode-safe:
+      1. Upsert (INSERT ... ON CONFLICT DO NOTHING) — creates rows for
+         previously-unseen publishers with default status='pending'.
+      2. PATCH each row to update ONLY the stat fields. Because the
+         request body doesn't include `status` or `note`, PostgREST
+         won't touch them.
+
+    We could batch step 2, but a few hundred requests take <10s total
+    and the code stays trivial.
+    """
     if not incoming:
         return 0
 
-    # Fetch existing rows for these publishers to preserve status/note.
-    names = [p["publisher"] for p in incoming]
-    # PostgREST `in.(a,b,c)` filter — quote each value defensively.
-    encoded = ",".join('"' + n.replace('"', '""') + '"' for n in names[:200])
-    existing = []
-    if encoded:
-        existing = sb_request(
-            base_url, service_key,
-            f"/publisher_status?publisher=in.({encoded})&select=publisher,status,note,first_seen_at",
-            method="GET",
-        ) or []
+    # Step 1: seed rows for new publishers (do-nothing on conflict).
+    seed = [
+        {
+            "publisher": r["publisher"],
+            "status": "pending",
+            "note": "",
+            "first_seen_at": r["first_seen_at"],
+            "last_seen_at": r["last_seen_at"],
+            "total_games": r["total_games"],
+            "total_boards": r["total_boards"],
+        }
+        for r in incoming
+    ]
+    _post_ignore_duplicates(base_url, service_key, "publisher_status", seed)
 
-    ex_map = {row["publisher"]: row for row in existing}
-    merged = []
-    for row in incoming:
-        old = ex_map.get(row["publisher"], {})
-        merged.append({
-            "publisher": row["publisher"],
-            "status": old.get("status") or "pending",
-            "note": old.get("note") or "",
-            # Never let today move first_seen_at forward.
-            "first_seen_at": old.get("first_seen_at") or row["first_seen_at"],
-            "last_seen_at": row["last_seen_at"],
-            "total_games": row["total_games"],
-            "total_boards": row["total_boards"],
-        })
-    return upsert_batch(
-        base_url, service_key, "publisher_status", merged,
-        on_conflict="publisher",
-    )
+    # Step 2: PATCH stats-only for every publisher. Body excludes
+    # status/note so those fields are preserved.
+    n = 0
+    for r in incoming:
+        patch_body = {
+            "last_seen_at": r["last_seen_at"],
+            "total_games": r["total_games"],
+            "total_boards": r["total_boards"],
+        }
+        # We DO NOT update first_seen_at here — the seed sets it once and
+        # then it should never move forward.
+        pub_encoded = urllib.parse.quote(r["publisher"], safe="")
+        sb_request(
+            base_url, service_key,
+            f"/publisher_status?publisher=eq.{pub_encoded}",
+            method="PATCH",
+            body=patch_body,
+            prefer="return=minimal",
+        )
+        n += 1
+    return n
+
+
+def _post_ignore_duplicates(base_url, service_key, table, rows,
+                            batch_size=500):
+    """Insert rows but silently skip primary-key conflicts."""
+    for i in range(0, len(rows), batch_size):
+        chunk = rows[i:i + batch_size]
+        sb_request(
+            base_url, service_key,
+            f"/{table}",
+            method="POST",
+            body=chunk,
+            prefer="resolution=ignore-duplicates,return=minimal",
+        )
 
 
 def main():
