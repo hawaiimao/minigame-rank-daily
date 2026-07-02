@@ -39,9 +39,10 @@ async function pushStatus(publisher, patch) {
 }
 
 async function loadPublishers() {
-  // Read the merged publisher list + stats + follow-up state directly
-  // from Supabase. board_history comes from a separate table.
-  const [pubs, boardHist, games] = await Promise.all([
+  // Two queries in parallel:
+  //   1. publisher_status: the master list + follow-up state
+  //   2. publisher_board_history: which boards each publisher has been on
+  const [pubs, boardHist] = await Promise.all([
     window.sb.select("publisher_status", {
       select: "publisher,status,note,first_seen_at,last_seen_at,total_games,total_boards",
       order: "first_seen_at.desc.nullslast",
@@ -51,30 +52,60 @@ async function loadPublishers() {
       select: "publisher,platform,board",
       limit: 5000,
     }),
-    window.sb.select("games", {
-      select: "name,publisher_name",
-      raw: { publisher_name: "not.is.null" },
-      limit: 5000,
-    }),
   ]);
 
-  // Group boards by publisher.
+  // For "which games did this publisher bring on the day it first
+  // appeared" — exactly the set we want to show — hit daily_snapshots
+  // per publisher/date. That's O(N) round-trips but PostgREST is fast
+  // and we can also batch by grouping all publishers that share the
+  // same first_seen_at into a single "in.(...)" query.
+  //
+  // Group publishers by first_seen date so we can query one date at a
+  // time.
+  const dateGroups = new Map();
+  for (const p of pubs) {
+    if (!p.first_seen_at) continue;
+    if (!dateGroups.has(p.first_seen_at)) dateGroups.set(p.first_seen_at, []);
+    dateGroups.get(p.first_seen_at).push(p.publisher);
+  }
+  // Query snapshots for each date.
+  const gamesBy = new Map();  // publisher -> Set(game names on debut day)
+  await Promise.all(Array.from(dateGroups.entries()).map(async ([date, names]) => {
+    // PostgREST `in.(...)` list limit ~2 KB URL-safe; batch conservatively.
+    for (let i = 0; i < names.length; i += 40) {
+      const chunk = names.slice(i, i + 40);
+      const inList = chunk
+        .map(n => `"${n.replace(/"/g, '""')}"`)
+        .join(",");
+      const rows = await window.sb.select("daily_snapshots", {
+        select: "publisher_name,game_name",
+        raw: {
+          snapshot_date: `eq.${date}`,
+          publisher_name: `in.(${inList})`,
+        },
+        limit: 5000,
+      });
+      for (const r of rows) {
+        if (!r.publisher_name || !r.game_name) continue;
+        if (!gamesBy.has(r.publisher_name)) gamesBy.set(r.publisher_name, new Set());
+        gamesBy.get(r.publisher_name).add(r.game_name);
+      }
+    }
+  }));
+
   const boardsBy = new Map();
   for (const r of boardHist) {
     const key = `${r.platform}/${r.board}`;
     if (!boardsBy.has(r.publisher)) boardsBy.set(r.publisher, []);
     boardsBy.get(r.publisher).push(key);
   }
-  // Group games by publisher.
-  const gamesBy = new Map();
-  for (const g of games) {
-    if (!gamesBy.has(g.publisher_name)) gamesBy.set(g.publisher_name, []);
-    gamesBy.get(g.publisher_name).push(g.name);
-  }
 
   const list = pubs.map(p => ({
     name: p.publisher,
-    games: gamesBy.get(p.publisher) || [],
+    // Games this publisher brought on their debut day. If we couldn't
+    // find any (no first_seen_at, or snapshot query failed), fall back
+    // to an empty list.
+    games: Array.from(gamesBy.get(p.publisher) || []),
     first_seen: p.first_seen_at || "",
     boards: boardsBy.get(p.publisher) || [],
   }));
@@ -85,7 +116,6 @@ async function loadPublishers() {
   });
   state.publishers = list;
 
-  // Also cache status/note so we don't need a separate loadStatus().
   const statusMap = {};
   for (const p of pubs) {
     statusMap[p.publisher] = {
