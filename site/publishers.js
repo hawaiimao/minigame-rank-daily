@@ -213,8 +213,10 @@ function renderRows() {
       + (p.games.length > 2 ? ` <span class="muted">+${p.games.length - 2}</span>` : "");
     const boardsShown = p.boards.slice(0, 3);
     const boardsExtra = p.boards.length - boardsShown.length;
-    const boards = boardsShown.map(b =>
-      `<span class="board-tag">${escapeHTML(shortBoard(b))}</span>`).join("")
+    const boards = boardsShown.map(b => {
+      const plat = b.startsWith("wx/") ? "wx" : (b.startsWith("douyin/") ? "douyin" : "unknown");
+      return `<span class="board-tag board-tag-${plat}">${escapeHTML(shortBoard(b))}</span>`;
+    }).join("")
       + (boardsExtra > 0
           ? `<span class="board-tag board-tag-more" title="${escapeAttr(p.boards.map(shortBoard).join('、'))}">+${boardsExtra}</span>`
           : "");

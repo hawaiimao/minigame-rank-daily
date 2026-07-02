@@ -482,8 +482,6 @@ footer a:hover { text-decoration: underline; text-underline-offset: 3px; }
   overflow: hidden;
 }
 .board-tag {
-  background: var(--brand-tint);
-  color: var(--brand-2);
   padding: 1px 8px;
   border-radius: var(--radius-pill);
   border: none;
@@ -498,6 +496,17 @@ footer a:hover { text-decoration: underline; text-underline-offset: 3px; }
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 100px;
+}
+/* WeChat green (bright, mint) */
+.board-tag.board-tag-wx {
+  background: #d1fae5;
+  color: #047857;
+}
+/* Douyin — near-black + subtle magenta tint (matches TikTok visual identity) */
+.board-tag.board-tag-douyin {
+  background: #1e1e2a;
+  color: #ff4d6d;
+  font-weight: 700;
 }
 .board-tag.board-tag-more {
   color: var(--muted);
