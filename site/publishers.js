@@ -222,7 +222,7 @@ function renderRows() {
     tr.innerHTML = `
       <td class="pub-name">${escapeHTML(p.name)}</td>
       <td class="pub-games" title="${escapeAttr(p.games.join('、'))}">${games}</td>
-      <td class="pub-boards">${boards}</td>
+      <td><div class="pub-boards">${boards}</div></td>
       <td>${statusButtonsHTML(p.name, st)}</td>
       <td>${noteFieldHTML(p.name, note)}</td>`;
     tbody.appendChild(tr);

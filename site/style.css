@@ -471,14 +471,15 @@ footer a:hover { text-decoration: underline; text-underline-offset: 3px; }
 }
 .pub-first { font-variant-numeric: tabular-nums; color: var(--muted); }
 
-/* Board tags — muted pills that don't visually break the row */
+/* Board tags — muted pills that don't visually break the row.
+ * .pub-boards is a DIV inside the <td>, not the <td> itself, so we
+ * can use flex freely without breaking table-cell layout. */
 .pub-boards {
-  display: inline-flex;
+  display: flex;
   gap: 4px;
-  flex-wrap: nowrap;      /* keep on a single line, ellipsize with +N */
+  flex-wrap: nowrap;
   align-items: center;
-  max-width: 260px;
-  vertical-align: middle;
+  overflow: hidden;
 }
 .board-tag {
   background: var(--brand-tint);
