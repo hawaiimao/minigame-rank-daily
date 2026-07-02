@@ -9,8 +9,17 @@ const PLATFORM_ORDER = [
   ["douyin", "抖音小游戏"],
 ];
 const BOARD_LABELS = {
-  wx: ["人气榜", "畅销榜", "畅玩榜"],
-  douyin: ["热门榜", "畅销榜", "新游榜"],
+  wx: ["畅销榜", "畅玩榜", "人气榜"],
+  douyin: ["畅销榜", "热门榜", "新游榜"],
+};
+
+// Icon per board name (works across platforms).
+const BOARD_ICON = {
+  "畅销榜": "💰",
+  "畅玩榜": "🎮",
+  "人气榜": "🔥",
+  "热门榜": "⚡",
+  "新游榜": "✨",
 };
 
 const state = {
@@ -143,8 +152,11 @@ function buildBoardTabs() {
   for (const [plat, platLabel] of PLATFORM_ORDER) {
     for (const label of BOARD_LABELS[plat]) {
       const btn = document.createElement("button");
-      btn.className = "board-tab";
-      btn.textContent = `${platLabel} · ${label}`;
+      btn.className = `board-tab board-tab-${plat}`;
+      const icon = BOARD_ICON[label] || "•";
+      const platShort = plat === "wx" ? "微" : "抖";
+      btn.innerHTML = `<span class="tab-icon">${icon}</span>`
+        + `<span class="tab-label">${platShort}·${escapeHTML(label.replace("榜",""))}</span>`;
       btn.dataset.plat = plat;
       btn.dataset.label = label;
       btn.onclick = () => setActiveBoard(plat, label);
@@ -365,7 +377,7 @@ async function init() {
   }
 
   renderDatePicker();
-  setActiveBoard("wx", "人气榜");
+  setActiveBoard("wx", "畅销榜");
   renderKPIs();
 }
 

@@ -102,7 +102,7 @@ nav.board-tabs {
   padding: 4px;
 }
 .board-tab {
-  padding: 8px 18px;
+  padding: 8px 14px;
   border-radius: var(--radius-pill);
   cursor: pointer;
   background: transparent;
@@ -110,15 +110,50 @@ nav.board-tabs {
   color: var(--ink-2);
   font-size: 13px;
   font-weight: 500;
-  transition: background .18s ease, color .18s ease;
+  transition: background .18s ease, color .18s ease, transform .12s ease;
   box-shadow: none;
   font-family: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  line-height: 1.2;
+}
+.board-tab .tab-icon {
+  font-size: 14px;
+  line-height: 1;
+  filter: grayscale(0.15);
 }
 .board-tab:hover {
   background: var(--bg-tint);
   color: var(--ink);
 }
-.board-tab.active {
+
+/* WeChat tabs — mint tint on hover, deep green when active */
+.board-tab.board-tab-wx:hover {
+  background: #e6f9ef;
+  color: #047857;
+}
+.board-tab.board-tab-wx.active {
+  background: #10b981;
+  color: #fff;
+  font-weight: 600;
+}
+.board-tab.board-tab-wx.active .tab-icon { filter: none; }
+
+/* Douyin tabs — pink tint on hover, hot pink when active */
+.board-tab.board-tab-douyin:hover {
+  background: #ffe9f0;
+  color: #be185d;
+}
+.board-tab.board-tab-douyin.active {
+  background: #ec4899;
+  color: #fff;
+  font-weight: 600;
+}
+.board-tab.board-tab-douyin.active .tab-icon { filter: none; }
+
+/* Fallback for tabs without a specific platform class (e.g. CTA) */
+.board-tab.active:not(.board-tab-wx):not(.board-tab-douyin) {
   background: var(--ink);
   color: #fff;
   font-weight: 600;
