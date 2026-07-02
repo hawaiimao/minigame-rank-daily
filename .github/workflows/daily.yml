@@ -14,6 +14,11 @@ on:
         description: "Top N per board (overrides default)"
         required: false
         default: ""
+      force:
+        description: "Overwrite today's snapshot even if already scraped"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -42,6 +47,7 @@ jobs:
         env:
           GRAVITY_AUTH: ${{ secrets.GRAVITY_AUTH }}
           GRAVITY_TOP_N: ${{ github.event.inputs.top_n }}
+          GRAVITY_FORCE: ${{ github.event.inputs.force }}
         run: python scripts/ci_scrape.py
 
       - name: Compute diff vs previous day

@@ -72,6 +72,16 @@ def main():
     day_label = now_bj.strftime("%Y-%m-%d")
     out_path = daily_dir / f"{day_label}.json"
 
+    # First-run-of-the-day wins: if today's snapshot already exists, skip.
+    # The Gravity Engine site occasionally rewrites its own rankings
+    # later in the day (e.g. rank 89 changes at 12:00), so subsequent
+    # scrapes would overwrite the initial "correct" 10:30 data. Force
+    # a re-scrape by deleting today's daily/*.json before running.
+    if out_path.exists() and os.environ.get("GRAVITY_FORCE", "").lower() not in ("1", "true", "yes"):
+        log(f"今日快照 {out_path.name} 已存在，跳过（如需强制覆盖，"
+            f"设置 GRAVITY_FORCE=1）")
+        return
+
     data = core.do_scrape(
         top_n=top_n,
         force_anon=auth is None,
