@@ -19,7 +19,6 @@ const state = {
   boardsByKey: {},            // "wx/人气榜" → [row, ...] (rows for currentDate)
   diffByKey: {},              // "wx/人气榜" → { new_to_board: [...], returning: [...], new_publishers: [...] }
   activeBoard: null,          // {plat, label}
-  sort: { key: "rank", dir: 1 },
 };
 
 function $(id) { return document.getElementById(id); }
@@ -315,7 +314,10 @@ function renderFullBoard() {
   const diff = findDiff(ab.plat, ab.label);
   const newGameSet = new Set(((diff?.new_to_board) || []).map(r => r.name));
 
-  const sorted = [...rows].sort(sortRowsBy(state.sort));
+  // Always render in rank order (ascending). No user-sorting anymore.
+  const sorted = [...rows].sort(
+    (a, b) => (a.rank ?? 9999) - (b.rank ?? 9999),
+  );
   for (const r of sorted) {
     const tr = document.createElement("tr");
     const isNew = newGameSet.has(r.name);
@@ -332,29 +334,6 @@ function renderFullBoard() {
   }
 }
 
-function sortRowsBy({ key, dir }) {
-  return (a, b) => {
-    const va = a[key], vb = b[key];
-    if (va == null && vb == null) return 0;
-    if (va == null) return 1;
-    if (vb == null) return -1;
-    if (typeof va === "number" && typeof vb === "number") return (va - vb) * dir;
-    return String(va).localeCompare(String(vb), "zh") * dir;
-  };
-}
-
-function attachSortHandlers() {
-  const ths = document.querySelectorAll("#tbl-full thead th");
-  const keys = ["rank", "name", "category", "subcategory", "publisher", "change", null];
-  ths.forEach((th, i) => {
-    if (!keys[i]) return;
-    th.onclick = () => {
-      if (state.sort.key === keys[i]) state.sort.dir *= -1;
-      else { state.sort.key = keys[i]; state.sort.dir = 1; }
-      renderFullBoard();
-    };
-  });
-}
 
 function renderBoardViews() {
   renderDiffTables();
@@ -368,7 +347,6 @@ function renderAll() {
 
 async function init() {
   buildBoardTabs();
-  attachSortHandlers();
 
   try {
     const dates = await loadAvailableDates();
