@@ -383,12 +383,39 @@ def do_scrape(top_n: int | None,
             kwargs["storage_state"] = str(auth_file)
         ctx = browser.new_context(**kwargs)
         page = ctx.new_page()
+
+        # Track how many rank/public_list XHRs have fired. The Vue app
+        # renders the initial (stale) DOM immediately from cache, then
+        # fires an XHR per board and re-renders. If we read the DOM
+        # before those XHRs return, we get yesterday's data.
+        rank_xhr_count = {"n": 0}
+
+        def _on_response(resp):
+            url = resp.url
+            if ("rank/public_list" in url or "rank/list" in url) \
+                    and resp.status == 200:
+                rank_xhr_count["n"] += 1
+
+        page.on("response", _on_response)
+
         page.goto(URL, wait_until="domcontentloaded", timeout=60000)
         try:
             page.wait_for_selector(".rank-child-item", timeout=30000)
         except PWTimeout:
             log("[warn] 榜单条目 30s 内未出现")
-        page.wait_for_timeout(3500)
+
+        # Wait for at least 3 rank XHRs (one per WeChat board) to
+        # complete before we trust the DOM. Each response triggers a
+        # re-render; give Vue a beat after each.
+        deadline_ms = 15000
+        elapsed = 0
+        while rank_xhr_count["n"] < 3 and elapsed < deadline_ms:
+            page.wait_for_timeout(500)
+            elapsed += 500
+        log(f"[wx] rank XHRs observed before scrape: {rank_xhr_count['n']}")
+        # Extra settle time for the DOM to reflect the last XHR.
+        page.wait_for_timeout(1500)
+
         kill_overlays(page, log=log)
 
         result["platforms"]["wx"] = scrape_current_platform(
