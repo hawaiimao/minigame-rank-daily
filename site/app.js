@@ -13,15 +13,13 @@ const BOARD_LABELS = {
   douyin: ["畅销榜", "热门榜", "新游榜"],
 };
 
-// Icon per (platform, board) — image files under ./icons/
-// Order matches the tabs left-to-right (wx: 畅销/畅玩/人气, douyin: 畅销/热门/新游).
-const BOARD_ICON_URL = {
-  "wx/畅销榜":     "./icons/tab-1.png",
-  "wx/畅玩榜":     "./icons/tab-2.png",
-  "wx/人气榜":     "./icons/tab-3.png",
-  "douyin/畅销榜": "./icons/tab-4.png",
-  "douyin/热门榜": "./icons/tab-5.png",
-  "douyin/新游榜": "./icons/tab-6.png",
+// Icon per board name (works across platforms).
+const BOARD_ICON = {
+  "畅销榜": "💰",
+  "畅玩榜": "🎮",
+  "人气榜": "🔥",
+  "热门榜": "⚡",
+  "新游榜": "✨",
 };
 
 const state = {
@@ -155,8 +153,10 @@ function buildBoardTabs() {
     for (const label of BOARD_LABELS[plat]) {
       const btn = document.createElement("button");
       btn.className = `board-tab board-tab-${plat}`;
+      const icon = BOARD_ICON[label] || "•";
       const platShort = plat === "wx" ? "微" : "抖";
-      btn.innerHTML = `<span class="tab-label">${platShort}·${escapeHTML(label.replace("榜",""))}</span>`;
+      btn.innerHTML = `<span class="tab-icon">${icon}</span>`
+        + `<span class="tab-label">${platShort}·${escapeHTML(label.replace("榜",""))}</span>`;
       btn.dataset.plat = plat;
       btn.dataset.label = label;
       btn.onclick = () => setActiveBoard(plat, label);

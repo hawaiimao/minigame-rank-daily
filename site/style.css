@@ -1,184 +1,162 @@
-/* Pixel-art style — inspired by sample3 (Pixtera Community Canvas).
- * Chunky black outlines, saturated candy palette, stepped pixel-shadows,
- * pixelated bitmap fonts for headings.
- *
- * Font strategy:
- *   - "Press Start 2P" for headings/labels (very pixel, hard to read at length)
- *   - "VT323"           for body text (still pixel-y, more readable)
- *   - System fallback for CJK — pixel bitmap fonts don't cover Chinese
+/* Fintech-clean style — inspired by sample2.
+ * Nearly-white surface, thin gray borders, black text with a single
+ * emerald accent. No hard shadows, no editorial framing, no
+ * terracotta. Big numbers, tiny type.
  */
 
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap");
-
 :root {
-  /* Sky-and-sunset palette from sample3 */
-  --sky-1: #a8dbf0;
-  --sky-2: #f8b7c8;
-  --grass: #7bc96f;
-  --sun:   #ffb84c;
-  --brick: #d94a2b;
-
+  --bg: #f5f7f5;
+  --bg-tint: #eaf1ec;         /* faint mint tint */
   --panel: #ffffff;
-  --panel-alt: #fff8e7;         /* creamy toolbox surface */
-  --panel-tint: #fef3d8;
+  --panel-alt: #fafcfa;
+  --panel-tint: #f2f7f3;
 
-  --ink: #1c1c28;
-  --ink-2: #3d3d55;
-  --muted: #7c7c92;
+  --ink: #0f172a;             /* near-black */
+  --ink-2: #475569;
+  --muted: #94a3b8;
 
-  --stroke: #1c1c28;            /* the hard black outline everywhere */
-  --stroke-soft: #b8b8c8;
+  --stroke: #e5e7eb;
+  --stroke-strong: #d5d7dc;
+  --stroke-dark: #0f172a;
 
-  --pink:   #ff6db3;
-  --purple: #9a5bff;
-  --blue:   #4d8dff;
-  --emerald:#3ac96b;
-  --amber:  #ffb020;
-  --tomato: #ff5747;
+  --brand: #10b981;           /* emerald */
+  --brand-2: #059669;
+  --brand-soft: rgba(16, 185, 129, 0.12);
+  --brand-tint: #d1fae5;
 
-  --radius: 0px;                /* pixel style: NO rounding anywhere */
-  --radius-tight: 0px;
-  --radius-pill: 0px;
+  --danger: #ef4444;
+  --amber:  #f59e0b;
+  --sky:    #3b82f6;
 
-  /* Stepped shadow — 4px cascade to fake pixel depth */
-  --shadow-1: 4px 4px 0 var(--stroke);
-  --shadow-2: 6px 6px 0 var(--stroke);
-  --shadow-press: 2px 2px 0 var(--stroke);
+  --radius: 20px;
+  --radius-tight: 12px;
+  --radius-pill: 999px;
 }
 
 * { box-sizing: border-box; }
-html, body {
-  margin: 0; padding: 0;
-  image-rendering: pixelated;   /* keeps any raster art crisp */
-}
-
+html, body { margin: 0; padding: 0; }
 body {
   background:
-    /* soft cross-hatched pixel checker */
-    linear-gradient(180deg, var(--sky-1) 0%, var(--sky-1) 55%, var(--sky-2) 100%);
+    radial-gradient(1200px 500px at 100% 0%, var(--bg-tint) 0%, transparent 60%),
+    var(--bg);
   background-attachment: fixed;
   color: var(--ink);
-  font-family: "VT323", ui-monospace, "Courier New", monospace,
-               "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 17px;
-  line-height: 1.4;
+  font-family:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
   min-height: 100vh;
-  -webkit-font-smoothing: none;
-  font-smooth: never;
-  text-rendering: geometricPrecision;
-}
-
-/* Headings use the true pixel-bitmap font when latin, but keep CJK in
- * a system font so Chinese characters don't turn into tofu. */
-h1, h2, .press {
-  font-family: "Press Start 2P", "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0;
 }
 
 /* ---------- header ---------- */
 header {
-  padding: 30px 40px 12px;
+  padding: 32px 40px 12px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
 }
 header h1 {
   margin: 0;
-  font-size: 22px;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
   color: var(--ink);
-  text-shadow:
-    3px 3px 0 var(--sun),
-    5px 5px 0 var(--stroke);
 }
 .meta {
-  color: var(--ink);
-  font-size: 17px;
-  font-family: "VT323", monospace;
+  color: var(--ink-2);
+  font-size: 13px;
 }
 .meta strong {
-  color: var(--tomato);
-  background: #fff;
-  padding: 0 4px;
-  border: 2px solid var(--stroke);
-  box-shadow: 2px 2px 0 var(--stroke);
-  font-weight: 400;
+  color: var(--brand);
+  font-weight: 700;
 }
-.sep { padding: 0 6px; color: var(--ink-2); }
+.sep { padding: 0 8px; color: var(--muted); }
 
 @media (max-width: 720px) {
-  header { padding: 20px 12px 8px; }
-  header h1 { font-size: 16px; text-shadow: 2px 2px 0 var(--sun), 3px 3px 0 var(--stroke); }
-  .meta { font-size: 15px; }
+  header { padding: 22px 16px 8px; }
+  header h1 { font-size: 22px; }
+  .meta { font-size: 12px; }
 }
 
-/* ---------- board tabs ---------- */
+/* ---------- board tabs row ---------- */
 .tabs-row {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 4px 40px 20px;
+  gap: 10px;
+  padding: 4px 40px 16px;
   flex-wrap: wrap;
 }
 .tabs-row nav.board-tabs {
   padding: 0;
   flex: 1 1 auto;
   min-width: 0;
-  gap: 8px;
-  border: none;
-  background: transparent;
 }
 nav.board-tabs {
   display: flex;
+  gap: 4px;
   flex-wrap: wrap;
-  gap: 8px;
+  background: var(--panel);
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius-pill);
+  padding: 4px;
 }
 .board-tab {
   padding: 8px 14px;
-  border: 3px solid var(--stroke);
-  background: #fff;
-  color: var(--ink);
-  font-family: "Press Start 2P", "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 10px;
+  border-radius: var(--radius-pill);
   cursor: pointer;
-  transition: transform .05s ease, box-shadow .05s ease;
-  box-shadow: var(--shadow-1);
+  background: transparent;
+  border: none;
+  color: var(--ink-2);
+  font-size: 13px;
+  font-weight: 500;
+  transition: background .18s ease, color .18s ease, transform .12s ease;
+  box-shadow: none;
+  font-family: inherit;
   display: inline-flex;
   align-items: center;
   gap: 6px;
   line-height: 1.2;
-  border-radius: 0;
+}
+.board-tab .tab-icon {
+  font-size: 14px;
+  line-height: 1;
+  filter: grayscale(0.15);
 }
 .board-tab:hover {
-  transform: translate(-1px, -1px);
-  box-shadow: var(--shadow-2);
-}
-.board-tab:active {
-  transform: translate(2px, 2px);
-  box-shadow: var(--shadow-press);
+  background: var(--bg-tint);
+  color: var(--ink);
 }
 
-.board-tab.board-tab-wx.active,
+/* WeChat tabs — mint tint on hover, deep green when active */
 .board-tab.board-tab-wx:hover {
-  background: var(--emerald);
-  color: #fff;
+  background: #e6f9ef;
+  color: #047857;
 }
 .board-tab.board-tab-wx.active {
-  transform: translate(2px, 2px);
-  box-shadow: var(--shadow-press);
-}
-.board-tab.board-tab-douyin.active,
-.board-tab.board-tab-douyin:hover {
-  background: var(--pink);
+  background: #10b981;
   color: #fff;
+  font-weight: 600;
+}
+.board-tab.board-tab-wx.active .tab-icon { filter: none; }
+
+/* Douyin tabs — pink tint on hover, hot pink when active */
+.board-tab.board-tab-douyin:hover {
+  background: #ffe9f0;
+  color: #be185d;
 }
 .board-tab.board-tab-douyin.active {
-  transform: translate(2px, 2px);
-  box-shadow: var(--shadow-press);
-}
-.board-tab.active:not(.board-tab-wx):not(.board-tab-douyin) {
-  background: var(--purple);
+  background: #ec4899;
   color: #fff;
+  font-weight: 600;
+}
+.board-tab.board-tab-douyin.active .tab-icon { filter: none; }
+
+/* Fallback for tabs without a specific platform class (e.g. CTA) */
+.board-tab.active:not(.board-tab-wx):not(.board-tab-douyin) {
+  background: var(--ink);
+  color: #fff;
+  font-weight: 600;
 }
 
 .tabs-right {
@@ -196,105 +174,93 @@ nav.board-tabs {
   flex-shrink: 0;
 }
 .date-picker-inline .dp-label {
-  font-size: 15px;
-  color: var(--ink);
-  font-family: "VT323", monospace;
+  font-size: 12px;
+  color: var(--ink-2);
+  font-weight: 500;
 }
 
-/* CTA button — sunny yellow with hard shadow */
+/* CTA button (新厂商冒泡) — solid emerald pill, sits outside the tab-nav pill */
 a.board-tab.tab-cta {
   text-decoration: none;
-  background: var(--sun);
-  color: var(--ink);
-  font-size: 10px;
+  background: var(--brand);
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: var(--radius-pill);
+  font-weight: 600;
+  transition: background .18s ease, transform .18s ease;
 }
 a.board-tab.tab-cta:hover {
-  background: var(--amber);
+  background: var(--brand-2);
   color: #fff;
+  transform: translateY(-1px);
 }
 
 @media (max-width: 720px) {
   .tabs-row { padding: 4px 12px 12px; gap: 8px; }
-  .board-tab { padding: 6px 10px; font-size: 9px; box-shadow: 3px 3px 0 var(--stroke); }
+  nav.board-tabs { padding: 3px; }
+  .board-tab { padding: 6px 12px; font-size: 12px; }
   .date-picker-inline { width: 100%; justify-content: flex-end; }
   .date-picker-inline select { flex: 1; min-width: 0; }
 }
 
-/* ---------- panels — like retro dialog windows ---------- */
+/* ---------- panels ---------- */
 .row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  gap: 14px;
   padding: 0 40px;
 }
 @media (max-width: 900px) { .row { grid-template-columns: 1fr; } }
 
 .panel {
   background: var(--panel);
-  border: 3px solid var(--stroke);
-  box-shadow: var(--shadow-1);
-  padding: 22px 24px;
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius);
+  padding: 24px 28px;
   margin: 14px 40px;
-  border-radius: 0;
-  position: relative;
-}
-/* Fake title-bar strip on top of each panel — 8-bit window vibe */
-.panel::before {
-  content: "";
-  position: absolute;
-  left: -3px; right: -3px; top: -3px;
-  height: 10px;
-  background:
-    repeating-linear-gradient(90deg, var(--stroke) 0 4px, transparent 4px 8px);
-  border-bottom: 3px solid var(--stroke);
-  pointer-events: none;
+  box-shadow: none;
 }
 .panel h2 {
-  margin: 6px 0 0;
-  font-size: 14px;
-  color: var(--ink);
-  letter-spacing: 0;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 .panel .sub {
   color: var(--ink-2);
-  font-size: 15px;
-  margin: 8px 0 14px;
-  font-family: "VT323", monospace;
+  font-size: 13px;
+  margin: 6px 0 16px;
 }
 .muted { color: var(--muted); font-weight: 400; }
 
-/* Panel #1 (本日新进产品) — mint-tint window */
+/* Panel #1 (本日新进产品) — tint background so it stands apart */
 #panel-new {
-  background: #eafff0;
-}
-#panel-new::before {
   background:
-    repeating-linear-gradient(90deg, var(--emerald) 0 4px, #26a24a 4px 8px);
+    radial-gradient(600px 300px at 100% 0%, var(--brand-soft) 0%, transparent 70%),
+    var(--panel);
+  position: relative;
+  overflow: hidden;
 }
 
-/* Panel #2 (当前榜单全貌) — cream */
+/* Panel #2 (当前榜单全貌) — plain white */
 .panel:has(#tbl-full) {
-  background: var(--panel-alt);
-}
-.panel:has(#tbl-full)::before {
-  background:
-    repeating-linear-gradient(90deg, var(--amber) 0 4px, #d68a00 4px 8px);
+  background: var(--panel);
 }
 
 .next-update {
-  color: var(--tomato);
-  font-size: 14px;
+  color: var(--muted);
+  font-size: 11.5px;
   margin: 4px 0 0;
-  font-family: "VT323", monospace;
+  font-weight: 500;
 }
 
 @media (max-width: 720px) {
   .panel {
-    padding: 16px 14px;
+    padding: 18px;
     margin: 10px 12px;
-    box-shadow: 3px 3px 0 var(--stroke);
+    border-radius: 16px;
   }
-  .panel h2 { font-size: 12px; }
+  .panel h2 { font-size: 18px; }
   .row { padding: 0 12px; gap: 10px; }
 }
 
@@ -307,256 +273,241 @@ a.board-tab.tab-cta:hover {
 table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 16px;
-  font-family: "VT323", monospace;
+  font-size: 13.5px;
 }
 th, td {
   text-align: left;
-  padding: 8px 10px;
-  border-bottom: 2px dashed var(--stroke);
+  padding: 12px 12px;
+  border-bottom: 1px solid var(--stroke);
   vertical-align: middle;
   white-space: nowrap;
 }
 td.wrap, th.wrap { white-space: normal; }
 th {
-  color: var(--ink);
-  font-family: "Press Start 2P", "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 9px;
-  text-transform: uppercase;
-  letter-spacing: 0;
-  padding-top: 12px;
-  padding-bottom: 8px;
-  background: var(--panel-tint);
-  border-bottom: 3px solid var(--stroke);
+  color: var(--muted);
+  font-weight: 500;
   user-select: none;
+  font-size: 11.5px;
+  letter-spacing: 0.03em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: none;
 }
 tbody tr {
-  transition: background .08s ease;
+  transition: background .12s ease;
 }
-tbody tr:hover { background: rgba(255, 184, 76, 0.16); }
+tbody tr:hover { background: var(--panel-tint); }
 tbody tr:last-child td { border-bottom: none; }
 
 .rank-num {
   font-variant-numeric: tabular-nums;
-  color: var(--tomato);
-  font-weight: 700;
-  font-size: 18px;
+  color: var(--muted);
+  font-weight: 600;
 }
 .slogan {
   color: var(--muted);
-  font-size: 15px;
-  font-style: normal;
-  font-family: "VT323", monospace;
-}
-strong {
-  font-weight: 400;
+  font-size: 12px;
+  font-style: italic;
 }
 
 @media (max-width: 720px) {
-  table { font-size: 14px; }
-  th, td { padding: 6px 8px; }
-  th { font-size: 8px; }
-  .rank-num { font-size: 15px; }
+  table { font-size: 12.5px; }
+  th, td { padding: 8px 10px; }
+  th { font-size: 10.5px; }
 }
 
-/* ---------- badges — pixel stickers ---------- */
+/* ---------- badges — pill-shaped, subtle tinted background ---------- */
 .badge-new,
 .badge {
   display: inline-flex;
   align-items: center;
-  padding: 2px 8px;
-  font-size: 12px;
-  font-family: "Press Start 2P", "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-weight: 400;
-  line-height: 1.6;
-  border: 2px solid var(--stroke);
-  color: var(--ink);
-  box-shadow: 2px 2px 0 var(--stroke);
-  border-radius: 0;
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.4;
+  border: none;
 }
-.badge-new { background: var(--sun); }
-.badge.first-anywhere { background: var(--tomato); color: #fff; }
-.badge.first-board    { background: var(--emerald); color: #fff; }
-.badge.returning      { background: var(--blue); color: #fff; }
-.badge.new-pub        { background: var(--sun); color: var(--ink); }
-.badge.studio-old     { background: #fff; color: var(--muted); box-shadow: none; border-color: var(--stroke-soft); }
-.badge.studio-unknown { background: #fff; color: var(--muted); box-shadow: none; border-color: var(--stroke-soft); }
+.badge-new {
+  background: var(--brand-tint);
+  color: var(--brand-2);
+}
+.badge-new::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--brand);
+  margin-right: 6px;
+}
+
+.badge.first-anywhere { background: #fee2e2; color: #b91c1c; }
+.badge.first-board    { background: var(--brand-tint); color: var(--brand-2); }
+.badge.returning      { background: #dbeafe; color: #1d4ed8; }
+.badge.new-pub        { background: #fef3c7; color: #b45309; }
+.badge.studio-old     { background: #f1f5f9; color: var(--muted); font-weight: 500; }
+.badge.studio-unknown { background: #f1f5f9; color: var(--muted); font-weight: 500; font-style: italic; }
+
+.badge.first-board::before,
+.badge-new::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--brand);
+  margin-right: 6px;
+}
 
 .legend {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  margin-right: 12px;
+  margin-right: 10px;
 }
 .hint {
-  color: var(--ink);
+  color: var(--muted);
   cursor: help;
-  font-size: 14px;
+  font-size: 11px;
   margin-left: 4px;
-  background: #fff;
-  border: 2px solid var(--stroke);
-  width: 16px; height: 16px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 1;
 }
 
 /* ---------- change indicator ---------- */
-.chg { font-family: "VT323", monospace; font-size: 16px; }
-.chg-up   { color: var(--tomato); font-weight: 700; }
-.chg-down { color: var(--emerald); font-weight: 700; }
+.chg { font-weight: 600; font-variant-numeric: tabular-nums; }
+.chg-up   { color: var(--danger); }
+.chg-down { color: var(--brand); }
 .chg-flat { color: var(--muted); }
 .chg-top  { color: var(--amber); font-weight: 700; }
-.chg-new  { color: var(--pink); font-weight: 700; }
+.chg-new  { color: var(--brand-2); font-weight: 700; }
 
 /* ---------- form controls ---------- */
 select, button {
-  background: #fff;
+  background: var(--panel);
   color: var(--ink);
-  border: 3px solid var(--stroke);
-  padding: 6px 12px;
-  font-family: "Press Start 2P", "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 10px;
-  font-weight: 400;
-  transition: transform .05s ease, box-shadow .05s ease;
-  box-shadow: var(--shadow-press);
-  border-radius: 0;
-  cursor: pointer;
-}
-select { font-family: "VT323", monospace; font-size: 15px; padding: 5px 10px; }
-button {
-  background: var(--sun);
-  color: var(--ink);
-  box-shadow: var(--shadow-1);
+  border: 1px solid var(--stroke);
+  padding: 8px 14px;
+  border-radius: var(--radius-tight);
+  font-size: 13px;
+  font-family: inherit;
+  font-weight: 500;
+  transition: border-color .15s ease, background .15s ease;
+  box-shadow: none;
 }
 select:hover, button:hover {
-  transform: translate(-1px, -1px);
-  box-shadow: var(--shadow-2);
+  border-color: var(--stroke-strong);
 }
-button:active {
-  transform: translate(2px, 2px);
-  box-shadow: var(--shadow-press);
+button {
+  cursor: pointer;
+  background: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+  font-weight: 600;
+}
+button:hover {
+  background: #1e293b;
+  border-color: #1e293b;
+  color: #fff;
 }
 
 /* ---------- footer ---------- */
 footer {
   text-align: center;
-  color: var(--ink);
-  font-size: 15px;
+  color: var(--ink-2);
+  font-size: 12px;
   padding: 32px 40px 48px;
-  font-family: "VT323", monospace;
 }
 footer a {
-  color: var(--tomato);
+  color: var(--brand-2);
   text-decoration: none;
-  border-bottom: 2px solid var(--tomato);
 }
-footer a:hover { background: var(--sun); }
+footer a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 @media (max-width: 720px) {
-  footer { padding: 20px 12px 32px; font-size: 14px; }
+  footer { padding: 20px 16px 32px; font-size: 11px; }
 }
 
 /* ---------- publishers page ---------- */
 .nav-link {
-  color: var(--tomato);
+  color: var(--brand-2);
   text-decoration: none;
-  font-family: "Press Start 2P", "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 10px;
-  padding: 4px 8px;
-  border: 2px solid var(--stroke);
-  background: var(--sun);
-  box-shadow: 2px 2px 0 var(--stroke);
+  font-weight: 600;
 }
-.nav-link:hover {
-  background: #fff;
-  color: var(--ink);
-}
+.nav-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 .pub-toolbar {
   display: flex;
   gap: 12px;
-  padding: 4px 40px 16px;
+  padding: 4px 40px 12px;
   align-items: center;
   flex-wrap: wrap;
 }
 .pub-toolbar input[type="search"] {
   flex: 1 1 240px;
   min-width: 0;
-  max-width: 320px;
-  padding: 6px 10px;
-  border: 3px solid var(--stroke);
-  background: #fff;
+  max-width: 360px;
+  padding: 9px 14px;
+  border-radius: var(--radius-tight);
+  border: 1px solid var(--stroke);
+  background: var(--panel);
   color: var(--ink);
-  font-family: "VT323", monospace;
-  font-size: 16px;
-  box-shadow: var(--shadow-press);
-  border-radius: 0;
+  font-family: inherit;
+  font-size: 13px;
 }
 .pub-toolbar input[type="search"]:focus {
   outline: none;
-  transform: translate(-1px, -1px);
-  box-shadow: var(--shadow-1);
-  border-color: var(--stroke);
+  border-color: var(--brand);
 }
 .pub-filter {
   display: inline-flex;
-  gap: 6px;
+  gap: 4px;
   flex-wrap: wrap;
-  background: transparent;
-  border: none;
-  padding: 0;
+  background: var(--panel);
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius-pill);
+  padding: 3px;
 }
 .pub-filter button {
-  background: #fff;
-  color: var(--ink);
-  padding: 5px 10px;
-  font-size: 9px;
-  box-shadow: var(--shadow-press);
+  background: transparent;
+  color: var(--ink-2);
+  border: none;
+  padding: 6px 14px;
+  font-size: 12.5px;
+  font-weight: 500;
+  border-radius: var(--radius-pill);
 }
 .pub-filter button:hover {
-  transform: translate(-1px, -1px);
-  box-shadow: var(--shadow-1);
+  background: var(--panel-tint);
+  color: var(--ink);
 }
 .pub-filter button.active {
-  background: var(--purple);
+  background: var(--ink);
   color: #fff;
-  transform: translate(1px, 1px);
-  box-shadow: 1px 1px 0 var(--stroke);
 }
 .pub-filter button span {
+  opacity: 0.75;
   margin-left: 4px;
-  font-family: "VT323", monospace;
-  font-size: 13px;
+  font-variant-numeric: tabular-nums;
 }
 
 .pub-loading {
   color: var(--ink-2);
   padding: 8px 4px 16px;
-  font-family: "VT323", monospace;
-  font-size: 15px;
+  font-size: 13px;
 }
 
-.pub-name {
-  font-weight: 400;
-  white-space: nowrap;
-  font-size: 17px;
-}
+.pub-name { font-weight: 600; white-space: nowrap; }
 .pub-games {
   color: var(--ink-2);
   max-width: 200px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-family: "VT323", monospace;
 }
-.pub-first {
-  font-variant-numeric: tabular-nums;
-  color: var(--muted);
-  font-family: "VT323", monospace;
-}
+.pub-first { font-variant-numeric: tabular-nums; color: var(--muted); }
 
+/* Board tags — muted pills that don't visually break the row.
+ * .pub-boards is a DIV inside the <td>, not the <td> itself, so we
+ * can use flex freely without breaking table-cell layout. */
 .pub-boards {
   display: flex;
   gap: 4px;
@@ -565,143 +516,146 @@ footer a:hover { background: var(--sun); }
   overflow: hidden;
 }
 .board-tag {
-  padding: 1px 6px;
-  border-radius: 0;
-  border: 2px solid var(--stroke);
-  font-size: 8px;
-  font-family: "Press Start 2P", "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-weight: 400;
+  padding: 1px 8px;
+  border-radius: var(--radius-pill);
+  border: none;
+  font-size: 10.5px;
+  font-weight: 600;
   white-space: nowrap;
-  line-height: 14px;
-  height: 20px;
+  line-height: 16px;
+  height: 18px;
   display: inline-flex;
   align-items: center;
   flex-shrink: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 100px;
-  box-shadow: 2px 2px 0 var(--stroke);
 }
+/* WeChat green (bright, mint) */
 .board-tag.board-tag-wx {
-  background: var(--emerald); color: #fff;
+  background: #d1fae5;
+  color: #047857;
 }
+/* Douyin — soft pink to match TikTok's brand hue without shouting */
 .board-tag.board-tag-douyin {
-  background: var(--pink); color: #fff;
+  background: #ffe4ec;
+  color: #be185d;
 }
 .board-tag.board-tag-more {
-  background: #fff; color: var(--muted);
-  border-color: var(--stroke-soft);
-  box-shadow: none;
+  color: var(--muted);
+  background: #f1f5f9;
   cursor: help;
+  max-width: none;
 }
 
+/* If content is dense and tags start dropping, shrink text a hair */
 @media (max-width: 1100px) {
-  .board-tag { font-size: 7px; padding: 1px 4px; max-width: 80px; }
+  .board-tag { font-size: 10px; padding: 1px 6px; max-width: 80px; }
 }
 
 /* Compact rows in the publisher table. */
-#tbl-pub th, #tbl-pub td { padding: 8px 10px; }
+#tbl-pub th, #tbl-pub td { padding: 10px 12px; }
 
-/* Date divider — bright yellow banner */
+/* Date divider between publisher groups */
 tr.date-divider td {
-  padding: 20px 12px 8px;
-  border-bottom: 3px solid var(--stroke);
+  padding: 22px 12px 10px;
+  border-bottom: 1px solid var(--stroke);
   background: transparent;
+  font-family: inherit;
 }
 tr.date-divider .dv-date {
-  font-size: 12px;
-  font-family: "Press Start 2P", "PingFang SC", "Microsoft YaHei", sans-serif;
-  color: var(--ink);
-  padding: 4px 12px;
-  background: var(--sun);
-  border: 3px solid var(--stroke);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--brand-2);
+  padding: 3px 12px;
+  background: var(--brand-tint);
+  border-radius: var(--radius-pill);
   margin-right: 12px;
-  box-shadow: var(--shadow-press);
-  display: inline-block;
 }
 tr.date-divider .dv-count {
-  font-size: 15px;
-  color: var(--ink);
-  font-family: "VT323", monospace;
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 500;
 }
 tr.date-divider:hover { background: transparent; }
 
-/* Row status washes */
-tr.row-contacted  { background: rgba(58, 201, 107, 0.12); }
-tr.row-rejected   { background: rgba(255, 87, 71, 0.10); }
-tr.row-contacting { background: rgba(255, 176, 32, 0.14); }
+/* Per-row status washes — very light so they don't compete */
+tr.row-contacted  { background: rgba(16, 185, 129, 0.05); }
+tr.row-rejected   { background: rgba(239, 68, 68, 0.04); }
+tr.row-contacting { background: rgba(245, 158, 11, 0.05); }
 tr.row-contacted .pub-name,
 tr.row-rejected .pub-name,
 tr.row-contacting .pub-name {
   text-decoration: line-through;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 1px;
   color: var(--muted);
 }
 
-/* Status buttons — segmented pixel switch */
+/* Status buttons — segmented pill */
 .status-buttons {
   display: inline-flex;
-  gap: 0;
-  border: 3px solid var(--stroke);
-  background: #fff;
-  padding: 0;
-  box-shadow: var(--shadow-press);
+  gap: 2px;
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+  background: #f1f5f9;
+  border: 1px solid var(--stroke);
+  padding: 2px;
 }
 .status-buttons.is-pending { opacity: 0.6; }
 .st-btn {
   background: transparent;
-  color: var(--ink);
+  color: var(--ink-2);
   border: none;
-  border-right: 2px solid var(--stroke);
-  border-radius: 0;
-  padding: 4px 8px;
-  font-size: 8px;
-  font-family: "Press Start 2P", "PingFang SC", "Microsoft YaHei", sans-serif;
-  min-width: 40px;
+  border-radius: var(--radius-pill);
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  min-width: 44px;
   box-shadow: none;
-  cursor: pointer;
 }
-.st-btn:last-child { border-right: none; }
 .st-btn:hover {
-  background: var(--panel-tint);
-  transform: none;
-  box-shadow: none;
+  background: rgba(255, 255, 255, 0.8);
+  color: var(--ink);
 }
 .st-btn.active {
   color: #fff;
+  background: var(--ink);
   cursor: default;
+  font-weight: 600;
 }
-.st-btn.st-pending.active    { background: var(--muted); }
-.st-btn.st-contacted.active  { background: var(--emerald); }
-.st-btn.st-rejected.active   { background: var(--tomato); }
-.st-btn.st-contacting.active { background: var(--amber); }
+.st-btn.st-contacted.active  { background: var(--brand); color: #fff; }
+.st-btn.st-rejected.active   { background: var(--danger); color: #fff; }
+.st-btn.st-contacting.active { background: var(--amber); color: #fff; }
 
 .note-input {
   width: 100%;
   min-width: 160px;
-  padding: 5px 10px;
-  border: 3px solid var(--stroke-soft);
-  background: #fff;
+  padding: 6px 12px;
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius-tight);
+  background: var(--panel);
   color: var(--ink);
-  font-family: "VT323", monospace;
-  font-size: 15px;
-  border-radius: 0;
+  font-family: inherit;
+  font-size: 12.5px;
+  font-weight: 500;
+  transition: border-color .15s ease;
 }
 .note-input::placeholder {
   color: var(--muted);
-  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: italic;
   opacity: 0.7;
 }
 .note-input:focus {
   outline: none;
-  border-color: var(--stroke);
+  border-color: var(--brand);
 }
 .note-input:not(:placeholder-shown) {
-  border-color: var(--purple);
-  background: #f6efff;
+  border-color: var(--brand);
+  background: var(--brand-soft);
 }
 .note-input.saving { opacity: 0.6; }
-.note-input.saved { border-color: var(--emerald); background: #eafff0; }
+.note-input.saved { border-color: var(--brand-2); background: var(--brand-tint); }
 
 /* Toast */
 .pub-toast {
@@ -710,26 +664,25 @@ tr.row-contacting .pub-name {
   bottom: 24px;
   background: var(--ink);
   color: #fff;
-  padding: 10px 16px;
-  border: 3px solid var(--stroke);
-  font-size: 10px;
-  font-family: "Press Start 2P", "PingFang SC", "Microsoft YaHei", sans-serif;
-  box-shadow: var(--shadow-1);
+  padding: 12px 18px;
+  border-radius: var(--radius-tight);
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.15);
   opacity: 0;
   transform: translateY(8px);
   pointer-events: none;
-  transition: opacity .15s ease, transform .15s ease;
+  transition: opacity .2s ease, transform .2s ease;
   max-width: 320px;
-  border-radius: 0;
 }
 .pub-toast.show {
   opacity: 1;
   transform: translateY(0);
 }
-.pub-toast.err { background: var(--tomato); color: #fff; }
-.pub-toast.ok { background: var(--emerald); color: #fff; }
+.pub-toast.err { background: var(--danger); }
+.pub-toast.ok { background: var(--brand); }
 
 @media (max-width: 720px) {
   .pub-toolbar { padding: 4px 12px 12px; }
-  .st-btn { padding: 3px 6px; min-width: 34px; font-size: 7px; }
+  .st-btn { padding: 3px 8px; min-width: 36px; }
 }
