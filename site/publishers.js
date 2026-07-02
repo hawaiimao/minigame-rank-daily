@@ -1,19 +1,19 @@
 /* Publishers follow-up page.
  * Reads: data/base/publishers.json (list of every publisher we've ever seen)
- * Reads/writes: Google Apps Script Web App (window.APP_CONFIG.SHEET_API)
- *   - GET  → { ok, data: { "<publisher>": "<status>", ... } }
- *   - POST → { publisher, status } → persists status
+ * Reads/writes: Supabase table `publisher_status` via PostgREST.
+ *   Base URL: <SUPABASE_URL>/rest/v1
+ *   Auth:     apikey header + Authorization: Bearer <anon key>
  *
- * Statuses: pending (default) | contacted | rejected | closed.
+ * Statuses: pending (default) | contacted | rejected | contacting.
  * All UI updates are optimistic — errors surface via a toast and revert.
  */
 
-const STATUS_ORDER = ["pending", "contacted", "rejected", "closed"];
+const STATUS_ORDER = ["pending", "contacted", "rejected", "contacting"];
 const STATUS_LABEL = {
-  pending:   "待联",
-  contacted: "已联",
-  rejected:  "已拒",
-  closed:    "联系中",
+  pending:    "待联",
+  contacted:  "已联",
+  rejected:   "已拒",
+  contacting: "联系中",
 };
 const NOTE_MAX = 200;
 
@@ -22,10 +22,28 @@ const state = {
   status: {},       // { name: { status, note } }
   filter: "all",
   search: "",
-  pending: new Set(), // publisher names with in-flight write
+  pending: new Set(),
 };
 
 const $ = id => document.getElementById(id);
+
+// ---------- Supabase REST helpers ----------
+
+function sbHeaders(extra = {}) {
+  const key = window.APP_CONFIG?.SUPABASE_KEY;
+  return {
+    apikey: key,
+    Authorization: `Bearer ${key}`,
+    "Content-Type": "application/json",
+    ...extra,
+  };
+}
+
+function sbURL(path) {
+  const base = window.APP_CONFIG?.SUPABASE_URL;
+  if (!base) throw new Error("SUPABASE_URL not configured");
+  return `${base.replace(/\/$/, "")}/rest/v1${path}`;
+}
 
 async function fetchJSON(path) {
   const r = await fetch(path, { cache: "no-cache" });
@@ -34,7 +52,6 @@ async function fetchJSON(path) {
 }
 
 async function loadPublishers() {
-  // publishers.json shape: { publishers: { <name>: { name, first_seen_anywhere, games, board_history } } }
   const raw = await fetchJSON("./data/base/publishers.json");
   const dict = raw.publishers || {};
   const list = Object.values(dict).map(p => ({
@@ -43,7 +60,6 @@ async function loadPublishers() {
     first_seen: p.first_seen_anywhere || "",
     boards: Object.keys(p.board_history || {}),
   }));
-  // Sort: newest-seen first, then by name.
   list.sort((a, b) => {
     if (a.first_seen !== b.first_seen)
       return a.first_seen < b.first_seen ? 1 : -1;
@@ -53,45 +69,47 @@ async function loadPublishers() {
 }
 
 async function loadStatus() {
-  const url = window.APP_CONFIG?.SHEET_API;
-  if (!url) throw new Error("SHEET_API not configured");
-  const r = await fetch(url, { cache: "no-cache" });
+  const url = sbURL("/publisher_status?select=publisher,status,note");
+  const r = await fetch(url, {
+    headers: sbHeaders(),
+    cache: "no-cache",
+  });
   if (!r.ok) throw new Error(`status api ${r.status}`);
-  const j = await r.json();
-  if (!j.ok) throw new Error(j.error || "status api not ok");
-  // Backend may return either the old shape { name: "status" } or the
-  // new shape { name: { status, note } }. Normalize to the new shape.
-  const raw = j.data || {};
-  const normalized = {};
-  for (const k of Object.keys(raw)) {
-    const v = raw[k];
-    if (typeof v === "string") {
-      normalized[k] = { status: v, note: "" };
-    } else if (v && typeof v === "object") {
-      normalized[k] = {
-        status: v.status || "pending",
-        note: v.note || "",
-      };
-    }
+  const rows = await r.json();
+  const out = {};
+  for (const row of rows) {
+    if (!row.publisher) continue;
+    out[row.publisher] = {
+      status: row.status || "pending",
+      note: row.note || "",
+    };
   }
-  state.status = normalized;
+  state.status = out;
 }
 
 async function pushStatus(publisher, patch) {
-  // patch = { status?, note? } — either or both.
-  const url = window.APP_CONFIG?.SHEET_API;
+  // patch = { status?, note? }
   const body = { publisher };
   if (patch.status !== undefined) body.status = patch.status;
   if (patch.note !== undefined) body.note = patch.note;
-  const r = await fetch(url, {
+  body.updated_at = new Date().toISOString();
+
+  // Upsert via PostgREST: POST + Prefer: resolution=merge-duplicates
+  // means insert-or-update on the primary key (publisher).
+  const r = await fetch(sbURL("/publisher_status?on_conflict=publisher"), {
     method: "POST",
-    headers: { "Content-Type": "text/plain;charset=utf-8" },
+    headers: sbHeaders({
+      Prefer: "resolution=merge-duplicates,return=minimal",
+    }),
     body: JSON.stringify(body),
   });
-  if (!r.ok) throw new Error(`sheet write ${r.status}`);
-  const j = await r.json();
-  if (!j.ok) throw new Error(j.error || "sheet write not ok");
+  if (!r.ok) {
+    const detail = await r.text().catch(() => "");
+    throw new Error(`sheet write ${r.status} ${detail.slice(0, 120)}`);
+  }
 }
+
+// ---------- UI ----------
 
 function toast(msg, ok = true) {
   const el = $("pub-toast");
@@ -109,15 +127,20 @@ function noteOf(name) {
 }
 
 function counts() {
-  const c = { all: state.publishers.length,
-              pending: 0, contacted: 0, rejected: 0, closed: 0 };
+  const c = {
+    all: state.publishers.length,
+    pending: 0, contacted: 0, rejected: 0, contacting: 0,
+  };
   for (const p of state.publishers) c[statusOf(p.name)]++;
   return c;
 }
 
 function updateCounts() {
   const c = counts();
-  for (const k of Object.keys(c)) $(`cnt-${k}`).textContent = c[k];
+  for (const k of Object.keys(c)) {
+    const el = $(`cnt-${k}`);
+    if (el) el.textContent = c[k];
+  }
 }
 
 function renderRows() {
@@ -157,19 +180,11 @@ function renderRows() {
 }
 
 function shortBoard(key) {
-  // "wx/人气榜" → "微·人气"; keep the label short so many tags fit.
   const m = key.match(/^(wx|douyin)\/(.+)$/);
   if (!m) return key;
   const plat = m[1] === "wx" ? "微" : "抖";
   const board = m[2].replace("榜", "");
   return `${plat}·${board}`;
-}
-
-function noteFieldHTML(name, note) {
-  const shown = escapeAttr(note);
-  return `<input class="note-input" type="text" maxlength="${NOTE_MAX}"
-    placeholder="备注…"
-    data-name="${escapeAttr(name)}" value="${shown}" />`;
 }
 
 function statusButtonsHTML(name, cur) {
@@ -180,6 +195,13 @@ function statusButtonsHTML(name, cur) {
       return `<button class="st-btn st-${s} ${active}" data-name="${escapeAttr(name)}" data-status="${s}">${STATUS_LABEL[s]}</button>`;
     }).join("")
   }</div>`;
+}
+
+function noteFieldHTML(name, note) {
+  const shown = escapeAttr(note);
+  return `<input class="note-input" type="text" maxlength="${NOTE_MAX}"
+    placeholder="备注…"
+    data-name="${escapeAttr(name)}" value="${shown}" />`;
 }
 
 function attachHandlers() {
@@ -193,7 +215,6 @@ function attachHandlers() {
     const prev = state.status[name] || { status: "pending", note: "" };
     if (nextStatus === prev.status) return;
 
-    // Optimistic update.
     state.status[name] = { ...prev, status: nextStatus };
     state.pending.add(name);
     renderRows();
@@ -213,7 +234,6 @@ function attachHandlers() {
     }
   });
 
-  // Save note on blur or Enter.
   tbl.addEventListener("focusout", async (e) => {
     const input = e.target.closest(".note-input");
     if (!input) return;
@@ -282,8 +302,6 @@ async function init() {
     renderRows();
   } catch (err) {
     loading.textContent = `加载失败：${err.message}（点击右侧按钮时会重试同步状态）`;
-    // Even if the sheet failed to load, still render the list so the
-    // page is usable — writes will attempt and either succeed or toast.
     updateCounts();
     renderRows();
   }

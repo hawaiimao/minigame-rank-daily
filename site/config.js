@@ -1,9 +1,10 @@
 // Runtime config for the dashboard.
-// The Google Apps Script Web App URL below is a public endpoint that
-// reads/writes publisher follow-up status. Anyone with the URL can
-// write, so keeping it in a public repo is intentional — the endpoint
-// is scoped to a single Google Sheet you own and can revoke by
-// re-deploying the script.
+//
+// Supabase URL + publishable key (a.k.a. anon key) below are safe to
+// expose in a public repo — they're the same tier of secret as any
+// browser-side key. Row-Level Security policies on the database
+// (defined in Supabase SQL editor) are what actually gate access.
 window.APP_CONFIG = {
-  SHEET_API: "https://script.google.com/macros/s/AKfycbzaZNCgbxXeqoX8S7kjmPYkJltGwuYpAFpQldVztIVi9PMlZfu2Cnzx7ndnA1PN-OFf/exec",
+  SUPABASE_URL: "https://pjwwwxanhtvzkscumedm.supabase.co",
+  SUPABASE_KEY: "sb_publishable_Iv1KM4p6hceRR16rB61x1w_Wy7LMJsj",
 };

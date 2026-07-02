@@ -546,22 +546,22 @@ footer a:hover { text-decoration: underline; }
   color: #fff;
   cursor: default;
 }
-.st-btn.st-pending.active   { background: #8a8aa3; }
-.st-btn.st-contacted.active { background: var(--accent); }
-.st-btn.st-rejected.active  { background: #d94662; }
-.st-btn.st-closed.active    { background: var(--accent-3); }
+.st-btn.st-pending.active    { background: #8a8aa3; }
+.st-btn.st-contacted.active  { background: var(--accent); }
+.st-btn.st-rejected.active   { background: #d94662; }
+.st-btn.st-contacting.active { background: var(--accent-3); }
 
 /* Row-level tint by non-default status. */
 tr.row-contacted .pub-name,
 tr.row-rejected .pub-name,
-tr.row-closed .pub-name {
+tr.row-contacting .pub-name {
   text-decoration: line-through;
   text-decoration-thickness: 1.5px;
   color: var(--muted);
 }
-tr.row-contacted { background: rgba(108,92,255,.04); }
-tr.row-rejected  { background: rgba(217,70,98,.04); }
-tr.row-closed    { background: rgba(45,212,164,.06); }
+tr.row-contacted  { background: rgba(108,92,255,.04); }
+tr.row-rejected   { background: rgba(217,70,98,.04); }
+tr.row-contacting { background: rgba(45,212,164,.06); }
 
 .pub-toast {
   position: fixed;
