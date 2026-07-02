@@ -27,53 +27,9 @@
           "publisher": "",
           "change": "新进榜",
           "change_direction": "flat"
-        },
-        {
-          "rank": 66,
-          "name": "指尖炫舞",
-          "category": "休闲",
-          "category_rank": 50,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "深圳市图灵游戏科技有限公司",
-          "change": "10",
-          "change_direction": "down"
-        },
-        {
-          "rank": 85,
-          "name": "数字连连",
-          "category": "休闲",
-          "category_rank": 64,
-          "subcategory": "答题",
-          "slogan": "",
-          "publisher": "海南连普互娱科技有限公司",
-          "change": "31",
-          "change_direction": "up"
-        },
-        {
-          "rank": 93,
-          "name": "进化吧异兽",
-          "category": "动作",
-          "category_rank": 5,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "福州中恒乐游网络科技有限公司",
-          "change": "2",
-          "change_direction": "down"
         }
       ],
       "first_on_board": [
-        {
-          "rank": 74,
-          "name": "一锅煮不下",
-          "category": "休闲",
-          "category_rank": 57,
-          "subcategory": "模拟经营",
-          "slogan": "",
-          "publisher": "广州京游网络科技有限公司",
-          "change": "18",
-          "change_direction": "down"
-        },
         {
           "rank": 83,
           "name": "纸片大混战",
@@ -108,85 +64,31 @@
           "change_direction": "flat"
         }
       ],
-      "returning": [],
-      "new_publishers": [
+      "returning": [
         {
-          "rank": 7,
-          "name": "硬核武装",
-          "category": "动作",
-          "category_rank": 1,
-          "subcategory": "飞行射击",
+          "rank": 91,
+          "name": "小镇派对",
+          "category": "休闲",
+          "category_rank": 67,
+          "subcategory": "消除",
           "slogan": "",
-          "publisher": "杭州燧光科技有限公司",
-          "change": "- 稳定",
+          "publisher": "上海趣滋滋网络科技有限公司",
+          "change": "新进榜",
           "change_direction": "flat"
         },
         {
-          "rank": 8,
-          "name": "火锅串串消",
+          "rank": 96,
+          "name": "孤岛枪王对决",
           "category": "休闲",
-          "category_rank": 6,
-          "subcategory": "消除",
-          "slogan": "",
-          "publisher": "成都木木互娱科技有限公司",
-          "change": "2",
-          "change_direction": "down"
-        },
-        {
-          "rank": 35,
-          "name": "玩起来贼溜",
-          "category": "休闲",
-          "category_rank": 27,
+          "category_rank": 70,
           "subcategory": "益智",
           "slogan": "",
-          "publisher": "广州联曼信息科技有限公司",
-          "change": "1",
-          "change_direction": "down"
-        },
-        {
-          "rank": 38,
-          "name": "解压小火锅",
-          "category": "休闲",
-          "category_rank": 29,
-          "subcategory": "模拟经营",
-          "slogan": "",
-          "publisher": "广州乐顽科技有限公司",
-          "change": "12",
-          "change_direction": "up"
-        },
-        {
-          "rank": 43,
-          "name": "爆梗找茬王者",
-          "category": "休闲",
-          "category_rank": 34,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "海南麦豆信息科技有限公司",
-          "change": "9",
-          "change_direction": "up"
-        },
-        {
-          "rank": 66,
-          "name": "指尖炫舞",
-          "category": "休闲",
-          "category_rank": 50,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "深圳市图灵游戏科技有限公司",
-          "change": "10",
-          "change_direction": "down"
-        },
-        {
-          "rank": 85,
-          "name": "数字连连",
-          "category": "休闲",
-          "category_rank": 64,
-          "subcategory": "答题",
-          "slogan": "",
-          "publisher": "海南连普互娱科技有限公司",
-          "change": "31",
-          "change_direction": "up"
-        },
+          "publisher": "广州易游互玩科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [
         {
           "rank": 95,
           "name": "小小箭头",
@@ -222,9 +124,9 @@
         }
       ],
       "totals": {
-        "new_to_board": 9,
-        "returning": 0,
-        "new_publishers": 10
+        "new_to_board": 5,
+        "returning": 2,
+        "new_publishers": 3
       },
       "new_to_board": [
         {
@@ -250,28 +152,6 @@
           "change_direction": "flat"
         },
         {
-          "rank": 66,
-          "name": "指尖炫舞",
-          "category": "休闲",
-          "category_rank": 50,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "深圳市图灵游戏科技有限公司",
-          "change": "10",
-          "change_direction": "down"
-        },
-        {
-          "rank": 74,
-          "name": "一锅煮不下",
-          "category": "休闲",
-          "category_rank": 57,
-          "subcategory": "模拟经营",
-          "slogan": "",
-          "publisher": "广州京游网络科技有限公司",
-          "change": "18",
-          "change_direction": "down"
-        },
-        {
           "rank": 83,
           "name": "纸片大混战",
           "category": "休闲",
@@ -281,28 +161,6 @@
           "publisher": "个人开发者",
           "change": "新进榜",
           "change_direction": "flat"
-        },
-        {
-          "rank": 85,
-          "name": "数字连连",
-          "category": "休闲",
-          "category_rank": 64,
-          "subcategory": "答题",
-          "slogan": "",
-          "publisher": "海南连普互娱科技有限公司",
-          "change": "31",
-          "change_direction": "up"
-        },
-        {
-          "rank": 93,
-          "name": "进化吧异兽",
-          "category": "动作",
-          "category_rank": 5,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "福州中恒乐游网络科技有限公司",
-          "change": "2",
-          "change_direction": "down"
         },
         {
           "rank": 95,
@@ -369,28 +227,6 @@
           "change_direction": "flat"
         },
         {
-          "rank": 89,
-          "name": "狱国争霸",
-          "category": "角色",
-          "category_rank": 41,
-          "subcategory": "战争策略",
-          "slogan": "",
-          "publisher": "北京智诚互娱科技有限公司",
-          "change": "7",
-          "change_direction": "down"
-        },
-        {
-          "rank": 91,
-          "name": "楚新钓",
-          "category": "休闲",
-          "category_rank": 40,
-          "subcategory": "模拟经营",
-          "slogan": "",
-          "publisher": "海南易多量科技有限公司",
-          "change": "8",
-          "change_direction": "down"
-        },
-        {
           "rank": 93,
           "name": "勇者乱斗",
           "category": "休闲",
@@ -400,65 +236,33 @@
           "publisher": "",
           "change": "新进榜",
           "change_direction": "flat"
-        },
-        {
-          "rank": 95,
-          "name": "指尖王国",
-          "category": "竞技",
-          "category_rank": 4,
-          "subcategory": "对战",
-          "slogan": "",
-          "publisher": "深圳市掌娱趣科技有限公司",
-          "change": "3",
-          "change_direction": "down"
-        },
-        {
-          "rank": 98,
-          "name": "掼蛋",
-          "category": "棋牌",
-          "category_rank": 5,
-          "subcategory": "牌类棋牌传统棋牌",
-          "slogan": "",
-          "publisher": "杭州边锋网络技术有限公司",
-          "change": "6",
-          "change_direction": "up"
         }
       ],
-      "returning": [],
-      "new_publishers": [
+      "returning": [
         {
-          "rank": 31,
-          "name": "冲突小队",
+          "rank": 84,
+          "name": "防线出击",
           "category": "角色",
-          "category_rank": 13,
-          "subcategory": "回合",
-          "slogan": "",
-          "publisher": "上饶市如玩信息技术有限公司",
-          "change": "1",
-          "change_direction": "up"
-        },
-        {
-          "rank": 45,
-          "name": "大王请留步",
-          "category": "休闲",
-          "category_rank": 21,
+          "category_rank": 39,
           "subcategory": "塔防",
           "slogan": "",
-          "publisher": "海南娱创科技有限公司",
-          "change": "2",
-          "change_direction": "up"
+          "publisher": "深圳市梦跃互娱网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
         },
         {
-          "rank": 51,
-          "name": "冰雪剑客",
+          "rank": 88,
+          "name": "主宰世界",
           "category": "角色",
-          "category_rank": 24,
-          "subcategory": "ARPG",
+          "category_rank": 40,
+          "subcategory": "战争策略",
           "slogan": "",
-          "publisher": "绍兴玩味科技有限公司",
-          "change": "14",
-          "change_direction": "up"
-        },
+          "publisher": "广州四三九九信息科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [
         {
           "rank": 61,
           "name": "种田掌门人",
@@ -469,50 +273,6 @@
           "publisher": "广州金乌网络科技有限公司",
           "change": "新进榜",
           "change_direction": "flat"
-        },
-        {
-          "rank": 71,
-          "name": "潮灵王国起源",
-          "category": "休闲",
-          "category_rank": 28,
-          "subcategory": "模拟经营",
-          "slogan": "",
-          "publisher": "湖北盛天网络技术股份有限公司",
-          "change": "1",
-          "change_direction": "down"
-        },
-        {
-          "rank": 89,
-          "name": "狱国争霸",
-          "category": "角色",
-          "category_rank": 41,
-          "subcategory": "战争策略",
-          "slogan": "",
-          "publisher": "北京智诚互娱科技有限公司",
-          "change": "7",
-          "change_direction": "down"
-        },
-        {
-          "rank": 95,
-          "name": "指尖王国",
-          "category": "竞技",
-          "category_rank": 4,
-          "subcategory": "对战",
-          "slogan": "",
-          "publisher": "深圳市掌娱趣科技有限公司",
-          "change": "3",
-          "change_direction": "down"
-        },
-        {
-          "rank": 98,
-          "name": "掼蛋",
-          "category": "棋牌",
-          "category_rank": 5,
-          "subcategory": "牌类棋牌传统棋牌",
-          "slogan": "",
-          "publisher": "杭州边锋网络技术有限公司",
-          "change": "6",
-          "change_direction": "up"
         },
         {
           "rank": 100,
@@ -527,9 +287,9 @@
         }
       ],
       "totals": {
-        "new_to_board": 8,
-        "returning": 0,
-        "new_publishers": 9
+        "new_to_board": 4,
+        "returning": 2,
+        "new_publishers": 2
       },
       "new_to_board": [
         {
@@ -555,28 +315,6 @@
           "change_direction": "flat"
         },
         {
-          "rank": 89,
-          "name": "狱国争霸",
-          "category": "角色",
-          "category_rank": 41,
-          "subcategory": "战争策略",
-          "slogan": "",
-          "publisher": "北京智诚互娱科技有限公司",
-          "change": "7",
-          "change_direction": "down"
-        },
-        {
-          "rank": 91,
-          "name": "楚新钓",
-          "category": "休闲",
-          "category_rank": 40,
-          "subcategory": "模拟经营",
-          "slogan": "",
-          "publisher": "海南易多量科技有限公司",
-          "change": "8",
-          "change_direction": "down"
-        },
-        {
           "rank": 93,
           "name": "勇者乱斗",
           "category": "休闲",
@@ -586,28 +324,6 @@
           "publisher": "",
           "change": "新进榜",
           "change_direction": "flat"
-        },
-        {
-          "rank": 95,
-          "name": "指尖王国",
-          "category": "竞技",
-          "category_rank": 4,
-          "subcategory": "对战",
-          "slogan": "",
-          "publisher": "深圳市掌娱趣科技有限公司",
-          "change": "3",
-          "change_direction": "down"
-        },
-        {
-          "rank": 98,
-          "name": "掼蛋",
-          "category": "棋牌",
-          "category_rank": 5,
-          "subcategory": "牌类棋牌传统棋牌",
-          "slogan": "",
-          "publisher": "杭州边锋网络技术有限公司",
-          "change": "6",
-          "change_direction": "up"
         },
         {
           "rank": 100,

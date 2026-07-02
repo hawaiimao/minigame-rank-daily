@@ -355,18 +355,96 @@ def do_login(auth_file: Path = DEFAULT_AUTH_FILE,
         return False
 
 
+def _pick_historical_date(page, date_str: str, xhr_counter: dict, log=print):
+    """Open the top-level date picker and select `date_str`.
+
+    Element UI el-date-picker layout:
+      <input placeholder="选择日期"> ← focus/click opens the panel
+      <div class="el-picker-panel">
+        <table class="el-date-table">
+          <td class="available"><span><em>D</em></span></td>  ← click a day
+        </table>
+      </div>
+    """
+    from datetime import datetime
+    baseline = xhr_counter["n"]
+    log(f"[hist] 打开日期选择器，切到 {date_str}")
+
+    # Click the placeholder input to open the panel.
+    picker_input = page.locator("input[placeholder='选择日期']").first
+    picker_input.click(timeout=5000)
+    page.wait_for_timeout(400)
+
+    # Element UI's date panel exposes the current view's month in a
+    # header link like `<span class="el-date-picker__header-label">2026 年 7 月</span>`.
+    # We navigate month-by-month if needed. To keep this simple, use the
+    # arrow buttons.
+    target = datetime.strptime(date_str, "%Y-%m-%d")
+    for _attempt in range(24):
+        header = page.locator(".el-date-picker__header-label").all()
+        if not header:
+            break
+        header_text = " | ".join([h.inner_text() for h in header])
+        # Parse "2026 年 7 月" → year 2026, month 7.
+        import re
+        m = re.search(r"(\d{4})\s*年\s*(\d{1,2})\s*月", header_text)
+        if not m:
+            break
+        cur_y, cur_m = int(m.group(1)), int(m.group(2))
+        if cur_y == target.year and cur_m == target.month:
+            break
+        if (cur_y, cur_m) < (target.year, target.month):
+            page.locator(".el-picker-panel__icon-btn.arrow-right, "
+                         ".el-icon-arrow-right").first.click(timeout=2000)
+        else:
+            page.locator(".el-picker-panel__icon-btn.arrow-left, "
+                         ".el-icon-arrow-left").first.click(timeout=2000)
+        page.wait_for_timeout(200)
+
+    # Now click the target day cell. Element UI puts each day in a
+    # <td class="available"> with an inner <em>N</em>. Match on the
+    # exact day number, avoiding "next/prev month" cells that carry
+    # class 'next-month' or 'prev-month'.
+    day = target.day
+    day_cell = page.locator(
+        f".el-date-table td.available:not(.next-month):not(.prev-month) "
+        f":text-is('{day}')"
+    ).first
+    try:
+        day_cell.click(timeout=5000)
+    except Exception:
+        # Fallback: broader match on <span> / <em> containing the day.
+        page.locator(f".el-date-table td:not(.next-month):not(.prev-month) "
+                     f"span:has-text('{day}')").first.click(timeout=5000)
+
+    # Wait for a new burst of rank XHRs (one per board = 3 for wx).
+    deadline_ms = 12000
+    elapsed = 0
+    while xhr_counter["n"] < baseline + 3 and elapsed < deadline_ms:
+        page.wait_for_timeout(500)
+        elapsed += 500
+    log(f"[hist] 切换后 rank XHRs +{xhr_counter['n'] - baseline}")
+    page.wait_for_timeout(1500)
+
+
 def do_scrape(top_n: int | None,
               force_anon: bool = False,
               out_dir: Path = DEFAULT_OUT_DIR,
               auth_file: Path = DEFAULT_AUTH_FILE,
-              log=print) -> dict:
+              log=print,
+              historical_date: str | None = None) -> dict:
+    """Scrape today's ranking, or a historical date if `historical_date`
+    (YYYY-MM-DD) is provided. Historical scraping requires a logged-in
+    session; anonymous mode only exposes today.
+    """
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     auth_file = Path(auth_file)
     use_auth = auth_file.exists() and not force_anon
     if top_n is None:
         top_n = 100 if use_auth else 20
-    log(f"模式：{'已登录' if use_auth else '匿名'} | Top {top_n}")
+    log(f"模式：{'已登录' if use_auth else '匿名'} | Top {top_n}"
+        + (f" | 历史日期：{historical_date}" if historical_date else ""))
 
     result = {
         "scraped_at": datetime.now().isoformat(timespec="seconds"),
@@ -417,6 +495,12 @@ def do_scrape(top_n: int | None,
         page.wait_for_timeout(1500)
 
         kill_overlays(page, log=log)
+
+        # If a historical date was requested, drive the date picker to
+        # jump to that day. Wait for a fresh burst of rank XHRs before
+        # trusting the DOM again.
+        if historical_date:
+            _pick_historical_date(page, historical_date, rank_xhr_count, log)
 
         result["platforms"]["wx"] = scrape_current_platform(
             page, "wx", top_n, log=log
