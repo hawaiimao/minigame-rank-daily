@@ -47,6 +47,16 @@ jobs:
       - name: Compute diff vs previous day
         run: python scripts/ci_diff.py
 
+      - name: Sync snapshot to Supabase
+        # Runs before the git commit so a DB-only failure doesn't leave
+        # the repo out of sync with the DB. If Supabase secrets aren't
+        # configured yet, the script will fail loudly — expected while
+        # setting up.
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python scripts/ci_sync_supabase.py
+
       - name: Commit & push data
         run: |
           git config user.name "github-actions[bot]"
