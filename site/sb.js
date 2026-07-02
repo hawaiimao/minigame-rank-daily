@@ -29,7 +29,6 @@
     const params = new URLSearchParams();
     params.set("select", opts.select || "*");
     if (opts.order) params.set("order", opts.order);
-    if (opts.limit != null) params.set("limit", String(opts.limit));
     if (opts.match) {
       for (const [k, v] of Object.entries(opts.match)) {
         params.set(k, `eq.${v}`);
@@ -41,15 +40,39 @@
         params.set(k, v);
       }
     }
-    const r = await fetch(`${url("/" + table)}?${params}`, {
-      headers: headers(),
-      cache: "no-cache",
-    });
-    if (!r.ok) {
-      const detail = await r.text().catch(() => "");
-      throw new Error(`sb.select ${table} ${r.status} ${detail.slice(0, 120)}`);
+
+    // Supabase's PostgREST hard-caps a single response at 1000 rows.
+    // Auto-paginate via Range header until we have `opts.limit` (default:
+    // all matching rows).
+    const wantAll = opts.limit == null;
+    const maxRows = wantAll ? Infinity : opts.limit;
+    const pageSize = 1000;
+    const collected = [];
+    let offset = 0;
+
+    while (collected.length < maxRows) {
+      const remaining = maxRows - collected.length;
+      const size = Math.min(pageSize, remaining);
+      const from = offset;
+      const to = offset + size - 1;
+      const r = await fetch(`${url("/" + table)}?${params}`, {
+        headers: headers({ Range: `${from}-${to}`, "Range-Unit": "items" }),
+        cache: "no-cache",
+      });
+      if (!r.ok) {
+        const detail = await r.text().catch(() => "");
+        throw new Error(`sb.select ${table} ${r.status} ${detail.slice(0, 120)}`);
+      }
+      const chunk = await r.json();
+      collected.push(...chunk);
+      // No more rows to fetch.
+      if (chunk.length < size) break;
+      offset += chunk.length;
+      // Guard: never keep looping if server ignores Range and returns
+      // the same first page again.
+      if (offset === 0) break;
     }
-    return r.json();
+    return collected;
   }
 
   async function upsert(table, rows, onConflict, prefer = "return=minimal") {
