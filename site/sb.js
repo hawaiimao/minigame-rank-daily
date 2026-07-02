@@ -67,7 +67,12 @@
       const detail = await r.text().catch(() => "");
       throw new Error(`sb.upsert ${table} ${r.status} ${detail.slice(0, 120)}`);
     }
-    return r.status === 204 ? null : r.json();
+    // Only try to parse a body when the caller explicitly asked for one
+    // via Prefer: return=representation. `return=minimal` — the default
+    // — yields an empty body that JSON.parse would choke on.
+    if (!prefer.includes("return=representation")) return null;
+    const text = await r.text();
+    return text ? JSON.parse(text) : null;
   }
 
   async function patch(table, patchBody, matchKey, matchValue) {
