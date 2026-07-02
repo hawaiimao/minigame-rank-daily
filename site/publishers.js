@@ -211,8 +211,13 @@ function renderRows() {
     if (st !== "pending") tr.classList.add(`row-${st}`);
     const games = p.games.slice(0, 2).map(escapeHTML).join("、")
       + (p.games.length > 2 ? ` <span class="muted">+${p.games.length - 2}</span>` : "");
-    const boards = p.boards.map(b =>
-      `<span class="board-tag">${escapeHTML(shortBoard(b))}</span>`).join("");
+    const boardsShown = p.boards.slice(0, 3);
+    const boardsExtra = p.boards.length - boardsShown.length;
+    const boards = boardsShown.map(b =>
+      `<span class="board-tag">${escapeHTML(shortBoard(b))}</span>`).join("")
+      + (boardsExtra > 0
+          ? `<span class="board-tag board-tag-more" title="${escapeAttr(p.boards.map(shortBoard).join('、'))}">+${boardsExtra}</span>`
+          : "");
     const note = noteOf(p.name);
     tr.innerHTML = `
       <td class="pub-name">${escapeHTML(p.name)}</td>
