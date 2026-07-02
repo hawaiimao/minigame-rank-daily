@@ -867,7 +867,8 @@
         "恐怖滑梯",
         "萌兔跳一跳",
         "恐龙历险记",
-        "冲吧小伙子",
+        "找就完事啦",
+        "纸片大混战",
         "超自然行动大冒险",
         "指尖节奏球"
       ],
@@ -2135,9 +2136,9 @@
       "board_history": {
         "wx/人气榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-07-02",
-          "appearances": 3,
-          "_last_day_counted": "2026-07-02"
+          "last_seen": "2026-07-01",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -2402,9 +2403,9 @@
       "board_history": {
         "wx/人气榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-07-01",
-          "appearances": 2,
-          "_last_day_counted": "2026-07-01"
+          "last_seen": "2026-07-02",
+          "appearances": 3,
+          "_last_day_counted": "2026-07-02"
         },
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
@@ -2928,9 +2929,9 @@
       "board_history": {
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-07-02",
-          "appearances": 3,
-          "_last_day_counted": "2026-07-02"
+          "last_seen": "2026-07-01",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -2943,9 +2944,9 @@
       "board_history": {
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-07-02",
-          "appearances": 3,
-          "_last_day_counted": "2026-07-02"
+          "last_seen": "2026-07-01",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         },
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
@@ -3080,9 +3081,9 @@
       "board_history": {
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-07-01",
-          "appearances": 2,
-          "_last_day_counted": "2026-07-01"
+          "last_seen": "2026-07-02",
+          "appearances": 3,
+          "_last_day_counted": "2026-07-02"
         },
         "douyin/畅销榜": {
           "first_seen": "2026-07-02",
@@ -3145,9 +3146,9 @@
       "board_history": {
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-07-02",
-          "appearances": 3,
-          "_last_day_counted": "2026-07-02"
+          "last_seen": "2026-07-01",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -3160,9 +3161,9 @@
       "board_history": {
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-07-02",
-          "appearances": 3,
-          "_last_day_counted": "2026-07-02"
+          "last_seen": "2026-07-01",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -3175,9 +3176,9 @@
       "board_history": {
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-07-01",
-          "appearances": 2,
-          "_last_day_counted": "2026-07-01"
+          "last_seen": "2026-07-02",
+          "appearances": 3,
+          "_last_day_counted": "2026-07-02"
         }
       }
     },
@@ -3287,6 +3288,12 @@
           "last_seen": "2026-07-02",
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
+        },
+        "wx/人气榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-02"
         }
       }
     },
@@ -3330,6 +3337,12 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
           "appearances": 3,
+          "_last_day_counted": "2026-07-02"
+        },
+        "wx/人气榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "appearances": 1,
           "_last_day_counted": "2026-07-02"
         }
       }
@@ -3578,12 +3591,6 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
           "appearances": 3,
-          "_last_day_counted": "2026-07-02"
-        },
-        "wx/人气榜": {
-          "first_seen": "2026-07-02",
-          "last_seen": "2026-07-02",
-          "appearances": 1,
           "_last_day_counted": "2026-07-02"
         }
       }
@@ -5409,7 +5416,8 @@
       "name": "广州易游互玩科技有限公司",
       "first_seen_anywhere": "2026-06-30",
       "games": [
-        "废墟边境先锋"
+        "废墟边境先锋",
+        "孤岛枪王对决"
       ],
       "board_history": {
         "douyin/新游榜": {
@@ -5417,6 +5425,12 @@
           "last_seen": "2026-06-30",
           "appearances": 1,
           "_last_day_counted": "2026-06-30"
+        },
+        "wx/人气榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-02"
         }
       }
     },
@@ -6043,21 +6057,6 @@
         }
       }
     },
-    "海南连普互娱科技有限公司": {
-      "name": "海南连普互娱科技有限公司",
-      "first_seen_anywhere": "2026-07-02",
-      "games": [
-        "数字连连"
-      ],
-      "board_history": {
-        "wx/人气榜": {
-          "first_seen": "2026-07-02",
-          "last_seen": "2026-07-02",
-          "appearances": 1,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
     "深圳市图灵游戏科技有限公司": {
       "name": "深圳市图灵游戏科技有限公司",
       "first_seen_anywhere": "2026-07-02",
@@ -6073,26 +6072,11 @@
         }
       }
     },
-    "广州九九互娱科技有限公司": {
-      "name": "广州九九互娱科技有限公司",
+    "海南连普互娱科技有限公司": {
+      "name": "海南连普互娱科技有限公司",
       "first_seen_anywhere": "2026-07-02",
       "games": [
-        "超级找一找"
-      ],
-      "board_history": {
-        "wx/人气榜": {
-          "first_seen": "2026-07-02",
-          "last_seen": "2026-07-02",
-          "appearances": 1,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "广州探游网络科技有限公司": {
-      "name": "广州探游网络科技有限公司",
-      "first_seen_anywhere": "2026-07-02",
-      "games": [
-        "轻松乐闯关"
+        "数字连连"
       ],
       "board_history": {
         "wx/人气榜": {
@@ -6133,11 +6117,26 @@
         }
       }
     },
-    "邯郸空岛科技有限公司": {
-      "name": "邯郸空岛科技有限公司",
+    "广州金乌网络科技有限公司": {
+      "name": "广州金乌网络科技有限公司",
       "first_seen_anywhere": "2026-07-02",
       "games": [
-        "爆裂守卫"
+        "种田掌门人"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-02"
+        }
+      }
+    },
+    "广州闲悦网络科技有限公司": {
+      "name": "广州闲悦网络科技有限公司",
+      "first_seen_anywhere": "2026-07-02",
+      "games": [
+        "西游大冒险"
       ],
       "board_history": {
         "wx/畅销榜": {
@@ -6435,5 +6434,5 @@
       }
     }
   },
-  "updated_at": "2026-07-02T02:38:26Z"
+  "updated_at": "2026-07-02T05:25:33Z"
 }
