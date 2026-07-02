@@ -155,13 +155,8 @@ function buildBoardTabs() {
     for (const label of BOARD_LABELS[plat]) {
       const btn = document.createElement("button");
       btn.className = `board-tab board-tab-${plat}`;
-      const iconUrl = BOARD_ICON_URL[`${plat}/${label}`];
       const platShort = plat === "wx" ? "微" : "抖";
-      const iconHTML = iconUrl
-        ? `<span class="tab-icon"><img src="${iconUrl}" alt="" /></span>`
-        : "";
-      btn.innerHTML = iconHTML
-        + `<span class="tab-label">${platShort}·${escapeHTML(label.replace("榜",""))}</span>`;
+      btn.innerHTML = `<span class="tab-label">${platShort}·${escapeHTML(label.replace("榜",""))}</span>`;
       btn.dataset.plat = plat;
       btn.dataset.label = label;
       btn.onclick = () => setActiveBoard(plat, label);
