@@ -5,31 +5,338 @@
       "platform": "wx",
       "platform_label": "微信小游戏",
       "board_label": "人气榜",
-      "first_anywhere": [],
-      "first_on_board": [],
-      "returning": [],
-      "new_publishers": [],
+      "first_anywhere": [
+        {
+          "rank": 44,
+          "name": "找就完事啦",
+          "category": "休闲",
+          "category_rank": 35,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 65,
+          "name": "我脑洞贼好",
+          "category": "休闲",
+          "category_rank": 49,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 83,
+          "name": "纸片大混战",
+          "category": "休闲",
+          "category_rank": 62,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 95,
+          "name": "小小箭头",
+          "category": "休闲",
+          "category_rank": 69,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "海南挺有趣网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 100,
+          "name": "眼都找瞎了",
+          "category": "休闲",
+          "category_rank": 72,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州心扬科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 91,
+          "name": "小镇派对",
+          "category": "休闲",
+          "category_rank": 67,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "上海趣滋滋网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 96,
+          "name": "孤岛枪王对决",
+          "category": "休闲",
+          "category_rank": 70,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州易游互玩科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 95,
+          "name": "小小箭头",
+          "category": "休闲",
+          "category_rank": 69,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "海南挺有趣网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 96,
+          "name": "孤岛枪王对决",
+          "category": "休闲",
+          "category_rank": 70,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州易游互玩科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 100,
+          "name": "眼都找瞎了",
+          "category": "休闲",
+          "category_rank": 72,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州心扬科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
       "totals": {
-        "new_to_board": 0,
-        "returning": 0,
-        "new_publishers": 0
+        "new_to_board": 5,
+        "returning": 2,
+        "new_publishers": 3
       },
-      "new_to_board": []
+      "new_to_board": [
+        {
+          "rank": 44,
+          "name": "找就完事啦",
+          "category": "休闲",
+          "category_rank": 35,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 65,
+          "name": "我脑洞贼好",
+          "category": "休闲",
+          "category_rank": 49,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 83,
+          "name": "纸片大混战",
+          "category": "休闲",
+          "category_rank": 62,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 95,
+          "name": "小小箭头",
+          "category": "休闲",
+          "category_rank": 69,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "海南挺有趣网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 100,
+          "name": "眼都找瞎了",
+          "category": "休闲",
+          "category_rank": 72,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州心扬科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
     },
     "wx/畅销榜": {
       "platform": "wx",
       "platform_label": "微信小游戏",
       "board_label": "畅销榜",
-      "first_anywhere": [],
-      "first_on_board": [],
-      "returning": [],
-      "new_publishers": [],
+      "first_anywhere": [
+        {
+          "rank": 61,
+          "name": "种田掌门人",
+          "category": "休闲",
+          "category_rank": 24,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "广州金乌网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 100,
+          "name": "西游大冒险",
+          "category": "角色",
+          "category_rank": 43,
+          "subcategory": "回合",
+          "slogan": "",
+          "publisher": "广州闲悦网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 68,
+          "name": "英雄杀",
+          "category": "角色",
+          "category_rank": 36,
+          "subcategory": "卡牌卡牌竞技卡牌",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 93,
+          "name": "勇者乱斗",
+          "category": "休闲",
+          "category_rank": 42,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 84,
+          "name": "防线出击",
+          "category": "角色",
+          "category_rank": 39,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "深圳市梦跃互娱网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 88,
+          "name": "主宰世界",
+          "category": "角色",
+          "category_rank": 40,
+          "subcategory": "战争策略",
+          "slogan": "",
+          "publisher": "广州四三九九信息科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 61,
+          "name": "种田掌门人",
+          "category": "休闲",
+          "category_rank": 24,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "广州金乌网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 100,
+          "name": "西游大冒险",
+          "category": "角色",
+          "category_rank": 43,
+          "subcategory": "回合",
+          "slogan": "",
+          "publisher": "广州闲悦网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
       "totals": {
-        "new_to_board": 0,
-        "returning": 0,
-        "new_publishers": 0
+        "new_to_board": 4,
+        "returning": 2,
+        "new_publishers": 2
       },
-      "new_to_board": []
+      "new_to_board": [
+        {
+          "rank": 61,
+          "name": "种田掌门人",
+          "category": "休闲",
+          "category_rank": 24,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "广州金乌网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 68,
+          "name": "英雄杀",
+          "category": "角色",
+          "category_rank": 36,
+          "subcategory": "卡牌卡牌竞技卡牌",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 93,
+          "name": "勇者乱斗",
+          "category": "休闲",
+          "category_rank": 42,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 100,
+          "name": "西游大冒险",
+          "category": "角色",
+          "category_rank": 43,
+          "subcategory": "回合",
+          "slogan": "",
+          "publisher": "广州闲悦网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
     },
     "wx/畅玩榜": {
       "platform": "wx",
