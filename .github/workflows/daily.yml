@@ -1,9 +1,12 @@
 name: Daily Rank Snapshot
 
 on:
-  # 北京时间每日 10:30 = UTC 02:30（榜单 10:00 更新后 30 分钟）
+  # 北京时间每日 10:30 + 11:30 双触发（10:00 榜单更新后各留出 30/90 分钟）
+  # 加两个时间是因为 GitHub schedule 偶尔静默跳过某次触发。
+  # 第一次成功后第二次的数据一样，git commit 会跳过——无副作用。
   schedule:
     - cron: "30 2 * * *"
+    - cron: "30 3 * * *"
   # 也允许手动触发
   workflow_dispatch:
     inputs:
