@@ -153,7 +153,7 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 44,
+          "best_rank": 37,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -238,9 +238,10 @@
         },
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
-          "best_rank": 99,
-          "appearances": 1
+          "last_seen": "2026-07-01",
+          "best_rank": 98,
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -383,7 +384,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 25,
+          "best_rank": 17,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -409,7 +410,7 @@
         "wx/畅玩榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 30,
+          "best_rank": 29,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -506,7 +507,7 @@
         "wx/人气榜": {
           "first_seen": "2026-06-29",
           "last_seen": "2026-07-02",
-          "best_rank": 16,
+          "best_rank": 19,
           "appearances": 4,
           "_last_day_counted": "2026-07-02"
         },
@@ -539,7 +540,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 89,
+          "best_rank": 90,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -625,7 +626,7 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-29",
           "last_seen": "2026-07-02",
-          "best_rank": 18,
+          "best_rank": 17,
           "appearances": 4,
           "_last_day_counted": "2026-07-02"
         },
@@ -671,14 +672,15 @@
         },
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
-          "best_rank": 100,
-          "appearances": 1
+          "last_seen": "2026-07-01",
+          "best_rank": 97,
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         },
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 23,
+          "best_rank": 21,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -711,7 +713,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 47,
+          "best_rank": 37,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -745,7 +747,7 @@
         "wx/人气榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 13,
+          "best_rank": 21,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -772,21 +774,21 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-29",
           "last_seen": "2026-07-02",
-          "best_rank": 7,
+          "best_rank": 6,
           "appearances": 4,
           "_last_day_counted": "2026-07-02"
         },
         "wx/人气榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 77,
+          "best_rank": 79,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
         "douyin/热门榜": {
           "first_seen": "2026-07-01",
           "last_seen": "2026-07-02",
-          "best_rank": 66,
+          "best_rank": 63,
           "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
@@ -859,14 +861,14 @@
         "wx/人气榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 28,
+          "best_rank": 30,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 26,
+          "best_rank": 22,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -886,7 +888,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-29",
           "last_seen": "2026-07-02",
-          "best_rank": 8,
+          "best_rank": 11,
           "appearances": 4,
           "_last_day_counted": "2026-07-02"
         },
@@ -1006,7 +1008,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-29",
           "last_seen": "2026-07-02",
-          "best_rank": 13,
+          "best_rank": 15,
           "appearances": 4,
           "_last_day_counted": "2026-07-02"
         }
@@ -1079,7 +1081,7 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
           "best_rank": 73,
-          "appearances": 3,
+          "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
       }
@@ -1171,7 +1173,7 @@
         "wx/人气榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 50,
+          "best_rank": 56,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -1249,7 +1251,7 @@
         "wx/人气榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 40,
+          "best_rank": 41,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
@@ -1282,7 +1284,7 @@
         "wx/人气榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 49,
+          "best_rank": 51,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -1308,7 +1310,7 @@
         "wx/人气榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 22,
+          "best_rank": 24,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -1394,7 +1396,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 59,
+          "best_rank": 56,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -1479,11 +1481,10 @@
           "_last_day_counted": "2026-07-02"
         },
         "wx/畅销榜": {
-          "first_seen": "2026-07-01",
+          "first_seen": "2026-07-02",
           "last_seen": "2026-07-02",
-          "best_rank": 92,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "best_rank": 98,
+          "appearances": 1
         }
       }
     },
@@ -1596,10 +1597,10 @@
       "board_history": {
         "douyin/热门榜": {
           "first_seen": "2026-06-29",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 7,
-          "appearances": 2,
-          "_last_day_counted": "2026-06-30"
+          "appearances": 3,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -1617,7 +1618,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-29",
           "last_seen": "2026-07-02",
-          "best_rank": 8,
+          "best_rank": 7,
           "appearances": 4,
           "_last_day_counted": "2026-07-02"
         },
@@ -1673,7 +1674,7 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
           "best_rank": 71,
-          "appearances": 3,
+          "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
       }
@@ -1691,14 +1692,14 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-29",
           "last_seen": "2026-07-02",
-          "best_rank": 7,
+          "best_rank": 4,
           "appearances": 4,
           "_last_day_counted": "2026-07-02"
         },
         "douyin/畅销榜": {
           "first_seen": "2026-06-29",
           "last_seen": "2026-07-02",
-          "best_rank": 14,
+          "best_rank": 13,
           "appearances": 4,
           "_last_day_counted": "2026-07-02"
         },
@@ -1712,7 +1713,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 23,
+          "best_rank": 26,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -1770,7 +1771,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-29",
           "last_seen": "2026-07-02",
-          "best_rank": 15,
+          "best_rank": 13,
           "appearances": 4,
           "_last_day_counted": "2026-07-02"
         }
@@ -1789,14 +1790,14 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-29",
           "last_seen": "2026-07-02",
-          "best_rank": 15,
+          "best_rank": 14,
           "appearances": 4,
           "_last_day_counted": "2026-07-02"
         },
         "wx/人气榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 21,
+          "best_rank": 22,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
@@ -1861,16 +1862,15 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-29",
           "last_seen": "2026-07-02",
-          "best_rank": 14,
+          "best_rank": 12,
           "appearances": 4,
           "_last_day_counted": "2026-07-02"
         },
         "douyin/畅销榜": {
-          "first_seen": "2026-07-01",
+          "first_seen": "2026-07-02",
           "last_seen": "2026-07-02",
           "best_rank": 93,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "appearances": 1
         }
       }
     },
@@ -1927,7 +1927,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 71,
+          "best_rank": 74,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
@@ -1984,7 +1984,7 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-29",
           "last_seen": "2026-07-02",
-          "best_rank": 14,
+          "best_rank": 11,
           "appearances": 4,
           "_last_day_counted": "2026-07-02"
         }
@@ -2100,10 +2100,10 @@
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-06-29",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 5,
-          "appearances": 2,
-          "_last_day_counted": "2026-06-30"
+          "appearances": 3,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -2209,7 +2209,7 @@
         "douyin/新游榜": {
           "first_seen": "2026-06-29",
           "last_seen": "2026-07-02",
-          "best_rank": 11,
+          "best_rank": 7,
           "appearances": 4,
           "_last_day_counted": "2026-07-02"
         }
@@ -2242,10 +2242,10 @@
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-06-29",
-          "last_seen": "2026-06-30",
-          "best_rank": 13,
-          "appearances": 2,
-          "_last_day_counted": "2026-06-30"
+          "last_seen": "2026-07-01",
+          "best_rank": 3,
+          "appearances": 3,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -2293,10 +2293,10 @@
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-06-29",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 16,
-          "appearances": 2,
-          "_last_day_counted": "2026-06-30"
+          "appearances": 3,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -2310,10 +2310,10 @@
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-06-29",
-          "last_seen": "2026-06-30",
-          "best_rank": 17,
-          "appearances": 2,
-          "_last_day_counted": "2026-06-30"
+          "last_seen": "2026-07-01",
+          "best_rank": 15,
+          "appearances": 3,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -2362,7 +2362,7 @@
         "douyin/新游榜": {
           "first_seen": "2026-06-29",
           "last_seen": "2026-07-02",
-          "best_rank": 20,
+          "best_rank": 13,
           "appearances": 4,
           "_last_day_counted": "2026-07-02"
         }
@@ -2414,7 +2414,7 @@
         "wx/畅玩榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 69,
+          "best_rank": 68,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -2474,7 +2474,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 33,
+          "best_rank": 30,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -2534,9 +2534,10 @@
         },
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 91,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         },
         "wx/畅玩榜": {
           "first_seen": "2026-06-30",
@@ -2546,11 +2547,10 @@
           "_last_day_counted": "2026-07-02"
         },
         "douyin/热门榜": {
-          "first_seen": "2026-07-01",
+          "first_seen": "2026-07-02",
           "last_seen": "2026-07-02",
           "best_rank": 95,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "appearances": 1
         }
       }
     },
@@ -2631,7 +2631,7 @@
         "wx/人气榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 37,
+          "best_rank": 39,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
@@ -2690,7 +2690,7 @@
         "wx/畅玩榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 46,
+          "best_rank": 45,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -2839,7 +2839,7 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 36,
+          "best_rank": 34,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -2865,7 +2865,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 67,
+          "best_rank": 81,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -2910,7 +2910,7 @@
         "wx/畅玩榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 27,
+          "best_rank": 26,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -2974,11 +2974,10 @@
           "_last_day_counted": "2026-07-02"
         },
         "douyin/热门榜": {
-          "first_seen": "2026-07-01",
+          "first_seen": "2026-07-02",
           "last_seen": "2026-07-02",
           "best_rank": 82,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "appearances": 1
         }
       }
     },
@@ -3002,9 +3001,10 @@
         },
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 91,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -3021,7 +3021,7 @@
         "wx/人气榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 59,
+          "best_rank": 65,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
@@ -3101,7 +3101,7 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
           "best_rank": 68,
-          "appearances": 3,
+          "appearances": 2,
           "_last_day_counted": "2026-07-02"
         },
         "douyin/新游榜": {
@@ -3126,7 +3126,7 @@
         "wx/人气榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 47,
+          "best_rank": 61,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
@@ -3185,9 +3185,10 @@
       "board_history": {
         "wx/人气榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 74,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -3275,7 +3276,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 58,
+          "best_rank": 62,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -3366,7 +3367,7 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
           "best_rank": 86,
-          "appearances": 2,
+          "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
       }
@@ -3384,7 +3385,7 @@
         "wx/人气榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 81,
+          "best_rank": 84,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
@@ -3429,7 +3430,7 @@
         "wx/人气榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 86,
+          "best_rank": 89,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -3461,7 +3462,6 @@
         "休闲"
       ],
       "publishers": [
-        "个人开发者",
         "福州联创乐游网络科技有限公司"
       ],
       "board_history": {
@@ -3473,11 +3473,10 @@
           "_last_day_counted": "2026-07-01"
         },
         "douyin/热门榜": {
-          "first_seen": "2026-07-01",
+          "first_seen": "2026-07-02",
           "last_seen": "2026-07-02",
           "best_rank": 87,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "appearances": 1
         }
       }
     },
@@ -3510,9 +3509,10 @@
       "board_history": {
         "wx/人气榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 93,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         },
         "wx/畅玩榜": {
           "first_seen": "2026-06-30",
@@ -3576,7 +3576,7 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
           "best_rank": 91,
-          "appearances": 2,
+          "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
         "wx/畅销榜": {
@@ -3620,16 +3620,15 @@
         "wx/人气榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-01",
-          "best_rank": 83,
+          "best_rank": 97,
           "appearances": 2,
           "_last_day_counted": "2026-07-01"
         },
         "wx/畅玩榜": {
-          "first_seen": "2026-07-01",
+          "first_seen": "2026-07-02",
           "last_seen": "2026-07-02",
           "best_rank": 100,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "appearances": 1
         }
       }
     },
@@ -3643,9 +3642,10 @@
       "board_history": {
         "wx/人气榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 98,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -3680,9 +3680,10 @@
       "board_history": {
         "wx/人气榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 100,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -3726,7 +3727,7 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 30,
+          "best_rank": 23,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -3772,7 +3773,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 24,
+          "best_rank": 25,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
@@ -3806,7 +3807,7 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 34,
+          "best_rank": 32,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -3825,7 +3826,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 27,
+          "best_rank": 28,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -3897,7 +3898,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 30,
+          "best_rank": 31,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -3987,7 +3988,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 37,
+          "best_rank": 38,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -4054,6 +4055,12 @@
           "best_rank": 41,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-01",
+          "best_rank": 82,
+          "appearances": 1
         }
       }
     },
@@ -4108,7 +4115,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 42,
+          "best_rank": 44,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -4226,7 +4233,7 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 75,
+          "best_rank": 69,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -4252,7 +4259,7 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 55,
+          "best_rank": 51,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -4295,11 +4302,10 @@
           "_last_day_counted": "2026-07-02"
         },
         "douyin/畅销榜": {
-          "first_seen": "2026-07-01",
+          "first_seen": "2026-07-02",
           "last_seen": "2026-07-02",
           "best_rank": 89,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "appearances": 1
         }
       }
     },
@@ -4425,7 +4431,7 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 48,
+          "best_rank": 41,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -4469,11 +4475,10 @@
           "_last_day_counted": "2026-07-02"
         },
         "douyin/畅销榜": {
-          "first_seen": "2026-07-01",
+          "first_seen": "2026-07-02",
           "last_seen": "2026-07-02",
           "best_rank": 68,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "appearances": 1
         }
       }
     },
@@ -4543,7 +4548,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 61,
+          "best_rank": 66,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -4562,7 +4567,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-01",
-          "best_rank": 50,
+          "best_rank": 68,
           "appearances": 2,
           "_last_day_counted": "2026-07-01"
         }
@@ -4651,9 +4656,10 @@
         },
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 66,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -4670,7 +4676,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 68,
+          "best_rank": 75,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -4739,7 +4745,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 76,
+          "best_rank": 79,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -4759,15 +4765,14 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
           "best_rank": 82,
-          "appearances": 2,
+          "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
         "douyin/畅销榜": {
-          "first_seen": "2026-07-01",
+          "first_seen": "2026-07-02",
           "last_seen": "2026-07-02",
           "best_rank": 79,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "appearances": 1
         }
       }
     },
@@ -4822,14 +4827,14 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 70,
+          "best_rank": 74,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 65,
+          "best_rank": 45,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -4927,7 +4932,7 @@
         "douyin/畅销榜": {
           "first_seen": "2026-07-01",
           "last_seen": "2026-07-02",
-          "best_rank": 92,
+          "best_rank": 55,
           "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
@@ -4947,7 +4952,7 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
           "best_rank": 84,
-          "appearances": 2,
+          "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
       }
@@ -4983,9 +4988,10 @@
       "board_history": {
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 96,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -5002,7 +5008,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 74,
+          "best_rank": 80,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
@@ -5035,7 +5041,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-01",
-          "best_rank": 91,
+          "best_rank": 99,
           "appearances": 2,
           "_last_day_counted": "2026-07-01"
         }
@@ -5053,9 +5059,10 @@
       "board_history": {
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 100,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -5192,7 +5199,7 @@
         "wx/畅玩榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 32,
+          "best_rank": 30,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -5274,7 +5281,7 @@
         "wx/畅玩榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 44,
+          "best_rank": 40,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -5616,7 +5623,7 @@
         "wx/畅玩榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 72,
+          "best_rank": 70,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -5635,7 +5642,7 @@
         "wx/畅玩榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 75,
+          "best_rank": 74,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -5659,11 +5666,10 @@
           "_last_day_counted": "2026-07-02"
         },
         "wx/人气榜": {
-          "first_seen": "2026-07-01",
+          "first_seen": "2026-07-02",
           "last_seen": "2026-07-02",
           "best_rank": 74,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "appearances": 1
         }
       }
     },
@@ -5680,7 +5686,7 @@
         "wx/畅玩榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 76,
+          "best_rank": 72,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -5699,7 +5705,7 @@
         "wx/畅玩榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 72,
+          "best_rank": 71,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -5718,7 +5724,7 @@
         "wx/畅玩榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 79,
+          "best_rank": 78,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -6091,7 +6097,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 21,
+          "best_rank": 20,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
@@ -6130,7 +6136,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 23,
+          "best_rank": 19,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -6205,7 +6211,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 29,
+          "best_rank": 28,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -6245,14 +6251,14 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 35,
+          "best_rank": 32,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 51,
+          "best_rank": 49,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -6300,7 +6306,7 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 37,
+          "best_rank": 35,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -6317,7 +6323,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 42,
+          "best_rank": 23,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -6440,33 +6446,24 @@
     "爆裂守卫": {
       "name": "爆裂守卫",
       "first_seen_anywhere": "2026-06-30",
-      "categories": [
-        "休闲"
-      ],
+      "categories": [],
       "publishers": [
-        "邯郸太空船信息科技有限公司",
-        "邯郸空岛科技有限公司"
+        "邯郸太空船信息科技有限公司"
       ],
       "board_history": {
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 53,
+          "best_rank": 46,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 52,
+          "best_rank": 40,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
-        },
-        "wx/畅销榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-01",
-          "best_rank": 87,
-          "appearances": 1
         }
       }
     },
@@ -6497,7 +6494,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 55,
+          "best_rank": 53,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -6611,6 +6608,12 @@
           "best_rank": 55,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-01",
+          "best_rank": 100,
+          "appearances": 1
         }
       }
     },
@@ -6625,7 +6628,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 63,
+          "best_rank": 58,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -6645,6 +6648,12 @@
           "best_rank": 64,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-01",
+          "best_rank": 91,
+          "appearances": 1
         }
       }
     },
@@ -6659,7 +6668,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 65,
+          "best_rank": 59,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -6679,6 +6688,12 @@
           "best_rank": 51,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-01",
+          "best_rank": 93,
+          "appearances": 1
         }
       }
     },
@@ -6719,16 +6734,15 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 3,
+          "best_rank": 1,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
         "wx/畅销榜": {
-          "first_seen": "2026-07-01",
+          "first_seen": "2026-07-02",
           "last_seen": "2026-07-02",
           "best_rank": 89,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "appearances": 1
         }
       }
     },
@@ -6760,7 +6774,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 73,
+          "best_rank": 71,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -6794,7 +6808,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 74,
+          "best_rank": 72,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -6820,16 +6834,15 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 64,
+          "best_rank": 62,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         },
         "wx/畅销榜": {
-          "first_seen": "2026-07-01",
+          "first_seen": "2026-07-02",
           "last_seen": "2026-07-02",
           "best_rank": 91,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "appearances": 1
         }
       }
     },
@@ -6861,7 +6874,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 81,
+          "best_rank": 78,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -6884,9 +6897,10 @@
         },
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
-          "best_rank": 92,
-          "appearances": 1
+          "last_seen": "2026-07-01",
+          "best_rank": 90,
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -6941,7 +6955,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 87,
+          "best_rank": 51,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -6958,7 +6972,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 88,
+          "best_rank": 82,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -6974,9 +6988,10 @@
       "board_history": {
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 89,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -7007,7 +7022,7 @@
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 89,
+          "best_rank": 84,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -7040,9 +7055,10 @@
       "board_history": {
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
-          "best_rank": 94,
-          "appearances": 1
+          "last_seen": "2026-07-01",
+          "best_rank": 93,
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -7088,9 +7104,10 @@
       "board_history": {
         "douyin/热门榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 97,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -7106,7 +7123,7 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
           "best_rank": 98,
-          "appearances": 3,
+          "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
       }
@@ -7122,7 +7139,7 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 21,
+          "best_rank": 16,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -7207,7 +7224,7 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 42,
+          "best_rank": 38,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -7292,7 +7309,7 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 64,
+          "best_rank": 56,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -7328,15 +7345,14 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
           "best_rank": 66,
-          "appearances": 3,
+          "appearances": 2,
           "_last_day_counted": "2026-07-02"
         },
         "wx/畅销榜": {
-          "first_seen": "2026-07-01",
+          "first_seen": "2026-07-02",
           "last_seen": "2026-07-02",
           "best_rank": 95,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "appearances": 1
         }
       }
     },
@@ -7409,9 +7425,10 @@
       "board_history": {
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 76,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -7442,9 +7459,10 @@
       "board_history": {
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 80,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -7459,7 +7477,7 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 74,
+          "best_rank": 61,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -7477,7 +7495,7 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
           "best_rank": 78,
-          "appearances": 3,
+          "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
       }
@@ -7509,9 +7527,10 @@
       "board_history": {
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 87,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -7560,7 +7579,7 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 85,
+          "best_rank": 76,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -7609,7 +7628,7 @@
         "douyin/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 96,
+          "best_rank": 95,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -7641,9 +7660,10 @@
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 21,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -7691,9 +7711,10 @@
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 24,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -7708,7 +7729,7 @@
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 25,
+          "best_rank": 24,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -7725,7 +7746,7 @@
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 26,
+          "best_rank": 20,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -7775,9 +7796,10 @@
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 29,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -7825,9 +7847,10 @@
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 32,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -7841,9 +7864,10 @@
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 33,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -7873,9 +7897,10 @@
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 35,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -7890,7 +7915,7 @@
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 23,
+          "best_rank": 17,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -7924,7 +7949,7 @@
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 38,
+          "best_rank": 37,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -8058,7 +8083,7 @@
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 46,
+          "best_rank": 22,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -8076,7 +8101,7 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
           "best_rank": 47,
-          "appearances": 3,
+          "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
       }
@@ -8141,7 +8166,7 @@
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 51,
+          "best_rank": 50,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -8173,9 +8198,10 @@
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 53,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -8190,7 +8216,7 @@
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 34,
+          "best_rank": 25,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -8273,9 +8299,10 @@
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 59,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -8306,9 +8333,10 @@
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 61,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -8355,9 +8383,10 @@
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 64,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -8619,7 +8648,7 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
           "best_rank": 52,
-          "appearances": 3,
+          "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
       }
@@ -8667,9 +8696,10 @@
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 83,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -8685,7 +8715,7 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
           "best_rank": 84,
-          "appearances": 3,
+          "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
       }
@@ -8700,9 +8730,10 @@
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
-          "best_rank": 85,
-          "appearances": 1
+          "last_seen": "2026-07-01",
+          "best_rank": 84,
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -8748,9 +8779,10 @@
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-06-30",
+          "last_seen": "2026-07-01",
           "best_rank": 88,
-          "appearances": 1
+          "appearances": 2,
+          "_last_day_counted": "2026-07-01"
         }
       }
     },
@@ -8846,7 +8878,7 @@
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 75,
+          "best_rank": 53,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
@@ -8944,160 +8976,27 @@
         "douyin/新游榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-02",
-          "best_rank": 73,
+          "best_rank": 68,
           "appearances": 3,
           "_last_day_counted": "2026-07-02"
         }
       }
     },
-    "数字连连": {
-      "name": "数字连连",
+    "密室出逃欢乐版": {
+      "name": "密室出逃欢乐版",
       "first_seen_anywhere": "2026-07-01",
       "categories": [
         "休闲"
       ],
       "publishers": [
-        "海南连普互娱科技有限公司"
+        "广州三狼网络有限公司"
       ],
       "board_history": {
-        "wx/人气榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 54,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "指尖炫舞": {
-      "name": "指尖炫舞",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [
-        "休闲"
-      ],
-      "publishers": [
-        "深圳市图灵游戏科技有限公司"
-      ],
-      "board_history": {
-        "wx/人气榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 66,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "超级找一找": {
-      "name": "超级找一找",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [
-        "休闲"
-      ],
-      "publishers": [
-        "广州九九互娱科技有限公司"
-      ],
-      "board_history": {
-        "wx/人气榜": {
+        "wx/畅玩榜": {
           "first_seen": "2026-07-01",
           "last_seen": "2026-07-01",
-          "best_rank": 89,
+          "best_rank": 100,
           "appearances": 1
-        }
-      }
-    },
-    "进化吧异兽": {
-      "name": "进化吧异兽",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [
-        "动作"
-      ],
-      "publishers": [
-        "福州中恒乐游网络科技有限公司"
-      ],
-      "board_history": {
-        "wx/人气榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 93,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "轻松乐闯关": {
-      "name": "轻松乐闯关",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [
-        "休闲"
-      ],
-      "publishers": [
-        "广州探游网络科技有限公司"
-      ],
-      "board_history": {
-        "wx/人气榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-01",
-          "best_rank": 99,
-          "appearances": 1
-        }
-      }
-    },
-    "智商我最牛": {
-      "name": "智商我最牛",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "广州晟越信息技术有限公司"
-      ],
-      "board_history": {
-        "douyin/热门榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 4,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "脑洞玩梗赛": {
-      "name": "脑洞玩梗赛",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "苏州橙美信息技术有限公司"
-      ],
-      "board_history": {
-        "douyin/热门榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 13,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        },
-        "douyin/畅销榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 53,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "问你服不服": {
-      "name": "问你服不服",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "快点文化传播（上海）有限公司"
-      ],
-      "board_history": {
-        "douyin/热门榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 60,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
         }
       }
     },
@@ -9112,74 +9011,32 @@
         "douyin/热门榜": {
           "first_seen": "2026-07-01",
           "last_seen": "2026-07-02",
-          "best_rank": 65,
+          "best_rank": 25,
           "appearances": 2,
           "_last_day_counted": "2026-07-02"
         },
         "douyin/畅销榜": {
           "first_seen": "2026-07-01",
           "last_seen": "2026-07-02",
-          "best_rank": 67,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "梗界名侦探": {
-      "name": "梗界名侦探",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "广州小贝科技有限公司"
-      ],
-      "board_history": {
-        "douyin/热门榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 69,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "爆梗我贼溜": {
-      "name": "爆梗我贼溜",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "广州双百信息科技有限公司"
-      ],
-      "board_history": {
-        "douyin/热门榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 71,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "脑洞疯狂秀": {
-      "name": "脑洞疯狂秀",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "深圳市欢乐畅玩科技有限公司"
-      ],
-      "board_history": {
-        "douyin/热门榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 72,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        },
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
           "best_rank": 64,
           "appearances": 2,
           "_last_day_counted": "2026-07-02"
+        }
+      }
+    },
+    "脑瓜不灵光": {
+      "name": "脑瓜不灵光",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "广州宝可梦科技有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-01",
+          "best_rank": 55,
+          "appearances": 1
         }
       }
     },
@@ -9211,7 +9068,57 @@
         "douyin/热门榜": {
           "first_seen": "2026-07-01",
           "last_seen": "2026-07-02",
-          "best_rank": 91,
+          "best_rank": 83,
+          "appearances": 2,
+          "_last_day_counted": "2026-07-02"
+        }
+      }
+    },
+    "挑战最强智商": {
+      "name": "挑战最强智商",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "海南麦豆信息科技有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-01",
+          "best_rank": 85,
+          "appearances": 1
+        }
+      }
+    },
+    "梗界名侦探": {
+      "name": "梗界名侦探",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "广州小贝科技有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-02",
+          "best_rank": 69,
+          "appearances": 2,
+          "_last_day_counted": "2026-07-02"
+        }
+      }
+    },
+    "问你服不服": {
+      "name": "问你服不服",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "快点文化传播（上海）有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-02",
+          "best_rank": 60,
           "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
@@ -9228,26 +9135,25 @@
         "douyin/热门榜": {
           "first_seen": "2026-07-01",
           "last_seen": "2026-07-02",
-          "best_rank": 97,
+          "best_rank": 95,
           "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
       }
     },
-    "超级节奏101": {
-      "name": "超级节奏101",
+    "节奏盒子安静书": {
+      "name": "节奏盒子安静书",
       "first_seen_anywhere": "2026-07-01",
       "categories": [],
       "publishers": [
-        "厦门凯斌信息科技有限公司"
+        "深圳快乐游科技有限公司"
       ],
       "board_history": {
         "douyin/热门榜": {
           "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 99,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "last_seen": "2026-07-01",
+          "best_rank": 96,
+          "appearances": 1
         }
       }
     },
@@ -9262,9 +9168,91 @@
         "douyin/畅销榜": {
           "first_seen": "2026-07-01",
           "last_seen": "2026-07-02",
-          "best_rank": 28,
+          "best_rank": 24,
           "appearances": 2,
           "_last_day_counted": "2026-07-02"
+        }
+      }
+    },
+    "极限萌怪": {
+      "name": "极限萌怪",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "霍尔果斯天翔信息技术有限公司"
+      ],
+      "board_history": {
+        "douyin/畅销榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-01",
+          "best_rank": 52,
+          "appearances": 1
+        }
+      }
+    },
+    "剑之勇者": {
+      "name": "剑之勇者",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "深圳影流互娱科技有限公司"
+      ],
+      "board_history": {
+        "douyin/畅销榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-02",
+          "best_rank": 72,
+          "appearances": 2,
+          "_last_day_counted": "2026-07-02"
+        }
+      }
+    },
+    "黎明生存": {
+      "name": "黎明生存",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "上海趣侬网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/畅销榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-02",
+          "best_rank": 86,
+          "appearances": 2,
+          "_last_day_counted": "2026-07-02"
+        }
+      }
+    },
+    "剑侠传奇": {
+      "name": "剑侠传奇",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "深圳市小黑龙网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/畅销榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-01",
+          "best_rank": 87,
+          "appearances": 1
+        }
+      }
+    },
+    "途游斗地主（比赛版）": {
+      "name": "途游斗地主（比赛版）",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "在线途游（北京）科技有限公司"
+      ],
+      "board_history": {
+        "douyin/畅销榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-01",
+          "best_rank": 94,
+          "appearances": 1
         }
       }
     },
@@ -9285,86 +9273,18 @@
         }
       }
     },
-    "放开那妖怪": {
-      "name": "放开那妖怪",
+    "全能吞噬王": {
+      "name": "全能吞噬王",
       "first_seen_anywhere": "2026-07-01",
       "categories": [],
       "publishers": [
-        "海南领域互娱科技有限公司"
+        "广州蓝风互动科技有限公司"
       ],
       "board_history": {
-        "douyin/畅销榜": {
+        "douyin/新游榜": {
           "first_seen": "2026-07-01",
           "last_seen": "2026-07-02",
-          "best_rank": 76,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "时光杂货店": {
-      "name": "时光杂货店",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "安徽雷虎网络科技有限公司"
-      ],
-      "board_history": {
-        "douyin/畅销榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 82,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "剑之勇者": {
-      "name": "剑之勇者",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "深圳影流互娱科技有限公司"
-      ],
-      "board_history": {
-        "douyin/畅销榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 86,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "魔灵纪元": {
-      "name": "魔灵纪元",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "郑州信跃网络科技有限公司"
-      ],
-      "board_history": {
-        "douyin/畅销榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 97,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "黎明生存": {
-      "name": "黎明生存",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "上海趣侬网络科技有限公司"
-      ],
-      "board_history": {
-        "douyin/畅销榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 99,
+          "best_rank": 11,
           "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
@@ -9387,18 +9307,18 @@
         }
       }
     },
-    "脑瓜转的快": {
-      "name": "脑瓜转的快",
+    "魔塔100层": {
+      "name": "魔塔100层",
       "first_seen_anywhere": "2026-07-01",
       "categories": [],
       "publishers": [
-        "重庆云威科技有限公司"
+        "厦门爱看网络科技有限公司"
       ],
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-07-01",
           "last_seen": "2026-07-02",
-          "best_rank": 9,
+          "best_rank": 14,
           "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
@@ -9421,8 +9341,8 @@
         }
       }
     },
-    "我的沙盒像素": {
-      "name": "我的沙盒像素",
+    "终极赛车竞速": {
+      "name": "终极赛车竞速",
       "first_seen_anywhere": "2026-07-01",
       "categories": [],
       "publishers": [
@@ -9432,43 +9352,57 @@
         "douyin/新游榜": {
           "first_seen": "2026-07-01",
           "last_seen": "2026-07-02",
-          "best_rank": 13,
+          "best_rank": 23,
           "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
       }
     },
-    "平面僵尸战场3D": {
-      "name": "平面僵尸战场3D",
+    "抓住那只猪": {
+      "name": "抓住那只猪",
       "first_seen_anywhere": "2026-07-01",
       "categories": [],
       "publishers": [
-        "长沙优乐创游科技有限公司"
+        "厦门爱看网络科技有限公司"
       ],
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 16,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "last_seen": "2026-07-01",
+          "best_rank": 26,
+          "appearances": 1
         }
       }
     },
-    "仿生战士": {
-      "name": "仿生战士",
+    "快乐挪车车": {
+      "name": "快乐挪车车",
       "first_seen_anywhere": "2026-07-01",
       "categories": [],
       "publishers": [
-        "天津津版数融传媒有限公司"
+        "深圳市猎游科技有限公司"
       ],
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 17,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "last_seen": "2026-07-01",
+          "best_rank": 30,
+          "appearances": 1
+        }
+      }
+    },
+    "钓鱼乐园": {
+      "name": "钓鱼乐园",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "杭州巨好玩时代信息技术有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-01",
+          "best_rank": 31,
+          "appearances": 1
         }
       }
     },
@@ -9489,131 +9423,12 @@
         }
       }
     },
-    "这波稳了": {
-      "name": "这波稳了",
+    "坦克生死对决": {
+      "name": "坦克生死对决",
       "first_seen_anywhere": "2026-07-01",
       "categories": [],
       "publishers": [
-        "长沙翌游科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 21,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "足球大玩家": {
-      "name": "足球大玩家",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "杭州拓能者科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 22,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "超自然行动大冒险": {
-      "name": "超自然行动大冒险",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "个人开发者"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 24,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "我的手贼长": {
-      "name": "我的手贼长",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "深圳市小橙网络科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 27,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "鸡尾酒加冰": {
-      "name": "鸡尾酒加冰",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "武汉爆鸣互娱科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 28,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "邪修大闯关": {
-      "name": "邪修大闯关",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "广州指上文化传媒有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 29,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "太空忍者格斗": {
-      "name": "太空忍者格斗",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "厦门次元星球网络科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 32,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "仙神之怒": {
-      "name": "仙神之怒",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "广州熠游网络科技有限公司"
+        "厦门猫游互动网络科技有限公司"
       ],
       "board_history": {
         "douyin/新游榜": {
@@ -9625,20 +9440,19 @@
         }
       }
     },
-    "指尖节奏球": {
-      "name": "指尖节奏球",
+    "谐音梗对决": {
+      "name": "谐音梗对决",
       "first_seen_anywhere": "2026-07-01",
       "categories": [],
       "publishers": [
-        "个人开发者"
+        "哈尔滨市隙光网络科技有限公司"
       ],
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 36,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "last_seen": "2026-07-01",
+          "best_rank": 41,
+          "appearances": 1
         }
       }
     },
@@ -9659,131 +9473,12 @@
         }
       }
     },
-    "全民大富豪": {
-      "name": "全民大富豪",
+    "像素全面战争": {
+      "name": "像素全面战争",
       "first_seen_anywhere": "2026-07-01",
       "categories": [],
       "publishers": [
-        "东阳指境传媒有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 43,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "无限开放世界": {
-      "name": "无限开放世界",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "南京举手之劳贸易有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 48,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "不朽骑士": {
-      "name": "不朽骑士",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "广州聚灵互娱科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 49,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "脑洞救火柴人": {
-      "name": "脑洞救火柴人",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "深圳市小创趣游网络科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 50,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "冒险不认输": {
-      "name": "冒险不认输",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "深圳布丁鱼网络科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 51,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "狂突突解压": {
-      "name": "狂突突解压",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "深圳市优玩互娱科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 53,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "拼豆研究生": {
-      "name": "拼豆研究生",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "北京米兜科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 54,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "随机空岛生存世界": {
-      "name": "随机空岛生存世界",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "武汉庐游科技有限公司"
+        "厦门筑姚网络科技有限公司"
       ],
       "board_history": {
         "douyin/新游榜": {
@@ -9812,20 +9507,127 @@
         }
       }
     },
-    "坦克生死对决": {
-      "name": "坦克生死对决",
+    "这关贼能滚": {
+      "name": "这关贼能滚",
       "first_seen_anywhere": "2026-07-01",
       "categories": [],
       "publishers": [
-        "厦门猫游互动网络科技有限公司"
+        "深圳市优玩互娱科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-01",
+          "best_rank": 58,
+          "appearances": 1
+        }
+      }
+    },
+    "我的手贼长": {
+      "name": "我的手贼长",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "深圳市小橙网络科技有限公司"
       ],
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-07-01",
           "last_seen": "2026-07-02",
-          "best_rank": 61,
+          "best_rank": 27,
           "appearances": 2,
           "_last_day_counted": "2026-07-02"
+        }
+      }
+    },
+    "邪修大闯关": {
+      "name": "邪修大闯关",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "广州指上文化传媒有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-02",
+          "best_rank": 29,
+          "appearances": 2,
+          "_last_day_counted": "2026-07-02"
+        }
+      }
+    },
+    "我的沙盒像素": {
+      "name": "我的沙盒像素",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "厦门筑姚网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-02",
+          "best_rank": 13,
+          "appearances": 2,
+          "_last_day_counted": "2026-07-02"
+        }
+      }
+    },
+    "清洁解压模拟器": {
+      "name": "清洁解压模拟器",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "深圳市时间坊贸易有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-02",
+          "best_rank": 62,
+          "appearances": 2,
+          "_last_day_counted": "2026-07-02"
+        }
+      }
+    },
+    "不朽骑士": {
+      "name": "不朽骑士",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "广州聚灵互娱科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-02",
+          "best_rank": 49,
+          "appearances": 2,
+          "_last_day_counted": "2026-07-02"
+        }
+      }
+    },
+    "脑洞疯狂秀": {
+      "name": "脑洞疯狂秀",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "深圳市欢乐畅玩科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-02",
+          "best_rank": 64,
+          "appearances": 2,
+          "_last_day_counted": "2026-07-02"
+        },
+        "douyin/热门榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 72,
+          "appearances": 1
         }
       }
     },
@@ -9846,88 +9648,69 @@
         }
       }
     },
-    "清洁解压模拟器": {
-      "name": "清洁解压模拟器",
+    "萌兔跳一跳": {
+      "name": "萌兔跳一跳",
       "first_seen_anywhere": "2026-07-01",
       "categories": [],
       "publishers": [
-        "深圳市时间坊贸易有限公司"
+        "个人开发者"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-01",
+          "best_rank": 76,
+          "appearances": 1
+        }
+      }
+    },
+    "全民大富豪": {
+      "name": "全民大富豪",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "东阳指境传媒有限公司"
       ],
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-07-01",
           "last_seen": "2026-07-02",
-          "best_rank": 63,
+          "best_rank": 43,
           "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
       }
     },
-    "全能吞噬王": {
-      "name": "全能吞噬王",
+    "有一道门游戏": {
+      "name": "有一道门游戏",
       "first_seen_anywhere": "2026-07-01",
       "categories": [],
       "publishers": [
-        "广州蓝风互动科技有限公司"
+        "厦门驿桥文化传媒有限公司"
       ],
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-07-01",
           "last_seen": "2026-07-02",
-          "best_rank": 67,
+          "best_rank": 78,
           "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
       }
     },
-    "小心别撞车": {
-      "name": "小心别撞车",
+    "超会装扮": {
+      "name": "超会装扮",
       "first_seen_anywhere": "2026-07-01",
       "categories": [],
       "publishers": [
-        "武汉爆鸣互娱科技有限公司"
+        "厦门合梦科技有限公司"
       ],
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 69,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "像素全面战争": {
-      "name": "像素全面战争",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "厦门筑姚网络科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 74,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "终极赛车竞速": {
-      "name": "终极赛车竞速",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "厦门筑姚网络科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 77,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "last_seen": "2026-07-01",
+          "best_rank": 79,
+          "appearances": 1
         }
       }
     },
@@ -9948,122 +9731,52 @@
         }
       }
     },
-    "星际解压宝盒": {
-      "name": "星际解压宝盒",
+    "仙神之怒": {
+      "name": "仙神之怒",
       "first_seen_anywhere": "2026-07-01",
       "categories": [],
       "publishers": [
-        "深圳市优玩互娱科技有限公司"
+        "广州熠游网络科技有限公司"
       ],
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-07-01",
           "last_seen": "2026-07-02",
-          "best_rank": 80,
+          "best_rank": 35,
           "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
       }
     },
-    "双人宿舍发育无敌版": {
-      "name": "双人宿舍发育无敌版",
+    "像素战场求生": {
+      "name": "像素战场求生",
       "first_seen_anywhere": "2026-07-01",
       "categories": [],
       "publishers": [
-        "石家庄清竹网络科技有限公司"
+        "厦门摩丰科技有限公司"
       ],
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 84,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "多人恐怖躲猫猫": {
-      "name": "多人恐怖躲猫猫",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "石家庄清竹网络科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 85,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "一键消不停": {
-      "name": "一键消不停",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "深圳市小橙网络科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
+          "last_seen": "2026-07-01",
           "best_rank": 87,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "appearances": 1
         }
       }
     },
-    "玩会就睡觉": {
-      "name": "玩会就睡觉",
+    "恐龙历险记": {
+      "name": "恐龙历险记",
       "first_seen_anywhere": "2026-07-01",
       "categories": [],
       "publishers": [
-        "深圳海草科技有限公司"
+        "个人开发者"
       ],
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 88,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "魔塔100层": {
-      "name": "魔塔100层",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "厦门爱看网络科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 89,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "时尚换装公主": {
-      "name": "时尚换装公主",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "深圳市积木互娱科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
+          "last_seen": "2026-07-01",
           "best_rank": 92,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "appearances": 1
         }
       }
     },
@@ -10084,71 +9797,51 @@
         }
       }
     },
-    "兵团指挥家": {
-      "name": "兵团指挥家",
+    "变形汽车人游戏": {
+      "name": "变形汽车人游戏",
       "first_seen_anywhere": "2026-07-01",
       "categories": [],
       "publishers": [
-        "厦门大橙互娱科技有限公司"
+        "厦门驿桥文化传媒有限公司"
       ],
       "board_history": {
         "douyin/新游榜": {
           "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 94,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "家棋飞行棋": {
-      "name": "家棋飞行棋",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "乐清家棋文化艺术传播有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 95,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "变幻跑酷": {
-      "name": "变幻跑酷",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "厦门来日方长信息科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 96,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "外星人追猎者": {
-      "name": "外星人追猎者",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "天津趣乐游网络科技有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
+          "last_seen": "2026-07-01",
           "best_rank": 97,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
+          "appearances": 1
+        }
+      }
+    },
+    "极限脑洞盒子": {
+      "name": "极限脑洞盒子",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "深圳市小橙网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-01",
+          "best_rank": 98,
+          "appearances": 1
+        }
+      }
+    },
+    "敢玩别认输": {
+      "name": "敢玩别认输",
+      "first_seen_anywhere": "2026-07-01",
+      "categories": [],
+      "publishers": [
+        "武汉奕聊网络有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-01",
+          "last_seen": "2026-07-01",
+          "best_rank": 99,
+          "appearances": 1
         }
       }
     },
@@ -10164,23 +9857,6 @@
           "first_seen": "2026-07-01",
           "last_seen": "2026-07-02",
           "best_rank": 98,
-          "appearances": 2,
-          "_last_day_counted": "2026-07-02"
-        }
-      }
-    },
-    "有一道门游戏": {
-      "name": "有一道门游戏",
-      "first_seen_anywhere": "2026-07-01",
-      "categories": [],
-      "publishers": [
-        "厦门驿桥文化传媒有限公司"
-      ],
-      "board_history": {
-        "douyin/新游榜": {
-          "first_seen": "2026-07-01",
-          "last_seen": "2026-07-02",
-          "best_rank": 100,
           "appearances": 2,
           "_last_day_counted": "2026-07-02"
         }
@@ -10220,6 +9896,60 @@
         }
       }
     },
+    "指尖炫舞": {
+      "name": "指尖炫舞",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "深圳市图灵游戏科技有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 66,
+          "appearances": 1
+        }
+      }
+    },
+    "数字连连": {
+      "name": "数字连连",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [
+        "休闲"
+      ],
+      "publishers": [
+        "海南连普互娱科技有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 85,
+          "appearances": 1
+        }
+      }
+    },
+    "进化吧异兽": {
+      "name": "进化吧异兽",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [
+        "动作"
+      ],
+      "publishers": [
+        "福州中恒乐游网络科技有限公司"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 93,
+          "appearances": 1
+        }
+      }
+    },
     "种田掌门人": {
       "name": "种田掌门人",
       "first_seen_anywhere": "2026-07-02",
@@ -10255,7 +9985,541 @@
           "appearances": 1
         }
       }
+    },
+    "智商我最牛": {
+      "name": "智商我最牛",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "广州晟越信息技术有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 4,
+          "appearances": 1
+        }
+      }
+    },
+    "脑洞玩梗赛": {
+      "name": "脑洞玩梗赛",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "苏州橙美信息技术有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 13,
+          "appearances": 1
+        },
+        "douyin/畅销榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 53,
+          "appearances": 1
+        }
+      }
+    },
+    "爆梗我贼溜": {
+      "name": "爆梗我贼溜",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "广州双百信息科技有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 71,
+          "appearances": 1
+        }
+      }
+    },
+    "超级节奏101": {
+      "name": "超级节奏101",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "厦门凯斌信息科技有限公司"
+      ],
+      "board_history": {
+        "douyin/热门榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 99,
+          "appearances": 1
+        }
+      }
+    },
+    "放开那妖怪": {
+      "name": "放开那妖怪",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "海南领域互娱科技有限公司"
+      ],
+      "board_history": {
+        "douyin/畅销榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 76,
+          "appearances": 1
+        }
+      }
+    },
+    "时光杂货店": {
+      "name": "时光杂货店",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "安徽雷虎网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/畅销榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 82,
+          "appearances": 1
+        }
+      }
+    },
+    "魔灵纪元": {
+      "name": "魔灵纪元",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "郑州信跃网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/畅销榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 97,
+          "appearances": 1
+        }
+      }
+    },
+    "脑瓜转的快": {
+      "name": "脑瓜转的快",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "重庆云威科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 9,
+          "appearances": 1
+        }
+      }
+    },
+    "平面僵尸战场3D": {
+      "name": "平面僵尸战场3D",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "长沙优乐创游科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 16,
+          "appearances": 1
+        }
+      }
+    },
+    "仿生战士": {
+      "name": "仿生战士",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "天津津版数融传媒有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 17,
+          "appearances": 1
+        }
+      }
+    },
+    "这波稳了": {
+      "name": "这波稳了",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "长沙翌游科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 21,
+          "appearances": 1
+        }
+      }
+    },
+    "足球大玩家": {
+      "name": "足球大玩家",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "杭州拓能者科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 22,
+          "appearances": 1
+        }
+      }
+    },
+    "超自然行动大冒险": {
+      "name": "超自然行动大冒险",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "个人开发者"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 24,
+          "appearances": 1
+        }
+      }
+    },
+    "鸡尾酒加冰": {
+      "name": "鸡尾酒加冰",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "武汉爆鸣互娱科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 28,
+          "appearances": 1
+        }
+      }
+    },
+    "太空忍者格斗": {
+      "name": "太空忍者格斗",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "厦门次元星球网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 32,
+          "appearances": 1
+        }
+      }
+    },
+    "指尖节奏球": {
+      "name": "指尖节奏球",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "个人开发者"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 36,
+          "appearances": 1
+        }
+      }
+    },
+    "无限开放世界": {
+      "name": "无限开放世界",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "南京举手之劳贸易有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 48,
+          "appearances": 1
+        }
+      }
+    },
+    "脑洞救火柴人": {
+      "name": "脑洞救火柴人",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "深圳市小创趣游网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 50,
+          "appearances": 1
+        }
+      }
+    },
+    "冒险不认输": {
+      "name": "冒险不认输",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "深圳布丁鱼网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 51,
+          "appearances": 1
+        }
+      }
+    },
+    "狂突突解压": {
+      "name": "狂突突解压",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "深圳市优玩互娱科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 53,
+          "appearances": 1
+        }
+      }
+    },
+    "拼豆研究生": {
+      "name": "拼豆研究生",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "北京米兜科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 54,
+          "appearances": 1
+        }
+      }
+    },
+    "随机空岛生存世界": {
+      "name": "随机空岛生存世界",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "武汉庐游科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 55,
+          "appearances": 1
+        }
+      }
+    },
+    "小心别撞车": {
+      "name": "小心别撞车",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "武汉爆鸣互娱科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 69,
+          "appearances": 1
+        }
+      }
+    },
+    "星际解压宝盒": {
+      "name": "星际解压宝盒",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "深圳市优玩互娱科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 80,
+          "appearances": 1
+        }
+      }
+    },
+    "双人宿舍发育无敌版": {
+      "name": "双人宿舍发育无敌版",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "石家庄清竹网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 84,
+          "appearances": 1
+        }
+      }
+    },
+    "多人恐怖躲猫猫": {
+      "name": "多人恐怖躲猫猫",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "石家庄清竹网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 85,
+          "appearances": 1
+        }
+      }
+    },
+    "一键消不停": {
+      "name": "一键消不停",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "深圳市小橙网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 87,
+          "appearances": 1
+        }
+      }
+    },
+    "玩会就睡觉": {
+      "name": "玩会就睡觉",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "深圳海草科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 88,
+          "appearances": 1
+        }
+      }
+    },
+    "时尚换装公主": {
+      "name": "时尚换装公主",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "深圳市积木互娱科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 92,
+          "appearances": 1
+        }
+      }
+    },
+    "兵团指挥家": {
+      "name": "兵团指挥家",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "厦门大橙互娱科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 94,
+          "appearances": 1
+        }
+      }
+    },
+    "家棋飞行棋": {
+      "name": "家棋飞行棋",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "乐清家棋文化艺术传播有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 95,
+          "appearances": 1
+        }
+      }
+    },
+    "变幻跑酷": {
+      "name": "变幻跑酷",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "厦门来日方长信息科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 96,
+          "appearances": 1
+        }
+      }
+    },
+    "外星人追猎者": {
+      "name": "外星人追猎者",
+      "first_seen_anywhere": "2026-07-02",
+      "categories": [],
+      "publishers": [
+        "天津趣乐游网络科技有限公司"
+      ],
+      "board_history": {
+        "douyin/新游榜": {
+          "first_seen": "2026-07-02",
+          "last_seen": "2026-07-02",
+          "best_rank": 97,
+          "appearances": 1
+        }
+      }
     }
   },
-  "updated_at": "2026-07-02T08:31:09Z"
+  "updated_at": "2026-07-02T09:17:21Z"
 }
