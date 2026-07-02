@@ -270,12 +270,218 @@ def backfill_daily_diffs(base_url, service_key):
     log(f"[backfill] daily_diffs total: {total}")
 
 
+def backfill_publishers_from_daily(base_url, service_key):
+    """Replay all daily/*.json in date order to reconstruct each
+    publisher's true first_seen_at (day it first appeared) and
+    last_seen_at (most recent day). Also aggregates games and boards.
+
+    Preserves any existing status/note in publisher_status."""
+    files = sorted(DAILY.glob("*.json"))
+    if not files:
+        log("[backfill] daily/ empty, skip publisher rebuild")
+        return
+
+    # Aggregate across all daily snapshots.
+    pubs = {}       # name -> dict(first_seen_at, last_seen_at, games:set, boards:set)
+    board_hist = {} # (name, plat, board) -> dict(first_seen, last_seen, appearances)
+
+    for p in files:
+        snap = json.loads(p.read_text(encoding="utf-8"))
+        day = snap.get("date_beijing") or p.stem
+        for plat_key, plat in snap.get("platforms", {}).items():
+            for board in plat.get("boards", []):
+                board_label = board.get("label")
+                for r in board.get("rows", []):
+                    pub = r.get("publisher")
+                    game = r.get("name")
+                    if not pub:
+                        continue
+                    entry = pubs.get(pub)
+                    if entry is None:
+                        entry = {
+                            "first_seen_at": day,
+                            "last_seen_at": day,
+                            "games": set(),
+                            "boards": set(),
+                        }
+                        pubs[pub] = entry
+                    else:
+                        if day > entry["last_seen_at"]:
+                            entry["last_seen_at"] = day
+                        # Never move first_seen_at forward.
+                    if game:
+                        entry["games"].add(game)
+                    entry["boards"].add(f"{plat_key}/{board_label}")
+
+                    key = (pub, plat_key, board_label)
+                    bh = board_hist.get(key)
+                    if bh is None:
+                        board_hist[key] = {
+                            "first_seen": day,
+                            "last_seen": day,
+                            "days": {day},
+                        }
+                    else:
+                        if day > bh["last_seen"]:
+                            bh["last_seen"] = day
+                        bh["days"].add(day)
+
+    log(f"[backfill] replayed {len(files)} daily files → "
+        f"{len(pubs)} publishers, {len(board_hist)} (pub,board) pairs")
+
+    seed_rows = [
+        {
+            "publisher": name,
+            "status": "pending",
+            "note": "",
+            "first_seen_at": e["first_seen_at"],
+            "last_seen_at": e["last_seen_at"],
+            "total_games": len(e["games"]),
+            "total_boards": len(e["boards"]),
+        }
+        for name, e in pubs.items()
+    ]
+    _post_ignore_duplicates(base_url, service_key,
+                            "publisher_status", seed_rows)
+    log(f"[backfill] publisher_status seeds: {len(seed_rows)}")
+
+    import urllib.parse
+    n = 0
+    for row in seed_rows:
+        # Overwrite date + stat fields (do NOT touch status/note).
+        # Because history was replayed, first_seen_at is now the
+        # correct real date and safe to overwrite.
+        patch_body = {
+            "first_seen_at": row["first_seen_at"],
+            "last_seen_at": row["last_seen_at"],
+            "total_games": row["total_games"],
+            "total_boards": row["total_boards"],
+        }
+        pub_encoded = urllib.parse.quote(row["publisher"], safe="")
+        sb_request(
+            base_url, service_key,
+            f"/publisher_status?publisher=eq.{pub_encoded}",
+            method="PATCH",
+            body=patch_body,
+            prefer="return=minimal",
+        )
+        n += 1
+    log(f"[backfill] publisher_status stats overwritten: {n}")
+
+    board_rows = [
+        {
+            "publisher": name,
+            "platform": plat,
+            "board": board,
+            "first_seen": bh["first_seen"],
+            "last_seen": bh["last_seen"],
+            "appearances": len(bh["days"]),
+        }
+        for (name, plat, board), bh in board_hist.items()
+    ]
+    n = upsert_batch(base_url, service_key,
+                     "publisher_board_history", board_rows,
+                     on_conflict="publisher,platform,board")
+    log(f"[backfill] publisher_board_history: {n}")
+
+
+def backfill_games_from_daily(base_url, service_key):
+    """Same idea for games: replay daily/* and record real first/last dates."""
+    files = sorted(DAILY.glob("*.json"))
+    if not files:
+        return
+
+    games = {}       # name -> {first_seen_at, last_seen_at, publisher, category}
+    board_hist = {}  # (name, plat, board) -> {first_seen, last_seen, best_rank, days}
+
+    for p in files:
+        snap = json.loads(p.read_text(encoding="utf-8"))
+        day = snap.get("date_beijing") or p.stem
+        for plat_key, plat in snap.get("platforms", {}).items():
+            for board in plat.get("boards", []):
+                board_label = board.get("label")
+                for r in board.get("rows", []):
+                    name = r.get("name")
+                    if not name:
+                        continue
+                    e = games.get(name)
+                    if e is None:
+                        e = {
+                            "first_seen_at": day,
+                            "last_seen_at": day,
+                            "publisher": r.get("publisher") or None,
+                            "category": r.get("category") or None,
+                        }
+                        games[name] = e
+                    else:
+                        if day > e["last_seen_at"]:
+                            e["last_seen_at"] = day
+                        if not e["publisher"] and r.get("publisher"):
+                            e["publisher"] = r["publisher"]
+                        if not e["category"] and r.get("category"):
+                            e["category"] = r["category"]
+
+                    key = (name, plat_key, board_label)
+                    bh = board_hist.get(key)
+                    if bh is None:
+                        board_hist[key] = {
+                            "first_seen": day,
+                            "last_seen": day,
+                            "best_rank": r.get("rank"),
+                            "days": {day},
+                        }
+                    else:
+                        if day > bh["last_seen"]:
+                            bh["last_seen"] = day
+                        rank = r.get("rank")
+                        if rank is not None and (
+                            bh["best_rank"] is None or rank < bh["best_rank"]
+                        ):
+                            bh["best_rank"] = rank
+                        bh["days"].add(day)
+
+    game_rows = [
+        {
+            "name": name,
+            "first_seen_at": e["first_seen_at"],
+            "last_seen_at": e["last_seen_at"],
+            "publisher_name": e["publisher"],
+            "category": e["category"],
+        }
+        for name, e in games.items()
+    ]
+    n = upsert_batch(base_url, service_key, "games", game_rows,
+                     on_conflict="name")
+    log(f"[backfill] games (rebuilt): {n}")
+
+    board_rows = [
+        {
+            "game_name": name,
+            "platform": plat,
+            "board": board,
+            "first_seen": bh["first_seen"],
+            "last_seen": bh["last_seen"],
+            "best_rank": bh["best_rank"],
+            "appearances": len(bh["days"]),
+        }
+        for (name, plat, board), bh in board_hist.items()
+    ]
+    n = upsert_batch(base_url, service_key,
+                     "game_board_history", board_rows,
+                     on_conflict="game_name,platform,board")
+    log(f"[backfill] game_board_history (rebuilt): {n}")
+
+
 def main():
     base_url = env("SUPABASE_URL")
     service_key = env("SUPABASE_SERVICE_KEY")
 
-    backfill_games(base_url, service_key)
-    backfill_publishers(base_url, service_key)
+    # Rebuild games + publishers from the actual daily history so that
+    # first_seen dates reflect reality, not "the day base/*.json was written".
+    backfill_games_from_daily(base_url, service_key)
+    backfill_publishers_from_daily(base_url, service_key)
+
+    # daily_snapshots + daily_diffs never had this issue — replay them straight.
     backfill_daily_snapshots(base_url, service_key)
     backfill_daily_diffs(base_url, service_key)
 
