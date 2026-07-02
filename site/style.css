@@ -473,32 +473,41 @@ footer a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 /* Board tags — muted pills that don't visually break the row */
 .pub-boards {
-  display: flex;
+  display: inline-flex;
   gap: 4px;
   flex-wrap: nowrap;      /* keep on a single line, ellipsize with +N */
   align-items: center;
   max-width: 260px;
-  overflow: hidden;
+  vertical-align: middle;
 }
 .board-tag {
   background: var(--brand-tint);
   color: var(--brand-2);
-  padding: 2px 8px;
+  padding: 1px 8px;
   border-radius: var(--radius-pill);
   border: none;
   font-size: 10.5px;
   font-weight: 600;
   white-space: nowrap;
-  line-height: 1.5;
-  height: 20px;
+  line-height: 16px;
+  height: 18px;
   display: inline-flex;
   align-items: center;
   flex-shrink: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100px;
 }
 .board-tag.board-tag-more {
   color: var(--muted);
   background: #f1f5f9;
   cursor: help;
+  max-width: none;
+}
+
+/* If content is dense and tags start dropping, shrink text a hair */
+@media (max-width: 1100px) {
+  .board-tag { font-size: 10px; padding: 1px 6px; max-width: 80px; }
 }
 
 /* Compact rows in the publisher table. */
