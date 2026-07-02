@@ -138,15 +138,44 @@ function renderRows() {
   const tbody = document.querySelector("#tbl-pub tbody");
   tbody.innerHTML = "";
   const q = state.search.trim().toLowerCase();
-  let shown = 0;
-  for (const p of state.publishers) {
+
+  // Filter first (search + status).
+  const filtered = state.publishers.filter(p => {
     const st = statusOf(p.name);
-    if (state.filter !== "all" && st !== state.filter) continue;
+    if (state.filter !== "all" && st !== state.filter) return false;
     if (q) {
       const hay = (p.name + " " + p.games.join(" ")).toLowerCase();
-      if (hay.indexOf(q) === -1) continue;
+      if (hay.indexOf(q) === -1) return false;
     }
-    shown++;
+    return true;
+  });
+
+  if (!filtered.length) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td colspan="5" class="muted" style="text-align:center;padding:24px">无匹配</td>`;
+    tbody.appendChild(tr);
+    return;
+  }
+
+  // Group by first_seen date. state.publishers is already sorted by
+  // first_seen desc + name asc, so grouping in order gives newest → oldest.
+  let currentDate = null;
+  for (const p of filtered) {
+    const seenDate = p.first_seen || "未知日期";
+    if (seenDate !== currentDate) {
+      currentDate = seenDate;
+      // Count publishers in this group after applying the same filters.
+      const groupSize = filtered.filter(x => (x.first_seen || "未知日期") === seenDate).length;
+      const tr = document.createElement("tr");
+      tr.className = "date-divider";
+      tr.innerHTML = `<td colspan="5">
+        <span class="dv-date">${escapeHTML(seenDate)}</span>
+        <span class="dv-count">首次出现 ${groupSize} 家</span>
+      </td>`;
+      tbody.appendChild(tr);
+    }
+
+    const st = statusOf(p.name);
     const tr = document.createElement("tr");
     tr.dataset.name = p.name;
     if (st !== "pending") tr.classList.add(`row-${st}`);
@@ -161,11 +190,6 @@ function renderRows() {
       <td class="pub-boards">${boards}</td>
       <td>${statusButtonsHTML(p.name, st)}</td>
       <td>${noteFieldHTML(p.name, note)}</td>`;
-    tbody.appendChild(tr);
-  }
-  if (!shown) {
-    const tr = document.createElement("tr");
-    tr.innerHTML = `<td colspan="5" class="muted" style="text-align:center;padding:24px">无匹配</td>`;
     tbody.appendChild(tr);
   }
 }

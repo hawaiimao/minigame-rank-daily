@@ -486,6 +486,27 @@ footer a:hover { text-decoration: underline; }
   padding: 6px 10px;
 }
 
+/* Date divider between publisher groups (grouped by first_seen). */
+tr.date-divider td {
+  padding: 14px 10px 6px;
+  border-bottom: 1px solid var(--border-strong);
+  background: transparent;
+}
+tr.date-divider .dv-date {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+  padding: 3px 10px;
+  background: var(--accent-soft);
+  border-radius: 999px;
+  margin-right: 10px;
+}
+tr.date-divider .dv-count {
+  font-size: 11px;
+  color: var(--muted);
+}
+tr.date-divider:hover { background: transparent; }
+
 .note-input {
   width: 100%;
   min-width: 160px;
