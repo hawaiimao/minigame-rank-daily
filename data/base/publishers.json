@@ -1610,7 +1610,8 @@
         "杜拉拉升职记",
         "心跳陷落",
         "熹妃传",
-        "宫廷风云"
+        "宫廷风云",
+        "Hello Kitty My Dream Store（TapTap 测试版）"
       ],
       "board_history": {
         "douyin/畅销榜": {
@@ -1629,6 +1630,12 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-06",
           "appearances": 7,
+          "_last_day_counted": "2026-07-06"
+        },
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
           "_last_day_counted": "2026-07-06"
         }
       }
@@ -7670,7 +7677,1121 @@
           "_last_day_counted": "2026-07-06"
         }
       }
+    },
+    "腾讯": {
+      "name": "腾讯",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "失控进化",
+        "怪物猎人：旅人",
+        "粒粒的小人国",
+        "饥困荒野",
+        "奥星热浪",
+        "追逐卡蕾多",
+        "异人之下"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "网易游戏": {
+      "name": "网易游戏",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "遗忘之海",
+        "无限大",
+        "山海奇旅"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "祖龙": {
+      "name": "祖龙",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "代号：神不言"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "祖龙游戏": {
+      "name": "祖龙游戏",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "诡秘之主：愚者"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "Game Tree": {
+      "name": "Game Tree",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "苏丹的游戏"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "乐元素": {
+      "name": "乐元素",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "白银之城",
+        "V Project"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "纸嫁衣工作室": {
+      "name": "纸嫁衣工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "纸嫁衣9罗浮梦"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "杭州弹指宇宙网络有限公司": {
+      "name": "杭州弹指宇宙网络有限公司",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "诡秘之主"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "微乐游戏": {
+      "name": "微乐游戏",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "龙岛异兽起源"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "miHoYo": {
+      "name": "miHoYo",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "崩坏：因缘精灵",
+        "星布谷地"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "朝夕光年": {
+      "name": "朝夕光年",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "集合！浆果镇"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "爪印工作室": {
+      "name": "爪印工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "伊莫"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "哔哩哔哩游戏": {
+      "name": "哔哩哔哩游戏",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "三国志：王道天下",
+        "三国火凤燎原",
+        "闪耀吧！噜咪"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "十英工作室": {
+      "name": "十英工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "破烂水手"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "蛮奈网络": {
+      "name": "蛮奈网络",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "蓝色星原：旅谣"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "伴心制作组": {
+      "name": "伴心制作组",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "外婆的手账本"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "望月游戏研究院": {
+      "name": "望月游戏研究院",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "望月"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "上海星烁互娱": {
+      "name": "上海星烁互娱",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "约定之日"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "心动": {
+      "name": "心动",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "舒舒服服小岛时光",
+        "球比伦战记",
+        "梦之形",
+        "仙境传说RO：守护永恒的爱2",
+        "黑漆漆",
+        "料理人班乔"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "财可咪工作室": {
+      "name": "财可咪工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "奶茶店模拟器——重生之我在冰堡甜城当店长"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "Veewo Games": {
+      "name": "Veewo Games",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "霓虹深渊2"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "生境科技": {
+      "name": "生境科技",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "森盒"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "上海游碧曜": {
+      "name": "上海游碧曜",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "镇魂街王者归来"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "快哉风": {
+      "name": "快哉风",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "剑隐侠踪录"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "星然互娱": {
+      "name": "星然互娱",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "仙逆：战天道"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "缇米乐工作室": {
+      "name": "缇米乐工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "追迹迷城"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "河图工作室": {
+      "name": "河图工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "上古河图"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "上海灵契数智科技有限公司": {
+      "name": "上海灵契数智科技有限公司",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "月光茧"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "飞光阁工作室": {
+      "name": "飞光阁工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "七界梦谭"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "隐隐山工作室": {
+      "name": "隐隐山工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "代号莲"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "锡鸟游戏": {
+      "name": "锡鸟游戏",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "爱与机器人维修技术"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "超爽割草工作室": {
+      "name": "超爽割草工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "云海寻仙记"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "绿梦工作室": {
+      "name": "绿梦工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "绿梦：时空之声"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "初云": {
+      "name": "初云",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "代号：云端"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "东极六感": {
+      "name": "东极六感",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "二十四节气"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "古玩工作室": {
+      "name": "古玩工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "沙盘战争：三国"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "机核发行": {
+      "name": "机核发行",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "黄油猫"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "Fluffnest": {
+      "name": "Fluffnest",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "PuffPals: Island Skies"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "时迹网络": {
+      "name": "时迹网络",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "谁淹了我的世界"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "neos": {
+      "name": "neos",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "蜡笔小新之小帮手大作战"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "乌宝工作室": {
+      "name": "乌宝工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "乌托"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "雷霆游戏": {
+      "name": "雷霆游戏",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "失落城堡2"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "冬日煮米游戏制作组": {
+      "name": "冬日煮米游戏制作组",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "纤维"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "十个美梦工作室": {
+      "name": "十个美梦工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "五星好市民"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "白星游戏工作室": {
+      "name": "白星游戏工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "满庭芳·宋上繁华"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "蜗牛游戏": {
+      "name": "蜗牛游戏",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "方舟：生存进化"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "鹰目科技": {
+      "name": "鹰目科技",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "小垠的秘密"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "方尖碑": {
+      "name": "方尖碑",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "芙娅之魂"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "北京沐言星河科技有限公司": {
+      "name": "北京沐言星河科技有限公司",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "星眠"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "关关物语（北京）科技有限公司": {
+      "name": "关关物语（北京）科技有限公司",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "TA在"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "失眠游戏": {
+      "name": "失眠游戏",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "翡翠刮刮刮"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "广州鬼马网络有限公司": {
+      "name": "广州鬼马网络有限公司",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "拉尼亚（TapTap测试版）"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "胖布丁游戏": {
+      "name": "胖布丁游戏",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "我不是胖虎：小岛大当家"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "新闻消息": {
+      "name": "新闻消息",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "BanG Dream! Our Notes",
+        "可口的咖啡",
+        "荒野大镖客：救赎"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "儒意景秀": {
+      "name": "儒意景秀",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "饼干人联盟"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "灵动互娱": {
+      "name": "灵动互娱",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "万华律（TapTap 测试版）"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "淘气泡游戏": {
+      "name": "淘气泡游戏",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "代号：深渊之歌（TapTap 测试版）"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "盏灯工作室": {
+      "name": "盏灯工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "这是谐音梗"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "啊吉游": {
+      "name": "啊吉游",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "伍六七：暗影交锋"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "嘉豪工作室": {
+      "name": "嘉豪工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "在外挂里打游戏"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "赘有趣工作室": {
+      "name": "赘有趣工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "赘婿"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "HN工作室": {
+      "name": "HN工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "盗梦英雄2：幻野"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "Joychasing Games": {
+      "name": "Joychasing Games",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "以传说之名"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "彩奈": {
+      "name": "彩奈",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "妹居物语"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "Erabit CN": {
+      "name": "Erabit CN",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "土豆兄弟"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "王国大作战工作室": {
+      "name": "王国大作战工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "王国大作战：前线"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "刀盾工作室": {
+      "name": "刀盾工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "秘境夺金"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "成都世界之光科技有限公司": {
+      "name": "成都世界之光科技有限公司",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "世界之光"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "良心工作室": {
+      "name": "良心工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "代号:速降(Descenders)"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "剑工作室": {
+      "name": "剑工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "大侠闯天下"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "前方工作室": {
+      "name": "前方工作室",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "情感反诈模拟器"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "二律背反": {
+      "name": "二律背反",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "圣歌德嘉的挽歌"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "沐瞳": {
+      "name": "沐瞳",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "代号：Lovania"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
     }
   },
-  "updated_at": "2026-07-06T14:15:45Z"
+  "updated_at": "2026-07-06T14:32:52Z"
 }
