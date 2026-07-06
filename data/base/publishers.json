@@ -2444,15 +2444,15 @@
       "board_history": {
         "wx/人气榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-07-06",
-          "appearances": 6,
-          "_last_day_counted": "2026-07-06"
+          "last_seen": "2026-07-05",
+          "appearances": 5,
+          "_last_day_counted": "2026-07-05"
         },
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-07-06",
-          "appearances": 7,
-          "_last_day_counted": "2026-07-06"
+          "last_seen": "2026-07-05",
+          "appearances": 6,
+          "_last_day_counted": "2026-07-05"
         }
       }
     },
@@ -2738,9 +2738,9 @@
       "board_history": {
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-07-04",
-          "appearances": 5,
-          "_last_day_counted": "2026-07-04"
+          "last_seen": "2026-07-06",
+          "appearances": 6,
+          "_last_day_counted": "2026-07-06"
         }
       }
     },
@@ -2853,9 +2853,9 @@
       "board_history": {
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-07-06",
-          "appearances": 7,
-          "_last_day_counted": "2026-07-06"
+          "last_seen": "2026-07-05",
+          "appearances": 6,
+          "_last_day_counted": "2026-07-05"
         },
         "douyin/畅销榜": {
           "first_seen": "2026-07-06",
@@ -3199,9 +3199,9 @@
       "board_history": {
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-07-01",
-          "appearances": 2,
-          "_last_day_counted": "2026-07-01"
+          "last_seen": "2026-07-06",
+          "appearances": 3,
+          "_last_day_counted": "2026-07-06"
         }
       }
     },
@@ -3303,6 +3303,12 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-06",
           "appearances": 7,
+          "_last_day_counted": "2026-07-06"
+        },
+        "wx/人气榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
           "_last_day_counted": "2026-07-06"
         }
       }
@@ -3632,6 +3638,12 @@
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-06",
           "appearances": 7,
+          "_last_day_counted": "2026-07-06"
+        },
+        "wx/人气榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
           "_last_day_counted": "2026-07-06"
         }
       }
@@ -4557,6 +4569,12 @@
           "last_seen": "2026-07-06",
           "appearances": 7,
           "_last_day_counted": "2026-07-06"
+        },
+        "wx/畅销榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
         }
       }
     },
@@ -4838,9 +4856,9 @@
         },
         "wx/畅销榜": {
           "first_seen": "2026-07-01",
-          "last_seen": "2026-07-06",
-          "appearances": 6,
-          "_last_day_counted": "2026-07-06"
+          "last_seen": "2026-07-05",
+          "appearances": 5,
+          "_last_day_counted": "2026-07-05"
         }
       }
     },
@@ -6394,6 +6412,12 @@
           "last_seen": "2026-07-06",
           "appearances": 5,
           "_last_day_counted": "2026-07-06"
+        },
+        "wx/人气榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-06"
         }
       }
     },
@@ -6999,9 +7023,9 @@
       "board_history": {
         "wx/畅销榜": {
           "first_seen": "2026-07-04",
-          "last_seen": "2026-07-06",
-          "appearances": 3,
-          "_last_day_counted": "2026-07-06"
+          "last_seen": "2026-07-05",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-05"
         }
       }
     },
@@ -7319,9 +7343,9 @@
       "board_history": {
         "wx/人气榜": {
           "first_seen": "2026-07-05",
-          "last_seen": "2026-07-06",
-          "appearances": 2,
-          "_last_day_counted": "2026-07-06"
+          "last_seen": "2026-07-05",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-05"
         }
       }
     },
@@ -7457,6 +7481,21 @@
           "first_seen": "2026-07-05",
           "last_seen": "2026-07-06",
           "appearances": 2,
+          "_last_day_counted": "2026-07-06"
+        }
+      }
+    },
+    "厦门登游科技有限公司": {
+      "name": "厦门登游科技有限公司",
+      "first_seen_anywhere": "2026-07-06",
+      "games": [
+        "俄罗斯方块豪华版"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-07-06",
+          "last_seen": "2026-07-06",
+          "appearances": 1,
           "_last_day_counted": "2026-07-06"
         }
       }
@@ -7633,5 +7672,5 @@
       }
     }
   },
-  "updated_at": "2026-07-06T13:56:44Z"
+  "updated_at": "2026-07-06T14:15:45Z"
 }
