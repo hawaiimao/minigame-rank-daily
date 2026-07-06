@@ -1,16 +1,21 @@
 /* Dashboard for the gravity-engine ranking tracker.
- * Reads from Supabase (see sb.js). Falls back to nothing if Supabase is
- * unreachable — the JSON files under data/ are still committed by CI as
- * a durable backup, but the frontend no longer parses them.
+ * Reads from Supabase (see sb.js). Boards are loaded lazily: only the
+ * active board's snapshot + diff are fetched (not all boards at once),
+ * and results are cached per date so switching back to a seen board or
+ * date is instant. The full-board table renders in pages of PAGE_SIZE
+ * rows at a time via a "加载更多" button instead of dumping every row
+ * into the DOM up front.
  */
 
 const PLATFORM_ORDER = [
   ["wx", "微信小游戏"],
   ["douyin", "抖音小游戏"],
+  ["taptap", "TapTap"],
 ];
 const BOARD_LABELS = {
   wx: ["畅销榜", "畅玩榜", "人气榜"],
   douyin: ["畅销榜", "热门榜", "新游榜"],
+  taptap: ["预约榜"],
 };
 
 // Icon per board name (works across platforms).
@@ -20,20 +25,25 @@ const BOARD_ICON = {
   "人气榜": "🔥",
   "热门榜": "⚡",
   "新游榜": "✨",
+  "预约榜": "📅",
 };
+
+// Rows rendered per "page" in the full-board table.
+const PAGE_SIZE = 50;
 
 const state = {
   currentDate: null,          // YYYY-MM-DD (Beijing)
   availableDates: [],         // sorted asc
-  boardsByKey: {},            // "wx/人气榜" → [row, ...] (rows for currentDate)
-  diffByKey: {},              // "wx/人气榜" → { new_to_board: [...], returning: [...], new_publishers: [...] }
+  // cache[date]["plat/label"] = { rows, diff }
+  cache: {},
   activeBoard: null,          // {plat, label}
+  fullBoardPage: 0,          // pages already rendered for the active board
 };
 
 function $(id) { return document.getElementById(id); }
 
 function platLabelOf(key) {
-  return ({ wx: "微信小游戏", douyin: "抖音小游戏" })[key] || key;
+  return ({ wx: "微信小游戏", douyin: "抖音小游戏", taptap: "TapTap" })[key] || key;
 }
 
 function escapeHTML(s) {
@@ -43,6 +53,13 @@ function escapeHTML(s) {
 }
 
 function boardKey(plat, label) { return `${plat}/${label}`; }
+
+function cacheEntry(date, plat, label) {
+  return state.cache[date] && state.cache[date][boardKey(plat, label)];
+}
+function setCacheEntry(date, plat, label, data) {
+  ((state.cache[date] ||= {}))[boardKey(plat, label)] = data;
+}
 
 // ---------- data loading ----------
 
@@ -68,80 +85,70 @@ async function loadAvailableDates() {
   return dates;
 }
 
-async function loadSnapshotForDate(date) {
-  const rows = await window.sb.select("daily_snapshots", {
-    match: { snapshot_date: date },
-    order: "platform.asc,board.asc,rank.asc",
-    limit: 5000,
-  });
-  const byBoard = {};
-  for (const r of rows) {
-    const key = boardKey(r.platform, r.board);
-    (byBoard[key] ||= []).push({
-      rank: r.rank,
-      name: r.game_name,
-      publisher: r.publisher_name || "",
-      change: r.change_raw || "",
-      change_direction: r.change_direction,
-      category: r.category || "",
-      category_rank: r.category_rank,
-      subcategory: r.subcategory || "",
-      slogan: r.slogan || "",
-    });
-  }
-  state.boardsByKey = byBoard;
-  state.currentDate = date;
+function mapSnapshotRow(r) {
+  return {
+    rank: r.rank,
+    name: r.game_name,
+    publisher: r.publisher_name || "",
+    change: r.change_raw || "",
+    change_direction: r.change_direction,
+    category: r.category || "",
+    category_rank: r.category_rank,
+    subcategory: r.subcategory || "",
+    slogan: r.slogan || "",
+  };
 }
 
-async function loadDiffForDate(date) {
-  // 1) Read daily_diffs (categorised game entries).
-  const diffRows = await window.sb.select("daily_diffs", {
-    match: { snapshot_date: date },
-    order: "platform.asc,board.asc,rank.asc",
-    limit: 2000,
-  });
-  const byBoard = {};
+// Fetch one board's snapshot + diff in parallel. `date` is the snapshot
+// date; `plat`/`label` select the board. Returns { rows, diff }.
+async function loadBoardData(date, plat, label) {
+  const [snapRows, diffRows, pbhRows] = await Promise.all([
+    window.sb.select("daily_snapshots", {
+      match: { snapshot_date: date, platform: plat, board: label },
+      order: "rank.asc",
+      limit: 500,
+    }),
+    window.sb.select("daily_diffs", {
+      match: { snapshot_date: date, platform: plat, board: label },
+      order: "rank.asc",
+      limit: 1000,
+    }),
+    window.sb.select("publisher_board_history", {
+      raw: {
+        first_seen: `eq.${date}`,
+        platform: `eq.${plat}`,
+        board: `eq.${label}`,
+      },
+      limit: 1000,
+    }),
+  ]);
+
+  const rows = snapRows.map(mapSnapshotRow);
+
+  const diff = { new_to_board: [], returning: [], new_publishers: [] };
   for (const r of diffRows) {
-    const key = boardKey(r.platform, r.board);
-    const b = (byBoard[key] ||= {
-      new_to_board: [], returning: [], new_publishers: [],
-    });
     const rec = {
       rank: r.rank,
       name: r.game_name,
       publisher: r.publisher_name || "",
     };
-    if (r.category === "returning") b.returning.push(rec);
-    else b.new_to_board.push(rec);
+    if (r.category === "returning") diff.returning.push(rec);
+    else diff.new_to_board.push(rec);
   }
 
-  // 2) Compute "new publishers per board today" without a dedicated
-  // table: a publisher is new-on-board today if publisher_board_history
-  // says its first_seen equals today's date.
-  const pbhRows = await window.sb.select("publisher_board_history", {
-    raw: { first_seen: `eq.${date}` },
-    limit: 2000,
-  });
-  const newPubKeys = new Set();
-  for (const r of pbhRows) newPubKeys.add(`${r.platform}/${r.board}/${r.publisher}`);
-
-  // Attach new_publishers by cross-referencing today's snapshot.
-  for (const [key, rows] of Object.entries(state.boardsByKey)) {
-    const [plat, board] = key.split("/");
-    const seen = new Set();
-    const list = [];
-    for (const r of rows) {
-      if (!r.publisher || seen.has(r.publisher)) continue;
-      if (newPubKeys.has(`${plat}/${board}/${r.publisher}`)) {
-        seen.add(r.publisher);
-        list.push({ rank: r.rank, name: r.name, publisher: r.publisher });
-      }
+  // "New publishers" on this board today = publisher_board_history says
+  // the publisher's first_seen on this board equals today.
+  const newPubKeys = new Set(pbhRows.map(r => r.publisher));
+  const seen = new Set();
+  for (const r of rows) {
+    if (!r.publisher || seen.has(r.publisher)) continue;
+    if (newPubKeys.has(r.publisher)) {
+      seen.add(r.publisher);
+      diff.new_publishers.push({ rank: r.rank, name: r.name, publisher: r.publisher });
     }
-    (byBoard[key] ||= { new_to_board: [], returning: [], new_publishers: [] })
-      .new_publishers = list;
   }
 
-  state.diffByKey = byBoard;
+  return { rows, diff };
 }
 
 // ---------- UI: tabs / date picker ----------
@@ -154,7 +161,10 @@ function buildBoardTabs() {
       const btn = document.createElement("button");
       btn.className = `board-tab board-tab-${plat}`;
       const icon = BOARD_ICON[label] || "•";
-      const platShort = plat === "wx" ? "微" : "抖";
+      const platShort = plat === "wx" ? "微"
+        : plat === "douyin" ? "抖"
+        : plat === "taptap" ? "Tap"
+        : "";
       btn.innerHTML = `<span class="tab-icon">${icon}</span>`
         + `<span class="tab-label">${platShort}·${escapeHTML(label.replace("榜",""))}</span>`;
       btn.dataset.plat = plat;
@@ -165,13 +175,34 @@ function buildBoardTabs() {
   }
 }
 
-function setActiveBoard(plat, label) {
-  state.activeBoard = { plat, label };
+function updateTabActive() {
+  const ab = state.activeBoard;
   for (const btn of document.querySelectorAll(".board-tab")) {
     btn.classList.toggle(
       "active",
-      btn.dataset.plat === plat && btn.dataset.label === label,
+      !!ab && btn.dataset.plat === ab.plat && btn.dataset.label === ab.label,
     );
+  }
+}
+
+async function setActiveBoard(plat, label) {
+  state.activeBoard = { plat, label };
+  state.fullBoardPage = 0;
+  updateTabActive();
+
+  // Cached for this date → render instantly, no network.
+  if (cacheEntry(state.currentDate, plat, label)) {
+    renderBoardViews();
+    return;
+  }
+
+  showBoardLoading();
+  try {
+    const data = await loadBoardData(state.currentDate, plat, label);
+    setCacheEntry(state.currentDate, plat, label, data);
+  } catch (e) {
+    showBoardError(e);
+    return;
   }
   renderBoardViews();
 }
@@ -190,11 +221,18 @@ function renderDatePicker() {
   $("date-load").onclick = async () => {
     const d = sel.value;
     if (!d || d === state.currentDate) return;
+    const ab = state.activeBoard;
+    $("date-load").disabled = true;
     try {
-      $("date-load").disabled = true;
-      await loadSnapshotForDate(d);
-      await loadDiffForDate(d);
-      renderAll();
+      state.currentDate = d;
+      state.fullBoardPage = 0;
+      renderKPIs();
+      if (!cacheEntry(d, ab.plat, ab.label)) {
+        showBoardLoading();
+        const data = await loadBoardData(d, ab.plat, ab.label);
+        setCacheEntry(d, ab.plat, ab.label, data);
+      }
+      renderBoardViews();
     } catch (e) {
       alert(`加载失败：${e.message}`);
     } finally {
@@ -205,12 +243,11 @@ function renderDatePicker() {
 
 // ---------- UI: rendering ----------
 
-function findRows(plat, label) {
-  return state.boardsByKey[boardKey(plat, label)] || [];
+function getBoardData(plat, label) {
+  return cacheEntry(state.currentDate, plat, label) || { rows: [], diff: null };
 }
-function findDiff(plat, label) {
-  return state.diffByKey[boardKey(plat, label)] || null;
-}
+function findRows(plat, label) { return getBoardData(plat, label).rows; }
+function findDiff(plat, label) { return getBoardData(plat, label).diff; }
 
 function renderKPIs() {
   const dateLabel = state.currentDate || "—";
@@ -330,7 +367,10 @@ function renderFullBoard() {
   const sorted = [...rows].sort(
     (a, b) => (a.rank ?? 9999) - (b.rank ?? 9999),
   );
-  for (const r of sorted) {
+
+  const showCount = Math.min((state.fullBoardPage + 1) * PAGE_SIZE, sorted.length);
+  for (let i = 0; i < showCount; i++) {
+    const r = sorted[i];
     const tr = document.createElement("tr");
     const isNew = newGameSet.has(r.name);
     tr.innerHTML = `
@@ -344,17 +384,46 @@ function renderFullBoard() {
       <td>${isNew ? `<span class="badge-new">NEW</span>` : ""}</td>`;
     tbody.appendChild(tr);
   }
+
+  // "Load more" row if there are still rows off-page.
+  if (showCount < sorted.length) {
+    const remaining = sorted.length - showCount;
+    const more = document.createElement("tr");
+    more.className = "load-more-row";
+    more.innerHTML = `<td colspan="7" class="load-more-cell">
+      <button type="button" id="tbl-full-more" class="load-more-btn">
+        加载更多（还有 ${remaining} 条）
+      </button></td>`;
+    tbody.appendChild(more);
+    $("tbl-full-more").onclick = () => {
+      state.fullBoardPage++;
+      renderFullBoard();
+    };
+  }
 }
 
+function showBoardLoading() {
+  const ab = state.activeBoard;
+  if (ab) {
+    $("panel-board-name").textContent =
+      `${platLabelOf(ab.plat)} · ${ab.label} · 加载中…`;
+  }
+  const tFull = document.querySelector("#tbl-full tbody");
+  tFull.innerHTML = `<tr><td colspan="7" class="muted loading-cell">加载中…</td></tr>`;
+  const tNew = document.querySelector("#tbl-new tbody");
+  tNew.innerHTML = `<tr><td colspan="7" class="muted loading-cell">加载中…</td></tr>`;
+  const cnt = $("panel-new-count");
+  if (cnt) cnt.textContent = "";
+}
+
+function showBoardError(e) {
+  const tFull = document.querySelector("#tbl-full tbody");
+  tFull.innerHTML = `<tr><td colspan="7" class="muted">加载失败：${escapeHTML(e.message)}</td></tr>`;
+}
 
 function renderBoardViews() {
   renderDiffTables();
   renderFullBoard();
-}
-
-function renderAll() {
-  renderKPIs();
-  renderBoardViews();
 }
 
 async function init() {
@@ -363,9 +432,12 @@ async function init() {
   try {
     const dates = await loadAvailableDates();
     if (!dates.length) throw new Error("no snapshots yet");
-    const latest = dates[dates.length - 1];
-    await loadSnapshotForDate(latest);
-    await loadDiffForDate(latest);
+    state.currentDate = dates[dates.length - 1];
+    renderDatePicker();
+    renderKPIs();
+    // setActiveBoard triggers the first board's lazy load and shows a
+    // loading state until the data arrives.
+    await setActiveBoard("wx", "畅销榜");
   } catch (e) {
     document.body.insertAdjacentHTML(
       "afterbegin",
@@ -373,12 +445,7 @@ async function init() {
         数据加载失败：${escapeHTML(e.message)}
       </div>`,
     );
-    return;
   }
-
-  renderDatePicker();
-  setActiveBoard("wx", "畅销榜");
-  renderKPIs();
 }
 
 init();

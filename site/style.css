@@ -152,6 +152,18 @@ nav.board-tabs {
 }
 .board-tab.board-tab-douyin.active .tab-icon { filter: none; }
 
+/* TapTap tabs — sky-blue on hover, deep blue when active */
+.board-tab.board-tab-taptap:hover {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+.board-tab.board-tab-taptap.active {
+  background: #0284c7;
+  color: #fff;
+  font-weight: 600;
+}
+.board-tab.board-tab-taptap.active .tab-icon { filter: none; }
+
 /* Fallback for tabs without a specific platform class (e.g. CTA) */
 .board-tab.active:not(.board-tab-wx):not(.board-tab-douyin) {
   background: var(--ink);
@@ -541,6 +553,10 @@ footer a:hover { text-decoration: underline; text-underline-offset: 3px; }
   background: #ffe4ec;
   color: #be185d;
 }
+.board-tag.board-tag-taptap {
+  background: #e0f2fe;
+  color: #0369a1;
+}
 .board-tag.board-tag-more {
   color: var(--muted);
   background: #f1f5f9;
@@ -686,3 +702,25 @@ tr.row-contacting .pub-name {
   .pub-toolbar { padding: 4px 12px 12px; }
   .st-btn { padding: 3px 8px; min-width: 36px; }
 }
+
+
+/* Lazy-load UI: "加载更多" button + loading cell. */
+.load-more-cell { text-align: center; padding: 14px 0; }
+.load-more-btn {
+  padding: 8px 18px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--stroke);
+  background: var(--bg-tint);
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background .18s ease, border-color .18s ease;
+}
+.load-more-btn:hover {
+  background: var(--brand-tint);
+  border-color: var(--brand);
+  color: var(--brand-2);
+}
+.loading-cell { padding: 18px 0; }

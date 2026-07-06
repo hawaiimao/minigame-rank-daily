@@ -1,11 +1,22 @@
 /* Publishers follow-up page.
- * Reads: data/base/publishers.json (list of every publisher we've ever seen)
- * Reads/writes: Supabase table `publisher_status` via PostgREST.
- *   Base URL: <SUPABASE_URL>/rest/v1
- *   Auth:     apikey header + Authorization: Bearer <anon key>
+ * Reads: publisher_status + publisher_board_history via Supabase
+ *   PostgREST (the master publisher list + which boards each has been on).
+ * Reads/writes: Supabase table `publisher_status` (status / note).
+ *
+ * Loading is lazy + paginated:
+ *   1. loadPublishersList() fetches the full publisher list + board
+ *      history (2 parallel queries) and renders immediately — no waiting
+ *      on debut-day games.
+ *   2. "代表游戏" (debut-day games) are fetched on demand for the
+ *      currently visible page via ensureGamesFor(), grouped by
+ *      first_seen date and batched 40 publishers per daily_snapshots
+ *      query. Rows show "…" until their games arrive, then re-render.
+ *   3. The table renders PAGE_SIZE publishers at a time with a
+ *      "加载更多" button.
  *
  * Statuses: pending (default) | contacted | rejected | contacting.
- * All UI updates are optimistic — errors surface via a toast and revert.
+ * All status/note updates are optimistic — errors surface via a toast
+ * and revert.
  */
 
 const STATUS_ORDER = ["pending", "contacted", "rejected", "contacting"];
@@ -16,13 +27,17 @@ const STATUS_LABEL = {
   contacting: "联系中",
 };
 const NOTE_MAX = 200;
+const PAGE_SIZE = 50;
 
 const state = {
-  publishers: [],   // [{name, games:[], first_seen, boards:[]}, ...]
+  publishers: [],   // [{name, games: string[]|null, first_seen, boards}, ...]
+                    // games === null means debut-day games not fetched yet.
   status: {},       // { name: { status, note } }
   filter: "all",
   search: "",
   pending: new Set(),
+  page: 0,          // pages of PAGE_SIZE currently rendered
+  gamesLoading: new Set(),  // publisher names with an in-flight games fetch
 };
 
 const $ = id => document.getElementById(id);
@@ -38,10 +53,14 @@ async function pushStatus(publisher, patch) {
   await window.sb.upsert("publisher_status", body, "publisher");
 }
 
-async function loadPublishers() {
+// ---------- data loading ----------
+
+async function loadPublishersList() {
   // Two queries in parallel:
   //   1. publisher_status: the master list + follow-up state
   //   2. publisher_board_history: which boards each publisher has been on
+  // Debut-day games are NOT fetched here — they load lazily per visible
+  // page in ensureGamesFor().
   const [pubs, boardHist] = await Promise.all([
     window.sb.select("publisher_status", {
       select: "publisher,status,note,first_seen_at,last_seen_at,total_games,total_boards",
@@ -54,45 +73,6 @@ async function loadPublishers() {
     }),
   ]);
 
-  // For "which games did this publisher bring on the day it first
-  // appeared" — exactly the set we want to show — hit daily_snapshots
-  // per publisher/date. That's O(N) round-trips but PostgREST is fast
-  // and we can also batch by grouping all publishers that share the
-  // same first_seen_at into a single "in.(...)" query.
-  //
-  // Group publishers by first_seen date so we can query one date at a
-  // time.
-  const dateGroups = new Map();
-  for (const p of pubs) {
-    if (!p.first_seen_at) continue;
-    if (!dateGroups.has(p.first_seen_at)) dateGroups.set(p.first_seen_at, []);
-    dateGroups.get(p.first_seen_at).push(p.publisher);
-  }
-  // Query snapshots for each date.
-  const gamesBy = new Map();  // publisher -> Set(game names on debut day)
-  await Promise.all(Array.from(dateGroups.entries()).map(async ([date, names]) => {
-    // PostgREST `in.(...)` list limit ~2 KB URL-safe; batch conservatively.
-    for (let i = 0; i < names.length; i += 40) {
-      const chunk = names.slice(i, i + 40);
-      const inList = chunk
-        .map(n => `"${n.replace(/"/g, '""')}"`)
-        .join(",");
-      const rows = await window.sb.select("daily_snapshots", {
-        select: "publisher_name,game_name",
-        raw: {
-          snapshot_date: `eq.${date}`,
-          publisher_name: `in.(${inList})`,
-        },
-        limit: 5000,
-      });
-      for (const r of rows) {
-        if (!r.publisher_name || !r.game_name) continue;
-        if (!gamesBy.has(r.publisher_name)) gamesBy.set(r.publisher_name, new Set());
-        gamesBy.get(r.publisher_name).add(r.game_name);
-      }
-    }
-  }));
-
   const boardsBy = new Map();
   for (const r of boardHist) {
     const key = `${r.platform}/${r.board}`;
@@ -102,10 +82,7 @@ async function loadPublishers() {
 
   const list = pubs.map(p => ({
     name: p.publisher,
-    // Games this publisher brought on their debut day. If we couldn't
-    // find any (no first_seen_at, or snapshot query failed), fall back
-    // to an empty list.
-    games: Array.from(gamesBy.get(p.publisher) || []),
+    games: null,            // fetched lazily in ensureGamesFor()
     first_seen: p.first_seen_at || "",
     boards: boardsBy.get(p.publisher) || [],
   }));
@@ -126,8 +103,63 @@ async function loadPublishers() {
   state.status = statusMap;
 }
 
-async function loadStatus() {
-  // No-op: loadPublishers already fetched status/note in one call.
+// Fetch debut-day games for the given publishers (only those not already
+// loaded or loading). Groups by first_seen date and batches 40 publishers
+// per daily_snapshots `in.(...)` query. Re-renders when done so the "…"
+// placeholders fill in. Fire-and-forget — callers don't await.
+async function ensureGamesFor(list) {
+  const need = list.filter(p =>
+    p.first_seen && p.games === null && !state.gamesLoading.has(p.name));
+  if (!need.length) return;
+  for (const p of need) state.gamesLoading.add(p.name);
+
+  const byName = new Map(state.publishers.map(p => [p.name, p]));
+  try {
+    // Group the publishers we need by their debut date so we can issue
+    // one daily_snapshots query per (date, 40-publisher chunk).
+    const byDate = new Map();
+    for (const p of need) {
+      if (!byDate.has(p.first_seen)) byDate.set(p.first_seen, []);
+      byDate.get(p.first_seen).push(p.name);
+    }
+    await Promise.all(Array.from(byDate.entries()).map(async ([date, names]) => {
+      // PostgREST `in.(...)` list limit ~2 KB URL-safe; batch conservatively.
+      for (let i = 0; i < names.length; i += 40) {
+        const chunk = names.slice(i, i + 40);
+        const inList = chunk
+          .map(n => `"${n.replace(/"/g, '""')}"`)
+          .join(",");
+        const rows = await window.sb.select("daily_snapshots", {
+          select: "publisher_name,game_name",
+          raw: {
+            snapshot_date: `eq.${date}`,
+            publisher_name: `in.(${inList})`,
+          },
+          limit: 5000,
+        });
+        for (const r of rows) {
+          if (!r.publisher_name || !r.game_name) continue;
+          const p = byName.get(r.publisher_name);
+          if (!p) continue;
+          (p.games ||= new Set()).add(r.game_name);
+        }
+      }
+    }));
+    // Freeze accumulated sets into arrays; empty for publishers with no rows.
+    for (const p of need) {
+      p.games = p.games instanceof Set ? Array.from(p.games) : [];
+    }
+  } catch (err) {
+    // Leave games === null on failure so a future render can retry.
+    for (const p of need) {
+      if (p.games instanceof Set) p.games = Array.from(p.games);
+      else p.games = null;
+    }
+    toast(`代表游戏拉取失败：${err.message}`, false);
+  } finally {
+    for (const p of need) state.gamesLoading.delete(p.name);
+  }
+  renderRows();
 }
 
 // ---------- UI ----------
@@ -164,43 +196,53 @@ function updateCounts() {
   }
 }
 
-function renderRows() {
-  const tbody = document.querySelector("#tbl-pub tbody");
-  tbody.innerHTML = "";
+function filteredPublishers() {
   const q = state.search.trim().toLowerCase();
-
-  // Filter first (search + status).
-  const filtered = state.publishers.filter(p => {
+  return state.publishers.filter(p => {
     const st = statusOf(p.name);
     if (state.filter !== "all" && st !== state.filter) return false;
     if (q) {
-      const hay = (p.name + " " + p.games.join(" ")).toLowerCase();
+      // games may be null (not yet loaded) — search name only in that case.
+      const hay = (p.name + " " + (p.games ? p.games.join(" ") : "")).toLowerCase();
       if (hay.indexOf(q) === -1) return false;
     }
     return true;
   });
+}
+
+function renderRows() {
+  const tbody = document.querySelector("#tbl-pub tbody");
+  tbody.innerHTML = "";
+
+  const filtered = filteredPublishers();
+  const shown = filtered.slice(0, (state.page + 1) * PAGE_SIZE);
 
   if (!filtered.length) {
-    const tr = document.createElement("tr");
-    tr.innerHTML = `<td colspan="5" class="muted" style="text-align:center;padding:24px">无匹配</td>`;
-    tbody.appendChild(tr);
+    tbody.innerHTML = `<tr><td colspan="5" class="muted" style="text-align:center;padding:24px">无匹配</td></tr>`;
     return;
   }
 
-  // Group by first_seen date. state.publishers is already sorted by
-  // first_seen desc + name asc, so grouping in order gives newest → oldest.
-  let currentDate = null;
+  // Total publishers per debut date (across the whole filtered set) so
+  // each date divider shows the real group size, not just the page slice.
+  const groupTotals = new Map();
   for (const p of filtered) {
+    const d = p.first_seen || "未知日期";
+    groupTotals.set(d, (groupTotals.get(d) || 0) + 1);
+  }
+
+  // state.publishers is sorted by first_seen desc + name asc, and
+  // filteredPublishers preserves that order, so grouping in iteration
+  // gives newest → oldest.
+  let currentDate = null;
+  for (const p of shown) {
     const seenDate = p.first_seen || "未知日期";
     if (seenDate !== currentDate) {
       currentDate = seenDate;
-      // Count publishers in this group after applying the same filters.
-      const groupSize = filtered.filter(x => (x.first_seen || "未知日期") === seenDate).length;
       const tr = document.createElement("tr");
       tr.className = "date-divider";
       tr.innerHTML = `<td colspan="5">
         <span class="dv-date">${escapeHTML(seenDate)}</span>
-        <span class="dv-count">首次出现 ${groupSize} 家</span>
+        <span class="dv-count">首次出现 ${groupTotals.get(seenDate) || 0} 家</span>
       </td>`;
       tbody.appendChild(tr);
     }
@@ -209,12 +251,19 @@ function renderRows() {
     const tr = document.createElement("tr");
     tr.dataset.name = p.name;
     if (st !== "pending") tr.classList.add(`row-${st}`);
-    const games = p.games.slice(0, 2).map(escapeHTML).join("、")
-      + (p.games.length > 2 ? ` <span class="muted">+${p.games.length - 2}</span>` : "");
+
+    const gamesCell = p.games == null
+      ? `<span class="muted">…</span>`
+      : (p.games.slice(0, 2).map(escapeHTML).join("、")
+          + (p.games.length > 2 ? ` <span class="muted">+${p.games.length - 2}</span>` : "")
+          || `<span class="muted">—</span>`);
     const boardsShown = p.boards.slice(0, 3);
     const boardsExtra = p.boards.length - boardsShown.length;
     const boards = boardsShown.map(b => {
-      const plat = b.startsWith("wx/") ? "wx" : (b.startsWith("douyin/") ? "douyin" : "unknown");
+      const plat = b.startsWith("wx/") ? "wx"
+        : b.startsWith("douyin/") ? "douyin"
+        : b.startsWith("taptap/") ? "taptap"
+        : "unknown";
       return `<span class="board-tag board-tag-${plat}">${escapeHTML(shortBoard(b))}</span>`;
     }).join("")
       + (boardsExtra > 0
@@ -223,18 +272,41 @@ function renderRows() {
     const note = noteOf(p.name);
     tr.innerHTML = `
       <td class="pub-name">${escapeHTML(p.name)}</td>
-      <td class="pub-games" title="${escapeAttr(p.games.join('、'))}">${games}</td>
+      <td class="pub-games" title="${escapeAttr(p.games ? p.games.join('、') : '')}">${gamesCell}</td>
       <td><div class="pub-boards">${boards}</div></td>
       <td>${statusButtonsHTML(p.name, st)}</td>
       <td>${noteFieldHTML(p.name, note)}</td>`;
     tbody.appendChild(tr);
   }
+
+  // "Load more" row if there are still filtered publishers off-page.
+  if (shown.length < filtered.length) {
+    const remaining = filtered.length - shown.length;
+    const more = document.createElement("tr");
+    more.className = "load-more-row";
+    more.innerHTML = `<td colspan="5" class="load-more-cell">
+      <button type="button" id="pub-more" class="load-more-btn">
+        加载更多（还有 ${remaining} 家）
+      </button></td>`;
+    tbody.appendChild(more);
+    $("pub-more").onclick = () => {
+      state.page++;
+      renderRows();
+    };
+  }
+
+  // Fetch debut-day games for whatever is now visible (fire-and-forget;
+  // it re-renders once they arrive).
+  ensureGamesFor(shown);
 }
 
 function shortBoard(key) {
-  const m = key.match(/^(wx|douyin)\/(.+)$/);
+  const m = key.match(/^(wx|douyin|taptap)\/(.+)$/);
   if (!m) return key;
-  const plat = m[1] === "wx" ? "微" : "抖";
+  const plat = m[1] === "wx" ? "微"
+    : m[1] === "douyin" ? "抖"
+    : m[1] === "taptap" ? "Tap"
+    : "";
   const board = m[2].replace("榜", "");
   return `${plat}·${board}`;
 }
@@ -301,6 +373,7 @@ function attachHandlers() {
 
   document.getElementById("pub-search").addEventListener("input", (e) => {
     state.search = e.target.value;
+    state.page = 0;
     renderRows();
   });
 
@@ -310,6 +383,7 @@ function attachHandlers() {
     document.querySelectorAll("#pub-filter button").forEach(x =>
       x.classList.toggle("active", x === b));
     state.filter = b.dataset.filter;
+    state.page = 0;
     renderRows();
   });
 }
@@ -346,12 +420,10 @@ async function init() {
   attachHandlers();
   const loading = $("pub-loading");
   try {
-    await loadPublishers();
-    loading.textContent = `已加载 ${state.publishers.length} 家发行商，正在拉取跟进状态…`;
-    await loadStatus();
+    await loadPublishersList();
     loading.style.display = "none";
     updateCounts();
-    renderRows();
+    renderRows();   // renders first page + kicks off games fetch for it
   } catch (err) {
     loading.textContent = `加载失败：${err.message}（点击右侧按钮时会重试同步状态）`;
     updateCounts();
