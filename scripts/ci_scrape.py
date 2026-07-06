@@ -95,6 +95,17 @@ def main():
     data["scraped_at_beijing"] = now_bj.isoformat(timespec="seconds")
     data["date_beijing"] = day_label
 
+    # Merge TapTap pre-registration board (separate site, scraped via SSR
+    # JSON-LD — see scrape_taptap.py). Wrapped so a TapTap failure never
+    # blocks the gravity-engine snapshot for wx/douyin.
+    try:
+        import scrape_taptap as taptap
+        tfrag = taptap.scrape(top_n=top_n, log=log)
+        data.setdefault("platforms", {})["taptap"] = tfrag
+        log(f"合并 taptap/预约榜: {len(tfrag['boards'][0]['rows'])} 条")
+    except Exception as e:
+        log(f"[taptap] 抓取失败，跳过（不影响其他平台）: {e}")
+
     out_path.write_text(
         json.dumps(data, ensure_ascii=False, indent=2),
         encoding="utf-8",
