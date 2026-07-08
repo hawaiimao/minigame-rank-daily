@@ -138,33 +138,66 @@ def kill_overlays(page, log=print):
 
 
 def _scroll_board_to_load(page, board_handle, target: int,
-                          max_idle_rounds: int = 4,
+                          log=print,
+                          max_idle_rounds: int = 6,
                           max_rounds: int = 40) -> int:
     """Scroll inside one board card to trigger lazy-load until we have
-    `target` rank rows, or rows stop growing for `max_idle_rounds` ticks."""
+    `target` rank rows, or rows stop growing for `max_idle_rounds` ticks.
+
+    The real scroll container isn't always the board card itself — we
+    walk up from the last row to the nearest ancestor whose scrollHeight
+    exceeds its clientHeight and scroll THAT. We also click any
+    加载更多 / 查看更多 button, since the site may have switched from
+    scroll-lazy to a button trigger. (As of 2026-07 the scroll path
+    stopped firing pages 2-5; the robust fix is to call the rank API
+    directly — see _on_response sample capture + future replay.)
+    """
     rows_locator = board_handle.locator(".rank-child-item")
     prev = rows_locator.count()
     idle = 0
+
+    def _click_load_more() -> bool:
+        for sel in ("text=加载更多", "text=查看更多", "text=更多",
+                   "text=展开", "text=Load more", "text=More"):
+            try:
+                btn = board_handle.locator(sel).first
+                if btn.is_visible(timeout=300):
+                    btn.click(timeout=1000)
+                    return True
+            except Exception:
+                pass
+        return False
+
     for _ in range(max_rounds):
         if prev >= target:
             return prev
-        # Scroll the last visible row into view inside its own scroll
-        # container — this works regardless of which ancestor is the
-        # actual scrollable element.
-        try:
-            last = rows_locator.nth(prev - 1) if prev else board_handle
-            last.scroll_into_view_if_needed(timeout=1500)
-        except Exception:
-            pass
-        # Also nudge the board container itself in case it's the scroller.
+        _click_load_more()
+        # Scroll the true scroll container to the bottom: walk up from
+        # the last row to the nearest ancestor that actually scrolls.
         try:
             board_handle.evaluate(
-                "el => { const s = el.querySelector('[class*=\"scroll\"]') "
-                "|| el; s.scrollTop = s.scrollHeight; }"
+                """(root) => {
+                  let el = root.querySelector('.rank-child-item:last-child') || root;
+                  let node = el;
+                  while (node && node !== document.body) {
+                    if (node.scrollHeight > node.clientHeight + 2) {
+                      node.scrollTop = node.scrollHeight;
+                      return;
+                    }
+                    node = node.parentElement;
+                  }
+                  const s = root.querySelector('[class*="scroll"]') || root;
+                  s.scrollTop = s.scrollHeight;
+                }"""
             )
         except Exception:
             pass
-        page.wait_for_timeout(600)
+        try:
+            last = rows_locator.nth(prev - 1) if prev else board_handle
+            last.scroll_into_view_if_needed(timeout=1200)
+        except Exception:
+            pass
+        page.wait_for_timeout(800)
         cur = rows_locator.count()
         if cur == prev:
             idle += 1
@@ -173,6 +206,8 @@ def _scroll_board_to_load(page, board_handle, target: int,
         else:
             idle = 0
         prev = cur
+    if prev < target:
+        log(f"[warn] 榜单只加载到 {prev}/{target} 行 — 分页可能已改（见 [xhr-sample]）")
     return prev
 
 
@@ -189,7 +224,7 @@ def scrape_current_platform(page, platform: str, top_n: int, log=print) -> dict:
             continue
         bh = board_handles[i]
         if top_n > 20:
-            loaded = _scroll_board_to_load(page, bh, top_n)
+            loaded = _scroll_board_to_load(page, bh, top_n, log=log)
         else:
             loaded = bh.locator(".rank-child-item").count()
         rows_text = bh.locator(".rank-child-item").all_inner_texts()
@@ -467,12 +502,23 @@ def do_scrape(top_n: int | None,
         # fires an XHR per board and re-renders. If we read the DOM
         # before those XHRs return, we get yesterday's data.
         rank_xhr_count = {"n": 0}
+        # Capture the FIRST rank XHR's url + body so we can learn the
+        # pagination param + response shape. The site's scroll-based
+        # lazy-load stopped firing pages 2-5 (2026-07); the robust fix is
+        # to call this API directly for pages 2+, which needs these two.
+        rank_xhr_sample = {"url": None, "body": None}
 
         def _on_response(resp):
             url = resp.url
             if ("rank/public_list" in url or "rank/list" in url) \
                     and resp.status == 200:
                 rank_xhr_count["n"] += 1
+                if rank_xhr_sample["url"] is None:
+                    rank_xhr_sample["url"] = url
+                    try:
+                        rank_xhr_sample["body"] = resp.text()[:2000]
+                    except Exception:
+                        rank_xhr_sample["body"] = "<read failed>"
 
         page.on("response", _on_response)
 
@@ -491,6 +537,9 @@ def do_scrape(top_n: int | None,
             page.wait_for_timeout(500)
             elapsed += 500
         log(f"[wx] rank XHRs observed before scrape: {rank_xhr_count['n']}")
+        if rank_xhr_sample["url"]:
+            log(f"[xhr-sample] url = {rank_xhr_sample['url']}")
+            log(f"[xhr-sample] body = {rank_xhr_sample['body']}")
         # Extra settle time for the DOM to reflect the last XHR.
         page.wait_for_timeout(1500)
 
