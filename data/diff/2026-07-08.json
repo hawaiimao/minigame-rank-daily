@@ -22,11 +22,23 @@
       "board_label": "畅销榜",
       "first_anywhere": [],
       "first_on_board": [],
-      "returning": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "星皇传奇",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "杭州悦轶网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
       "new_publishers": [],
       "totals": {
         "new_to_board": 0,
-        "returning": 0,
+        "returning": 1,
         "new_publishers": 0
       },
       "new_to_board": []
@@ -177,110 +189,147 @@
       "board_label": "预约榜",
       "first_anywhere": [
         {
-          "rank": 87,
+          "rank": 2,
+          "name": "诡影藏锋",
+          "publisher": "网易游戏",
+          "category": "搜打撤",
+          "subcategory": "中式恐怖、高画质、PVP、动作"
+        },
+        {
+          "rank": 5,
           "name": "元夜十二谈",
           "publisher": "上海游卡",
           "category": "冒险",
           "subcategory": "3D、新怪谈、策略、角色扮演"
         },
         {
-          "rank": 91,
+          "rank": 23,
+          "name": "归环",
+          "publisher": "萨罗斯工作室",
+          "category": "剧情",
+          "subcategory": "二次元、角色扮演"
+        },
+        {
+          "rank": 85,
+          "name": "镇邪人",
+          "publisher": "镇邪人工作室",
+          "category": "策略",
+          "subcategory": "生存、搜打撤、角色扮演"
+        },
+        {
+          "rank": 88,
           "name": "史莱姆牧场",
           "publisher": "新闻消息",
           "category": "可爱",
           "subcategory": "模拟经营、冒险、开放世界"
         },
         {
-          "rank": 92,
-          "name": "劫后公司",
-          "publisher": "青禹游",
-          "category": "Steam移植",
-          "subcategory": "模拟经营、买断制、抢先体验、独立游戏、单机、末日、生存、策略、模拟"
-        },
-        {
-          "rank": 100,
-          "name": "明末：以身入局",
-          "publisher": "雾海行舟工作室",
-          "category": "模拟"
+          "rank": 90,
+          "name": "斗阵骑士",
+          "publisher": "溯光创想工作室",
+          "category": "自走棋",
+          "subcategory": "Roguelike、策略"
         }
       ],
       "first_on_board": [],
       "returning": [
         {
-          "rank": 70,
+          "rank": 68,
+          "name": "伍六七：暗影交锋",
+          "publisher": "啊吉游",
+          "category": "角色扮演",
+          "subcategory": "国漫、像素、动作、冒险、模拟经营、横版、2D、多人联机、APRG、热血"
+        },
+        {
+          "rank": 82,
           "name": "怪物火车2",
           "category": "Roguelike",
           "subcategory": "卡牌、策略"
         },
         {
-          "rank": 96,
-          "name": "世界之光",
-          "publisher": "成都世界之光科技有限公司",
-          "category": "沙盒",
-          "subcategory": "建造、萌宠、家园、抓宠、多人联机、模拟经营、开放世界、社交、模拟"
-        },
-        {
-          "rank": 99,
-          "name": "伍六七：暗影交锋",
-          "publisher": "啊吉游",
-          "category": "角色扮演",
-          "subcategory": "国漫、像素、动作、冒险、模拟经营、横版、2D、多人联机、APRG、热血"
+          "rank": 97,
+          "name": "纸房子",
+          "category": "模拟",
+          "subcategory": "角色扮演、休闲"
         }
       ],
       "new_publishers": [
         {
-          "rank": 87,
+          "rank": 5,
           "name": "元夜十二谈",
           "publisher": "上海游卡",
           "category": "冒险",
           "subcategory": "3D、新怪谈、策略、角色扮演"
         },
         {
-          "rank": 92,
-          "name": "劫后公司",
-          "publisher": "青禹游",
-          "category": "Steam移植",
-          "subcategory": "模拟经营、买断制、抢先体验、独立游戏、单机、末日、生存、策略、模拟"
+          "rank": 23,
+          "name": "归环",
+          "publisher": "萨罗斯工作室",
+          "category": "剧情",
+          "subcategory": "二次元、角色扮演"
         },
         {
-          "rank": 100,
-          "name": "明末：以身入局",
-          "publisher": "雾海行舟工作室",
-          "category": "模拟"
+          "rank": 85,
+          "name": "镇邪人",
+          "publisher": "镇邪人工作室",
+          "category": "策略",
+          "subcategory": "生存、搜打撤、角色扮演"
+        },
+        {
+          "rank": 90,
+          "name": "斗阵骑士",
+          "publisher": "溯光创想工作室",
+          "category": "自走棋",
+          "subcategory": "Roguelike、策略"
         }
       ],
       "totals": {
-        "new_to_board": 4,
+        "new_to_board": 6,
         "returning": 3,
-        "new_publishers": 3
+        "new_publishers": 4
       },
       "new_to_board": [
         {
-          "rank": 87,
+          "rank": 2,
+          "name": "诡影藏锋",
+          "publisher": "网易游戏",
+          "category": "搜打撤",
+          "subcategory": "中式恐怖、高画质、PVP、动作"
+        },
+        {
+          "rank": 5,
           "name": "元夜十二谈",
           "publisher": "上海游卡",
           "category": "冒险",
           "subcategory": "3D、新怪谈、策略、角色扮演"
         },
         {
-          "rank": 91,
+          "rank": 23,
+          "name": "归环",
+          "publisher": "萨罗斯工作室",
+          "category": "剧情",
+          "subcategory": "二次元、角色扮演"
+        },
+        {
+          "rank": 85,
+          "name": "镇邪人",
+          "publisher": "镇邪人工作室",
+          "category": "策略",
+          "subcategory": "生存、搜打撤、角色扮演"
+        },
+        {
+          "rank": 88,
           "name": "史莱姆牧场",
           "publisher": "新闻消息",
           "category": "可爱",
           "subcategory": "模拟经营、冒险、开放世界"
         },
         {
-          "rank": 92,
-          "name": "劫后公司",
-          "publisher": "青禹游",
-          "category": "Steam移植",
-          "subcategory": "模拟经营、买断制、抢先体验、独立游戏、单机、末日、生存、策略、模拟"
-        },
-        {
-          "rank": 100,
-          "name": "明末：以身入局",
-          "publisher": "雾海行舟工作室",
-          "category": "模拟"
+          "rank": 90,
+          "name": "斗阵骑士",
+          "publisher": "溯光创想工作室",
+          "category": "自走棋",
+          "subcategory": "Roguelike、策略"
         }
       ]
     }
