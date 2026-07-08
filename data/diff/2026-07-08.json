@@ -1,0 +1,288 @@
+{
+  "date": "2026-07-08",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "枪神暴走",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "瞄准射击，枪枪命中！",
+          "publisher": "五威五（广州）科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 16,
+          "name": "极限跑酷大师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "操控角色在赛道中极限跑酷，收集金币，冲刺闯关成为跑酷大师",
+          "publisher": "北京游戏王国科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "汽车城开车模拟",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "真实城市开车驾驶模拟",
+          "publisher": "厦门幻乐时空科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "枪神暴走",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "瞄准射击，枪枪命中！",
+          "publisher": "五威五（广州）科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "枪神暴走",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "瞄准射击，枪枪命中！",
+          "publisher": "五威五（广州）科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 16,
+          "name": "极限跑酷大师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "操控角色在赛道中极限跑酷，收集金币，冲刺闯关成为跑酷大师",
+          "publisher": "北京游戏王国科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "汽车城开车模拟",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "真实城市开车驾驶模拟",
+          "publisher": "厦门幻乐时空科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 87,
+          "name": "元夜十二谈",
+          "publisher": "上海游卡",
+          "category": "冒险",
+          "subcategory": "3D、新怪谈、策略、角色扮演"
+        },
+        {
+          "rank": 91,
+          "name": "史莱姆牧场",
+          "publisher": "新闻消息",
+          "category": "可爱",
+          "subcategory": "模拟经营、冒险、开放世界"
+        },
+        {
+          "rank": 92,
+          "name": "劫后公司",
+          "publisher": "青禹游",
+          "category": "Steam移植",
+          "subcategory": "模拟经营、买断制、抢先体验、独立游戏、单机、末日、生存、策略、模拟"
+        },
+        {
+          "rank": 100,
+          "name": "明末：以身入局",
+          "publisher": "雾海行舟工作室",
+          "category": "模拟"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 70,
+          "name": "怪物火车2",
+          "category": "Roguelike",
+          "subcategory": "卡牌、策略"
+        },
+        {
+          "rank": 96,
+          "name": "世界之光",
+          "publisher": "成都世界之光科技有限公司",
+          "category": "沙盒",
+          "subcategory": "建造、萌宠、家园、抓宠、多人联机、模拟经营、开放世界、社交、模拟"
+        },
+        {
+          "rank": 99,
+          "name": "伍六七：暗影交锋",
+          "publisher": "啊吉游",
+          "category": "角色扮演",
+          "subcategory": "国漫、像素、动作、冒险、模拟经营、横版、2D、多人联机、APRG、热血"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 87,
+          "name": "元夜十二谈",
+          "publisher": "上海游卡",
+          "category": "冒险",
+          "subcategory": "3D、新怪谈、策略、角色扮演"
+        },
+        {
+          "rank": 92,
+          "name": "劫后公司",
+          "publisher": "青禹游",
+          "category": "Steam移植",
+          "subcategory": "模拟经营、买断制、抢先体验、独立游戏、单机、末日、生存、策略、模拟"
+        },
+        {
+          "rank": 100,
+          "name": "明末：以身入局",
+          "publisher": "雾海行舟工作室",
+          "category": "模拟"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 3,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 87,
+          "name": "元夜十二谈",
+          "publisher": "上海游卡",
+          "category": "冒险",
+          "subcategory": "3D、新怪谈、策略、角色扮演"
+        },
+        {
+          "rank": 91,
+          "name": "史莱姆牧场",
+          "publisher": "新闻消息",
+          "category": "可爱",
+          "subcategory": "模拟经营、冒险、开放世界"
+        },
+        {
+          "rank": 92,
+          "name": "劫后公司",
+          "publisher": "青禹游",
+          "category": "Steam移植",
+          "subcategory": "模拟经营、买断制、抢先体验、独立游戏、单机、末日、生存、策略、模拟"
+        },
+        {
+          "rank": 100,
+          "name": "明末：以身入局",
+          "publisher": "雾海行舟工作室",
+          "category": "模拟"
+        }
+      ]
+    }
+  }
+}
