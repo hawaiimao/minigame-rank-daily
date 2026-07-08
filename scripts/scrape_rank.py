@@ -540,6 +540,20 @@ def do_scrape(top_n: int | None,
         if rank_xhr_sample["url"]:
             log(f"[xhr-sample] url = {rank_xhr_sample['url']}")
             log(f"[xhr-sample] body = {rank_xhr_sample['body']}")
+        # Detect expired login: the rank API returns code 2001 / "登录异常"
+        # when the GRAVITY_AUTH session has died. The site then falls back
+        # to the anonymous top-20 preview, which looks like "pagination
+        # broke" but is really just auth. Surface it loudly so the next
+        # expiry is self-diagnosing instead of a silent 20-row day.
+        auth_expired = False
+        _body = rank_xhr_sample.get("body") or ""
+        if ("登录异常" in _body or '"code": 2001' in _body
+                or '"code":2001' in _body):
+            auth_expired = True
+            log("[auth] 登录态已过期：rank API 返回「登录异常」(code 2001)。"
+                "本次回落匿名 Top 20。请重跑桌面版登录拿新的 rank_auth.json，"
+                "更新 GitHub Secret GRAVITY_AUTH 后 force 重跑。")
+        result["auth_expired"] = auth_expired
         # Extra settle time for the DOM to reflect the last XHR.
         page.wait_for_timeout(1500)
 
