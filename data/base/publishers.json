@@ -673,9 +673,9 @@
       "board_history": {
         "wx/畅销榜": {
           "first_seen": "2026-06-29",
-          "last_seen": "2026-07-09",
-          "appearances": 8,
-          "_last_day_counted": "2026-07-09"
+          "last_seen": "2026-07-08",
+          "appearances": 7,
+          "_last_day_counted": "2026-07-08"
         }
       }
     },
@@ -2049,9 +2049,9 @@
         },
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-07-09",
-          "appearances": 6,
-          "_last_day_counted": "2026-07-09"
+          "last_seen": "2026-07-08",
+          "appearances": 5,
+          "_last_day_counted": "2026-07-08"
         },
         "wx/畅玩榜": {
           "first_seen": "2026-06-30",
@@ -2328,7 +2328,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
           "last_seen": "2026-07-10",
-          "appearances": 7,
+          "appearances": 8,
           "_last_day_counted": "2026-07-10"
         }
       }
@@ -2905,9 +2905,9 @@
       "board_history": {
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-07-09",
-          "appearances": 9,
-          "_last_day_counted": "2026-07-09"
+          "last_seen": "2026-07-08",
+          "appearances": 8,
+          "_last_day_counted": "2026-07-08"
         },
         "douyin/畅销榜": {
           "first_seen": "2026-07-06",
@@ -2926,9 +2926,9 @@
       "board_history": {
         "wx/畅销榜": {
           "first_seen": "2026-06-30",
-          "last_seen": "2026-07-09",
-          "appearances": 10,
-          "_last_day_counted": "2026-07-09"
+          "last_seen": "2026-07-08",
+          "appearances": 9,
+          "_last_day_counted": "2026-07-08"
         }
       }
     },
@@ -4134,16 +4134,16 @@
           "appearances": 2,
           "_last_day_counted": "2026-07-04"
         },
-        "wx/畅玩榜": {
+        "wx/人气榜": {
           "first_seen": "2026-07-09",
           "last_seen": "2026-07-10",
           "appearances": 2,
           "_last_day_counted": "2026-07-10"
         },
-        "wx/人气榜": {
-          "first_seen": "2026-07-10",
+        "wx/畅玩榜": {
+          "first_seen": "2026-07-09",
           "last_seen": "2026-07-10",
-          "appearances": 1,
+          "appearances": 2,
           "_last_day_counted": "2026-07-10"
         }
       }
@@ -4879,7 +4879,7 @@
         "wx/畅销榜": {
           "first_seen": "2026-07-05",
           "last_seen": "2026-07-10",
-          "appearances": 4,
+          "appearances": 5,
           "_last_day_counted": "2026-07-10"
         }
       }
@@ -4949,9 +4949,9 @@
           "_last_day_counted": "2026-07-10"
         },
         "wx/畅销榜": {
-          "first_seen": "2026-07-10",
+          "first_seen": "2026-07-09",
           "last_seen": "2026-07-10",
-          "appearances": 1,
+          "appearances": 2,
           "_last_day_counted": "2026-07-10"
         }
       }
@@ -6059,9 +6059,9 @@
       "board_history": {
         "wx/人气榜": {
           "first_seen": "2026-07-01",
-          "last_seen": "2026-07-09",
-          "appearances": 9,
-          "_last_day_counted": "2026-07-09"
+          "last_seen": "2026-07-08",
+          "appearances": 8,
+          "_last_day_counted": "2026-07-08"
         }
       }
     },
@@ -7707,9 +7707,9 @@
       "board_history": {
         "wx/人气榜": {
           "first_seen": "2026-07-06",
-          "last_seen": "2026-07-09",
-          "appearances": 4,
-          "_last_day_counted": "2026-07-09"
+          "last_seen": "2026-07-08",
+          "appearances": 3,
+          "_last_day_counted": "2026-07-08"
         }
       }
     },
@@ -9413,6 +9413,27 @@
         }
       }
     },
+    "上海游之幻网络科技有限公司": {
+      "name": "上海游之幻网络科技有限公司",
+      "first_seen_anywhere": "2026-07-09",
+      "games": [
+        "汉字老六"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-07-09",
+          "last_seen": "2026-07-10",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-10"
+        },
+        "wx/畅玩榜": {
+          "first_seen": "2026-07-09",
+          "last_seen": "2026-07-10",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-10"
+        }
+      }
+    },
     "上海星之驭网络科技有限公司": {
       "name": "上海星之驭网络科技有限公司",
       "first_seen_anywhere": "2026-07-09",
@@ -9421,6 +9442,157 @@
       ],
       "board_history": {
         "wx/人气榜": {
+          "first_seen": "2026-07-09",
+          "last_seen": "2026-07-10",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-10"
+        }
+      }
+    },
+    "深圳市掌动无限科技有限公司": {
+      "name": "深圳市掌动无限科技有限公司",
+      "first_seen_anywhere": "2026-07-09",
+      "games": [
+        "诡异怪谈所"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-07-09",
+          "last_seen": "2026-07-10",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-10"
+        }
+      }
+    },
+    "广州掌乐文化发展有限公司": {
+      "name": "广州掌乐文化发展有限公司",
+      "first_seen_anywhere": "2026-07-09",
+      "games": [
+        "疯狂找茬王"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-07-09",
+          "last_seen": "2026-07-10",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-10"
+        }
+      }
+    },
+    "南京欧瀚信息技术有限公司": {
+      "name": "南京欧瀚信息技术有限公司",
+      "first_seen_anywhere": "2026-07-09",
+      "games": [
+        "毫妙找茬"
+      ],
+      "board_history": {
+        "wx/人气榜": {
+          "first_seen": "2026-07-09",
+          "last_seen": "2026-07-10",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-10"
+        }
+      }
+    },
+    "深圳冰川网络股份有限公司": {
+      "name": "深圳冰川网络股份有限公司",
+      "first_seen_anywhere": "2026-07-09",
+      "games": [
+        "我要当老祖",
+        "灵剑诀意"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-07-09",
+          "last_seen": "2026-07-10",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-10"
+        }
+      }
+    },
+    "广州龙霆网络有限公司": {
+      "name": "广州龙霆网络有限公司",
+      "first_seen_anywhere": "2026-07-09",
+      "games": [
+        "大侠闯天下"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-07-09",
+          "last_seen": "2026-07-10",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-10"
+        }
+      }
+    },
+    "深圳彩苻科技有限公司": {
+      "name": "深圳彩苻科技有限公司",
+      "first_seen_anywhere": "2026-07-09",
+      "games": [
+        "花札物语"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-07-09",
+          "last_seen": "2026-07-10",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-10"
+        }
+      }
+    },
+    "广东游娱信息技术有限公司": {
+      "name": "广东游娱信息技术有限公司",
+      "first_seen_anywhere": "2026-07-09",
+      "games": [
+        "孤者传奇"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-07-09",
+          "last_seen": "2026-07-10",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-10"
+        }
+      }
+    },
+    "深圳市豆游玩科技有限公司": {
+      "name": "深圳市豆游玩科技有限公司",
+      "first_seen_anywhere": "2026-07-09",
+      "games": [
+        "仙逆：战天道"
+      ],
+      "board_history": {
+        "wx/畅销榜": {
+          "first_seen": "2026-07-09",
+          "last_seen": "2026-07-10",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-10"
+        }
+      }
+    },
+    "福州萌象互动网络科技有限公司": {
+      "name": "福州萌象互动网络科技有限公司",
+      "first_seen_anywhere": "2026-07-09",
+      "games": [
+        "你跑的真快"
+      ],
+      "board_history": {
+        "wx/畅玩榜": {
+          "first_seen": "2026-07-09",
+          "last_seen": "2026-07-10",
+          "appearances": 2,
+          "_last_day_counted": "2026-07-10"
+        }
+      }
+    },
+    "实丰（深圳）网络科技有限公司": {
+      "name": "实丰（深圳）网络科技有限公司",
+      "first_seen_anywhere": "2026-07-09",
+      "games": [
+        "战争超进化"
+      ],
+      "board_history": {
+        "wx/畅玩榜": {
           "first_seen": "2026-07-09",
           "last_seen": "2026-07-10",
           "appearances": 2,
@@ -9591,178 +9763,6 @@
           "last_seen": "2026-07-09",
           "appearances": 1,
           "_last_day_counted": "2026-07-09"
-        }
-      }
-    },
-    "上海游之幻网络科技有限公司": {
-      "name": "上海游之幻网络科技有限公司",
-      "first_seen_anywhere": "2026-07-10",
-      "games": [
-        "汉字老六"
-      ],
-      "board_history": {
-        "wx/人气榜": {
-          "first_seen": "2026-07-10",
-          "last_seen": "2026-07-10",
-          "appearances": 1,
-          "_last_day_counted": "2026-07-10"
-        },
-        "wx/畅玩榜": {
-          "first_seen": "2026-07-10",
-          "last_seen": "2026-07-10",
-          "appearances": 1,
-          "_last_day_counted": "2026-07-10"
-        }
-      }
-    },
-    "深圳市掌动无限科技有限公司": {
-      "name": "深圳市掌动无限科技有限公司",
-      "first_seen_anywhere": "2026-07-10",
-      "games": [
-        "诡异怪谈所"
-      ],
-      "board_history": {
-        "wx/人气榜": {
-          "first_seen": "2026-07-10",
-          "last_seen": "2026-07-10",
-          "appearances": 1,
-          "_last_day_counted": "2026-07-10"
-        }
-      }
-    },
-    "广州掌乐文化发展有限公司": {
-      "name": "广州掌乐文化发展有限公司",
-      "first_seen_anywhere": "2026-07-10",
-      "games": [
-        "疯狂找茬王"
-      ],
-      "board_history": {
-        "wx/人气榜": {
-          "first_seen": "2026-07-10",
-          "last_seen": "2026-07-10",
-          "appearances": 1,
-          "_last_day_counted": "2026-07-10"
-        }
-      }
-    },
-    "南京欧瀚信息技术有限公司": {
-      "name": "南京欧瀚信息技术有限公司",
-      "first_seen_anywhere": "2026-07-10",
-      "games": [
-        "毫妙找茬"
-      ],
-      "board_history": {
-        "wx/人气榜": {
-          "first_seen": "2026-07-10",
-          "last_seen": "2026-07-10",
-          "appearances": 1,
-          "_last_day_counted": "2026-07-10"
-        }
-      }
-    },
-    "深圳冰川网络股份有限公司": {
-      "name": "深圳冰川网络股份有限公司",
-      "first_seen_anywhere": "2026-07-10",
-      "games": [
-        "我要当老祖",
-        "灵剑诀意"
-      ],
-      "board_history": {
-        "wx/畅销榜": {
-          "first_seen": "2026-07-10",
-          "last_seen": "2026-07-10",
-          "appearances": 1,
-          "_last_day_counted": "2026-07-10"
-        }
-      }
-    },
-    "广州龙霆网络有限公司": {
-      "name": "广州龙霆网络有限公司",
-      "first_seen_anywhere": "2026-07-10",
-      "games": [
-        "大侠闯天下"
-      ],
-      "board_history": {
-        "wx/畅销榜": {
-          "first_seen": "2026-07-10",
-          "last_seen": "2026-07-10",
-          "appearances": 1,
-          "_last_day_counted": "2026-07-10"
-        }
-      }
-    },
-    "深圳彩苻科技有限公司": {
-      "name": "深圳彩苻科技有限公司",
-      "first_seen_anywhere": "2026-07-10",
-      "games": [
-        "花札物语"
-      ],
-      "board_history": {
-        "wx/畅销榜": {
-          "first_seen": "2026-07-10",
-          "last_seen": "2026-07-10",
-          "appearances": 1,
-          "_last_day_counted": "2026-07-10"
-        }
-      }
-    },
-    "广东游娱信息技术有限公司": {
-      "name": "广东游娱信息技术有限公司",
-      "first_seen_anywhere": "2026-07-10",
-      "games": [
-        "孤者传奇"
-      ],
-      "board_history": {
-        "wx/畅销榜": {
-          "first_seen": "2026-07-10",
-          "last_seen": "2026-07-10",
-          "appearances": 1,
-          "_last_day_counted": "2026-07-10"
-        }
-      }
-    },
-    "深圳市豆游玩科技有限公司": {
-      "name": "深圳市豆游玩科技有限公司",
-      "first_seen_anywhere": "2026-07-10",
-      "games": [
-        "仙逆：战天道"
-      ],
-      "board_history": {
-        "wx/畅销榜": {
-          "first_seen": "2026-07-10",
-          "last_seen": "2026-07-10",
-          "appearances": 1,
-          "_last_day_counted": "2026-07-10"
-        }
-      }
-    },
-    "福州萌象互动网络科技有限公司": {
-      "name": "福州萌象互动网络科技有限公司",
-      "first_seen_anywhere": "2026-07-10",
-      "games": [
-        "你跑的真快"
-      ],
-      "board_history": {
-        "wx/畅玩榜": {
-          "first_seen": "2026-07-10",
-          "last_seen": "2026-07-10",
-          "appearances": 1,
-          "_last_day_counted": "2026-07-10"
-        }
-      }
-    },
-    "实丰（深圳）网络科技有限公司": {
-      "name": "实丰（深圳）网络科技有限公司",
-      "first_seen_anywhere": "2026-07-10",
-      "games": [
-        "战争超进化"
-      ],
-      "board_history": {
-        "wx/畅玩榜": {
-          "first_seen": "2026-07-10",
-          "last_seen": "2026-07-10",
-          "appearances": 1,
-          "_last_day_counted": "2026-07-10"
         }
       }
     },
@@ -9999,5 +9999,5 @@
       }
     }
   },
-  "updated_at": "2026-07-10T07:02:25Z"
+  "updated_at": "2026-07-10T08:48:56Z"
 }

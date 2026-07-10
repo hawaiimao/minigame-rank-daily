@@ -5,327 +5,31 @@
       "platform": "wx",
       "platform_label": "微信小游戏",
       "board_label": "人气榜",
-      "first_anywhere": [
-        {
-          "rank": 81,
-          "name": "疯狂找茬王",
-          "category": "休闲",
-          "category_rank": 60,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "广州掌乐文化发展有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        }
-      ],
-      "first_on_board": [
-        {
-          "rank": 99,
-          "name": "救救我鸭",
-          "category": "休闲",
-          "category_rank": 71,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "北京起跃文化有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        }
-      ],
-      "returning": [
-        {
-          "rank": 90,
-          "name": "奇妙卡牌世界",
-          "category": "休闲",
-          "category_rank": 64,
-          "subcategory": "消除",
-          "slogan": "",
-          "publisher": "武汉聚优量信息科技有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        },
-        {
-          "rank": 100,
-          "name": "微乐家乡麻将",
-          "category": "棋牌",
-          "category_rank": 15,
-          "subcategory": "牌类",
-          "slogan": "",
-          "publisher": "家乡互动(厦门)网络科技有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        }
-      ],
-      "new_publishers": [
-        {
-          "rank": 13,
-          "name": "汉字老六",
-          "category": "休闲",
-          "category_rank": 12,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "上海游之幻网络科技有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        },
-        {
-          "rank": 42,
-          "name": "诡异怪谈所",
-          "category": "其他",
-          "category_rank": 1,
-          "subcategory": "其他",
-          "slogan": "",
-          "publisher": "深圳市掌动无限科技有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        },
-        {
-          "rank": 81,
-          "name": "疯狂找茬王",
-          "category": "休闲",
-          "category_rank": 60,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "广州掌乐文化发展有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        },
-        {
-          "rank": 97,
-          "name": "毫妙找茬",
-          "category": "休闲",
-          "category_rank": 69,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "南京欧瀚信息技术有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        },
-        {
-          "rank": 99,
-          "name": "救救我鸭",
-          "category": "休闲",
-          "category_rank": 71,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "北京起跃文化有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        }
-      ],
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
       "totals": {
-        "new_to_board": 2,
-        "returning": 2,
-        "new_publishers": 5
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
       },
-      "new_to_board": [
-        {
-          "rank": 81,
-          "name": "疯狂找茬王",
-          "category": "休闲",
-          "category_rank": 60,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "广州掌乐文化发展有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        },
-        {
-          "rank": 99,
-          "name": "救救我鸭",
-          "category": "休闲",
-          "category_rank": 71,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "北京起跃文化有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        }
-      ]
+      "new_to_board": []
     },
     "wx/畅销榜": {
       "platform": "wx",
       "platform_label": "微信小游戏",
       "board_label": "畅销榜",
-      "first_anywhere": [
-        {
-          "rank": 95,
-          "name": "孤者传奇",
-          "category": "角色",
-          "category_rank": 43,
-          "subcategory": "ARPG",
-          "slogan": "",
-          "publisher": "广东游娱信息技术有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        }
-      ],
-      "first_on_board": [
-        {
-          "rank": 55,
-          "name": "花札物语",
-          "category": "休闲",
-          "category_rank": 24,
-          "subcategory": "模拟经营",
-          "slogan": "",
-          "publisher": "深圳彩苻科技有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        }
-      ],
-      "returning": [
-        {
-          "rank": 11,
-          "name": "烈焰征程",
-          "category": "角色",
-          "category_rank": 4,
-          "subcategory": "MMO",
-          "slogan": "",
-          "publisher": "杭州悦寒网络科技有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        },
-        {
-          "rank": 88,
-          "name": "我的休闲时光",
-          "category": "休闲",
-          "category_rank": 37,
-          "subcategory": "模拟经营",
-          "slogan": "",
-          "publisher": "广州卓动信息科技有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        },
-        {
-          "rank": 89,
-          "name": "英雄没有闪",
-          "category": "角色",
-          "category_rank": 41,
-          "subcategory": "ARPG",
-          "slogan": "",
-          "publisher": "广州盈心网络科技有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        },
-        {
-          "rank": 96,
-          "name": "兵器王者",
-          "category": "休闲",
-          "category_rank": 41,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "青岛蓝飞互娱科技股份有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        },
-        {
-          "rank": 97,
-          "name": "英雄杀",
-          "category": "角色",
-          "category_rank": 44,
-          "subcategory": "卡牌卡牌竞技卡牌",
-          "slogan": "",
-          "publisher": "深圳市腾讯计算机系统有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        }
-      ],
-      "new_publishers": [
-        {
-          "rank": 21,
-          "name": "我要当老祖",
-          "category": "角色",
-          "category_rank": 7,
-          "subcategory": "卡牌",
-          "slogan": "",
-          "publisher": "深圳冰川网络股份有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        },
-        {
-          "rank": 37,
-          "name": "大侠闯天下",
-          "category": "其他",
-          "category_rank": 2,
-          "subcategory": "其他",
-          "slogan": "",
-          "publisher": "广州龙霆网络有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        },
-        {
-          "rank": 55,
-          "name": "花札物语",
-          "category": "休闲",
-          "category_rank": 24,
-          "subcategory": "模拟经营",
-          "slogan": "",
-          "publisher": "深圳彩苻科技有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        },
-        {
-          "rank": 83,
-          "name": "勇者乱斗",
-          "category": "休闲",
-          "category_rank": 34,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "杭州电梦网络科技有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        },
-        {
-          "rank": 95,
-          "name": "孤者传奇",
-          "category": "角色",
-          "category_rank": 43,
-          "subcategory": "ARPG",
-          "slogan": "",
-          "publisher": "广东游娱信息技术有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        },
-        {
-          "rank": 98,
-          "name": "仙逆：战天道",
-          "category": "角色",
-          "category_rank": 45,
-          "subcategory": "ARPG",
-          "slogan": "",
-          "publisher": "深圳市豆游玩科技有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        }
-      ],
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
       "totals": {
-        "new_to_board": 2,
-        "returning": 5,
-        "new_publishers": 6
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
       },
-      "new_to_board": [
-        {
-          "rank": 55,
-          "name": "花札物语",
-          "category": "休闲",
-          "category_rank": 24,
-          "subcategory": "模拟经营",
-          "slogan": "",
-          "publisher": "深圳彩苻科技有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        },
-        {
-          "rank": 95,
-          "name": "孤者传奇",
-          "category": "角色",
-          "category_rank": 43,
-          "subcategory": "ARPG",
-          "slogan": "",
-          "publisher": "广东游娱信息技术有限公司",
-          "change": "- 稳定",
-          "change_direction": "flat"
-        }
-      ]
+      "new_to_board": []
     },
     "wx/畅玩榜": {
       "platform": "wx",
@@ -346,45 +50,11 @@
           "change_direction": "flat"
         }
       ],
-      "new_publishers": [
-        {
-          "rank": 25,
-          "name": "汉字老六",
-          "category": "休闲",
-          "category_rank": 22,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "上海游之幻网络科技有限公司",
-          "change": "10",
-          "change_direction": "down"
-        },
-        {
-          "rank": 90,
-          "name": "你跑的真快",
-          "category": "休闲",
-          "category_rank": 82,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "福州萌象互动网络科技有限公司",
-          "change": "19",
-          "change_direction": "up"
-        },
-        {
-          "rank": 96,
-          "name": "战争超进化",
-          "category": "休闲",
-          "category_rank": 88,
-          "subcategory": "益智",
-          "slogan": "",
-          "publisher": "实丰（深圳）网络科技有限公司",
-          "change": "4",
-          "change_direction": "up"
-        }
-      ],
+      "new_publishers": [],
       "totals": {
         "new_to_board": 0,
         "returning": 1,
-        "new_publishers": 3
+        "new_publishers": 0
       },
       "new_to_board": []
     },
