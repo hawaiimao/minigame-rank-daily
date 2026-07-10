@@ -19,6 +19,10 @@ on:
         required: false
         type: boolean
         default: false
+      date:
+        description: "Historical re-pull: YYYY-MM-DD to re-scrape a past day via the site's date picker. Empty = today. Implies force on that date."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -48,6 +52,7 @@ jobs:
           GRAVITY_AUTH: ${{ secrets.GRAVITY_AUTH }}
           GRAVITY_TOP_N: ${{ github.event.inputs.top_n }}
           GRAVITY_FORCE: ${{ github.event.inputs.force }}
+          GRAVITY_DATE: ${{ github.event.inputs.date }}
         run: python scripts/ci_scrape.py
 
       - name: Compute diff vs previous day
@@ -72,7 +77,8 @@ jobs:
             echo "No data changes to commit."
             exit 0
           fi
-          DATE=$(date -u -d "+8 hours" +%F)
+          DATE="${{ github.event.inputs.date }}"
+          if [ -z "$DATE" ]; then DATE=$(date -u -d "+8 hours" +%F); fi
           git commit -m "data: $DATE snapshot"
           git push
 
