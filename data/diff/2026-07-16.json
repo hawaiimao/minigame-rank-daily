@@ -1,0 +1,394 @@
+{
+  "date": "2026-07-16",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 15,
+          "name": "当鸡王有多美",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "烤鸭：我们很熟吗",
+          "publisher": "北京木童科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "卡米公主换装",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "是一款换装搭配、拼豆艺术与安静书模拟于一体的治愈系创意游戏！",
+          "publisher": "石家庄玄之网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 15,
+          "name": "当鸡王有多美",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "烤鸭：我们很熟吗",
+          "publisher": "北京木童科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 15,
+          "name": "当鸡王有多美",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "烤鸭：我们很熟吗",
+          "publisher": "北京木童科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 13,
+          "name": "拳皇全明星",
+          "publisher": "银河聚阵",
+          "category": "格斗",
+          "subcategory": "动作、角色扮演、竞技"
+        },
+        {
+          "rank": 28,
+          "name": "凯蒂猫梦想商店",
+          "publisher": "苏州沁游网络科技有限公司",
+          "category": "可爱",
+          "subcategory": "模拟经营、养成、合成、休闲"
+        },
+        {
+          "rank": 48,
+          "name": "饥饿派画家2：迷失",
+          "publisher": "良心工作室",
+          "category": "模拟"
+        },
+        {
+          "rank": 66,
+          "name": "武道风云",
+          "publisher": "今古工作室",
+          "category": "养成",
+          "subcategory": "国风、策略、放置、卡牌"
+        },
+        {
+          "rank": 73,
+          "name": "龙之谷：启程",
+          "publisher": "三九互娱",
+          "category": "MMORPG",
+          "subcategory": "多人联机、冒险、角色扮演"
+        },
+        {
+          "rank": 74,
+          "name": "烽火望长安",
+          "publisher": "星河奇遇",
+          "category": "国风",
+          "subcategory": "历史、策略、卡牌"
+        },
+        {
+          "rank": 87,
+          "name": "塔塔冒险队",
+          "publisher": "莉莉丝游戏",
+          "category": "宠物",
+          "subcategory": "收集、塔防、策略、卡牌、养成、竖屏、放置"
+        },
+        {
+          "rank": 89,
+          "name": "警戒线：全面冲突",
+          "publisher": "玄鑫工作室",
+          "category": "战争",
+          "subcategory": "RTS、策略"
+        },
+        {
+          "rank": 91,
+          "name": "重返校园2:首富上学",
+          "publisher": "西木木",
+          "category": "开放世界",
+          "subcategory": "剧情、单机、角色扮演"
+        },
+        {
+          "rank": 99,
+          "name": "万界绮园：逐光筑梦手札",
+          "publisher": "游萤互娱",
+          "category": "治愈",
+          "subcategory": "种田、模拟经营、建造、休闲"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 53,
+          "name": "镇邪人",
+          "publisher": "镇邪人工作室",
+          "category": "策略",
+          "subcategory": "生存、搜打撤、角色扮演"
+        },
+        {
+          "rank": 67,
+          "name": "Melocube",
+          "publisher": "RoamingWood",
+          "category": "音乐"
+        },
+        {
+          "rank": 82,
+          "name": "热力无限赛车",
+          "publisher": "广州金科文化科技有限公司",
+          "category": "竞速"
+        },
+        {
+          "rank": 88,
+          "name": "幻兽帕鲁手游",
+          "publisher": "新闻消息",
+          "category": "冒险"
+        },
+        {
+          "rank": 90,
+          "name": "荒野大镖客：救赎",
+          "publisher": "新闻消息",
+          "category": "剧情",
+          "subcategory": "开放世界、动作、角色扮演"
+        },
+        {
+          "rank": 94,
+          "name": "DeathPlunder亡命掠夺者",
+          "category": "生存",
+          "subcategory": "搜打撤、角色扮演、动作、冒险"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 13,
+          "name": "拳皇全明星",
+          "publisher": "银河聚阵",
+          "category": "格斗",
+          "subcategory": "动作、角色扮演、竞技"
+        },
+        {
+          "rank": 66,
+          "name": "武道风云",
+          "publisher": "今古工作室",
+          "category": "养成",
+          "subcategory": "国风、策略、放置、卡牌"
+        },
+        {
+          "rank": 73,
+          "name": "龙之谷：启程",
+          "publisher": "三九互娱",
+          "category": "MMORPG",
+          "subcategory": "多人联机、冒险、角色扮演"
+        },
+        {
+          "rank": 74,
+          "name": "烽火望长安",
+          "publisher": "星河奇遇",
+          "category": "国风",
+          "subcategory": "历史、策略、卡牌"
+        },
+        {
+          "rank": 87,
+          "name": "塔塔冒险队",
+          "publisher": "莉莉丝游戏",
+          "category": "宠物",
+          "subcategory": "收集、塔防、策略、卡牌、养成、竖屏、放置"
+        },
+        {
+          "rank": 89,
+          "name": "警戒线：全面冲突",
+          "publisher": "玄鑫工作室",
+          "category": "战争",
+          "subcategory": "RTS、策略"
+        },
+        {
+          "rank": 91,
+          "name": "重返校园2:首富上学",
+          "publisher": "西木木",
+          "category": "开放世界",
+          "subcategory": "剧情、单机、角色扮演"
+        },
+        {
+          "rank": 99,
+          "name": "万界绮园：逐光筑梦手札",
+          "publisher": "游萤互娱",
+          "category": "治愈",
+          "subcategory": "种田、模拟经营、建造、休闲"
+        }
+      ],
+      "totals": {
+        "new_to_board": 10,
+        "returning": 6,
+        "new_publishers": 8
+      },
+      "new_to_board": [
+        {
+          "rank": 13,
+          "name": "拳皇全明星",
+          "publisher": "银河聚阵",
+          "category": "格斗",
+          "subcategory": "动作、角色扮演、竞技"
+        },
+        {
+          "rank": 28,
+          "name": "凯蒂猫梦想商店",
+          "publisher": "苏州沁游网络科技有限公司",
+          "category": "可爱",
+          "subcategory": "模拟经营、养成、合成、休闲"
+        },
+        {
+          "rank": 48,
+          "name": "饥饿派画家2：迷失",
+          "publisher": "良心工作室",
+          "category": "模拟"
+        },
+        {
+          "rank": 66,
+          "name": "武道风云",
+          "publisher": "今古工作室",
+          "category": "养成",
+          "subcategory": "国风、策略、放置、卡牌"
+        },
+        {
+          "rank": 73,
+          "name": "龙之谷：启程",
+          "publisher": "三九互娱",
+          "category": "MMORPG",
+          "subcategory": "多人联机、冒险、角色扮演"
+        },
+        {
+          "rank": 74,
+          "name": "烽火望长安",
+          "publisher": "星河奇遇",
+          "category": "国风",
+          "subcategory": "历史、策略、卡牌"
+        },
+        {
+          "rank": 87,
+          "name": "塔塔冒险队",
+          "publisher": "莉莉丝游戏",
+          "category": "宠物",
+          "subcategory": "收集、塔防、策略、卡牌、养成、竖屏、放置"
+        },
+        {
+          "rank": 89,
+          "name": "警戒线：全面冲突",
+          "publisher": "玄鑫工作室",
+          "category": "战争",
+          "subcategory": "RTS、策略"
+        },
+        {
+          "rank": 91,
+          "name": "重返校园2:首富上学",
+          "publisher": "西木木",
+          "category": "开放世界",
+          "subcategory": "剧情、单机、角色扮演"
+        },
+        {
+          "rank": 99,
+          "name": "万界绮园：逐光筑梦手札",
+          "publisher": "游萤互娱",
+          "category": "治愈",
+          "subcategory": "种田、模拟经营、建造、休闲"
+        }
+      ]
+    }
+  }
+}
