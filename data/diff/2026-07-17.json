@@ -6,30 +6,268 @@
       "platform_label": "微信小游戏",
       "board_label": "人气榜",
       "first_anywhere": [],
-      "first_on_board": [],
-      "returning": [],
+      "first_on_board": [
+        {
+          "rank": 94,
+          "name": "闪耀吧！噜咪",
+          "category": "休闲",
+          "category_rank": 68,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 81,
+          "name": "小妖退退退",
+          "category": "休闲",
+          "category_rank": 58,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 99,
+          "name": "消个水果",
+          "category": "休闲",
+          "category_rank": 71,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州尊悦文化发展有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 100,
+          "name": "吞食超进化",
+          "category": "休闲",
+          "category_rank": 72,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
       "new_publishers": [],
       "totals": {
-        "new_to_board": 0,
-        "returning": 0,
+        "new_to_board": 1,
+        "returning": 3,
         "new_publishers": 0
       },
-      "new_to_board": []
+      "new_to_board": [
+        {
+          "rank": 94,
+          "name": "闪耀吧！噜咪",
+          "category": "休闲",
+          "category_rank": 68,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
     },
     "wx/畅销榜": {
       "platform": "wx",
       "platform_label": "微信小游戏",
       "board_label": "畅销榜",
-      "first_anywhere": [],
+      "first_anywhere": [
+        {
+          "rank": 57,
+          "name": "街机恐龙",
+          "category": "动作",
+          "category_rank": 1,
+          "subcategory": "对战",
+          "slogan": "",
+          "publisher": "湖南草花互动科技有限股份公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 77,
+          "name": "超能世界",
+          "category": "角色",
+          "category_rank": 37,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "海南冰川网络技术有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 81,
+          "name": "此生无白",
+          "category": "角色",
+          "category_rank": 39,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "苏州沁游网络科技有限公司天枢分公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 97,
+          "name": "我是大东家",
+          "category": "休闲",
+          "category_rank": 38,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "上海益玩网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
       "first_on_board": [],
-      "returning": [],
-      "new_publishers": [],
+      "returning": [
+        {
+          "rank": 30,
+          "name": "星皇传奇",
+          "category": "角色",
+          "category_rank": 11,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "杭州悦轶网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 50,
+          "name": "王者之弈",
+          "category": "角色",
+          "category_rank": 23,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "海南椰路信息科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 84,
+          "name": "时光大爆炸",
+          "category": "休闲",
+          "category_rank": 33,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "安徽盈趣网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 92,
+          "name": "指尖幻影",
+          "category": "休闲",
+          "category_rank": 36,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "海南异界科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 100,
+          "name": "财神十三张",
+          "category": "棋牌",
+          "category_rank": 7,
+          "subcategory": "牌类",
+          "slogan": "",
+          "publisher": "厦门游成互动网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 57,
+          "name": "街机恐龙",
+          "category": "动作",
+          "category_rank": 1,
+          "subcategory": "对战",
+          "slogan": "",
+          "publisher": "湖南草花互动科技有限股份公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 77,
+          "name": "超能世界",
+          "category": "角色",
+          "category_rank": 37,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "海南冰川网络技术有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 81,
+          "name": "此生无白",
+          "category": "角色",
+          "category_rank": 39,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "苏州沁游网络科技有限公司天枢分公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
       "totals": {
-        "new_to_board": 0,
-        "returning": 0,
-        "new_publishers": 0
+        "new_to_board": 4,
+        "returning": 5,
+        "new_publishers": 3
       },
-      "new_to_board": []
+      "new_to_board": [
+        {
+          "rank": 57,
+          "name": "街机恐龙",
+          "category": "动作",
+          "category_rank": 1,
+          "subcategory": "对战",
+          "slogan": "",
+          "publisher": "湖南草花互动科技有限股份公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 77,
+          "name": "超能世界",
+          "category": "角色",
+          "category_rank": 37,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "海南冰川网络技术有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 81,
+          "name": "此生无白",
+          "category": "角色",
+          "category_rank": 39,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "苏州沁游网络科技有限公司天枢分公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 97,
+          "name": "我是大东家",
+          "category": "休闲",
+          "category_rank": 38,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "上海益玩网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
     },
     "wx/畅玩榜": {
       "platform": "wx",
@@ -826,29 +1064,56 @@
           "publisher": "游萤互娱",
           "category": "治愈",
           "subcategory": "种田、模拟经营、建造、休闲"
+        },
+        {
+          "rank": 96,
+          "name": "城镇叠叠乐",
+          "publisher": "Raw Fury",
+          "category": "模拟经营",
+          "subcategory": "解压、经营、休闲、建造、单机、移植、沙盒"
         }
       ],
-      "first_on_board": [],
+      "first_on_board": [
+        {
+          "rank": 100,
+          "name": "放开那妖怪",
+          "publisher": "指曜网络",
+          "category": "角色扮演",
+          "subcategory": "卡牌、西游、Q版、竖屏、冒险、养成、放置"
+        }
+      ],
       "returning": [
         {
-          "rank": 93,
+          "rank": 75,
+          "name": "宝石战争",
+          "publisher": "小五工作室",
+          "category": "RPG",
+          "subcategory": "策略、卡牌、横版、消除、养成、收集"
+        },
+        {
+          "rank": 83,
           "name": "Melocube",
           "publisher": "RoamingWood",
           "category": "音乐"
         },
         {
-          "rank": 99,
+          "rank": 91,
           "name": "月光茧",
           "publisher": "上海灵契数智科技有限公司",
           "category": "恋爱",
           "subcategory": "女性向、模拟"
         },
         {
-          "rank": 100,
-          "name": "少女前线：蓝蝶契约",
-          "publisher": "Sunborn",
-          "category": "二次元",
-          "subcategory": "TPS、射击"
+          "rank": 97,
+          "name": "纸房子",
+          "category": "模拟",
+          "subcategory": "角色扮演、休闲"
+        },
+        {
+          "rank": 99,
+          "name": "二十四节气",
+          "publisher": "东极六感",
+          "category": "模拟"
         }
       ],
       "new_publishers": [
@@ -858,12 +1123,26 @@
           "publisher": "游萤互娱",
           "category": "治愈",
           "subcategory": "种田、模拟经营、建造、休闲"
+        },
+        {
+          "rank": 96,
+          "name": "城镇叠叠乐",
+          "publisher": "Raw Fury",
+          "category": "模拟经营",
+          "subcategory": "解压、经营、休闲、建造、单机、移植、沙盒"
+        },
+        {
+          "rank": 100,
+          "name": "放开那妖怪",
+          "publisher": "指曜网络",
+          "category": "角色扮演",
+          "subcategory": "卡牌、西游、Q版、竖屏、冒险、养成、放置"
         }
       ],
       "totals": {
-        "new_to_board": 1,
-        "returning": 3,
-        "new_publishers": 1
+        "new_to_board": 3,
+        "returning": 5,
+        "new_publishers": 3
       },
       "new_to_board": [
         {
@@ -872,6 +1151,20 @@
           "publisher": "游萤互娱",
           "category": "治愈",
           "subcategory": "种田、模拟经营、建造、休闲"
+        },
+        {
+          "rank": 96,
+          "name": "城镇叠叠乐",
+          "publisher": "Raw Fury",
+          "category": "模拟经营",
+          "subcategory": "解压、经营、休闲、建造、单机、移植、沙盒"
+        },
+        {
+          "rank": 100,
+          "name": "放开那妖怪",
+          "publisher": "指曜网络",
+          "category": "角色扮演",
+          "subcategory": "卡牌、西游、Q版、竖屏、冒险、养成、放置"
         }
       ]
     }
