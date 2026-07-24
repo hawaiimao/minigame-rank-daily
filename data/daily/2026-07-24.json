@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-24T04:12:59",
+  "scraped_at": "2026-07-24T06:08:24",
   "period": "日榜",
   "logged_in": true,
   "top_n_target": 100,
@@ -49,7 +49,7 @@
               "name": "腾讯欢乐斗地主",
               "category": "棋牌",
               "category_rank": 1,
-              "subcategory": "牌类传统棋牌棋牌",
+              "subcategory": "牌类棋牌传统棋牌",
               "slogan": "",
               "publisher": "深圳市腾讯计算机系统有限公司",
               "change": "- 稳定",
@@ -137,7 +137,7 @@
               "name": "跳一跳",
               "category": "休闲",
               "category_rank": 11,
-              "subcategory": "益智超休闲休闲",
+              "subcategory": "益智休闲超休闲",
               "slogan": "",
               "publisher": "深圳市腾讯计算机系统有限公司",
               "change": "1",
@@ -159,7 +159,7 @@
               "name": "天天斗地主真人版",
               "category": "棋牌",
               "category_rank": 2,
-              "subcategory": "牌类传统棋牌棋牌",
+              "subcategory": "牌类棋牌传统棋牌",
               "slogan": "",
               "publisher": "深圳市禅游科技股份有限公司",
               "change": "1",
@@ -384,7 +384,7 @@
               "name": "腾讯欢乐斗地主",
               "category": "棋牌",
               "category_rank": 1,
-              "subcategory": "牌类棋牌传统棋牌",
+              "subcategory": "牌类传统棋牌棋牌",
               "slogan": "",
               "publisher": "深圳市腾讯计算机系统有限公司",
               "change": "5",
@@ -609,7 +609,7 @@
               "name": "掼蛋",
               "category": "棋牌",
               "category_rank": 1,
-              "subcategory": "牌类传统棋牌棋牌",
+              "subcategory": "牌类棋牌传统棋牌",
               "slogan": "",
               "publisher": "杭州边锋网络技术有限公司",
               "change": "- 稳定",
@@ -642,7 +642,7 @@
               "name": "俄罗斯方块拼图",
               "category": "休闲",
               "category_rank": 15,
-              "subcategory": "消除消除休闲",
+              "subcategory": "消除休闲消除",
               "slogan": "",
               "publisher": "广州京游网络科技有限公司",
               "change": "- 稳定",
@@ -664,7 +664,7 @@
               "name": "天天象棋",
               "category": "棋牌",
               "category_rank": 2,
-              "subcategory": "棋类传统棋牌棋牌",
+              "subcategory": "棋类棋牌传统棋牌",
               "slogan": "",
               "publisher": "深圳市腾讯天游科技有限公司",
               "change": "- 稳定",
@@ -1401,51 +1401,51 @@
             },
             {
               "rank": 5,
-              "name": "龙岛异兽起源",
-              "publisher": "微乐游戏",
-              "category": "生存",
-              "subcategory": "开放世界、冒险、恐龙"
-            },
-            {
-              "rank": 6,
               "name": "盗墓笔记：启程",
               "publisher": "盛罗网络",
               "category": "盗墓",
               "subcategory": "冒险、解谜、动作、剧情、角色扮演"
             },
             {
+              "rank": 6,
+              "name": "龙岛异兽起源",
+              "publisher": "微乐游戏",
+              "category": "生存",
+              "subcategory": "开放世界、冒险、恐龙"
+            },
+            {
               "rank": 7,
+              "name": "苏丹的游戏",
+              "publisher": "Game Tree",
+              "category": "角色扮演"
+            },
+            {
+              "rank": 8,
               "name": "蓝色星原：旅谣",
               "publisher": "蛮奈网络",
               "category": "角色扮演",
               "subcategory": "二次元、开放世界、冒险、动作、养成、收集"
             },
             {
-              "rank": 8,
-              "name": "苏丹的游戏",
-              "publisher": "Game Tree",
-              "category": "角色扮演"
-            },
-            {
               "rank": 9,
-              "name": "梦战：剑之海",
-              "publisher": "紫龙游戏",
-              "category": "角色扮演",
-              "subcategory": "策略、冒险、SRPG"
-            },
-            {
-              "rank": 10,
               "name": "崩坏：因缘精灵",
               "publisher": "miHoYo",
               "category": "冒险",
               "subcategory": "宠物、自走棋、崩坏、策略、3D"
             },
             {
-              "rank": 11,
+              "rank": 10,
               "name": "诡秘之主：愚者",
               "publisher": "祖龙游戏",
               "category": "诡秘之主",
               "subcategory": "卡牌、二次元、角色扮演、剧情"
+            },
+            {
+              "rank": 11,
+              "name": "梦战：剑之海",
+              "publisher": "紫龙游戏",
+              "category": "角色扮演",
+              "subcategory": "策略、冒险、SRPG"
             },
             {
               "rank": 12,
@@ -1456,30 +1456,30 @@
             },
             {
               "rank": 13,
+              "name": "王者万象棋",
+              "publisher": "腾讯",
+              "category": "竞技",
+              "subcategory": "PVP、回合制、王者荣耀、自走棋、策略"
+            },
+            {
+              "rank": 14,
               "name": "小猫咪大城市",
               "category": "模拟",
               "subcategory": "休闲、冒险"
             },
             {
-              "rank": 14,
+              "rank": 15,
               "name": "拳皇全明星",
               "publisher": "银河聚阵",
               "category": "格斗",
               "subcategory": "动作、角色扮演、竞技"
             },
             {
-              "rank": 15,
+              "rank": 16,
               "name": "望月",
               "publisher": "望月游戏研究院",
               "category": "角色扮演",
               "subcategory": "开放世界、抓宠、高自由度、都市、建造、二次元、动作"
-            },
-            {
-              "rank": 16,
-              "name": "王者万象棋",
-              "publisher": "腾讯",
-              "category": "竞技",
-              "subcategory": "PVP、回合制、王者荣耀、自走棋、策略"
             },
             {
               "rank": 17,
@@ -1490,57 +1490,57 @@
             },
             {
               "rank": 18,
-              "name": "机械启元",
-              "publisher": "Hero Games",
-              "category": "射击",
-              "subcategory": "建造、开放世界、冒险、生存、竞技、末日、科幻、SOC、搜打撤、动作"
-            },
-            {
-              "rank": 19,
               "name": "赘婿",
               "publisher": "赘有趣工作室",
               "category": "模拟经营",
               "subcategory": "放置、国风、养成"
             },
             {
+              "rank": 19,
+              "name": "山海奇旅",
+              "publisher": "网易游戏",
+              "category": "模拟经营",
+              "subcategory": "治愈、多人联机、建造、模拟"
+            },
+            {
               "rank": 20,
+              "name": "机械启元",
+              "publisher": "Hero Games",
+              "category": "射击",
+              "subcategory": "建造、开放世界、冒险、生存、竞技、末日、科幻、SOC、搜打撤、动作"
+            },
+            {
+              "rank": 21,
               "name": "凯蒂猫梦想商店",
               "publisher": "苏州沁游网络科技有限公司",
               "category": "可爱",
               "subcategory": "模拟经营、养成、合成、休闲"
             },
             {
-              "rank": 21,
+              "rank": 22,
               "name": "约定之日",
               "publisher": "上海星烁互娱",
               "category": "美少女",
               "subcategory": "二次元、卡牌"
             },
             {
-              "rank": 22,
+              "rank": 23,
               "name": "代号：神不言",
               "publisher": "祖龙",
               "category": "恋爱",
               "subcategory": "乙女、都市、女性向、养成、剧情、3D、模拟"
             },
             {
-              "rank": 23,
-              "name": "航海王：集结",
-              "publisher": "朝夕光年",
-              "category": "角色扮演",
-              "subcategory": "ARPG、3D、动漫、二次元、合作、冒险、动作"
-            },
-            {
               "rank": 24,
-              "name": "彩虹六号",
-              "publisher": "腾讯"
-            },
-            {
-              "rank": 25,
               "name": "七界梦谭",
               "publisher": "飞光阁工作室",
               "category": "角色扮演",
               "subcategory": "修仙、高画质、MMORPG、开放世界、国风、3D"
+            },
+            {
+              "rank": 25,
+              "name": "彩虹六号",
+              "publisher": "腾讯"
             },
             {
               "rank": 26,
@@ -1551,10 +1551,10 @@
             },
             {
               "rank": 27,
-              "name": "魔刻猎手",
-              "publisher": "腾讯",
-              "category": "共斗",
-              "subcategory": "养成、动作"
+              "name": "航海王：集结",
+              "publisher": "朝夕光年",
+              "category": "角色扮演",
+              "subcategory": "ARPG、3D、动漫、二次元、合作、冒险、动作"
             },
             {
               "rank": 28,
@@ -1565,59 +1565,59 @@
             },
             {
               "rank": 29,
-              "name": "代号：巫师之路",
-              "publisher": "巫师协会",
-              "category": "角色扮演",
-              "subcategory": "刷宝"
-            },
-            {
-              "rank": 30,
-              "name": "幻影传说",
-              "publisher": "黑潮营地",
-              "category": "塔防",
-              "subcategory": "放置、角色扮演"
-            },
-            {
-              "rank": 31,
-              "name": "奥星热浪",
-              "publisher": "腾讯",
-              "category": "派对游戏",
-              "subcategory": "搜打撤、io、休闲"
-            },
-            {
-              "rank": 32,
               "name": "绿梦：时空之声",
               "publisher": "绿梦工作室",
               "category": "二次元",
               "subcategory": "冒险、3D、策略、美少女、横版、科幻、角色扮演、动作"
             },
             {
-              "rank": 33,
+              "rank": 30,
+              "name": "魔刻猎手",
+              "publisher": "腾讯",
+              "category": "共斗",
+              "subcategory": "养成、动作"
+            },
+            {
+              "rank": 31,
               "name": "元夜十二谈",
               "publisher": "上海游卡",
               "category": "冒险",
               "subcategory": "3D、新怪谈、策略、角色扮演"
             },
             {
-              "rank": 34,
+              "rank": 32,
+              "name": "奥星热浪",
+              "publisher": "腾讯",
+              "category": "派对游戏",
+              "subcategory": "搜打撤、io、休闲"
+            },
+            {
+              "rank": 33,
               "name": "仙境传说3",
               "publisher": "哔哩哔哩游戏",
               "category": "MMORPG",
               "subcategory": "冒险、多人联机、角色扮演"
             },
             {
-              "rank": 35,
-              "name": "舒舒服服小岛时光",
-              "publisher": "心动",
-              "category": "冒险",
-              "subcategory": "休闲"
+              "rank": 34,
+              "name": "代号：巫师之路",
+              "publisher": "巫师协会",
+              "category": "角色扮演",
+              "subcategory": "刷宝"
             },
             {
-              "rank": 36,
+              "rank": 35,
               "name": "龙之谷：启程",
               "publisher": "三九互娱",
               "category": "MMORPG",
               "subcategory": "多人联机、冒险、角色扮演"
+            },
+            {
+              "rank": 36,
+              "name": "舒舒服服小岛时光",
+              "publisher": "心动",
+              "category": "冒险",
+              "subcategory": "休闲"
             },
             {
               "rank": 37,
@@ -1628,111 +1628,110 @@
             },
             {
               "rank": 38,
+              "name": "幻影传说",
+              "publisher": "黑潮营地",
+              "category": "塔防",
+              "subcategory": "放置、角色扮演"
+            },
+            {
+              "rank": 39,
               "name": "饥困荒野",
               "publisher": "腾讯",
               "category": "沙盒",
               "subcategory": "生存、多人联机、饥荒、冒险"
             },
             {
-              "rank": 39,
+              "rank": 40,
               "name": "外婆的手账本",
               "publisher": "伴心制作组",
               "category": "模拟"
             },
             {
-              "rank": 40,
-              "name": "猛兽派对",
-              "publisher": "Recreate Games",
-              "category": "可爱",
-              "subcategory": "搞笑、休闲、派对游戏、魔性、物理、多人联机、角色扮演"
-            },
-            {
               "rank": 41,
-              "name": "奶茶店模拟器——重生之我在冰堡甜城当店长",
-              "publisher": "财可咪工作室",
-              "category": "聚光灯GameJam",
-              "subcategory": "角色扮演、休闲、模拟"
-            },
-            {
-              "rank": 42,
               "name": "粒粒的小人国",
               "publisher": "腾讯",
               "category": "模拟经营",
               "subcategory": "建造、治愈、休闲、3D、社交、种田、换装、多人联机、角色扮演"
             },
             {
+              "rank": 42,
+              "name": "猛兽派对",
+              "publisher": "Recreate Games",
+              "category": "可爱",
+              "subcategory": "搞笑、休闲、派对游戏、魔性、物理、多人联机、角色扮演"
+            },
+            {
               "rank": 43,
+              "name": "奶茶店模拟器——重生之我在冰堡甜城当店长",
+              "publisher": "财可咪工作室",
+              "category": "聚光灯GameJam",
+              "subcategory": "角色扮演、休闲、模拟"
+            },
+            {
+              "rank": 44,
               "name": "烽烟",
               "publisher": "云欣谷网络",
               "category": "3D",
               "subcategory": "自由交易、MMORPG、捏脸、多人联机、高画质、角色扮演"
             },
             {
-              "rank": 44,
+              "rank": 45,
+              "name": "暮色大师",
+              "category": "休闲",
+              "subcategory": "动作、音乐"
+            },
+            {
+              "rank": 46,
+              "name": "龙族：最后的旅行",
+              "category": "角色扮演",
+              "subcategory": "冒险、文字"
+            },
+            {
+              "rank": 47,
               "name": "蜡笔小新之小帮手大作战",
               "publisher": "neos",
               "category": "教育",
               "subcategory": "休闲"
             },
             {
-              "rank": 45,
-              "name": "龙族：最后的旅行",
-              "category": "角色扮演",
-              "subcategory": "冒险、文字"
-            },
-            {
-              "rank": 46,
+              "rank": 48,
               "name": "PuffPals: Island Skies",
               "publisher": "Fluffnest",
               "category": "种田",
               "subcategory": "模拟经营、角色扮演"
             },
             {
-              "rank": 47,
-              "name": "暮色大师",
-              "category": "休闲",
-              "subcategory": "动作、音乐"
-            },
-            {
-              "rank": 48,
+              "rank": 49,
               "name": "超时空街球对决",
               "publisher": "万象星火工作室",
               "category": "体育",
               "subcategory": "篮球、竞技、3V3"
             },
             {
-              "rank": 49,
-              "name": "乌托",
-              "publisher": "乌宝工作室",
-              "category": "竖屏",
-              "subcategory": "装修、换装、可爱、模拟经营、休闲"
+              "rank": 50,
+              "name": "梦想英雄",
+              "publisher": "冷爱的工作室",
+              "category": "卡牌"
             },
             {
-              "rank": 50,
+              "rank": 51,
               "name": "Melocube",
               "publisher": "RoamingWood",
               "category": "音乐"
             },
             {
-              "rank": 51,
+              "rank": 52,
               "name": "星布谷地",
               "publisher": "miHoYo",
               "category": "模拟经营",
               "subcategory": "3D、休闲、社交、种田、多人联机、角色扮演、建造、治愈、模拟"
             },
             {
-              "rank": 52,
-              "name": "黄油猫",
-              "publisher": "机核发行",
-              "category": "买断制",
-              "subcategory": "单机、独立游戏、Steam移植、解谜、冒险"
-            },
-            {
               "rank": 53,
-              "name": "五星好市民",
-              "publisher": "十个美梦工作室",
-              "category": "多人联机",
-              "subcategory": "开放世界、角色扮演、搜打撤、射击、合作、团队合作、像素、冒险"
+              "name": "乌托",
+              "publisher": "乌宝工作室",
+              "category": "竖屏",
+              "subcategory": "装修、换装、可爱、模拟经营、休闲"
             },
             {
               "rank": 54,
@@ -1743,17 +1742,17 @@
             },
             {
               "rank": 55,
-              "name": "方舟：生存进化",
-              "publisher": "蜗牛游戏",
-              "category": "生存",
-              "subcategory": "恐龙、多人联机、沙盒、开放世界、高自由度、高画质、冒险、射击、模拟、角色扮演、PVP、动作、模拟经营"
+              "name": "黄油猫",
+              "publisher": "机核发行",
+              "category": "买断制",
+              "subcategory": "单机、独立游戏、Steam移植、解谜、冒险"
             },
             {
               "rank": 56,
-              "name": "破烂水手",
-              "publisher": "十英工作室",
-              "category": "手绘",
-              "subcategory": "Steam移植、多人联机、角色扮演"
+              "name": "五星好市民",
+              "publisher": "十个美梦工作室",
+              "category": "多人联机",
+              "subcategory": "开放世界、角色扮演、搜打撤、射击、合作、团队合作、像素、冒险"
             },
             {
               "rank": 57,
@@ -1764,51 +1763,51 @@
             },
             {
               "rank": 58,
-              "name": "追迹迷城",
-              "publisher": "缇米乐工作室",
-              "category": "Roguelike",
-              "subcategory": "动作"
+              "name": "方舟：生存进化",
+              "publisher": "蜗牛游戏",
+              "category": "生存",
+              "subcategory": "恐龙、多人联机、沙盒、开放世界、高自由度、高画质、冒险、射击、模拟、角色扮演、PVP、动作、模拟经营"
             },
             {
               "rank": 59,
-              "name": "镇魂街王者归来",
-              "publisher": "上海游碧曜",
-              "category": "角色扮演"
-            },
-            {
-              "rank": 60,
               "name": "饥饿派画家2：迷失",
               "publisher": "良心工作室",
               "category": "模拟经营",
               "subcategory": "绘画、Steam移植、角色扮演、单机、剧情、模拟"
             },
             {
+              "rank": 60,
+              "name": "镇魂街王者归来",
+              "publisher": "上海游碧曜",
+              "category": "角色扮演"
+            },
+            {
               "rank": 61,
+              "name": "破烂水手",
+              "publisher": "十英工作室",
+              "category": "手绘",
+              "subcategory": "Steam移植、多人联机、角色扮演"
+            },
+            {
+              "rank": 62,
+              "name": "追迹迷城",
+              "publisher": "缇米乐工作室",
+              "category": "Roguelike",
+              "subcategory": "动作"
+            },
+            {
+              "rank": 63,
+              "name": "群星征途2117",
+              "publisher": "千钧",
+              "category": "军事",
+              "subcategory": "战舰、太空、科幻、SLG、策略"
+            },
+            {
+              "rank": 64,
               "name": "烽火望长安",
               "publisher": "星河奇遇",
               "category": "国风",
               "subcategory": "历史、策略、卡牌"
-            },
-            {
-              "rank": 62,
-              "name": "集合！浆果镇",
-              "publisher": "朝夕光年",
-              "category": "角色扮演",
-              "subcategory": "治愈、种田、建造、模拟、社交、派对游戏、多人联机、休闲"
-            },
-            {
-              "rank": 63,
-              "name": "小垠的秘密",
-              "publisher": "鹰目科技",
-              "category": "种田",
-              "subcategory": "模拟经营、休闲"
-            },
-            {
-              "rank": 64,
-              "name": "异人之下",
-              "publisher": "腾讯",
-              "category": "高画质",
-              "subcategory": "格斗、动作"
             },
             {
               "rank": 65,
@@ -1819,31 +1818,31 @@
             },
             {
               "rank": 66,
+              "name": "异人之下",
+              "publisher": "腾讯",
+              "category": "高画质",
+              "subcategory": "格斗、动作"
+            },
+            {
+              "rank": 67,
               "name": "土豆兄弟",
               "publisher": "Erabit CN",
               "category": "Rougelike",
               "subcategory": "割草、弹幕射击、角色扮演、休闲、解压、Steam移植"
             },
             {
-              "rank": 67,
+              "rank": 68,
               "name": "霓虹深渊2",
               "publisher": "Veewo Games",
               "category": "Roguelike",
               "subcategory": "多人联机、赛博朋克、Steam移植、地牢、像素、弹幕、单机、横版、动作、冒险"
             },
             {
-              "rank": 68,
-              "name": "山海奇旅",
-              "publisher": "网易游戏",
-              "category": "模拟经营",
-              "subcategory": "治愈、多人联机、建造、模拟"
-            },
-            {
               "rank": 69,
-              "name": "群星征途2117",
-              "publisher": "千钧",
-              "category": "军事",
-              "subcategory": "战舰、太空、科幻、SLG、策略"
+              "name": "这是谐音梗",
+              "publisher": "盏灯工作室",
+              "category": "搞笑",
+              "subcategory": "休闲、文字"
             },
             {
               "rank": 70,
@@ -1868,31 +1867,31 @@
             },
             {
               "rank": 73,
-              "name": "放开那妖怪",
-              "publisher": "指曜网络",
-              "category": "角色扮演",
-              "subcategory": "卡牌、西游、Q版、竖屏、冒险、养成、放置"
-            },
-            {
-              "rank": 74,
-              "name": "这是谐音梗",
-              "publisher": "盏灯工作室",
-              "category": "搞笑",
-              "subcategory": "休闲、文字"
-            },
-            {
-              "rank": 75,
               "name": "妹居物语",
               "publisher": "彩奈",
               "category": "模拟",
               "subcategory": "角色扮演、休闲"
             },
             {
+              "rank": 74,
+              "name": "掌上修仙宗门(TapTap测试版)",
+              "publisher": "777工作室",
+              "category": "放置",
+              "subcategory": "养成、修仙、经营、模拟"
+            },
+            {
+              "rank": 75,
+              "name": "小垠的秘密",
+              "publisher": "鹰目科技",
+              "category": "种田",
+              "subcategory": "模拟经营、休闲"
+            },
+            {
               "rank": 76,
-              "name": "超自然博物馆避难所",
-              "publisher": "时迹网络",
-              "category": "搜打撤",
-              "subcategory": "末日、生存、冒险、策略"
+              "name": "集合！浆果镇",
+              "publisher": "朝夕光年",
+              "category": "角色扮演",
+              "subcategory": "治愈、种田、建造、模拟、社交、派对游戏、多人联机、休闲"
             },
             {
               "rank": 77,
@@ -1903,23 +1902,23 @@
             },
             {
               "rank": 78,
-              "name": "掌上修仙宗门(TapTap测试版)",
-              "publisher": "777工作室",
-              "category": "放置",
-              "subcategory": "养成、修仙、经营、模拟"
-            },
-            {
-              "rank": 79,
               "name": "方圆之战",
               "publisher": "零零心动",
               "category": "休闲"
             },
             {
-              "rank": 80,
+              "rank": 79,
               "name": "归环",
               "publisher": "萨罗斯工作室",
               "category": "剧情",
               "subcategory": "二次元、角色扮演"
+            },
+            {
+              "rank": 80,
+              "name": "放开那妖怪",
+              "publisher": "指曜网络",
+              "category": "角色扮演",
+              "subcategory": "卡牌、西游、Q版、竖屏、冒险、养成、放置"
             },
             {
               "rank": 81,
@@ -1936,125 +1935,125 @@
             },
             {
               "rank": 83,
-              "name": "闪耀吧！噜咪",
-              "publisher": "哔哩哔哩游戏",
-              "category": "抓宠",
-              "subcategory": "卡牌、放置、冒险、角色扮演、养成、模拟经营、休闲"
-            },
-            {
-              "rank": 84,
               "name": "荒野大镖客：救赎",
               "publisher": "新闻消息",
               "category": "剧情",
               "subcategory": "开放世界、动作、角色扮演"
             },
             {
-              "rank": 85,
-              "name": "警戒线：全面冲突",
-              "publisher": "玄鑫工作室",
-              "category": "战争",
-              "subcategory": "RTS、策略"
-            },
-            {
-              "rank": 86,
+              "rank": 84,
               "name": "仙界大掌门",
               "publisher": "儒意景秀",
               "category": "修仙",
               "subcategory": "国风、模拟经营、策略"
             },
             {
-              "rank": 87,
-              "name": "料理人班乔",
-              "publisher": "心动",
-              "category": "角色扮演",
-              "subcategory": "休闲、模拟经营、单机、料理、3D、冒险、模拟"
+              "rank": 85,
+              "name": "闪耀吧！噜咪",
+              "publisher": "哔哩哔哩游戏",
+              "category": "抓宠",
+              "subcategory": "卡牌、放置、冒险、角色扮演、养成、模拟经营、休闲"
             },
             {
-              "rank": 88,
-              "name": "拳皇·命运",
-              "publisher": "Wanda Game",
-              "category": "动作",
-              "subcategory": "格斗、竞技、PVP、街机、休闲"
-            },
-            {
-              "rank": 89,
-              "name": "未来之役",
-              "publisher": "KRAFTON, Inc.",
-              "category": "射击",
-              "subcategory": "动作、竞技、高画质、多人联机、吃鸡"
-            },
-            {
-              "rank": 90,
+              "rank": 86,
               "name": "秘境夺金",
               "publisher": "刀盾工作室",
               "category": "动作"
             },
             {
-              "rank": 91,
+              "rank": 87,
               "name": "纤维",
               "publisher": "冬日煮米游戏制作组",
               "category": "模拟",
               "subcategory": "角色扮演、策略"
             },
             {
-              "rank": 92,
-              "name": "拉尼亚（TapTap测试版）",
-              "publisher": "广州鬼马网络有限公司",
-              "category": "休闲",
-              "subcategory": "策略、回合制、角色扮演、PVP"
+              "rank": 88,
+              "name": "警戒线：全面冲突",
+              "publisher": "玄鑫工作室",
+              "category": "战争",
+              "subcategory": "RTS、策略"
             },
             {
-              "rank": 93,
+              "rank": 89,
+              "name": "超自然博物馆避难所",
+              "publisher": "时迹网络",
+              "category": "搜打撤",
+              "subcategory": "末日、生存、冒险、策略"
+            },
+            {
+              "rank": 90,
+              "name": "料理人班乔",
+              "publisher": "心动",
+              "category": "角色扮演",
+              "subcategory": "休闲、模拟经营、单机、料理、3D、冒险、模拟"
+            },
+            {
+              "rank": 91,
               "name": "万灵之契",
               "publisher": "星光兔工作室",
               "category": "抓宠",
               "subcategory": "冒险、角色扮演"
             },
             {
+              "rank": 92,
+              "name": "拳皇·命运",
+              "publisher": "Wanda Game",
+              "category": "动作",
+              "subcategory": "格斗、竞技、PVP、街机、休闲"
+            },
+            {
+              "rank": 93,
+              "name": "未来之役",
+              "publisher": "KRAFTON, Inc.",
+              "category": "射击",
+              "subcategory": "动作、竞技、高画质、多人联机、吃鸡"
+            },
+            {
               "rank": 94,
+              "name": "航海奇兵",
+              "publisher": "卡雷豆工作室",
+              "category": "经营",
+              "subcategory": "放置、养成、卡牌"
+            },
+            {
+              "rank": 95,
+              "name": "拉尼亚（TapTap测试版）",
+              "publisher": "广州鬼马网络有限公司",
+              "category": "休闲",
+              "subcategory": "策略、回合制、角色扮演、PVP"
+            },
+            {
+              "rank": 96,
               "name": "DeathPlunder亡命掠夺者",
               "category": "生存",
               "subcategory": "搜打撤、角色扮演、动作、冒险"
             },
             {
-              "rank": 95,
+              "rank": 97,
               "name": "深海迷航",
               "publisher": "Unknown Worlds Entertainment",
               "category": "动作"
             },
             {
-              "rank": 96,
+              "rank": 98,
               "name": "骗子酒馆",
               "publisher": "新闻消息",
               "category": "多人合作",
               "subcategory": "独立游戏、多人联机、休闲"
             },
             {
-              "rank": 97,
+              "rank": 99,
               "name": "黑历史：献帝",
               "publisher": "炮灰团",
               "category": "模拟"
             },
             {
-              "rank": 98,
-              "name": "代号:速降(Descenders)",
-              "publisher": "良心工作室",
-              "category": "模拟",
-              "subcategory": "高画质、竞速"
-            },
-            {
-              "rank": 99,
-              "name": "伍六七：暗影交锋",
-              "publisher": "啊吉游",
-              "category": "角色扮演",
-              "subcategory": "国漫、像素、动作、冒险、模拟经营、横版、2D、多人联机、APRG、热血"
-            },
-            {
               "rank": 100,
-              "name": "武道风云",
-              "publisher": "今古工作室",
-              "category": "养成",
-              "subcategory": "国风、策略、放置、卡牌"
+              "name": "冒险之旅",
+              "publisher": "戒不掉工作室",
+              "category": "美少女",
+              "subcategory": "放置、养成、卡牌"
             }
           ]
         }
@@ -2062,7 +2061,7 @@
     }
   },
   "auth_expired": true,
-  "scraped_at_utc": "2026-07-24T04:13:47+00:00",
-  "scraped_at_beijing": "2026-07-24T12:12:59+08:00",
+  "scraped_at_utc": "2026-07-24T06:09:13+00:00",
+  "scraped_at_beijing": "2026-07-24T14:08:24+08:00",
   "date_beijing": "2026-07-24"
 }

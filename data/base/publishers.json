@@ -9285,9 +9285,9 @@
       "board_history": {
         "taptap/预约榜": {
           "first_seen": "2026-07-06",
-          "last_seen": "2026-07-24",
-          "appearances": 13,
-          "_last_day_counted": "2026-07-24"
+          "last_seen": "2026-07-23",
+          "appearances": 12,
+          "_last_day_counted": "2026-07-23"
         }
       }
     },
@@ -11886,9 +11886,9 @@
       "board_history": {
         "taptap/预约榜": {
           "first_seen": "2026-07-16",
-          "last_seen": "2026-07-24",
-          "appearances": 4,
-          "_last_day_counted": "2026-07-24"
+          "last_seen": "2026-07-23",
+          "appearances": 3,
+          "_last_day_counted": "2026-07-23"
         }
       }
     },
@@ -12470,9 +12470,9 @@
       "board_history": {
         "taptap/预约榜": {
           "first_seen": "2026-07-19",
-          "last_seen": "2026-07-21",
-          "appearances": 3,
-          "_last_day_counted": "2026-07-21"
+          "last_seen": "2026-07-24",
+          "appearances": 4,
+          "_last_day_counted": "2026-07-24"
         }
       }
     },
@@ -12666,9 +12666,9 @@
       "board_history": {
         "taptap/预约榜": {
           "first_seen": "2026-07-21",
-          "last_seen": "2026-07-22",
-          "appearances": 2,
-          "_last_day_counted": "2026-07-22"
+          "last_seen": "2026-07-24",
+          "appearances": 3,
+          "_last_day_counted": "2026-07-24"
         }
       }
     },
@@ -13038,6 +13038,21 @@
         }
       }
     },
+    "冷爱的工作室": {
+      "name": "冷爱的工作室",
+      "first_seen_anywhere": "2026-07-24",
+      "games": [
+        "梦想英雄"
+      ],
+      "board_history": {
+        "taptap/预约榜": {
+          "first_seen": "2026-07-24",
+          "last_seen": "2026-07-24",
+          "appearances": 1,
+          "_last_day_counted": "2026-07-24"
+        }
+      }
+    },
     "千钧": {
       "name": "千钧",
       "first_seen_anywhere": "2026-07-24",
@@ -13084,5 +13099,5 @@
       }
     }
   },
-  "updated_at": "2026-07-24T05:34:57Z"
+  "updated_at": "2026-07-24T06:09:41Z"
 }

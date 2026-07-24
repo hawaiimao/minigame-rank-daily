@@ -223,55 +223,61 @@
       "board_label": "预约榜",
       "first_anywhere": [
         {
-          "rank": 6,
+          "rank": 5,
           "name": "盗墓笔记：启程",
           "publisher": "盛罗网络",
           "category": "盗墓",
           "subcategory": "冒险、解谜、动作、剧情、角色扮演"
         },
         {
-          "rank": 27,
+          "rank": 30,
           "name": "魔刻猎手",
           "publisher": "腾讯",
           "category": "共斗",
           "subcategory": "养成、动作"
         },
         {
-          "rank": 30,
+          "rank": 38,
           "name": "幻影传说",
           "publisher": "黑潮营地",
           "category": "塔防",
           "subcategory": "放置、角色扮演"
         },
         {
-          "rank": 69,
+          "rank": 50,
+          "name": "梦想英雄",
+          "publisher": "冷爱的工作室",
+          "category": "卡牌"
+        },
+        {
+          "rank": 63,
           "name": "群星征途2117",
           "publisher": "千钧",
           "category": "军事",
           "subcategory": "战舰、太空、科幻、SLG、策略"
         },
         {
-          "rank": 76,
+          "rank": 78,
+          "name": "方圆之战",
+          "publisher": "零零心动",
+          "category": "休闲"
+        },
+        {
+          "rank": 89,
           "name": "超自然博物馆避难所",
           "publisher": "时迹网络",
           "category": "搜打撤",
           "subcategory": "末日、生存、冒险、策略"
         },
         {
-          "rank": 79,
-          "name": "方圆之战",
-          "publisher": "零零心动",
-          "category": "休闲"
-        },
-        {
-          "rank": 93,
+          "rank": 91,
           "name": "万灵之契",
           "publisher": "星光兔工作室",
           "category": "抓宠",
           "subcategory": "冒险、角色扮演"
         },
         {
-          "rank": 96,
+          "rank": 98,
           "name": "骗子酒馆",
           "publisher": "新闻消息",
           "category": "多人合作",
@@ -281,21 +287,28 @@
       "first_on_board": [],
       "returning": [
         {
-          "rank": 31,
-          "name": "奥星热浪",
-          "publisher": "腾讯",
-          "category": "派对游戏",
-          "subcategory": "搜打撤、io、休闲"
+          "rank": 19,
+          "name": "山海奇旅",
+          "publisher": "网易游戏",
+          "category": "模拟经营",
+          "subcategory": "治愈、多人联机、建造、模拟"
         },
         {
-          "rank": 33,
+          "rank": 31,
           "name": "元夜十二谈",
           "publisher": "上海游卡",
           "category": "冒险",
           "subcategory": "3D、新怪谈、策略、角色扮演"
         },
         {
-          "rank": 36,
+          "rank": 32,
+          "name": "奥星热浪",
+          "publisher": "腾讯",
+          "category": "派对游戏",
+          "subcategory": "搜打撤、io、休闲"
+        },
+        {
+          "rank": 35,
           "name": "龙之谷：启程",
           "publisher": "三九互娱",
           "category": "MMORPG",
@@ -309,84 +322,97 @@
           "subcategory": "养成、角色扮演"
         },
         {
-          "rank": 38,
+          "rank": 39,
           "name": "饥困荒野",
           "publisher": "腾讯",
           "category": "沙盒",
           "subcategory": "生存、多人联机、饥荒、冒险"
         },
         {
-          "rank": 39,
+          "rank": 40,
           "name": "外婆的手账本",
           "publisher": "伴心制作组",
           "category": "模拟"
         },
         {
-          "rank": 40,
+          "rank": 42,
           "name": "猛兽派对",
           "publisher": "Recreate Games",
           "category": "可爱",
           "subcategory": "搞笑、休闲、派对游戏、魔性、物理、多人联机、角色扮演"
         },
         {
-          "rank": 41,
+          "rank": 43,
           "name": "奶茶店模拟器——重生之我在冰堡甜城当店长",
           "publisher": "财可咪工作室",
           "category": "聚光灯GameJam",
           "subcategory": "角色扮演、休闲、模拟"
         },
         {
-          "rank": 49,
+          "rank": 53,
           "name": "乌托",
           "publisher": "乌宝工作室",
           "category": "竖屏",
           "subcategory": "装修、换装、可爱、模拟经营、休闲"
         },
         {
-          "rank": 56,
+          "rank": 61,
           "name": "破烂水手",
           "publisher": "十英工作室",
           "category": "手绘",
           "subcategory": "Steam移植、多人联机、角色扮演"
         },
         {
-          "rank": 68,
-          "name": "山海奇旅",
-          "publisher": "网易游戏",
-          "category": "模拟经营",
-          "subcategory": "治愈、多人联机、建造、模拟"
+          "rank": 94,
+          "name": "航海奇兵",
+          "publisher": "卡雷豆工作室",
+          "category": "经营",
+          "subcategory": "放置、养成、卡牌"
         },
         {
-          "rank": 92,
+          "rank": 95,
           "name": "拉尼亚（TapTap测试版）",
           "publisher": "广州鬼马网络有限公司",
           "category": "休闲",
           "subcategory": "策略、回合制、角色扮演、PVP"
+        },
+        {
+          "rank": 100,
+          "name": "冒险之旅",
+          "publisher": "戒不掉工作室",
+          "category": "美少女",
+          "subcategory": "放置、养成、卡牌"
         }
       ],
       "new_publishers": [
         {
-          "rank": 6,
+          "rank": 5,
           "name": "盗墓笔记：启程",
           "publisher": "盛罗网络",
           "category": "盗墓",
           "subcategory": "冒险、解谜、动作、剧情、角色扮演"
         },
         {
-          "rank": 69,
+          "rank": 50,
+          "name": "梦想英雄",
+          "publisher": "冷爱的工作室",
+          "category": "卡牌"
+        },
+        {
+          "rank": 63,
           "name": "群星征途2117",
           "publisher": "千钧",
           "category": "军事",
           "subcategory": "战舰、太空、科幻、SLG、策略"
         },
         {
-          "rank": 79,
+          "rank": 78,
           "name": "方圆之战",
           "publisher": "零零心动",
           "category": "休闲"
         },
         {
-          "rank": 93,
+          "rank": 91,
           "name": "万灵之契",
           "publisher": "星光兔工作室",
           "category": "抓宠",
@@ -394,61 +420,67 @@
         }
       ],
       "totals": {
-        "new_to_board": 8,
-        "returning": 12,
-        "new_publishers": 4
+        "new_to_board": 9,
+        "returning": 14,
+        "new_publishers": 5
       },
       "new_to_board": [
         {
-          "rank": 6,
+          "rank": 5,
           "name": "盗墓笔记：启程",
           "publisher": "盛罗网络",
           "category": "盗墓",
           "subcategory": "冒险、解谜、动作、剧情、角色扮演"
         },
         {
-          "rank": 27,
+          "rank": 30,
           "name": "魔刻猎手",
           "publisher": "腾讯",
           "category": "共斗",
           "subcategory": "养成、动作"
         },
         {
-          "rank": 30,
+          "rank": 38,
           "name": "幻影传说",
           "publisher": "黑潮营地",
           "category": "塔防",
           "subcategory": "放置、角色扮演"
         },
         {
-          "rank": 69,
+          "rank": 50,
+          "name": "梦想英雄",
+          "publisher": "冷爱的工作室",
+          "category": "卡牌"
+        },
+        {
+          "rank": 63,
           "name": "群星征途2117",
           "publisher": "千钧",
           "category": "军事",
           "subcategory": "战舰、太空、科幻、SLG、策略"
         },
         {
-          "rank": 76,
+          "rank": 78,
+          "name": "方圆之战",
+          "publisher": "零零心动",
+          "category": "休闲"
+        },
+        {
+          "rank": 89,
           "name": "超自然博物馆避难所",
           "publisher": "时迹网络",
           "category": "搜打撤",
           "subcategory": "末日、生存、冒险、策略"
         },
         {
-          "rank": 79,
-          "name": "方圆之战",
-          "publisher": "零零心动",
-          "category": "休闲"
-        },
-        {
-          "rank": 93,
+          "rank": 91,
           "name": "万灵之契",
           "publisher": "星光兔工作室",
           "category": "抓宠",
           "subcategory": "冒险、角色扮演"
         },
         {
-          "rank": 96,
+          "rank": 98,
           "name": "骗子酒馆",
           "publisher": "新闻消息",
           "category": "多人合作",
