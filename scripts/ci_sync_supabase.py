@@ -71,9 +71,33 @@ def sb_request(base_url: str, service_key: str, path: str,
 
 def upsert_batch(base_url, service_key, table: str, rows: list[dict],
                  on_conflict: str, batch_size: int = 500):
-    """Upsert rows in chunks to keep request bodies small."""
+    """Upsert rows in chunks to keep request bodies small.
+
+    Dedupes by the on_conflict columns first: PostgREST raises HTTP 500
+    (21000 "cannot affect row a second time") if a single batch contains
+    two rows sharing the conflict-target values. Source snapshots can
+    legitimately produce duplicates — a game listed twice on a board
+    (site glitch), or a name landing in both new_to_board and returning.
+    Collapse them keep-first so the upsert is always safe. NULLs in the
+    key are kept as-is (Postgres treats them as distinct, no conflict)."""
     if not rows:
         return 0
+    cols = [c.strip() for c in on_conflict.split(",") if c.strip()]
+    if cols:
+        seen = set()
+        deduped = []
+        for r in rows:
+            key = tuple(r.get(c) for c in cols)
+            if any(v is None for v in key):
+                deduped.append(r)  # NULLs don't conflict in PG
+                continue
+            if key in seen:
+                continue
+            seen.add(key)
+            deduped.append(r)
+        if len(deduped) != len(rows):
+            log(f"[sync] {table}: 去重 {len(rows)} → {len(deduped)}（重复冲突键）")
+        rows = deduped
     total = 0
     for i in range(0, len(rows), batch_size):
         chunk = rows[i:i + batch_size]
