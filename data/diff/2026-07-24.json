@@ -1,0 +1,460 @@
+{
+  "date": "2026-07-24",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 2,
+          "name": "涂色躲猫猫生存",
+          "category": "休闲",
+          "category_rank": 2,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "1",
+          "change_direction": "up"
+        },
+        {
+          "rank": 10,
+          "name": "一骑就上头",
+          "category": "休闲",
+          "category_rank": 9,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "暖暖梦幻小镇",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "涂色躲猫猫生存",
+          "category": "休闲",
+          "category_rank": 2,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "1",
+          "change_direction": "up"
+        },
+        {
+          "rank": 10,
+          "name": "一骑就上头",
+          "category": "休闲",
+          "category_rank": 9,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "暖暖梦幻小镇",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "全境守卫",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "集结你的子民，铸就属于你的传奇防线吧！",
+          "publisher": "重庆汇量云科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 19,
+          "name": "桃源小农院",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这是一款模拟农园的休闲小游戏",
+          "publisher": "厦门益点网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "真没难度",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "真的一点难度都没有啊",
+          "publisher": "成都木木互娱科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 19,
+          "name": "桃源小农院",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这是一款模拟农园的休闲小游戏",
+          "publisher": "厦门益点网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "真没难度",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "真的一点难度都没有啊",
+          "publisher": "成都木木互娱科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "盗墓笔记：启程",
+          "publisher": "盛罗网络",
+          "category": "盗墓",
+          "subcategory": "冒险、解谜、动作、剧情、角色扮演"
+        },
+        {
+          "rank": 27,
+          "name": "魔刻猎手",
+          "publisher": "腾讯",
+          "category": "共斗",
+          "subcategory": "养成、动作"
+        },
+        {
+          "rank": 30,
+          "name": "幻影传说",
+          "publisher": "黑潮营地",
+          "category": "塔防",
+          "subcategory": "放置、角色扮演"
+        },
+        {
+          "rank": 69,
+          "name": "群星征途2117",
+          "publisher": "千钧",
+          "category": "军事",
+          "subcategory": "战舰、太空、科幻、SLG、策略"
+        },
+        {
+          "rank": 76,
+          "name": "超自然博物馆避难所",
+          "publisher": "时迹网络",
+          "category": "搜打撤",
+          "subcategory": "末日、生存、冒险、策略"
+        },
+        {
+          "rank": 79,
+          "name": "方圆之战",
+          "publisher": "零零心动",
+          "category": "休闲"
+        },
+        {
+          "rank": 93,
+          "name": "万灵之契",
+          "publisher": "星光兔工作室",
+          "category": "抓宠",
+          "subcategory": "冒险、角色扮演"
+        },
+        {
+          "rank": 96,
+          "name": "骗子酒馆",
+          "publisher": "新闻消息",
+          "category": "多人合作",
+          "subcategory": "独立游戏、多人联机、休闲"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 31,
+          "name": "奥星热浪",
+          "publisher": "腾讯",
+          "category": "派对游戏",
+          "subcategory": "搜打撤、io、休闲"
+        },
+        {
+          "rank": 33,
+          "name": "元夜十二谈",
+          "publisher": "上海游卡",
+          "category": "冒险",
+          "subcategory": "3D、新怪谈、策略、角色扮演"
+        },
+        {
+          "rank": 36,
+          "name": "龙之谷：启程",
+          "publisher": "三九互娱",
+          "category": "MMORPG",
+          "subcategory": "多人联机、冒险、角色扮演"
+        },
+        {
+          "rank": 37,
+          "name": "斗破苍穹：斗帝之路",
+          "publisher": "苍穹幻世工作室",
+          "category": "MMORPG",
+          "subcategory": "养成、角色扮演"
+        },
+        {
+          "rank": 38,
+          "name": "饥困荒野",
+          "publisher": "腾讯",
+          "category": "沙盒",
+          "subcategory": "生存、多人联机、饥荒、冒险"
+        },
+        {
+          "rank": 39,
+          "name": "外婆的手账本",
+          "publisher": "伴心制作组",
+          "category": "模拟"
+        },
+        {
+          "rank": 40,
+          "name": "猛兽派对",
+          "publisher": "Recreate Games",
+          "category": "可爱",
+          "subcategory": "搞笑、休闲、派对游戏、魔性、物理、多人联机、角色扮演"
+        },
+        {
+          "rank": 41,
+          "name": "奶茶店模拟器——重生之我在冰堡甜城当店长",
+          "publisher": "财可咪工作室",
+          "category": "聚光灯GameJam",
+          "subcategory": "角色扮演、休闲、模拟"
+        },
+        {
+          "rank": 49,
+          "name": "乌托",
+          "publisher": "乌宝工作室",
+          "category": "竖屏",
+          "subcategory": "装修、换装、可爱、模拟经营、休闲"
+        },
+        {
+          "rank": 56,
+          "name": "破烂水手",
+          "publisher": "十英工作室",
+          "category": "手绘",
+          "subcategory": "Steam移植、多人联机、角色扮演"
+        },
+        {
+          "rank": 68,
+          "name": "山海奇旅",
+          "publisher": "网易游戏",
+          "category": "模拟经营",
+          "subcategory": "治愈、多人联机、建造、模拟"
+        },
+        {
+          "rank": 92,
+          "name": "拉尼亚（TapTap测试版）",
+          "publisher": "广州鬼马网络有限公司",
+          "category": "休闲",
+          "subcategory": "策略、回合制、角色扮演、PVP"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 6,
+          "name": "盗墓笔记：启程",
+          "publisher": "盛罗网络",
+          "category": "盗墓",
+          "subcategory": "冒险、解谜、动作、剧情、角色扮演"
+        },
+        {
+          "rank": 69,
+          "name": "群星征途2117",
+          "publisher": "千钧",
+          "category": "军事",
+          "subcategory": "战舰、太空、科幻、SLG、策略"
+        },
+        {
+          "rank": 79,
+          "name": "方圆之战",
+          "publisher": "零零心动",
+          "category": "休闲"
+        },
+        {
+          "rank": 93,
+          "name": "万灵之契",
+          "publisher": "星光兔工作室",
+          "category": "抓宠",
+          "subcategory": "冒险、角色扮演"
+        }
+      ],
+      "totals": {
+        "new_to_board": 8,
+        "returning": 12,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "盗墓笔记：启程",
+          "publisher": "盛罗网络",
+          "category": "盗墓",
+          "subcategory": "冒险、解谜、动作、剧情、角色扮演"
+        },
+        {
+          "rank": 27,
+          "name": "魔刻猎手",
+          "publisher": "腾讯",
+          "category": "共斗",
+          "subcategory": "养成、动作"
+        },
+        {
+          "rank": 30,
+          "name": "幻影传说",
+          "publisher": "黑潮营地",
+          "category": "塔防",
+          "subcategory": "放置、角色扮演"
+        },
+        {
+          "rank": 69,
+          "name": "群星征途2117",
+          "publisher": "千钧",
+          "category": "军事",
+          "subcategory": "战舰、太空、科幻、SLG、策略"
+        },
+        {
+          "rank": 76,
+          "name": "超自然博物馆避难所",
+          "publisher": "时迹网络",
+          "category": "搜打撤",
+          "subcategory": "末日、生存、冒险、策略"
+        },
+        {
+          "rank": 79,
+          "name": "方圆之战",
+          "publisher": "零零心动",
+          "category": "休闲"
+        },
+        {
+          "rank": 93,
+          "name": "万灵之契",
+          "publisher": "星光兔工作室",
+          "category": "抓宠",
+          "subcategory": "冒险、角色扮演"
+        },
+        {
+          "rank": 96,
+          "name": "骗子酒馆",
+          "publisher": "新闻消息",
+          "category": "多人合作",
+          "subcategory": "独立游戏、多人联机、休闲"
+        }
+      ]
+    }
+  }
+}
