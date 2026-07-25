@@ -1,0 +1,403 @@
+{
+  "date": "2026-07-25",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 2,
+          "name": "收纳解压大师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款温暖、解压、治愈的收纳小游戏",
+          "publisher": "深圳海之易科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "向僵尸开炮",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这是一款末日题材的塔防类割草游戏！",
+          "publisher": "海南盛昌网络科技有限公司",
+          "change": "4",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "脑洞画线我最强",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "是一款趣味益智游戏",
+          "publisher": "深圳市指点天下科技有限公司",
+          "change": "1",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 2,
+          "name": "收纳解压大师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款温暖、解压、治愈的收纳小游戏",
+          "publisher": "深圳海之易科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "收纳解压大师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款温暖、解压、治愈的收纳小游戏",
+          "publisher": "深圳海之易科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "次神光之觉醒",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "玩家扮演英雄召唤者，与英雄一起历练，维护世界平衡",
+          "publisher": "北京雪境科技有限公司",
+          "change": "14",
+          "change_direction": "down"
+        },
+        {
+          "rank": 13,
+          "name": "不服来通关",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "不服来通关！",
+          "publisher": "长沙游品科技有限公司",
+          "change": "14",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "生存33天",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这是一款让玩家在丧尸横行的世界中重建人类文明的卡牌RPG。",
+          "publisher": "广州龙畅网络科技有限公司",
+          "change": "18",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "肥鹅美食街",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "合成缤纷食材，烹饪美味佳肴，打造属于你的美食街！",
+          "publisher": "北京豪腾创想科技有限公司",
+          "change": "8",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 18,
+          "name": "休闲爱解压",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲小游戏",
+          "publisher": "成都木木互娱科技有限公司",
+          "change": "17",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "身体清洁大师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "是一款轻松解压的模拟清洁类休闲手游",
+          "publisher": "深圳市指天椒科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "我要做枪神",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这关我一定能成为枪神",
+          "publisher": "五威五（广州）科技有限公司",
+          "change": "23",
+          "change_direction": "down"
+        },
+        {
+          "rank": 13,
+          "name": "消除快乐多",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "沙子消消快乐更多",
+          "publisher": "广州轻游信息科技有限公司",
+          "change": "17",
+          "change_direction": "down"
+        },
+        {
+          "rank": 16,
+          "name": "佩皮过家家小屋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "玩家点击家中各类物品与家庭成员互动探索场景的温馨日常故事。",
+          "publisher": "厦门流萤之夏网络科技有限公司",
+          "change": "24",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 18,
+          "name": "休闲爱解压",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲小游戏",
+          "publisher": "成都木木互娱科技有限公司",
+          "change": "17",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "身体清洁大师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "是一款轻松解压的模拟清洁类休闲手游",
+          "publisher": "深圳市指天椒科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 62,
+          "name": "鸡械绿洲",
+          "publisher": "Flawless Gaming",
+          "category": "买断制",
+          "subcategory": "单机、Steam移植、策略、塔防、动作"
+        },
+        {
+          "rank": 71,
+          "name": "何为仙",
+          "publisher": "黑洞游戏工作室",
+          "category": "塔防",
+          "subcategory": "养成、割草、轻度Roguelike"
+        },
+        {
+          "rank": 88,
+          "name": "代号：Closet",
+          "publisher": "船岛游戏",
+          "category": "模拟"
+        },
+        {
+          "rank": 96,
+          "name": "领主无双",
+          "publisher": "戒不掉工作室",
+          "category": "塔防",
+          "subcategory": "竖屏、策略、割草"
+        },
+        {
+          "rank": 100,
+          "name": "侠影录",
+          "publisher": "成都游狗网络科技有限公司",
+          "category": "角色扮演"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 81,
+          "name": "大侠闯天下",
+          "publisher": "剑工作室",
+          "category": "养成",
+          "subcategory": "放置、Roguelike、休闲"
+        },
+        {
+          "rank": 82,
+          "name": "我在废土当主播",
+          "publisher": "超神网络",
+          "category": "角色扮演",
+          "subcategory": "废土、模拟"
+        },
+        {
+          "rank": 83,
+          "name": "幻兽帕鲁手游",
+          "publisher": "新闻消息",
+          "category": "冒险"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 62,
+          "name": "鸡械绿洲",
+          "publisher": "Flawless Gaming",
+          "category": "买断制",
+          "subcategory": "单机、Steam移植、策略、塔防、动作"
+        },
+        {
+          "rank": 88,
+          "name": "代号：Closet",
+          "publisher": "船岛游戏",
+          "category": "模拟"
+        },
+        {
+          "rank": 100,
+          "name": "侠影录",
+          "publisher": "成都游狗网络科技有限公司",
+          "category": "角色扮演"
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 3,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 62,
+          "name": "鸡械绿洲",
+          "publisher": "Flawless Gaming",
+          "category": "买断制",
+          "subcategory": "单机、Steam移植、策略、塔防、动作"
+        },
+        {
+          "rank": 71,
+          "name": "何为仙",
+          "publisher": "黑洞游戏工作室",
+          "category": "塔防",
+          "subcategory": "养成、割草、轻度Roguelike"
+        },
+        {
+          "rank": 88,
+          "name": "代号：Closet",
+          "publisher": "船岛游戏",
+          "category": "模拟"
+        },
+        {
+          "rank": 96,
+          "name": "领主无双",
+          "publisher": "戒不掉工作室",
+          "category": "塔防",
+          "subcategory": "竖屏、策略、割草"
+        },
+        {
+          "rank": 100,
+          "name": "侠影录",
+          "publisher": "成都游狗网络科技有限公司",
+          "category": "角色扮演"
+        }
+      ]
+    }
+  }
+}
