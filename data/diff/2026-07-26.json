@@ -1,0 +1,443 @@
+{
+  "date": "2026-07-26",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 7,
+          "name": "搞怪闯难关",
+          "category": "休闲",
+          "category_rank": 6,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "24",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 13,
+          "name": "时空猎人·觉醒",
+          "category": "动作",
+          "category_rank": 1,
+          "subcategory": "对战",
+          "slogan": "",
+          "publisher": "江西贪玩信息技术有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "脑洞全能王",
+          "category": "休闲",
+          "category_rank": 7,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州宝可梦科技有限公司",
+          "change": "6",
+          "change_direction": "down"
+        },
+        {
+          "rank": 11,
+          "name": "毫妙找茬",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "南京欧瀚信息技术有限公司",
+          "change": "2",
+          "change_direction": "up"
+        },
+        {
+          "rank": 14,
+          "name": "孤狼街区搜刮",
+          "category": "休闲",
+          "category_rank": 12,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "11",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 13,
+          "name": "时空猎人·觉醒",
+          "category": "动作",
+          "category_rank": 1,
+          "subcategory": "对战",
+          "slogan": "",
+          "publisher": "江西贪玩信息技术有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 7,
+          "name": "搞怪闯难关",
+          "category": "休闲",
+          "category_rank": 6,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "24",
+          "change_direction": "down"
+        },
+        {
+          "rank": 13,
+          "name": "时空猎人·觉醒",
+          "category": "动作",
+          "category_rank": 1,
+          "subcategory": "对战",
+          "slogan": "",
+          "publisher": "江西贪玩信息技术有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "城主别慌张",
+          "category": "角色",
+          "category_rank": 6,
+          "subcategory": "ARPG",
+          "slogan": "",
+          "publisher": "广州冠游信息科技有限公司",
+          "change": "12",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "空格之境",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "4",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "我的花园世界",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "超治愈的种花小游戏，快来经营你的花店吧！",
+          "publisher": "海南途趣科技有限公司",
+          "change": "2",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "梦仙灵",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "可体验挂机修仙、主支线剧情，通过打怪升级提升战力",
+          "publisher": "广州信跃网络技术有限公司",
+          "change": "14",
+          "change_direction": "down"
+        },
+        {
+          "rank": 13,
+          "name": "三国：冰河时代",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "开局一座城，生存在冰河末日",
+          "publisher": "欢游互动（北京）科技有限公司",
+          "change": "8",
+          "change_direction": "down"
+        },
+        {
+          "rank": 14,
+          "name": "烈焰觉醒",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "全新高清三职业，无限爆装，爽感拉满！",
+          "publisher": "杭州悦妙网络科技有限公司",
+          "change": "25",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "古龙群侠录",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "初入江湖的少年侠客，邂逅古龙经典角色，游历江湖，终成一代大侠",
+          "publisher": "杭州润赫网络科技有限公司",
+          "change": "9",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 14,
+          "name": "机甲飞行战机",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "驾驶科幻机甲战机，体验畅快淋漓的空中飞行射击对决。",
+          "publisher": "厦门焕游科技有限公司",
+          "change": "15",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "黑暗领域",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "装备自由搭配，纯靠肝就能毕业！",
+          "publisher": "海南千初网络科技有限公司",
+          "change": "15",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "高校美少女跑酷",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "校园女神解压跑酷",
+          "publisher": "长沙优趣创想科技有限公司",
+          "change": "12",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 17,
+          "name": "黑暗领域",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "装备自由搭配，纯靠肝就能毕业！",
+          "publisher": "海南千初网络科技有限公司",
+          "change": "15",
+          "change_direction": "down"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 14,
+          "name": "机甲飞行战机",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "驾驶科幻机甲战机，体验畅快淋漓的空中飞行射击对决。",
+          "publisher": "厦门焕游科技有限公司",
+          "change": "15",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "黑暗领域",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "装备自由搭配，纯靠肝就能毕业！",
+          "publisher": "海南千初网络科技有限公司",
+          "change": "15",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 45,
+          "name": "寒刃",
+          "publisher": "萃柏的工作室",
+          "category": "卡牌"
+        },
+        {
+          "rank": 63,
+          "name": "万华律",
+          "publisher": "灵动互娱",
+          "category": "二次元",
+          "subcategory": "单机、音乐"
+        },
+        {
+          "rank": 99,
+          "name": "龙之谷：重制",
+          "publisher": "盛趣游戏",
+          "category": "MMORPG",
+          "subcategory": "3D、龙之谷、冒险、动作"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 87,
+          "name": "林姑村记事",
+          "publisher": "林姑村办事处",
+          "category": "休闲"
+        },
+        {
+          "rank": 95,
+          "name": "万灵之契",
+          "publisher": "星光兔工作室",
+          "category": "抓宠",
+          "subcategory": "冒险、角色扮演"
+        },
+        {
+          "rank": 96,
+          "name": "纸房子",
+          "category": "模拟",
+          "subcategory": "角色扮演、休闲"
+        },
+        {
+          "rank": 97,
+          "name": "Project Rene-模拟人生",
+          "publisher": "ELECTRONIC ARTS",
+          "category": "养成",
+          "subcategory": "经营、角色扮演、模拟"
+        },
+        {
+          "rank": 100,
+          "name": "骗子酒馆",
+          "publisher": "新闻消息",
+          "category": "多人合作",
+          "subcategory": "独立游戏、多人联机、休闲"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 45,
+          "name": "寒刃",
+          "publisher": "萃柏的工作室",
+          "category": "卡牌"
+        },
+        {
+          "rank": 99,
+          "name": "龙之谷：重制",
+          "publisher": "盛趣游戏",
+          "category": "MMORPG",
+          "subcategory": "3D、龙之谷、冒险、动作"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 5,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 45,
+          "name": "寒刃",
+          "publisher": "萃柏的工作室",
+          "category": "卡牌"
+        },
+        {
+          "rank": 63,
+          "name": "万华律",
+          "publisher": "灵动互娱",
+          "category": "二次元",
+          "subcategory": "单机、音乐"
+        },
+        {
+          "rank": 99,
+          "name": "龙之谷：重制",
+          "publisher": "盛趣游戏",
+          "category": "MMORPG",
+          "subcategory": "3D、龙之谷、冒险、动作"
+        }
+      ]
+    }
+  }
+}
