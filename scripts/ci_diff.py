@@ -18,6 +18,7 @@ correct "first-ever" labels.
 from __future__ import annotations
 
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -37,7 +38,24 @@ def main():
     if not files:
         print("[diff] data/daily/ 为空，无可处理的快照。")
         return
-    today_p = files[-1]
+
+    # Historical re-pull: GRAVITY_DATE points ci_scrape at a past day.
+    # Process THAT date (not files[-1], which may be a later day), so its
+    # data/diff/<date>.json gets written for ci_sync to sync. The base
+    # "before" = all daily files strictly earlier than the target date.
+    hist_date = os.environ.get("GRAVITY_DATE", "").strip() or None
+    if hist_date:
+        today_p = DAILY / f"{hist_date}.json"
+        if not today_p.exists():
+            print(f"[diff] GRAVITY_DATE={hist_date} 的快照不存在，跳过。")
+            return
+        history_files = [p for p in files if p.stem < hist_date]
+        print(f"[diff] 历史重拉模式：目标 {hist_date}，"
+              f"base 用 {len(history_files)} 份更早的快照。")
+    else:
+        today_p = files[-1]
+        history_files = files[:-1]
+
     today_snap = json.loads(today_p.read_text(encoding="utf-8"))
     today = today_snap.get("date_beijing") or today_p.stem
     print(f"[diff] 处理快照：{today_p.name}（{today}）")
@@ -84,13 +102,29 @@ def main():
     print(f"[diff] 写出 {out_path}")
     print(f"[diff] 汇总：{totals}")
 
-    # Now fold today into the base and persist.
-    base_after = base_before
-    basemod.absorb_snapshot(base_after, today_snap, today)
-    basemod.save(base_after)
-    print(f"[diff] 更新 data/base/  "
-          f"(games={len(base_after['games'])}, "
-          f"publishers={len(base_after['publishers'])})")
+    # Now fold today into the base and persist. For a historical re-pull
+    # we persist from ALL daily files — including dates AFTER the target —
+    # so game_board_history / publisher_board_history never regress for
+    # later days. (absorb_snapshot is associative, so for the normal path
+    # rebuilding from all files is equivalent to folding today onto
+    # base_before; we keep the incremental form there to stay minimal.)
+    if hist_date:
+        base_full = basemod._empty()
+        for p in files:
+            snap = json.loads(p.read_text(encoding="utf-8"))
+            day = snap.get("date_beijing") or p.stem
+            basemod.absorb_snapshot(base_full, snap, day)
+        basemod.save(base_full)
+        print(f"[diff] 更新 data/base/（全量 {len(files)} 份，含目标日之后）  "
+              f"(games={len(base_full['games'])}, "
+              f"publishers={len(base_full['publishers'])})")
+    else:
+        base_after = base_before
+        basemod.absorb_snapshot(base_after, today_snap, today)
+        basemod.save(base_after)
+        print(f"[diff] 更新 data/base/  "
+              f"(games={len(base_after['games'])}, "
+              f"publishers={len(base_after['publishers'])})")
 
 
 if __name__ == "__main__":

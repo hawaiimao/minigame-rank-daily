@@ -351,10 +351,83 @@ def sync_board_history(base_url, service_key):
     return n_gbh, n_pbh
 
 
+def _sync_history_tables(base_url, service_key):
+    """Mirror data/base/* → game_board_history + publisher_board_history.
+    Shared by all modes; ci_diff.py already rewrote base to include today."""
+    n_gbh, n_pbh = sync_board_history(base_url, service_key)
+    log(f"[sync] upserted game_board_history: {n_gbh}")
+    log(f"[sync] upserted publisher_board_history: {n_pbh}")
+    return n_gbh, n_pbh
+
+
+def _sync_one_date(base_url, service_key, snapshot: dict):
+    """Push one snapshot's daily_snapshots + daily_diffs to Supabase.
+
+    Does NOT touch `games` / `publisher_status` — those are frontier
+    rollups (last_seen = latest day seen anywhere) that a historical
+    re-pull or backfill must not regress. The next normal "today" run
+    refreshes them forward. Returns (date, n_snap, n_diff).
+    """
+    snapshot_rows, _game_rows, _publisher_rows = build_rows(snapshot)
+    date = snapshot.get("date_beijing")
+    n_snap = upsert_batch(
+        base_url, service_key, "daily_snapshots", snapshot_rows,
+        on_conflict="snapshot_date,platform,board,rank",
+    )
+    n_diff = sync_diff_of_the_day(base_url, service_key, date)
+    return date, n_snap, n_diff
+
+
 def main():
     base_url = env("SUPABASE_URL")
     service_key = env("SUPABASE_SERVICE_KEY")
 
+    hist_date = os.environ.get("GRAVITY_DATE", "").strip() or None
+    backfill = os.environ.get("BACKFILL", "").lower() in ("1", "true", "yes")
+
+    # ---- BACKFILL: replay every committed daily snapshot into Supabase.
+    # Reuses data/daily/*.json + data/diff/*.json as-is (no re-scrape).
+    # Use after a Supabase reset or a long sync outage to recover history.
+    if backfill:
+        daily_dir = ROOT / "data" / "daily"
+        files = sorted(daily_dir.glob("*.json"))
+        if not files:
+            log("[sync] BACKFILL: data/daily/ 为空 — 跳过")
+            return
+        log(f"[sync] BACKFILL 模式：{len(files)} 份日快照 → "
+            f"daily_snapshots + daily_diffs + board_history")
+        log("[sync] （不动 games/publisher_status 滚动统计——留给下次正常抓取刷新前沿）")
+        total_snap = 0
+        for p in files:
+            snap = json.loads(p.read_text(encoding="utf-8"))
+            date, n_snap, n_diff = _sync_one_date(base_url, service_key, snap)
+            total_snap += n_snap
+            log(f"[sync]   {date}: snapshots={n_snap}, diffs={n_diff}")
+        log(f"[sync] backfill daily_snapshots 总计 {total_snap}")
+        _sync_history_tables(base_url, service_key)
+        log("[sync] done (backfill).")
+        return
+
+    # ---- HISTORICAL re-pull: sync the single re-scraped date.
+    # ci_scrape wrote data/daily/<hist>.json but deliberately did NOT
+    # bump latest.json, so the normal path below would re-sync the old
+    # frontier instead. Branch off and push the re-pulled date directly.
+    if hist_date:
+        snapshot_path = ROOT / "data" / "daily" / f"{hist_date}.json"
+        if not snapshot_path.exists():
+            log(f"[sync] 历史日期 {hist_date} 的快照文件不存在 — 跳过")
+            return
+        snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
+        log(f"[sync] 历史重拉模式：同步 {hist_date} 的 "
+            f"daily_snapshots + daily_diffs + board_history（不回退滚动统计）")
+        date, n_snap, n_diff = _sync_one_date(base_url, service_key, snapshot)
+        log(f"[sync] upserted daily_snapshots: {n_snap}")
+        log(f"[sync] upserted daily_diffs: {n_diff}")
+        _sync_history_tables(base_url, service_key)
+        log("[sync] done (historical).")
+        return
+
+    # ---- NORMAL "today" path (unchanged): sync latest.json + rollups.
     snapshot_path = ROOT / "data" / "latest.json"
     if not snapshot_path.exists():
         log("[sync] no data/latest.json — skipping")
@@ -379,9 +452,7 @@ def main():
     n = sync_diff_of_the_day(base_url, service_key, date)
     log(f"[sync] upserted daily_diffs: {n}")
 
-    n_gbh, n_pbh = sync_board_history(base_url, service_key)
-    log(f"[sync] upserted game_board_history: {n_gbh}")
-    log(f"[sync] upserted publisher_board_history: {n_pbh}")
+    _sync_history_tables(base_url, service_key)
 
     n = merge_publisher_stats(base_url, service_key, publisher_rows)
     log(f"[sync] merged publisher_status stats: {n}")

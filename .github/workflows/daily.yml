@@ -23,6 +23,11 @@ on:
         description: "Historical re-pull: YYYY-MM-DD to re-scrape a past day via the site's date picker. Empty = today. Implies force on that date."
         required: false
         default: ""
+      backfill:
+        description: "Backfill Supabase from existing data/daily/*.json (no re-scrape). Skips scrape/diff; only runs ci_sync in BACKFILL mode. Use to recover history after a DB reset or sync outage."
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -48,6 +53,7 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Scrape daily snapshot
+        if: ${{ github.event.inputs.backfill != 'true' }}
         env:
           GRAVITY_AUTH: ${{ secrets.GRAVITY_AUTH }}
           GRAVITY_TOP_N: ${{ github.event.inputs.top_n }}
@@ -56,6 +62,9 @@ jobs:
         run: python scripts/ci_scrape.py
 
       - name: Compute diff vs previous day
+        if: ${{ github.event.inputs.backfill != 'true' }}
+        env:
+          GRAVITY_DATE: ${{ github.event.inputs.date }}
         run: python scripts/ci_diff.py
 
       - name: Sync snapshot to Supabase
@@ -63,9 +72,14 @@ jobs:
         # the repo out of sync with the DB. If Supabase secrets aren't
         # configured yet, the script will fail loudly — expected while
         # setting up.
+        # BACKFILL (backfill input = true) replays every existing
+        # data/daily/*.json into Supabase without scraping; GRAVITY_DATE
+        # makes it sync just that re-pulled day instead of latest.json.
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          GRAVITY_DATE: ${{ github.event.inputs.date }}
+          BACKFILL: ${{ github.event.inputs.backfill }}
         run: python scripts/ci_sync_supabase.py
 
       - name: Commit & push data
