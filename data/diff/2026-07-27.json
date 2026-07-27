@@ -1,0 +1,345 @@
+{
+  "date": "2026-07-27",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "贪吃蛇大作战",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智轻竞技io",
+          "slogan": "",
+          "publisher": "武汉微派网络科技有限公司",
+          "change": "2",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 10,
+          "name": "超自然行动组",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "组建多人冒险小队，前往千年古迹，对抗危险怪物，寻找神秘宝藏！",
+          "publisher": "上海巨人统平网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "冲吧小伙子",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这也太刺激了！",
+          "publisher": "福州联创乐游网络科技有限公司",
+          "change": "12",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "超自然行动组",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "组建多人冒险小队，前往千年古迹，对抗危险怪物，寻找神秘宝藏！",
+          "publisher": "上海巨人统平网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "四季合合",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "久违的四季岛，我来啦！",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "change": "9",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 17,
+          "name": "指上轻轻松",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "你都如何回蚁窝",
+          "publisher": "广州指上文化传媒有限公司",
+          "change": "37",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "指尖经营大师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一起装扮专属你的小屋",
+          "publisher": "武汉奕聊网络有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "超自然行动组",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "组建多人冒险小队，前往千年古迹，对抗危险怪物，寻找神秘宝藏！",
+          "publisher": "上海巨人统平网络科技有限公司",
+          "change": "8",
+          "change_direction": "down"
+        },
+        {
+          "rank": 14,
+          "name": "佩皮过家家小屋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "玩家点击家中各类物品与家庭成员互动探索场景的温馨日常故事。",
+          "publisher": "厦门流萤之夏网络科技有限公司",
+          "change": "15",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 17,
+          "name": "指上轻轻松",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "你都如何回蚁窝",
+          "publisher": "广州指上文化传媒有限公司",
+          "change": "37",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "指尖经营大师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一起装扮专属你的小屋",
+          "publisher": "武汉奕聊网络有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 91,
+          "name": "王国保卫战6",
+          "publisher": "东品游戏",
+          "category": "策略"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "拳皇全明星",
+          "publisher": "银河聚阵",
+          "category": "格斗",
+          "subcategory": "动作、角色扮演、竞技"
+        },
+        {
+          "rank": 18,
+          "name": "无限大",
+          "publisher": "网易游戏",
+          "category": "开放世界",
+          "subcategory": "角色扮演、高自由度、都市、二次元、动作、高画质、3D"
+        },
+        {
+          "rank": 22,
+          "name": "约定之日",
+          "publisher": "上海星烁互娱",
+          "category": "美少女",
+          "subcategory": "二次元、卡牌"
+        },
+        {
+          "rank": 23,
+          "name": "绿梦：时空之声",
+          "publisher": "绿梦工作室",
+          "category": "二次元",
+          "subcategory": "冒险、3D、策略、美少女、横版、科幻、角色扮演、动作"
+        },
+        {
+          "rank": 24,
+          "name": "代号：神不言",
+          "publisher": "祖龙",
+          "category": "恋爱",
+          "subcategory": "乙女、都市、女性向、养成、剧情、3D、模拟"
+        },
+        {
+          "rank": 27,
+          "name": "大侠闯天下",
+          "publisher": "剑工作室",
+          "category": "养成",
+          "subcategory": "放置、Roguelike、休闲"
+        },
+        {
+          "rank": 28,
+          "name": "剑隐侠踪录",
+          "publisher": "快哉风",
+          "category": "武侠",
+          "subcategory": "剧情、策略、回合制、国风、文字、水墨、角色扮演"
+        },
+        {
+          "rank": 29,
+          "name": "斗破苍穹：斗帝之路",
+          "publisher": "苍穹幻世工作室",
+          "category": "MMORPG",
+          "subcategory": "养成、角色扮演"
+        },
+        {
+          "rank": 30,
+          "name": "七界梦谭",
+          "publisher": "飞光阁工作室",
+          "category": "角色扮演",
+          "subcategory": "修仙、高画质、MMORPG、开放世界、国风、3D"
+        },
+        {
+          "rank": 39,
+          "name": "梦想英雄",
+          "publisher": "冷爱的工作室",
+          "category": "竖屏",
+          "subcategory": "养成、放置、卡牌"
+        },
+        {
+          "rank": 94,
+          "name": "宝可梦 冠军",
+          "publisher": "Game Freak",
+          "category": "PVP",
+          "subcategory": "宝可梦、策略"
+        },
+        {
+          "rank": 97,
+          "name": "伍六七：暗影交锋",
+          "publisher": "啊吉游",
+          "category": "角色扮演",
+          "subcategory": "国漫、像素、动作、冒险、模拟经营、横版、2D、多人联机、APRG、热血"
+        },
+        {
+          "rank": 98,
+          "name": "未来之役",
+          "publisher": "KRAFTON, Inc.",
+          "category": "射击",
+          "subcategory": "动作、竞技、高画质、多人联机、吃鸡"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 13,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 91,
+          "name": "王国保卫战6",
+          "publisher": "东品游戏",
+          "category": "策略"
+        }
+      ]
+    }
+  }
+}
