@@ -1,0 +1,587 @@
+{
+  "date": "2026-07-30",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 17,
+          "name": "字造兵器",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 67,
+          "name": "无敌胶带王",
+          "category": "休闲",
+          "category_rank": 50,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "武汉市多比特信息科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 96,
+          "name": "向末日开炮",
+          "category": "休闲",
+          "category_rank": 68,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 85,
+          "name": "武侠转刀",
+          "category": "休闲",
+          "category_rank": 61,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 89,
+          "name": "一锅煮不下",
+          "category": "休闲",
+          "category_rank": 64,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "广州京游网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 99,
+          "name": "永远的蔚蓝星球",
+          "category": "休闲",
+          "category_rank": 70,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "广州颂悦信息技术有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 17,
+          "name": "字造兵器",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 67,
+          "name": "无敌胶带王",
+          "category": "休闲",
+          "category_rank": 50,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "武汉市多比特信息科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 96,
+          "name": "向末日开炮",
+          "category": "休闲",
+          "category_rank": 68,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [
+        {
+          "rank": 74,
+          "name": "英雄请出战",
+          "category": "角色",
+          "category_rank": 33,
+          "subcategory": "回合",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 84,
+          "name": "武侠转刀",
+          "category": "休闲",
+          "category_rank": 38,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 68,
+          "name": "王者之弈",
+          "category": "角色",
+          "category_rank": 31,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "海南椰路信息科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 80,
+          "name": "兵器王者",
+          "category": "休闲",
+          "category_rank": 36,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 88,
+          "name": "绝世仙王",
+          "category": "角色",
+          "category_rank": 37,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "上海风派网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 96,
+          "name": "王国大作战：前线",
+          "category": "休闲",
+          "category_rank": 43,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 97,
+          "name": "冒险法则",
+          "category": "休闲",
+          "category_rank": 44,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "世熠网络科技（上海）有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 5,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 74,
+          "name": "英雄请出战",
+          "category": "角色",
+          "category_rank": 33,
+          "subcategory": "回合",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 84,
+          "name": "武侠转刀",
+          "category": "休闲",
+          "category_rank": 38,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [
+        {
+          "rank": 91,
+          "name": "开心太阳地",
+          "category": "休闲",
+          "category_rank": 83,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 96,
+          "name": "战争超进化",
+          "category": "休闲",
+          "category_rank": 87,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "实丰（深圳）网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 99,
+          "name": "哥哥打大A",
+          "category": "棋牌",
+          "category_rank": 8,
+          "subcategory": "牌类传统棋牌棋牌",
+          "slogan": "",
+          "publisher": "上海域起网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 91,
+          "name": "开心太阳地",
+          "category": "休闲",
+          "category_rank": 83,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 51,
+          "name": "米塔",
+          "category": "模拟",
+          "subcategory": "角色扮演、第一人称视角、单机、剧情、冒险"
+        },
+        {
+          "rank": 59,
+          "name": "奥特曼英雄决战",
+          "publisher": "安徽畅乐互娱信息技术有限公司",
+          "category": "动作"
+        },
+        {
+          "rank": 62,
+          "name": "纵横修仙界",
+          "publisher": "极致游戏",
+          "category": "角色扮演"
+        },
+        {
+          "rank": 78,
+          "name": "塔尔战纪",
+          "publisher": "贪乐游戏",
+          "category": "社交",
+          "subcategory": "魔幻、地牢、刷宝、自由交易、多人联机、角色扮演"
+        },
+        {
+          "rank": 95,
+          "name": "三国志将星闪耀",
+          "publisher": "兆趣游戏",
+          "category": "卡牌",
+          "subcategory": "像素、角色扮演"
+        },
+        {
+          "rank": 100,
+          "name": "火线战姬",
+          "publisher": "乐玩网络",
+          "category": "美少女",
+          "subcategory": "卡牌、角色扮演、放置、收集、策略、竖屏、冒险、养成"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 29,
+          "name": "奶茶店模拟器——重生之我在冰堡甜城当店长",
+          "publisher": "财可咪工作室",
+          "category": "聚光灯GameJam",
+          "subcategory": "角色扮演、休闲、模拟"
+        },
+        {
+          "rank": 31,
+          "name": "粒粒的小人国",
+          "publisher": "腾讯",
+          "category": "模拟经营",
+          "subcategory": "建造、治愈、休闲、3D、社交、种田、换装、多人联机、角色扮演"
+        },
+        {
+          "rank": 32,
+          "name": "大侠闯天下",
+          "publisher": "剑工作室",
+          "category": "养成",
+          "subcategory": "放置、Roguelike、休闲"
+        },
+        {
+          "rank": 33,
+          "name": "外婆的手账本",
+          "publisher": "伴心制作组",
+          "category": "模拟"
+        },
+        {
+          "rank": 34,
+          "name": "猛兽派对",
+          "publisher": "Recreate Games",
+          "category": "可爱",
+          "subcategory": "搞笑、休闲、派对游戏、魔性、物理、多人联机、角色扮演"
+        },
+        {
+          "rank": 35,
+          "name": "舒舒服服小岛时光",
+          "publisher": "心动",
+          "category": "冒险",
+          "subcategory": "休闲"
+        },
+        {
+          "rank": 37,
+          "name": "代号：巫师之路",
+          "publisher": "巫师协会",
+          "category": "角色扮演",
+          "subcategory": "刷宝"
+        },
+        {
+          "rank": 38,
+          "name": "万华律",
+          "publisher": "灵动互娱",
+          "category": "二次元",
+          "subcategory": "单机、音乐"
+        },
+        {
+          "rank": 46,
+          "name": "超时空街球对决",
+          "publisher": "万象星火工作室",
+          "category": "体育",
+          "subcategory": "篮球、竞技、3V3"
+        },
+        {
+          "rank": 79,
+          "name": "航海王：集结",
+          "publisher": "朝夕光年",
+          "category": "角色扮演",
+          "subcategory": "ARPG、3D、动漫、二次元、合作、冒险、动作"
+        },
+        {
+          "rank": 84,
+          "name": "王国保卫战6",
+          "publisher": "东品游戏",
+          "category": "策略"
+        },
+        {
+          "rank": 88,
+          "name": "龙之谷：重制",
+          "publisher": "盛趣游戏",
+          "category": "MMORPG",
+          "subcategory": "3D、龙之谷、冒险、动作"
+        },
+        {
+          "rank": 92,
+          "name": "未来之役",
+          "publisher": "KRAFTON, Inc.",
+          "category": "射击",
+          "subcategory": "动作、竞技、高画质、多人联机、吃鸡"
+        },
+        {
+          "rank": 93,
+          "name": "纤维",
+          "publisher": "冬日煮米游戏制作组",
+          "category": "模拟",
+          "subcategory": "角色扮演、策略"
+        },
+        {
+          "rank": 94,
+          "name": "伍六七：暗影交锋",
+          "publisher": "啊吉游",
+          "category": "角色扮演",
+          "subcategory": "国漫、像素、动作、冒险、模拟经营、横版、2D、多人联机、APRG、热血"
+        },
+        {
+          "rank": 99,
+          "name": "料理人班乔",
+          "publisher": "心动",
+          "category": "角色扮演",
+          "subcategory": "休闲、模拟经营、单机、料理、3D、冒险、模拟"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 59,
+          "name": "奥特曼英雄决战",
+          "publisher": "安徽畅乐互娱信息技术有限公司",
+          "category": "动作"
+        },
+        {
+          "rank": 62,
+          "name": "纵横修仙界",
+          "publisher": "极致游戏",
+          "category": "角色扮演"
+        },
+        {
+          "rank": 78,
+          "name": "塔尔战纪",
+          "publisher": "贪乐游戏",
+          "category": "社交",
+          "subcategory": "魔幻、地牢、刷宝、自由交易、多人联机、角色扮演"
+        },
+        {
+          "rank": 95,
+          "name": "三国志将星闪耀",
+          "publisher": "兆趣游戏",
+          "category": "卡牌",
+          "subcategory": "像素、角色扮演"
+        },
+        {
+          "rank": 100,
+          "name": "火线战姬",
+          "publisher": "乐玩网络",
+          "category": "美少女",
+          "subcategory": "卡牌、角色扮演、放置、收集、策略、竖屏、冒险、养成"
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 16,
+        "new_publishers": 5
+      },
+      "new_to_board": [
+        {
+          "rank": 51,
+          "name": "米塔",
+          "category": "模拟",
+          "subcategory": "角色扮演、第一人称视角、单机、剧情、冒险"
+        },
+        {
+          "rank": 59,
+          "name": "奥特曼英雄决战",
+          "publisher": "安徽畅乐互娱信息技术有限公司",
+          "category": "动作"
+        },
+        {
+          "rank": 62,
+          "name": "纵横修仙界",
+          "publisher": "极致游戏",
+          "category": "角色扮演"
+        },
+        {
+          "rank": 78,
+          "name": "塔尔战纪",
+          "publisher": "贪乐游戏",
+          "category": "社交",
+          "subcategory": "魔幻、地牢、刷宝、自由交易、多人联机、角色扮演"
+        },
+        {
+          "rank": 95,
+          "name": "三国志将星闪耀",
+          "publisher": "兆趣游戏",
+          "category": "卡牌",
+          "subcategory": "像素、角色扮演"
+        },
+        {
+          "rank": 100,
+          "name": "火线战姬",
+          "publisher": "乐玩网络",
+          "category": "美少女",
+          "subcategory": "卡牌、角色扮演、放置、收集、策略、竖屏、冒险、养成"
+        }
+      ]
+    }
+  }
+}
