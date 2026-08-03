@@ -1,0 +1,912 @@
+{
+  "date": "2026-08-03",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 86,
+          "name": "碰碰吃吃消消",
+          "category": "休闲",
+          "category_rank": 79,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 84,
+          "name": "这绳子真绕",
+          "category": "休闲",
+          "category_rank": 77,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "广州三狼网络有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 86,
+          "name": "碰碰吃吃消消",
+          "category": "休闲",
+          "category_rank": 79,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 51,
+          "name": "咬文嚼字",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "数字的世界，脑力全开！",
+          "publisher": "河北朗趣科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 71,
+          "name": "脑子挺好的",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "脑洞找茬小游戏，让你意向不到的答案",
+          "publisher": "武汉市掌上乐玩科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 72,
+          "name": "玩到夯爆了",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这游戏夯爆了！！",
+          "publisher": "广州联曼信息科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 91,
+          "name": "大聪明是谁",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "谁是大聪明",
+          "publisher": "南京暗夜科技信息有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 95,
+          "name": "我真没想逆袭啊",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "我是真的没想要逆袭啊",
+          "publisher": "长沙市创艺工场数码技术有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 56,
+          "name": "脑子真灵光",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款益智脑洞找茬小游戏",
+          "publisher": "广州沃乐趣科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 70,
+          "name": "开局带把枪",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "畅享射击的爽快与闯关的乐趣。",
+          "publisher": "邯郸小空科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 78,
+          "name": "你脑洞真棒",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "找茬小游戏",
+          "publisher": "深圳海草科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 51,
+          "name": "咬文嚼字",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "数字的世界，脑力全开！",
+          "publisher": "河北朗趣科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 71,
+          "name": "脑子挺好的",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "脑洞找茬小游戏，让你意向不到的答案",
+          "publisher": "武汉市掌上乐玩科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 3,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 51,
+          "name": "咬文嚼字",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "数字的世界，脑力全开！",
+          "publisher": "河北朗趣科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 71,
+          "name": "脑子挺好的",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "脑洞找茬小游戏，让你意向不到的答案",
+          "publisher": "武汉市掌上乐玩科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 72,
+          "name": "玩到夯爆了",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这游戏夯爆了！！",
+          "publisher": "广州联曼信息科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 91,
+          "name": "大聪明是谁",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "谁是大聪明",
+          "publisher": "南京暗夜科技信息有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 95,
+          "name": "我真没想逆袭啊",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "我是真的没想要逆袭啊",
+          "publisher": "长沙市创艺工场数码技术有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [
+        {
+          "rank": 97,
+          "name": "战将传说",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "重温热血激情，再战经典",
+          "publisher": "杭州悦昭网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 60,
+          "name": "剑侠传奇",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "化身武侠宗师，铸就Q版梦里江湖！",
+          "publisher": "深圳市小黑龙网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 76,
+          "name": "通关来解压",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "撕出爽感的解压小游戏，撕扯胶带，解锁惊喜",
+          "publisher": "武汉智地卓越信息科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 88,
+          "name": "逆袭的旅程",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "非常励志的游戏，跟我一起，开启一段逆袭的旅程！",
+          "publisher": "杭州卡日曲网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 91,
+          "name": "明月小镇",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": " 绘就一段属于你的古风生活～",
+          "publisher": "杭州卡日曲网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 92,
+          "name": "高玩数独",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "《高玩数独》是一款休闲小游戏，游戏的内容类型为益智类。",
+          "publisher": "南京暗夜科技信息有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 93,
+          "name": "第一千次挑战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "已挑战，已老实",
+          "publisher": "厦门市指丰科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 99,
+          "name": "王者征途",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "巨人首款放置征途，自动打怪，挂机升级！",
+          "publisher": "上海巨人统平网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 7,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 97,
+          "name": "战将传说",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "重温热血激情，再战经典",
+          "publisher": "杭州悦昭网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 41,
+          "name": "滚动节奏",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "小雪球滚出大节奏，一路收集一路长，闯关竞技超带感！",
+          "publisher": "深圳市引力乐园科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 49,
+          "name": "解字大挑战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款休闲益智小游戏",
+          "publisher": "海南乐果互娱科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 61,
+          "name": "山海萌宠乱斗录",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "卡通多人横版乱斗小游戏，多种对战模式，操控特色角色热血对决",
+          "publisher": "武汉宏鹏网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 63,
+          "name": "发泄解压模拟合集",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "压力大吗？压力大的话不妨试一试这个小游戏",
+          "publisher": "厦门猫咪游网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 70,
+          "name": "跳一跳双人游戏",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "🔥🔥🔥人气版！你敢挑战吗？",
+          "publisher": "个人开发者",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 80,
+          "name": "挑战快冲",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "超级子弹堆叠跑酷！",
+          "publisher": "广州闪光信息技术有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 97,
+          "name": "樱花跑酷校园祭",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "日系清新画风的休闲跑酷小游戏",
+          "publisher": "厦门石猿科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 60,
+          "name": "反叛的拇指",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "地毯清洗解压模拟，清理污渍完成清洁闯关挑战",
+          "publisher": "北京游戏王国科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 76,
+          "name": "我能过亿关",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "超解压西游主题推理游戏来袭！",
+          "publisher": "海南霸王娱乐科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 79,
+          "name": "无尽黑洞吞噬城市",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "操控巨型黑洞，吞噬一切，毁灭整座城市！",
+          "publisher": "武汉庐游科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 82,
+          "name": "西游大乱斗",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "西游回合，无限洗炼，上线送全神兽，挖宝抓宠登顶最强战力巅峰",
+          "publisher": "广州市闪游文化有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 96,
+          "name": "吞噬探险家",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "挑战无限吞噬探险之旅！",
+          "publisher": "五威五（广州）科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 100,
+          "name": "丛林战役游戏软件V1.0",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "沉浸式体验探索遗迹地牢，书写属于你自己的传奇！",
+          "publisher": "邯郸小空科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 61,
+          "name": "山海萌宠乱斗录",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "卡通多人横版乱斗小游戏，多种对战模式，操控特色角色热血对决",
+          "publisher": "武汉宏鹏网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 63,
+          "name": "发泄解压模拟合集",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "压力大吗？压力大的话不妨试一试这个小游戏",
+          "publisher": "厦门猫咪游网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 7,
+        "returning": 6,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 41,
+          "name": "滚动节奏",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "小雪球滚出大节奏，一路收集一路长，闯关竞技超带感！",
+          "publisher": "深圳市引力乐园科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 49,
+          "name": "解字大挑战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款休闲益智小游戏",
+          "publisher": "海南乐果互娱科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 61,
+          "name": "山海萌宠乱斗录",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "卡通多人横版乱斗小游戏，多种对战模式，操控特色角色热血对决",
+          "publisher": "武汉宏鹏网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 63,
+          "name": "发泄解压模拟合集",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "压力大吗？压力大的话不妨试一试这个小游戏",
+          "publisher": "厦门猫咪游网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 70,
+          "name": "跳一跳双人游戏",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "🔥🔥🔥人气版！你敢挑战吗？",
+          "publisher": "个人开发者",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 80,
+          "name": "挑战快冲",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "超级子弹堆叠跑酷！",
+          "publisher": "广州闪光信息技术有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 97,
+          "name": "樱花跑酷校园祭",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "日系清新画风的休闲跑酷小游戏",
+          "publisher": "厦门石猿科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 69,
+          "name": "冒险与征途",
+          "publisher": "铸魂工作室",
+          "category": "角色扮演"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "王者万象棋",
+          "publisher": "腾讯",
+          "category": "竞技",
+          "subcategory": "PVP、回合制、王者荣耀、自走棋、策略"
+        },
+        {
+          "rank": 20,
+          "name": "奶茶店模拟器——重生之我在冰堡甜城当店长",
+          "publisher": "财可咪工作室",
+          "category": "聚光灯GameJam",
+          "subcategory": "角色扮演、休闲、模拟"
+        },
+        {
+          "rank": 23,
+          "name": "苏丹的游戏",
+          "publisher": "Game Tree",
+          "category": "模拟",
+          "subcategory": "剧情、角色扮演"
+        },
+        {
+          "rank": 25,
+          "name": "绿梦：时空之声",
+          "publisher": "绿梦工作室",
+          "category": "二次元",
+          "subcategory": "冒险、3D、策略、美少女、横版、科幻、角色扮演、动作"
+        },
+        {
+          "rank": 26,
+          "name": "无限大",
+          "publisher": "网易游戏",
+          "category": "开放世界",
+          "subcategory": "角色扮演、高自由度、都市、二次元、动作、高画质、3D"
+        },
+        {
+          "rank": 27,
+          "name": "魂坠深境",
+          "publisher": "凉屋游戏",
+          "category": "策略",
+          "subcategory": "Roguelike、卡牌"
+        },
+        {
+          "rank": 28,
+          "name": "群星征途2117",
+          "publisher": "千钧",
+          "category": "军事",
+          "subcategory": "战舰、太空、科幻、SLG、策略"
+        },
+        {
+          "rank": 29,
+          "name": "纵横修仙界",
+          "publisher": "极致游戏",
+          "category": "修仙",
+          "subcategory": "养成、放置、多人联机、角色扮演、国风"
+        },
+        {
+          "rank": 30,
+          "name": "代号：神不言",
+          "publisher": "祖龙",
+          "category": "恋爱",
+          "subcategory": "乙女、都市、女性向、养成、剧情、3D、模拟"
+        },
+        {
+          "rank": 32,
+          "name": "七界梦谭",
+          "publisher": "飞光阁工作室",
+          "category": "角色扮演",
+          "subcategory": "修仙、高画质、MMORPG、开放世界、国风、3D"
+        },
+        {
+          "rank": 66,
+          "name": "土豆兄弟",
+          "publisher": "Erabit CN",
+          "category": "Rougelike",
+          "subcategory": "割草、弹幕射击、角色扮演、休闲、解压、Steam移植"
+        },
+        {
+          "rank": 71,
+          "name": "代号莲",
+          "publisher": "隐隐山工作室",
+          "category": "乙女",
+          "subcategory": "剧情、恋爱、养成、冒险"
+        },
+        {
+          "rank": 72,
+          "name": "三国策：万人策略对战",
+          "publisher": "皓宇互动",
+          "category": "SLG",
+          "subcategory": "多人联机、战棋、三国、策略"
+        },
+        {
+          "rank": 73,
+          "name": "仙境传说3",
+          "publisher": "哔哩哔哩游戏",
+          "category": "MMORPG",
+          "subcategory": "冒险、多人联机、角色扮演"
+        },
+        {
+          "rank": 74,
+          "name": "满庭芳・宋上繁华",
+          "publisher": "白星游戏工作室",
+          "category": "策略",
+          "subcategory": "休闲、模拟经营、种田、模拟、国风"
+        },
+        {
+          "rank": 75,
+          "name": "DeathPlunder亡命掠夺者",
+          "category": "生存",
+          "subcategory": "搜打撤、角色扮演、动作、冒险"
+        },
+        {
+          "rank": 76,
+          "name": "归环",
+          "publisher": "萨罗斯工作室",
+          "category": "剧情",
+          "subcategory": "二次元、角色扮演"
+        },
+        {
+          "rank": 78,
+          "name": "破烂水手",
+          "publisher": "十英工作室",
+          "category": "手绘",
+          "subcategory": "Steam移植、多人联机、角色扮演"
+        },
+        {
+          "rank": 80,
+          "name": "代号：Lovania",
+          "publisher": "沐瞳",
+          "category": "治愈",
+          "subcategory": "唯美、社交、种田、高画质、3D、多人联机、养成、模拟、角色扮演、模拟经营"
+        },
+        {
+          "rank": 81,
+          "name": "饼干人联盟",
+          "publisher": "儒意景秀",
+          "category": "角色扮演",
+          "subcategory": "冒险、闯关、3D、多人联机、动作"
+        },
+        {
+          "rank": 82,
+          "name": "愤怒的小鸟：经典归来",
+          "publisher": "萌货研究所",
+          "category": "物理",
+          "subcategory": "益智、冒险、休闲、弹射"
+        },
+        {
+          "rank": 83,
+          "name": "在外挂里打游戏",
+          "publisher": "嘉豪工作室",
+          "category": "休闲",
+          "subcategory": "轻度Roguelike、养成、冒险"
+        },
+        {
+          "rank": 84,
+          "name": "异人之下",
+          "publisher": "腾讯",
+          "category": "高画质",
+          "subcategory": "格斗、动作"
+        },
+        {
+          "rank": 85,
+          "name": "奥特曼英雄决战",
+          "publisher": "安徽畅乐互娱信息技术有限公司",
+          "category": "动作"
+        },
+        {
+          "rank": 87,
+          "name": "幻影传说",
+          "publisher": "黑潮营地",
+          "category": "塔防",
+          "subcategory": "放置、角色扮演"
+        },
+        {
+          "rank": 90,
+          "name": "纸房子",
+          "category": "模拟",
+          "subcategory": "角色扮演、休闲"
+        },
+        {
+          "rank": 91,
+          "name": "料理人班乔",
+          "publisher": "心动",
+          "category": "角色扮演",
+          "subcategory": "休闲、模拟经营、单机、料理、3D、冒险、模拟"
+        },
+        {
+          "rank": 92,
+          "name": "闪耀吧！噜咪",
+          "publisher": "哔哩哔哩游戏",
+          "category": "抓宠",
+          "subcategory": "卡牌、放置、冒险、角色扮演、养成、模拟经营、休闲"
+        },
+        {
+          "rank": 93,
+          "name": "烽火望长安",
+          "publisher": "万紫游戏",
+          "category": "国风",
+          "subcategory": "历史、策略、卡牌"
+        },
+        {
+          "rank": 96,
+          "name": "王座守护者",
+          "publisher": "起源优游",
+          "category": "休闲"
+        },
+        {
+          "rank": 97,
+          "name": "集合！浆果镇",
+          "publisher": "朝夕光年",
+          "category": "角色扮演",
+          "subcategory": "治愈、种田、建造、模拟、社交、派对游戏、多人联机、休闲"
+        },
+        {
+          "rank": 98,
+          "name": "纤维",
+          "publisher": "冬日煮米游戏制作组",
+          "category": "模拟",
+          "subcategory": "角色扮演、策略"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 69,
+          "name": "冒险与征途",
+          "publisher": "铸魂工作室",
+          "category": "角色扮演"
+        },
+        {
+          "rank": 93,
+          "name": "烽火望长安",
+          "publisher": "万紫游戏",
+          "category": "国风",
+          "subcategory": "历史、策略、卡牌"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 32,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 69,
+          "name": "冒险与征途",
+          "publisher": "铸魂工作室",
+          "category": "角色扮演"
+        }
+      ]
+    }
+  }
+}
