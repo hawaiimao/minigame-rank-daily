@@ -108,6 +108,25 @@
     next.disabled = state.page >= totalPages - 1;
   }
 
+  function setBoardTag(id, gameName) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    const bh = state.boardMap[gameName] || {};
+    const keys = Object.keys(bh);
+    keys.sort((a, b) => (bh[a].first_seen || "").localeCompare(bh[b].first_seen || ""));
+    const text = keys.map(fmtBoard).join(" / ");
+    el.textContent = text;
+    el.style.display = text ? "" : "none";
+  }
+
+  function openLightbox(srcUrl) {
+    const lb = document.getElementById("gp-lightbox");
+    if (!lb || !srcUrl) return;
+    const img = lb.querySelector("img");
+    if (img) img.src = srcUrl;
+    lb.style.display = "flex";
+  }
+
   function renderList() {
     const q = $("gp-search").value.trim().toLowerCase();
     const filtered = q
@@ -136,9 +155,11 @@
       const abandonBadge = r.abandoned ? '<span class="badge-abandoned">玩法放弃</span>' : "";
       const srcBoards = (r.sourceBoards || []).slice(0, 3).map((b) => `<span class="badge-src">${esc(b)}</span>`).join("");
       const srcLine = srcBoards ? `<div class="gp-card-src">${srcBoards}</div>` : "";
+      const joined = (r.joined || "").slice(0, 10);
+      const joinedLine = joined ? `上榜 ${joined}` : "";
       const meta = r.has
-        ? `更新 ${esc((r.updated || "").slice(0, 10))} · ${r.shotCount} 图`
-        : "未建档";
+        ? `更新 ${esc((r.updated || "").slice(0, 10))} · ${r.shotCount} 图${joinedLine ? " · " + joinedLine : ""}`
+        : joinedLine || "未建档";
       const abBtn = r.abandoned
         ? '<button class="gp-ab-btn restore" data-name="' + esc(r.name) + '">恢复</button>'
         : '<button class="gp-ab-btn" data-name="' + esc(r.name) + '">放弃</button>';
@@ -196,6 +217,7 @@
     const view = document.getElementById("gp-view");
     view.style.display = "block";
     view.querySelector(".gp-view-name").textContent = p.game_name;
+    setBoardTag("gp-view-board", p.game_name);
     const dl = view.querySelector(".gp-view-fields");
     dl.innerHTML = "";
     for (const [k, v, isMd] of fields) {
@@ -328,6 +350,7 @@
       const img = document.createElement("img");
       img.className = "gp-view-shot";
       img.src = s.url; img.alt = ""; img.loading = "lazy";
+      img.addEventListener("click", () => openLightbox(s.url));
       box.appendChild(img);
     }
   }
@@ -338,6 +361,7 @@
     const edit = document.getElementById("gp-edit-mode");
     const editTitle = document.getElementById("gp-edit-title");
     if (editTitle) editTitle.textContent = state.current;
+    setBoardTag("gp-edit-board", state.current);
     edit.style.display = "block";
     const g = state.games.find((x) => x.name === state.current);
     $("gp-developer").value = p.developer || (g && g.publisher_name) || "";
@@ -395,6 +419,8 @@
       const d = document.createElement("div");
       d.className = "gp-shot";
       d.innerHTML = `<img src="${esc(s.url)}" alt="" loading="lazy" /><button class="del" data-id="${s.id}" title="删除">×</button>`;
+      const im = d.querySelector("img");
+      if (im) im.addEventListener("click", () => openLightbox(s.url));
       box.appendChild(d);
     }
     box.querySelectorAll(".del").forEach((btn) => {

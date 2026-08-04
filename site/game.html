@@ -117,6 +117,19 @@
     .gp-save:disabled { opacity: .5; cursor: not-allowed; }
     .gp-status { margin-top: 10px; font-size: 14px; color: #666; min-height: 20px; }
     .gp-hint { color: #888; font-size: 13px; }
+    .gp-lightbox { position: fixed; inset: 0; z-index: 2000; background: rgba(0,0,0,.85);
+      display: flex; align-items: center; justify-content: center; cursor: zoom-out; }
+    .gp-lightbox img { max-width: 92vw; max-height: 92vh; border-radius: 8px; box-shadow: 0 8px 40px rgba(0,0,0,.5); }
+    .gp-view-fields { display: grid; grid-template-columns: 84px 1fr; gap: 10px 16px; margin: 16px 0 0; }
+    .gp-view-fields dt { color: #999; font-size: 13px; font-weight: 600; line-height: 1.6; padding-top: 1px; }
+    .gp-view-fields dd { margin: 0; font-size: 14px; line-height: 1.7; color: #444; word-break: break-word; }
+    .gp-view-fields dd p { margin: 4px 0; }
+    .gp-view-fields dd ul, .gp-view-fields dd ol { margin: 4px 0; padding-left: 1.3em; }
+    .gp-view-shots { cursor: zoom-in; }
+    .gp-view-shot { cursor: zoom-in; }
+    .gp-view-name-wrap { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .gp-board-tag { font-size: 12px; background: var(--brand-tint, #eef4ff); color: var(--brand, #2f6fed);
+      padding: 2px 8px; border-radius: 4px; font-weight: 500; white-space: nowrap; }
     .gp-pager { display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 16px; }
     .gp-pager button { padding: 6px 14px; border: 1px solid var(--border, #ddd); border-radius: 6px;
       background: var(--bg2, #fff); cursor: pointer; font: inherit; color: inherit; }
@@ -149,7 +162,7 @@
       <div id="gp-view" style="display:none">
         <div class="gp-actions" style="margin-top:0">
           <button type="button" class="gp-back" id="gp-view-back">← 返回列表</button>
-          <h2 class="gp-view-name" style="margin:0">—</h2>
+          <div class="gp-view-name-wrap"><h2 class="gp-view-name" style="margin:0">—</h2><span class="gp-board-tag" id="gp-view-board" style="display:none"></span></div>
         </div>
         <dl class="gp-view-fields" style="margin-top:16px"></dl>
         <label>截图</label>
@@ -161,7 +174,7 @@
       <div id="gp-edit-mode" style="display:none">
         <div class="gp-actions" style="margin-top:0">
           <button type="button" class="gp-back" id="gp-back">← 返回列表</button>
-          <h2 id="gp-edit-title" style="margin:0">—</h2>
+          <div class="gp-view-name-wrap"><h2 id="gp-edit-title" style="margin:0">—</h2><span class="gp-board-tag" id="gp-edit-board" style="display:none"></span></div>
         </div>
       <label>开发商</label>
       <input id="gp-developer" type="text" placeholder="例如：XX网络科技" />
@@ -214,6 +227,7 @@
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
-  <script src="game-profile.js?v=18"></script>
+  <script src="game-profile.js?v=19"></script>
+  <div id="gp-lightbox" class="gp-lightbox" style="display:none" onclick="this.style.display='none'"><img src="" alt="" /></div>
 </body>
 </html>
