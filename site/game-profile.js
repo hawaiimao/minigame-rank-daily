@@ -26,7 +26,7 @@
     const [games, profiles, shots] = await Promise.all([
       window.sb.select("games", { select: "name", order: "name.asc", limit: 5000 }),
       window.sb.select("game_profiles", { limit: 5000 }),
-      window.sb.select("game_screenshots", { select: "game_name,url,sort_order", order: "sort_order.asc,id.asc", limit: 5000 }),
+      window.sb.select("game_screenshots", { select: "id,game_name,url,sort_order", order: "sort_order.asc,id.asc", limit: 5000 }),
     ]);
     state.games = games || [];
     state.profiles = {};
