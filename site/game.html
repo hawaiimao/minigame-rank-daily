@@ -130,6 +130,10 @@
     .gp-pager button:disabled { opacity: .4; cursor: not-allowed; }
     .gp-pager button:not(:disabled):hover { border-color: var(--brand, #2f6fed); color: var(--brand, #2f6fed); }
     .gp-pager .gp-page-info { font-size: 13px; color: #666; }
+    .gp-page-jump { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: #666; }
+    .gp-page-jump input { width: 56px; padding: 4px 6px; border: 1px solid var(--border, #ddd);
+      border-radius: 5px; font: inherit; color: inherit; text-align: center; }
+    .gp-page-jump input:focus { outline: none; border-color: var(--brand, #2f6fed); }
   </style>
 </head>
 <body>
@@ -216,12 +220,16 @@
     <button id="gp-prev" type="button">← 上一页</button>
     <span class="gp-page-info" id="gp-page-info"></span>
     <button id="gp-next" type="button">下一页 →</button>
+    <span class="gp-page-jump">
+      跳到 <input id="gp-page-input" type="number" min="1" /> 页
+      <button id="gp-page-go" type="button">跳转</button>
+    </span>
   </div>
   </section>
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
-  <script src="game-profile.js?v=21"></script>
+  <script src="game-profile.js?v=22"></script>
   <div id="gp-lightbox" class="gp-lightbox" style="display:none" onclick="this.style.display='none'"><img src="" alt="" /></div>
 </body>
 </html>

@@ -106,6 +106,21 @@
     info.textContent = `${from}-${to} / 共 ${total} 款 · 第 ${state.page + 1}/${totalPages} 页`;
     prev.disabled = state.page === 0;
     next.disabled = state.page >= totalPages - 1;
+    const input = document.getElementById("gp-page-input");
+    const go = document.getElementById("gp-page-go");
+    if (input) { input.max = totalPages; input.value = state.page + 1; }
+    if (go) go.disabled = totalPages <= 1;
+  }
+
+  function jumpToPage() {
+    const input = document.getElementById("gp-page-input");
+    if (!input) return;
+    const totalPages = Math.max(1, Math.ceil(state.list.length / 20));
+    let n = parseInt(input.value, 10);
+    if (isNaN(n)) n = 1;
+    n = Math.max(1, Math.min(totalPages, n));
+    state.page = n - 1;
+    renderList();
   }
 
   function setBoardTag(id, gameName) {
@@ -176,6 +191,10 @@
     }
     renderPager(filtered.length, totalPages);
   }
+  document.getElementById("gp-page-go").addEventListener("click", jumpToPage);
+  document.getElementById("gp-page-input").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") jumpToPage();
+  });
 
   function showEdit(name) {
     state.current = name;
