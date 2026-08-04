@@ -274,14 +274,9 @@
     const toolbar = document.getElementById("gp-md-toolbar");
     const ta = document.getElementById("gp-desc");
     const pv = document.getElementById("gp-desc-preview");
-    const overlay = document.getElementById("gp-md-overlay");
     if (!toolbar || !ta) return;
 
     function updatePreview() { pv.innerHTML = renderMarkdown(ta.value); }
-    function updateSummary() {
-      const s = document.getElementById("gp-desc-summary");
-      if (s) s.textContent = ta.value.trim() ? ta.value.trim() : "";
-    }
 
     toolbar.addEventListener("click", (e) => {
       const btn = e.target.closest("button");
@@ -309,17 +304,7 @@
       ta.dispatchEvent(new Event("input", { bubbles: true }));
     });
 
-    document.getElementById("gp-desc-open").addEventListener("click", () => {
-      overlay.style.display = "flex";
-      ta.focus();
-    });
-    document.getElementById("gp-md-done").addEventListener("click", () => {
-      updateSummary();
-      overlay.style.display = "none";
-      switchMdMode("write");
-    });
-
-    const tabs = document.querySelectorAll("#gp-md-overlay .md-tab");
+    const tabs = document.querySelectorAll("#gp-md-toolbar .md-tab");
     tabs.forEach((t) => t.addEventListener("click", () => switchMdMode(t.dataset.mode)));
     ta.addEventListener("input", updatePreview);
   }
@@ -327,7 +312,7 @@
   function switchMdMode(mode) {
     const ta = document.getElementById("gp-desc");
     const pv = document.getElementById("gp-desc-preview");
-    document.querySelectorAll("#gp-md-overlay .md-tab").forEach((t) => t.classList.toggle("active", t.dataset.mode === mode));
+    document.querySelectorAll("#gp-md-toolbar .md-tab").forEach((t) => t.classList.toggle("active", t.dataset.mode === mode));
     if (mode === "preview") {
       pv.innerHTML = renderMarkdown(ta.value);
       ta.style.display = "none";
@@ -360,8 +345,6 @@
     edit.style.display = "block";
     $("gp-developer").value = p.developer || "";
     $("gp-desc").value = p.gameplay_desc || "";
-    const summ = document.getElementById("gp-desc-summary");
-    if (summ) summ.textContent = (p.gameplay_desc || "").trim();
     $("gp-tags").value = (p.tags || []).join(", ");
     $("gp-notes").value = p.notes || "";
     state.abandoned = !!p.abandoned;

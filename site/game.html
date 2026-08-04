@@ -10,21 +10,21 @@
   <link rel="stylesheet" href="style.css?v=14" />
   <style>
     .gp-toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 16px; }
-    .gp-toolbar input[type="search"] { width: 260px; flex: 0 0 auto; }
+    .gp-toolbar input[type="search"] { width: 260px; flex: 0 0 auto; margin-left: 2px; }
     .gp-toolbar .gp-count { color: #888; font-size: 13px; }
 
     /* 列表 */
     .gp-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
     .gp-card {
-      display: flex; align-items: stretch; gap: 12px; padding: 0 12px 12px 0; border: 1px solid var(--border, #ddd);
+      display: flex; align-items: stretch; padding: 0; border: 1px solid var(--border, #ddd);
       border-radius: 8px; cursor: pointer; background: var(--bg2, #fff); overflow: hidden;
       transition: border-color .15s, box-shadow .15s;
     }
     .gp-card:hover { border-color: var(--brand, #2f6fed); box-shadow: 0 2px 8px rgba(0,0,0,.08); }
-    .gp-card-thumb { width: 120px; height: auto; align-self: stretch; flex-shrink: 0; object-fit: cover;
+    .gp-card-thumb { width: 110px; height: auto; align-self: stretch; flex-shrink: 0; object-fit: cover;
       background: #f0f2f5; border-right: 1px solid var(--border, #eee); display: block; min-height: 120px; }
     .gp-card-thumb.empty { display: flex; align-items: center; justify-content: center; color: #bbb; font-size: 12px; }
-    .gp-card-body { min-width: 0; flex: 1; padding: 10px 0 0; }
+    .gp-card-body { min-width: 0; flex: 1; padding: 10px 12px; }
     .gp-card-name { font-weight: 600; margin-bottom: 4px; display: flex; align-items: center; gap: 6px; }
     .gp-card-name .badge-has { font-size: 11px; background: var(--brand-tint, #eef4ff); color: var(--brand, #2f6fed);
       padding: 1px 6px; border-radius: 4px; }
@@ -44,18 +44,6 @@
       border-radius: 6px; font: inherit; background: var(--bg2, #fff); color: inherit;
     }
     .gp-form textarea { min-height: 90px; resize: vertical; }
-    .md-overlay { position: fixed; inset: 0; z-index: 1000; background: var(--bg, #fff);
-      display: flex; flex-direction: column; padding: 16px 20px 20px; }
-    .md-overlay-bar { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
-    .md-overlay-bar strong { font-size: 15px; }
-    .md-overlay textarea { flex: 1; width: 100%; min-height: 0; resize: none; padding: 14px;
-      border: 1px solid var(--border, #ddd); border-radius: 8px; font: inherit; font-size: 15px;
-      line-height: 1.7; background: var(--bg2, #fff); color: inherit; }
-    .md-overlay .md-preview { flex: 1; overflow-y: auto; min-height: 0; }
-    .md-overlay .md-toolbar { margin-top: 10px; }
-    .gp-desc-summary { margin-top: 8px; padding: 10px 12px; border: 1px dashed var(--border, #ddd);
-      border-radius: 6px; background: var(--bg2, #fff); color: #666; font-size: 13px; white-space: pre-wrap; }
-    .gp-desc-summary:empty { display: none; }
     .gp-card.abandoned { opacity: .55; filter: grayscale(.8); background: var(--bg2, #f5f5f5); }
     .gp-card.abandoned .gp-card-name { color: #999; text-decoration: line-through; }
     .badge-board { font-size: 11px; background: #eef4ff; color: var(--brand, #2f6fed);
@@ -64,7 +52,7 @@
       padding: 1px 6px; border-radius: 4px; margin-right: 4px; }
     .gp-card-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
     .gp-card-head .gp-card-name { margin-bottom: 0; }
-    .gp-ab-btn { flex-shrink: 0; font-size: 12px; padding: 2px 10px; border-radius: 4px;
+    .gp-ab-btn { flex-shrink: 0; font-size: 11px; padding: 1px 6px; border-radius: 4px;
       border: 1px solid var(--danger, #c0392b); background: transparent; color: var(--danger, #c0392b);
       cursor: pointer; font: inherit; }
     .gp-ab-btn:hover { background: var(--danger, #c0392b); color: #fff; }
@@ -77,7 +65,11 @@
     .gp-abandon { background: #c0392b; color: #fff; }
     .gp-unabandon { background: transparent; color: var(--brand, #2f6fed); border: 1px solid currentColor !important; }
     .gp-abandon:hover, .gp-unabandon:hover { opacity: .85; }
-    .md-editor { margin-top: 10px; }
+        .md-editor { margin-top: 10px; width: 100%; }
+    .md-editor textarea { width: 100%; min-height: 260px; resize: vertical; font-size: 14px; line-height: 1.7;
+      padding: 10px 12px; border: 1px solid var(--border, #ddd); border-radius: 6px; font: inherit;
+      background: var(--bg2, #fff); color: inherit; box-sizing: border-box; }
+    .md-editor .md-preview { width: 100%; box-sizing: border-box; }
     .md-toolbar { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; margin-bottom: 6px; }
     .md-toolbar button { padding: 3px 9px; border: 1px solid var(--border, #ddd); border-radius: 4px;
       background: var(--bg2, #fff); cursor: pointer; font: inherit; font-size: 13px; line-height: 1.4; color: inherit; }
@@ -167,8 +159,26 @@
       <label>开发商</label>
       <input id="gp-developer" type="text" placeholder="例如：XX网络科技" />
       <label>玩法描述 <span class="gp-hint">(Markdown)</span></label>
-      <button type="button" id="gp-desc-open" class="st-btn" style="margin-top:6px">✏️ 编辑玩法描述（全屏）</button>
-      <div id="gp-desc-summary" class="gp-desc-summary"></div>
+      <div class="md-editor">
+        <div class="md-toolbar" id="gp-md-toolbar">
+          <button type="button" data-wrap="**" title="加粗"><b>B</b></button>
+          <button type="button" data-wrap="*" title="斜体"><i>I</i></button>
+          <button type="button" data-md="### " title="标题">H</button>
+          <button type="button" data-md="- " title="无序列表">•</button>
+          <button type="button" data-md="1. " title="有序列表">1.</button>
+          <button type="button" data-md="> " title="引用">❝</button>
+          <button type="button" data-md="`code`" title="行内代码">&lt;/&gt;</button>
+          <button type="button" data-md-block="```" title="代码块">≡</button>
+          <button type="button" data-md="[链接文字](https://)" title="链接">🔗</button>
+          <button type="button" data-md="![图片说明](https://)" title="图片">🖼</button>
+          <button type="button" data-md="---" title="分割线">—</button>
+          <span class="md-spacer"></span>
+          <button type="button" class="md-tab active" data-mode="write">编辑</button>
+          <button type="button" class="md-tab" data-mode="preview">预览</button>
+        </div>
+        <textarea id="gp-desc" placeholder="支持 Markdown：标题、加粗、列表、链接…"></textarea>
+        <div class="md-preview" id="gp-desc-preview" style="display:none"></div>
+      </div>
       <label>标签 <span class="gp-hint">(逗号分隔)</span></label>
       <input id="gp-tags" type="text" placeholder="休闲, 模拟经营, 消除" />
       <label>备注</label>
@@ -188,31 +198,7 @@
       </div>
     </div>
 
-  <!-- 全屏 Markdown 编辑器 -->
-  <div id="gp-md-overlay" class="md-overlay" style="display:none">
-    <div class="md-overlay-bar">
-      <strong>玩法描述</strong>
-      <span class="md-spacer"></span>
-      <button type="button" class="md-tab active" data-mode="write">编辑</button>
-      <button type="button" class="md-tab" data-mode="preview">预览</button>
-      <button type="button" id="gp-md-done" class="gp-save">完成</button>
-    </div>
-    <textarea id="gp-desc" placeholder="支持 Markdown：标题、加粗、列表、链接…"></textarea>
-    <div class="md-preview" id="gp-desc-preview" style="display:none"></div>
-    <div class="md-toolbar" id="gp-md-toolbar">
-      <button type="button" data-wrap="**" title="加粗"><b>B</b></button>
-      <button type="button" data-wrap="*" title="斜体"><i>I</i></button>
-      <button type="button" data-md="### " title="标题">H</button>
-      <button type="button" data-md="- " title="无序列表">•</button>
-      <button type="button" data-md="1. " title="有序列表">1.</button>
-      <button type="button" data-md="> " title="引用">❝</button>
-      <button type="button" data-md="`code`" title="行内代码">&lt;/&gt;</button>
-      <button type="button" data-md-block="```" title="代码块">≡</button>
-      <button type="button" data-md="[链接文字](https://)" title="链接">🔗</button>
-      <button type="button" data-md="![图片说明](https://)" title="图片">🖼</button>
-      <button type="button" data-md="---" title="分割线">—</button>
-    </div>
-  </div>  <div class="gp-pager" id="gp-pager" style="display:none">
+  <div class="gp-pager" id="gp-pager" style="display:none">
     <button id="gp-prev" type="button">← 上一页</button>
     <span class="gp-page-info" id="gp-page-info"></span>
     <button id="gp-next" type="button">下一页 →</button>
@@ -221,6 +207,6 @@
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
-  <script src="game-profile.js?v=8"></script>
+  <script src="game-profile.js?v=14"></script>
 </body>
 </html>
