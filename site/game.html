@@ -65,11 +65,12 @@
     }
     .gp-card.abandoned::after {
       content: "玩法放弃";
-      position: absolute; top: 50%; left: 50%;
-      transform: translate(-50%, -50%) rotate(-15deg);
-      font-size: 30px; font-weight: 800; letter-spacing: 3px;
-      color: rgba(192, 57, 43, .26); white-space: nowrap;
-      pointer-events: none; z-index: 1;
+      position: absolute; left: -6px; bottom: -14px;
+      transform-origin: left bottom;
+      transform: rotate(-38deg);
+      font-size: 96px; font-weight: 800; letter-spacing: 12px;
+      color: rgba(192, 57, 43, .30); white-space: nowrap;
+      pointer-events: none; z-index: 2;
     }
     .badge-board { font-size: 11px; background: #eef4ff; color: var(--brand, #2f6fed);
       padding: 1px 6px; border-radius: 4px; margin-right: 4px; }
@@ -251,7 +252,7 @@
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
-  <script src="game-profile.js?v=25"></script>
+  <script src="game-profile.js?v=28"></script>
   <div id="gp-lightbox" class="gp-lightbox" style="display:none" onclick="this.style.display='none'"><img src="" alt="" /></div>
 </body>
 </html>
