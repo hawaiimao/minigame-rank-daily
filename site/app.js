@@ -327,7 +327,7 @@ function renderDiffTables() {
     tr.innerHTML = `
       <td><span class="badge ${r._cls}">${r._tag}</span></td>
       <td class="rank-num">${r.rank ?? ""}</td>
-      <td><strong>${escapeHTML(r.name || "")}</strong></td>
+      <td><strong>${escapeHTML(r.name || "")}</strong>${profileBtn(r.name || "")}${profileBtn(r.name || "")}</td>
       <td>${escapeHTML(category)}</td>
       <td>${escapeHTML(subcategory) || `<span class="slogan">${escapeHTML(slogan)}</span>`}</td>
       <td>${escapeHTML(r.publisher || "")}</td>
@@ -336,6 +336,10 @@ function renderDiffTables() {
   }
 }
 
+function profileBtn(name) {
+  const url = "./game.html?name=" + encodeURIComponent(name);
+  return ` <a href="${url}" class="profile-link" title="产品档案">档案</a>`;
+}
 function changeCell(r) {
   const dir = r.change_direction;
   const raw = (r.change || "").trim();
@@ -375,7 +379,7 @@ function renderFullBoard() {
     const isNew = newGameSet.has(r.name);
     tr.innerHTML = `
       <td class="rank-num">${r.rank ?? ""}</td>
-      <td><strong>${escapeHTML(r.name || "")}</strong>
+      <td><strong>${escapeHTML(r.name || "")}</strong>${profileBtn(r.name || "")}
         ${r.slogan ? `<div class="slogan">${escapeHTML(r.slogan)}</div>` : ""}</td>
       <td>${escapeHTML(r.category || "")}${r.category_rank ? ` <span class="muted">#${r.category_rank}</span>` : ""}</td>
       <td>${escapeHTML(r.subcategory || "")}</td>

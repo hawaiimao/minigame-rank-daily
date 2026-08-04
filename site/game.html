@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>产品档案 · 小游戏榜单监控</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=14" />
+  <style>
+    .gp-toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 16px; }
+    .gp-toolbar input[type="search"] { flex: 1; min-width: 220px; }
+    .gp-form { max-width: 720px; }
+    .gp-form label { display: block; font-weight: 600; margin: 14px 0 6px; }
+    .gp-form input[type="text"], .gp-form textarea {
+      width: 100%; padding: 8px 10px; border: 1px solid var(--border, #ddd);
+      border-radius: 6px; font: inherit; background: var(--bg2, #fff); color: inherit;
+    }
+    .gp-form textarea { min-height: 90px; resize: vertical; }
+    .gp-shots { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+    .gp-shot { position: relative; width: 160px; }
+    .gp-shot img { width: 160px; height: 110px; object-fit: cover; border-radius: 6px; border: 1px solid var(--border, #ddd); display: block; }
+    .gp-shot .del { position: absolute; top: 4px; right: 4px; background: var(--danger, #c0392b); color: #fff;
+      border: none; border-radius: 50%; width: 22px; height: 22px; cursor: pointer; font-size: 14px; line-height: 1; }
+    .gp-upload { margin-top: 10px; }
+    .gp-upload input[type="file"] { margin-right: 10px; }
+    .gp-actions { margin-top: 18px; display: flex; gap: 10px; }
+    .gp-actions button { padding: 8px 18px; border: none; border-radius: 6px; cursor: pointer; font: inherit; }
+    .gp-save { background: var(--brand, #2f6fed); color: #fff; }
+    .gp-save:disabled { opacity: .5; cursor: not-allowed; }
+    .gp-status { margin-top: 10px; font-size: 14px; color: #666; min-height: 20px; }
+    .gp-hint { color: #888; font-size: 13px; }
+    #gp-no-profile { color: #999; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>产品档案</h1>
+    <div class="meta">
+      <a href="./" class="nav-link">← 返回榜单监控</a>
+      <span class="sep">·</span>
+      <span>为单款游戏维护开发商、玩法、截图等档案</span>
+    </div>
+  </header>
+
+  <div class="gp-toolbar">
+    <input id="gp-search" type="search" placeholder="搜索游戏名…" autocomplete="off" />
+    <button id="gp-clear" class="st-btn">清空</button>
+  </div>
+
+  <section class="panel">
+    <div id="gp-loading" class="pub-loading">正在加载游戏列表…</div>
+
+    <div class="gp-form" id="gp-form" style="display:none">
+      <h2 id="gp-title">—</h2>
+      <label>开发商</label>
+      <input id="gp-developer" type="text" placeholder="例如：XX网络科技" />
+      <label>玩法描述</label>
+      <textarea id="gp-desc" placeholder="玩法、品类、特点…"></textarea>
+      <label>标签 <span class="gp-hint">(逗号分隔)</span></label>
+      <input id="gp-tags" type="text" placeholder="休闲, 模拟经营, 消除" />
+      <label>备注</label>
+      <textarea id="gp-notes" placeholder="内部备注…"></textarea>
+      <label>截图</label>
+      <div class="gp-shots" id="gp-shots"></div>
+      <div class="gp-upload">
+        <input id="gp-file" type="file" accept="image/*" multiple />
+        <button id="gp-upload-btn" class="st-btn" type="button">上传选中截图</button>
+      </div>
+      <div class="gp-actions">
+        <button id="gp-save" class="gp-save" type="button">保存档案</button>
+      </div>
+      <div class="gp-status" id="gp-status"></div>
+    </div>
+
+    <div id="gp-no-profile" style="display:none">未找到档案。在上方选择一款游戏开始编辑。</div>
+  </section>
+
+  <script src="config.js"></script>
+  <script src="sb.js?v=6"></script>
+  <script src="game-profile.js?v=1"></script>
+</body>
+</html>

@@ -724,3 +724,11 @@ tr.row-contacting .pub-name {
   color: var(--brand-2);
 }
 .loading-cell { padding: 18px 0; }
+
+/* Game profile entry link (app.js) */
+.profile-link {
+  margin-left: 8px; font-size: 12px; color: var(--brand, #2f6fed);
+  text-decoration: none; border: 1px solid currentColor; border-radius: 4px;
+  padding: 0 5px; white-space: nowrap; vertical-align: middle;
+}
+.profile-link:hover { background: var(--brand-tint, #eef4ff); }
