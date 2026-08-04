@@ -101,8 +101,8 @@
     if (!pager) return;
     if (totalPages <= 1) { pager.style.display = "none"; return; }
     pager.style.display = "flex";
-    const from = state.page * 30 + 1;
-    const to = Math.min(total, (state.page + 1) * 30);
+    const from = state.page * 20 + 1;
+    const to = Math.min(total, (state.page + 1) * 20);
     info.textContent = `${from}-${to} / 共 ${total} 款 · 第 ${state.page + 1}/${totalPages} 页`;
     prev.disabled = state.page === 0;
     next.disabled = state.page >= totalPages - 1;
@@ -121,7 +121,7 @@
       box.innerHTML = '<div class="gp-empty">没有匹配的产品。</div>';
       return;
     }
-    const PER_PAGE = 30;
+    const PER_PAGE = 20;
     const totalPages = Math.max(1, Math.ceil(filtered.length / PER_PAGE));
     if (state.page >= totalPages) state.page = totalPages - 1;
     const pageRows = filtered.slice(state.page * PER_PAGE, (state.page + 1) * PER_PAGE);
