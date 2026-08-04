@@ -133,11 +133,9 @@
         : `<div class="gp-card-thumb empty">无图</div>`;
       const tags = (r.tags || []).slice(0, 4).map((t) => `<span class="tag">${esc(t)}</span>`).join("");
       const dev = r.developer ? `<div class="gp-card-dev">${esc(r.developer)}</div>` : "";
-      const boardBadge = r.category ? `<span class="badge-board">${esc(r.category)}</span>` : "";
       const abandonBadge = r.abandoned ? '<span class="badge-abandoned">玩法放弃</span>' : "";
       const srcBoards = (r.sourceBoards || []).slice(0, 3).map((b) => `<span class="badge-src">${esc(b)}</span>`).join("");
       const srcLine = srcBoards ? `<div class="gp-card-src">${srcBoards}</div>` : "";
-      const pubLine = r.publisher ? `<div class="gp-card-pub">🏢 ${esc(r.publisher)}</div>` : "";
       const meta = r.has
         ? `更新 ${esc((r.updated || "").slice(0, 10))} · ${r.shotCount} 图`
         : "未建档";
@@ -152,11 +150,9 @@
             ${abBtn}
           </div>
           ${srcLine}
-          ${pubLine}
           ${dev}
           ${tags ? `<div class="gp-card-tags">${tags}</div>` : ""}
-          ${r.desc ? `<div class="gp-card-desc">${esc(r.desc)}</div>` : ""}
-          <div class="gp-card-meta">${boardBadge}${abandonBadge} ${meta}</div>
+          <div class="gp-card-meta">${abandonBadge} ${meta}</div>
         </div>`;
       card.addEventListener("click", () => showEdit(r.name));
       box.appendChild(card);
