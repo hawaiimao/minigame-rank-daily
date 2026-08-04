@@ -343,7 +343,8 @@
     const editTitle = document.getElementById("gp-edit-title");
     if (editTitle) editTitle.textContent = state.current;
     edit.style.display = "block";
-    $("gp-developer").value = p.developer || "";
+    const g = state.games.find((x) => x.name === state.current);
+    $("gp-developer").value = p.developer || (g && g.publisher_name) || "";
     $("gp-desc").value = p.gameplay_desc || "";
     $("gp-tags").value = (p.tags || []).join(", ");
     $("gp-notes").value = p.notes || "";

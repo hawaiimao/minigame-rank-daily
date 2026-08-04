@@ -16,14 +16,18 @@
     .gp-toolbar .gp-count { color: #888; font-size: 13px; }
 
     /* 列表 */
-    .gp-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+    .gp-list { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
+    @media (max-width: 1400px) { .gp-list { grid-template-columns: repeat(4, 1fr); } }
+    @media (max-width: 1100px) { .gp-list { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 800px) { .gp-list { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 520px) { .gp-list { grid-template-columns: 1fr; } }
     .gp-card {
       display: flex; align-items: stretch; padding: 0; border: 1px solid var(--border, #ddd);
       border-radius: 8px; cursor: pointer; background: var(--bg2, #fff); overflow: hidden;
       transition: border-color .15s, box-shadow .15s;
     }
     .gp-card:hover { border-color: var(--brand, #2f6fed); box-shadow: 0 2px 8px rgba(0,0,0,.08); }
-    .gp-card-thumb { width: 110px; height: auto; align-self: stretch; flex-shrink: 0; object-fit: cover;
+    .gp-card-thumb { width: 90px; height: auto; align-self: stretch; flex-shrink: 0; object-fit: cover;
       background: #f0f2f5; border-right: 1px solid var(--border, #eee); display: block; min-height: 120px; }
     .gp-card-thumb.empty { display: flex; align-items: center; justify-content: center; color: #bbb; font-size: 12px; }
     .gp-card-body { min-width: 0; flex: 1; padding: 10px 12px; }
@@ -209,6 +213,6 @@
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
-  <script src="game-profile.js?v=15"></script>
+  <script src="game-profile.js?v=16"></script>
 </body>
 </html>
