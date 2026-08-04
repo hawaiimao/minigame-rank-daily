@@ -126,27 +126,133 @@
 
   function renderView(p) {
     const fields = [
-      ["开发商", p.developer || "—"],
-      ["玩法", p.gameplay_desc || "—"],
-      ["标签", (p.tags || []).join(", ") || "—"],
-      ["备注", p.notes || "—"],
-      ["更新时间", (p.updated_at || "").slice(0, 16).replace("T", " ")],
+      ["开发商", p.developer || "—", false],
+      ["玩法", p.gameplay_desc || "—", true],
+      ["标签", (p.tags || []).join(", ") || "—", false],
+      ["备注", p.notes || "—", false],
+      ["更新时间", (p.updated_at || "").slice(0, 16).replace("T", " "), false],
     ];
     const view = document.getElementById("gp-view");
     view.style.display = "block";
     view.querySelector(".gp-view-name").textContent = p.game_name;
     const dl = view.querySelector(".gp-view-fields");
     dl.innerHTML = "";
-    for (const [k, v] of fields) {
+    for (const [k, v, isMd] of fields) {
       const dt = document.createElement("dt");
       dt.textContent = k;
       const dd = document.createElement("dd");
-      dd.textContent = v;
+      if (isMd) dd.innerHTML = renderMarkdown(v); else dd.textContent = v;
       dl.appendChild(dt);
       dl.appendChild(dd);
     }
     renderViewShots(p.game_name);
     document.getElementById("gp-edit-mode").style.display = "none";
+  }
+
+  function renderMarkdown(src) {
+    if (!src) return "";
+    const lines = String(src).replace(/\r\n?/g, "\n").split("\n");
+    const out = [];
+    let i = 0, inCode = false, codeBuf = [], inUl = false, inOl = false, inQuote = false;
+    const closeUl = () => { if (inUl) { out.push("</ul>"); inUl = false; } };
+    const closeOl = () => { if (inOl) { out.push("</ol>"); inOl = false; } };
+    const closeQuote = () => { if (inQuote) { out.push("</blockquote>"); inQuote = false; } };
+    while (i < lines.length) {
+      const raw = lines[i];
+      const line = raw.trim();
+      if (line.startsWith("```")) {
+        if (!inCode) { closeUl(); closeOl(); closeQuote(); inCode = true; codeBuf = []; }
+        else { out.push("<pre><code>" + esc(codeBuf.join("\n")) + "</code></pre>"); inCode = false; }
+        i++; continue;
+      }
+      if (inCode) { codeBuf.push(raw); i++; continue; }
+      if (!line) { closeUl(); closeOl(); closeQuote(); out.push(""); i++; continue; }
+      const hm = line.match(/^(#{1,6})\s+(.*)$/);
+      if (hm) { closeUl(); closeOl(); closeQuote(); out.push(`<h${hm[1].length}>${inlineMd(hm[2])}</h${hm[1].length}>`); i++; continue; }
+      if (/^(-{3,}|\*{3,}|_{3,})$/.test(line)) { closeUl(); closeOl(); closeQuote(); out.push("<hr>"); i++; continue; }
+      if (line.startsWith(">")) {
+        closeUl(); closeOl();
+        if (!inQuote) { out.push("<blockquote>"); inQuote = true; }
+        out.push("<p>" + inlineMd(line.replace(/^>\s?/, "")) + "</p>");
+        i++; continue;
+      }
+      const ulm = line.match(/^[-*+]\s+(.*)$/);
+      if (ulm) { closeOl(); closeQuote(); if (!inUl) { out.push("<ul>"); inUl = true; } out.push("<li>" + inlineMd(ulm[1]) + "</li>"); i++; continue; }
+      const olm = line.match(/^\d+[.)]\s+(.*)$/);
+      if (olm) { closeUl(); closeQuote(); if (!inOl) { out.push("<ol>"); inOl = true; } out.push("<li>" + inlineMd(olm[1]) + "</li>"); i++; continue; }
+      closeUl(); closeOl(); closeQuote();
+      out.push("<p>" + inlineMd(line) + "</p>");
+      i++;
+    }
+    if (inCode) out.push("<pre><code>" + esc(codeBuf.join("\n")) + "</code></pre>");
+    closeUl(); closeOl(); closeQuote();
+    return out.join("\n");
+  }
+
+  function inlineMd(s) {
+    return esc(s)
+      .replace(/`([^`]+)`/g, "<code>$1</code>")
+      .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+      .replace(/\*([^*\n]+)\*/g, "<em>$1</em>")
+      .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (m, alt, url) => {
+        const u = esc(url).trim();
+        return /^(https?:|\/)/i.test(u) ? `<img src="${u}" alt="${alt}" loading="lazy" />` : "";
+      })
+      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (m, text, url) => {
+        const u = esc(url).trim();
+        const safe = /^(https?:|mailto:|#|\/)/i.test(u) ? u : "#";
+        return `<a href="${safe}" target="_blank" rel="noopener">${text}</a>`;
+      });
+  }
+
+  function initMdEditor() {
+    const toolbar = document.getElementById("gp-md-toolbar");
+    if (!toolbar) return;
+    toolbar.addEventListener("click", (e) => {
+      const btn = e.target.closest("button");
+      if (!btn) return;
+      e.preventDefault();
+      const ta = document.getElementById("gp-desc");
+      const start = ta.selectionStart, end = ta.selectionEnd;
+      const sel = ta.value.slice(start, end);
+      let insert, selStart, selEnd;
+      if (btn.dataset.wrap) {
+        insert = btn.dataset.wrap + sel + btn.dataset.wrap;
+        selStart = start + btn.dataset.wrap.length;
+        selEnd = end + btn.dataset.wrap.length;
+      } else if (btn.dataset.mdBlock) {
+        insert = btn.dataset.mdBlock + "\n" + sel + "\n" + btn.dataset.mdBlock;
+        selStart = start + btn.dataset.mdBlock.length + 1;
+        selEnd = selStart + sel.length;
+      } else {
+        insert = btn.dataset.md || "";
+        selStart = start + insert.length;
+        selEnd = selStart;
+      }
+      ta.setRangeText(insert, start, end, "end");
+      ta.focus();
+      ta.setSelectionRange(selStart, selEnd);
+      ta.dispatchEvent(new Event("input", { bubbles: true }));
+    });
+    const tabs = toolbar.querySelectorAll(".md-tab");
+    tabs.forEach((t) => t.addEventListener("click", () => switchMdMode(t.dataset.mode)));
+    document.getElementById("gp-desc").addEventListener("input", () => {
+      document.getElementById("gp-desc-preview").innerHTML = renderMarkdown(document.getElementById("gp-desc").value);
+    });
+  }
+
+  function switchMdMode(mode) {
+    const ta = document.getElementById("gp-desc");
+    const pv = document.getElementById("gp-desc-preview");
+    document.querySelectorAll(".md-tab").forEach((t) => t.classList.toggle("active", t.dataset.mode === mode));
+    if (mode === "preview") {
+      pv.innerHTML = renderMarkdown(ta.value);
+      ta.style.display = "none";
+      pv.style.display = "block";
+    } else {
+      ta.style.display = "";
+      pv.style.display = "none";
+    }
   }
 
   function renderViewShots(name) {
@@ -156,8 +262,8 @@
     if (!sh.length) { box.innerHTML = '<span class="gp-hint">暂无截图</span>'; return; }
     for (const s of sh) {
       const img = document.createElement("img");
+      img.className = "gp-view-shot";
       img.src = s.url; img.alt = ""; img.loading = "lazy";
-      img.style.cssText = "max-width:100%;height:auto;border-radius:6px;border:1px solid #ddd;display:block;margin-bottom:8px;";
       box.appendChild(img);
     }
   }
@@ -294,6 +400,7 @@
   }
 
   function init() {
+    initMdEditor();
     $("gp-save").addEventListener("click", save);
     $("gp-view-back").addEventListener("click", backToList);
     $("gp-back").addEventListener("click", backToList);
