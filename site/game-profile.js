@@ -110,7 +110,6 @@
     $("gp-toolbar").style.display = "none";
     $("gp-list").style.display = "none";
     $("gp-form").style.display = "block";
-    $("gp-title").textContent = name;
 
     const p = state.profiles[name] || null;
     if (p) {
@@ -163,6 +162,8 @@
     const p = state.profiles[state.current] || { game_name: state.current, developer: "", gameplay_desc: "", tags: [], notes: "" };
     document.getElementById("gp-view").style.display = "none";
     const edit = document.getElementById("gp-edit-mode");
+    const editTitle = document.getElementById("gp-edit-title");
+    if (editTitle) editTitle.textContent = state.current;
     edit.style.display = "block";
     $("gp-developer").value = p.developer || "";
     $("gp-desc").value = p.gameplay_desc || "";
@@ -263,7 +264,6 @@
   function init() {
     $("gp-save").addEventListener("click", save);
     $("gp-upload-btn").addEventListener("click", upload);
-    $("gp-back").addEventListener("click", backToList);
     $("gp-view-back").addEventListener("click", backToList);
     $("gp-edit-btn").addEventListener("click", enterEditMode);
     $("gp-clear").addEventListener("click", () => { $("gp-search").value = ""; renderList(); });
