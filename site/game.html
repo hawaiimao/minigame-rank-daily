@@ -50,11 +50,30 @@
       border-radius: 6px; font: inherit; background: var(--bg2, #fff); color: inherit;
     }
     .gp-form textarea { min-height: 90px; resize: vertical; }
-    .gp-card.abandoned { opacity: .55; filter: grayscale(.8); background: var(--bg2, #f5f5f5); }
-    .gp-card.abandoned .gp-card-name { color: #999; text-decoration: line-through; }
+    .gp-card.abandoned { background: #f0f0f0; position: relative; overflow: hidden; }
+    .gp-card.abandoned .gp-card-thumb { filter: grayscale(1) brightness(.96); opacity: .6; }
+    .gp-card.abandoned .gp-card-name { color: #888; text-decoration: line-through; }
+    .gp-card.abandoned .gp-card-dev,
+    .gp-card.abandoned .gp-card-pub,
+    .gp-card.abandoned .gp-card-desc,
+    .gp-card.abandoned .gp-card-meta,
+    .gp-card.abandoned .gp-card-src { color: #aaa; }
+    .gp-card.abandoned .gp-card-tags .tag { background: #e6e6e6; color: #999; }
+    .gp-card.abandoned .gp-card-name .badge-has {
+      background: var(--brand, #2f6fed); color: #fff;
+      text-decoration: none; border-radius: 4px; padding: 1px 6px;
+    }
+    .gp-card.abandoned::after {
+      content: "玩法放弃";
+      position: absolute; top: 50%; left: 50%;
+      transform: translate(-50%, -50%) rotate(-15deg);
+      font-size: 30px; font-weight: 800; letter-spacing: 3px;
+      color: rgba(192, 57, 43, .26); white-space: nowrap;
+      pointer-events: none; z-index: 1;
+    }
     .badge-board { font-size: 11px; background: #eef4ff; color: var(--brand, #2f6fed);
       padding: 1px 6px; border-radius: 4px; margin-right: 4px; }
-    .badge-abandoned { font-size: 11px; background: #eee; color: #999;
+    .badge-abandoned { font-size: 11px; font-weight: 600; background: #c0392b; color: #fff;
       padding: 1px 6px; border-radius: 4px; margin-right: 4px; }
     .gp-card-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
     .gp-card-head .gp-card-name { margin-bottom: 0; }
@@ -232,7 +251,7 @@
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
-  <script src="game-profile.js?v=23"></script>
+  <script src="game-profile.js?v=25"></script>
   <div id="gp-lightbox" class="gp-lightbox" style="display:none" onclick="this.style.display='none'"><img src="" alt="" /></div>
 </body>
 </html>
