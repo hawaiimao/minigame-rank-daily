@@ -1,0 +1,328 @@
+{
+  "date": "2026-08-04",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "脑洞工坊",
+          "category": "休闲",
+          "category_rank": 5,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州宝可梦科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 7,
+          "name": "武器失控进化",
+          "category": "休闲",
+          "category_rank": 6,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "厦门傅斯网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 14,
+          "name": "字造兵器",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "湖南七风网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "脑洞工坊",
+          "category": "休闲",
+          "category_rank": 5,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州宝可梦科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 11,
+          "name": "字造兵器",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "湖南七风网络科技有限公司",
+          "change": "2",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "解压闯一关",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州探游网络科技有限公司",
+          "change": "2",
+          "change_direction": "up"
+        }
+      ],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 2
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "幻兽帕鲁世界",
+          "publisher": "新闻消息",
+          "category": "抓宠",
+          "subcategory": "模拟、开放世界、角色扮演、生存"
+        },
+        {
+          "rank": 40,
+          "name": "幻兽帕鲁世界",
+          "publisher": "新闻消息",
+          "category": "抓宠",
+          "subcategory": "模拟、开放世界、角色扮演、生存"
+        },
+        {
+          "rank": 44,
+          "name": "绚烂花期",
+          "publisher": "梦花火工作室",
+          "category": "角色扮演",
+          "subcategory": "冒险、AVG、恋爱、乙女、剧情、都市、2D、文字、搞笑、支持Steam家庭共享、JRPG、第一人称视角、平台跳跃"
+        },
+        {
+          "rank": 60,
+          "name": "幻兽帕鲁世界",
+          "publisher": "新闻消息",
+          "category": "抓宠",
+          "subcategory": "模拟、开放世界、角色扮演、生存"
+        },
+        {
+          "rank": 62,
+          "name": "中世纪之战",
+          "publisher": "模拟一切工作室",
+          "category": "角色扮演",
+          "subcategory": "开放世界、沙盒生存、中世纪、单机、第一人称视角"
+        },
+        {
+          "rank": 64,
+          "name": "世界垂钓之旅（taptap测试版）",
+          "publisher": "方片信息",
+          "category": "休闲",
+          "subcategory": "钓鱼、模拟经营、收集"
+        },
+        {
+          "rank": 84,
+          "name": "汽车机械师2021",
+          "publisher": "Red Dot Games",
+          "category": "模拟"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 86,
+          "name": "菜鸡梦想家",
+          "publisher": "波波森林BOOBOFOREST",
+          "category": "治愈",
+          "subcategory": "手绘、竖屏、可爱、模拟经营、休闲"
+        },
+        {
+          "rank": 88,
+          "name": "怪物猎人：旅人",
+          "publisher": "腾讯",
+          "category": "ARPG",
+          "subcategory": "冒险、多人联机、社交、共斗、动作"
+        },
+        {
+          "rank": 97,
+          "name": "异界深渊：大灵王",
+          "publisher": "指尖沙场工作室",
+          "category": "放置",
+          "subcategory": "养成、国风"
+        },
+        {
+          "rank": 99,
+          "name": "猫娘计划",
+          "publisher": "猫娘计划工作室",
+          "category": "抢先体验",
+          "subcategory": "角色扮演"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 44,
+          "name": "绚烂花期",
+          "publisher": "梦花火工作室",
+          "category": "角色扮演",
+          "subcategory": "冒险、AVG、恋爱、乙女、剧情、都市、2D、文字、搞笑、支持Steam家庭共享、JRPG、第一人称视角、平台跳跃"
+        },
+        {
+          "rank": 64,
+          "name": "世界垂钓之旅（taptap测试版）",
+          "publisher": "方片信息",
+          "category": "休闲",
+          "subcategory": "钓鱼、模拟经营、收集"
+        },
+        {
+          "rank": 84,
+          "name": "汽车机械师2021",
+          "publisher": "Red Dot Games",
+          "category": "模拟"
+        }
+      ],
+      "totals": {
+        "new_to_board": 7,
+        "returning": 4,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "幻兽帕鲁世界",
+          "publisher": "新闻消息",
+          "category": "抓宠",
+          "subcategory": "模拟、开放世界、角色扮演、生存"
+        },
+        {
+          "rank": 40,
+          "name": "幻兽帕鲁世界",
+          "publisher": "新闻消息",
+          "category": "抓宠",
+          "subcategory": "模拟、开放世界、角色扮演、生存"
+        },
+        {
+          "rank": 44,
+          "name": "绚烂花期",
+          "publisher": "梦花火工作室",
+          "category": "角色扮演",
+          "subcategory": "冒险、AVG、恋爱、乙女、剧情、都市、2D、文字、搞笑、支持Steam家庭共享、JRPG、第一人称视角、平台跳跃"
+        },
+        {
+          "rank": 60,
+          "name": "幻兽帕鲁世界",
+          "publisher": "新闻消息",
+          "category": "抓宠",
+          "subcategory": "模拟、开放世界、角色扮演、生存"
+        },
+        {
+          "rank": 62,
+          "name": "中世纪之战",
+          "publisher": "模拟一切工作室",
+          "category": "角色扮演",
+          "subcategory": "开放世界、沙盒生存、中世纪、单机、第一人称视角"
+        },
+        {
+          "rank": 64,
+          "name": "世界垂钓之旅（taptap测试版）",
+          "publisher": "方片信息",
+          "category": "休闲",
+          "subcategory": "钓鱼、模拟经营、收集"
+        },
+        {
+          "rank": 84,
+          "name": "汽车机械师2021",
+          "publisher": "Red Dot Games",
+          "category": "模拟"
+        }
+      ]
+    }
+  }
+}
