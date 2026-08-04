@@ -105,7 +105,7 @@
         headers: {
           "Content-Type": "application/json",
           "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
-          "x-profile-key": ADMIN_KEY,
+          "x-client-info": ADMIN_KEY,
         },
         body: JSON.stringify(body),
       });
@@ -133,7 +133,7 @@
         method: "POST",
         headers: {
           "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
-          "x-profile-key": ADMIN_KEY,
+          "x-client-info": ADMIN_KEY,
         },
         body: fd,
       });

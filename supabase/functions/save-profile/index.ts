@@ -14,7 +14,7 @@ Deno.serve(async (req) => {
 
   // Auth: caller must present X-Profile-Key matching ADMIN_KEY.
   const adminKey = Deno.env.get("PROFILE_ADMIN_KEY") || "";
-  const got = req.headers.get("x-profile-key") || "";
+  const got = req.headers.get("x-client-info") || "";
   if (!adminKey || got !== adminKey) {
     return new Response("Unauthorized", { status: 401, headers: cors });
   }
