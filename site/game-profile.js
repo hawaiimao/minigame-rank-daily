@@ -14,6 +14,7 @@
     dirty: false,
     abandoned: false,
     boardMap: {},        // name -> board_history
+    page: 0,             // 列表当前页
   };
 
   const $ = (id) => document.getElementById(id);
@@ -92,6 +93,21 @@
     renderList();
   }
 
+  function renderPager(total, totalPages) {
+    const pager = document.getElementById("gp-pager");
+    const info = document.getElementById("gp-page-info");
+    const prev = document.getElementById("gp-prev");
+    const next = document.getElementById("gp-next");
+    if (!pager) return;
+    if (totalPages <= 1) { pager.style.display = "none"; return; }
+    pager.style.display = "flex";
+    const from = state.page * 30 + 1;
+    const to = Math.min(total, (state.page + 1) * 30);
+    info.textContent = `${from}-${to} / 共 ${total} 款 · 第 ${state.page + 1}/${totalPages} 页`;
+    prev.disabled = state.page === 0;
+    next.disabled = state.page >= totalPages - 1;
+  }
+
   function renderList() {
     const q = $("gp-search").value.trim().toLowerCase();
     const filtered = q
@@ -105,7 +121,11 @@
       box.innerHTML = '<div class="gp-empty">没有匹配的产品。</div>';
       return;
     }
-    for (const r of filtered.slice(0, 300)) {
+    const PER_PAGE = 30;
+    const totalPages = Math.max(1, Math.ceil(filtered.length / PER_PAGE));
+    if (state.page >= totalPages) state.page = totalPages - 1;
+    const pageRows = filtered.slice(state.page * PER_PAGE, (state.page + 1) * PER_PAGE);
+    for (const r of pageRows) {
       const card = document.createElement("div");
       card.className = "gp-card" + (r.abandoned ? " abandoned" : "");
       const thumb = r.firstShot
@@ -147,6 +167,7 @@
         toggleAbandonCard(btn.dataset.name);
       });
     });
+    renderPager(filtered.length, totalPages);
   }
 
   function showEdit(name) {
@@ -507,8 +528,10 @@
     $("gp-edit-btn").addEventListener("click", enterEditMode);
     $("gp-abandon").addEventListener("click", () => { state.abandoned = true; updateAbandonUI(); });
     $("gp-unabandon").addEventListener("click", () => { state.abandoned = false; updateAbandonUI(); });
-    $("gp-clear").addEventListener("click", () => { $("gp-search").value = ""; renderList(); });
-    $("gp-search").addEventListener("input", renderList);
+    $("gp-clear").addEventListener("click", () => { $("gp-search").value = ""; state.page = 0; renderList(); });
+    $("gp-prev").addEventListener("click", () => { if (state.page > 0) { state.page--; renderList(); } });
+    $("gp-next").addEventListener("click", () => { state.page++; renderList(); });
+    $("gp-search").addEventListener("input", () => { state.page = 0; renderList(); });
   }
 
   (async function () {

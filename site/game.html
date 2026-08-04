@@ -10,21 +10,21 @@
   <link rel="stylesheet" href="style.css?v=14" />
   <style>
     .gp-toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 16px; }
-    .gp-toolbar input[type="search"] { flex: 1; min-width: 220px; }
+    .gp-toolbar input[type="search"] { width: 260px; flex: 0 0 auto; }
     .gp-toolbar .gp-count { color: #888; font-size: 13px; }
 
     /* 列表 */
     .gp-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
     .gp-card {
-      display: flex; flex-direction: column; padding: 0 0 12px; border: 1px solid var(--border, #ddd);
+      display: flex; align-items: stretch; gap: 12px; padding: 0 12px 12px 0; border: 1px solid var(--border, #ddd);
       border-radius: 8px; cursor: pointer; background: var(--bg2, #fff); overflow: hidden;
       transition: border-color .15s, box-shadow .15s;
     }
     .gp-card:hover { border-color: var(--brand, #2f6fed); box-shadow: 0 2px 8px rgba(0,0,0,.08); }
-    .gp-card-thumb { width: 100%; height: 150px; flex-shrink: 0; object-fit: cover;
-      background: #f0f2f5; border-bottom: 1px solid var(--border, #eee); display: block; }
+    .gp-card-thumb { width: 120px; height: auto; align-self: stretch; flex-shrink: 0; object-fit: cover;
+      background: #f0f2f5; border-right: 1px solid var(--border, #eee); display: block; min-height: 120px; }
     .gp-card-thumb.empty { display: flex; align-items: center; justify-content: center; color: #bbb; font-size: 12px; }
-    .gp-card-body { min-width: 0; flex: 1; padding: 10px 12px 0; }
+    .gp-card-body { min-width: 0; flex: 1; padding: 10px 0 0; }
     .gp-card-name { font-weight: 600; margin-bottom: 4px; display: flex; align-items: center; gap: 6px; }
     .gp-card-name .badge-has { font-size: 11px; background: var(--brand-tint, #eef4ff); color: var(--brand, #2f6fed);
       padding: 1px 6px; border-radius: 4px; }
@@ -118,6 +118,12 @@
     .gp-save:disabled { opacity: .5; cursor: not-allowed; }
     .gp-status { margin-top: 10px; font-size: 14px; color: #666; min-height: 20px; }
     .gp-hint { color: #888; font-size: 13px; }
+    .gp-pager { display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 16px; }
+    .gp-pager button { padding: 6px 14px; border: 1px solid var(--border, #ddd); border-radius: 6px;
+      background: var(--bg2, #fff); cursor: pointer; font: inherit; color: inherit; }
+    .gp-pager button:disabled { opacity: .4; cursor: not-allowed; }
+    .gp-pager button:not(:disabled):hover { border-color: var(--brand, #2f6fed); color: var(--brand, #2f6fed); }
+    .gp-pager .gp-page-info { font-size: 13px; color: #666; }
   </style>
 </head>
 <body>
@@ -206,7 +212,12 @@
       <button type="button" data-md="![图片说明](https://)" title="图片">🖼</button>
       <button type="button" data-md="---" title="分割线">—</button>
     </div>
-  </div>  </section>
+  </div>  <div class="gp-pager" id="gp-pager" style="display:none">
+    <button id="gp-prev" type="button">← 上一页</button>
+    <span class="gp-page-info" id="gp-page-info"></span>
+    <button id="gp-next" type="button">下一页 →</button>
+  </div>
+  </section>
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
