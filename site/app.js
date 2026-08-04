@@ -327,7 +327,7 @@ function renderDiffTables() {
     tr.innerHTML = `
       <td><span class="badge ${r._cls}">${r._tag}</span></td>
       <td class="rank-num">${r.rank ?? ""}</td>
-      <td><strong>${escapeHTML(r.name || "")}</strong></td>
+      <td><strong>${escapeHTML(r.name || "")}</strong>${profileBtn(r.name || "")}</td>
       <td>${escapeHTML(category)}</td>
       <td>${escapeHTML(subcategory) || `<span class="slogan">${escapeHTML(slogan)}</span>`}</td>
       <td>${escapeHTML(r.publisher || "")}</td>
