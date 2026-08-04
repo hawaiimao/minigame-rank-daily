@@ -68,7 +68,7 @@
       rows.push({
         name: g.name,
         has: !!p,
-        developer: (p && p.developer) || "",
+        developer: (p && p.developer) || (g.publisher_name || ""),
         desc: (p && p.gameplay_desc) || "",
         tags: (p && p.tags) || [],
         updated: (p && p.updated_at) || "",
@@ -132,7 +132,7 @@
         ? `<img class="gp-card-thumb" src="${esc(r.firstShot)}" loading="lazy" alt="" />`
         : `<div class="gp-card-thumb empty">无图</div>`;
       const tags = (r.tags || []).slice(0, 4).map((t) => `<span class="tag">${esc(t)}</span>`).join("");
-      const dev = r.developer ? `<div class="gp-card-dev">${esc(r.developer)}</div>` : "";
+      const dev = r.developer ? `<div class="gp-card-pub">${esc(r.developer)}</div>` : "";
       const abandonBadge = r.abandoned ? '<span class="badge-abandoned">玩法放弃</span>' : "";
       const srcBoards = (r.sourceBoards || []).slice(0, 3).map((b) => `<span class="badge-src">${esc(b)}</span>`).join("");
       const srcLine = srcBoards ? `<div class="gp-card-src">${srcBoards}</div>` : "";
