@@ -157,7 +157,7 @@
     for (const s of sh) {
       const img = document.createElement("img");
       img.src = s.url; img.alt = ""; img.loading = "lazy";
-      img.style.cssText = "width:160px;height:110px;object-fit:cover;border-radius:6px;border:1px solid #ddd;";
+      img.style.cssText = "max-width:100%;height:auto;border-radius:6px;border:1px solid #ddd;display:block;margin-bottom:8px;";
       box.appendChild(img);
     }
   }
@@ -200,8 +200,10 @@
       tags: $("gp-tags").value.split(",").map((t) => t.trim()).filter(Boolean),
       notes: $("gp-notes").value.trim(),
     };
-    $("gp-status").textContent = "保存中…";
+    const files = Array.from($("gp-file").files || []);
+    $("gp-status").textContent = files.length ? "保存并上传中…" : "保存中…";
     try {
+      // 1) 保存档案文字
       const resp = await fetch(FN_URL, {
         method: "POST",
         headers: {
@@ -214,35 +216,29 @@
       const data = await resp.json().catch(() => ({}));
       if (!resp.ok || !data.ok) throw new Error(data.error || ("HTTP " + resp.status));
       state.profiles[state.current] = body;
-      $("gp-status").textContent = "已保存到数据库。";
+
+      // 2) 如有选中的图片,一并上传
+      if (files.length) {
+        const fd = new FormData();
+        fd.append("game_name", state.current);
+        for (const f of files) fd.append("files", f);
+        const upResp = await fetch(FN_URL, {
+          method: "POST",
+          headers: {
+            "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
+            "x-client-info": ADMIN_KEY,
+          },
+          body: fd,
+        });
+        const upData = await upResp.json().catch(() => ({}));
+        if (!upResp.ok || !upData.ok) throw new Error(upData.error || ("HTTP " + upResp.status));
+        $("gp-file").value = "";
+        await refreshShots(state.current);
+      }
+
+      $("gp-status").textContent = files.length ? "已保存档案并上传截图。" : "已保存到数据库。";
     } catch (err) {
       $("gp-status").textContent = "保存失败：" + err.message;
-    }
-  }
-
-  async function upload() {
-    const files = Array.from($("gp-file").files || []);
-    if (!files.length || !state.current) return;
-    const fd = new FormData();
-    fd.append("game_name", state.current);
-    for (const f of files) fd.append("files", f);
-    $("gp-status").textContent = "上传中…";
-    try {
-      const resp = await fetch(FN_URL, {
-        method: "POST",
-        headers: {
-          "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
-          "x-client-info": ADMIN_KEY,
-        },
-        body: fd,
-      });
-      const data = await resp.json().catch(() => ({}));
-      if (!resp.ok || !data.ok) throw new Error(data.error || ("HTTP " + resp.status));
-      $("gp-file").value = "";
-      await refreshShots(state.current);
-      $("gp-status").textContent = "截图已上传。";
-    } catch (err) {
-      $("gp-status").textContent = "上传失败：" + err.message;
     }
   }
 
@@ -267,7 +263,6 @@
 
   function init() {
     $("gp-save").addEventListener("click", save);
-    $("gp-upload-btn").addEventListener("click", upload);
     $("gp-view-back").addEventListener("click", backToList);
     $("gp-edit-btn").addEventListener("click", enterEditMode);
     $("gp-clear").addEventListener("click", () => { $("gp-search").value = ""; renderList(); });
