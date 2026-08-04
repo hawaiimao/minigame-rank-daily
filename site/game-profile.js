@@ -160,15 +160,11 @@
       const meta = r.has
         ? `更新 ${esc((r.updated || "").slice(0, 10))} · ${r.shotCount} 图${joinedLine ? " · " + joinedLine : ""}`
         : joinedLine || "未建档";
-      const abBtn = r.abandoned
-        ? '<button class="gp-ab-btn restore" data-name="' + esc(r.name) + '">恢复</button>'
-        : '<button class="gp-ab-btn" data-name="' + esc(r.name) + '">放弃</button>';
       card.innerHTML = `
         ${thumb}
         <div class="gp-card-body">
           <div class="gp-card-head">
             <div class="gp-card-name">${esc(r.name)}${r.has ? '<span class="badge-has">已建档</span>' : ""}</div>
-            ${abBtn}
           </div>
           ${srcLine}
           ${dev}
@@ -178,12 +174,6 @@
       card.addEventListener("click", () => showEdit(r.name));
       box.appendChild(card);
     }
-    box.querySelectorAll(".gp-ab-btn").forEach((btn) => {
-      btn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        toggleAbandonCard(btn.dataset.name);
-      });
-    });
     renderPager(filtered.length, totalPages);
   }
 
@@ -492,29 +482,6 @@
     });
     state.shots[name] = shots || [];
     renderShots();
-  }
-
-  async function toggleAbandonCard(name) {
-    const cur = state.profiles[name] || { game_name: name, developer: "", gameplay_desc: "", tags: [], notes: "" };
-    const next = !(cur.abandoned);
-    try {
-      const resp = await fetch(FN_URL, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
-          "x-client-info": ADMIN_KEY,
-        },
-        body: JSON.stringify({ ...cur, abandoned: next }),
-      });
-      const data = await resp.json().catch(() => ({}));
-      if (!resp.ok || !data.ok) throw new Error(data.error || ("HTTP " + resp.status));
-      cur.abandoned = next;
-      state.profiles[name] = cur;
-      renderList();
-    } catch (err) {
-      alert("操作失败：" + err.message);
-    }
   }
 
   function backToList() {
