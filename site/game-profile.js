@@ -176,6 +176,30 @@
     renderShots();
   }
 
+  async function deleteShot(s) {
+    if (!confirm("确定删除这张截图吗？此操作不可撤销。")) return;
+    $("gp-status").textContent = "正在删除截图…";
+    try {
+      const resp = await fetch(FN_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
+          "x-client-info": ADMIN_KEY,
+        },
+        body: JSON.stringify({ action: "delete_shot", url: s.url }),
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok || !data.ok) throw new Error(data.error || ("HTTP " + resp.status));
+      const sh = state.shots[state.current] || [];
+      state.shots[state.current] = sh.filter((x) => x.id !== s.id);
+      renderShots();
+      $("gp-status").textContent = "截图已删除。";
+    } catch (err) {
+      $("gp-status").textContent = "删除失败：" + err.message;
+    }
+  }
+
   function renderShots() {
     const box = $("gp-shots");
     box.innerHTML = "";
@@ -186,9 +210,8 @@
     }
     for (const s of sh) {
       const d = document.createElement("div");
-      d.className = "gp-shot" + (s._pendingDelete ? " is-del" : "");
+      d.className = "gp-shot";
       d.innerHTML = `<img src="${esc(s.url)}" alt="" loading="lazy" /><button class="del" data-id="${s.id}" title="删除">×</button>`;
-      if (s._pendingDelete) d.title = "待删除，保存后生效";
       box.appendChild(d);
     }
     box.querySelectorAll(".del").forEach((btn) => {
@@ -196,8 +219,7 @@
         const id = Number(btn.dataset.id);
         const shot = sh.find((s) => s.id === id);
         if (!shot) return;
-        shot._pendingDelete = !shot._pendingDelete;
-        renderShots();
+        deleteShot(shot);
       });
     });
   }
@@ -226,23 +248,6 @@
       const data = await resp.json().catch(() => ({}));
       if (!resp.ok || !data.ok) throw new Error(data.error || ("HTTP " + resp.status));
       state.profiles[state.current] = body;
-
-      // 0) 删除标记为待删除的截图
-      const pending = (state.shots[state.current] || []).filter((s) => s._pendingDelete);
-      for (const shot of pending) {
-        const delResp = await fetch(FN_URL, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
-            "x-client-info": ADMIN_KEY,
-          },
-          body: JSON.stringify({ action: "delete_shot", url: shot.url }),
-        });
-        const delData = await delResp.json().catch(() => ({}));
-        if (!delResp.ok || !delData.ok) throw new Error("删除截图失败: " + (delData.error || delResp.status));
-      }
-      if (pending.length) await refreshShots(state.current);
 
       // 2) 如有选中的图片,一并上传
       if (files.length) {
@@ -291,6 +296,7 @@
   function init() {
     $("gp-save").addEventListener("click", save);
     $("gp-view-back").addEventListener("click", backToList);
+    $("gp-back").addEventListener("click", backToList);
     $("gp-edit-btn").addEventListener("click", enterEditMode);
     $("gp-clear").addEventListener("click", () => { $("gp-search").value = ""; renderList(); });
     $("gp-search").addEventListener("input", renderList);
