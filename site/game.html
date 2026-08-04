@@ -150,6 +150,7 @@
     <input id="gp-search" type="search" placeholder="搜索游戏名 / 开发商…" autocomplete="off" />
     <button id="gp-clear" class="st-btn">清空</button>
     <span class="gp-count" id="gp-count"></span>
+    <button id="gp-new" class="st-btn">+ 新建游戏</button>
   </div>
 
   <section class="panel">
@@ -174,6 +175,8 @@
           <button type="button" class="gp-back" id="gp-back">← 返回列表</button>
           <div class="gp-view-name-wrap"><h2 id="gp-edit-title" style="margin:0">—</h2><span class="gp-board-tag" id="gp-edit-board" style="display:none"></span></div>
         </div>
+      <label>游戏名称 <span class="gp-hint">(新建时可修改)</span></label>
+      <input id="gp-edit-name" type="text" style="display:none" />
       <label>开发商</label>
       <input id="gp-developer" type="text" placeholder="例如：XX网络科技" />
       <label>玩法描述 <span class="gp-hint">(Markdown)</span></label>
@@ -229,7 +232,7 @@
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
-  <script src="game-profile.js?v=22"></script>
+  <script src="game-profile.js?v=23"></script>
   <div id="gp-lightbox" class="gp-lightbox" style="display:none" onclick="this.style.display='none'"><img src="" alt="" /></div>
 </body>
 </html>

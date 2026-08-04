@@ -11,6 +11,7 @@
     shots: {},        // name -> [shot rows]
     list: [],         // computed merged list
     current: null,
+    isNew: false,   // new-game mode
     dirty: false,
     abandoned: false,
     boardMap: {},        // name -> board_history
@@ -192,12 +193,14 @@
     renderPager(filtered.length, totalPages);
   }
   document.getElementById("gp-page-go").addEventListener("click", jumpToPage);
+  document.getElementById("gp-new").addEventListener("click", startNewGame);
   document.getElementById("gp-page-input").addEventListener("keydown", (e) => {
     if (e.key === "Enter") jumpToPage();
   });
 
   function showEdit(name) {
     state.current = name;
+    state.isNew = false;
     $("gp-toolbar").style.display = "none";
     $("gp-list").style.display = "none";
     $("gp-form").style.display = "block";
@@ -213,6 +216,23 @@
       enterEditMode();        // 未建档 -> 直接编辑表单
     }
     $("gp-status").textContent = "";
+  }
+
+  function startNewGame() {
+    const name = prompt("输入新游戏名称:");
+    if (!name || !name.trim()) return;
+    state.current = name.trim();
+    state.isNew = true;
+    if (!state.profiles[state.current]) {
+      state.profiles[state.current] = { game_name: state.current, developer: "", gameplay_desc: "", tags: [], notes: "", abandoned: false };
+    }
+    $("gp-toolbar").style.display = "none";
+    $("gp-list").style.display = "none";
+    $("gp-form").style.display = "block";
+    document.getElementById("gp-view").style.display = "none";
+    document.getElementById("gp-edit-mode").style.display = "none";
+    enterEditMode();
+    $("gp-status").textContent = "新建游戏，填写完成后保存，上榜日期为今天。";
   }
 
   function renderView(p) {
@@ -372,6 +392,11 @@
     if (editTitle) editTitle.textContent = state.current;
     setBoardTag("gp-edit-board", state.current);
     edit.style.display = "block";
+    const nameBox = document.getElementById("gp-edit-name");
+    if (nameBox) {
+      nameBox.value = state.current;
+      nameBox.style.display = state.isNew ? "" : "none";
+    }
     const g = state.games.find((x) => x.name === state.current);
     $("gp-developer").value = p.developer || (g && g.publisher_name) || "";
     $("gp-desc").value = p.gameplay_desc || "";
@@ -443,8 +468,11 @@
   }
 
   async function save() {
+    const nameBox = document.getElementById("gp-edit-name");
+    let targetName = state.current;
+    if (state.isNew && nameBox && nameBox.value.trim()) targetName = nameBox.value.trim();
     const body = {
-      game_name: state.current,
+      game_name: targetName,
       developer: $("gp-developer").value.trim(),
       gameplay_desc: $("gp-desc").value.trim(),
       tags: $("gp-tags").value.split(",").map((t) => t.trim()).filter(Boolean),
@@ -454,6 +482,20 @@
     const files = Array.from($("gp-file").files || []);
     $("gp-status").textContent = files.length ? "保存并上传中…" : "保存中…";
     try {
+      // 0) 新建游戏: 先写入 games 表(上榜日期=今天)
+      if (state.isNew) {
+        const gResp = await fetch(FN_URL, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
+            "x-client-info": ADMIN_KEY,
+          },
+          body: JSON.stringify({ action: "create_game", name: targetName }),
+        });
+        const gData = await gResp.json().catch(() => ({}));
+        if (!gResp.ok || !gData.ok) throw new Error(gData.error || ("HTTP " + gResp.status));
+      }
       // 1) 保存档案文字
       const resp = await fetch(FN_URL, {
         method: "POST",
@@ -466,12 +508,13 @@
       });
       const data = await resp.json().catch(() => ({}));
       if (!resp.ok || !data.ok) throw new Error(data.error || ("HTTP " + resp.status));
-      state.profiles[state.current] = body;
+      delete state.profiles[state.current];
+      state.profiles[targetName] = body;
 
       // 2) 如有选中的图片,一并上传
       if (files.length) {
         const fd = new FormData();
-        fd.append("game_name", state.current);
+        fd.append("game_name", targetName);
         for (const f of files) fd.append("files", f);
         const upResp = await fetch(FN_URL, {
           method: "POST",
@@ -488,6 +531,13 @@
       }
 
       $("gp-status").textContent = files.length ? "已保存档案并上传截图。" : "已保存到数据库。";
+      if (state.isNew) {
+        state.isNew = false;
+        state.current = targetName;
+        await reloadList();
+        backToList();
+        return;
+      }
     } catch (err) {
       $("gp-status").textContent = "保存失败：" + err.message;
     }
@@ -501,6 +551,23 @@
     });
     state.shots[name] = shots || [];
     renderShots();
+  }
+
+  async function reloadList() {
+    const [games, profiles, shots] = await Promise.all([
+      window.sb.select("games", { select: "name,first_seen_at,category,publisher_name", order: "first_seen_at.desc", limit: 5000 }),
+      window.sb.select("game_profiles", { limit: 5000 }),
+      window.sb.select("game_screenshots", { select: "id,game_name,url,sort_order", order: "sort_order.asc,id.asc", limit: 5000 }),
+    ]);
+    state.games = games || [];
+    state.profiles = {};
+    for (const p of profiles || []) state.profiles[p.game_name] = p;
+    state.shots = {};
+    for (const s of shots || []) {
+      if (!state.shots[s.game_name]) state.shots[s.game_name] = [];
+      state.shots[s.game_name].push(s);
+    }
+    buildList();
   }
 
   function backToList() {

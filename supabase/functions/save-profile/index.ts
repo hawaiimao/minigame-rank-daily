@@ -101,6 +101,28 @@ Deno.serve(async (req) => {
       });
     }
 
+    if (body.action === "create_game") {
+      const name = String(body.name || "").trim();
+      if (!name) {
+        return new Response("name required", { status: 400, headers: cors });
+      }
+      // Beijing date (UTC+8).
+      const now = new Date();
+      const beijing = new Date(now.getTime() + 8 * 3600 * 1000);
+      const date = beijing.toISOString().slice(0, 10);
+      const { error: insErr } = await sb
+        .from("games")
+        .upsert(
+          { name, first_seen_at: date, last_seen_at: date },
+          { onConflict: "name", ignoreDuplicates: true },
+        );
+      if (insErr) throw insErr;
+      return new Response(JSON.stringify({ ok: true }), {
+        status: 200,
+        headers: { ...cors, "Content-Type": "application/json" },
+      });
+    }
+
     const gameName = String(body.game_name || "").trim();
     if (!gameName) {
       return new Response("game_name required", { status: 400, headers: cors });
