@@ -111,6 +111,10 @@
     $("gp-list").style.display = "none";
     $("gp-form").style.display = "block";
 
+    // 进入前先隐藏两个子视图,避免状态残留
+    document.getElementById("gp-view").style.display = "none";
+    document.getElementById("gp-edit-mode").style.display = "none";
+
     const p = state.profiles[name] || null;
     if (p) {
       renderView(p);          // 已建档 -> 只读展示 + 编辑按钮
