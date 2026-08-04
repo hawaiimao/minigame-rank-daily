@@ -11,6 +11,32 @@
   <style>
     .gp-toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 16px; }
     .gp-toolbar input[type="search"] { flex: 1; min-width: 220px; }
+    .gp-toolbar .gp-count { color: #888; font-size: 13px; }
+
+    /* 列表 */
+    .gp-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+    .gp-card {
+      display: flex; gap: 12px; padding: 12px; border: 1px solid var(--border, #ddd);
+      border-radius: 8px; cursor: pointer; background: var(--bg2, #fff);
+      transition: border-color .15s, box-shadow .15s;
+    }
+    .gp-card:hover { border-color: var(--brand, #2f6fed); box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+    .gp-card-thumb { width: 88px; height: 62px; flex-shrink: 0; border-radius: 6px; object-fit: cover;
+      background: #f0f2f5; border: 1px solid var(--border, #eee); }
+    .gp-card-thumb.empty { display: flex; align-items: center; justify-content: center; color: #bbb; font-size: 12px; }
+    .gp-card-body { min-width: 0; flex: 1; }
+    .gp-card-name { font-weight: 600; margin-bottom: 4px; display: flex; align-items: center; gap: 6px; }
+    .gp-card-name .badge-has { font-size: 11px; background: var(--brand-tint, #eef4ff); color: var(--brand, #2f6fed);
+      padding: 1px 6px; border-radius: 4px; }
+    .gp-card-dev { font-size: 13px; color: #666; margin-bottom: 4px; }
+    .gp-card-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 4px; }
+    .gp-card-tags .tag { font-size: 11px; background: #f0f2f5; padding: 1px 6px; border-radius: 4px; color: #555; }
+    .gp-card-desc { font-size: 13px; color: #888; overflow: hidden; display: -webkit-box;
+      -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+    .gp-card-meta { font-size: 12px; color: #aaa; margin-top: 6px; }
+    .gp-empty { color: #999; padding: 30px 0; text-align: center; }
+
+    /* 编辑视图 */
     .gp-form { max-width: 720px; }
     .gp-form label { display: block; font-weight: 600; margin: 14px 0 6px; }
     .gp-form input[type="text"], .gp-form textarea {
@@ -25,13 +51,13 @@
       border: none; border-radius: 50%; width: 22px; height: 22px; cursor: pointer; font-size: 14px; line-height: 1; }
     .gp-upload { margin-top: 10px; }
     .gp-upload input[type="file"] { margin-right: 10px; }
-    .gp-actions { margin-top: 18px; display: flex; gap: 10px; }
+    .gp-actions { margin-top: 18px; display: flex; gap: 10px; align-items: center; }
     .gp-actions button { padding: 8px 18px; border: none; border-radius: 6px; cursor: pointer; font: inherit; }
+    .gp-back { background: transparent; color: var(--brand, #2f6fed); border: 1px solid currentColor !important; }
     .gp-save { background: var(--brand, #2f6fed); color: #fff; }
     .gp-save:disabled { opacity: .5; cursor: not-allowed; }
     .gp-status { margin-top: 10px; font-size: 14px; color: #666; min-height: 20px; }
     .gp-hint { color: #888; font-size: 13px; }
-    #gp-no-profile { color: #999; }
   </style>
 </head>
 <body>
@@ -40,20 +66,25 @@
     <div class="meta">
       <a href="./" class="nav-link">← 返回榜单监控</a>
       <span class="sep">·</span>
-      <span>为单款游戏维护开发商、玩法、截图等档案</span>
+      <span>产品维度目录，点击进入编辑</span>
     </div>
   </header>
 
-  <div class="gp-toolbar">
-    <input id="gp-search" type="search" placeholder="搜索游戏名…" autocomplete="off" />
+  <div class="gp-toolbar" id="gp-toolbar">
+    <input id="gp-search" type="search" placeholder="搜索游戏名 / 开发商…" autocomplete="off" />
     <button id="gp-clear" class="st-btn">清空</button>
+    <span class="gp-count" id="gp-count"></span>
   </div>
 
   <section class="panel">
-    <div id="gp-loading" class="pub-loading">正在加载游戏列表…</div>
+    <div id="gp-loading" class="pub-loading">正在加载产品列表…</div>
+    <div id="gp-list" class="gp-list"></div>
 
     <div class="gp-form" id="gp-form" style="display:none">
-      <h2 id="gp-title">—</h2>
+      <div class="gp-actions" style="margin-top:0">
+        <button type="button" class="gp-back" id="gp-back">← 返回列表</button>
+        <h2 id="gp-title" style="margin:0">—</h2>
+      </div>
       <label>开发商</label>
       <input id="gp-developer" type="text" placeholder="例如：XX网络科技" />
       <label>玩法描述</label>
@@ -70,15 +101,13 @@
       </div>
       <div class="gp-actions">
         <button id="gp-save" class="gp-save" type="button">保存档案</button>
+        <span class="gp-status" id="gp-status"></span>
       </div>
-      <div class="gp-status" id="gp-status"></div>
     </div>
-
-    <div id="gp-no-profile" style="display:none">未找到档案。在上方选择一款游戏开始编辑。</div>
   </section>
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
-  <script src="game-profile.js?v=1"></script>
+  <script src="game-profile.js?v=2"></script>
 </body>
 </html>
