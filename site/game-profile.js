@@ -190,6 +190,13 @@
       card.addEventListener("click", () => showEdit(r.name));
       box.appendChild(card);
     }
+    // 放弃卡片: 按实际宽高计算对角线角度,水印从左下角拉到右上角
+    box.querySelectorAll(".gp-card.abandoned").forEach((c) => {
+      const w = c.offsetWidth || 280;
+      const h = c.offsetHeight || 140;
+      const angle = Math.atan2(h, w) * 180 / Math.PI;
+      c.style.setProperty("--ab-angle", `-${angle.toFixed(1)}deg`);
+    });
     renderPager(filtered.length, totalPages);
   }
   document.getElementById("gp-page-go").addEventListener("click", jumpToPage);
