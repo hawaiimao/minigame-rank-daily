@@ -12,6 +12,7 @@
     list: [],         // computed merged list
     current: null,
     dirty: false,
+    abandoned: false,
   };
 
   const $ = (id) => document.getElementById(id);
@@ -24,7 +25,7 @@
 
   async function loadAll() {
     const [games, profiles, shots] = await Promise.all([
-      window.sb.select("games", { select: "name", order: "name.asc", limit: 5000 }),
+      window.sb.select("games", { select: "name,first_seen_at,category,publisher_name", order: "first_seen_at.desc", limit: 5000 }),
       window.sb.select("game_profiles", { limit: 5000 }),
       window.sb.select("game_screenshots", { select: "id,game_name,url,sort_order", order: "sort_order.asc,id.asc", limit: 5000 }),
     ]);
@@ -51,16 +52,20 @@
         desc: (p && p.gameplay_desc) || "",
         tags: (p && p.tags) || [],
         updated: (p && p.updated_at) || "",
+        abandoned: !!(p && p.abandoned),
+        category: g.category || "",
+        publisher: g.publisher_name || "",
+        joined: g.first_seen_at || "",
         firstShot: sh.length ? sh[0].url : "",
         shotCount: sh.length,
       });
     }
-    // 建档的在前(按 updated_at 降序),未建档按名字
+    // 按新加入顺序(first_seen_at 降序),无时间戳的排最后
     rows.sort((a, b) => {
-      if (a.has !== b.has) return a.has ? -1 : 1;
-      if (a.has && b.has) {
-        return (b.updated || "").localeCompare(a.updated || "");
-      }
+      const ta = a.joined || "", tb = b.joined || "";
+      if (ta && tb) return tb.localeCompare(ta);
+      if (ta) return -1;
+      if (tb) return 1;
       return a.name.localeCompare(b.name, "zh");
     });
     state.list = rows;
@@ -82,12 +87,14 @@
     }
     for (const r of filtered.slice(0, 300)) {
       const card = document.createElement("div");
-      card.className = "gp-card";
+      card.className = "gp-card" + (r.abandoned ? " abandoned" : "");
       const thumb = r.firstShot
         ? `<img class="gp-card-thumb" src="${esc(r.firstShot)}" loading="lazy" alt="" />`
         : `<div class="gp-card-thumb empty">无图</div>`;
       const tags = (r.tags || []).slice(0, 4).map((t) => `<span class="tag">${esc(t)}</span>`).join("");
       const dev = r.developer ? `<div class="gp-card-dev">${esc(r.developer)}</div>` : "";
+      const boardBadge = r.category ? `<span class="badge-board">${esc(r.category)}</span>` : "";
+      const abandonBadge = r.abandoned ? '<span class="badge-abandoned">玩法放弃</span>' : "";
       const meta = r.has
         ? `更新 ${esc((r.updated || "").slice(0, 10))} · ${r.shotCount} 图`
         : "未建档";
@@ -98,7 +105,7 @@
           ${dev}
           ${tags ? `<div class="gp-card-tags">${tags}</div>` : ""}
           ${r.desc ? `<div class="gp-card-desc">${esc(r.desc)}</div>` : ""}
-          <div class="gp-card-meta">${meta}</div>
+          <div class="gp-card-meta">${boardBadge}${abandonBadge} ${meta}</div>
         </div>`;
       card.addEventListener("click", () => showEdit(r.name));
       box.appendChild(card);
@@ -207,12 +214,21 @@
 
   function initMdEditor() {
     const toolbar = document.getElementById("gp-md-toolbar");
-    if (!toolbar) return;
+    const ta = document.getElementById("gp-desc");
+    const pv = document.getElementById("gp-desc-preview");
+    const overlay = document.getElementById("gp-md-overlay");
+    if (!toolbar || !ta) return;
+
+    function updatePreview() { pv.innerHTML = renderMarkdown(ta.value); }
+    function updateSummary() {
+      const s = document.getElementById("gp-desc-summary");
+      if (s) s.textContent = ta.value.trim() ? ta.value.trim() : "";
+    }
+
     toolbar.addEventListener("click", (e) => {
       const btn = e.target.closest("button");
       if (!btn) return;
       e.preventDefault();
-      const ta = document.getElementById("gp-desc");
       const start = ta.selectionStart, end = ta.selectionEnd;
       const sel = ta.value.slice(start, end);
       let insert, selStart, selEnd;
@@ -234,17 +250,26 @@
       ta.setSelectionRange(selStart, selEnd);
       ta.dispatchEvent(new Event("input", { bubbles: true }));
     });
-    const tabs = toolbar.querySelectorAll(".md-tab");
-    tabs.forEach((t) => t.addEventListener("click", () => switchMdMode(t.dataset.mode)));
-    document.getElementById("gp-desc").addEventListener("input", () => {
-      document.getElementById("gp-desc-preview").innerHTML = renderMarkdown(document.getElementById("gp-desc").value);
+
+    document.getElementById("gp-desc-open").addEventListener("click", () => {
+      overlay.style.display = "flex";
+      ta.focus();
     });
+    document.getElementById("gp-md-done").addEventListener("click", () => {
+      updateSummary();
+      overlay.style.display = "none";
+      switchMdMode("write");
+    });
+
+    const tabs = document.querySelectorAll("#gp-md-overlay .md-tab");
+    tabs.forEach((t) => t.addEventListener("click", () => switchMdMode(t.dataset.mode)));
+    ta.addEventListener("input", updatePreview);
   }
 
   function switchMdMode(mode) {
     const ta = document.getElementById("gp-desc");
     const pv = document.getElementById("gp-desc-preview");
-    document.querySelectorAll(".md-tab").forEach((t) => t.classList.toggle("active", t.dataset.mode === mode));
+    document.querySelectorAll("#gp-md-overlay .md-tab").forEach((t) => t.classList.toggle("active", t.dataset.mode === mode));
     if (mode === "preview") {
       pv.innerHTML = renderMarkdown(ta.value);
       ta.style.display = "none";
@@ -277,8 +302,12 @@
     edit.style.display = "block";
     $("gp-developer").value = p.developer || "";
     $("gp-desc").value = p.gameplay_desc || "";
+    const summ = document.getElementById("gp-desc-summary");
+    if (summ) summ.textContent = (p.gameplay_desc || "").trim();
     $("gp-tags").value = (p.tags || []).join(", ");
     $("gp-notes").value = p.notes || "";
+    state.abandoned = !!p.abandoned;
+    updateAbandonUI();
     renderShots();
   }
 
@@ -306,6 +335,16 @@
     }
   }
 
+  function updateAbandonUI() {
+    const ab = document.getElementById("gp-abandon");
+    const un = document.getElementById("gp-unabandon");
+    if (!ab || !un) return;
+    const a = !!state.abandoned;
+    ab.style.display = a ? "none" : "";
+    un.style.display = a ? "" : "none";
+    const edit = document.getElementById("gp-edit-mode");
+    if (edit) edit.classList.toggle("is-abandoned", a);
+  }
   function renderShots() {
     const box = $("gp-shots");
     box.innerHTML = "";
@@ -337,6 +376,7 @@
       gameplay_desc: $("gp-desc").value.trim(),
       tags: $("gp-tags").value.split(",").map((t) => t.trim()).filter(Boolean),
       notes: $("gp-notes").value.trim(),
+      abandoned: state.abandoned || false,
     };
     const files = Array.from($("gp-file").files || []);
     $("gp-status").textContent = files.length ? "保存并上传中…" : "保存中…";
@@ -405,6 +445,8 @@
     $("gp-view-back").addEventListener("click", backToList);
     $("gp-back").addEventListener("click", backToList);
     $("gp-edit-btn").addEventListener("click", enterEditMode);
+    $("gp-abandon").addEventListener("click", () => { state.abandoned = true; updateAbandonUI(); });
+    $("gp-unabandon").addEventListener("click", () => { state.abandoned = false; updateAbandonUI(); });
     $("gp-clear").addEventListener("click", () => { $("gp-search").value = ""; renderList(); });
     $("gp-search").addEventListener("input", renderList);
   }

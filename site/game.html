@@ -44,6 +44,27 @@
       border-radius: 6px; font: inherit; background: var(--bg2, #fff); color: inherit;
     }
     .gp-form textarea { min-height: 90px; resize: vertical; }
+    .md-overlay { position: fixed; inset: 0; z-index: 1000; background: var(--bg, #fff);
+      display: flex; flex-direction: column; padding: 16px 20px 20px; }
+    .md-overlay-bar { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+    .md-overlay-bar strong { font-size: 15px; }
+    .md-overlay textarea { flex: 1; width: 100%; min-height: 0; resize: none; padding: 14px;
+      border: 1px solid var(--border, #ddd); border-radius: 8px; font: inherit; font-size: 15px;
+      line-height: 1.7; background: var(--bg2, #fff); color: inherit; }
+    .md-overlay .md-preview { flex: 1; overflow-y: auto; min-height: 0; }
+    .md-overlay .md-toolbar { margin-top: 10px; }
+    .gp-desc-summary { margin-top: 8px; padding: 10px 12px; border: 1px dashed var(--border, #ddd);
+      border-radius: 6px; background: var(--bg2, #fff); color: #666; font-size: 13px; white-space: pre-wrap; }
+    .gp-desc-summary:empty { display: none; }
+    .gp-card.abandoned { opacity: .55; filter: grayscale(.8); background: var(--bg2, #f5f5f5); }
+    .gp-card.abandoned .gp-card-name { color: #999; text-decoration: line-through; }
+    .badge-board { font-size: 11px; background: #eef4ff; color: var(--brand, #2f6fed);
+      padding: 1px 6px; border-radius: 4px; margin-right: 4px; }
+    .badge-abandoned { font-size: 11px; background: #eee; color: #999;
+      padding: 1px 6px; border-radius: 4px; margin-right: 4px; }
+    .gp-abandon { background: #c0392b; color: #fff; }
+    .gp-unabandon { background: transparent; color: var(--brand, #2f6fed); border: 1px solid currentColor !important; }
+    .gp-abandon:hover, .gp-unabandon:hover { opacity: .85; }
     .md-editor { margin-top: 10px; }
     .md-toolbar { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; margin-bottom: 6px; }
     .md-toolbar button { padding: 3px 9px; border: 1px solid var(--border, #ddd); border-radius: 4px;
@@ -127,27 +148,9 @@
         </div>
       <label>开发商</label>
       <input id="gp-developer" type="text" placeholder="例如：XX网络科技" />
-      <label>玩法描述 <span class="gp-hint">(Markdown 语法)</span></label>
-      <div class="md-editor">
-        <div class="md-toolbar" id="gp-md-toolbar">
-          <button type="button" data-wrap="**" title="加粗"><b>B</b></button>
-          <button type="button" data-wrap="*" title="斜体"><i>I</i></button>
-          <button type="button" data-md="### " title="标题">H</button>
-          <button type="button" data-md="- " title="无序列表">•</button>
-          <button type="button" data-md="1. " title="有序列表">1.</button>
-          <button type="button" data-md="> " title="引用">❝</button>
-          <button type="button" data-md="`code`" title="行内代码">&lt;/&gt;</button>
-          <button type="button" data-md-block="```" title="代码块">≡</button>
-          <button type="button" data-md="[链接文字](https://)" title="链接">🔗</button>
-          <button type="button" data-md="![图片说明](https://)" title="图片">🖼</button>
-          <button type="button" data-md="---" title="分割线">—</button>
-          <span class="md-spacer"></span>
-          <button type="button" class="md-tab active" data-mode="write">编辑</button>
-          <button type="button" class="md-tab" data-mode="preview">预览</button>
-        </div>
-        <textarea id="gp-desc" placeholder="支持 Markdown：标题、加粗、列表、链接…"></textarea>
-        <div class="md-preview" id="gp-desc-preview" style="display:none"></div>
-      </div>
+      <label>玩法描述 <span class="gp-hint">(Markdown)</span></label>
+      <button type="button" id="gp-desc-open" class="st-btn" style="margin-top:6px">✏️ 编辑玩法描述（全屏）</button>
+      <div id="gp-desc-summary" class="gp-desc-summary"></div>
       <label>标签 <span class="gp-hint">(逗号分隔)</span></label>
       <input id="gp-tags" type="text" placeholder="休闲, 模拟经营, 消除" />
       <label>备注</label>
@@ -160,11 +163,38 @@
       </div>
       <div class="gp-actions">
         <button id="gp-save" class="gp-save" type="button">保存档案</button>
+        <button id="gp-abandon" class="gp-abandon" type="button">放弃此产品</button>
+        <button id="gp-unabandon" class="gp-unabandon" type="button" style="display:none">恢复研究</button>
         <span class="gp-status" id="gp-status"></span>
       </div>
       </div>
     </div>
-  </section>
+
+  <!-- 全屏 Markdown 编辑器 -->
+  <div id="gp-md-overlay" class="md-overlay" style="display:none">
+    <div class="md-overlay-bar">
+      <strong>玩法描述</strong>
+      <span class="md-spacer"></span>
+      <button type="button" class="md-tab active" data-mode="write">编辑</button>
+      <button type="button" class="md-tab" data-mode="preview">预览</button>
+      <button type="button" id="gp-md-done" class="gp-save">完成</button>
+    </div>
+    <textarea id="gp-desc" placeholder="支持 Markdown：标题、加粗、列表、链接…"></textarea>
+    <div class="md-preview" id="gp-desc-preview" style="display:none"></div>
+    <div class="md-toolbar" id="gp-md-toolbar">
+      <button type="button" data-wrap="**" title="加粗"><b>B</b></button>
+      <button type="button" data-wrap="*" title="斜体"><i>I</i></button>
+      <button type="button" data-md="### " title="标题">H</button>
+      <button type="button" data-md="- " title="无序列表">•</button>
+      <button type="button" data-md="1. " title="有序列表">1.</button>
+      <button type="button" data-md="> " title="引用">❝</button>
+      <button type="button" data-md="`code`" title="行内代码">&lt;/&gt;</button>
+      <button type="button" data-md-block="```" title="代码块">≡</button>
+      <button type="button" data-md="[链接文字](https://)" title="链接">🔗</button>
+      <button type="button" data-md="![图片说明](https://)" title="图片">🖼</button>
+      <button type="button" data-md="---" title="分割线">—</button>
+    </div>
+  </div>  </section>
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
