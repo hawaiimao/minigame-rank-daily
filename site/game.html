@@ -9,7 +9,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css?v=14" />
   <style>
-    .gp-toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 16px; }
+    .gp-toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 16px;
+      padding: 0 40px; }
+    @media (max-width: 720px) { .gp-toolbar { padding: 0 16px; } }
     .gp-toolbar input[type="search"] { width: 260px; flex: 0 0 auto; margin-left: 2px; }
     .gp-toolbar .gp-count { color: #888; font-size: 13px; }
 
@@ -207,6 +209,6 @@
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
-  <script src="game-profile.js?v=14"></script>
+  <script src="game-profile.js?v=15"></script>
 </body>
 </html>
