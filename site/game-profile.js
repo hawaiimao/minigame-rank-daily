@@ -24,12 +24,12 @@
     }[m]));
   }
 
-  const BOARD_PLATFORM = { wx: "??", douyin: "??", taptap: "TapTap" };
+  const BOARD_PLATFORM = { wx: "微信", douyin: "抖音", taptap: "TapTap" };
 
   function fmtBoard(key) {
     // "wx/???" -> "??????"
     const [plat, board] = String(key).split("/");
-    return (BOARD_PLATFORM[plat] || plat) + "?" + (board || "");
+    return (BOARD_PLATFORM[plat] || plat) + "·" + (board || "");
   }
 
   async function loadAll() {
