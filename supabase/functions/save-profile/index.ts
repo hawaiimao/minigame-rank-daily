@@ -1,0 +1,97 @@
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+
+const cors = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
+};
+
+Deno.serve(async (req) => {
+  if (req.method === "OPTIONS") return new Response("ok", { headers: cors });
+  if (req.method !== "POST") {
+    return new Response("Method not allowed", { status: 405, headers: cors });
+  }
+
+  // Auth: caller must present X-Profile-Key matching ADMIN_KEY.
+  const adminKey = Deno.env.get("PROFILE_ADMIN_KEY") || "";
+  const got = req.headers.get("x-profile-key") || "";
+  if (!adminKey || got !== adminKey) {
+    return new Response("Unauthorized", { status: 401, headers: cors });
+  }
+
+  const supabaseUrl = Deno.env.get("SUPABASE_URL") || "";
+  const serviceKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") || "";
+  if (!supabaseUrl || !serviceKey) {
+    return new Response("Server misconfigured", { status: 500, headers: cors });
+  }
+  const sb = createClient(supabaseUrl, serviceKey, {
+    auth: { persistSession: false },
+  });
+
+  const ct = req.headers.get("content-type") || "";
+  try {
+    if (ct.includes("multipart/form-data")) {
+      // Upload screenshots: fields game_name + files[]
+      const form = await req.formData();
+      const gameName = String(form.get("game_name") || "").trim();
+      const files = form.getAll("files").filter((f) => f instanceof File);
+      if (!gameName || !files.length) {
+        return new Response("game_name and files required", { status: 400, headers: cors });
+      }
+      const urls = [];
+      for (const f of files) {
+        const safeName = f.name.replace(/[^\w.\-]+/g, "_");
+        const path = `${gameName}/${Date.now()}_${safeName}`;
+        const { error: upErr } = await sb.storage
+          .from("game-shots")
+          .upload(path, f, { contentType: f.type || "application/octet-stream", upsert: true });
+        if (upErr) throw upErr;
+        const { data: pub } = sb.storage.from("game-shots").getPublicUrl(path);
+        urls.push(pub.publicUrl);
+      }
+      const { data: existing, error: selErr } = await sb
+        .from("game_screenshots")
+        .select("id")
+        .eq("game_name", gameName)
+        .order("sort_order", { ascending: true });
+      if (selErr) throw selErr;
+      const start = (existing || []).length;
+      const rows = urls.map((u, i) => ({
+        game_name: gameName,
+        url: u,
+        sort_order: start + i,
+      }));
+      const { error: insErr } = await sb.from("game_screenshots").insert(rows);
+      if (insErr) throw insErr;
+      return new Response(JSON.stringify({ ok: true, urls }), {
+        status: 200,
+        headers: { ...cors, "Content-Type": "application/json" },
+      });
+    }
+
+    // JSON: save profile { game_name, developer, gameplay_desc, tags, notes }
+    const body = await req.json();
+    const gameName = String(body.game_name || "").trim();
+    if (!gameName) {
+      return new Response("game_name required", { status: 400, headers: cors });
+    }
+    const row = {
+      game_name: gameName,
+      developer: String(body.developer || ""),
+      gameplay_desc: String(body.gameplay_desc || ""),
+      tags: Array.isArray(body.tags) ? body.tags.map(String) : [],
+      notes: String(body.notes || ""),
+    };
+    const { error } = await sb.from("game_profiles").upsert(row, { onConflict: "game_name" });
+    if (error) throw error;
+    return new Response(JSON.stringify({ ok: true }), {
+      status: 200,
+      headers: { ...cors, "Content-Type": "application/json" },
+    });
+  } catch (err) {
+    return new Response(JSON.stringify({ ok: false, error: String(err.message || err) }), {
+      status: 500,
+      headers: { ...cors, "Content-Type": "application/json" },
+    });
+  }
+});

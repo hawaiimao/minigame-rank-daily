@@ -7,4 +7,5 @@
 window.APP_CONFIG = {
   SUPABASE_URL: "https://pjwwwxanhtvzkscumedm.supabase.co",
   SUPABASE_KEY: "sb_publishable_Iv1KM4p6hceRR16rB61x1w_Wy7LMJsj",
+  PROFILE_ADMIN_KEY: "pF25wrJOEzjL4lUcg3ZM7ThuVXb9IYfq",
 };

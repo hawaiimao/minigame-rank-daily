@@ -1,22 +1,26 @@
 /* Game profile page: search a game, edit developer/desc/tags/notes,
- * manage screenshots. Read via anon key (RLS: select only), write via
- * the backend profile_tool.py (service_role) - the frontend shows a
- * hint for how to save, and the actual write happens server-side.
- *
- * To keep this page useful as a pure frontend, saving re-reads the
- * profile from Supabase and shows a "同步到后端" instruction; the real
- * upsert is done by running profile_tool.py on the maintainer's machine.
+ * manage screenshots. Read via anon key (RLS select), write via the
+ * save-profile Edge Function (admin key gate).
  */
 (function () {
+  const FN_URL = "https://pjwwwxanhtvzkscumedm.supabase.co/functions/v1/save-profile";
+  const ADMIN_KEY = (window.APP_CONFIG && window.APP_CONFIG.PROFILE_ADMIN_KEY) || "";
+
   const state = {
-    games: [],        // [{name}]
-    current: null,    // selected game name
-    profile: null,    // {game_name, developer, gameplay_desc, tags[], notes}
-    shots: [],        // [{id, url, sort_order}]
+    games: [],
+    current: null,
+    profile: null,
+    shots: [],
     dirty: false,
   };
 
   const $ = (id) => document.getElementById(id);
+
+  function esc(s) {
+    return String(s ?? "").replace(/[&<>"']/g, (m) => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+    }[m]));
+  }
 
   async function loadGames() {
     const rows = await window.sb.select("games", {
@@ -25,12 +29,6 @@
       limit: 5000,
     });
     state.games = rows || [];
-  }
-
-  function escapeHTML(s) {
-    return String(s ?? "").replace(/[&<>"']/g, (m) => ({
-      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
-    }[m]));
   }
 
   async function loadProfile(name) {
@@ -43,8 +41,9 @@
       order: "sort_order.asc,id.asc",
       limit: 200,
     });
-    const p = rows && rows[0];
-    state.profile = p || { game_name: name, developer: "", gameplay_desc: "", tags: [], notes: "" };
+    state.profile = (rows && rows[0]) || {
+      game_name: name, developer: "", gameplay_desc: "", tags: [], notes: "",
+    };
     state.shots = shots || [];
     state.current = name;
     state.dirty = false;
@@ -75,18 +74,17 @@
       const d = document.createElement("div");
       d.className = "gp-shot";
       d.innerHTML =
-        `<img src="${escapeHTML(s.url)}" alt="" loading="lazy" />` +
+        `<img src="${esc(s.url)}" alt="" loading="lazy" />` +
         `<button class="del" data-id="${s.id}" title="删除">×</button>`;
       box.appendChild(d);
     }
     box.querySelectorAll(".del").forEach((btn) => {
       btn.addEventListener("click", async () => {
         if (!confirm("删除这张截图？")) return;
-        await window.sb.select("game_screenshots", {}); // keep linter happy
         state.shots = state.shots.filter((s) => s.id !== Number(btn.dataset.id));
         state.dirty = true;
         renderShots();
-        $("gp-status").textContent = "截图删除需通过后端执行（见下方说明）。";
+        $("gp-status").textContent = "截图删除需在维护机运行 profile_tool.py rm-shot（当前版本）。";
       });
     });
   }
@@ -100,27 +98,53 @@
       tags: $("gp-tags").value.split(",").map((t) => t.trim()).filter(Boolean),
       notes: $("gp-notes").value.trim(),
     };
-    // The anon key cannot write; show the exact backend command to run.
-    const cmd =
-      `python scripts/profile_tool.py set --game "${name}" ` +
-      `--developer "${body.developer}" --desc "${body.gameplay_desc}" ` +
-      `--tags "${body.tags.join(",")}" --notes "${body.notes}"`;
-    state.profile = body;
-    state.dirty = false;
-    renderForm();
-    $("gp-status").innerHTML =
-      `档案已保存到本地状态。<br><span class="gp-hint">请在本机运行后端命令同步：<br><code>${escapeHTML(cmd)}</code></span>`;
+    $("gp-status").textContent = "保存中…";
+    try {
+      const resp = await fetch(FN_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
+          "x-profile-key": ADMIN_KEY,
+        },
+        body: JSON.stringify(body),
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok || !data.ok) throw new Error(data.error || ("HTTP " + resp.status));
+      state.profile = body;
+      state.dirty = false;
+      renderForm();
+      $("gp-status").textContent = "已保存到数据库。";
+    } catch (err) {
+      $("gp-status").textContent = "保存失败：" + err.message;
+    }
   }
 
   async function upload() {
-    const file = $("gp-file").files[0];
-    if (!file || !state.current) return;
-    // Frontend cannot upload (anon has no storage write). Instruct backend.
-    const cmd =
-      `python scripts/profile_tool.py add-shot --game "${state.current}" --file "${file.name}"`;
-    $("gp-status").innerHTML =
-      `请在维护机运行后端命令上传：<br><span class="gp-hint"><code>${escapeHTML(cmd)}</code></span>`;
-    $("gp-file").value = "";
+    const fileInput = $("gp-file");
+    const files = Array.from(fileInput.files || []);
+    if (!files.length || !state.current) return;
+    const fd = new FormData();
+    fd.append("game_name", state.current);
+    for (const f of files) fd.append("files", f);
+    $("gp-status").textContent = "上传中…";
+    try {
+      const resp = await fetch(FN_URL, {
+        method: "POST",
+        headers: {
+          "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
+          "x-profile-key": ADMIN_KEY,
+        },
+        body: fd,
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok || !data.ok) throw new Error(data.error || ("HTTP " + resp.status));
+      fileInput.value = "";
+      await loadProfile(state.current);
+      $("gp-status").textContent = "截图已上传。";
+    } catch (err) {
+      $("gp-status").textContent = "上传失败：" + err.message;
+    }
   }
 
   function init() {
@@ -131,17 +155,17 @@
       $("gp-form").style.display = "none";
       $("gp-no-profile").style.display = "block";
     });
-    $("gp-search").addEventListener("input", async (e) => {
+    $("gp-search").addEventListener("input", (e) => {
       const q = e.target.value.trim();
       if (!q) return;
       const hit = state.games.find((g) => g.name.toLowerCase() === q.toLowerCase());
       if (hit) {
-        await loadProfile(hit.name);
+        loadProfile(hit.name);
       } else {
         const matches = state.games.filter((g) => g.name.toLowerCase().includes(q.toLowerCase()));
         $("gp-no-profile").style.display = "block";
         $("gp-no-profile").textContent = matches.length
-          ? `匹配 ${matches.length} 款，点击回车选择第一项；或输入完整名称。`
+          ? `匹配 ${matches.length} 款，输入完整名称确认。`
           : "未找到匹配游戏。";
         $("gp-form").style.display = "none";
       }
