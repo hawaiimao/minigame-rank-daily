@@ -72,8 +72,35 @@ Deno.serve(async (req) => {
       });
     }
 
-    // JSON: save profile { game_name, developer, gameplay_desc, tags, notes }
+    // JSON: support delete_shot action + save profile
     const body = await req.json();
+    if (body.action === "delete_shot") {
+      const targetUrl = String(body.url || "").trim();
+      if (!targetUrl) {
+        return new Response("url required", { status: 400, headers: cors });
+      }
+      // Extract storage object path from public URL.
+      const marker = "/object/public/game-shots/";
+      const idx = targetUrl.indexOf(marker);
+      if (idx === -1) {
+        return new Response("invalid url", { status: 400, headers: cors });
+      }
+      const objPath = decodeURIComponent(targetUrl.slice(idx + marker.length));
+      // Delete storage object.
+      const { error: delErr } = await sb.storage.from("game-shots").remove([objPath]);
+      if (delErr) throw delErr;
+      // Delete DB row by url.
+      const { error: dbErr } = await sb
+        .from("game_screenshots")
+        .delete()
+        .eq("url", targetUrl);
+      if (dbErr) throw dbErr;
+      return new Response(JSON.stringify({ ok: true }), {
+        status: 200,
+        headers: { ...cors, "Content-Type": "application/json" },
+      });
+    }
+
     const gameName = String(body.game_name || "").trim();
     if (!gameName) {
       return new Response("game_name required", { status: 400, headers: cors });

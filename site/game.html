@@ -47,7 +47,9 @@
     .gp-shots { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
     .gp-shot { position: relative; width: 160px; }
     .gp-shot img { width: 160px; height: 110px; object-fit: cover; border-radius: 6px; border: 1px solid var(--border, #ddd); display: block; }
-    .gp-shot .del { position: absolute; top: 4px; right: 4px; background: var(--danger, #c0392b); color: #fff;
+    .gp-shot.is-del { opacity: .45; outline: 2px dashed var(--danger, #c0392b); }
+    .gp-shot.is-del img { filter: grayscale(1); }
+        .gp-shot .del { position: absolute; top: 4px; right: 4px; background: var(--danger, #c0392b); color: #fff;
       border: none; border-radius: 50%; width: 22px; height: 22px; cursor: pointer; font-size: 14px; line-height: 1; }
     .gp-upload { margin-top: 10px; }
     .gp-upload input[type="file"] { margin-right: 10px; }
@@ -122,6 +124,6 @@
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
-  <script src="game-profile.js?v=4"></script>
+  <script src="game-profile.js?v=5"></script>
 </body>
 </html>
