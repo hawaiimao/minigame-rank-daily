@@ -105,20 +105,70 @@
     }
   }
 
-  async function showEdit(name) {
+  function showEdit(name) {
     state.current = name;
     $("gp-toolbar").style.display = "none";
     $("gp-list").style.display = "none";
     $("gp-form").style.display = "block";
     $("gp-title").textContent = name;
 
-    const p = state.profiles[name] || { game_name: name, developer: "", gameplay_desc: "", tags: [], notes: "" };
+    const p = state.profiles[name] || null;
+    if (p) {
+      renderView(p);          // 已建档 -> 只读展示 + 编辑按钮
+    } else {
+      enterEditMode();        // 未建档 -> 直接编辑表单
+    }
+    $("gp-status").textContent = "";
+  }
+
+  function renderView(p) {
+    const fields = [
+      ["开发商", p.developer || "—"],
+      ["玩法", p.gameplay_desc || "—"],
+      ["标签", (p.tags || []).join(", ") || "—"],
+      ["备注", p.notes || "—"],
+      ["更新时间", (p.updated_at || "").slice(0, 16).replace("T", " ")],
+    ];
+    const view = document.getElementById("gp-view");
+    view.style.display = "block";
+    view.querySelector(".gp-view-name").textContent = p.game_name;
+    const dl = view.querySelector(".gp-view-fields");
+    dl.innerHTML = "";
+    for (const [k, v] of fields) {
+      const dt = document.createElement("dt");
+      dt.textContent = k;
+      const dd = document.createElement("dd");
+      dd.textContent = v;
+      dl.appendChild(dt);
+      dl.appendChild(dd);
+    }
+    renderViewShots(p.game_name);
+    document.getElementById("gp-edit-mode").style.display = "none";
+  }
+
+  function renderViewShots(name) {
+    const box = document.getElementById("gp-view-shots");
+    box.innerHTML = "";
+    const sh = state.shots[name] || [];
+    if (!sh.length) { box.innerHTML = '<span class="gp-hint">暂无截图</span>'; return; }
+    for (const s of sh) {
+      const img = document.createElement("img");
+      img.src = s.url; img.alt = ""; img.loading = "lazy";
+      img.style.cssText = "width:160px;height:110px;object-fit:cover;border-radius:6px;border:1px solid #ddd;";
+      box.appendChild(img);
+    }
+  }
+
+  function enterEditMode() {
+    const p = state.profiles[state.current] || { game_name: state.current, developer: "", gameplay_desc: "", tags: [], notes: "" };
+    document.getElementById("gp-view").style.display = "none";
+    const edit = document.getElementById("gp-edit-mode");
+    edit.style.display = "block";
     $("gp-developer").value = p.developer || "";
     $("gp-desc").value = p.gameplay_desc || "";
     $("gp-tags").value = (p.tags || []).join(", ");
     $("gp-notes").value = p.notes || "";
     renderShots();
-    $("gp-status").textContent = "";
   }
 
   function renderShots() {
@@ -206,6 +256,7 @@
     $("gp-toolbar").style.display = "";
     $("gp-list").style.display = "";
     $("gp-form").style.display = "none";
+    document.getElementById("gp-view").style.display = "none";
     buildList();
   }
 
@@ -213,6 +264,8 @@
     $("gp-save").addEventListener("click", save);
     $("gp-upload-btn").addEventListener("click", upload);
     $("gp-back").addEventListener("click", backToList);
+    $("gp-view-back").addEventListener("click", backToList);
+    $("gp-edit-btn").addEventListener("click", enterEditMode);
     $("gp-clear").addEventListener("click", () => { $("gp-search").value = ""; renderList(); });
     $("gp-search").addEventListener("input", renderList);
   }

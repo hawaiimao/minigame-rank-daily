@@ -41,7 +41,10 @@ Deno.serve(async (req) => {
       const urls = [];
       for (const f of files) {
         const safeName = f.name.replace(/[^\w.\-]+/g, "_");
-        const path = `${gameName}/${Date.now()}_${safeName}`;
+        // Use an ASCII-safe prefix derived from the game name (encodeURIComponent
+        // keeps CJK out of the storage key; Supabase Storage rejects non-ASCII keys).
+        const safePrefix = encodeURIComponent(gameName).replace(/%/g, "_").slice(0, 60) || "g";
+        const path = `${safePrefix}/${Date.now()}_${safeName}`;
         const { error: upErr } = await sb.storage
           .from("game-shots")
           .upload(path, f, { contentType: f.type || "application/octet-stream", upsert: true });

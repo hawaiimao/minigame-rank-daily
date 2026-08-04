@@ -85,6 +85,19 @@
         <button type="button" class="gp-back" id="gp-back">← 返回列表</button>
         <h2 id="gp-title" style="margin:0">—</h2>
       </div>
+      <div id="gp-view" style="display:none">
+        <div class="gp-actions" style="margin-top:0">
+          <button type="button" class="gp-back" id="gp-view-back">← 返回列表</button>
+          <h2 class="gp-view-name" style="margin:0">—</h2>
+        </div>
+        <dl class="gp-view-fields" style="margin-top:16px"></dl>
+        <label>截图</label>
+        <div class="gp-shots" id="gp-view-shots"></div>
+        <div class="gp-actions">
+          <button id="gp-edit-btn" class="gp-save" type="button">编辑档案</button>
+        </div>
+      </div>
+      <div id="gp-edit-mode">
       <label>开发商</label>
       <input id="gp-developer" type="text" placeholder="例如：XX网络科技" />
       <label>玩法描述</label>
@@ -102,6 +115,7 @@
       <div class="gp-actions">
         <button id="gp-save" class="gp-save" type="button">保存档案</button>
         <span class="gp-status" id="gp-status"></span>
+      </div>
       </div>
     </div>
   </section>
