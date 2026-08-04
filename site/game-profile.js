@@ -13,6 +13,7 @@
     current: null,
     dirty: false,
     abandoned: false,
+    boardMap: {},        // name -> board_history
   };
 
   const $ = (id) => document.getElementById(id);
@@ -23,12 +24,26 @@
     }[m]));
   }
 
+  const BOARD_PLATFORM = { wx: "??", douyin: "??", taptap: "TapTap" };
+
+  function fmtBoard(key) {
+    // "wx/???" -> "??????"
+    const [plat, board] = String(key).split("/");
+    return (BOARD_PLATFORM[plat] || plat) + "?" + (board || "");
+  }
+
   async function loadAll() {
-    const [games, profiles, shots] = await Promise.all([
+    const [games, profiles, shots, base] = await Promise.all([
       window.sb.select("games", { select: "name,first_seen_at,category,publisher_name", order: "first_seen_at.desc", limit: 5000 }),
       window.sb.select("game_profiles", { limit: 5000 }),
       window.sb.select("game_screenshots", { select: "id,game_name,url,sort_order", order: "sort_order.asc,id.asc", limit: 5000 }),
+      fetch("data/base/games.json").then((r) => r.ok ? r.json() : null).catch(() => null),
     ]);
+    if (base && base.games) {
+      for (const [name, entry] of Object.entries(base.games)) {
+        if (entry && entry.board_history) state.boardMap[name] = entry.board_history;
+      }
+    }
     state.games = games || [];
     state.profiles = {};
     for (const p of profiles || []) state.profiles[p.game_name] = p;
@@ -45,6 +60,10 @@
     for (const g of state.games) {
       const p = state.profiles[g.name];
       const sh = state.shots[g.name] || [];
+      const bh = state.boardMap[g.name] || {};
+      const boardKeys = Object.keys(bh);
+      boardKeys.sort((a, b) => (bh[a].first_seen || "").localeCompare(bh[b].first_seen || ""));
+      const sourceBoards = boardKeys.map(fmtBoard);
       rows.push({
         name: g.name,
         has: !!p,
@@ -54,8 +73,9 @@
         updated: (p && p.updated_at) || "",
         abandoned: !!(p && p.abandoned),
         category: g.category || "",
-        publisher: g.publisher_name || "",
+        publisher: (g.publisher_name || (p && p.developer) || ""),
         joined: g.first_seen_at || "",
+        sourceBoards: sourceBoards,
         firstShot: sh.length ? sh[0].url : "",
         shotCount: sh.length,
       });
@@ -95,13 +115,24 @@
       const dev = r.developer ? `<div class="gp-card-dev">${esc(r.developer)}</div>` : "";
       const boardBadge = r.category ? `<span class="badge-board">${esc(r.category)}</span>` : "";
       const abandonBadge = r.abandoned ? '<span class="badge-abandoned">玩法放弃</span>' : "";
+      const srcBoards = (r.sourceBoards || []).slice(0, 3).map((b) => `<span class="badge-src">${esc(b)}</span>`).join("");
+      const srcLine = srcBoards ? `<div class="gp-card-src">${srcBoards}</div>` : "";
+      const pubLine = r.publisher ? `<div class="gp-card-pub">🏢 ${esc(r.publisher)}</div>` : "";
       const meta = r.has
         ? `更新 ${esc((r.updated || "").slice(0, 10))} · ${r.shotCount} 图`
         : "未建档";
+      const abBtn = r.abandoned
+        ? '<button class="gp-ab-btn restore" data-name="' + esc(r.name) + '">恢复</button>'
+        : '<button class="gp-ab-btn" data-name="' + esc(r.name) + '">放弃</button>';
       card.innerHTML = `
         ${thumb}
         <div class="gp-card-body">
-          <div class="gp-card-name">${esc(r.name)}${r.has ? '<span class="badge-has">已建档</span>' : ""}</div>
+          <div class="gp-card-head">
+            <div class="gp-card-name">${esc(r.name)}${r.has ? '<span class="badge-has">已建档</span>' : ""}</div>
+            ${abBtn}
+          </div>
+          ${srcLine}
+          ${pubLine}
           ${dev}
           ${tags ? `<div class="gp-card-tags">${tags}</div>` : ""}
           ${r.desc ? `<div class="gp-card-desc">${esc(r.desc)}</div>` : ""}
@@ -110,6 +141,12 @@
       card.addEventListener("click", () => showEdit(r.name));
       box.appendChild(card);
     }
+    box.querySelectorAll(".gp-ab-btn").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        toggleAbandonCard(btn.dataset.name);
+      });
+    });
   }
 
   function showEdit(name) {
@@ -428,6 +465,29 @@
     });
     state.shots[name] = shots || [];
     renderShots();
+  }
+
+  async function toggleAbandonCard(name) {
+    const cur = state.profiles[name] || { game_name: name, developer: "", gameplay_desc: "", tags: [], notes: "" };
+    const next = !(cur.abandoned);
+    try {
+      const resp = await fetch(FN_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
+          "x-client-info": ADMIN_KEY,
+        },
+        body: JSON.stringify({ ...cur, abandoned: next }),
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok || !data.ok) throw new Error(data.error || ("HTTP " + resp.status));
+      cur.abandoned = next;
+      state.profiles[name] = cur;
+      renderList();
+    } catch (err) {
+      alert("操作失败：" + err.message);
+    }
   }
 
   function backToList() {

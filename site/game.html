@@ -62,6 +62,18 @@
       padding: 1px 6px; border-radius: 4px; margin-right: 4px; }
     .badge-abandoned { font-size: 11px; background: #eee; color: #999;
       padding: 1px 6px; border-radius: 4px; margin-right: 4px; }
+    .gp-card-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+    .gp-card-head .gp-card-name { margin-bottom: 0; }
+    .gp-ab-btn { flex-shrink: 0; font-size: 12px; padding: 2px 10px; border-radius: 4px;
+      border: 1px solid var(--danger, #c0392b); background: transparent; color: var(--danger, #c0392b);
+      cursor: pointer; font: inherit; }
+    .gp-ab-btn:hover { background: var(--danger, #c0392b); color: #fff; }
+    .gp-ab-btn.restore { border-color: var(--brand, #2f6fed); color: var(--brand, #2f6fed); }
+    .gp-ab-btn.restore:hover { background: var(--brand, #2f6fed); color: #fff; }
+    .gp-card-src { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+    .badge-src { font-size: 11px; background: #f0f7ff; color: #2c6fbb; padding: 1px 6px;
+      border-radius: 4px; border: 1px solid #d6e6f7; }
+    .gp-card-pub { font-size: 12px; color: #777; margin-top: 4px; }
     .gp-abandon { background: #c0392b; color: #fff; }
     .gp-unabandon { background: transparent; color: var(--brand, #2f6fed); border: 1px solid currentColor !important; }
     .gp-abandon:hover, .gp-unabandon:hover { opacity: .85; }
