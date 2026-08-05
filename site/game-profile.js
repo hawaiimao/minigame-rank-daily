@@ -527,7 +527,7 @@
         const upData = await upResp.json().catch(() => ({}));
         if (!upResp.ok || !upData.ok) throw new Error(upData.error || ("HTTP " + upResp.status));
         $("gp-file").value = "";
-        await refreshShots(state.current);
+        await refreshShots(targetName);
       }
 
       $("gp-status").textContent = files.length ? "已保存档案并上传截图。" : "已保存到数据库。";
@@ -535,9 +535,8 @@
         state.isNew = false;
         state.current = targetName;
         await reloadList();
-        backToList();
-        return;
       }
+      backToList();
     } catch (err) {
       $("gp-status").textContent = "保存失败：" + err.message;
     }
