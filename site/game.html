@@ -22,11 +22,15 @@
     @media (max-width: 800px) { .gp-list { grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 520px) { .gp-list { grid-template-columns: 1fr; } }
     .gp-card {
-      display: flex; align-items: stretch; padding: 0; border: 1px solid var(--border, #ddd);
-      border-radius: 8px; cursor: pointer; background: var(--bg2, #fff); overflow: hidden;
-      transition: border-color .15s, box-shadow .15s;
+      display: flex; align-items: stretch; padding: 0; border: 2px solid var(--border, #ddd);
+      border-radius: 10px; cursor: pointer; background: var(--bg2, #fff); overflow: hidden;
+      box-shadow: 0 3px 10px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+      transition: border-color .15s, box-shadow .15s, transform .15s;
     }
-    .gp-card:hover { border-color: var(--brand, #2f6fed); box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+    .gp-card:hover { border-color: var(--brand, #2f6fed); box-shadow: 0 6px 18px rgba(0,0,0,.12), 0 2px 4px rgba(0,0,0,.05); transform: translateY(-2px); }
+    .gp-card.v-high:hover { border-color: #e11d48; box-shadow: 0 8px 22px rgba(225, 29, 72, .25), 0 2px 4px rgba(0,0,0,.05); }
+    .gp-card.v-mid:hover { border-color: #f59e0b; box-shadow: 0 8px 22px rgba(245, 158, 11, .22), 0 2px 4px rgba(0,0,0,.05); }
+    .gp-card.v-low:hover { border-color: #10b981; box-shadow: 0 8px 22px rgba(16, 185, 129, .2), 0 2px 4px rgba(0,0,0,.05); }
     .gp-card-thumb { width: 90px; height: auto; align-self: stretch; flex-shrink: 0; object-fit: cover;
       background: #f0f2f5; border-right: 1px solid var(--border, #eee); display: block; min-height: 120px; }
     .gp-card-thumb.empty { display: flex; align-items: center; justify-content: center; color: #bbb; font-size: 12px; }
@@ -51,10 +55,14 @@
       border-radius: 6px; font: inherit; background: var(--bg2, #fff); color: inherit;
     }
     .gp-form textarea { min-height: 90px; resize: vertical; }
-    .gp-card.v-high { background: #fff5f5; border-color: #f3c1c1; border-top: 3px solid #e11d48; }
-    .gp-card.v-mid { background: #fffdf5; border-color: #f0e0b6; border-top: 3px solid #f59e0b; }
-    .gp-card.v-low { background: #f5fbf7; border-color: #c8e3d2; border-top: 3px solid #10b981; }
-    .gp-card.v-abandoned { background: #fafafa; border-color: #e2e2e2; position: relative; overflow: hidden; }
+    .gp-card.v-high { background: #fff5f5; border-color: #e8a3a3; border-top: 4px solid #e11d48;
+      box-shadow: 0 3px 12px rgba(225, 29, 72, .18), 0 1px 2px rgba(0,0,0,.04); }
+    .gp-card.v-mid { background: #fffdf5; border-color: #e5c96f; border-top: 4px solid #f59e0b;
+      box-shadow: 0 3px 12px rgba(245, 158, 11, .16), 0 1px 2px rgba(0,0,0,.04); }
+    .gp-card.v-low { background: #f5fbf7; border-color: #9fd0b2; border-top: 4px solid #10b981;
+      box-shadow: 0 3px 12px rgba(16, 185, 129, .15), 0 1px 2px rgba(0,0,0,.04); }
+    .gp-card.v-abandoned { background: #fafafa; border-color: #d4d4d4; border-top: 4px solid #e5e7eb;
+      position: relative; overflow: hidden; box-shadow: none; }
     .gp-card.v-abandoned .gp-card-thumb { filter: grayscale(1) brightness(.96); opacity: .6; }
     .gp-card.v-abandoned .gp-card-name { color: #888; text-decoration: line-through; }
     .gp-card.v-abandoned .gp-card-dev,
@@ -290,7 +298,7 @@
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
-  <script src="game-profile.js?v=42"></script>
+  <script src="game-profile.js?v=43"></script>
   <div id="gp-lightbox" class="gp-lightbox" style="display:none" onclick="this.style.display='none'"><img src="" alt="" /></div>
 </body>
 </html>
