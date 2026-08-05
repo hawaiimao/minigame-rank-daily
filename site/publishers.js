@@ -50,7 +50,8 @@ async function pushStatus(publisher, patch) {
   if (patch.status !== undefined) body.status = patch.status;
   if (patch.note !== undefined) body.note = patch.note;
   body.updated_at = new Date().toISOString();
-  await window.sb.upsert("publisher_status", body, "publisher");
+  const headers = window.Auth ? window.Auth.authHeaders() : {};
+  await window.sb.upsert("publisher_status", body, "publisher", "return=minimal", headers);
 }
 
 // ---------- data loading ----------
@@ -323,8 +324,9 @@ function statusButtonsHTML(name, cur) {
 
 function noteFieldHTML(name, note) {
   const shown = escapeAttr(note);
+  const readonly = window.Auth && !window.Auth.isEditor() ? " readonly" : "";
   return `<input class="note-input" type="text" maxlength="${NOTE_MAX}"
-    placeholder="备注…"
+    placeholder="备注…"${readonly}
     data-name="${escapeAttr(name)}" value="${shown}" />`;
 }
 
@@ -334,6 +336,10 @@ function attachHandlers() {
   tbl.addEventListener("click", async (e) => {
     const btn = e.target.closest(".st-btn");
     if (!btn) return;
+    if (window.Auth && !window.Auth.isEditor()) {
+      window.Auth.openModal();
+      return;
+    }
     const name = btn.dataset.name;
     const nextStatus = btn.dataset.status;
     const prev = state.status[name] || { status: "pending", note: "" };
@@ -389,6 +395,7 @@ function attachHandlers() {
 }
 
 async function commitNote(input) {
+if (window.Auth && !window.Auth.isEditor()) { return; }
   const name = input.dataset.name;
   const nextNote = input.value.slice(0, NOTE_MAX);
   const prev = state.status[name] || { status: "pending", note: "" };
@@ -418,6 +425,11 @@ function escapeAttr(s) { return escapeHTML(s).replace(/`/g, "&#96;"); }
 
 async function init() {
   attachHandlers();
+  if (window.Auth) {
+    window.Auth.bind();
+    await window.Auth.restore();
+    window.Auth.onAuthChange(() => { renderRows(); updateCounts(); });
+  }
   const loading = $("pub-loading");
   try {
     await loadPublishersList();

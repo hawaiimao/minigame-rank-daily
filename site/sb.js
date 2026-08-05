@@ -75,7 +75,7 @@
     return collected;
   }
 
-  async function upsert(table, rows, onConflict, prefer = "return=minimal") {
+  async function upsert(table, rows, onConflict, prefer = "return=minimal", extraHeaders = {}) {
     const path = onConflict
       ? `/${table}?on_conflict=${onConflict}`
       : `/${table}`;
@@ -83,6 +83,7 @@
       method: "POST",
       headers: headers({
         Prefer: `resolution=merge-duplicates,${prefer}`,
+        ...extraHeaders,
       }),
       body: JSON.stringify(rows),
     });

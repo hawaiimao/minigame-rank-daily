@@ -732,3 +732,38 @@ tr.row-contacting .pub-name {
   padding: 0 5px; white-space: nowrap; vertical-align: middle;
 }
 .profile-link:hover { background: var(--brand-tint, #eef4ff); }
+
+/* ---------- shared auth ---------- */
+header { position: relative; }
+.auth-chip {
+  position: absolute; top: 28px; right: 40px;
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 4px 6px 4px 14px; border: 1px solid #e5e7eb; border-radius: 999px;
+  background: #fff; font-size: 13px; color: #333;
+  z-index: 5;
+}
+.auth-chip-email { max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.auth-btn {
+  padding: 3px 12px; border: 1px solid #e5e7eb; border-radius: 999px;
+  background: #f3f4f6; color: #555; font-size: 13px; cursor: pointer; line-height: 1.5;
+}
+.auth-btn:hover { background: #e9eaed; color: #333; }
+#auth-logout { border: none; background: none; color: #999; padding: 2px 8px; }
+#auth-logout:hover { color: #c0392b; }
+.auth-overlay { position: fixed; inset: 0; z-index: 4000; background: rgba(0,0,0,.45);
+  display: flex; align-items: center; justify-content: center; }
+.auth-card { background: #fff; border-radius: 12px; padding: 26px 28px; width: 320px;
+  box-shadow: 0 12px 40px rgba(0,0,0,.18); }
+.auth-card h3 { margin: 0 0 4px; font-size: 18px; }
+.auth-card .auth-sub { margin: 0 0 16px; color: #888; font-size: 13px; }
+.auth-card input[type="email"], .auth-card input[type="password"] { width: 100%; box-sizing: border-box;
+  padding: 8px 10px; margin-bottom: 10px; border: 1px solid var(--border, #ddd); border-radius: 6px;
+  font: inherit; font-size: 14px; }
+.auth-card .auth-err { color: #c0392b; font-size: 13px; min-height: 18px; margin-bottom: 6px; }
+.auth-row { display: flex; gap: 8px; justify-content: flex-end; }
+.auth-row button { padding: 6px 14px; border: none; border-radius: 6px; cursor: pointer; font: inherit; font-size: 13px; }
+.auth-ok { background: var(--brand, #2f6fed); color: #fff; }
+.auth-cancel { background: #f3f4f6; color: #555; }
+@media (max-width: 720px) {
+  .auth-chip { position: static; margin-left: auto; }
+}

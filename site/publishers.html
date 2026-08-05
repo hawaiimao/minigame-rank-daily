@@ -7,10 +7,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=14" />
+  <link rel="stylesheet" href="style.css?v=15" />
 </head>
 <body>
-  <header>
+  <header id="page-header">
     <h1>厂商跟进</h1>
     <div class="meta">
       <a href="./" class="nav-link">← 返回榜单监控</a>
@@ -48,18 +48,34 @@
     </div>
   </section>
 
+
+  <div class="auth-overlay" id="gp-auth-overlay" style="display:none">
+    <div class="auth-card">
+      <h3>登录</h3>
+      <p class="auth-sub">编辑者登录后可修改待联/已联状态与备注。</p>
+      <input id="gp-auth-email" type="email" placeholder="邮箱" autocomplete="username" />
+      <input id="gp-auth-pass" type="password" placeholder="密码" autocomplete="current-password" />
+      <div class="auth-err" id="gp-auth-err"></div>
+      <div class="auth-row">
+        <button type="button" class="auth-cancel" id="gp-auth-cancel">取消</button>
+        <button type="button" class="auth-ok" id="gp-auth-login">登录</button>
+      </div>
+    </div>
+  </div>
+
   <div id="pub-toast" class="pub-toast"></div>
 
   <footer>
     <p>
-      跟进状态存于共享 Google Sheet，任何访问本页的人都能看到、修改。
+      跟进状态存于数据库，登录后可修改。
       <br />
       划错了？再点一次同一状态或选别的即可。
     </p>
   </footer>
 
   <script src="config.js"></script>
-  <script src="sb.js?v=6"></script>
-  <script src="publishers.js?v=8"></script>
+  <script src="auth.js?v=1"></script>
+  <script src="sb.js?v=7"></script>
+  <script src="publishers.js?v=9"></script>
 </body>
 </html>
