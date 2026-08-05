@@ -16,6 +16,7 @@
     dirty: false,
     abandoned: false,
     boardMap: {},        // name -> board_history
+    latestRankMap: {},   // name -> {"wx/人气榜": 11} 当前榜单排名
     page: 0,             // 列表当前页
     filter: "",           // 价值/放弃筛选
     favOnly: false,       // 我的收藏模式
@@ -31,23 +32,44 @@
 
   const BOARD_PLATFORM = { wx: "微信", douyin: "抖音", taptap: "TapTap" };
 
-  function fmtBoard(key) {
-    // "wx/???" -> "??????"
+  function fmtBoard(key, name) {
+    // "wx/人气榜" -> "微信·人气榜"; name 存在时附加当前排名 -> "抖音·新游榜·11"
     const [plat, board] = String(key).split("/");
-    return (BOARD_PLATFORM[plat] || plat) + "·" + (board || "");
+    const base = (BOARD_PLATFORM[plat] || plat) + "\u00b7" + (board || "");
+    if (!name) return base;
+    const rank = (state.latestRankMap[name] || {})[key];
+    return rank ? base + "\u00b7" + rank : base;
   }
 
   async function loadAll() {
-    const [games, profiles, shots, base] = await Promise.all([
+    const [games, profiles, shots, base, latest] = await Promise.all([
       window.sb.select("games", { select: "name,first_seen_at,category,publisher_name", order: "first_seen_at.desc", limit: 5000 }),
       window.sb.select("game_profiles", { limit: 5000 }),
       window.sb.select("game_screenshots", { select: "id,game_name,url,sort_order", order: "sort_order.asc,id.asc", limit: 5000 }),
       fetch("data/base/games.json").then((r) => r.ok ? r.json() : null).catch(() => null),
+      fetch("data/latest.json").then((r) => r.ok ? r.json() : null).catch(() => null),
     ]);
     if (base && base.games) {
       for (const [name, entry] of Object.entries(base.games)) {
         if (entry && entry.board_history) state.boardMap[name] = entry.board_history;
       }
+    }
+    // 从最新榜单快照构建: 名称 -> {榜单key: 当前排名}
+    if (latest && latest.platforms) {
+      const rm = {};
+      for (const [platKey, plat] of Object.entries(latest.platforms)) {
+        for (const b of (plat && plat.boards) || []) {
+          const bKey = platKey + "/" + (b.label || "");
+          for (const row of (b.rows) || []) {
+            if (!row || !row.name) continue;
+            if (typeof row.rank === "number" || typeof row.rank === "string") {
+              rm[row.name] = rm[row.name] || {};
+              rm[row.name][bKey] = row.rank;
+            }
+          }
+        }
+      }
+      state.latestRankMap = rm;
     }
     state.games = games || [];
     state.profiles = {};
@@ -68,7 +90,7 @@
       const bh = state.boardMap[g.name] || {};
       const boardKeys = Object.keys(bh);
       boardKeys.sort((a, b) => (bh[a].first_seen || "").localeCompare(bh[b].first_seen || ""));
-      const sourceBoards = boardKeys.map(fmtBoard);
+      const sourceBoards = boardKeys.map((k) => fmtBoard(k, g.name));
       rows.push({
         name: g.name,
         has: !!p,
@@ -135,7 +157,7 @@
     const bh = state.boardMap[gameName] || {};
     const keys = Object.keys(bh);
     keys.sort((a, b) => (bh[a].first_seen || "").localeCompare(bh[b].first_seen || ""));
-    const text = keys.map(fmtBoard).join(" / ");
+    const text = keys.map((k) => fmtBoard(k, gameName)).join(" / ");
     el.textContent = text;
     el.style.display = text ? "" : "none";
   }
