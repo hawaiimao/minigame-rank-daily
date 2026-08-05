@@ -181,6 +181,7 @@
         <div class="gp-card-body">
           <div class="gp-card-head">
             <div class="gp-card-name">${esc(r.name)}${r.has ? '<span class="badge-has">已建档</span>' : ""}</div>
+            ${r.abandoned ? "" : '<button class="gp-card-ab" data-name="' + esc(r.name) + '" title="放弃此产品">放弃</button>'}
           </div>
           ${srcLine}
           ${dev}
@@ -190,6 +191,49 @@
       card.addEventListener("click", () => showEdit(r.name));
       box.appendChild(card);
     }
+    // 卡片上的放弃按钮: 局部更新单张卡片,不重建整个列表
+    box.querySelectorAll(".gp-card-ab").forEach((btn) => {
+      btn.addEventListener("click", async (e) => {
+        e.stopPropagation();
+        const name = btn.dataset.name;
+        const card = btn.closest(".gp-card");
+        if (!card) return;
+        btn.disabled = true;
+        btn.textContent = "…";
+        try {
+          const cur = state.profiles[name] || { game_name: name, developer: "", gameplay_desc: "", tags: [], notes: "" };
+          const resp = await fetch(FN_URL, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
+              "x-client-info": ADMIN_KEY,
+            },
+            body: JSON.stringify({ ...cur, abandoned: true }),
+          });
+          const data = await resp.json().catch(() => ({}));
+          if (!resp.ok || !data.ok) throw new Error(data.error || ("HTTP " + resp.status));
+          cur.abandoned = true;
+          state.profiles[name] = cur;
+          // 局部: 只改这张卡片
+          card.classList.add("abandoned");
+          const badge = document.createElement("span");
+          badge.className = "badge-abandoned";
+          badge.textContent = "玩法放弃";
+          const meta = card.querySelector(".gp-card-meta");
+          if (meta) meta.insertBefore(badge, meta.firstChild);
+          const head = card.querySelector(".gp-card-head");
+          if (head) {
+            const ab = head.querySelector(".gp-card-ab");
+            if (ab) ab.remove();
+          }
+        } catch (err) {
+          alert("操作失败：" + err.message);
+          btn.disabled = false;
+          btn.textContent = "放弃";
+        }
+      });
+    });
     renderPager(filtered.length, totalPages);
   }
   document.getElementById("gp-page-go").addEventListener("click", jumpToPage);

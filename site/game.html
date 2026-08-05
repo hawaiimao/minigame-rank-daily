@@ -68,6 +68,10 @@
     .badge-abandoned { font-size: 11px; font-weight: 600; background: #c0392b; color: #fff;
       padding: 1px 6px; border-radius: 4px; margin-right: 4px; }
     .gp-card-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+    .gp-card-ab { flex-shrink: 0; font-size: 11px; padding: 2px 8px; border-radius: 4px;
+      border: 1px solid #ccc; background: transparent; color: #999; cursor: pointer; font: inherit; }
+    .gp-card-ab:hover { border-color: var(--danger, #c0392b); color: var(--danger, #c0392b); background: #fff5f5; }
+    .gp-card.abandoned .gp-card-ab { display: none; }
     .gp-card-head .gp-card-name { margin-bottom: 0; }
     .gp-card-src { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
     .badge-src { font-size: 11px; background: #f0f7ff; color: #2c6fbb; padding: 1px 6px;
@@ -243,7 +247,7 @@
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
-  <script src="game-profile.js?v=33"></script>
+  <script src="game-profile.js?v=34"></script>
   <div id="gp-lightbox" class="gp-lightbox" style="display:none" onclick="this.style.display='none'"><img src="" alt="" /></div>
 </body>
 </html>
