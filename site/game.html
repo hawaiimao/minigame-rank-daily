@@ -50,16 +50,19 @@
       border-radius: 6px; font: inherit; background: var(--bg2, #fff); color: inherit;
     }
     .gp-form textarea { min-height: 90px; resize: vertical; }
-    .gp-card.abandoned { background: #f0f0f0; position: relative; overflow: hidden; }
-    .gp-card.abandoned .gp-card-thumb { filter: grayscale(1) brightness(.96); opacity: .6; }
-    .gp-card.abandoned .gp-card-name { color: #888; text-decoration: line-through; }
-    .gp-card.abandoned .gp-card-dev,
-    .gp-card.abandoned .gp-card-pub,
-    .gp-card.abandoned .gp-card-desc,
-    .gp-card.abandoned .gp-card-meta,
-    .gp-card.abandoned .gp-card-src { color: #aaa; }
-    .gp-card.abandoned .gp-card-tags .tag { background: #e6e6e6; color: #999; }
-    .gp-card.abandoned .gp-card-name .badge-has {
+    .gp-card.v-high { background: #fdf0ef; border-color: #f2c9c4; }
+    .gp-card.v-mid { background: #fffbea; border-color: #ecdda4; }
+    .gp-card.v-low { background: #f0f8f1; border-color: #c4ddca; }
+    .gp-card.v-abandoned { background: #f0f0f0; position: relative; overflow: hidden; border-color: #ddd; }
+    .gp-card.v-abandoned .gp-card-thumb { filter: grayscale(1) brightness(.96); opacity: .6; }
+    .gp-card.v-abandoned .gp-card-name { color: #888; text-decoration: line-through; }
+    .gp-card.v-abandoned .gp-card-dev,
+    .gp-card.v-abandoned .gp-card-pub,
+    .gp-card.v-abandoned .gp-card-desc,
+    .gp-card.v-abandoned .gp-card-meta,
+    .gp-card.v-abandoned .gp-card-src { color: #aaa; }
+    .gp-card.v-abandoned .gp-card-tags .tag { background: #e6e6e6; color: #999; }
+    .gp-card.v-abandoned .gp-card-name .badge-has {
       background: var(--brand, #2f6fed); color: #fff;
       text-decoration: none; border-radius: 4px; padding: 1px 6px;
     }
@@ -73,7 +76,8 @@
       border: 1px solid #ccc; background: transparent; color: #999; cursor: pointer; font: inherit; }
     .gp-card-val.high { border-color: #c0392b; color: #c0392b; background: #fde8e8; }
     .gp-card-val.mid { border-color: #b7791f; color: #b7791f; background: #fef3c7; }
-    .gp-card-val.low { border-color: #aaa; color: #777; background: #eee; }
+    .gp-card-val.low { border-color: #5b8c63; color: #3f7a4a; background: #e5f2e7; }
+    .gp-card-val.abandoned { border-color: #999; color: #888; background: #e8e8e8; }
     .gp-val-menu { position: fixed; z-index: 3000; background: #fff; border: 1px solid #ddd;
       border-radius: 6px; box-shadow: 0 4px 16px rgba(0,0,0,.12); padding: 4px;
       display: flex; flex-direction: column; min-width: 96px; }
@@ -82,7 +86,6 @@
     .gp-val-menu-item:hover { background: #f0f2f5; }
     .gp-val-menu-item.active { color: var(--brand, #2f6fed); font-weight: 600; }
     .gp-card-ab:hover { border-color: var(--danger, #c0392b); color: var(--danger, #c0392b); background: #fff5f5; }
-    .gp-card.abandoned .gp-card-ab { display: none; }
     .gp-card-head .gp-card-name { margin-bottom: 0; }
     .gp-card-src { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
     .badge-src { font-size: 11px; background: #f0f7ff; color: #2c6fbb; padding: 1px 6px;
@@ -94,7 +97,8 @@
     .gp-val { padding: 1px 8px; border-radius: 4px; font-size: 12px; font-weight: 600; }
     .gp-val.high { background: #fde8e8; color: #c0392b; }
     .gp-val.mid { background: #fef3c7; color: #b7791f; }
-    .gp-val.low { background: #e6e6e6; color: #777; }
+    .gp-val.low { background: #e5f2e7; color: #3f7a4a; }
+    .gp-val.abandoned { background: #e8e8e8; color: #888; }
     .gp-card-value { display: inline-block; margin-left: 4px; }
     #gp-filter { margin-left: 8px; cursor: pointer; }
     .gp-abandon { background: #c0392b; color: #fff; }
@@ -225,7 +229,7 @@
         <label><input type="radio" name="gp-value" value="high" /> <span class="gp-val high">高价值</span></label>
         <label><input type="radio" name="gp-value" value="mid" /> <span class="gp-val mid">中价值</span></label>
         <label><input type="radio" name="gp-value" value="low" /> <span class="gp-val low">低价值</span></label>
-        <label><input type="radio" name="gp-value" value="" /> <span>不设置</span></label>
+        <label><input type="radio" name="gp-value" value="abandoned" /> <span class="gp-val abandoned">放弃</span></label>
       </div>
       <label>玩法描述 <span class="gp-hint">(Markdown)</span></label>
       <div class="md-editor">
@@ -260,8 +264,6 @@
       </div>
       <div class="gp-actions">
         <button id="gp-save" class="gp-save" type="button">保存档案</button>
-        <button id="gp-abandon" class="gp-abandon" type="button">放弃此产品</button>
-        <button id="gp-unabandon" class="gp-unabandon" type="button" style="display:none">恢复研究</button>
         <span class="gp-status" id="gp-status"></span>
       </div>
       </div>
@@ -280,7 +282,7 @@
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
-  <script src="game-profile.js?v=36"></script>
+  <script src="game-profile.js?v=37"></script>
   <div id="gp-lightbox" class="gp-lightbox" style="display:none" onclick="this.style.display='none'"><img src="" alt="" /></div>
 </body>
 </html>

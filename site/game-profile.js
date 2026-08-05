@@ -74,8 +74,8 @@
         desc: (p && p.gameplay_desc) || "",
         tags: (p && p.tags) || [],
         updated: (p && p.updated_at) || "",
-        abandoned: !!(p && p.abandoned),
         value: (p && p.value) || "",
+        abandoned: !p || !["high", "mid", "low"].includes(p.value),
         category: g.category || "",
         publisher: (g.publisher_name || (p && p.developer) || ""),
         joined: g.first_seen_at || "",
@@ -170,13 +170,13 @@
     const pageRows = filtered.slice(state.page * PER_PAGE, (state.page + 1) * PER_PAGE);
     for (const r of pageRows) {
       const card = document.createElement("div");
-      card.className = "gp-card" + (r.abandoned ? " abandoned" : "");
+      const effVal = r.value || "abandoned";
+      card.className = "gp-card v-" + esc(effVal);
       const thumb = r.firstShot
         ? `<img class="gp-card-thumb" src="${esc(r.firstShot)}" loading="lazy" alt="" />`
         : `<div class="gp-card-thumb empty">无图</div>`;
       const tags = (r.tags || []).slice(0, 4).map((t) => `<span class="tag">${esc(t)}</span>`).join("");
       const dev = r.developer ? `<div class="gp-card-pub">${esc(r.developer)}</div>` : "";
-      const abandonBadge = r.abandoned ? '<span class="badge-abandoned">玩法放弃</span>' : "";
       const srcBoards = (r.sourceBoards || []).slice(0, 3).map((b) => `<span class="badge-src">${esc(b)}</span>`).join("");
       const srcLine = srcBoards ? `<div class="gp-card-src">${srcBoards}</div>` : "";
       const joined = (r.joined || "").slice(0, 10);
@@ -190,14 +190,13 @@
           <div class="gp-card-head">
             <div class="gp-card-name">${esc(r.name)}${r.has ? '<span class="badge-has">已建档</span>' : ""}</div>
             <div class="gp-card-actions">
-              <button class="gp-card-val ${esc(r.value)}" data-name="${esc(r.name)}" title="设置玩法价值">${r.value === "high" ? "高价值" : r.value === "mid" ? "中价值" : r.value === "low" ? "低价值" : "价值"}</button>
-              ${r.abandoned ? "" : '<button class="gp-card-ab" data-name="' + esc(r.name) + '" title="放弃此产品">放弃</button>'}
+              <button class="gp-card-val ${esc(effVal)}" data-name="${esc(r.name)}" title="设置玩法状态">${effVal === "high" ? "高价值" : effVal === "mid" ? "中价值" : effVal === "low" ? "低价值" : "放弃"}</button>
             </div>
           </div>
           ${srcLine}
           ${dev}
           ${tags ? `<div class="gp-card-tags">${tags}</div>` : ""}
-          <div class="gp-card-meta">${abandonBadge} ${meta}</div>
+          <div class="gp-card-meta">${meta}</div>
         </div>`;
       card.addEventListener("click", () => showEdit(r.name));
       box.appendChild(card);
@@ -209,50 +208,6 @@
         openValueMenu(btn);
       });
     });
-    // 卡片上的放弃按钮: 局部更新单张卡片,不重建整个列表
-    box.querySelectorAll(".gp-card-ab").forEach((btn) => {
-      btn.addEventListener("click", async (e) => {
-        e.stopPropagation();
-        const name = btn.dataset.name;
-        const card = btn.closest(".gp-card");
-        if (!card) return;
-        btn.disabled = true;
-        btn.textContent = "…";
-        try {
-          const cur = state.profiles[name] || { game_name: name, developer: "", gameplay_desc: "", tags: [], notes: "" };
-          const resp = await fetch(FN_URL, {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-              "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
-              "x-client-info": ADMIN_KEY,
-            },
-            body: JSON.stringify({ ...cur, abandoned: true }),
-          });
-          const data = await resp.json().catch(() => ({}));
-          if (!resp.ok || !data.ok) throw new Error(data.error || ("HTTP " + resp.status));
-          cur.abandoned = true;
-          state.profiles[name] = cur;
-          // 局部: 只改这张卡片
-          card.classList.add("abandoned");
-          const badge = document.createElement("span");
-          badge.className = "badge-abandoned";
-          badge.textContent = "玩法放弃";
-          const meta = card.querySelector(".gp-card-meta");
-          if (meta) meta.insertBefore(badge, meta.firstChild);
-          const head = card.querySelector(".gp-card-head");
-          if (head) {
-            const ab = head.querySelector(".gp-card-ab");
-            if (ab) ab.remove();
-          }
-        } catch (err) {
-          alert("操作失败：" + err.message);
-          btn.disabled = false;
-          btn.textContent = "放弃";
-        }
-      });
-    });
-
     function openValueMenu(btn) {
       const old = document.querySelector(".gp-val-menu");
       if (old) old.remove();
@@ -267,12 +222,12 @@
         ["high", "高价值"],
         ["mid", "中价值"],
         ["low", "低价值"],
-        ["", "不设置"],
+        ["abandoned", "放弃"],
       ];
       for (const [v, label] of opts) {
         const item = document.createElement("button");
         item.type = "button";
-        item.className = "gp-val-menu-item" + ((cur.value || "") === v ? " active" : "");
+        item.className = "gp-val-menu-item" + ((cur.value || "abandoned") === v ? " active" : "");
         item.textContent = label;
         item.addEventListener("click", (ev) => {
           ev.stopPropagation();
@@ -308,7 +263,13 @@
         state.profiles[name] = cur;
         btn.disabled = false;
         btn.className = "gp-card-val " + value;
-        btn.textContent = value === "high" ? "高价值" : value === "mid" ? "中价值" : value === "low" ? "低价值" : "价值";
+        btn.textContent = value === "high" ? "高价值" : value === "mid" ? "中价值" : value === "low" ? "低价值" : "放弃";
+        // 局部更新卡片背板
+        const card = btn.closest(".gp-card");
+        if (card) {
+          const nv = value || "abandoned";
+          card.className = "gp-card v-" + nv;
+        }
         // 同步更新已有筛选的列表数量
         if (state.filter) renderList();
       } catch (err) {
@@ -535,9 +496,7 @@
     $("gp-tags").value = (p.tags || []).join(", ");
     $("gp-notes").value = p.notes || "";
     const valueRadios = document.querySelectorAll('input[name="gp-value"]');
-    valueRadios.forEach((r) => { r.checked = r.value === ((p.value) || ""); });
-    state.abandoned = !!p.abandoned;
-    updateAbandonUI();
+    valueRadios.forEach((r) => { r.checked = r.value === ((p.value) || "abandoned"); });
     renderShots();
   }
 
@@ -565,16 +524,6 @@
     }
   }
 
-  function updateAbandonUI() {
-    const ab = document.getElementById("gp-abandon");
-    const un = document.getElementById("gp-unabandon");
-    if (!ab || !un) return;
-    const a = !!state.abandoned;
-    ab.style.display = a ? "none" : "";
-    un.style.display = a ? "" : "none";
-    const edit = document.getElementById("gp-edit-mode");
-    if (edit) edit.classList.toggle("is-abandoned", a);
-  }
   function renderShots() {
     const box = $("gp-shots");
     box.innerHTML = "";
@@ -611,7 +560,6 @@
       gameplay_desc: $("gp-desc").value.trim(),
       tags: $("gp-tags").value.split(",").map((t) => t.trim()).filter(Boolean),
       notes: $("gp-notes").value.trim(),
-      abandoned: state.abandoned || false,
       value: (document.querySelector('input[name="gp-value"]:checked') || {}).value || "",
     };
     const files = Array.from($("gp-file").files || []);
@@ -719,8 +667,6 @@
     $("gp-view-back").addEventListener("click", backToList);
     $("gp-back").addEventListener("click", backToList);
     $("gp-edit-btn").addEventListener("click", enterEditMode);
-    $("gp-abandon").addEventListener("click", () => { state.abandoned = true; updateAbandonUI(); });
-    $("gp-unabandon").addEventListener("click", () => { state.abandoned = false; updateAbandonUI(); });
     $("gp-clear").addEventListener("click", () => { $("gp-search").value = ""; state.page = 0; renderList(); });
     $("gp-prev").addEventListener("click", () => { if (state.page > 0) { state.page--; renderList(); } });
     $("gp-next").addEventListener("click", () => { state.page++; renderList(); });
