@@ -78,6 +78,14 @@
       border-radius: 4px; border: 1px solid #d6e6f7; }
     .gp-card-pub { font-size: 11px; color: #888; margin-top: 3px; overflow: hidden;
       text-overflow: ellipsis; white-space: nowrap; }
+    .gp-value-pick { display: flex; flex-wrap: wrap; gap: 10px; margin: 4px 0; }
+    .gp-value-pick label { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; font-size: 14px; }
+    .gp-val { padding: 1px 8px; border-radius: 4px; font-size: 12px; font-weight: 600; }
+    .gp-val.high { background: #fde8e8; color: #c0392b; }
+    .gp-val.mid { background: #fef3c7; color: #b7791f; }
+    .gp-val.low { background: #e6e6e6; color: #777; }
+    .gp-card-value { display: inline-block; margin-left: 4px; }
+    #gp-filter { margin-left: 8px; cursor: pointer; }
     .gp-abandon { background: #c0392b; color: #fff; }
     .gp-unabandon { background: transparent; color: var(--brand, #2f6fed); border: 1px solid currentColor !important; }
     .gp-abandon:hover, .gp-unabandon:hover { opacity: .85; }
@@ -166,6 +174,13 @@
     <button id="gp-clear" class="st-btn">清空</button>
     <span class="gp-count" id="gp-count"></span>
     <button id="gp-new" class="st-btn">+ 新建游戏</button>
+    <select id="gp-filter" class="st-btn" title="筛选">
+      <option value="">全部</option>
+      <option value="high">高价值</option>
+      <option value="mid">中价值</option>
+      <option value="low">低价值</option>
+      <option value="abandoned">放弃</option>
+    </select>
   </div>
 
   <section class="panel">
@@ -194,6 +209,13 @@
       <input id="gp-edit-name" type="text" style="display:none" />
       <label>开发商</label>
       <input id="gp-developer" type="text" placeholder="例如：XX网络科技" />
+      <label>玩法价值</label>
+      <div class="gp-value-pick" id="gp-value-pick">
+        <label><input type="radio" name="gp-value" value="high" /> <span class="gp-val high">高价值</span></label>
+        <label><input type="radio" name="gp-value" value="mid" /> <span class="gp-val mid">中价值</span></label>
+        <label><input type="radio" name="gp-value" value="low" /> <span class="gp-val low">低价值</span></label>
+        <label><input type="radio" name="gp-value" value="" /> <span>不设置</span></label>
+      </div>
       <label>玩法描述 <span class="gp-hint">(Markdown)</span></label>
       <div class="md-editor">
         <div class="md-toolbar" id="gp-md-toolbar">
@@ -247,7 +269,7 @@
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
-  <script src="game-profile.js?v=34"></script>
+  <script src="game-profile.js?v=35"></script>
   <div id="gp-lightbox" class="gp-lightbox" style="display:none" onclick="this.style.display='none'"><img src="" alt="" /></div>
 </body>
 </html>

@@ -1,0 +1,1 @@
+ALTER TABLE game_profiles ADD COLUMN IF NOT EXISTS value text NOT NULL DEFAULT '';

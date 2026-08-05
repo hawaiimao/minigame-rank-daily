@@ -16,6 +16,7 @@
     abandoned: false,
     boardMap: {},        // name -> board_history
     page: 0,             // 列表当前页
+    filter: "",           // 价值/放弃筛选
   };
 
   const $ = (id) => document.getElementById(id);
@@ -74,6 +75,7 @@
         tags: (p && p.tags) || [],
         updated: (p && p.updated_at) || "",
         abandoned: !!(p && p.abandoned),
+        value: (p && p.value) || "",
         category: g.category || "",
         publisher: (g.publisher_name || (p && p.developer) || ""),
         joined: g.first_seen_at || "",
@@ -145,10 +147,16 @@
 
   function renderList() {
     const q = $("gp-search").value.trim().toLowerCase();
-    const filtered = q
+    let filtered = q
       ? state.list.filter((r) =>
           r.name.toLowerCase().includes(q) || r.developer.toLowerCase().includes(q))
       : state.list;
+    const f = state.filter;
+    if (f === "high" || f === "mid" || f === "low") {
+      filtered = filtered.filter((r) => r.value === f);
+    } else if (f === "abandoned") {
+      filtered = filtered.filter((r) => r.abandoned);
+    }
     const box = $("gp-list");
     box.innerHTML = "";
     $("gp-count").textContent = `共 ${filtered.length} 款（已建档 ${filtered.filter((r) => r.has).length}）`;
@@ -180,7 +188,7 @@
         ${thumb}
         <div class="gp-card-body">
           <div class="gp-card-head">
-            <div class="gp-card-name">${esc(r.name)}${r.has ? '<span class="badge-has">已建档</span>' : ""}</div>
+            <div class="gp-card-name">${esc(r.name)}${r.has ? '<span class="badge-has">已建档</span>' : ""}${r.value ? `<span class="gp-val ${esc(r.value)} gp-card-value">${r.value === "high" ? "高价值" : r.value === "mid" ? "中价值" : "低价值"}</span>` : ""}</div>
             ${r.abandoned ? "" : '<button class="gp-card-ab" data-name="' + esc(r.name) + '" title="放弃此产品">放弃</button>'}
           </div>
           ${srcLine}
@@ -238,6 +246,12 @@
   }
   document.getElementById("gp-page-go").addEventListener("click", jumpToPage);
   document.getElementById("gp-new").addEventListener("click", startNewGame);
+  const filterSel = document.getElementById("gp-filter");
+  if (filterSel) filterSel.addEventListener("change", () => {
+    state.filter = filterSel.value;
+    state.page = 0;
+    renderList();
+  });
   document.getElementById("gp-page-input").addEventListener("keydown", (e) => {
     if (e.key === "Enter") jumpToPage();
   });
@@ -446,6 +460,8 @@
     $("gp-desc").value = p.gameplay_desc || "";
     $("gp-tags").value = (p.tags || []).join(", ");
     $("gp-notes").value = p.notes || "";
+    const valueRadios = document.querySelectorAll('input[name="gp-value"]');
+    valueRadios.forEach((r) => { r.checked = r.value === ((p.value) || ""); });
     state.abandoned = !!p.abandoned;
     updateAbandonUI();
     renderShots();
@@ -522,6 +538,7 @@
       tags: $("gp-tags").value.split(",").map((t) => t.trim()).filter(Boolean),
       notes: $("gp-notes").value.trim(),
       abandoned: state.abandoned || false,
+      value: (document.querySelector('input[name="gp-value"]:checked') || {}).value || "",
     };
     const files = Array.from($("gp-file").files || []);
     $("gp-status").textContent = files.length ? "保存并上传中…" : "保存中…";

@@ -134,6 +134,7 @@ Deno.serve(async (req) => {
       tags: Array.isArray(body.tags) ? body.tags.map(String) : [],
       notes: String(body.notes || ""),
       abandoned: body.abandoned === true,
+      value: ["high", "mid", "low"].includes(body.value) ? body.value : "",
     };
     const { error } = await sb.from("game_profiles").upsert(row, { onConflict: "game_name" });
     if (error) throw error;
