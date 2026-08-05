@@ -222,9 +222,9 @@
             <div class="gp-card-name">${esc(r.name)}${r.has ? '<span class="badge-has">已建档</span>' : ""}</div>
             ${actBtns}
           </div>
-          ${srcLine}
           ${dev}
           ${tags ? `<div class="gp-card-tags">${tags}</div>` : ""}
+          ${srcLine}
           <div class="gp-card-meta">${meta}</div>
         </div>`;
       card.addEventListener("click", () => { if (isEditor()) showEdit(r.name); else showView(r.name); });
