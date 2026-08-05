@@ -777,7 +777,7 @@
     $("gp-save").addEventListener("click", save);
     $("gp-view-back").addEventListener("click", backToList);
     $("gp-back").addEventListener("click", backToList);
-    addEventListener("click", () => { if (!isEditor()) { if (window.Auth) window.Auth.openModal(); return; } enterEditMode(); });
+    $("gp-edit-btn").addEventListener("click", () => { if (!isEditor()) { if (window.Auth) window.Auth.openModal(); return; } enterEditMode(); });
     $("gp-clear").addEventListener("click", () => { $("gp-search").value = ""; state.page = 0; renderList(); });
     $("gp-prev").addEventListener("click", () => { if (state.page > 0) { state.page--; renderList(); } });
     $("gp-next").addEventListener("click", () => { state.page++; renderList(); });
