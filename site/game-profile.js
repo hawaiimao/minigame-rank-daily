@@ -766,6 +766,12 @@
   function init() {
     initMdEditor();
     if (window.Auth && window.Auth.bind) window.Auth.bind();
+    if (window.Auth && window.Auth.onAuthChange) {
+      window.Auth.onAuthChange(() => {
+        renderAuthUI();
+        if (state.games && state.games.length) renderList();
+      });
+    }
     $("gp-save").addEventListener("click", save);
     $("gp-view-back").addEventListener("click", backToList);
     $("gp-back").addEventListener("click", backToList);
