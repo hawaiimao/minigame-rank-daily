@@ -188,8 +188,11 @@
         ${thumb}
         <div class="gp-card-body">
           <div class="gp-card-head">
-            <div class="gp-card-name">${esc(r.name)}${r.has ? '<span class="badge-has">已建档</span>' : ""}${r.value ? `<span class="gp-val ${esc(r.value)} gp-card-value">${r.value === "high" ? "高价值" : r.value === "mid" ? "中价值" : "低价值"}</span>` : ""}</div>
-            ${r.abandoned ? "" : '<button class="gp-card-ab" data-name="' + esc(r.name) + '" title="放弃此产品">放弃</button>'}
+            <div class="gp-card-name">${esc(r.name)}${r.has ? '<span class="badge-has">已建档</span>' : ""}</div>
+            <div class="gp-card-actions">
+              <button class="gp-card-val ${esc(r.value)}" data-name="${esc(r.name)}" title="设置玩法价值">${r.value === "high" ? "高价值" : r.value === "mid" ? "中价值" : r.value === "low" ? "低价值" : "价值"}</button>
+              ${r.abandoned ? "" : '<button class="gp-card-ab" data-name="' + esc(r.name) + '" title="放弃此产品">放弃</button>'}
+            </div>
           </div>
           ${srcLine}
           ${dev}
@@ -199,6 +202,13 @@
       card.addEventListener("click", () => showEdit(r.name));
       box.appendChild(card);
     }
+    // 卡片上的价值按钮: 点击弹出高/中/低选项,局部更新
+    box.querySelectorAll(".gp-card-val").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        openValueMenu(btn);
+      });
+    });
     // 卡片上的放弃按钮: 局部更新单张卡片,不重建整个列表
     box.querySelectorAll(".gp-card-ab").forEach((btn) => {
       btn.addEventListener("click", async (e) => {
@@ -242,6 +252,70 @@
         }
       });
     });
+
+    function openValueMenu(btn) {
+      const old = document.querySelector(".gp-val-menu");
+      if (old) old.remove();
+      const name = btn.dataset.name;
+      const cur = state.profiles[name] || { game_name: name, developer: "", gameplay_desc: "", tags: [], notes: "", value: "" };
+      const r = btn.getBoundingClientRect();
+      const menu = document.createElement("div");
+      menu.className = "gp-val-menu";
+      menu.style.top = (r.bottom + 4) + "px";
+      menu.style.left = Math.max(4, r.left) + "px";
+      const opts = [
+        ["high", "高价值"],
+        ["mid", "中价值"],
+        ["low", "低价值"],
+        ["", "不设置"],
+      ];
+      for (const [v, label] of opts) {
+        const item = document.createElement("button");
+        item.type = "button";
+        item.className = "gp-val-menu-item" + ((cur.value || "") === v ? " active" : "");
+        item.textContent = label;
+        item.addEventListener("click", (ev) => {
+          ev.stopPropagation();
+          menu.remove();
+          setCardValue(btn, name, v);
+        });
+        menu.appendChild(item);
+      }
+      document.body.appendChild(menu);
+      const close = (ev) => {
+        if (!menu.contains(ev.target)) menu.remove();
+        document.removeEventListener("click", close);
+      };
+      setTimeout(() => document.addEventListener("click", close), 0);
+    }
+
+    async function setCardValue(btn, name, value) {
+      const cur = state.profiles[name] || { game_name: name, developer: "", gameplay_desc: "", tags: [], notes: "", value: "" };
+      btn.disabled = true;
+      try {
+        const resp = await fetch(FN_URL, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
+            "x-client-info": ADMIN_KEY,
+          },
+          body: JSON.stringify({ ...cur, value }),
+        });
+        const data = await resp.json().catch(() => ({}));
+        if (!resp.ok || !data.ok) throw new Error(data.error || ("HTTP " + resp.status));
+        cur.value = value;
+        state.profiles[name] = cur;
+        btn.disabled = false;
+        btn.className = "gp-card-val " + value;
+        btn.textContent = value === "high" ? "高价值" : value === "mid" ? "中价值" : value === "low" ? "低价值" : "价值";
+        // 同步更新已有筛选的列表数量
+        if (state.filter) renderList();
+      } catch (err) {
+        alert("操作失败：" + err.message);
+        btn.disabled = false;
+      }
+    }
     renderPager(filtered.length, totalPages);
   }
   document.getElementById("gp-page-go").addEventListener("click", jumpToPage);
