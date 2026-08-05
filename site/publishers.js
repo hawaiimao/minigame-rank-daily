@@ -314,10 +314,12 @@ function shortBoard(key) {
 
 function statusButtonsHTML(name, cur) {
   const pending = state.pending.has(name);
+  const editable = window.Auth ? window.Auth.isEditor() : false;
+  const disabled = editable ? "" : " disabled";
   return `<div class="status-buttons ${pending ? 'is-pending' : ''}">${
     STATUS_ORDER.map(s => {
       const active = s === cur ? "active" : "";
-      return `<button class="st-btn st-${s} ${active}" data-name="${escapeAttr(name)}" data-status="${s}">${STATUS_LABEL[s]}</button>`;
+      return `<button class="st-btn st-${s} ${active}" data-name="${escapeAttr(name)}" data-status="${s}"${disabled}>${STATUS_LABEL[s]}</button>`;
     }).join("")
   }</div>`;
 }
