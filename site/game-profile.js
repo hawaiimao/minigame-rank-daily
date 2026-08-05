@@ -221,7 +221,7 @@
         ${thumb}
         <div class="gp-card-body">
           <div class="gp-card-head">
-            <div class="gp-card-name">${esc(r.name)}${r.has ? '<span class="badge-has">已建档</span>' : ""}</div>
+            <div class="gp-card-name">${esc(r.name)}${r.has ? '<span class="badge-has">已建档</span>' : '<span class="badge-no">未建档</span>'}</div>
             ${actBtns}
           </div>
           ${dev}
