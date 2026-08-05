@@ -51,7 +51,7 @@
     .gp-empty { color: #999; padding: 30px 0; text-align: center; }
 
     /* 编辑视图 */
-    .gp-form { max-width: 720px; }
+    .gp-form { max-width: none; width: 100%; box-sizing: border-box; }
     .gp-form label { display: block; font-weight: 600; margin: 14px 0 6px; }
     .gp-form input[type="text"], .gp-form textarea {
       width: 100%; padding: 8px 10px; border: 1px solid var(--border, #ddd);
@@ -128,8 +128,8 @@
     .gp-unabandon { background: transparent; color: var(--brand, #2f6fed); border: 1px solid currentColor !important; }
     .gp-abandon:hover, .gp-unabandon:hover { opacity: .85; }
         .md-editor { margin-top: 10px; width: 100%; }
-    .md-editor textarea { width: 100%; min-height: 260px; resize: vertical; font-size: 14px; line-height: 1.7;
-      padding: 10px 12px; border: 1px solid var(--border, #ddd); border-radius: 6px; font: inherit;
+    .md-editor textarea { width: 100%; min-height: 300px; resize: vertical; font-size: 14px; line-height: 1.7;
+      padding: 12px 14px; border: 1px solid var(--border, #ddd); border-radius: 6px; font: inherit;
       background: var(--bg2, #fff); color: inherit; box-sizing: border-box; }
     .md-editor .md-preview { width: 100%; box-sizing: border-box; }
     .md-toolbar { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; margin-bottom: 6px; }
@@ -166,8 +166,10 @@
     .gp-upload { margin-top: 10px; }
     .gp-upload input[type="file"] { margin-right: 10px; }
     .gp-actions { margin-top: 18px; display: flex; gap: 10px; align-items: center; }
-    .gp-actions button { padding: 8px 18px; border: none; border-radius: 6px; cursor: pointer; font: inherit; }
-    .gp-back { background: transparent; color: var(--brand, #2f6fed); border: 1px solid currentColor !important; }
+    .gp-actions button { padding: 5px 12px; border: none; border-radius: 6px; cursor: pointer; font: inherit;
+      font-size: 13px; line-height: 1.5; }
+    .gp-back { background: #f3f4f6; color: #555; border: 1px solid #e5e7eb !important; }
+    .gp-back:hover { background: #e9eaed; color: #333; }
     .gp-save { background: var(--brand, #2f6fed); color: #fff; }
     .gp-save:disabled { opacity: .5; cursor: not-allowed; }
     .gp-status { margin-top: 10px; font-size: 14px; color: #666; min-height: 20px; }
@@ -185,12 +187,12 @@
     .gp-view-name-wrap { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
     .gp-board-tag { font-size: 12px; background: var(--brand-tint, #eef4ff); color: var(--brand, #2f6fed);
       padding: 2px 8px; border-radius: 4px; font-weight: 500; white-space: nowrap; }
-    .gp-pager { display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 16px; }
-    .gp-pager button { padding: 6px 14px; border: 1px solid var(--border, #ddd); border-radius: 6px;
-      background: var(--bg2, #fff); cursor: pointer; font: inherit; color: inherit; }
+    .gp-pager { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 16px; }
+    .gp-pager button { padding: 4px 12px; border: 1px solid #e5e7eb; border-radius: 6px;
+      background: #fafafa; cursor: pointer; font: inherit; font-size: 12px; line-height: 1.6; color: #555; }
+    .gp-pager button:hover:not(:disabled) { border-color: var(--brand, #2f6fed); color: var(--brand, #2f6fed); background: #fff; }
     .gp-pager button:disabled { opacity: .4; cursor: not-allowed; }
-    .gp-pager button:not(:disabled):hover { border-color: var(--brand, #2f6fed); color: var(--brand, #2f6fed); }
-    .gp-pager .gp-page-info { font-size: 13px; color: #666; }
+    .gp-pager .gp-page-info { font-size: 12px; color: #888; }
     .gp-page-jump { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: #666; }
     .gp-page-jump input { width: 56px; padding: 4px 6px; border: 1px solid var(--border, #ddd);
       border-radius: 5px; font: inherit; color: inherit; text-align: center; }
@@ -301,7 +303,7 @@
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
-  <script src="game-profile.js?v=45"></script>
+  <script src="game-profile.js?v=46"></script>
   <div id="gp-lightbox" class="gp-lightbox" style="display:none" onclick="this.style.display='none'"><img src="" alt="" /></div>
 </body>
 </html>
