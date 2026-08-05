@@ -194,15 +194,13 @@
         <div class="gp-card-body">
           <div class="gp-card-head">
             <div class="gp-card-name">${esc(r.name)}${r.has ? '<span class="badge-has">已建档</span>' : ""}</div>
-            <div class="gp-card-actions">
-              <button class="gp-card-fav${r.favorite ? " on" : ""}" data-name="${esc(r.name)}" title="收藏">❤</button>
-              <button class="gp-card-val ${esc(effVal)}" data-name="${esc(r.name)}" title="设置玩法状态">${effVal === "high" ? "高价值" : effVal === "mid" ? "中价值" : effVal === "low" ? "低价值" : "放弃"}</button>
-            </div>
+            <button class="gp-card-fav${r.favorite ? " on" : ""}" data-name="${esc(r.name)}" title="收藏">❤</button>
           </div>
           ${srcLine}
           ${dev}
           ${tags ? `<div class="gp-card-tags">${tags}</div>` : ""}
           <div class="gp-card-meta">${meta}</div>
+          <button class="gp-card-val ${esc(effVal)}" data-name="${esc(r.name)}" title="设置玩法状态">${effVal === "high" ? "高价值" : effVal === "mid" ? "中价值" : effVal === "low" ? "低价值" : "放弃"}</button>
         </div>`;
       card.addEventListener("click", () => showEdit(r.name));
       box.appendChild(card);
