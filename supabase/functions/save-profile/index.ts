@@ -12,13 +12,8 @@ Deno.serve(async (req) => {
     return new Response("Method not allowed", { status: 405, headers: cors });
   }
 
-  // Auth: caller must present X-Profile-Key matching ADMIN_KEY.
-  const adminKey = Deno.env.get("PROFILE_ADMIN_KEY") || "";
-  const got = req.headers.get("x-client-info") || "";
-  if (!adminKey || got !== adminKey) {
-    return new Response("Unauthorized", { status: 401, headers: cors });
-  }
-
+  // Auth: prefer a signed-in editor JWT; fall back to the legacy
+  // X-Profile-Key (PROFILE_ADMIN_KEY) for compatibility.
   const supabaseUrl = Deno.env.get("SUPABASE_URL") || "";
   const serviceKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") || "";
   if (!supabaseUrl || !serviceKey) {
@@ -27,6 +22,32 @@ Deno.serve(async (req) => {
   const sb = createClient(supabaseUrl, serviceKey, {
     auth: { persistSession: false },
   });
+
+  const authHeader = req.headers.get("authorization") || "";
+  const jwt = authHeader.startsWith("Bearer ") ? authHeader.slice(7).trim() : "";
+  const adminKey = Deno.env.get("PROFILE_ADMIN_KEY") || "";
+  const legacyKey = req.headers.get("x-client-info") || "";
+
+  if (jwt) {
+    // Verify the user JWT and require the editor role.
+    const { data: user, error: userErr } = await sb.auth.getUser(jwt);
+    if (userErr || !user || !user.user) {
+      return new Response("Unauthorized", { status: 401, headers: cors });
+    }
+    const { data: prof, error: profErr } = await sb
+      .from("profiles")
+      .select("role")
+      .eq("user_id", user.user.id)
+      .maybeSingle();
+    if (profErr) {
+      return new Response("Unauthorized", { status: 401, headers: cors });
+    }
+    if (!prof || prof.role !== "editor") {
+      return new Response("Forbidden: viewer account cannot write", { status: 403, headers: cors });
+    }
+  } else if (!adminKey || legacyKey !== adminKey) {
+    return new Response("Unauthorized", { status: 401, headers: cors });
+  }
 
   const ct = req.headers.get("content-type") || "";
   try {

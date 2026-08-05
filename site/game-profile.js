@@ -4,6 +4,7 @@
 (function () {
   const FN_URL = "https://pjwwwxanhtvzkscumedm.supabase.co/functions/v1/save-profile";
   const ADMIN_KEY = (window.APP_CONFIG && window.APP_CONFIG.PROFILE_ADMIN_KEY) || "";
+  const SB_URL = (window.APP_CONFIG && window.APP_CONFIG.SUPABASE_URL) || "";
 
   const state = {
     games: [],        // [{name}]
@@ -18,6 +19,8 @@
     page: 0,             // 列表当前页
     filter: "",           // 价值/放弃筛选
     favOnly: false,       // 我的收藏模式
+    auth: null,           // { token, user } 登录态
+    role: "viewer",       // editor | viewer
   };
 
   const $ = (id) => document.getElementById(id);
@@ -189,6 +192,8 @@
       const meta = r.has
         ? (joinedLine || "已建档")
         : joinedLine || "未建档";
+      const actBtns = isEditor() ? `
+            ${actBtns}` : "";
       card.innerHTML = `
         ${thumb}
         <div class="gp-card-body">
@@ -202,7 +207,7 @@
           ${tags ? `<div class="gp-card-tags">${tags}</div>` : ""}
           <div class="gp-card-meta">${meta}</div>
         </div>`;
-      card.addEventListener("click", () => showEdit(r.name));
+      card.addEventListener("click", () => { if (isEditor()) showEdit(r.name); else showView(r.name); });
       box.appendChild(card);
     }
     // 卡片上的收藏按钮: 局部切换心形状态
@@ -218,8 +223,8 @@
             method: "POST",
             headers: {
               "Content-Type": "application/json",
-              "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
-              "x-client-info": ADMIN_KEY,
+
+              ...authHeaders(),
             },
             body: JSON.stringify({ ...cur, favorite: next }),
           });
@@ -289,8 +294,7 @@
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
-            "x-client-info": ADMIN_KEY,
+            ...authHeaders(),
           },
           body: JSON.stringify({ ...cur, value }),
         });
@@ -341,6 +345,7 @@
   });
 
   function showEdit(name) {
+    if (!isEditor()) { showView(name); return; }
     state.current = name;
     state.isNew = false;
     $("gp-toolbar").style.display = "none";
@@ -360,7 +365,36 @@
     $("gp-status").textContent = "";
   }
 
+
+  function showView(name) {
+    state.current = name;
+    state.isNew = false;
+    $("gp-toolbar").style.display = "none";
+    $("gp-list").style.display = "none";
+    $("gp-form").style.display = "block";
+    document.getElementById("gp-view").style.display = "none";
+    document.getElementById("gp-edit-mode").style.display = "none";
+    const p = state.profiles[name] || null;
+    if (p) {
+      renderView(p);
+    } else {
+      const view = document.getElementById("gp-view");
+      view.style.display = "block";
+      view.querySelector(".gp-view-name").textContent = name;
+      setBoardTag("gp-view-board", name);
+      const dl = view.querySelector(".gp-view-fields");
+      dl.innerHTML = "";
+      const dt = document.createElement("dt"); dt.textContent = "??";
+      const dd = document.createElement("dd"); dd.textContent = "??? ? ??????????????";
+      dl.appendChild(dt); dl.appendChild(dd);
+      renderViewShots(name);
+      document.getElementById("gp-edit-mode").style.display = "none";
+    }
+    $("gp-status").textContent = "";
+  }
+
   function startNewGame() {
+    if (!isEditor()) { alert("?????????????????"); return; }
     const name = prompt("输入新游戏名称:");
     if (!name || !name.trim()) return;
     state.current = name.trim();
@@ -401,6 +435,8 @@
     }
     renderViewShots(p.game_name);
     document.getElementById("gp-edit-mode").style.display = "none";
+    const editBtn = document.getElementById("gp-edit-btn");
+    if (editBtn) editBtn.style.display = isEditor() ? "" : "none";
   }
 
   function renderMarkdown(src) {
@@ -527,6 +563,7 @@
   }
 
   function enterEditMode() {
+    if (!isEditor()) { backToList(); return; }
     const p = state.profiles[state.current] || { game_name: state.current, developer: "", gameplay_desc: "", tags: [], notes: "" };
     document.getElementById("gp-view").style.display = "none";
     const edit = document.getElementById("gp-edit-mode");
@@ -557,8 +594,8 @@
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
-          "x-client-info": ADMIN_KEY,
+
+          ...authHeaders(),
         },
         body: JSON.stringify({ action: "delete_shot", url: s.url }),
       });
@@ -600,6 +637,7 @@
   }
 
   async function save() {
+    if (!isEditor()) { $("gp-status").textContent = "???????????????"; return; }
     const nameBox = document.getElementById("gp-edit-name");
     let targetName = state.current;
     if (state.isNew && nameBox && nameBox.value.trim()) targetName = nameBox.value.trim();
@@ -620,8 +658,7 @@
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
-            "x-client-info": ADMIN_KEY,
+            ...authHeaders(),
           },
           body: JSON.stringify({ action: "create_game", name: targetName }),
         });
@@ -633,8 +670,8 @@
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
-          "x-client-info": ADMIN_KEY,
+
+          ...authHeaders(),
         },
         body: JSON.stringify(body),
       });
@@ -651,8 +688,7 @@
         const upResp = await fetch(FN_URL, {
           method: "POST",
           headers: {
-            "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
-            "x-client-info": ADMIN_KEY,
+            ...authHeaders(),
           },
           body: fd,
         });
@@ -710,8 +746,225 @@
     buildList();
   }
 
+
+  // ---------- 登录 / 权限 ----------
+  function isEditor() { return state.role === "editor"; }
+
+  function authHeaders() {
+    if (state.auth && state.auth.token) return { "Authorization": "Bearer " + state.auth.token };
+    return { "x-client-info": ADMIN_KEY };
+  }
+
+  function renderAuthUI() {
+    const slot = document.getElementById("gp-auth-slot");
+    if (!slot) return;
+    if (state.auth && state.auth.user) {
+      slot.innerHTML = '<span class="gp-user-chip"><span>' + esc(state.auth.user.email || "") + '</span><button type="button" class="gp-auth-btn" id="gp-logout">退出</button></span>';
+      const lo = document.getElementById("gp-logout");
+      if (lo) lo.addEventListener("click", logout);
+    } else {
+      slot.innerHTML = '<button type="button" class="gp-auth-btn" id="gp-login-btn">登录</button>';
+      const lb = document.getElementById("gp-login-btn");
+      if (lb) lb.addEventListener("click", openAuthModal);
+    }
+  }
+
+  function openAuthModal() {
+    document.getElementById("gp-auth-overlay").style.display = "flex";
+    document.getElementById("gp-auth-err").textContent = "";
+    document.getElementById("gp-auth-email").focus();
+  }
+  function closeAuthModal() {
+    document.getElementById("gp-auth-overlay").style.display = "none";
+  }
+
+  async function doLogin() {
+    const email = document.getElementById("gp-auth-email").value.trim();
+    const pass = document.getElementById("gp-auth-pass").value;
+    const err = document.getElementById("gp-auth-err");
+    if (!email || !pass) { err.textContent = "请输入邮箱和密码"; return; }
+    err.textContent = "登录中…";
+    try {
+      const resp = await fetch(SB_URL + "/auth/v1/token?grant_type=password", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "apikey": window.APP_CONFIG.SUPABASE_KEY },
+        body: JSON.stringify({ email: email, password: pass }),
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok) throw new Error(data.error_description || data.msg || ("HTTP " + resp.status));
+      const token = data.access_token;
+      // 获取角色
+      const me = await fetch(SB_URL + "/auth/v1/user", {
+        headers: { "Authorization": "Bearer " + token, "apikey": window.APP_CONFIG.SUPABASE_KEY },
+      }).then((r) => r.json()).catch(() => ({}));
+      const uid = (me && me.id) || data.user.id;
+      const emailAddr = (me && me.email) || data.user.email;
+      state.auth = { token: token, user: { id: uid, email: emailAddr } };
+      // 查角色: 先试 profiles 表, 失败默认 viewer
+      let role = "viewer";
+      try {
+        const prof = await fetch(SB_URL + "/rest/v1/profiles?user_id=eq." + encodeURIComponent(uid) + "&select=role", {
+          headers: { "Authorization": "Bearer " + token, "apikey": window.APP_CONFIG.SUPABASE_KEY },
+        }).then((r) => r.json()).catch(() => ({}));
+        if (Array.isArray(prof) && prof.length) role = prof[0].role;
+      } catch (e) { /* 忽略 */ }
+      state.role = role;
+      try { localStorage.setItem("gp_auth", JSON.stringify(state.auth)); } catch (e) {}
+      renderAuthUI();
+      closeAuthModal();
+      // 回到列表
+      backToList();
+      if (typeof loadAll === "function") loadAll();
+    } catch (err) {
+      err.textContent = "登录失败：" + err.message;
+    }
+  }
+
+  function logout() {
+    state.auth = null;
+    state.role = "viewer";
+    try { localStorage.removeItem("gp_auth"); } catch (e) {}
+    renderAuthUI();
+    backToList();
+    if (typeof loadAll === "function") loadAll();
+  }
+
+  async function restoreAuth() {
+    let saved = null;
+    try { saved = JSON.parse(localStorage.getItem("gp_auth") || "null"); } catch (e) {}
+    if (!saved || !saved.token) { renderAuthUI(); return; }
+    // 验证 token 仍有效
+    try {
+      const me = await fetch(SB_URL + "/auth/v1/user", {
+        headers: { "Authorization": "Bearer " + saved.token, "apikey": window.APP_CONFIG.SUPABASE_KEY },
+      });
+      if (me.ok) {
+        const u = await me.json();
+        state.auth = { token: saved.token, user: { id: u.id, email: u.email } };
+        let role = "viewer";
+        try {
+          const prof = await fetch(SB_URL + "/rest/v1/profiles?user_id=eq." + encodeURIComponent(u.id) + "&select=role", {
+            headers: { "Authorization": "Bearer " + saved.token, "apikey": window.APP_CONFIG.SUPABASE_KEY },
+          }).then((r) => r.json()).catch(() => ({}));
+          if (Array.isArray(prof) && prof.length) role = prof[0].role;
+        } catch (e) {}
+        state.role = role;
+      }
+    } catch (e) {}
+    renderAuthUI();
+  }
+
+
+  // ---------- ?? / ?? ----------
+  function isEditor() { return state.role === "editor"; }
+
+  // ??????: ???? JWT, ???? admin key(??)
+  function authHeaders() {
+    if (state.auth && state.auth.token) return { "Authorization": "Bearer " + state.auth.token };
+    return { "x-client-info": ADMIN_KEY };
+  }
+
+  function renderAuthUI() {
+    const slot = document.getElementById("gp-auth-slot");
+    if (!slot) return;
+    const nb = document.getElementById("gp-new");
+    if (nb) nb.style.display = isEditor() ? "" : "none";
+    if (state.auth && state.auth.user) {
+      slot.innerHTML = '<span class="gp-user-chip"><span>' + esc(state.auth.user.email || "") + '</span><button type="button" class="gp-auth-btn" id="gp-logout">??</button></span>';
+      const lo = document.getElementById("gp-logout");
+      if (lo) lo.addEventListener("click", logout);
+    } else {
+      slot.innerHTML = '<button type="button" class="gp-auth-btn" id="gp-login-btn">??</button>';
+      const lb = document.getElementById("gp-login-btn");
+      if (lb) lb.addEventListener("click", openAuthModal);
+    }
+  }
+
+  function openAuthModal() {
+    document.getElementById("gp-auth-overlay").style.display = "flex";
+    document.getElementById("gp-auth-err").textContent = "";
+    document.getElementById("gp-auth-email").focus();
+  }
+  function closeAuthModal() {
+    document.getElementById("gp-auth-overlay").style.display = "none";
+  }
+
+  async function fetchRole(token, uid) {
+    try {
+      const resp = await fetch(SB_URL + "/rest/v1/profiles?user_id=eq." + encodeURIComponent(uid) + "&select=role", {
+        headers: { "Authorization": "Bearer " + token, "apikey": window.APP_CONFIG.SUPABASE_KEY },
+      });
+      if (!resp.ok) return "viewer";
+      const arr = await resp.json();
+      return (Array.isArray(arr) && arr.length && arr[0].role) || "viewer";
+    } catch (e) { return "viewer"; }
+  }
+
+  async function doLogin() {
+    const email = document.getElementById("gp-auth-email").value.trim();
+    const pass = document.getElementById("gp-auth-pass").value;
+    const errBox = document.getElementById("gp-auth-err");
+    if (!email || !pass) { errBox.textContent = "????????"; return; }
+    errBox.textContent = "????";
+    try {
+      const resp = await fetch(SB_URL + "/auth/v1/token?grant_type=password", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "apikey": window.APP_CONFIG.SUPABASE_KEY },
+        body: JSON.stringify({ email: email, password: pass }),
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok) throw new Error(data.error_description || data.msg || ("HTTP " + resp.status));
+      const token = data.access_token;
+      const uid = (data.user && data.user.id) || "";
+      const uemail = (data.user && data.user.email) || email;
+      const role = await fetchRole(token, uid);
+      state.auth = { token: token, user: { id: uid, email: uemail } };
+      state.role = role;
+      try { localStorage.setItem("gp_auth", JSON.stringify(state.auth)); } catch (e) {}
+      renderAuthUI();
+      closeAuthModal();
+      backToList();
+      reloadList();
+      if (role !== "editor") alert("????????????????????");
+    } catch (err) {
+      errBox.textContent = "?????" + err.message;
+    }
+  }
+
+  function logout() {
+    state.auth = null;
+    state.role = "viewer";
+    try { localStorage.removeItem("gp_auth"); } catch (e) {}
+    renderAuthUI();
+    backToList();
+    reloadList();
+  }
+
+  async function restoreAuth() {
+    let saved = null;
+    try { saved = JSON.parse(localStorage.getItem("gp_auth") || "null"); } catch (e) {}
+    if (!saved || !saved.token) { renderAuthUI(); return; }
+    try {
+      const me = await fetch(SB_URL + "/auth/v1/user", {
+        headers: { "Authorization": "Bearer " + saved.token, "apikey": window.APP_CONFIG.SUPABASE_KEY },
+      });
+      if (me.ok) {
+        const u = await me.json();
+        state.auth = { token: saved.token, user: { id: u.id, email: u.email } };
+        state.role = await fetchRole(saved.token, u.id);
+      }
+    } catch (e) {}
+    renderAuthUI();
+  }
+
   function init() {
     initMdEditor();
+    const loginBtn = document.getElementById("gp-auth-login");
+    if (loginBtn) loginBtn.addEventListener("click", doLogin);
+    const cancelBtn = document.getElementById("gp-auth-cancel");
+    if (cancelBtn) cancelBtn.addEventListener("click", closeAuthModal);
+    const overlay = document.getElementById("gp-auth-overlay");
+    if (overlay) overlay.addEventListener("click", (e) => { if (e.target === overlay) closeAuthModal(); });
     $("gp-save").addEventListener("click", save);
     $("gp-view-back").addEventListener("click", backToList);
     $("gp-back").addEventListener("click", backToList);
@@ -724,6 +977,7 @@
 
   (async function () {
     init();
+    await restoreAuth();
     try {
       await loadAll();
       $("gp-loading").style.display = "none";
