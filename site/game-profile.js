@@ -17,6 +17,7 @@
     boardMap: {},        // name -> board_history
     page: 0,             // 列表当前页
     filter: "",           // 价值/放弃筛选
+    favOnly: false,       // 我的收藏模式
   };
 
   const $ = (id) => document.getElementById(id);
@@ -75,6 +76,7 @@
         tags: (p && p.tags) || [],
         updated: (p && p.updated_at) || "",
         value: (p && p.value) || "",
+        favorite: !!(p && p.favorite),
         abandoned: !p || !["high", "mid", "low"].includes(p.value),
         category: g.category || "",
         publisher: (g.publisher_name || (p && p.developer) || ""),
@@ -151,6 +153,9 @@
       ? state.list.filter((r) =>
           r.name.toLowerCase().includes(q) || r.developer.toLowerCase().includes(q))
       : state.list;
+    if (state.favOnly) {
+      filtered = filtered.filter((r) => r.favorite);
+    }
     const f = state.filter;
     if (f === "high" || f === "mid" || f === "low") {
       filtered = filtered.filter((r) => r.value === f);
@@ -190,6 +195,7 @@
           <div class="gp-card-head">
             <div class="gp-card-name">${esc(r.name)}${r.has ? '<span class="badge-has">已建档</span>' : ""}</div>
             <div class="gp-card-actions">
+              <button class="gp-card-fav${r.favorite ? " on" : ""}" data-name="${esc(r.name)}" title="收藏">❤</button>
               <button class="gp-card-val ${esc(effVal)}" data-name="${esc(r.name)}" title="设置玩法状态">${effVal === "high" ? "高价值" : effVal === "mid" ? "中价值" : effVal === "low" ? "低价值" : "放弃"}</button>
             </div>
           </div>
@@ -201,6 +207,39 @@
       card.addEventListener("click", () => showEdit(r.name));
       box.appendChild(card);
     }
+    // 卡片上的收藏按钮: 局部切换心形状态
+    box.querySelectorAll(".gp-card-fav").forEach((btn) => {
+      btn.addEventListener("click", async (e) => {
+        e.stopPropagation();
+        const name = btn.dataset.name;
+        const cur = state.profiles[name] || { game_name: name, developer: "", gameplay_desc: "", tags: [], notes: "", value: "", favorite: false };
+        const next = !cur.favorite;
+        btn.disabled = true;
+        try {
+          const resp = await fetch(FN_URL, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              "Authorization": "Bearer " + (window.APP_CONFIG.SUPABASE_KEY || ""),
+              "x-client-info": ADMIN_KEY,
+            },
+            body: JSON.stringify({ ...cur, favorite: next }),
+          });
+          const data = await resp.json().catch(() => ({}));
+          if (!resp.ok || !data.ok) throw new Error(data.error || ("HTTP " + resp.status));
+          cur.favorite = next;
+          state.profiles[name] = cur;
+          const row = state.list.find((x) => x.name === name);
+          if (row) row.favorite = next;
+          btn.disabled = false;
+          btn.classList.toggle("on", next);
+          if (state.favOnly) renderList();
+        } catch (err) {
+          alert("操作失败：" + err.message);
+          btn.disabled = false;
+        }
+      });
+    });
     // 卡片上的价值按钮: 点击弹出高/中/低选项,局部更新
     box.querySelectorAll(".gp-card-val").forEach((btn) => {
       btn.addEventListener("click", (e) => {
@@ -261,6 +300,8 @@
         if (!resp.ok || !data.ok) throw new Error(data.error || ("HTTP " + resp.status));
         cur.value = value;
         state.profiles[name] = cur;
+        const row = state.list.find((x) => x.name === name);
+        if (row) row.value = value;
         btn.disabled = false;
         btn.className = "gp-card-val " + value;
         btn.textContent = value === "high" ? "高价值" : value === "mid" ? "中价值" : value === "low" ? "低价值" : "放弃";
@@ -284,6 +325,16 @@
   const filterSel = document.getElementById("gp-filter");
   if (filterSel) filterSel.addEventListener("change", () => {
     state.filter = filterSel.value;
+    state.favOnly = false;
+    const favBtn = document.getElementById("gp-fav");
+    if (favBtn) favBtn.classList.remove("active");
+    state.page = 0;
+    renderList();
+  });
+  const favBtn = document.getElementById("gp-fav");
+  if (favBtn) favBtn.addEventListener("click", () => {
+    state.favOnly = !state.favOnly;
+    favBtn.classList.toggle("active", state.favOnly);
     state.page = 0;
     renderList();
   });
