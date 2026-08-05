@@ -900,3 +900,29 @@ footer {
 .gp-card {
   border-radius: 12px !important;
 }
+
+/* ---------- shared head row (game/publishers) ---------- */
+.gp-head-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.gp-head-row h1 { margin: 0; }
+.gp-home-btn {
+  display: inline-block;
+  padding: 5px 14px;
+  border: 1px solid var(--stroke);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--ink-2);
+  font-size: 13px;
+  line-height: 1.5;
+  text-decoration: none;
+  font-weight: 500;
+  transition: border-color .15s ease, background .15s ease, color .15s ease;
+}
+.gp-home-btn:hover {
+  border-color: var(--brand);
+  color: var(--brand-2);
+  background: var(--panel-tint);
+}
