@@ -30,8 +30,7 @@
     .gp-card-thumb { width: 90px; height: auto; align-self: stretch; flex-shrink: 0; object-fit: cover;
       background: #f0f2f5; border-right: 1px solid var(--border, #eee); display: block; min-height: 120px; }
     .gp-card-thumb.empty { display: flex; align-items: center; justify-content: center; color: #bbb; font-size: 12px; }
-    .gp-card-body { min-width: 0; flex: 1; padding: 10px 12px; display: flex;
-      flex-direction: column; }
+    .gp-card-body { min-width: 0; flex: 1; padding: 10px 12px; }
     .gp-card-name { font-weight: 600; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;
       flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
     .gp-card-name .badge-has { font-size: 11px; background: var(--brand-tint, #eef4ff); color: var(--brand, #2f6fed);
@@ -52,10 +51,10 @@
       border-radius: 6px; font: inherit; background: var(--bg2, #fff); color: inherit;
     }
     .gp-form textarea { min-height: 90px; resize: vertical; }
-    .gp-card.v-high { background: #fdeaea; border-color: #efb6b6; }
-    .gp-card.v-mid { background: #fffbea; border-color: #ecdda4; }
-    .gp-card.v-low { background: #f0f8f1; border-color: #c4ddca; }
-    .gp-card.v-abandoned { background: #f0f0f0; position: relative; overflow: hidden; border-color: #ddd; }
+    .gp-card.v-high { background: #fff5f5; border-color: #f3c1c1; border-top: 3px solid #e11d48; }
+    .gp-card.v-mid { background: #fffdf5; border-color: #f0e0b6; border-top: 3px solid #f59e0b; }
+    .gp-card.v-low { background: #f5fbf7; border-color: #c8e3d2; border-top: 3px solid #10b981; }
+    .gp-card.v-abandoned { background: #fafafa; border-color: #e2e2e2; position: relative; overflow: hidden; }
     .gp-card.v-abandoned .gp-card-thumb { filter: grayscale(1) brightness(.96); opacity: .6; }
     .gp-card.v-abandoned .gp-card-name { color: #888; text-decoration: line-through; }
     .gp-card.v-abandoned .gp-card-dev,
@@ -78,13 +77,13 @@
       background: transparent; color: #c0392b; cursor: pointer; line-height: 1.2; opacity: .4; }
     .gp-card-fav:hover { opacity: .8; }
     .gp-card-fav.on { opacity: 1; background: #fff0f0; }
-    .gp-card-val, .gp-card-ab { flex-shrink: 0; margin-top: auto; width: 100%; padding: 5px 0;
-      border: none; border-radius: 6px; background: #f0f2f5; color: #888; cursor: pointer;
-      font: inherit; font-size: 12px; font-weight: 600; letter-spacing: 1px; line-height: 1.4; }
-    .gp-card-val.high { background: #c0392b; color: #fff; }
-    .gp-card-val.mid { background: #eab308; color: #fff; }
-    .gp-card-val.low { background: #16a34a; color: #fff; }
-    .gp-card-val.abandoned { background: #d1d5db; color: #6b7280; }
+    .gp-card-val, .gp-card-ab { flex-shrink: 0; padding: 1px 8px; border-radius: 999px;
+      border: 1px solid transparent; cursor: pointer; font: inherit; font-size: 10px;
+      font-weight: 600; line-height: 1.7; }
+    .gp-card-val.high { background: #e11d48; border-color: #e11d48; color: #fff; box-shadow: 0 0 0 2px rgba(225, 29, 72, .18); }
+    .gp-card-val.mid { background: #f59e0b; border-color: #f59e0b; color: #fff; }
+    .gp-card-val.low { background: #10b981; border-color: #10b981; color: #fff; }
+    .gp-card-val.abandoned { background: #f3f4f6; border-color: #d1d5db; color: #9ca3af; }
     .gp-val-menu { position: fixed; z-index: 3000; background: #fff; border: 1px solid #ddd;
       border-radius: 6px; box-shadow: 0 4px 16px rgba(0,0,0,.12); padding: 4px;
       display: flex; flex-direction: column; min-width: 96px; }
@@ -291,7 +290,7 @@
 
   <script src="config.js"></script>
   <script src="sb.js?v=6"></script>
-  <script src="game-profile.js?v=41"></script>
+  <script src="game-profile.js?v=42"></script>
   <div id="gp-lightbox" class="gp-lightbox" style="display:none" onclick="this.style.display='none'"><img src="" alt="" /></div>
 </body>
 </html>
