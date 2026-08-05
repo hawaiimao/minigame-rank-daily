@@ -210,7 +210,7 @@
       const srcLine = srcBoards ? `<div class="gp-card-src">${srcBoards}</div>` : "";
       const joined = (r.joined || "").slice(0, 10);
       const joinedLine = joined ? `上榜 ${joined}` : "";
-      const abnLine = r.abandonReason ? `<div class="gp-card-abandon-reason">${esc(r.abandonReason)}</div>` : "";
+      const abnLine = r.abandonReason ? `<div class="gp-card-abandon-reason">放弃理由：${esc(r.abandonReason)}</div>` : "";
       const meta = r.has
         ? (joinedLine || "已建档")
         : joinedLine || "未建档";
