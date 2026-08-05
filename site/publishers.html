@@ -60,6 +60,20 @@
       </div>
     </div>
   </div>
+  <div id="gp-pw-overlay" class="auth-overlay" style="display:none">
+    <div class="auth-card">
+      <h3>修改密码</h3>
+      <p class="auth-sub">输入当前密码与新密码，修改后需重新登录。</p>
+      <input id="gp-pw-cur" type="password" placeholder="当前密码" autocomplete="current-password" />
+      <input id="gp-pw-new" type="password" placeholder="新密码（至少 6 位）" autocomplete="new-password" />
+      <input id="gp-pw-new2" type="password" placeholder="再次输入新密码" autocomplete="new-password" />
+      <div class="auth-err" id="gp-pw-err"></div>
+      <div class="auth-row">
+        <button type="button" class="auth-cancel" id="gp-pw-cancel">取消</button>
+        <button type="button" class="auth-ok" id="gp-pw-ok">修改</button>
+      </div>
+    </div>
+  </div>
 
   <div id="pub-toast" class="pub-toast"></div>
 
@@ -72,7 +86,7 @@
   </footer>
 
   <script src="config.js"></script>
-  <script src="auth.js?v=2"></script>
+  <script src="auth.js?v=3"></script>
   <script src="sb.js?v=7"></script>
   <script src="publishers.js?v=10"></script>
 </body>

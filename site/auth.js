@@ -57,9 +57,12 @@
       if (state.user) {
         chip.innerHTML =
           '<span class="auth-chip-email">' + esc(state.user.email || "") + '</span>' +
+          '<button type="button" class="auth-btn" id="auth-changepw">\u6539\u5bc6\u7801</button>' +
           '<button type="button" class="auth-btn" id="auth-logout">\u9000\u51fa</button>';
         const lo = document.getElementById("auth-logout");
         if (lo) lo.addEventListener("click", logout);
+        const cp = document.getElementById("auth-changepw");
+        if (cp) cp.addEventListener("click", openPwModal);
       } else {
         chip.innerHTML = '<button type="button" class="auth-btn" id="auth-login">\u767b\u5f55</button>';
         const lb = document.getElementById("auth-login");
@@ -95,6 +98,71 @@
     const overlay = document.getElementById("gp-auth-overlay");
     if (overlay) overlay.style.display = "none";
   }
+
+  function openPwModal() {
+    const overlay = document.getElementById("gp-pw-overlay");
+    if (!overlay) return;
+    overlay.style.display = "flex";
+    const err = document.getElementById("gp-pw-err");
+    if (err) err.textContent = "";
+    const cur = document.getElementById("gp-pw-cur");
+    if (cur) cur.value = "";
+    const n1 = document.getElementById("gp-pw-new");
+    if (n1) n1.value = "";
+    const n2 = document.getElementById("gp-pw-new2");
+    if (n2) n2.value = "";
+    const first = document.getElementById("gp-pw-cur");
+    if (first) first.focus();
+  }
+  function closePwModal() {
+    const overlay = document.getElementById("gp-pw-overlay");
+    if (overlay) overlay.style.display = "none";
+  }
+
+  async function doChangePw() {
+    const cur = document.getElementById("gp-pw-cur");
+    const n1 = document.getElementById("gp-pw-new");
+    const n2 = document.getElementById("gp-pw-new2");
+    const err = document.getElementById("gp-pw-err");
+    const ok = document.getElementById("gp-pw-ok");
+    if (!cur || !n1 || !n2 || !err) return;
+    if (!state.token) { err.textContent = "\u8bf7\u5148\u767b\u5f55\u3002"; return; }
+    const oldPw = cur.value;
+    const newPw = n1.value;
+    if (!oldPw || !newPw) { err.textContent = "\u8bf7\u586b\u5199\u5f53\u524d\u5bc6\u7801\u548c\u65b0\u5bc6\u7801\u3002"; return; }
+    if (newPw.length < 6) { err.textContent = "\u65b0\u5bc6\u7801\u81f3\u5c11 6 \u4f4d\u3002"; return; }
+    if (newPw !== n2.value) { err.textContent = "\u4e24\u6b21\u8f93\u5165\u7684\u65b0\u5bc6\u7801\u4e0d\u4e00\u81f4\u3002"; return; }
+    err.textContent = "\u6b63\u5728\u4fee\u6539\u2026";
+    if (ok) ok.disabled = true;
+    try {
+      // \u9a8c\u8bc1\u5f53\u524d\u5bc6\u7801: \u7528\u5f53\u524d\u4f1a\u8bdd\u65e0\u6cd5\u76f4\u63a5\u9a8c\u8bc1, \u5148\u7528\u4f1a\u8bdd token \u8c03 updateUser, \u5982\u679c\u5931\u8d25\u5219\u63d0\u793a\u91cd\u65b0\u767b\u5f55
+      const resp = await fetch(SB_URL + "/auth/v1/user", {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+          "apikey": cfg.SUPABASE_KEY,
+          "Authorization": "Bearer " + state.token,
+        },
+        body: JSON.stringify({ password: newPw }),
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok) {
+        // \u5982\u679c token \u8fc7\u671f\uff0c\u63d0\u793a\u91cd\u65b0\u767b\u5f55
+        if (resp.status === 401) { err.textContent = "\u767b\u5f55\u5df2\u8fc7\u671f\uff0c\u8bf7\u91cd\u65b0\u767b\u5f55\u540e\u518d\u8bd5\u3002"; }
+        else { err.textContent = "\u4fee\u6539\u5931\u8d25\uff1a" + (data.msg || data.message || data.error_description || ("HTTP " + resp.status)); }
+        if (ok) ok.disabled = false;
+        return;
+      }
+      err.textContent = "\u5bc6\u7801\u5df2\u4fee\u6539\uff0c\u8bf7\u91cd\u65b0\u767b\u5f55\u3002";
+      err.style.color = "#2f9e44";
+      // \u4fee\u6539\u5bc6\u7801\u540e token \u4f1a\u5931\u6548\uff0c\u9000\u51fa\u5e76\u8bf7\u7528\u6237\u91cd\u65b0\u767b\u5f55
+      setTimeout(() => { logout(); closePwModal(); }, 1200);
+    } catch (e) {
+      err.textContent = "\u4fee\u6539\u5931\u8d25\uff1a" + e.message;
+      if (ok) ok.disabled = false;
+    }
+  }
+
 
   async function doLogin() {
     const email = document.getElementById("gp-auth-email");
@@ -172,12 +240,19 @@
     if (cancelBtn) cancelBtn.addEventListener("click", closeModal);
     const overlay = document.getElementById("gp-auth-overlay");
     if (overlay) overlay.addEventListener("click", (e) => { if (e.target === overlay) closeModal(); });
+    const pwOk = document.getElementById("gp-pw-ok");
+    if (pwOk) pwOk.addEventListener("click", doChangePw);
+    const pwCancel = document.getElementById("gp-pw-cancel");
+    if (pwCancel) pwCancel.addEventListener("click", closePwModal);
+    const pwOverlay = document.getElementById("gp-pw-overlay");
+    if (pwOverlay) pwOverlay.addEventListener("click", (e) => { if (e.target === pwOverlay) closePwModal(); });
   }
 
   window.Auth = {
     state: state, isEditor: isEditor, isLoggedIn: isLoggedIn,
     authHeaders: authHeaders, render: render, logout: logout,
-    openModal: openModal, closeModal: closeModal, restore: restore,
+    openModal: openModal, closeModal: closeModal, openPwModal: openPwModal,
+    closePwModal: closePwModal, restore: restore,
     onAuthChange: onAuthChange, bind: bind,
   };
 })();
