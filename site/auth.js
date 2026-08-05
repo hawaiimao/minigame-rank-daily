@@ -44,7 +44,7 @@
   }
 
   function render() {
-    // Header top-right chip
+    // Header top-right chip: a single pill button, no nested frame.
     const header = document.getElementById("page-header");
     if (header) {
       let chip = document.getElementById("auth-chip");
@@ -55,7 +55,8 @@
         header.appendChild(chip);
       }
       if (state.user) {
-        chip.innerHTML = '<span class="auth-chip-email">' + esc(state.user.email || "") + '</span>' +
+        chip.innerHTML =
+          '<span class="auth-chip-email">' + esc(state.user.email || "") + '</span>' +
           '<button type="button" class="auth-btn" id="auth-logout">\u9000\u51fa</button>';
         const lo = document.getElementById("auth-logout");
         if (lo) lo.addEventListener("click", logout);

@@ -190,9 +190,9 @@
       const meta = r.has
         ? (joinedLine || "已建档")
         : joinedLine || "未建档";
-      const actBtns = isEditor() ? `
+      const actBtns = `
             <button class="gp-card-fav${r.favorite ? " on" : ""}" data-name="${esc(r.name)}" title="收藏">❤</button>
-            <button class="gp-card-val ${esc(effVal)}" data-name="${esc(r.name)}" title="设置玩法状态">${effVal === "high" ? "高价值" : effVal === "mid" ? "中价值" : effVal === "low" ? "低价值" : "放弃"}</button>` : "";
+            <button class="gp-card-val ${esc(effVal)}" data-name="${esc(r.name)}" title="设置玩法状态">${effVal === "high" ? "高价值" : effVal === "mid" ? "中价值" : effVal === "low" ? "低价值" : "放弃"}</button>`;
       card.innerHTML = `
         ${thumb}
         <div class="gp-card-body">
@@ -212,6 +212,7 @@
     box.querySelectorAll(".gp-card-fav").forEach((btn) => {
       btn.addEventListener("click", async (e) => {
         e.stopPropagation();
+        if (!isEditor()) { if (window.Auth) window.Auth.openModal(); return; }
         const name = btn.dataset.name;
         const cur = state.profiles[name] || { game_name: name, developer: "", gameplay_desc: "", tags: [], notes: "", value: "", favorite: false };
         const next = !cur.favorite;
@@ -245,6 +246,7 @@
     box.querySelectorAll(".gp-card-val").forEach((btn) => {
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
+        if (!isEditor()) { if (window.Auth) window.Auth.openModal(); return; }
         openValueMenu(btn);
       });
     });
@@ -392,7 +394,7 @@
   }
 
   function startNewGame() {
-    if (!isEditor()) { alert("需要编辑者账号登录后才能新建游戏。"); return; }
+    if (!isEditor()) { if (window.Auth) window.Auth.openModal(); return; }
     const name = prompt("输入新游戏名称:");
     if (!name || !name.trim()) return;
     state.current = name.trim();
@@ -434,7 +436,7 @@
     renderViewShots(p.game_name);
     document.getElementById("gp-edit-mode").style.display = "none";
     const editBtn = document.getElementById("gp-edit-btn");
-    if (editBtn) editBtn.style.display = isEditor() ? "" : "none";
+    if (editBtn) editBtn.style.display = "";
   }
 
   function renderMarkdown(src) {
@@ -754,7 +756,7 @@
   function renderAuthUI() {
     if (window.Auth) window.Auth.render();
     const nb = document.getElementById("gp-new");
-    if (nb) nb.style.display = isEditor() ? "" : "none";
+    if (nb) nb.style.display = "";
   }
   function openAuthModal() { if (window.Auth) window.Auth.openModal(); }
   function closeAuthModal() { if (window.Auth) window.Auth.closeModal(); }
@@ -775,7 +777,7 @@
     $("gp-save").addEventListener("click", save);
     $("gp-view-back").addEventListener("click", backToList);
     $("gp-back").addEventListener("click", backToList);
-    $("gp-edit-btn").addEventListener("click", enterEditMode);
+    addEventListener("click", () => { if (!isEditor()) { if (window.Auth) window.Auth.openModal(); return; } enterEditMode(); });
     $("gp-clear").addEventListener("click", () => { $("gp-search").value = ""; state.page = 0; renderList(); });
     $("gp-prev").addEventListener("click", () => { if (state.page > 0) { state.page--; renderList(); } });
     $("gp-next").addEventListener("click", () => { state.page++; renderList(); });

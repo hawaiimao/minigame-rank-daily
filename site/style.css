@@ -736,34 +736,167 @@ tr.row-contacting .pub-name {
 /* ---------- shared auth ---------- */
 header { position: relative; }
 .auth-chip {
-  position: absolute; top: 28px; right: 40px;
-  display: inline-flex; align-items: center; gap: 8px;
-  padding: 4px 6px 4px 14px; border: 1px solid #e5e7eb; border-radius: 999px;
-  background: #fff; font-size: 13px; color: #333;
-  z-index: 5;
+  position: absolute; top: 26px; right: 40px;
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 0; border: none; background: none;
+  font-size: 13px; color: #333; z-index: 5;
 }
-.auth-chip-email { max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .auth-btn {
-  padding: 3px 12px; border: 1px solid #e5e7eb; border-radius: 999px;
-  background: #f3f4f6; color: #555; font-size: 13px; cursor: pointer; line-height: 1.5;
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 7px 16px; border: 1px solid var(--stroke);
+  border-radius: 999px; background: var(--panel);
+  color: var(--ink-2); font-size: 13px; font-weight: 500;
+  cursor: pointer; line-height: 1.4;
+  transition: border-color .15s ease, background .15s ease, color .15s ease, box-shadow .15s ease;
+  box-shadow: 0 1px 2px rgba(15,23,42,.05);
 }
-.auth-btn:hover { background: #e9eaed; color: #333; }
-#auth-logout { border: none; background: none; color: #999; padding: 2px 8px; }
-#auth-logout:hover { color: #c0392b; }
-.auth-overlay { position: fixed; inset: 0; z-index: 4000; background: rgba(0,0,0,.45);
-  display: flex; align-items: center; justify-content: center; }
-.auth-card { background: #fff; border-radius: 12px; padding: 26px 28px; width: 320px;
-  box-shadow: 0 12px 40px rgba(0,0,0,.18); }
-.auth-card h3 { margin: 0 0 4px; font-size: 18px; }
-.auth-card .auth-sub { margin: 0 0 16px; color: #888; font-size: 13px; }
-.auth-card input[type="email"], .auth-card input[type="password"] { width: 100%; box-sizing: border-box;
-  padding: 8px 10px; margin-bottom: 10px; border: 1px solid var(--border, #ddd); border-radius: 6px;
-  font: inherit; font-size: 14px; }
-.auth-card .auth-err { color: #c0392b; font-size: 13px; min-height: 18px; margin-bottom: 6px; }
-.auth-row { display: flex; gap: 8px; justify-content: flex-end; }
-.auth-row button { padding: 6px 14px; border: none; border-radius: 6px; cursor: pointer; font: inherit; font-size: 13px; }
-.auth-ok { background: var(--brand, #2f6fed); color: #fff; }
-.auth-cancel { background: #f3f4f6; color: #555; }
+.auth-btn:hover { border-color: var(--brand); color: var(--brand-2); background: var(--panel-tint); }
+.auth-chip-email { max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--ink); }
+#auth-logout {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 7px 14px; border: 1px solid var(--stroke);
+  border-radius: 999px; background: var(--panel);
+  color: var(--ink-2); font-size: 13px; font-weight: 500; cursor: pointer; line-height: 1.4;
+  transition: border-color .15s ease, color .15s ease, background .15s ease;
+  box-shadow: 0 1px 2px rgba(15,23,42,.05);
+}
+#auth-logout:hover { border-color: var(--danger); color: var(--danger); background: #fef2f2; }
+.auth-overlay { position: fixed; inset: 0; z-index: 4000; background: rgba(15,23,42,.5);
+  display: flex; align-items: center; justify-content: center;
+  backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px);
+  animation: auth-fade .15s ease; }
+@keyframes auth-fade { from { opacity: 0; } to { opacity: 1; } }
+.auth-card { background: var(--panel); border-radius: 16px; padding: 28px 30px; width: 340px;
+  border: 1px solid var(--stroke); box-shadow: 0 20px 60px rgba(15,23,42,.18);
+  animation: auth-pop .18s ease; }
+@keyframes auth-pop { from { opacity: 0; transform: translateY(10px) scale(.98); } to { opacity: 1; transform: none; } }
+.auth-card h3 { margin: 0 0 6px; font-size: 19px; font-weight: 700; letter-spacing: -0.01em; }
+.auth-card .auth-sub { margin: 0 0 18px; color: var(--muted); font-size: 13px; }
+.auth-card input[type="email"], .auth-card input[type="password"] {
+  width: 100%; box-sizing: border-box; padding: 10px 12px; margin-bottom: 12px;
+  border: 1px solid var(--stroke); border-radius: 10px;
+  font: inherit; font-size: 14px; background: var(--panel);
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.auth-card input:focus { outline: none; border-color: var(--brand); box-shadow: 0 0 0 3px var(--brand-soft); }
+.auth-card .auth-err { color: var(--danger); font-size: 13px; min-height: 18px; margin-bottom: 8px; }
+.auth-row { display: flex; gap: 10px; justify-content: flex-end; margin-top: 4px; }
+.auth-row button { padding: 8px 18px; border: none; border-radius: 10px; cursor: pointer; font: inherit; font-size: 13px; font-weight: 600; transition: opacity .15s ease, transform .15s ease; }
+.auth-row button:active { transform: scale(.97); }
+.auth-ok { background: var(--brand); color: #fff; }
+.auth-ok:hover { background: var(--brand-2); }
+.auth-cancel { background: var(--panel-alt); color: var(--ink-2); border: 1px solid var(--stroke) !important; }
+.auth-cancel:hover { background: #eef0ee; }
 @media (max-width: 720px) {
   .auth-chip { position: static; margin-left: auto; }
+}
+@media (max-width: 720px) {
+  .auth-chip { position: static; margin-left: auto; }
+}
+
+
+/* ---------- polish pass ---------- */
+header {
+  padding: 30px 40px 10px;
+}
+header h1 {
+  font-size: 30px;
+}
+.meta {
+  letter-spacing: .01em;
+}
+.tabs-row {
+  padding: 6px 40px 18px;
+}
+.panel {
+  border-radius: 16px;
+  box-shadow: 0 1px 2px rgba(15,23,42,.04), 0 8px 24px rgba(15,23,42,.04);
+  transition: box-shadow .2s ease;
+}
+.panel:hover {
+  box-shadow: 0 1px 2px rgba(15,23,42,.05), 0 12px 32px rgba(15,23,42,.07);
+}
+.panel h2 {
+  font-size: 20px;
+}
+th {
+  font-weight: 600;
+  color: var(--ink-2);
+  font-size: 12.5px;
+  letter-spacing: .02em;
+  text-transform: none;
+  border-bottom: 1px solid var(--stroke-strong);
+  background: transparent;
+}
+tbody tr {
+  transition: background .12s ease;
+}
+tbody tr:hover {
+  background: var(--panel-tint);
+}
+a.board-tab.tab-cta {
+  padding: 9px 20px;
+  box-shadow: 0 2px 6px rgba(16,185,129,.22);
+}
+a.board-tab.tab-cta:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(16,185,129,.28);
+}
+select, button {
+  border-radius: 10px;
+}
+button:hover {
+  border-color: var(--stroke-strong);
+}
+footer {
+  padding: 36px 40px 52px;
+}
+@media (max-width: 720px) {
+  header { padding: 22px 16px 8px; }
+  header h1 { font-size: 24px; }
+  .panel { margin: 10px 12px; padding: 18px 16px; border-radius: 14px; }
+  .tabs-row { padding: 4px 12px 14px; }
+}
+
+
+/* ---------- game.html polish ---------- */
+.gp-toolbar input[type="search"] {
+  border: 1px solid var(--stroke);
+  border-radius: 10px;
+  padding: 8px 14px;
+  background: var(--panel);
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.gp-toolbar input[type="search"]:focus {
+  outline: none;
+  border-color: var(--brand);
+  box-shadow: 0 0 0 3px var(--brand-soft);
+}
+.gp-toolbar .st-btn {
+  border-radius: 10px;
+  font-weight: 500;
+}
+.gp-pager button {
+  border-radius: 8px !important;
+  transition: border-color .15s ease, background .15s ease, color .15s ease;
+}
+.gp-pager button:hover {
+  border-color: var(--brand) !important;
+  color: var(--brand-2) !important;
+  background: var(--panel-tint) !important;
+}
+.gp-page-jump input {
+  border-radius: 7px;
+}
+.gp-home-btn {
+  border-radius: 999px;
+  font-weight: 500;
+  transition: border-color .15s ease, background .15s ease, color .15s ease;
+}
+.gp-home-btn:hover {
+  border-color: var(--brand) !important;
+  color: var(--brand-2) !important;
+}
+.gp-card {
+  border-radius: 12px !important;
 }
