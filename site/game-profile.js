@@ -384,8 +384,8 @@
       setBoardTag("gp-view-board", name);
       const dl = view.querySelector(".gp-view-fields");
       dl.innerHTML = "";
-      const dt = document.createElement("dt"); dt.textContent = "??";
-      const dd = document.createElement("dd"); dd.textContent = "??? ? ??????????????";
+      const dt = document.createElement("dt"); dt.textContent = "状态";
+      const dd = document.createElement("dd"); dd.textContent = "未建档 · 需要编辑者账号登录后才能编辑";
       dl.appendChild(dt); dl.appendChild(dd);
       renderViewShots(name);
       document.getElementById("gp-edit-mode").style.display = "none";
@@ -394,7 +394,7 @@
   }
 
   function startNewGame() {
-    if (!isEditor()) { alert("?????????????????"); return; }
+    if (!isEditor()) { alert("需要编辑者账号登录后才能新建游戏。"); return; }
     const name = prompt("输入新游戏名称:");
     if (!name || !name.trim()) return;
     state.current = name.trim();
@@ -637,7 +637,7 @@
   }
 
   async function save() {
-    if (!isEditor()) { $("gp-status").textContent = "???????????????"; return; }
+    if (!isEditor()) { $("gp-status").textContent = "需要编辑者账号登录后才能保存。"; return; }
     const nameBox = document.getElementById("gp-edit-name");
     let targetName = state.current;
     if (state.isNew && nameBox && nameBox.value.trim()) targetName = nameBox.value.trim();
@@ -870,11 +870,11 @@
     const nb = document.getElementById("gp-new");
     if (nb) nb.style.display = isEditor() ? "" : "none";
     if (state.auth && state.auth.user) {
-      slot.innerHTML = '<span class="gp-user-chip"><span>' + esc(state.auth.user.email || "") + '</span><button type="button" class="gp-auth-btn" id="gp-logout">??</button></span>';
+      slot.innerHTML = '<span class="gp-user-chip"><span>' + esc(state.auth.user.email || "") + '</span><button type="button" class="gp-auth-btn" id="gp-logout">退出</button></span>';
       const lo = document.getElementById("gp-logout");
       if (lo) lo.addEventListener("click", logout);
     } else {
-      slot.innerHTML = '<button type="button" class="gp-auth-btn" id="gp-login-btn">??</button>';
+      slot.innerHTML = '<button type="button" class="gp-auth-btn" id="gp-login-btn">登录</button>';
       const lb = document.getElementById("gp-login-btn");
       if (lb) lb.addEventListener("click", openAuthModal);
     }
@@ -904,8 +904,8 @@
     const email = document.getElementById("gp-auth-email").value.trim();
     const pass = document.getElementById("gp-auth-pass").value;
     const errBox = document.getElementById("gp-auth-err");
-    if (!email || !pass) { errBox.textContent = "????????"; return; }
-    errBox.textContent = "????";
+    if (!email || !pass) { errBox.textContent = "请输入邮箱和密码"; return; }
+    errBox.textContent = "登录中…";
     try {
       const resp = await fetch(SB_URL + "/auth/v1/token?grant_type=password", {
         method: "POST",
@@ -925,9 +925,9 @@
       closeAuthModal();
       backToList();
       reloadList();
-      if (role !== "editor") alert("????????????????????");
+      if (role !== "editor") alert("该账号为浏览者账号，仅可查看，无法编辑。");
     } catch (err) {
-      errBox.textContent = "?????" + err.message;
+      errBox.textContent = "登录失败：" + err.message;
     }
   }
 
