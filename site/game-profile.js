@@ -187,7 +187,7 @@
       const joined = (r.joined || "").slice(0, 10);
       const joinedLine = joined ? `上榜 ${joined}` : "";
       const meta = r.has
-        ? `${r.shotCount} 图${joinedLine ? " · " + joinedLine : ""}`
+        ? (joinedLine || "已建档")
         : joinedLine || "未建档";
       card.innerHTML = `
         ${thumb}
