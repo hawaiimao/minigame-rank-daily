@@ -112,8 +112,14 @@ def upsert_batch(base_url, service_key, table: str, rows: list[dict],
     return total
 
 
-def build_rows(snapshot: dict):
-    """Extract snapshot rows + game rows from a scraped JSON blob."""
+def build_rows(snapshot: dict, base_first_seen: dict | None = None):
+    """Extract snapshot rows + game rows from a scraped JSON blob.
+
+    base_first_seen: {game_name: first_seen_anywhere} from data/base/games.json
+    (rebuilt by ci_diff.py before this script runs). When provided, games keep
+    their true first-seen date instead of being stamped with today ? otherwise
+    every game still on a board would look like a brand-new entry.
+    """
     date = snapshot.get("date_beijing")
     if not date:
         raise SystemExit("[sync] snapshot missing date_beijing")
@@ -150,7 +156,7 @@ def build_rows(snapshot: dict):
                 if g is None:
                     g = {
                         "name": name,
-                        "first_seen_at": date,
+                        "first_seen_at": (base_first_seen or {}).get(name) or date,
                         "last_seen_at": date,
                         "publisher_name": r.get("publisher") or None,
                         "category": r.get("category") or None,
@@ -434,7 +440,20 @@ def main():
         return
     snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
 
-    snapshot_rows, game_rows, publisher_rows = build_rows(snapshot)
+    base_first = {}
+    _bp = ROOT / "data" / "base" / "games.json"
+    if _bp.exists():
+        try:
+            _bd = json.loads(_bp.read_text(encoding="utf-8"))
+            base_first = {
+                n: (g or {}).get("first_seen_anywhere")
+                for n, g in (_bd.get("games", {}) or {}).items()
+                if (g or {}).get("first_seen_anywhere")
+            }
+        except Exception as e:
+            log(f"[sync] warning: read base/games.json failed: {e}")
+
+    snapshot_rows, game_rows, publisher_rows = build_rows(snapshot, base_first)
     log(f"[sync] snapshot {snapshot.get('date_beijing')} — "
         f"{len(snapshot_rows)} snapshot rows, "
         f"{len(game_rows)} games, "
