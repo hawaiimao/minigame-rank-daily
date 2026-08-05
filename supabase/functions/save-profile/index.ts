@@ -155,6 +155,7 @@ Deno.serve(async (req) => {
       tags: Array.isArray(body.tags) ? body.tags.map(String) : [],
       notes: String(body.notes || ""),
       abandoned: body.abandoned === true,
+      abandon_reason: String(body.abandon_reason || ""),
       value: ["high", "mid", "low"].includes(body.value) ? body.value : "",
       favorite: body.favorite === true,
     };

@@ -100,6 +100,7 @@
         updated: (p && p.updated_at) || "",
         value: (p && p.value) || "",
         favorite: !!(p && p.favorite),
+        abandonReason: (p && p.abandon_reason) || "",
         abandoned: !p || !["high", "mid", "low"].includes(p.value),
         category: g.category || "",
         publisher: (g.publisher_name || (p && p.developer) || ""),
@@ -209,6 +210,7 @@
       const srcLine = srcBoards ? `<div class="gp-card-src">${srcBoards}</div>` : "";
       const joined = (r.joined || "").slice(0, 10);
       const joinedLine = joined ? `上榜 ${joined}` : "";
+      const abnLine = r.abandonReason ? `<div class="gp-card-abandon-reason">${esc(r.abandonReason)}</div>` : "";
       const meta = r.has
         ? (joinedLine || "已建档")
         : joinedLine || "未建档";
@@ -226,6 +228,7 @@
           ${tags ? `<div class="gp-card-tags">${tags}</div>` : ""}
           ${srcLine}
           <div class="gp-card-meta">${meta}</div>
+          ${abnLine}
         </div>`;
       card.addEventListener("click", () => { if (isEditor()) showEdit(r.name); else showView(r.name); });
       box.appendChild(card);
@@ -309,6 +312,11 @@
     }
 
     async function setCardValue(btn, name, value) {
+      let reason = (state.profiles[name] || {}).abandon_reason || "";
+      if (value === "abandoned") {
+        const inp = window.prompt("放弃理由（可选）：", reason || "");
+        if (inp !== null) reason = inp.trim();
+      }
       const cur = state.profiles[name] || { game_name: name, developer: "", gameplay_desc: "", tags: [], notes: "", value: "" };
       btn.disabled = true;
       try {
@@ -318,14 +326,14 @@
             "Content-Type": "application/json",
             ...authHeaders(),
           },
-          body: JSON.stringify({ ...cur, value }),
+          body: JSON.stringify({ ...cur, value, abandon_reason: reason }),
         });
         const data = await resp.json().catch(() => ({}));
         if (!resp.ok || !data.ok) throw new Error(data.error || ("HTTP " + resp.status));
         cur.value = value;
         state.profiles[name] = cur;
         const row = state.list.find((x) => x.name === name);
-        if (row) row.value = value;
+        if (row) { row.value = value; row.abandonReason = reason; }
         btn.disabled = false;
         btn.className = "gp-card-val " + value;
         btn.textContent = value === "high" ? "高价值" : value === "mid" ? "中价值" : value === "low" ? "低价值" : "放弃";
@@ -336,6 +344,18 @@
           card.className = "gp-card v-" + nv;
         }
         // 同步更新已有筛选的列表数量
+        // 局部更新卡片最后一行放弃理由
+        if (card) {
+          const oldLine = card.querySelector(".gp-card-abandon-reason");
+          if (oldLine) oldLine.remove();
+          if (reason) {
+            const el = document.createElement("div");
+            el.className = "gp-card-abandon-reason";
+            el.textContent = reason;
+            const meta = card.querySelector(".gp-card-meta");
+            if (meta) meta.insertAdjacentElement("afterend", el);
+          }
+        }
         if (state.filter) renderList();
       } catch (err) {
         alert("操作失败：" + err.message);
@@ -439,6 +459,7 @@
       ["玩法", p.gameplay_desc || "—", true],
       ["标签", (p.tags || []).join(", ") || "—", false],
       ["备注", p.notes || "—", false],
+      ...(p.abandon_reason ? [["放弃理由", p.abandon_reason, false]] : []),
       ["更新时间", (p.updated_at || "").slice(0, 16).replace("T", " "), false],
     ];
     const view = document.getElementById("gp-view");
@@ -603,8 +624,17 @@
     $("gp-desc").value = p.gameplay_desc || "";
     $("gp-tags").value = (p.tags || []).join(", ");
     $("gp-notes").value = p.notes || "";
+    const reasonBox = $("gp-abandon-reason");
+    const reasonLabel = document.getElementById("gp-abandon-reason-label");
+    if (reasonBox) reasonBox.value = p.abandon_reason || "";
     const valueRadios = document.querySelectorAll('input[name="gp-value"]');
-    valueRadios.forEach((r) => { r.checked = r.value === ((p.value) || "abandoned"); });
+    const gv = p.value || "abandoned";
+    valueRadios.forEach((r) => { r.checked = r.value === gv; });
+    if (reasonLabel && reasonBox) {
+      const show = gv === "abandoned";
+      reasonLabel.style.display = show ? "" : "none";
+      reasonBox.style.display = show ? "" : "none";
+    }
     renderShots();
   }
 
@@ -670,6 +700,7 @@
       tags: $("gp-tags").value.split(",").map((t) => t.trim()).filter(Boolean),
       notes: $("gp-notes").value.trim(),
       value: (document.querySelector('input[name="gp-value"]:checked') || {}).value || "",
+      abandon_reason: $("gp-abandon-reason").value.trim(),
     };
     const files = Array.from($("gp-file").files || []);
     $("gp-status").textContent = files.length ? "保存并上传中…" : "保存中…";
@@ -800,6 +831,15 @@
     $("gp-view-back").addEventListener("click", backToList);
     $("gp-back").addEventListener("click", backToList);
     $("gp-edit-btn").addEventListener("click", () => { if (!isEditor()) { if (window.Auth) window.Auth.openModal(); return; } enterEditMode(); });
+    document.querySelectorAll('input[name="gp-value"]').forEach((r) => {
+      r.addEventListener("change", () => {
+        const show = r.value === "abandoned" && r.checked;
+        const lbl = document.getElementById("gp-abandon-reason-label");
+        const box = $("gp-abandon-reason");
+        if (lbl) lbl.style.display = show ? "" : "none";
+        if (box) box.style.display = show ? "" : "none";
+      });
+    });
     $("gp-clear").addEventListener("click", () => { $("gp-search").value = ""; state.page = 0; renderList(); });
     $("gp-prev").addEventListener("click", () => { if (state.page > 0) { state.page--; renderList(); } });
     $("gp-next").addEventListener("click", () => { state.page++; renderList(); });
