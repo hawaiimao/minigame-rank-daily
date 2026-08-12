@@ -1,0 +1,385 @@
+{
+  "date": "2026-08-12",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 13,
+          "name": "噩梦防卫战",
+          "category": "休闲",
+          "category_rank": 12,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 13,
+          "name": "噩梦防卫战",
+          "category": "休闲",
+          "category_rank": 12,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 18,
+          "name": "快救救老王",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "脑洞大开的闯关，每一关都让你过瘾！",
+          "publisher": "深圳市小创趣游网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "最后一击",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "热梗大乱斗，组词出招，魔性解压战斗！",
+          "publisher": "成都九筒乐游科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 18,
+          "name": "快救救老王",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "脑洞大开的闯关，每一关都让你过瘾！",
+          "publisher": "深圳市小创趣游网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "最后一击",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "热梗大乱斗，组词出招，魔性解压战斗！",
+          "publisher": "成都九筒乐游科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 25,
+          "name": "步步仙机",
+          "publisher": "森友会工作室",
+          "category": "轻度Roguelike",
+          "subcategory": "修仙、收集、角色扮演"
+        },
+        {
+          "rank": 48,
+          "name": "梦幻新诛仙：轻享",
+          "publisher": "完美世界游戏",
+          "category": "多人联机",
+          "subcategory": "仙侠、MMORPG、回合制、角色扮演"
+        },
+        {
+          "rank": 88,
+          "name": "大巴扎",
+          "publisher": "新闻消息",
+          "category": "Steam移植",
+          "subcategory": "Roguelike、策略、单机"
+        },
+        {
+          "rank": 96,
+          "name": "深渊之歌",
+          "publisher": "淘气泡游戏",
+          "category": "二次元",
+          "subcategory": "模拟经营、建造、生存、冒险、养成、卡牌、角色扮演"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 45,
+          "name": "小冰冰斗蛐蛐",
+          "publisher": "莉莉丝游戏",
+          "category": "策略",
+          "subcategory": "自走棋、Roguelike、竖屏、搜打撤"
+        },
+        {
+          "rank": 64,
+          "name": "土豆兄弟",
+          "publisher": "Erabit CN",
+          "category": "Rougelike",
+          "subcategory": "割草、弹幕射击、角色扮演、休闲、解压、Steam移植"
+        },
+        {
+          "rank": 67,
+          "name": "纵横修仙界",
+          "publisher": "极致游戏",
+          "category": "修仙",
+          "subcategory": "养成、放置、多人联机、角色扮演、国风"
+        },
+        {
+          "rank": 68,
+          "name": "斗罗大陆：诛邪传说",
+          "publisher": "斗罗诛邪工作室",
+          "category": "多人联机",
+          "subcategory": "冒险、剧情、3D、角色扮演"
+        },
+        {
+          "rank": 69,
+          "name": "小垠的秘密",
+          "publisher": "鹰目科技",
+          "category": "种田",
+          "subcategory": "模拟经营、休闲"
+        },
+        {
+          "rank": 83,
+          "name": "异人之下",
+          "publisher": "腾讯",
+          "category": "高画质",
+          "subcategory": "格斗、动作"
+        },
+        {
+          "rank": 84,
+          "name": "代号：暗火",
+          "publisher": "黯火小队工作室",
+          "category": "射击",
+          "subcategory": "动作、刷宝、割草、角色扮演、美少女、策略"
+        },
+        {
+          "rank": 86,
+          "name": "幻影传说",
+          "publisher": "黑潮营地",
+          "category": "塔防",
+          "subcategory": "放置、角色扮演"
+        },
+        {
+          "rank": 87,
+          "name": "饼干人联盟",
+          "publisher": "儒意景秀",
+          "category": "角色扮演",
+          "subcategory": "冒险、闯关、3D、多人联机、动作"
+        },
+        {
+          "rank": 89,
+          "name": "小小英杰：合战天下",
+          "publisher": "上海电光火石科技有限公司",
+          "category": "策略",
+          "subcategory": "三国、SLG、角色扮演"
+        },
+        {
+          "rank": 90,
+          "name": "DeathPlunder亡命掠夺者",
+          "category": "生存",
+          "subcategory": "搜打撤、角色扮演、动作、冒险"
+        },
+        {
+          "rank": 91,
+          "name": "归环",
+          "publisher": "萨罗斯工作室",
+          "category": "剧情",
+          "subcategory": "二次元、角色扮演"
+        },
+        {
+          "rank": 93,
+          "name": "万界绮园：逐光筑梦手札",
+          "publisher": "游萤互娱",
+          "category": "治愈",
+          "subcategory": "种田、模拟经营、建造、休闲"
+        },
+        {
+          "rank": 94,
+          "name": "BanG Dream! Our Notes",
+          "publisher": "新闻消息",
+          "category": "音乐"
+        },
+        {
+          "rank": 95,
+          "name": "破烂水手",
+          "publisher": "十英工作室",
+          "category": "手绘",
+          "subcategory": "Steam移植、多人联机、角色扮演"
+        },
+        {
+          "rank": 97,
+          "name": "猫娘计划",
+          "publisher": "猫娘计划工作室",
+          "category": "抢先体验",
+          "subcategory": "角色扮演"
+        },
+        {
+          "rank": 98,
+          "name": "纤维",
+          "publisher": "冬日煮米游戏制作组",
+          "category": "模拟",
+          "subcategory": "角色扮演、策略"
+        },
+        {
+          "rank": 99,
+          "name": "代号97（TapTap测试版）",
+          "publisher": "上海星游纪信息技术有限公司",
+          "category": "策略",
+          "subcategory": "卡牌"
+        },
+        {
+          "rank": 100,
+          "name": "愤怒的小鸟：经典归来",
+          "publisher": "萌货研究所",
+          "category": "物理",
+          "subcategory": "益智、冒险、休闲、弹射"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 25,
+          "name": "步步仙机",
+          "publisher": "森友会工作室",
+          "category": "轻度Roguelike",
+          "subcategory": "修仙、收集、角色扮演"
+        },
+        {
+          "rank": 48,
+          "name": "梦幻新诛仙：轻享",
+          "publisher": "完美世界游戏",
+          "category": "多人联机",
+          "subcategory": "仙侠、MMORPG、回合制、角色扮演"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 19,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 25,
+          "name": "步步仙机",
+          "publisher": "森友会工作室",
+          "category": "轻度Roguelike",
+          "subcategory": "修仙、收集、角色扮演"
+        },
+        {
+          "rank": 48,
+          "name": "梦幻新诛仙：轻享",
+          "publisher": "完美世界游戏",
+          "category": "多人联机",
+          "subcategory": "仙侠、MMORPG、回合制、角色扮演"
+        },
+        {
+          "rank": 88,
+          "name": "大巴扎",
+          "publisher": "新闻消息",
+          "category": "Steam移植",
+          "subcategory": "Roguelike、策略、单机"
+        },
+        {
+          "rank": 96,
+          "name": "深渊之歌",
+          "publisher": "淘气泡游戏",
+          "category": "二次元",
+          "subcategory": "模拟经营、建造、生存、冒险、养成、卡牌、角色扮演"
+        }
+      ]
+    }
+  }
+}
