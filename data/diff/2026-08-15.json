@@ -1,0 +1,408 @@
+{
+  "date": "2026-08-15",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "向僵尸开炮",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这是一款末日题材的塔防类割草游戏！",
+          "publisher": "海南盛昌网络科技有限公司",
+          "change": "4",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "这关不简单",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "真的不简单哦，需要动脑子的",
+          "publisher": "北京起跃文化有限公司",
+          "change": "4",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "这梗接不住",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "无需下载，点击即玩！",
+          "publisher": "长沙指色网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "梦仙灵",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "可体验挂机修仙、主支线剧情，通过打怪升级提升战力",
+          "publisher": "广州信跃网络技术有限公司",
+          "change": "13",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "欢乐战三国",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "国风原味，轻松放置，解放双手感受欢乐三国",
+          "publisher": "海南哎呦互娱网络科技有限公司",
+          "change": "46",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 16,
+          "name": "箭头迷宫消消",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这是一款休闲益智小游戏",
+          "publisher": "深圳市小橙网络科技有限公司",
+          "change": "51",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "糕手大作战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "IO对决！昼夜交替！克苏鲁乱斗！一起来海上作战！",
+          "publisher": "厦门营火科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "开放城市沙盒",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "像素都市开放沙盒，自由探索建造，体验驾驶对战多元玩法。",
+          "publisher": "杭州电鳐网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "浪淘嗨岛：转转麻将（红中）",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "基于湖南传统玩法红中转转麻将、长沙麻将的麻将游戏。",
+          "publisher": "深圳市林子互娱科技有限公司",
+          "change": "7",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "沉浸解压模拟",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "排干滚烫岩浆，躲避危险，寻找失落宝物！",
+          "publisher": "北京安思科技发展有限公司",
+          "change": "4",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 16,
+          "name": "箭头迷宫消消",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这是一款休闲益智小游戏",
+          "publisher": "深圳市小橙网络科技有限公司",
+          "change": "51",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "糕手大作战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "IO对决！昼夜交替！克苏鲁乱斗！一起来海上作战！",
+          "publisher": "厦门营火科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 72,
+          "name": "菇菇种植日记",
+          "publisher": "超神网络",
+          "category": "角色扮演",
+          "subcategory": "Roguelike、策略、收集、模拟"
+        },
+        {
+          "rank": 79,
+          "name": "大侠立志传：侠道相逢",
+          "publisher": "心动",
+          "category": "独立游戏",
+          "subcategory": "像素、武侠、模拟、角色扮演、冒险、策略"
+        },
+        {
+          "rank": 86,
+          "name": "江湖夜雨十年灯",
+          "publisher": "神经虾开发组",
+          "category": "国风",
+          "subcategory": "武侠、角色扮演"
+        },
+        {
+          "rank": 92,
+          "name": "龙王大人",
+          "publisher": "上海久游网络科技有限公司",
+          "category": "卡牌",
+          "subcategory": "放置、像素、回合制、经营、治愈、Q版"
+        },
+        {
+          "rank": 93,
+          "name": "星际战甲Warframe手游",
+          "publisher": "Digital Extremes",
+          "category": "移植",
+          "subcategory": "角色扮演、射击、科幻、动作"
+        },
+        {
+          "rank": 98,
+          "name": "家园：梦想派对",
+          "publisher": "微乐游戏",
+          "category": "多人联机",
+          "subcategory": "模拟经营、SLG、策略"
+        },
+        {
+          "rank": 99,
+          "name": "重制十七岁",
+          "publisher": "熵联天创",
+          "category": "文字"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 59,
+          "name": "料理人班乔",
+          "publisher": "心动",
+          "category": "角色扮演",
+          "subcategory": "休闲、模拟经营、单机、料理、3D、冒险、模拟"
+        },
+        {
+          "rank": 74,
+          "name": "绚烂花期",
+          "publisher": "梦花火工作室",
+          "category": "角色扮演",
+          "subcategory": "冒险、AVG、恋爱、乙女、剧情、都市、2D、文字、搞笑、支持Steam家庭共享、JRPG、第一人称视角、平台跳跃"
+        },
+        {
+          "rank": 76,
+          "name": "暮色大师",
+          "category": "休闲",
+          "subcategory": "动作、音乐"
+        },
+        {
+          "rank": 77,
+          "name": "可口的咖啡",
+          "publisher": "新闻消息",
+          "category": "模拟",
+          "subcategory": "经营、休闲"
+        },
+        {
+          "rank": 95,
+          "name": "万界绮园：逐光筑梦手札",
+          "publisher": "游萤互娱",
+          "category": "治愈",
+          "subcategory": "种田、模拟经营、建造、休闲"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 86,
+          "name": "江湖夜雨十年灯",
+          "publisher": "神经虾开发组",
+          "category": "国风",
+          "subcategory": "武侠、角色扮演"
+        },
+        {
+          "rank": 92,
+          "name": "龙王大人",
+          "publisher": "上海久游网络科技有限公司",
+          "category": "卡牌",
+          "subcategory": "放置、像素、回合制、经营、治愈、Q版"
+        },
+        {
+          "rank": 93,
+          "name": "星际战甲Warframe手游",
+          "publisher": "Digital Extremes",
+          "category": "移植",
+          "subcategory": "角色扮演、射击、科幻、动作"
+        },
+        {
+          "rank": 99,
+          "name": "重制十七岁",
+          "publisher": "熵联天创",
+          "category": "文字"
+        }
+      ],
+      "totals": {
+        "new_to_board": 7,
+        "returning": 5,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 72,
+          "name": "菇菇种植日记",
+          "publisher": "超神网络",
+          "category": "角色扮演",
+          "subcategory": "Roguelike、策略、收集、模拟"
+        },
+        {
+          "rank": 79,
+          "name": "大侠立志传：侠道相逢",
+          "publisher": "心动",
+          "category": "独立游戏",
+          "subcategory": "像素、武侠、模拟、角色扮演、冒险、策略"
+        },
+        {
+          "rank": 86,
+          "name": "江湖夜雨十年灯",
+          "publisher": "神经虾开发组",
+          "category": "国风",
+          "subcategory": "武侠、角色扮演"
+        },
+        {
+          "rank": 92,
+          "name": "龙王大人",
+          "publisher": "上海久游网络科技有限公司",
+          "category": "卡牌",
+          "subcategory": "放置、像素、回合制、经营、治愈、Q版"
+        },
+        {
+          "rank": 93,
+          "name": "星际战甲Warframe手游",
+          "publisher": "Digital Extremes",
+          "category": "移植",
+          "subcategory": "角色扮演、射击、科幻、动作"
+        },
+        {
+          "rank": 98,
+          "name": "家园：梦想派对",
+          "publisher": "微乐游戏",
+          "category": "多人联机",
+          "subcategory": "模拟经营、SLG、策略"
+        },
+        {
+          "rank": 99,
+          "name": "重制十七岁",
+          "publisher": "熵联天创",
+          "category": "文字"
+        }
+      ]
+    }
+  }
+}
