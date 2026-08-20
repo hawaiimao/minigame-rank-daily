@@ -1,0 +1,554 @@
+{
+  "date": "2026-08-20",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "地铁逃生摸金行动",
+          "category": "动作",
+          "category_rank": 2,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "16",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "鱼吃鱼",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州德道科技有限公司",
+          "change": "4",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 7,
+          "name": "永远的蔚蓝星球",
+          "category": "休闲",
+          "category_rank": 4,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "广州颂悦信息技术有限公司",
+          "change": "15",
+          "change_direction": "down"
+        },
+        {
+          "rank": 15,
+          "name": "青云诀之伏魔",
+          "category": "角色",
+          "category_rank": 4,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "海南元游信息技术有限公司",
+          "change": "1",
+          "change_direction": "up"
+        },
+        {
+          "rank": 16,
+          "name": "佣兵小镇",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "成都天象互动文化传播有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "跃动小子",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "波克科技集团有限公司",
+          "change": "5",
+          "change_direction": "up"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "火柴人逆袭",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "《火柴人逆袭》是一款休闲有趣的游戏",
+          "publisher": "深圳市指点天下科技有限公司",
+          "change": "5",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "三国杀",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "三分钟一局，快节奏对战",
+          "publisher": "杭州游卡网络技术有限公司",
+          "change": "5",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "永远的蔚蓝星球",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "《永远的蔚蓝星球》是一款策略塔防竞技手游。",
+          "publisher": "广州颂悦信息技术有限公司",
+          "change": "12",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "神器传说",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款有手就能玩的开宝箱修仙小游戏",
+          "publisher": "深圳市拾光筑梦文化传媒有限公司",
+          "change": "10",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "悟空与唐僧",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "悟空，快来救我！",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 15,
+          "name": "魔塔勇士",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "魔塔经典玩法，打怪冲层。",
+          "publisher": "个人开发者",
+          "change": "32",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "挖矿神器",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "发射镐子在矿石间持续弹射，击碎矿石 BOSS 收集宝藏不断深入矿脉",
+          "publisher": "厦门冰柠科技有限公司",
+          "change": "33",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "侠盗都市",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "化身都市王牌特工，解救人质并完成秘密挑战，开启热血正义冒险！",
+          "publisher": "厦门焕游科技有限公司",
+          "change": "5",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "像素生存创造",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "像素世界自由生存创造!",
+          "publisher": "武汉锦游科技有限公司",
+          "change": "11",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "抓鱼王者",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这一次钓鱼，绝不空军！",
+          "publisher": "广州绿之洲科技有限公司",
+          "change": "4",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 5,
+          "name": "悟空与唐僧",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "悟空，快来救我！",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "悟空与唐僧",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "悟空，快来救我！",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 15,
+          "name": "魔塔勇士",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "魔塔经典玩法，打怪冲层。",
+          "publisher": "个人开发者",
+          "change": "32",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "挖矿神器",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "发射镐子在矿石间持续弹射，击碎矿石 BOSS 收集宝藏不断深入矿脉",
+          "publisher": "厦门冰柠科技有限公司",
+          "change": "33",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "侠盗都市",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "化身都市王牌特工，解救人质并完成秘密挑战，开启热血正义冒险！",
+          "publisher": "厦门焕游科技有限公司",
+          "change": "5",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "像素生存创造",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "像素世界自由生存创造!",
+          "publisher": "武汉锦游科技有限公司",
+          "change": "11",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "他予回声",
+          "publisher": "乐元素",
+          "category": "偶像",
+          "subcategory": "女性向、二次元"
+        },
+        {
+          "rank": 20,
+          "name": "辉光之城1907",
+          "publisher": "薄雾集",
+          "category": "模拟经营",
+          "subcategory": "收集、模拟"
+        },
+        {
+          "rank": 23,
+          "name": "宝石特攻队（TapTap测试版）",
+          "publisher": "酷玩乱斗游戏",
+          "category": "射击",
+          "subcategory": "TPS、多人联机、动作"
+        },
+        {
+          "rank": 25,
+          "name": "远星",
+          "publisher": "远星计划工作室",
+          "category": "沙盒",
+          "subcategory": "开放世界、生存、建造、冒险、角色扮演"
+        },
+        {
+          "rank": 46,
+          "name": "他予回声",
+          "publisher": "乐元素",
+          "category": "偶像",
+          "subcategory": "女性向、二次元"
+        },
+        {
+          "rank": 90,
+          "name": "出击吧！飞艇",
+          "publisher": "电魂网络",
+          "category": "模拟"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "梦战：剑之海",
+          "publisher": "紫龙游戏",
+          "category": "角色扮演",
+          "subcategory": "策略、冒险、SRPG"
+        },
+        {
+          "rank": 24,
+          "name": "变形金刚：新纪元",
+          "publisher": "Wanda Game",
+          "category": "策略",
+          "subcategory": "剧情、收集"
+        },
+        {
+          "rank": 27,
+          "name": "饥困荒野",
+          "publisher": "腾讯",
+          "category": "沙盒",
+          "subcategory": "生存、多人联机、饥荒、冒险"
+        },
+        {
+          "rank": 28,
+          "name": "约定之日",
+          "publisher": "上海星烁互娱",
+          "category": "美少女",
+          "subcategory": "二次元、卡牌"
+        },
+        {
+          "rank": 30,
+          "name": "剑隐侠踪录",
+          "publisher": "快哉风",
+          "category": "武侠",
+          "subcategory": "剧情、策略、回合制、国风、文字、水墨、角色扮演"
+        },
+        {
+          "rank": 32,
+          "name": "米塔",
+          "category": "模拟",
+          "subcategory": "角色扮演、第一人称视角、单机、剧情、冒险"
+        },
+        {
+          "rank": 55,
+          "name": "暮色大师",
+          "category": "休闲",
+          "subcategory": "动作、音乐"
+        },
+        {
+          "rank": 57,
+          "name": "头号禁区",
+          "publisher": "沐瞳",
+          "category": "多人联机",
+          "subcategory": "搜打撤、竞技、MOBA、生存、动作、角色扮演"
+        },
+        {
+          "rank": 83,
+          "name": "万界绮园：逐光筑梦手札",
+          "publisher": "游萤互娱",
+          "category": "治愈",
+          "subcategory": "种田、模拟经营、建造、休闲"
+        },
+        {
+          "rank": 87,
+          "name": "仙逆：本尊",
+          "publisher": "智玩游戏工作室",
+          "category": "角色扮演",
+          "subcategory": "国风、修仙、国漫"
+        },
+        {
+          "rank": 96,
+          "name": "元夜十二谈",
+          "publisher": "上海游卡",
+          "category": "冒险",
+          "subcategory": "3D、新怪谈、策略、角色扮演"
+        },
+        {
+          "rank": 99,
+          "name": "DeathPlunder亡命掠夺者",
+          "category": "生存",
+          "subcategory": "搜打撤、角色扮演、动作、冒险"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 20,
+          "name": "辉光之城1907",
+          "publisher": "薄雾集",
+          "category": "模拟经营",
+          "subcategory": "收集、模拟"
+        },
+        {
+          "rank": 23,
+          "name": "宝石特攻队（TapTap测试版）",
+          "publisher": "酷玩乱斗游戏",
+          "category": "射击",
+          "subcategory": "TPS、多人联机、动作"
+        },
+        {
+          "rank": 25,
+          "name": "远星",
+          "publisher": "远星计划工作室",
+          "category": "沙盒",
+          "subcategory": "开放世界、生存、建造、冒险、角色扮演"
+        },
+        {
+          "rank": 90,
+          "name": "出击吧！飞艇",
+          "publisher": "电魂网络",
+          "category": "模拟"
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 12,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "他予回声",
+          "publisher": "乐元素",
+          "category": "偶像",
+          "subcategory": "女性向、二次元"
+        },
+        {
+          "rank": 20,
+          "name": "辉光之城1907",
+          "publisher": "薄雾集",
+          "category": "模拟经营",
+          "subcategory": "收集、模拟"
+        },
+        {
+          "rank": 23,
+          "name": "宝石特攻队（TapTap测试版）",
+          "publisher": "酷玩乱斗游戏",
+          "category": "射击",
+          "subcategory": "TPS、多人联机、动作"
+        },
+        {
+          "rank": 25,
+          "name": "远星",
+          "publisher": "远星计划工作室",
+          "category": "沙盒",
+          "subcategory": "开放世界、生存、建造、冒险、角色扮演"
+        },
+        {
+          "rank": 46,
+          "name": "他予回声",
+          "publisher": "乐元素",
+          "category": "偶像",
+          "subcategory": "女性向、二次元"
+        },
+        {
+          "rank": 90,
+          "name": "出击吧！飞艇",
+          "publisher": "电魂网络",
+          "category": "模拟"
+        }
+      ]
+    }
+  }
+}
