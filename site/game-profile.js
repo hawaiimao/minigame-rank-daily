@@ -277,7 +277,12 @@
         <td class="gp-td-val">${actBtns}</td>
         <td class="gp-td-view"><button type="button" class="gp-view-btn" data-name="${esc(r.name)}" title="查看/编辑档案">档案</button></td>`;
       tr.addEventListener("click", (e) => {
-        if (e.target.closest("button")) return;  // buttons handled separately
+        if (e.target.closest(".gp-card-fav") || e.target.closest(".gp-card-val")) return;
+        if (isEditor()) showEdit(r.name); else showView(r.name);
+      });
+      const viewBtn = tr.querySelector(".gp-view-btn");
+      if (viewBtn) viewBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
         if (isEditor()) showEdit(r.name); else showView(r.name);
       });
       tbody.appendChild(tr);
@@ -461,7 +466,7 @@
     state.current = name;
     state.isNew = false;
     $("gp-toolbar").style.display = "none";
-    $("gp-list").style.display = "none";
+    $("gp-table-wrap").style.display = "none";
     $("gp-form").style.display = "block";
 
     // 进入前先隐藏两个子视图,避免状态残留
@@ -482,7 +487,7 @@
     state.current = name;
     state.isNew = false;
     $("gp-toolbar").style.display = "none";
-    $("gp-list").style.display = "none";
+    $("gp-table-wrap").style.display = "none";
     $("gp-form").style.display = "block";
     document.getElementById("gp-view").style.display = "none";
     document.getElementById("gp-edit-mode").style.display = "none";
@@ -515,7 +520,7 @@
       state.profiles[state.current] = { game_name: state.current, developer: "", gameplay_desc: "", tags: [], notes: "", abandoned: false };
     }
     $("gp-toolbar").style.display = "none";
-    $("gp-list").style.display = "none";
+    $("gp-table-wrap").style.display = "none";
     $("gp-form").style.display = "block";
     document.getElementById("gp-view").style.display = "none";
     document.getElementById("gp-edit-mode").style.display = "none";
@@ -863,7 +868,7 @@
   function backToList() {
     state.current = null;
     $("gp-toolbar").style.display = "";
-    $("gp-list").style.display = "";
+    $("gp-table-wrap").style.display = "";
     $("gp-form").style.display = "none";
     document.getElementById("gp-view").style.display = "none";
     buildList();
