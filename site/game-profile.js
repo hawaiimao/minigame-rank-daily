@@ -53,15 +53,16 @@
   }
 
   function fmtBoard(key, name) {
-    // "wx/人气榜" -> "微信·人气榜"; name 存在时附加排名:
-    //   当前在榜 -> 当前排名（来自最新快照）
-    //   已掉榜   -> 历史最佳排名（来自 base/games.json board_history）
+    // "wx/人气榜" -> "微信·人气榜"; name 存在时附加名次:
+    //   首次上榜名次优先（first_rank，base 库）-> "微信·畅销榜·首上 11"
+    //   缺 first_rank 时回退当前排名 / 历史最佳
     const [plat, board] = String(key).split("/");
     const base = (BOARD_PLATFORM[plat] || plat) + "\u00b7" + (board || "");
     if (!name) return base;
+    const bh = (state.boardMap[name] || {})[key];
+    if (bh && bh.first_rank) return base + "\u00b7 首上 " + bh.first_rank;
     const rank = (state.latestRankMap[name] || {})[key];
     if (rank) return base + "\u00b7" + rank;
-    const bh = (state.boardMap[name] || {})[key];
     if (bh && bh.best_rank) return base + "\u00b7 最佳 " + bh.best_rank;
     return base;
   }

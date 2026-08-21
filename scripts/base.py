@@ -116,6 +116,7 @@ def absorb_snapshot(base: dict, snapshot: dict, day: str):
                             "first_seen": day,
                             "last_seen": day,
                             "best_rank": rank,
+                            "first_rank": rank,  # rank on the day it first appeared
                             "appearances": 1,
                         }
                         g["board_history"][bkey] = bh
