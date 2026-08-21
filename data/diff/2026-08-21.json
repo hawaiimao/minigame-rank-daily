@@ -1,0 +1,532 @@
+{
+  "date": "2026-08-21",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 14,
+          "name": "天命行者",
+          "category": "角色",
+          "category_rank": 3,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "广州大蓝网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 11,
+          "name": "动物出击",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "收集鸡蛋售卖换取金币，繁育更多家禽打造专属养鸡农场。",
+          "publisher": "厦门筑姚网络科技有限公司",
+          "change": "14",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "向往的生活",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "我们在一起，就是向往的生活",
+          "publisher": "深圳市必凡娱乐科技有限公司",
+          "change": "3",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "这关不简单",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "真的不简单哦，需要动脑子的",
+          "publisher": "北京起跃文化有限公司",
+          "change": "8",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 1,
+          "name": "三国杀",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "三分钟一局，快节奏对战",
+          "publisher": "杭州游卡网络技术有限公司",
+          "change": "56",
+          "change_direction": "down"
+        },
+        {
+          "rank": 16,
+          "name": "四季合合",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "久违的四季岛，我来啦！",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "change": "6",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "占城大师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "守护王国领土",
+          "publisher": "武汉多趣信息技术有限公司",
+          "change": "2",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "啤酒饮料矿泉水嘞",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "麻烦把腿收一收!",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 10,
+          "name": "吞噬大宇宙",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "黑洞星球大乱斗",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 11,
+          "name": "疾风忍影",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "策略卡牌手游，招募搭配忍者，体验策略回合制对战！",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 13,
+          "name": "攀登之神",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "勇闯巨型障碍高塔，精准跳跃向上攀登，冲击塔顶成为攀登之神。",
+          "publisher": "杭州电鳐网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 14,
+          "name": "清洁狂人",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这是一款解压清洁小游戏",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 18,
+          "name": "逃离充气城堡",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "充气城堡逃离挑战！",
+          "publisher": "厦门格拇科技有限公司",
+          "change": "73",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "伯乐拼图",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这是一款休闲拼图游戏",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "深渊幻影",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "诡弈三国，千抽降魔。",
+          "publisher": "广州星耀未来信息科技有限公司",
+          "change": "9",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 7,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "啤酒饮料矿泉水嘞",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "麻烦把腿收一收!",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 10,
+          "name": "吞噬大宇宙",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "黑洞星球大乱斗",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 11,
+          "name": "疾风忍影",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "策略卡牌手游，招募搭配忍者，体验策略回合制对战！",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 13,
+          "name": "攀登之神",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "勇闯巨型障碍高塔，精准跳跃向上攀登，冲击塔顶成为攀登之神。",
+          "publisher": "杭州电鳐网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 14,
+          "name": "清洁狂人",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这是一款解压清洁小游戏",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 18,
+          "name": "逃离充气城堡",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "充气城堡逃离挑战！",
+          "publisher": "厦门格拇科技有限公司",
+          "change": "73",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "伯乐拼图",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这是一款休闲拼图游戏",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 9,
+          "name": "三国杀·烽烟策",
+          "publisher": "上海游卡",
+          "category": "SLG",
+          "subcategory": "策略、战争、三国、三国杀、3D"
+        },
+        {
+          "rank": 39,
+          "name": "三国杀·烽烟策",
+          "publisher": "上海游卡",
+          "category": "SLG",
+          "subcategory": "策略、战争、三国、三国杀、3D"
+        },
+        {
+          "rank": 49,
+          "name": "三国杀·烽烟策",
+          "publisher": "上海游卡",
+          "category": "SLG",
+          "subcategory": "策略、战争、三国、三国杀、3D"
+        },
+        {
+          "rank": 59,
+          "name": "三国杀·烽烟策",
+          "publisher": "上海游卡",
+          "category": "SLG",
+          "subcategory": "策略、战争、三国、三国杀、3D"
+        },
+        {
+          "rank": 66,
+          "name": "工位倒卖局",
+          "publisher": "时迹网络",
+          "category": "角色扮演"
+        },
+        {
+          "rank": 67,
+          "name": "缠重山3窃天局",
+          "publisher": "Joyhalf",
+          "category": "休闲"
+        },
+        {
+          "rank": 71,
+          "name": "乔乔的奇妙冒险：黄金赞歌",
+          "publisher": "明月互动工作室",
+          "category": "剧情",
+          "subcategory": "动漫、3D、卡牌"
+        },
+        {
+          "rank": 76,
+          "name": "我星我上",
+          "publisher": "海南氪爆网络科技有限公司",
+          "category": "休闲"
+        },
+        {
+          "rank": 79,
+          "name": "愤怒的小鸟：梦幻爆破",
+          "publisher": "萌货研究所",
+          "category": "休闲",
+          "subcategory": "消除、益智"
+        },
+        {
+          "rank": 89,
+          "name": "三国杀·烽烟策",
+          "publisher": "上海游卡",
+          "category": "SLG",
+          "subcategory": "策略、战争、三国、三国杀、3D"
+        },
+        {
+          "rank": 99,
+          "name": "代号U1",
+          "publisher": "广州四三九九信息科技有限公司",
+          "category": "休闲"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 67,
+          "name": "缠重山3窃天局",
+          "publisher": "Joyhalf",
+          "category": "休闲"
+        },
+        {
+          "rank": 71,
+          "name": "乔乔的奇妙冒险：黄金赞歌",
+          "publisher": "明月互动工作室",
+          "category": "剧情",
+          "subcategory": "动漫、3D、卡牌"
+        },
+        {
+          "rank": 76,
+          "name": "我星我上",
+          "publisher": "海南氪爆网络科技有限公司",
+          "category": "休闲"
+        },
+        {
+          "rank": 99,
+          "name": "代号U1",
+          "publisher": "广州四三九九信息科技有限公司",
+          "category": "休闲"
+        }
+      ],
+      "totals": {
+        "new_to_board": 11,
+        "returning": 0,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "三国杀·烽烟策",
+          "publisher": "上海游卡",
+          "category": "SLG",
+          "subcategory": "策略、战争、三国、三国杀、3D"
+        },
+        {
+          "rank": 39,
+          "name": "三国杀·烽烟策",
+          "publisher": "上海游卡",
+          "category": "SLG",
+          "subcategory": "策略、战争、三国、三国杀、3D"
+        },
+        {
+          "rank": 49,
+          "name": "三国杀·烽烟策",
+          "publisher": "上海游卡",
+          "category": "SLG",
+          "subcategory": "策略、战争、三国、三国杀、3D"
+        },
+        {
+          "rank": 59,
+          "name": "三国杀·烽烟策",
+          "publisher": "上海游卡",
+          "category": "SLG",
+          "subcategory": "策略、战争、三国、三国杀、3D"
+        },
+        {
+          "rank": 66,
+          "name": "工位倒卖局",
+          "publisher": "时迹网络",
+          "category": "角色扮演"
+        },
+        {
+          "rank": 67,
+          "name": "缠重山3窃天局",
+          "publisher": "Joyhalf",
+          "category": "休闲"
+        },
+        {
+          "rank": 71,
+          "name": "乔乔的奇妙冒险：黄金赞歌",
+          "publisher": "明月互动工作室",
+          "category": "剧情",
+          "subcategory": "动漫、3D、卡牌"
+        },
+        {
+          "rank": 76,
+          "name": "我星我上",
+          "publisher": "海南氪爆网络科技有限公司",
+          "category": "休闲"
+        },
+        {
+          "rank": 79,
+          "name": "愤怒的小鸟：梦幻爆破",
+          "publisher": "萌货研究所",
+          "category": "休闲",
+          "subcategory": "消除、益智"
+        },
+        {
+          "rank": 89,
+          "name": "三国杀·烽烟策",
+          "publisher": "上海游卡",
+          "category": "SLG",
+          "subcategory": "策略、战争、三国、三国杀、3D"
+        },
+        {
+          "rank": 99,
+          "name": "代号U1",
+          "publisher": "广州四三九九信息科技有限公司",
+          "category": "休闲"
+        }
+      ]
+    }
+  }
+}
