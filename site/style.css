@@ -657,6 +657,35 @@ footer a:hover { text-decoration: underline; text-underline-offset: 3px; }
   color: #fff;
 }
 
+/* Board sub-filter under the platform filter (publishers page) */
+.pub-board-filter {
+  display: inline-flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  background: var(--panel);
+  border: 1px dashed var(--stroke);
+  border-radius: var(--radius-pill);
+  padding: 3px;
+}
+.pub-board-filter button {
+  background: transparent;
+  color: var(--ink-2);
+  border: none;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+}
+.pub-board-filter button:hover {
+  background: var(--panel-tint);
+  color: var(--ink);
+}
+.pub-board-filter button.active {
+  background: var(--brand, #2f6fed);
+  color: #fff;
+}
+
 /* Platform filter button group (product profile page toolbar) */
 .gp-platform-filter {
   display: inline-flex;

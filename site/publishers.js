@@ -31,6 +31,14 @@ const PAGE_SIZE = 50;
 
 // Fixed platform ordering for board tags: 微信 → 抖音 → iOS → 安卓 → TapTap.
 const PLATFORM_SEQ = { wx: 0, douyin: 1, ios: 2, android: 3, taptap: 4 };
+// Boards available under each platform (mirrors site/app.js BOARD_LABELS).
+const PLATFORM_BOARDS = {
+  wx: ["畅销榜", "畅玩榜", "人气榜"],
+  douyin: ["畅销榜", "热门榜", "新游榜"],
+  ios: ["美区免费榜", "国区免费榜", "日区免费榜"],
+  android: ["美区免费榜"],
+  taptap: ["预约榜"],
+};
 function boardSeq(key) {
   const plat = String(key).split("/")[0];
   return PLATFORM_SEQ[plat] ?? 99;
@@ -46,6 +54,7 @@ const state = {
   status: {},       // { name: { status, note } }
   filter: "all",
   platformFilter: "wx",  // wx | douyin | ios | android | taptap
+  boardFilter: "畅销榜",  // specific board under platformFilter
   search: "",
   pending: new Set(),
   page: 0,          // pages of PAGE_SIZE currently rendered
@@ -209,16 +218,35 @@ function updateCounts() {
   }
 }
 
+// Render the board sub-filter buttons for the current platform.
+function renderBoardFilter() {
+  const box = $("pub-board-filter");
+  if (!box) return;
+  box.innerHTML = "";
+  const boards = PLATFORM_BOARDS[state.platformFilter] || [];
+  for (const b of boards) {
+    const btn = document.createElement("button");
+    btn.dataset.board = b;
+    btn.textContent = b;
+    if (state.boardFilter === b) btn.classList.add("active");
+    btn.onclick = () => {
+      state.boardFilter = b;
+      state.page = 0;
+      renderBoardFilter();
+      renderRows();
+    };
+    box.appendChild(btn);
+  }
+}
+
 function filteredPublishers() {
   const q = state.search.trim().toLowerCase();
+  const boardKey = state.platformFilter + "/" + state.boardFilter;
   return state.publishers.filter(p => {
     const st = statusOf(p.name);
     if (state.filter !== "all" && st !== state.filter) return false;
-    // Platform filter: publisher must have appeared on this platform's boards.
-    if (state.platformFilter !== "all" &&
-        !p.boards.some(b => b.startsWith(state.platformFilter + "/"))) {
-      return false;
-    }
+    // Platform + board filter: publisher must have appeared on this exact board.
+    if (!p.boards.includes(boardKey)) return false;
     if (q) {
       // games may be null (not yet loaded) — search name only in that case.
       const hay = (p.name + " " + (p.games ? p.games.join(" ") : "")).toLowerCase();
@@ -423,7 +451,9 @@ function attachHandlers() {
     document.querySelectorAll("#pub-platform-filter button").forEach(x =>
       x.classList.toggle("active", x === b));
     state.platformFilter = b.dataset.plat;
+    state.boardFilter = (PLATFORM_BOARDS[state.platformFilter] || [])[0] || "";
     state.page = 0;
+    renderBoardFilter();
     renderRows();
   });
 }
@@ -469,6 +499,7 @@ async function init() {
     await loadPublishersList();
     loading.style.display = "none";
     updateCounts();
+    renderBoardFilter();  // initial board sub-filter for the default platform
     renderRows();   // renders first page + kicks off games fetch for it
   } catch (err) {
     loading.textContent = `加载失败：${err.message}（点击右侧按钮时会重试同步状态）`;

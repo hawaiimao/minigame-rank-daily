@@ -20,6 +20,7 @@
     page: 0,             // 列表当前页
     filter: "",           // 价值/放弃筛选
     platformFilter: "wx", // wx | douyin | ios | android | taptap
+    boardFilter: "畅销榜", // specific board under platformFilter
     favOnly: false,       // 我的收藏模式
   };
 
@@ -34,6 +35,14 @@
   const BOARD_PLATFORM = { wx: "微信", douyin: "抖音", taptap: "TapTap", ios: "iOS", android: "安卓" };
   // Fixed platform ordering for board tags: 微信 → 抖音 → iOS → 安卓 → TapTap.
   const PLATFORM_SEQ = { wx: 0, douyin: 1, ios: 2, android: 3, taptap: 4 };
+  // Boards available under each platform (mirrors site/app.js BOARD_LABELS).
+  const PLATFORM_BOARDS = {
+    wx: ["畅销榜", "畅玩榜", "人气榜"],
+    douyin: ["畅销榜", "热门榜", "新游榜"],
+    ios: ["美区免费榜", "国区免费榜", "日区免费榜"],
+    android: ["美区免费榜"],
+    taptap: ["预约榜"],
+  };
   function boardSeq(key) {
     const plat = String(key).split("/")[0];
     return PLATFORM_SEQ[plat] ?? 99;
@@ -181,17 +190,36 @@
     lb.style.display = "flex";
   }
 
+  function renderBoardFilter() {
+    const box = document.getElementById("gp-board-filter");
+    if (!box) return;
+    box.innerHTML = "";
+    const boards = PLATFORM_BOARDS[state.platformFilter] || [];
+    for (const b of boards) {
+      const btn = document.createElement("button");
+      btn.dataset.board = b;
+      btn.textContent = b;
+      if (state.boardFilter === b) btn.classList.add("active");
+      btn.onclick = () => {
+        state.boardFilter = b;
+        state.page = 0;
+        renderBoardFilter();
+        renderList();
+      };
+      box.appendChild(btn);
+    }
+  }
+
   function renderList() {
     const q = $("gp-search").value.trim().toLowerCase();
     let filtered = q
       ? state.list.filter((r) =>
           r.name.toLowerCase().includes(q) || r.developer.toLowerCase().includes(q))
       : state.list;
-    // Platform filter: product must have appeared on this platform's boards.
-    if (state.platformFilter !== "all") {
-      filtered = filtered.filter((r) =>
-        (r.platformKeys || []).some((k) => k.startsWith(state.platformFilter + "/")));
-    }
+    // Platform + board filter: product must have appeared on this exact board.
+    const boardKey = state.platformFilter + "/" + state.boardFilter;
+    filtered = filtered.filter((r) =>
+      (r.platformKeys || []).includes(boardKey));
     if (state.favOnly) {
       filtered = filtered.filter((r) => r.favorite);
     }
@@ -404,7 +432,9 @@
     platFilter.querySelectorAll("button").forEach(x =>
       x.classList.toggle("active", x === b));
     state.platformFilter = b.dataset.plat;
+    state.boardFilter = (PLATFORM_BOARDS[state.platformFilter] || [])[0] || "";
     state.page = 0;
+    renderBoardFilter();
     renderList();
   });
   document.getElementById("gp-page-input").addEventListener("keydown", (e) => {
@@ -877,6 +907,7 @@
     try {
       await loadAll();
       $("gp-loading").style.display = "none";
+      renderBoardFilter();  // initial board sub-filter for the default platform
       const q = new URLSearchParams(location.search).get("name");
       if (q && state.profiles[q] !== undefined) {
         showEdit(q);
