@@ -129,9 +129,11 @@ def main():
     data["date_beijing"] = day_label
 
     # Merge auxiliary platforms (separate data sources, scraped with
-    # stdlib-only modules — see scrape_taptap.py / scrape_ios.py):
-    #   taptap  -> TapTap 预约榜 (SSR JSON-LD)
-    #   ios     -> App Store 美/国/日区游戏免费榜 (Apple 官方 iTunes RSS)
+    # stdlib-only modules — see scrape_taptap.py / scrape_ios.py /
+    # scrape_googleplay.py):
+    #   taptap   -> TapTap 预约榜 (SSR JSON-LD)
+    #   ios      -> App Store 美/国/日区游戏免费榜 (Apple 官方 iTunes RSS)
+    #   android  -> Google Play 美区免费游戏榜 (AppBrain SSR)
     # Wrapped so a failure never blocks the gravity-engine snapshot for
     # wx/douyin.
     #
@@ -145,7 +147,8 @@ def main():
         except Exception as e:
             prev = {}
             log(f"读取旧快照失败，历史重拉将不含辅助平台: {e}")
-        for pkey, blabel in (("taptap", "预约榜"), ("ios", "免费榜")):
+        for pkey, blabel in (("taptap", "预约榜"), ("ios", "免费榜"),
+                             ("android", "免费榜")):
             prev_frag = prev.get("platforms", {}).get(pkey)
             if prev_frag:
                 data.setdefault("platforms", {})[pkey] = prev_frag
@@ -158,6 +161,7 @@ def main():
         for pkey, modname, blabel in (
             ("taptap", "scrape_taptap", "预约榜"),
             ("ios", "scrape_ios", "免费榜"),
+            ("android", "scrape_googleplay", "免费榜"),
         ):
             try:
                 mod = __import__(modname)

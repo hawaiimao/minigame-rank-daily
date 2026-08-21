@@ -172,6 +172,15 @@ nav.platform-tabs {
   color: #fff;
   font-weight: 700;
 }
+.platform-tab.platform-tab-android:hover {
+  background: #ffedd5;
+  color: #c2410c;
+}
+.platform-tab.platform-tab-android.active {
+  background: #f97316;
+  color: #fff;
+  font-weight: 700;
+}
 .platform-tab.active .tab-icon { filter: none; }
 
 nav.board-tabs {
@@ -257,6 +266,18 @@ nav.board-tabs {
   font-weight: 600;
 }
 .board-tab.board-tab-ios.active .tab-icon { filter: none; }
+
+/* Android tabs — amber tint on hover, orange when active */
+.board-tab.board-tab-android:hover {
+  background: #ffedd5;
+  color: #c2410c;
+}
+.board-tab.board-tab-android.active {
+  background: #f97316;
+  color: #fff;
+  font-weight: 600;
+}
+.board-tab.board-tab-android.active .tab-icon { filter: none; }
 
 /* Fallback for tabs without a specific platform class (e.g. CTA) */
 .board-tab.active:not(.board-tab-wx):not(.board-tab-douyin):not(.board-tab-ios) {
@@ -654,6 +675,10 @@ footer a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .board-tag.board-tag-ios {
   background: #e0e7ff;
   color: #4338ca;
+}
+.board-tag.board-tag-android {
+  background: #ffedd5;
+  color: #c2410c;
 }
 .board-tag.board-tag-more {
   color: var(--muted);

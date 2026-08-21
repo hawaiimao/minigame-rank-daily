@@ -11,6 +11,7 @@ const PLATFORM_ORDER = [
   ["wx", "微信小游戏"],
   ["douyin", "抖音小游戏"],
   ["ios", "iOS App Store"],
+  ["android", "Android"],
   ["taptap", "TapTap"],
 ];
 const BOARD_LABELS = {
@@ -18,6 +19,7 @@ const BOARD_LABELS = {
   douyin: ["畅销榜", "热门榜", "新游榜"],
   taptap: ["预约榜"],
   ios: ["美区免费榜", "国区免费榜", "日区免费榜"],
+  android: ["美区免费榜"],
 };
 
 // Icon per board name (works across platforms).
@@ -37,6 +39,7 @@ const PLATFORM_ICON = {
   douyin: "🎵",
   taptap: "📅",
   ios: "🍎",
+  android: "🤖",
 };
 
 // Rows rendered per "page" in the full-board table.
@@ -57,7 +60,7 @@ function $(id) { return document.getElementById(id); }
 
 function platLabelOf(key) {
   return ({ wx: "微信小游戏", douyin: "抖音小游戏", taptap: "TapTap",
-            ios: "iOS App Store" })[key] || key;
+            ios: "iOS App Store", android: "Android" })[key] || key;
 }
 
 function escapeHTML(s) {
