@@ -97,14 +97,31 @@ def main():
             f"设置 GRAVITY_FORCE=1）")
         return
 
-    data = core.do_scrape(
-        top_n=top_n,
-        force_anon=auth is None,
-        out_dir=daily_dir,           # core writes its own xlsx/json there
-        auth_file=auth or core.DEFAULT_AUTH_FILE,
-        log=log,
-        historical_date=hist_date,
-    )
+    # Gravity Engine (wx/douyin) is the primary source, but a failure here
+    # must NOT block the auxiliary sources below (taptap/ios are scraped
+    # with stdlib-only modules and may still succeed while gravity-engine
+    # times out — e.g. a transient outage or a slow day). Degrade to a
+    # partial snapshot so iOS/TapTap data still lands in the daily file.
+    try:
+        data = core.do_scrape(
+            top_n=top_n,
+            force_anon=auth is None,
+            out_dir=daily_dir,           # core writes its own xlsx/json there
+            auth_file=auth or core.DEFAULT_AUTH_FILE,
+            log=log,
+            historical_date=hist_date,
+        )
+    except Exception as e:
+        log(f"[引力引擎] 抓取失败，降级为仅独立源快照（taptap/ios）: {e}")
+        data = {
+            "scraped_at": datetime.now().isoformat(timespec="seconds"),
+            "period": "日榜",
+            "logged_in": auth is not None,
+            "top_n_target": top_n,
+            "source": core.URL,
+            "platforms": {},
+            "gravity_error": str(e),
+        }
 
     # Tag with absolute and Beijing timestamps for the UI.
     data["scraped_at_utc"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
