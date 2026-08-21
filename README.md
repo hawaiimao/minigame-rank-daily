@@ -1,6 +1,6 @@
 # minigame-rank-daily
 
-每日抓取 [引力引擎](https://rank.gravity-engine.com/) 的小游戏榜单（微信小游戏 + 抖音小游戏，共 6 个榜的日榜），把数据 commit 进仓库，并通过 GitHub Pages 展示一个仪表盘，重点突出**每日新进游戏 / 新进发行商**。
+每日抓取 [引力引擎](https://rank.gravity-engine.com/) 的小游戏榜单（微信小游戏 + 抖音小游戏，共 6 个榜的日榜），叠加 TapTap 预约榜与 **iOS App Store 美/国/日区游戏免费榜**（Apple 官方 iTunes RSS，纯 JSON 免登录），把数据 commit 进仓库，并通过 GitHub Pages 展示一个仪表盘，重点突出**每日新进游戏 / 新进发行商**。
 
 - 抓取：GitHub Actions 每日北京时间 10:30 触发（榜单 10:00 更新，留 30 分钟让后端稳定）
 - 存储：每天一份 JSON 进 `data/daily/`，diff 进 `data/diff/`，cumulative base 进 `data/base/`，趋势进 `data/history.jsonl`
@@ -11,6 +11,8 @@
 .
 ├── scripts/
 │   ├── scrape_rank.py   核心抓取/解析（与桌面端共用）
+│   ├── scrape_taptap.py TapTap 预约榜（SSR JSON-LD，纯 stdlib）
+│   ├── scrape_ios.py    iOS 美/国/日区游戏免费榜（Apple iTunes RSS，纯 stdlib）
 │   ├── ci_scrape.py     CI 抓取入口，写 daily/<日期>.json 等
 │   ├── base.py          累积 base 库（历史所有游戏 / 发行商）
 │   └── ci_diff.py       基于 base 分类今日新进
@@ -193,4 +195,4 @@ A：等第一次 `daily.yml` 跑完。或者手动触发一次。
 A：刷新一下（CDN 可能没即时刷新）。如果持续，看浏览器 Console 错误信息。
 
 **Q：能不能多平台抓 Apple Store / TapTap？**
-A：当前版本只覆盖引力引擎站点的微信 + 抖音两端。扩展需要改 `scrape_rank.py` 里的选择器和 `BOARD_LABELS`。
+A：已支持。TapTap 预约榜 + iOS 美/国/日区游戏免费榜每天随主快照一起抓取（`scrape_taptap.py` / `scrape_ios.py`）。iOS 榜单来自 Apple 官方 iTunes RSS（`itunes.apple.com/{cc}/rss/topfreeapplications/genre=6014/limit=100/json`），免登录免密钥；注意它不含排名涨跌箭头，且只提供当前榜单（无历史日期可回拉）。要扩展更多国家/榜单：改 `scrape_ios.py` 的 `COUNTRIES` 和 `site/app.js` 的 `BOARD_LABELS["ios"]`。引力引擎微信/抖音的选择器逻辑见 `scrape_rank.py`。

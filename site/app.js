@@ -11,11 +11,13 @@ const PLATFORM_ORDER = [
   ["wx", "微信小游戏"],
   ["douyin", "抖音小游戏"],
   ["taptap", "TapTap"],
+  ["ios", "iOS App Store"],
 ];
 const BOARD_LABELS = {
   wx: ["畅销榜", "畅玩榜", "人气榜"],
   douyin: ["畅销榜", "热门榜", "新游榜"],
   taptap: ["预约榜"],
+  ios: ["美区免费榜", "国区免费榜", "日区免费榜"],
 };
 
 // Icon per board name (works across platforms).
@@ -26,6 +28,7 @@ const BOARD_ICON = {
   "热门榜": "⚡",
   "新游榜": "✨",
   "预约榜": "📅",
+  "免费榜": "🍎",
 };
 
 // Rows rendered per "page" in the full-board table.
@@ -43,7 +46,8 @@ const state = {
 function $(id) { return document.getElementById(id); }
 
 function platLabelOf(key) {
-  return ({ wx: "微信小游戏", douyin: "抖音小游戏", taptap: "TapTap" })[key] || key;
+  return ({ wx: "微信小游戏", douyin: "抖音小游戏", taptap: "TapTap",
+            ios: "iOS App Store" })[key] || key;
 }
 
 function escapeHTML(s) {
@@ -160,10 +164,12 @@ function buildBoardTabs() {
     for (const label of BOARD_LABELS[plat]) {
       const btn = document.createElement("button");
       btn.className = `board-tab board-tab-${plat}`;
-      const icon = BOARD_ICON[label] || "•";
+      const iconKey = Object.keys(BOARD_ICON).find(k => label.includes(k));
+      const icon = iconKey ? BOARD_ICON[iconKey] : "•";
       const platShort = plat === "wx" ? "微"
         : plat === "douyin" ? "抖"
         : plat === "taptap" ? "Tap"
+        : plat === "ios" ? "iOS"
         : "";
       btn.innerHTML = `<span class="tab-icon">${icon}</span>`
         + `<span class="tab-label">${platShort}·${escapeHTML(label.replace("榜",""))}</span>`;

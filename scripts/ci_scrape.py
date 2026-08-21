@@ -111,32 +111,46 @@ def main():
     data["scraped_at_beijing"] = now_bj.isoformat(timespec="seconds")
     data["date_beijing"] = day_label
 
-    # Merge TapTap pre-registration board (separate site, scraped via SSR
-    # JSON-LD — see scrape_taptap.py). Wrapped so a TapTap failure never
-    # blocks the gravity-engine snapshot for wx/douyin.
+    # Merge auxiliary platforms (separate data sources, scraped with
+    # stdlib-only modules — see scrape_taptap.py / scrape_ios.py):
+    #   taptap  -> TapTap 预约榜 (SSR JSON-LD)
+    #   ios     -> App Store 美/国/日区游戏免费榜 (Apple 官方 iTunes RSS)
+    # Wrapped so a failure never blocks the gravity-engine snapshot for
+    # wx/douyin.
     #
-    # TapTap has no historical API — it always returns the current
-    # pre-registration board. For a historical re-pull we must NOT fold
-    # today's TapTap into a past day's snapshot; reuse the board already
-    # stored in the file we're overwriting (if any), else omit it.
+    # These sources expose no historical API — they always return the
+    # current board. For a historical re-pull we must NOT fold today's
+    # data into a past day's snapshot; reuse the boards already stored
+    # in the file we're overwriting (if any), else omit them.
     if hist_date and out_path.exists():
         try:
             prev = json.loads(out_path.read_text(encoding="utf-8"))
-            prev_tap = prev.get("platforms", {}).get("taptap")
-            if prev_tap:
-                data.setdefault("platforms", {})["taptap"] = prev_tap
-                log(f"复用旧快照 taptap/预约榜: "
-                    f"{len(prev_tap['boards'][0]['rows'])} 条（历史重拉）")
         except Exception as e:
-            log(f"[taptap] 复用旧快照失败，历史重拉将不含 taptap: {e}")
+            prev = {}
+            log(f"读取旧快照失败，历史重拉将不含辅助平台: {e}")
+        for pkey, blabel in (("taptap", "预约榜"), ("ios", "免费榜")):
+            prev_frag = prev.get("platforms", {}).get(pkey)
+            if prev_frag:
+                data.setdefault("platforms", {})[pkey] = prev_frag
+                n_rows = sum(len(b.get("rows", []))
+                             for b in prev_frag.get("boards", []))
+                log(f"复用旧快照 {pkey}/{blabel}: {n_rows} 条（历史重拉）")
+            else:
+                log(f"[{pkey}] 旧快照无此平台，历史重拉将不含 {pkey}")
     elif not hist_date:
-        try:
-            import scrape_taptap as taptap
-            tfrag = taptap.scrape(top_n=top_n, log=log)
-            data.setdefault("platforms", {})["taptap"] = tfrag
-            log(f"合并 taptap/预约榜: {len(tfrag['boards'][0]['rows'])} 条")
-        except Exception as e:
-            log(f"[taptap] 抓取失败，跳过（不影响其他平台）: {e}")
+        for pkey, modname, blabel in (
+            ("taptap", "scrape_taptap", "预约榜"),
+            ("ios", "scrape_ios", "免费榜"),
+        ):
+            try:
+                mod = __import__(modname)
+                frag = mod.scrape(top_n=top_n, log=log)
+                data.setdefault("platforms", {})[pkey] = frag
+                n_rows = sum(len(b.get("rows", []))
+                             for b in frag.get("boards", []))
+                log(f"合并 {pkey}/{blabel}: {n_rows} 条")
+            except Exception as e:
+                log(f"[{pkey}] 抓取失败，跳过（不影响其他平台）: {e}")
 
     out_path.write_text(
         json.dumps(data, ensure_ascii=False, indent=2),

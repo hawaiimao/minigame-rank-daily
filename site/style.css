@@ -164,8 +164,20 @@ nav.board-tabs {
 }
 .board-tab.board-tab-taptap.active .tab-icon { filter: none; }
 
+/* iOS tabs — indigo tint on hover, deep indigo when active */
+.board-tab.board-tab-ios:hover {
+  background: #e0e7ff;
+  color: #4338ca;
+}
+.board-tab.board-tab-ios.active {
+  background: #4f46e5;
+  color: #fff;
+  font-weight: 600;
+}
+.board-tab.board-tab-ios.active .tab-icon { filter: none; }
+
 /* Fallback for tabs without a specific platform class (e.g. CTA) */
-.board-tab.active:not(.board-tab-wx):not(.board-tab-douyin) {
+.board-tab.active:not(.board-tab-wx):not(.board-tab-douyin):not(.board-tab-ios) {
   background: var(--ink);
   color: #fff;
   font-weight: 600;
@@ -556,6 +568,10 @@ footer a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .board-tag.board-tag-taptap {
   background: #e0f2fe;
   color: #0369a1;
+}
+.board-tag.board-tag-ios {
+  background: #e0e7ff;
+  color: #4338ca;
 }
 .board-tag.board-tag-more {
   color: var(--muted);

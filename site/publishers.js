@@ -264,6 +264,7 @@ function renderRows() {
       const plat = b.startsWith("wx/") ? "wx"
         : b.startsWith("douyin/") ? "douyin"
         : b.startsWith("taptap/") ? "taptap"
+        : b.startsWith("ios/") ? "ios"
         : "unknown";
       return `<span class="board-tag board-tag-${plat}">${escapeHTML(shortBoard(b))}</span>`;
     }).join("")
@@ -302,11 +303,12 @@ function renderRows() {
 }
 
 function shortBoard(key) {
-  const m = key.match(/^(wx|douyin|taptap)\/(.+)$/);
+  const m = key.match(/^(wx|douyin|taptap|ios)\/(.+)$/);
   if (!m) return key;
   const plat = m[1] === "wx" ? "微"
     : m[1] === "douyin" ? "抖"
     : m[1] === "taptap" ? "Tap"
+    : m[1] === "ios" ? "iOS"
     : "";
   const board = m[2].replace("榜", "");
   return `${plat}·${board}`;

@@ -30,7 +30,7 @@
     }[m]));
   }
 
-  const BOARD_PLATFORM = { wx: "微信", douyin: "抖音", taptap: "TapTap" };
+  const BOARD_PLATFORM = { wx: "微信", douyin: "抖音", taptap: "TapTap", ios: "iOS" };
 
   function fmtBoard(key, name) {
     // "wx/人气榜" -> "微信·人气榜"; name 存在时附加当前排名 -> "抖音·新游榜·11"
