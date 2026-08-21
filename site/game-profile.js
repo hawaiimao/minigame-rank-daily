@@ -31,6 +31,16 @@
   }
 
   const BOARD_PLATFORM = { wx: "微信", douyin: "抖音", taptap: "TapTap", ios: "iOS", android: "安卓" };
+  // Fixed platform ordering for board tags: 微信 → 抖音 → iOS → 安卓 → TapTap.
+  const PLATFORM_SEQ = { wx: 0, douyin: 1, ios: 2, android: 3, taptap: 4 };
+  function boardSeq(key) {
+    const plat = String(key).split("/")[0];
+    return PLATFORM_SEQ[plat] ?? 99;
+  }
+  function sortBoardKeys(keys) {
+    return [...keys].sort((a, b) => boardSeq(a) - boardSeq(b)
+      || String(a).localeCompare(String(b), "zh"));
+  }
 
   function fmtBoard(key, name) {
     // "wx/人气榜" -> "微信·人气榜"; name 存在时附加当前排名 -> "抖音·新游榜·11"
@@ -88,8 +98,7 @@
       const p = state.profiles[g.name];
       const sh = state.shots[g.name] || [];
       const bh = state.boardMap[g.name] || {};
-      const boardKeys = Object.keys(bh);
-      boardKeys.sort((a, b) => (bh[a].first_seen || "").localeCompare(bh[b].first_seen || ""));
+      const boardKeys = sortBoardKeys(Object.keys(bh));
       const sourceBoards = boardKeys.map((k) => fmtBoard(k, g.name));
       rows.push({
         name: g.name,
@@ -156,8 +165,7 @@
     const el = document.getElementById(id);
     if (!el) return;
     const bh = state.boardMap[gameName] || {};
-    const keys = Object.keys(bh);
-    keys.sort((a, b) => (bh[a].first_seen || "").localeCompare(bh[b].first_seen || ""));
+    const keys = sortBoardKeys(Object.keys(bh));
     const text = keys.map((k) => fmtBoard(k, gameName)).join(" / ");
     el.textContent = text;
     el.style.display = text ? "" : "none";

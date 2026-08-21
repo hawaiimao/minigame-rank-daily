@@ -435,6 +435,18 @@ tbody tr:last-child td { border-bottom: none; }
   color: var(--muted);
   font-size: 12px;
   font-style: italic;
+  max-width: 280px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* Long cell text (e.g. iOS store summaries) truncates with ellipsis;
+   full text is available on hover via the title attribute. */
+td.cell-truncate {
+  max-width: 280px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 @media (max-width: 720px) {

@@ -373,7 +373,7 @@ function renderDiffTables() {
       <td class="rank-num">${r.rank ?? ""}</td>
       <td><strong>${escapeHTML(r.name || "")}</strong>${profileBtn(r.name || "")}</td>
       <td>${escapeHTML(category)}</td>
-      <td>${escapeHTML(subcategory) || `<span class="slogan">${escapeHTML(slogan)}</span>`}</td>
+      <td class="cell-truncate" title="${escapeHTML(subcategory || slogan)}">${escapeHTML(subcategory) || `<span class="slogan">${escapeHTML(slogan)}</span>`}</td>
       <td>${escapeHTML(r.publisher || "")}</td>
       <td>${studioCell}</td>`;
     tbodyG.appendChild(tr);
@@ -424,7 +424,7 @@ function renderFullBoard() {
     tr.innerHTML = `
       <td class="rank-num">${r.rank ?? ""}</td>
       <td><strong>${escapeHTML(r.name || "")}</strong>${profileBtn(r.name || "")}
-        ${r.slogan ? `<div class="slogan">${escapeHTML(r.slogan)}</div>` : ""}</td>
+        ${r.slogan ? `<div class="slogan" title="${escapeHTML(r.slogan)}">${escapeHTML(r.slogan)}</div>` : ""}</td>
       <td>${escapeHTML(r.category || "")}${r.category_rank ? ` <span class="muted">#${r.category_rank}</span>` : ""}</td>
       <td>${escapeHTML(r.subcategory || "")}</td>
       <td>${escapeHTML(r.publisher || "")}</td>

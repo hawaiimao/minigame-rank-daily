@@ -29,6 +29,17 @@ const STATUS_LABEL = {
 const NOTE_MAX = 200;
 const PAGE_SIZE = 50;
 
+// Fixed platform ordering for board tags: 微信 → 抖音 → iOS → 安卓 → TapTap.
+const PLATFORM_SEQ = { wx: 0, douyin: 1, ios: 2, android: 3, taptap: 4 };
+function boardSeq(key) {
+  const plat = String(key).split("/")[0];
+  return PLATFORM_SEQ[plat] ?? 99;
+}
+function sortBoards(boards) {
+  return [...boards].sort((a, b) => boardSeq(a) - boardSeq(b)
+    || String(a).localeCompare(String(b), "zh"));
+}
+
 const state = {
   publishers: [],   // [{name, games: string[]|null, first_seen, boards}, ...]
                     // games === null means debut-day games not fetched yet.
@@ -258,8 +269,9 @@ function renderRows() {
       : (p.games.slice(0, 2).map(escapeHTML).join("、")
           + (p.games.length > 2 ? ` <span class="muted">+${p.games.length - 2}</span>` : "")
           || `<span class="muted">—</span>`);
-    const boardsShown = p.boards.slice(0, 3);
-    const boardsExtra = p.boards.length - boardsShown.length;
+    const sortedBoards = sortBoards(p.boards);
+    const boardsShown = sortedBoards.slice(0, 3);
+    const boardsExtra = sortedBoards.length - boardsShown.length;
     const boards = boardsShown.map(b => {
       const plat = b.startsWith("wx/") ? "wx"
         : b.startsWith("douyin/") ? "douyin"
@@ -270,7 +282,7 @@ function renderRows() {
       return `<span class="board-tag board-tag-${plat}">${escapeHTML(shortBoard(b))}</span>`;
     }).join("")
       + (boardsExtra > 0
-          ? `<span class="board-tag board-tag-more" title="${escapeAttr(p.boards.map(shortBoard).join('、'))}">+${boardsExtra}</span>`
+          ? `<span class="board-tag board-tag-more" title="${escapeAttr(sortedBoards.map(shortBoard).join('、'))}">+${boardsExtra}</span>`
           : "");
     const note = noteOf(p.name);
     tr.innerHTML = `
