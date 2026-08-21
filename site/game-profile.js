@@ -229,55 +229,62 @@
     } else if (f === "abandoned") {
       filtered = filtered.filter((r) => r.abandoned);
     }
-    const box = $("gp-list");
-    box.innerHTML = "";
+    const tbody = document.querySelector("#tbl-game tbody");
+    tbody.innerHTML = "";
     $("gp-count").textContent = `共 ${filtered.length} 款（已建档 ${filtered.filter((r) => r.has).length}）`;
     if (!filtered.length) {
-      box.innerHTML = '<div class="gp-empty">没有匹配的产品。</div>';
+      tbody.innerHTML = '<tr><td colspan="5" class="muted" style="text-align:center;padding:24px">没有匹配的产品。</td></tr>';
+      renderMore(0);
       return;
     }
-    const PER_PAGE = 20;
-    const totalPages = Math.max(1, Math.ceil(filtered.length / PER_PAGE));
-    if (state.page >= totalPages) state.page = totalPages - 1;
-    const pageRows = filtered.slice(state.page * PER_PAGE, (state.page + 1) * PER_PAGE);
-    for (const r of pageRows) {
-      const card = document.createElement("div");
+    // Date-group totals across the whole filtered set (publishers-style
+    // grouping: newest → oldest with a date divider row per day).
+    const groupTotals = new Map();
+    for (const r of filtered) {
+      const d = (r.joined || "").slice(0, 10) || "未知日期";
+      groupTotals.set(d, (groupTotals.get(d) || 0) + 1);
+    }
+    const PAGE_SIZE = 50;
+    const shown = filtered.slice(0, (state.page + 1) * PAGE_SIZE);
+    let currentDate = null;
+    for (const r of shown) {
+      const seenDate = (r.joined || "").slice(0, 10) || "未知日期";
+      if (seenDate !== currentDate) {
+        currentDate = seenDate;
+        const tr = document.createElement("tr");
+        tr.className = "date-divider";
+        tr.innerHTML = `<td colspan="5">
+          <span class="dv-date">${esc(seenDate)}</span>
+          <span class="dv-count">首次上榜 ${groupTotals.get(seenDate) || 0} 款</span>
+        </td>`;
+        tbody.appendChild(tr);
+      }
       const effVal = r.value || "abandoned";
-      card.className = "gp-card v-" + esc(effVal);
+      const tr = document.createElement("tr");
+      tr.className = "gp-tr v-" + esc(effVal);
       const thumb = r.firstShot
-        ? `<img class="gp-card-thumb" src="${esc(r.firstShot)}" loading="lazy" alt="" />`
-        : `<div class="gp-card-thumb empty">无图</div>`;
-      const tags = (r.tags || []).slice(0, 4).map((t) => `<span class="tag">${esc(t)}</span>`).join("");
-      const dev = r.developer ? `<div class="gp-card-pub">${esc(r.developer)}</div>` : "";
+        ? `<img class="gp-thumb" src="${esc(r.firstShot)}" loading="lazy" alt="" />`
+        : `<span class="gp-thumb empty">无图</span>`;
       const srcBoards = (r.sourceBoards || []).slice(0, 3).map((b) => `<span class="badge-src">${esc(b)}</span>`).join("");
-      const srcLine = srcBoards ? `<div class="gp-card-src">${srcBoards}</div>` : "";
-      const joined = (r.joined || "").slice(0, 10);
-      const joinedLine = joined ? `上榜 ${joined}` : "";
-      const abnLine = r.abandonReason ? `<div class="gp-card-abandon-reason">放弃理由：${esc(r.abandonReason)}</div>` : "";
-      const meta = r.has
-        ? (joinedLine || "已建档")
-        : joinedLine || "未建档";
       const actBtns = `
             <button class="gp-card-fav${r.favorite ? " on" : ""}" data-name="${esc(r.name)}" title="收藏">❤</button>
             <button class="gp-card-val ${esc(effVal)}" data-name="${esc(r.name)}" title="设置玩法状态">${effVal === "high" ? "高价值" : effVal === "mid" ? "中价值" : effVal === "low" ? "低价值" : "放弃"}</button>`;
-      card.innerHTML = `
-        ${thumb}
-        <div class="gp-card-body">
-          <div class="gp-card-head">
-            <div class="gp-card-name">${esc(r.name)}${r.has ? '<span class="badge-has">已建档</span>' : '<span class="badge-no">未建档</span>'}</div>
-            ${actBtns}
-          </div>
-          ${dev}
-          ${tags ? `<div class="gp-card-tags">${tags}</div>` : ""}
-          ${srcLine}
-          <div class="gp-card-meta">${meta}</div>
-          ${abnLine}
-        </div>`;
-      card.addEventListener("click", () => { if (isEditor()) showEdit(r.name); else showView(r.name); });
-      box.appendChild(card);
+      tr.innerHTML = `
+        <td class="gp-td-name">${thumb}<span class="gp-name">${esc(r.name)}</span>${r.has ? '<span class="badge-has">已建档</span>' : '<span class="badge-no">未建档</span>'}
+          ${r.abandonReason ? `<div class="gp-card-abandon-reason">放弃理由：${esc(r.abandonReason)}</div>` : ""}</td>
+        <td class="gp-td-dev">${esc(r.developer)}</td>
+        <td class="gp-td-src">${srcBoards}</td>
+        <td class="gp-td-val">${actBtns}</td>
+        <td class="gp-td-view"><button type="button" class="gp-view-btn" data-name="${esc(r.name)}" title="查看/编辑档案">档案</button></td>`;
+      tr.addEventListener("click", (e) => {
+        if (e.target.closest("button")) return;  // buttons handled separately
+        if (isEditor()) showEdit(r.name); else showView(r.name);
+      });
+      tbody.appendChild(tr);
     }
-    // 卡片上的收藏按钮: 局部切换心形状态
-    box.querySelectorAll(".gp-card-fav").forEach((btn) => {
+    renderMore(filtered.length);
+    // 表格行上的收藏按钮: 局部切换心形状态
+    tbody.querySelectorAll(".gp-card-fav").forEach((btn) => {
       btn.addEventListener("click", async (e) => {
         e.stopPropagation();
         if (!isEditor()) { if (window.Auth) window.Auth.openModal(); return; }
@@ -310,8 +317,8 @@
         }
       });
     });
-    // 卡片上的价值按钮: 点击弹出高/中/低选项,局部更新
-    box.querySelectorAll(".gp-card-val").forEach((btn) => {
+    // 表格行上的价值按钮: 点击弹出高/中/低选项,局部更新
+    tbody.querySelectorAll(".gp-card-val").forEach((btn) => {
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
         if (!isEditor()) { if (window.Auth) window.Auth.openModal(); return; }
@@ -380,23 +387,18 @@
         btn.disabled = false;
         btn.className = "gp-card-val " + value;
         btn.textContent = value === "high" ? "高价值" : value === "mid" ? "中价值" : value === "low" ? "低价值" : "放弃";
-        // 局部更新卡片背板
-        const card = btn.closest(".gp-card");
-        if (card) {
-          const nv = value || "abandoned";
-          card.className = "gp-card v-" + nv;
-        }
-        // 同步更新已有筛选的列表数量
-        // 局部更新卡片最后一行放弃理由
-        if (card) {
-          const oldLine = card.querySelector(".gp-card-abandon-reason");
-          if (oldLine) oldLine.remove();
+        // 放弃理由同步到所在行的文案区
+        const rowEl = btn.closest("tr");
+        if (rowEl) {
+          rowEl.className = "gp-tr v-" + (value || "abandoned");
+          const reasonEl = rowEl.querySelector(".gp-card-abandon-reason");
+          if (reasonEl) reasonEl.remove();
           if (reason) {
             const el = document.createElement("div");
             el.className = "gp-card-abandon-reason";
             el.textContent = reason;
-            const meta = card.querySelector(".gp-card-meta");
-            if (meta) meta.insertAdjacentElement("afterend", el);
+            const nameCell = rowEl.querySelector(".gp-td-name");
+            if (nameCell) nameCell.appendChild(el);
           }
         }
         if (state.filter) renderList();
@@ -405,7 +407,20 @@
         btn.disabled = false;
       }
     }
-    renderPager(filtered.length, totalPages);
+  }
+  // Segmented loading: show a "加载更多" button until everything is on screen.
+  function renderMore(total) {
+    const row = document.getElementById("gp-more-row");
+    const btn = document.getElementById("gp-more");
+    if (!row || !btn) return;
+    const shownCount = (state.page + 1) * 50;
+    if (shownCount < total) {
+      row.style.display = "";
+      btn.textContent = `加载更多（还有 ${total - shownCount} 条）`;
+      btn.onclick = () => { state.page++; renderList(); };
+    } else {
+      row.style.display = "none";
+    }
   }
   document.getElementById("gp-page-go").addEventListener("click", jumpToPage);
   document.getElementById("gp-new").addEventListener("click", startNewGame);
