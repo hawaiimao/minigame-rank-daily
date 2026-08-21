@@ -172,10 +172,15 @@ def scrape(top_n: int = 100, log=print, max_workers: int = 5) -> dict:
     # 1) Paginated listing → items with global rank, name, app url.
     items: list[dict] = []
     seen_ranks: set[int] = set()
+    seen_names: set[tuple] = set()  # (name, url) — dedupe across ALL pages
     page = 1
     max_pages = (top_n // PAGE_SIZE) + 2  # safety cap
+    prev_names: tuple = ()
     while len(items) < top_n and page <= max_pages:
-        url = BASE + (f"?page={page}" if page > 1 else "")
+        # TapTap requires BOTH page & limit: without `limit`, ?page=N is
+        # ignored and every page returns the first page's items (verified
+        # 2026-08-21 — page 2 duplicated page 1's content).
+        url = BASE + f"?page={page}&limit={PAGE_SIZE}"
         try:
             html = _fetch(url)
         except Exception as e:
@@ -185,8 +190,23 @@ def scrape(top_n: int = 100, log=print, max_workers: int = 5) -> dict:
         if not page_items:
             log(f"[taptap] listing page {page}: no items — stopping")
             break
+        # Defense-in-depth: if TapTap ever ignores pagination again, stop
+        # instead of recording duplicated content (same names as last page).
+        names_now = tuple(it["name"] for it in page_items)
+        if names_now and names_now == prev_names:
+            log(f"[taptap] listing page {page}: 内容与上一页重复，停止")
+            break
+        prev_names = names_now
         added = 0
         for it in page_items:
+            # Cross-page content dedupe: TapTap's paging can loop back to
+            # an earlier block (observed 2026-08-21: page 4 returned the
+            # same 10 games as page 1 under new positions 31-40). Skip
+            # repeats so the chart has no duplicated entries.
+            nk = (it["name"], it["url"])
+            if nk in seen_names:
+                continue
+            seen_names.add(nk)
             if it["position"] in seen_ranks:
                 continue
             seen_ranks.add(it["position"])
