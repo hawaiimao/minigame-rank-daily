@@ -119,6 +119,7 @@
       const sourceBoards = boardKeys.map((k) => fmtBoard(k, g.name));
       rows.push({
         name: g.name,
+        bhRaw: bh,  // board_history for first_rank sorting under the active board
         has: !!p,
         developer: (p && p.developer) || (g.publisher_name || ""),
         desc: (p && p.gameplay_desc) || "",
@@ -236,6 +237,17 @@
     } else if (f === "abandoned") {
       filtered = filtered.filter((r) => r.abandoned);
     }
+    // Sort: newest first-seen date first; within each date group, order by
+    // the 首上 (first_rank) of the ACTIVE board, ascending from 1.
+    filtered.sort((a, b) => {
+      const da = (a.joined || "").slice(0, 10), db = (b.joined || "").slice(0, 10);
+      if (da !== db) return da < db ? 1 : -1;
+      const bhA = (a.bhRaw && a.bhRaw[boardKey]) || {};
+      const bhB = (b.bhRaw && b.bhRaw[boardKey]) || {};
+      const ra = bhA.first_rank, rb = bhB.first_rank;
+      if (ra !== rb) return (ra ?? Infinity) - (rb ?? Infinity);
+      return a.name.localeCompare(b.name, "zh");
+    });
     const tbody = document.querySelector("#tbl-game tbody");
     tbody.innerHTML = "";
     $("gp-count").textContent = `共 ${filtered.length} 款（已建档 ${filtered.filter((r) => r.has).length}）`;
