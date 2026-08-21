@@ -72,8 +72,9 @@
       window.sb.select("games", { select: "name,first_seen_at,category,publisher_name", order: "first_seen_at.desc", limit: 5000 }),
       window.sb.select("game_profiles", { limit: 5000 }),
       window.sb.select("game_screenshots", { select: "id,game_name,url,sort_order", order: "sort_order.asc,id.asc", limit: 5000 }),
-      fetch("data/base/games.json").then((r) => r.ok ? r.json() : null).catch(() => null),
-      fetch("data/latest.json").then((r) => r.ok ? r.json() : null).catch(() => null),
+      // ?t= 时间戳强制绕过浏览器/代理缓存（本地 http.server 与 Pages 都可能缓存 JSON）
+      fetch("data/base/games.json?t=" + Date.now()).then((r) => r.ok ? r.json() : null).catch(() => null),
+      fetch("data/latest.json?t=" + Date.now()).then((r) => r.ok ? r.json() : null).catch(() => null),
     ]);
     if (base && base.games) {
       for (const [name, entry] of Object.entries(base.games)) {
