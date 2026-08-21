@@ -116,7 +116,7 @@
       const sh = state.shots[g.name] || [];
       const bh = state.boardMap[g.name] || {};
       const boardKeys = sortBoardKeys(Object.keys(bh));
-      const sourceBoards = boardKeys.map((k) => fmtBoard(k, g.name));
+      const sourceBoards = boardKeys.map((k) => ({ key: k, text: fmtBoard(k, g.name) }));
       rows.push({
         name: g.name,
         bhRaw: bh,  // board_history for first_rank sorting under the active board
@@ -284,7 +284,10 @@
       const thumb = r.firstShot
         ? `<img class="gp-thumb" src="${esc(r.firstShot)}" loading="lazy" alt="" />`
         : `<span class="gp-thumb empty">无图</span>`;
-      const srcBoards = (r.sourceBoards || []).slice(0, 3).map((b) => `<span class="badge-src">${esc(b)}</span>`).join("");
+      // 榜单来源只显示当前筛选榜单（如微信·畅销榜），不带其他榜单
+      const srcBoards = (r.sourceBoards || [])
+        .filter((b) => b.key === boardKey)
+        .map((b) => `<span class="badge-src">${esc(b.text)}</span>`).join("");
       const actBtns = `
             <button class="gp-card-fav${r.favorite ? " on" : ""}" data-name="${esc(r.name)}" title="收藏">❤</button>
             <button class="gp-card-val ${esc(effVal)}" data-name="${esc(r.name)}" title="设置玩法状态">${effVal === "high" ? "高价值" : effVal === "mid" ? "中价值" : effVal === "low" ? "低价值" : "放弃"}</button>`;
