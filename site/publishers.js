@@ -45,7 +45,7 @@ const state = {
                     // games === null means debut-day games not fetched yet.
   status: {},       // { name: { status, note } }
   filter: "all",
-  platformFilter: "all",  // wx | douyin | ios | android | taptap | all
+  platformFilter: "wx",  // wx | douyin | ios | android | taptap
   search: "",
   pending: new Set(),
   page: 0,          // pages of PAGE_SIZE currently rendered

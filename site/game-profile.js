@@ -19,7 +19,7 @@
     latestRankMap: {},   // name -> {"wx/人气榜": 11} 当前榜单排名
     page: 0,             // 列表当前页
     filter: "",           // 价值/放弃筛选
-    platformFilter: "all", // wx | douyin | ios | android | taptap | all
+    platformFilter: "wx", // wx | douyin | ios | android | taptap
     favOnly: false,       // 我的收藏模式
   };
 
