@@ -45,6 +45,7 @@ const state = {
                     // games === null means debut-day games not fetched yet.
   status: {},       // { name: { status, note } }
   filter: "all",
+  platformFilter: "all",  // wx | douyin | ios | android | taptap | all
   search: "",
   pending: new Set(),
   page: 0,          // pages of PAGE_SIZE currently rendered
@@ -213,6 +214,11 @@ function filteredPublishers() {
   return state.publishers.filter(p => {
     const st = statusOf(p.name);
     if (state.filter !== "all" && st !== state.filter) return false;
+    // Platform filter: publisher must have appeared on this platform's boards.
+    if (state.platformFilter !== "all" &&
+        !p.boards.some(b => b.startsWith(state.platformFilter + "/"))) {
+      return false;
+    }
     if (q) {
       // games may be null (not yet loaded) — search name only in that case.
       const hay = (p.name + " " + (p.games ? p.games.join(" ") : "")).toLowerCase();
@@ -407,6 +413,16 @@ function attachHandlers() {
     document.querySelectorAll("#pub-filter button").forEach(x =>
       x.classList.toggle("active", x === b));
     state.filter = b.dataset.filter;
+    state.page = 0;
+    renderRows();
+  });
+
+  document.getElementById("pub-platform-filter").addEventListener("click", (e) => {
+    const b = e.target.closest("button[data-plat]");
+    if (!b) return;
+    document.querySelectorAll("#pub-platform-filter button").forEach(x =>
+      x.classList.toggle("active", x === b));
+    state.platformFilter = b.dataset.plat;
     state.page = 0;
     renderRows();
   });

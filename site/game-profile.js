@@ -19,6 +19,7 @@
     latestRankMap: {},   // name -> {"wx/人气榜": 11} 当前榜单排名
     page: 0,             // 列表当前页
     filter: "",           // 价值/放弃筛选
+    platformFilter: "all", // wx | douyin | ios | android | taptap | all
     favOnly: false,       // 我的收藏模式
   };
 
@@ -115,6 +116,7 @@
         publisher: (g.publisher_name || (p && p.developer) || ""),
         joined: g.first_seen_at || "",
         sourceBoards: sourceBoards,
+        platformKeys: boardKeys,
         firstShot: sh.length ? sh[0].url : "",
         shotCount: sh.length,
       });
@@ -185,6 +187,11 @@
       ? state.list.filter((r) =>
           r.name.toLowerCase().includes(q) || r.developer.toLowerCase().includes(q))
       : state.list;
+    // Platform filter: product must have appeared on this platform's boards.
+    if (state.platformFilter !== "all") {
+      filtered = filtered.filter((r) =>
+        (r.platformKeys || []).some((k) => k.startsWith(state.platformFilter + "/")));
+    }
     if (state.favOnly) {
       filtered = filtered.filter((r) => r.favorite);
     }
@@ -387,6 +394,16 @@
   if (favBtn) favBtn.addEventListener("click", () => {
     state.favOnly = !state.favOnly;
     favBtn.classList.toggle("active", state.favOnly);
+    state.page = 0;
+    renderList();
+  });
+  const platFilter = document.getElementById("gp-platform-filter");
+  if (platFilter) platFilter.addEventListener("click", (e) => {
+    const b = e.target.closest("button[data-plat]");
+    if (!b) return;
+    platFilter.querySelectorAll("button").forEach(x =>
+      x.classList.toggle("active", x === b));
+    state.platformFilter = b.dataset.plat;
     state.page = 0;
     renderList();
   });
