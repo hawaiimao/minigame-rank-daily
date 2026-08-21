@@ -92,6 +92,88 @@ header h1 {
   flex: 1 1 auto;
   min-width: 0;
 }
+/* Two-level tabs: platform tabs sit above the board tabs row. */
+.tabs-left {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+nav.platform-tabs {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  background: var(--panel);
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius-pill);
+  padding: 4px;
+}
+.platform-tab {
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: var(--ink-2);
+  font-size: 13.5px;
+  font-weight: 600;
+  transition: background .18s ease, color .18s ease, transform .12s ease;
+  box-shadow: none;
+  font-family: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  line-height: 1.2;
+}
+.platform-tab .tab-icon {
+  font-size: 15px;
+  line-height: 1;
+  filter: grayscale(0.15);
+}
+.platform-tab:hover {
+  background: var(--bg-tint);
+  color: var(--ink);
+}
+.platform-tab.board-tab-wx:hover,
+.platform-tab.platform-tab-wx:hover {
+  background: #e6f9ef;
+  color: #047857;
+}
+.platform-tab.platform-tab-wx.active {
+  background: #10b981;
+  color: #fff;
+  font-weight: 700;
+}
+.platform-tab.platform-tab-douyin:hover {
+  background: #ffe9f0;
+  color: #be185d;
+}
+.platform-tab.platform-tab-douyin.active {
+  background: #ec4899;
+  color: #fff;
+  font-weight: 700;
+}
+.platform-tab.platform-tab-taptap:hover {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+.platform-tab.platform-tab-taptap.active {
+  background: #0284c7;
+  color: #fff;
+  font-weight: 700;
+}
+.platform-tab.platform-tab-ios:hover {
+  background: #e0e7ff;
+  color: #4338ca;
+}
+.platform-tab.platform-tab-ios.active {
+  background: #4f46e5;
+  color: #fff;
+  font-weight: 700;
+}
+.platform-tab.active .tab-icon { filter: none; }
+
 nav.board-tabs {
   display: flex;
   gap: 4px;

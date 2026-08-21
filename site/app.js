@@ -10,8 +10,8 @@
 const PLATFORM_ORDER = [
   ["wx", "微信小游戏"],
   ["douyin", "抖音小游戏"],
-  ["taptap", "TapTap"],
   ["ios", "iOS App Store"],
+  ["taptap", "TapTap"],
 ];
 const BOARD_LABELS = {
   wx: ["畅销榜", "畅玩榜", "人气榜"],
@@ -31,6 +31,14 @@ const BOARD_ICON = {
   "免费榜": "🍎",
 };
 
+// Icon per platform (top-level tab).
+const PLATFORM_ICON = {
+  wx: "💬",
+  douyin: "🎵",
+  taptap: "📅",
+  ios: "🍎",
+};
+
 // Rows rendered per "page" in the full-board table.
 const PAGE_SIZE = 50;
 
@@ -39,7 +47,9 @@ const state = {
   availableDates: [],         // sorted asc
   // cache[date]["plat/label"] = { rows, diff }
   cache: {},
+  activePlatform: null,       // current top-level platform key
   activeBoard: null,          // {plat, label}
+  lastBoard: {},              // plat -> last chosen label (remembered)
   fullBoardPage: 0,          // pages already rendered for the active board
 };
 
@@ -157,27 +167,51 @@ async function loadBoardData(date, plat, label) {
 
 // ---------- UI: tabs / date picker ----------
 
+function buildPlatformTabs() {
+  const nav = $("platform-tabs");
+  nav.innerHTML = "";
+  for (const [plat, platLabel] of PLATFORM_ORDER) {
+    const btn = document.createElement("button");
+    btn.className = `platform-tab platform-tab-${plat}`;
+    btn.innerHTML = `<span class="tab-icon">${PLATFORM_ICON[plat] || "•"}</span>`
+      + `<span class="tab-label">${escapeHTML(platLabel)}</span>`;
+    btn.dataset.plat = plat;
+    btn.onclick = () => setActivePlatform(plat);
+    nav.appendChild(btn);
+  }
+}
+
+function setActivePlatform(plat) {
+  state.activePlatform = plat;
+  state.fullBoardPage = 0;
+  updatePlatformTabsActive();
+  buildBoardTabs();
+  // Remember the last board chosen per platform, else the first board.
+  const label = state.lastBoard[plat] || BOARD_LABELS[plat][0];
+  setActiveBoard(plat, label);
+}
+
+function updatePlatformTabsActive() {
+  for (const btn of document.querySelectorAll(".platform-tab")) {
+    btn.classList.toggle("active", btn.dataset.plat === state.activePlatform);
+  }
+}
+
 function buildBoardTabs() {
   const nav = $("board-tabs");
   nav.innerHTML = "";
-  for (const [plat, platLabel] of PLATFORM_ORDER) {
-    for (const label of BOARD_LABELS[plat]) {
-      const btn = document.createElement("button");
-      btn.className = `board-tab board-tab-${plat}`;
-      const iconKey = Object.keys(BOARD_ICON).find(k => label.includes(k));
-      const icon = iconKey ? BOARD_ICON[iconKey] : "•";
-      const platShort = plat === "wx" ? "微"
-        : plat === "douyin" ? "抖"
-        : plat === "taptap" ? "Tap"
-        : plat === "ios" ? "iOS"
-        : "";
-      btn.innerHTML = `<span class="tab-icon">${icon}</span>`
-        + `<span class="tab-label">${platShort}·${escapeHTML(label.replace("榜",""))}</span>`;
-      btn.dataset.plat = plat;
-      btn.dataset.label = label;
-      btn.onclick = () => setActiveBoard(plat, label);
-      nav.appendChild(btn);
-    }
+  if (!state.activePlatform) return;
+  for (const label of BOARD_LABELS[state.activePlatform]) {
+    const btn = document.createElement("button");
+    btn.className = `board-tab board-tab-${state.activePlatform}`;
+    const iconKey = Object.keys(BOARD_ICON).find(k => label.includes(k));
+    const icon = iconKey ? BOARD_ICON[iconKey] : "•";
+    btn.innerHTML = `<span class="tab-icon">${icon}</span>`
+      + `<span class="tab-label">${escapeHTML(label.replace("榜",""))}</span>`;
+    btn.dataset.plat = state.activePlatform;
+    btn.dataset.label = label;
+    btn.onclick = () => setActiveBoard(state.activePlatform, label);
+    nav.appendChild(btn);
   }
 }
 
@@ -193,6 +227,7 @@ function updateTabActive() {
 
 async function setActiveBoard(plat, label) {
   state.activeBoard = { plat, label };
+  state.lastBoard[plat] = label;
   state.fullBoardPage = 0;
   updateTabActive();
 
@@ -437,7 +472,7 @@ function renderBoardViews() {
 }
 
 async function init() {
-  buildBoardTabs();
+  buildPlatformTabs();
 
   try {
     const dates = await loadAvailableDates();
@@ -445,9 +480,9 @@ async function init() {
     state.currentDate = dates[dates.length - 1];
     renderDatePicker();
     renderKPIs();
-    // setActiveBoard triggers the first board's lazy load and shows a
-    // loading state until the data arrives.
-    await setActiveBoard("wx", "畅销榜");
+    // setActivePlatform renders the platform's board tabs and activates
+    // the first (or last remembered) board.
+    setActivePlatform("wx");
   } catch (e) {
     document.body.insertAdjacentHTML(
       "afterbegin",
