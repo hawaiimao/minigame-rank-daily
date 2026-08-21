@@ -642,7 +642,7 @@
           "name": "腾讯桌球",
           "category": "休闲",
           "category_rank": 54,
-          "subcategory": "益智传统棋牌棋牌",
+          "subcategory": "益智棋牌传统棋牌",
           "slogan": "",
           "publisher": "深圳市腾讯计算机系统有限公司",
           "change": "4",
@@ -1366,7 +1366,7 @@
           "name": "海盗来了",
           "category": "休闲",
           "category_rank": 16,
-          "subcategory": "模拟经营强社交类模拟",
+          "subcategory": "模拟经营模拟强社交类",
           "slogan": "",
           "publisher": "北京豪腾创想科技有限公司",
           "change": "5",
@@ -1608,7 +1608,7 @@
           "name": "雀神广东麻将",
           "category": "棋牌",
           "category_rank": 2,
-          "subcategory": "牌类棋牌传统棋牌",
+          "subcategory": "牌类传统棋牌棋牌",
           "slogan": "",
           "publisher": "上海锋兮网络科技有限公司",
           "change": "- 稳定",
@@ -1883,7 +1883,7 @@
           "name": "英雄杀",
           "category": "角色",
           "category_rank": 38,
-          "subcategory": "卡牌卡牌竞技卡牌",
+          "subcategory": "卡牌卡牌卡牌竞技",
           "slogan": "",
           "publisher": "深圳市腾讯计算机系统有限公司",
           "change": "13",
@@ -2221,7 +2221,7 @@
           "name": "天天象棋",
           "category": "棋牌",
           "category_rank": 2,
-          "subcategory": "棋类传统棋牌棋牌",
+          "subcategory": "棋类棋牌传统棋牌",
           "slogan": "",
           "publisher": "深圳市腾讯天游科技有限公司",
           "change": "2",
@@ -2463,7 +2463,7 @@
           "name": "天天斗地主真人版",
           "category": "棋牌",
           "category_rank": 4,
-          "subcategory": "牌类传统棋牌棋牌",
+          "subcategory": "牌类棋牌传统棋牌",
           "slogan": "",
           "publisher": "深圳市禅游科技股份有限公司",
           "change": "3",
@@ -2540,7 +2540,7 @@
           "name": "天天爱掼蛋",
           "category": "棋牌",
           "category_rank": 5,
-          "subcategory": "牌类传统棋牌棋牌",
+          "subcategory": "牌类棋牌传统棋牌",
           "slogan": "",
           "publisher": "南京呆萌猫网络科技有限公司",
           "change": "- 稳定",
@@ -7044,46 +7044,74 @@
       "board_label": "预约榜",
       "first_anywhere": [
         {
-          "rank": 12,
-          "name": "三国杀·烽烟策",
-          "publisher": "上海游卡",
-          "category": "SLG",
-          "subcategory": "策略、战争、三国、三国杀、3D"
-        },
-        {
           "rank": 40,
           "name": "小猫历险记",
           "publisher": "天呈游戏",
           "category": "策略"
         },
         {
-          "rank": 97,
+          "rank": 74,
+          "name": "缠重山3窃天局",
+          "publisher": "Joyhalf",
+          "category": "休闲"
+        },
+        {
+          "rank": 76,
+          "name": "愤怒的小鸟：梦幻爆破",
+          "publisher": "萌货研究所",
+          "category": "休闲",
+          "subcategory": "消除、益智"
+        },
+        {
+          "rank": 81,
+          "name": "冰与火之舞",
+          "publisher": "indienova",
+          "category": "魔性",
+          "subcategory": "高难度、节奏"
+        },
+        {
+          "rank": 82,
+          "name": "工位倒卖局",
+          "publisher": "时迹网络",
+          "category": "角色扮演"
+        },
+        {
+          "rank": 85,
+          "name": "乔乔的奇妙冒险：黄金赞歌",
+          "publisher": "明月互动工作室",
+          "category": "剧情",
+          "subcategory": "动漫、3D、卡牌"
+        },
+        {
+          "rank": 88,
           "name": "吸血鬼爬行者",
           "category": "Roguelike",
           "subcategory": "卡牌、策略、动作"
-        },
-        {
-          "rank": 98,
-          "name": "代号U1",
-          "publisher": "广州四三九九信息科技有限公司",
-          "category": "休闲"
         }
       ],
-      "first_on_board": [],
+      "first_on_board": [
+        {
+          "rank": 64,
+          "name": "永夜起源",
+          "publisher": "畅鸣游戏",
+          "category": "卡牌",
+          "subcategory": "放置、养成、角色扮演、修仙、西游"
+        }
+      ],
       "returning": [
+        {
+          "rank": 31,
+          "name": "小垠的秘密",
+          "publisher": "鹰目科技",
+          "category": "DIY",
+          "subcategory": "种田、休闲、模拟经营"
+        },
         {
           "rank": 32,
           "name": "闪耀吧！噜咪",
           "publisher": "哔哩哔哩游戏",
           "category": "抓宠",
           "subcategory": "卡牌、放置、冒险、角色扮演、养成、模拟经营、休闲"
-        },
-        {
-          "rank": 33,
-          "name": "小垠的秘密",
-          "publisher": "鹰目科技",
-          "category": "DIY",
-          "subcategory": "种田、休闲、模拟经营"
         },
         {
           "rank": 39,
@@ -7093,18 +7121,32 @@
           "subcategory": "放置、像素、休闲"
         },
         {
-          "rank": 52,
-          "name": "霓虹深渊2",
-          "publisher": "Veewo Games",
-          "category": "Roguelike",
-          "subcategory": "多人联机、赛博朋克、Steam移植、地牢、像素、弹幕、单机、横版、动作、冒险"
-        },
-        {
-          "rank": 60,
+          "rank": 61,
           "name": "甄嬛传",
           "publisher": "雷霆游戏",
           "category": "模拟",
           "subcategory": "休闲、模拟经营、养成、换装、放置"
+        },
+        {
+          "rank": 65,
+          "name": "三国志：王道天下",
+          "publisher": "哔哩哔哩游戏",
+          "category": "SLG",
+          "subcategory": "三国、3D、策略"
+        },
+        {
+          "rank": 67,
+          "name": "奥星热浪",
+          "publisher": "腾讯",
+          "category": "派对游戏",
+          "subcategory": "搜打撤、io、休闲"
+        },
+        {
+          "rank": 70,
+          "name": "球比伦战记",
+          "publisher": "心动",
+          "category": "动作",
+          "subcategory": "弹幕射击、Roguelike、Steam移植、独立游戏、单机、买断制、像素"
         }
       ],
       "new_publishers": [
@@ -7115,25 +7157,32 @@
           "category": "策略"
         },
         {
-          "rank": 98,
-          "name": "代号U1",
-          "publisher": "广州四三九九信息科技有限公司",
+          "rank": 74,
+          "name": "缠重山3窃天局",
+          "publisher": "Joyhalf",
           "category": "休闲"
+        },
+        {
+          "rank": 81,
+          "name": "冰与火之舞",
+          "publisher": "indienova",
+          "category": "魔性",
+          "subcategory": "高难度、节奏"
+        },
+        {
+          "rank": 85,
+          "name": "乔乔的奇妙冒险：黄金赞歌",
+          "publisher": "明月互动工作室",
+          "category": "剧情",
+          "subcategory": "动漫、3D、卡牌"
         }
       ],
       "totals": {
-        "new_to_board": 4,
-        "returning": 5,
-        "new_publishers": 2
+        "new_to_board": 8,
+        "returning": 7,
+        "new_publishers": 4
       },
       "new_to_board": [
-        {
-          "rank": 12,
-          "name": "三国杀·烽烟策",
-          "publisher": "上海游卡",
-          "category": "SLG",
-          "subcategory": "策略、战争、三国、三国杀、3D"
-        },
         {
           "rank": 40,
           "name": "小猫历险记",
@@ -7141,16 +7190,50 @@
           "category": "策略"
         },
         {
-          "rank": 97,
+          "rank": 64,
+          "name": "永夜起源",
+          "publisher": "畅鸣游戏",
+          "category": "卡牌",
+          "subcategory": "放置、养成、角色扮演、修仙、西游"
+        },
+        {
+          "rank": 74,
+          "name": "缠重山3窃天局",
+          "publisher": "Joyhalf",
+          "category": "休闲"
+        },
+        {
+          "rank": 76,
+          "name": "愤怒的小鸟：梦幻爆破",
+          "publisher": "萌货研究所",
+          "category": "休闲",
+          "subcategory": "消除、益智"
+        },
+        {
+          "rank": 81,
+          "name": "冰与火之舞",
+          "publisher": "indienova",
+          "category": "魔性",
+          "subcategory": "高难度、节奏"
+        },
+        {
+          "rank": 82,
+          "name": "工位倒卖局",
+          "publisher": "时迹网络",
+          "category": "角色扮演"
+        },
+        {
+          "rank": 85,
+          "name": "乔乔的奇妙冒险：黄金赞歌",
+          "publisher": "明月互动工作室",
+          "category": "剧情",
+          "subcategory": "动漫、3D、卡牌"
+        },
+        {
+          "rank": 88,
           "name": "吸血鬼爬行者",
           "category": "Roguelike",
           "subcategory": "卡牌、策略、动作"
-        },
-        {
-          "rank": 98,
-          "name": "代号U1",
-          "publisher": "广州四三九九信息科技有限公司",
-          "category": "休闲"
         }
       ]
     },
@@ -7336,7 +7419,7 @@
           "category": "Games",
           "app_id": "6758326278",
           "url": "https://apps.apple.com/us/app/amaze-go/id6758326278?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/8a/02/0a8a02b1-2e35-5739-38c7-90df6e3e025f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/15/0f/97150fd4-39cd-0fcf-b8e2-e53744a888e6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
           "slogan": "Welcome to Amaze GO! A clean arrows puzzle game built to calm a busy mind. Every"
         },
         {
@@ -9057,7 +9140,7 @@
           "category": "Games",
           "app_id": "6758326278",
           "url": "https://apps.apple.com/us/app/amaze-go/id6758326278?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/8a/02/0a8a02b1-2e35-5739-38c7-90df6e3e025f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/15/0f/97150fd4-39cd-0fcf-b8e2-e53744a888e6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
           "slogan": "Welcome to Amaze GO! A clean arrows puzzle game built to calm a busy mind. Every"
         },
         {
