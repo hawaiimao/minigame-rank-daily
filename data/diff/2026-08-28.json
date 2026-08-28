@@ -1,0 +1,652 @@
+{
+  "date": "2026-08-28",
+  "boards": {
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "格斗对决",
+          "publisher": "广州兆熙信息科技有限公司",
+          "category": "动作",
+          "subcategory": "横版、三国、多人联机、格斗"
+        },
+        {
+          "rank": 19,
+          "name": "头号禁区",
+          "publisher": "沐瞳",
+          "category": "多人联机",
+          "subcategory": "搜打撤、竞技、MOBA、生存、动作、角色扮演"
+        },
+        {
+          "rank": 20,
+          "name": "猛兽派对",
+          "publisher": "Recreate Games",
+          "category": "可爱",
+          "subcategory": "搞笑、休闲、派对游戏、魔性、物理、多人联机、角色扮演"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 94,
+          "name": "Free Fire: 9th Anniversary",
+          "publisher": "GARENA INTERNATIONAL I PRIVATE LIMITED",
+          "category": "Games",
+          "app_id": "1300146617",
+          "url": "https://apps.apple.com/us/app/free-fire-9th-anniversary/id1300146617?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/16/f3/9516f314-4151-38f7-7d61-47bbc24f5406/AppIcon-1785257489-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "9th Anniversary celebration begins!\nFree Fire's 9th Anniversary is here. Nine ye"
+        },
+        {
+          "rank": 99,
+          "name": "Fillwords: Word Search Puzzles",
+          "publisher": "MALPA GAMES",
+          "category": "Games",
+          "app_id": "1197961218",
+          "url": "https://apps.apple.com/us/app/fillwords-word-search-puzzles/id1197961218?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/00/42/c50042e8-c53c-1977-e7e6-92eccff2baa7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fillwords is an exciting word game with 2000+ levels!\n\nThe goal of the puzzle is"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 89,
+          "name": "Sand Blocks: Drop Puzzle",
+          "publisher": "Rollic Games",
+          "category": "Games",
+          "app_id": "6757140488",
+          "url": "https://apps.apple.com/us/app/sand-blocks-drop-puzzle/id6757140488?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/05/62/6b05626e-2b5a-5ca8-d2e2-619a90e07a14/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Pull the sand. Fill the pits. Clear the board.\n\nDive into a satisfying puzzle ex"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 69,
+          "name": "Cube Land Puzzle Game",
+          "publisher": "Rotatelab",
+          "category": "Games",
+          "app_id": "6757154335",
+          "url": "https://apps.apple.com/us/app/cube-land-puzzle-game/id6757154335?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/35/a8/3835a8c8-2c93-b50d-2203-401ee6b12d03/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Blast your way through colorful cube worlds! Cube Land Puzzle Game is a satisfyi"
+        },
+        {
+          "rank": 88,
+          "name": "Glow Fashion Idol",
+          "publisher": "Crazy Labs",
+          "category": "Games",
+          "app_id": "6446197181",
+          "url": "https://apps.apple.com/us/app/glow-fashion-idol/id6446197181?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/40/18/fd4018e1-aede-e9e9-8245-2732833451af/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to Glow Fashion Idol — a fashion makeover and dress-up game where every "
+        },
+        {
+          "rank": 92,
+          "name": "Travel Town - Merge Adventure",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "app_id": "1521236603",
+          "url": "https://apps.apple.com/us/app/travel-town-merge-adventure/id1521236603?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/a1/bf/c6a1bfc8-eecd-7a0f-e127-c980f5d3b8f2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Explore Travel Town, where you can combine everything into better and more usefu"
+        },
+        {
+          "rank": 95,
+          "name": "Gardenscapes",
+          "publisher": "Playrix",
+          "category": "Games",
+          "app_id": "1105855019",
+          "url": "https://apps.apple.com/us/app/gardenscapes/id1105855019?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/7b/dc/0c7bdcb4-9270-53f6-4347-6afdc2c7a929/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Gardenscapes, the first game from the Playrix Scapes™ series! Make ma"
+        },
+        {
+          "rank": 97,
+          "name": "Bubble Cash",
+          "publisher": "Papaya Gaming",
+          "category": "Games",
+          "app_id": "1475514684",
+          "url": "https://apps.apple.com/us/app/bubble-cash/id1475514684?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/40/9d/8b409d2a-c096-e29a-7770-7e59cecc9a55/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Forget the ordinary games. Here you play for something bigger, where winning the"
+        },
+        {
+          "rank": 98,
+          "name": "Woodoku Blast: Block Puzzle",
+          "publisher": "Tripledot Studios",
+          "category": "Games",
+          "app_id": "6608975929",
+          "url": "https://apps.apple.com/us/app/woodoku-blast-block-puzzle/id6608975929?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/01/6d/dd016d68-72f4-de11-5050-3e8f41f39ab1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Woodoku Blast: The Mesmerizing Colorful Block Puzzle Game!\nPrepare yo"
+        },
+        {
+          "rank": 100,
+          "name": "NYT Games: Wordle & Crossword",
+          "publisher": "The New York Times Company",
+          "category": "Games",
+          "app_id": "307569751",
+          "url": "https://apps.apple.com/us/app/nyt-games-wordle-crossword/id307569751?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/05/69/d50569f4-9952-58ae-5bc8-366f59ad8a04/Release-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/100x100bb.png",
+          "slogan": "New York Times Games is the essential app for anyone who loves word, logic and n"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 94,
+          "name": "Free Fire: 9th Anniversary",
+          "publisher": "GARENA INTERNATIONAL I PRIVATE LIMITED",
+          "category": "Games",
+          "app_id": "1300146617",
+          "url": "https://apps.apple.com/us/app/free-fire-9th-anniversary/id1300146617?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/16/f3/9516f314-4151-38f7-7d61-47bbc24f5406/AppIcon-1785257489-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "9th Anniversary celebration begins!\nFree Fire's 9th Anniversary is here. Nine ye"
+        },
+        {
+          "rank": 99,
+          "name": "Fillwords: Word Search Puzzles",
+          "publisher": "MALPA GAMES",
+          "category": "Games",
+          "app_id": "1197961218",
+          "url": "https://apps.apple.com/us/app/fillwords-word-search-puzzles/id1197961218?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/00/42/c50042e8-c53c-1977-e7e6-92eccff2baa7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fillwords is an exciting word game with 2000+ levels!\n\nThe goal of the puzzle is"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 7,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 89,
+          "name": "Sand Blocks: Drop Puzzle",
+          "publisher": "Rollic Games",
+          "category": "Games",
+          "app_id": "6757140488",
+          "url": "https://apps.apple.com/us/app/sand-blocks-drop-puzzle/id6757140488?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/05/62/6b05626e-2b5a-5ca8-d2e2-619a90e07a14/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Pull the sand. Fill the pits. Clear the board.\n\nDive into a satisfying puzzle ex"
+        },
+        {
+          "rank": 94,
+          "name": "Free Fire: 9th Anniversary",
+          "publisher": "GARENA INTERNATIONAL I PRIVATE LIMITED",
+          "category": "Games",
+          "app_id": "1300146617",
+          "url": "https://apps.apple.com/us/app/free-fire-9th-anniversary/id1300146617?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/16/f3/9516f314-4151-38f7-7d61-47bbc24f5406/AppIcon-1785257489-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "9th Anniversary celebration begins!\nFree Fire's 9th Anniversary is here. Nine ye"
+        },
+        {
+          "rank": 99,
+          "name": "Fillwords: Word Search Puzzles",
+          "publisher": "MALPA GAMES",
+          "category": "Games",
+          "app_id": "1197961218",
+          "url": "https://apps.apple.com/us/app/fillwords-word-search-puzzles/id1197961218?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/00/42/c50042e8-c53c-1977-e7e6-92eccff2baa7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fillwords is an exciting word game with 2000+ levels!\n\nThe goal of the puzzle is"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 21,
+          "name": "植物大战僵尸2-13周年庆",
+          "publisher": "PopCap",
+          "category": "游戏",
+          "app_id": "639516529",
+          "url": "https://apps.apple.com/cn/app/%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B82-13%E5%91%A8%E5%B9%B4%E5%BA%86/id639516529?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/bf/f1/f7bff152-3436-43fe-f082-f911b29af4d0/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+          "slogan": "是时候了！《植物大战僵尸2——奇妙时空之旅》登陆中国，植物们与僵尸们史诗般的斗争，将在不同的时空维度中进行续写！新的植物，新的僵尸，新的玩法，结合最先进的触摸屏"
+        },
+        {
+          "rank": 88,
+          "name": "烤串大消除",
+          "publisher": "Hainan bulma Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6748604398",
+          "url": "https://apps.apple.com/cn/app/%E7%83%A4%E4%B8%B2%E5%A4%A7%E6%B6%88%E9%99%A4/id6748604398?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/0d/6b/870d6bbc-0a23-479a-84c9-96306b8db8e8/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "烤串下肚，如有神助~\n《烤串大消除》是一款以古代街头烧烤为灵感的消除加经营类游戏。玩家将化身为穿越古代的烧烤大拿，凭借现代人对烤串的了解，决定在客栈中研发并售卖"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 86,
+          "name": "烧脑大乱斗－清洁收纳达人",
+          "publisher": "Guangzhou ShuanBai Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6768230439",
+          "url": "https://apps.apple.com/cn/app/%E7%83%A7%E8%84%91%E5%A4%A7%E4%B9%B1%E6%96%97-%E6%B8%85%E6%B4%81%E6%94%B6%E7%BA%B3%E8%BE%BE%E4%BA%BA/id6768230439?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/22/45/cb224538-66e0-918e-1bdf-7562d8f16801/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "这是一款休闲解压模拟小游戏，关卡丰富，包含清理污垢、翻新物品、护肤修护等趣味玩法，指尖简单操作即可完成清洁。画面细腻、反馈治愈，看着脏污慢慢消失十分解压。无复杂"
+        },
+        {
+          "rank": 98,
+          "name": "小镇大厨 - 模拟餐厅经营美食烹饪游戏",
+          "publisher": "MagicSeven Co., Ltd",
+          "category": "游戏",
+          "app_id": "1397824035",
+          "url": "https://apps.apple.com/cn/app/%E5%B0%8F%E9%95%87%E5%A4%A7%E5%8E%A8-%E6%A8%A1%E6%8B%9F%E9%A4%90%E5%8E%85%E7%BB%8F%E8%90%A5%E7%BE%8E%E9%A3%9F%E7%83%B9%E9%A5%AA%E6%B8%B8%E6%88%8F/id1397824035?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/2e/29/882e29bf-05c3-45c8-8d61-4d5e4c2bbd94/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "来《小镇大厨》尽情烹饪美食！享受令人上瘾的时间管理游戏！\n免费下载的烹饪模拟手游。化身疯狂的厨师，随时随地经营餐厅！\n\n• 200多种美味的菜肴！\n为饥肠辘辘的"
+        },
+        {
+          "rank": 99,
+          "name": "烹饪环游记",
+          "publisher": "Shenzhenshi Qixunxinyou Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6743786389",
+          "url": "https://apps.apple.com/cn/app/%E7%83%B9%E9%A5%AA%E7%8E%AF%E6%B8%B8%E8%AE%B0/id6743786389?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/a7/23/25a723b3-858a-221c-f7b0-c52e6c952576/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "欢迎来到《烹饪环游记》。\n\n《烹饪环游记》是一款竖版模拟美食烹饪游戏。全新的竖屏设计，让你轻松单手握持设备进行烹饪，排队、挤公交地铁再也不会无聊啦！现在就和我们"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 88,
+          "name": "烤串大消除",
+          "publisher": "Hainan bulma Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6748604398",
+          "url": "https://apps.apple.com/cn/app/%E7%83%A4%E4%B8%B2%E5%A4%A7%E6%B6%88%E9%99%A4/id6748604398?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/0d/6b/870d6bbc-0a23-479a-84c9-96306b8db8e8/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "烤串下肚，如有神助~\n《烤串大消除》是一款以古代街头烧烤为灵感的消除加经营类游戏。玩家将化身为穿越古代的烧烤大拿，凭借现代人对烤串的了解，决定在客栈中研发并售卖"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 21,
+          "name": "植物大战僵尸2-13周年庆",
+          "publisher": "PopCap",
+          "category": "游戏",
+          "app_id": "639516529",
+          "url": "https://apps.apple.com/cn/app/%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B82-13%E5%91%A8%E5%B9%B4%E5%BA%86/id639516529?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/bf/f1/f7bff152-3436-43fe-f082-f911b29af4d0/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+          "slogan": "是时候了！《植物大战僵尸2——奇妙时空之旅》登陆中国，植物们与僵尸们史诗般的斗争，将在不同的时空维度中进行续写！新的植物，新的僵尸，新的玩法，结合最先进的触摸屏"
+        },
+        {
+          "rank": 88,
+          "name": "烤串大消除",
+          "publisher": "Hainan bulma Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6748604398",
+          "url": "https://apps.apple.com/cn/app/%E7%83%A4%E4%B8%B2%E5%A4%A7%E6%B6%88%E9%99%A4/id6748604398?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/0d/6b/870d6bbc-0a23-479a-84c9-96306b8db8e8/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "烤串下肚，如有神助~\n《烤串大消除》是一款以古代街头烧烤为灵感的消除加经营类游戏。玩家将化身为穿越古代的烧烤大拿，凭借现代人对烤串的了解，决定在客栈中研发并售卖"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "[7R]スマスロ マギアレコード 魔法少女まどかマギカ外伝",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6798912680",
+          "url": "https://apps.apple.com/jp/app/7r-%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E3%83%9E%E3%82%AE%E3%82%A2%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%89-%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E3%83%9E%E3%82%AE%E3%82%AB%E5%A4%96%E4%BC%9D/id6798912680?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/69/5d/46695de4-aed0-7bc5-fa7f-c5c621814116/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\nスマスロ マギアレコード 魔法少女まどかマギカ外伝\n2025年/ミズホ\n---"
+        },
+        {
+          "rank": 36,
+          "name": "呼吸法修練",
+          "publisher": "JOINLUCK CORPORATION LIMITED",
+          "category": "ゲーム",
+          "app_id": "6797761628",
+          "url": "https://apps.apple.com/jp/app/%E5%91%BC%E5%90%B8%E6%B3%95%E4%BF%AE%E7%B7%B4/id6797761628?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/9d/6a/889d6a82-7f33-d7eb-35e6-d0821459edb1/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "呼吸法の修練　あなたの参加をお待ちしています。"
+        },
+        {
+          "rank": 86,
+          "name": "ウッドパズル：Screw ネジ外すゲーム  - 人気 脳トレ",
+          "publisher": "LONGSEA LINK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6642698438",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A6%E3%83%83%E3%83%89%E3%83%91%E3%82%BA%E3%83%AB-screw-%E3%83%8D%E3%82%B8%E5%A4%96%E3%81%99%E3%82%B2%E3%83%BC%E3%83%A0-%E4%BA%BA%E6%B0%97-%E8%84%B3%E3%83%88%E3%83%AC/id6642698438?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/07/9c/46079c28-215e-27cf-4201-087d83472720/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "「ウッドパズル：Screw ネジ外すゲーム - 人気 脳トレ」へようこそ！\nシンプルな操作で誰でも楽しめる「ウッドパズル：Screw ネジ外すゲーム」は、ナット"
+        },
+        {
+          "rank": 91,
+          "name": "STYLZ（スタイルズ）: 着せ替え・ファッションゲーム",
+          "publisher": "NAVER Z Japan Corp.",
+          "category": "ゲーム",
+          "app_id": "6761049663",
+          "url": "https://apps.apple.com/jp/app/stylz-%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%BA-%E7%9D%80%E3%81%9B%E6%9B%BF%E3%81%88-%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id6761049663?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/24/6e/36246e11-3cda-be6c-3158-3401a291a498/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "自分だけのコーデを作り、お客さまをスタイリングして、世界中のプレイヤーとファッションコンテストに挑戦。STYLZ（スタイルズ）は、3Dアバターの着せ替え、投票、"
+        },
+        {
+          "rank": 96,
+          "name": "ランダムダイス2",
+          "publisher": "111%",
+          "category": "ゲーム",
+          "app_id": "6748432502",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E3%83%80%E3%82%A4%E3%82%B92/id6748432502?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/6b/f7/ce6bf7a8-a46a-1ee2-d8f9-fdb338412dbd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「待たせたな。俺が、《ランダムダイス2》だ。」\n\n不確実な確率と、課金に依存する時代はもう終わり！\nプレイヤーの純粋な「戦略」だけを残すため、ガチャシステムを果"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 32,
+          "name": "Car Evolve",
+          "publisher": "Heseri Games Inc",
+          "category": "ゲーム",
+          "app_id": "6754464806",
+          "url": "https://apps.apple.com/jp/app/car-evolve/id6754464806?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/4a/f2/6a4af240-fcd1-ac68-5627-fcf7aec25d19/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Build a better car with every run. Earn cash, upgrade parts, and push your dista"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 68,
+          "name": "Travel Town - マージアドベンチャー",
+          "publisher": "Moon Active",
+          "category": "ゲーム",
+          "app_id": "1521236603",
+          "url": "https://apps.apple.com/jp/app/travel-town-%E3%83%9E%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC/id1521236603?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/a1/bf/c6a1bfc8-eecd-7a0f-e127-c980f5d3b8f2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "マージゲームの傑作、トラベルタウンがついに日本上陸！\n\n嵐で破壊されてしまった街に美しさを取り戻そう！\n\n面白いイベントやカードも盛りだくさん！\n\n◆はじめに　"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "[7R]スマスロ マギアレコード 魔法少女まどかマギカ外伝",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6798912680",
+          "url": "https://apps.apple.com/jp/app/7r-%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E3%83%9E%E3%82%AE%E3%82%A2%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%89-%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E3%83%9E%E3%82%AE%E3%82%AB%E5%A4%96%E4%BC%9D/id6798912680?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/69/5d/46695de4-aed0-7bc5-fa7f-c5c621814116/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\nスマスロ マギアレコード 魔法少女まどかマギカ外伝\n2025年/ミズホ\n---"
+        },
+        {
+          "rank": 32,
+          "name": "Car Evolve",
+          "publisher": "Heseri Games Inc",
+          "category": "ゲーム",
+          "app_id": "6754464806",
+          "url": "https://apps.apple.com/jp/app/car-evolve/id6754464806?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/4a/f2/6a4af240-fcd1-ac68-5627-fcf7aec25d19/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Build a better car with every run. Earn cash, upgrade parts, and push your dista"
+        },
+        {
+          "rank": 36,
+          "name": "呼吸法修練",
+          "publisher": "JOINLUCK CORPORATION LIMITED",
+          "category": "ゲーム",
+          "app_id": "6797761628",
+          "url": "https://apps.apple.com/jp/app/%E5%91%BC%E5%90%B8%E6%B3%95%E4%BF%AE%E7%B7%B4/id6797761628?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/9d/6a/889d6a82-7f33-d7eb-35e6-d0821459edb1/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "呼吸法の修練　あなたの参加をお待ちしています。"
+        },
+        {
+          "rank": 86,
+          "name": "ウッドパズル：Screw ネジ外すゲーム  - 人気 脳トレ",
+          "publisher": "LONGSEA LINK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6642698438",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A6%E3%83%83%E3%83%89%E3%83%91%E3%82%BA%E3%83%AB-screw-%E3%83%8D%E3%82%B8%E5%A4%96%E3%81%99%E3%82%B2%E3%83%BC%E3%83%A0-%E4%BA%BA%E6%B0%97-%E8%84%B3%E3%83%88%E3%83%AC/id6642698438?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/07/9c/46079c28-215e-27cf-4201-087d83472720/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "「ウッドパズル：Screw ネジ外すゲーム - 人気 脳トレ」へようこそ！\nシンプルな操作で誰でも楽しめる「ウッドパズル：Screw ネジ外すゲーム」は、ナット"
+        },
+        {
+          "rank": 91,
+          "name": "STYLZ（スタイルズ）: 着せ替え・ファッションゲーム",
+          "publisher": "NAVER Z Japan Corp.",
+          "category": "ゲーム",
+          "app_id": "6761049663",
+          "url": "https://apps.apple.com/jp/app/stylz-%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%BA-%E7%9D%80%E3%81%9B%E6%9B%BF%E3%81%88-%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id6761049663?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/24/6e/36246e11-3cda-be6c-3158-3401a291a498/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "自分だけのコーデを作り、お客さまをスタイリングして、世界中のプレイヤーとファッションコンテストに挑戦。STYLZ（スタイルズ）は、3Dアバターの着せ替え、投票、"
+        },
+        {
+          "rank": 96,
+          "name": "ランダムダイス2",
+          "publisher": "111%",
+          "category": "ゲーム",
+          "app_id": "6748432502",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E3%83%80%E3%82%A4%E3%82%B92/id6748432502?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/6b/f7/ce6bf7a8-a46a-1ee2-d8f9-fdb338412dbd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「待たせたな。俺が、《ランダムダイス2》だ。」\n\n不確実な確率と、課金に依存する時代はもう終わり！\nプレイヤーの純粋な「戦略」だけを残すため、ガチャシステムを果"
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 1,
+        "new_publishers": 6
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "[7R]スマスロ マギアレコード 魔法少女まどかマギカ外伝",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6798912680",
+          "url": "https://apps.apple.com/jp/app/7r-%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E3%83%9E%E3%82%AE%E3%82%A2%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%89-%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E3%83%9E%E3%82%AE%E3%82%AB%E5%A4%96%E4%BC%9D/id6798912680?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/69/5d/46695de4-aed0-7bc5-fa7f-c5c621814116/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\nスマスロ マギアレコード 魔法少女まどかマギカ外伝\n2025年/ミズホ\n---"
+        },
+        {
+          "rank": 32,
+          "name": "Car Evolve",
+          "publisher": "Heseri Games Inc",
+          "category": "ゲーム",
+          "app_id": "6754464806",
+          "url": "https://apps.apple.com/jp/app/car-evolve/id6754464806?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/4a/f2/6a4af240-fcd1-ac68-5627-fcf7aec25d19/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Build a better car with every run. Earn cash, upgrade parts, and push your dista"
+        },
+        {
+          "rank": 36,
+          "name": "呼吸法修練",
+          "publisher": "JOINLUCK CORPORATION LIMITED",
+          "category": "ゲーム",
+          "app_id": "6797761628",
+          "url": "https://apps.apple.com/jp/app/%E5%91%BC%E5%90%B8%E6%B3%95%E4%BF%AE%E7%B7%B4/id6797761628?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/9d/6a/889d6a82-7f33-d7eb-35e6-d0821459edb1/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "呼吸法の修練　あなたの参加をお待ちしています。"
+        },
+        {
+          "rank": 86,
+          "name": "ウッドパズル：Screw ネジ外すゲーム  - 人気 脳トレ",
+          "publisher": "LONGSEA LINK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6642698438",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A6%E3%83%83%E3%83%89%E3%83%91%E3%82%BA%E3%83%AB-screw-%E3%83%8D%E3%82%B8%E5%A4%96%E3%81%99%E3%82%B2%E3%83%BC%E3%83%A0-%E4%BA%BA%E6%B0%97-%E8%84%B3%E3%83%88%E3%83%AC/id6642698438?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/07/9c/46079c28-215e-27cf-4201-087d83472720/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "「ウッドパズル：Screw ネジ外すゲーム - 人気 脳トレ」へようこそ！\nシンプルな操作で誰でも楽しめる「ウッドパズル：Screw ネジ外すゲーム」は、ナット"
+        },
+        {
+          "rank": 91,
+          "name": "STYLZ（スタイルズ）: 着せ替え・ファッションゲーム",
+          "publisher": "NAVER Z Japan Corp.",
+          "category": "ゲーム",
+          "app_id": "6761049663",
+          "url": "https://apps.apple.com/jp/app/stylz-%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%BA-%E7%9D%80%E3%81%9B%E6%9B%BF%E3%81%88-%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id6761049663?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/24/6e/36246e11-3cda-be6c-3158-3401a291a498/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "自分だけのコーデを作り、お客さまをスタイリングして、世界中のプレイヤーとファッションコンテストに挑戦。STYLZ（スタイルズ）は、3Dアバターの着せ替え、投票、"
+        },
+        {
+          "rank": 96,
+          "name": "ランダムダイス2",
+          "publisher": "111%",
+          "category": "ゲーム",
+          "app_id": "6748432502",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E3%83%80%E3%82%A4%E3%82%B92/id6748432502?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/6b/f7/ce6bf7a8-a46a-1ee2-d8f9-fdb338412dbd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「待たせたな。俺が、《ランダムダイス2》だ。」\n\n不確実な確率と、課金に依存する時代はもう終わり！\nプレイヤーの純粋な「戦略」だけを残すため、ガチャシステムを果"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 85,
+          "name": "Hit Fortune - Casino Slots",
+          "publisher": "BRAVOOCEAN INDIA PRIVATE LIMITED",
+          "category": "Games",
+          "package": "com.pawakuma.hitfortune"
+        },
+        {
+          "rank": 88,
+          "name": "Treasure Master",
+          "publisher": "Gimica GmbH",
+          "category": "Games",
+          "package": "com.gimica.treasuremaster"
+        },
+        {
+          "rank": 91,
+          "name": "Free Fire: 9th Anniversary",
+          "publisher": "GARENA INTERNATIONAL I",
+          "category": "Games",
+          "package": "com.dts.freefireth"
+        },
+        {
+          "rank": 93,
+          "name": "Get Color Pack: Sort Puzzle",
+          "publisher": "Tripledot Studios Limited",
+          "category": "Games",
+          "package": "com.zm.waterpack"
+        },
+        {
+          "rank": 100,
+          "name": "Ghost Sniper: War FPS Shooter",
+          "publisher": "Alda Games",
+          "category": "Games",
+          "package": "sniper.war.target.soldier.shooter.aldagames.com"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 92,
+          "name": "EA SPORTS FC Soccer Mobile 26",
+          "publisher": "ELECTRONIC ARTS",
+          "category": "Games",
+          "package": "com.ea.gp.fifamobile"
+        },
+        {
+          "rank": 95,
+          "name": "Hole Stars: Puzzle Game",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "package": "com.moonactive.holestars"
+        },
+        {
+          "rank": 97,
+          "name": "My Talking Tom 2: Pet Game",
+          "publisher": "Outfit7 Limited",
+          "category": "Games",
+          "package": "com.outfit7.mytalkingtom2"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 85,
+          "name": "Hit Fortune - Casino Slots",
+          "publisher": "BRAVOOCEAN INDIA PRIVATE LIMITED",
+          "category": "Games",
+          "package": "com.pawakuma.hitfortune"
+        },
+        {
+          "rank": 91,
+          "name": "Free Fire: 9th Anniversary",
+          "publisher": "GARENA INTERNATIONAL I",
+          "category": "Games",
+          "package": "com.dts.freefireth"
+        },
+        {
+          "rank": 100,
+          "name": "Ghost Sniper: War FPS Shooter",
+          "publisher": "Alda Games",
+          "category": "Games",
+          "package": "sniper.war.target.soldier.shooter.aldagames.com"
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 3,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 85,
+          "name": "Hit Fortune - Casino Slots",
+          "publisher": "BRAVOOCEAN INDIA PRIVATE LIMITED",
+          "category": "Games",
+          "package": "com.pawakuma.hitfortune"
+        },
+        {
+          "rank": 88,
+          "name": "Treasure Master",
+          "publisher": "Gimica GmbH",
+          "category": "Games",
+          "package": "com.gimica.treasuremaster"
+        },
+        {
+          "rank": 91,
+          "name": "Free Fire: 9th Anniversary",
+          "publisher": "GARENA INTERNATIONAL I",
+          "category": "Games",
+          "package": "com.dts.freefireth"
+        },
+        {
+          "rank": 93,
+          "name": "Get Color Pack: Sort Puzzle",
+          "publisher": "Tripledot Studios Limited",
+          "category": "Games",
+          "package": "com.zm.waterpack"
+        },
+        {
+          "rank": 100,
+          "name": "Ghost Sniper: War FPS Shooter",
+          "publisher": "Alda Games",
+          "category": "Games",
+          "package": "sniper.war.target.soldier.shooter.aldagames.com"
+        }
+      ]
+    }
+  }
+}
