@@ -19,6 +19,7 @@
     user: null,   // { id, email }
     role: "viewer",
     ready: false,
+    recovery: false,  // true while handling a password-recovery link
   };
   const listeners = [];
 
@@ -129,7 +130,13 @@
     if (!state.token) { err.textContent = "\u8bf7\u5148\u767b\u5f55\u3002"; return; }
     const oldPw = cur.value;
     const newPw = n1.value;
-    if (!oldPw || !newPw) { err.textContent = "\u8bf7\u586b\u5199\u5f53\u524d\u5bc6\u7801\u548c\u65b0\u5bc6\u7801\u3002"; return; }
+    if (state.recovery) {
+      // 通过邮件重置链接进入：无需当前密码，只需设置新密码
+      if (!newPw) { err.textContent = "\u8bf7\u8bbe\u7f6e\u65b0\u5bc6\u7801\u3002"; return; }
+      if (cur) cur.style.display = "none";
+    } else {
+      if (!oldPw || !newPw) { err.textContent = "\u8bf7\u586b\u5199\u5f53\u524d\u5bc6\u7801\u548c\u65b0\u5bc6\u7801\u3002"; return; }
+    }
     if (newPw.length < 6) { err.textContent = "\u65b0\u5bc6\u7801\u81f3\u5c11 6 \u4f4d\u3002"; return; }
     if (newPw !== n2.value) { err.textContent = "\u4e24\u6b21\u8f93\u5165\u7684\u65b0\u5bc6\u7801\u4e0d\u4e00\u81f4\u3002"; return; }
     err.textContent = "\u6b63\u5728\u4fee\u6539\u2026";
@@ -233,7 +240,34 @@
   function isEditor() { return state.role === "editor"; }
   function isLoggedIn() { return !!state.user; }
   function onAuthChange(fn) { listeners.push(fn); }
+
+  // Password-recovery entry: Supabase's reset mail points the browser at
+  // this page with #access_token=...&type=recovery. Adopt the recovery
+  // token, hide the "current password" field and open the change-password
+  // dialog. Clears the hash so the token does not linger in the URL.
+  function handleRecovery() {
+    const h = window.location.hash || "";
+    if (h.indexOf("type=recovery") === -1) return false;
+    let params;
+    try { params = new URLSearchParams(h.replace(/^#/, "")); } catch (e) { return false; }
+    const token = params.get("access_token");
+    if (!token) return false;
+    state.token = token;
+    state.recovery = true;
+    try { history.replaceState(null, "", window.location.pathname); } catch (e) {}
+    openPwModal();
+    const cur = document.getElementById("gp-pw-cur");
+    if (cur) cur.style.display = "none";
+    const err = document.getElementById("gp-pw-err");
+    if (err) {
+      err.textContent = "邮箱已验证，请设置新密码（至少 6 位）。";
+      err.style.color = "";
+    }
+    return true;
+  }
+
   function bind() {
+    handleRecovery();
     const loginBtn = document.getElementById("gp-auth-login");
     if (loginBtn) loginBtn.addEventListener("click", doLogin);
     const cancelBtn = document.getElementById("gp-auth-cancel");
