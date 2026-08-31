@@ -522,7 +522,25 @@ def do_scrape(top_n: int | None,
 
         page.on("response", _on_response)
 
-        page.goto(URL, wait_until="domcontentloaded", timeout=60000)
+        # Gravity Engine is slow / flaky from GitHub Actions' overseas IPs
+        # (since 2026-08-28 CI hits 60s Page.goto timeouts while CN IPs are
+        # fine). Use a longer navigation timeout and retry the goto a few
+        # times before giving up — a slow-but-alive page beats a degraded
+        # taptap/ios-only snapshot.
+        GOTO_TIMEOUT = 180000
+        last_goto_err: Exception | None = None
+        for _attempt in range(3):
+            try:
+                page.goto(URL, wait_until="domcontentloaded", timeout=GOTO_TIMEOUT)
+                last_goto_err = None
+                break
+            except Exception as e:  # noqa: BLE001
+                last_goto_err = e
+                log(f"[warn] 引力引擎 goto 第{_attempt + 1}次失败"
+                    f"({type(e).__name__})，重试…")
+                page.wait_for_timeout(2000)
+        if last_goto_err is not None:
+            raise last_goto_err
         try:
             page.wait_for_selector(".rank-child-item", timeout=30000)
         except PWTimeout:
