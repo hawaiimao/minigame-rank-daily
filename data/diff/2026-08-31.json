@@ -1,0 +1,463 @@
+{
+  "date": "2026-08-31",
+  "boards": {
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 15,
+          "name": "修仙时代",
+          "publisher": "腾讯",
+          "category": "国风",
+          "subcategory": "开放世界、修仙、角色扮演"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "霓虹深渊2",
+          "publisher": "Veewo Games",
+          "category": "Roguelike",
+          "subcategory": "多人联机、赛博朋克、Steam移植、地牢、像素、弹幕、单机、横版、动作、冒险"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 15,
+          "name": "修仙时代",
+          "publisher": "腾讯",
+          "category": "国风",
+          "subcategory": "开放世界、修仙、角色扮演"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 81,
+          "name": "Dark War:Survival",
+          "publisher": "Omnilojo Pte Ltd",
+          "category": "Games",
+          "app_id": "6670441558",
+          "url": "https://apps.apple.com/us/app/dark-war-survival/id6670441558?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/5e/c4/305ec4a1-f309-944a-59e1-59adef6095c6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Gear up and brace yourself for the ultimate test of zombie apocalypse survival! "
+        },
+        {
+          "rank": 89,
+          "name": "Glow Fashion Idol",
+          "publisher": "Crazy Labs",
+          "category": "Games",
+          "app_id": "6446197181",
+          "url": "https://apps.apple.com/us/app/glow-fashion-idol/id6446197181?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/40/18/fd4018e1-aede-e9e9-8245-2732833451af/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to Glow Fashion Idol — a fashion makeover and dress-up game where every "
+        },
+        {
+          "rank": 90,
+          "name": "Cash Avalanche:Casino Slot",
+          "publisher": "RELLGO, INC.",
+          "category": "Games",
+          "app_id": "6751794501",
+          "url": "https://apps.apple.com/us/app/cash-avalanche-casino-slot/id6751794501?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/6e/7a/ea6e7adc-631e-9b29-345c-a23c4a01bf40/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Cash Avalanche — Spin Into the Excitement\n\nCash Avalanche delivers an immersive "
+        },
+        {
+          "rank": 94,
+          "name": "Pokémon Champions",
+          "publisher": "The Pokemon Company",
+          "category": "Games",
+          "app_id": "6741503079",
+          "url": "https://apps.apple.com/us/app/pok%C3%A9mon-champions/id6741503079?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/ea/76/cfea76ab-56f1-c495-d9f0-b1bf7b2e0eb7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Enjoy Pokémon Battles on Mobile Devices!\nHave fun battling Pokémon with ease on "
+        },
+        {
+          "rank": 96,
+          "name": "Solitaire Smash: Real Cash!",
+          "publisher": "Play Perfect",
+          "category": "Games",
+          "app_id": "6446482475",
+          "url": "https://apps.apple.com/us/app/solitaire-smash-real-cash/id6446482475?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/2d/0c/bf2d0ca8-aa17-cb89-ff17-55f1141ffd61/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Looking for a Solitaire game that offers a fun and challenging gameplay experien"
+        },
+        {
+          "rank": 97,
+          "name": "Free Fire: 9th Anniversary",
+          "publisher": "GARENA INTERNATIONAL I PRIVATE LIMITED",
+          "category": "Games",
+          "app_id": "1300146617",
+          "url": "https://apps.apple.com/us/app/free-fire-9th-anniversary/id1300146617?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/16/f3/9516f314-4151-38f7-7d61-47bbc24f5406/AppIcon-1785257489-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "9th Anniversary celebration begins!\nFree Fire's 9th Anniversary is here. Nine ye"
+        },
+        {
+          "rank": 98,
+          "name": "Snake Puzzle: Slither to Eat!",
+          "publisher": "Superboost Soft Limited",
+          "category": "Games",
+          "app_id": "6751537447",
+          "url": "https://apps.apple.com/us/app/snake-puzzle-slither-to-eat/id6751537447?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/18/c9/6b18c940-bf58-5ef6-b921-e102289e025a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Guide your snake through tricky puzzles, eat apples to grow longer, and reach th"
+        },
+        {
+          "rank": 99,
+          "name": "Mahjong Clash: Win Real Cash",
+          "publisher": "Aviagames Inc.",
+          "category": "Games",
+          "app_id": "6760530627",
+          "url": "https://apps.apple.com/us/app/mahjong-clash-win-real-cash/id6760530627?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/8b/b1/e88bb11f-35bb-3df6-4545-3e8f19b22f60/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Mahjong Clash – Play Mahjong & Compete for Real Cash\nMahjong Clash brings classi"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 8,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 67,
+          "name": "猫咪整理师 - 房间造景布置小屋 整理收纳达人",
+          "publisher": "Gloryway Puzzle",
+          "category": "游戏",
+          "app_id": "6752363458",
+          "url": "https://apps.apple.com/cn/app/%E7%8C%AB%E5%92%AA%E6%95%B4%E7%90%86%E5%B8%88-%E6%88%BF%E9%97%B4%E9%80%A0%E6%99%AF%E5%B8%83%E7%BD%AE%E5%B0%8F%E5%B1%8B-%E6%95%B4%E7%90%86%E6%94%B6%E7%BA%B3%E8%BE%BE%E4%BA%BA/id6752363458?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/d7/70/0bd77047-ecd0-7c5c-ba02-3b0d9b263d4c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "欢迎来到你的专属解压小天地！在这里，动动手指，像玩贴纸一样，就能DIY出独一无二的可爱场景。\n\n拿起你的小镊子，把各种各样的家具和物品贴到它们该去的地方。看着乱"
+        },
+        {
+          "rank": 97,
+          "name": "元梦之星-上岛玩",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1632344522",
+          "url": "https://apps.apple.com/cn/app/%E5%85%83%E6%A2%A6%E4%B9%8B%E6%98%9F-%E4%B8%8A%E5%B2%9B%E7%8E%A9/id1632344522?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/ba/fa/f1bafa83-e8a5-8e6e-a4f8-1ed56d570a5c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "《元梦之星》是一款轻松社交派对游戏，玩家们可以化身星宝，体验纯粹的游玩乐趣，收获简单的快乐。无论i人e人，都能轻松找到属于自己的社交方式。\n\n《元梦之星》的快乐"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 95,
+          "name": "永劫无间",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1580500427",
+          "url": "https://apps.apple.com/cn/app/%E6%B0%B8%E5%8A%AB%E6%97%A0%E9%97%B4/id1580500427?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/d6/45/8bd64568-2de0-ce6f-d75f-e22f192ddcf4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《永劫无间》手游是由网易24工作室开发的多人动作竞技手游。同名端游自上线以来风靡全球，全球玩家数量现已突破4000万。手游传承端游品质，将独具魅力的IP英雄、P"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 67,
+          "name": "猫咪整理师 - 房间造景布置小屋 整理收纳达人",
+          "publisher": "Gloryway Puzzle",
+          "category": "游戏",
+          "app_id": "6752363458",
+          "url": "https://apps.apple.com/cn/app/%E7%8C%AB%E5%92%AA%E6%95%B4%E7%90%86%E5%B8%88-%E6%88%BF%E9%97%B4%E9%80%A0%E6%99%AF%E5%B8%83%E7%BD%AE%E5%B0%8F%E5%B1%8B-%E6%95%B4%E7%90%86%E6%94%B6%E7%BA%B3%E8%BE%BE%E4%BA%BA/id6752363458?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/d7/70/0bd77047-ecd0-7c5c-ba02-3b0d9b263d4c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "欢迎来到你的专属解压小天地！在这里，动动手指，像玩贴纸一样，就能DIY出独一无二的可爱场景。\n\n拿起你的小镊子，把各种各样的家具和物品贴到它们该去的地方。看着乱"
+        },
+        {
+          "rank": 97,
+          "name": "元梦之星-上岛玩",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1632344522",
+          "url": "https://apps.apple.com/cn/app/%E5%85%83%E6%A2%A6%E4%B9%8B%E6%98%9F-%E4%B8%8A%E5%B2%9B%E7%8E%A9/id1632344522?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/ba/fa/f1bafa83-e8a5-8e6e-a4f8-1ed56d570a5c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "《元梦之星》是一款轻松社交派对游戏，玩家们可以化身星宝，体验纯粹的游玩乐趣，收获简单的快乐。无论i人e人，都能轻松找到属于自己的社交方式。\n\n《元梦之星》的快乐"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 37,
+          "name": "おしえてポン！2 みんなで盛り上がるジェスチャーゲーム",
+          "publisher": "Buckmoon Inc.",
+          "category": "ゲーム",
+          "app_id": "807458120",
+          "url": "https://apps.apple.com/jp/app/%E3%81%8A%E3%81%97%E3%81%88%E3%81%A6%E3%83%9D%E3%83%B3-2-%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%E7%9B%9B%E3%82%8A%E4%B8%8A%E3%81%8C%E3%82%8B%E3%82%B8%E3%82%A7%E3%82%B9%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0/id807458120?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/0f/b9/310fb917-bf7c-a0a6-bf06-2c286d0dd8f3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "スマホをおでこにかざしてお題を当てる、日本生まれの定番ジェスチャーゲーム「おしえてポン！2」！\n評価4.5・レビュー4,000件超。飲み会も、家族の集まりも、旅"
+        },
+        {
+          "rank": 79,
+          "name": "オートにしてたら死んだ",
+          "publisher": "Sehyeon Heo",
+          "category": "ゲーム",
+          "app_id": "6786484095",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%BC%E3%83%88%E3%81%AB%E3%81%97%E3%81%A6%E3%81%9F%E3%82%89%E6%AD%BB%E3%82%93%E3%81%A0/id6786484095?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/f4/c3/bff4c30e-73af-3919-8384-6c941840bbde/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "オートにした。順調だった。なのに死んだ。\n次に変えるのは、操作ではなくビルドです。\n\n『オートにしてたら死んだ』は、戦闘の流れを装備と選択で設計する、2Dピクセ"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 84,
+          "name": "Slow Mo Strike: ナイフ投げアクション",
+          "publisher": "KAYAC Inc.",
+          "category": "ゲーム",
+          "app_id": "6791525847",
+          "url": "https://apps.apple.com/jp/app/slow-mo-strike-%E3%83%8A%E3%82%A4%E3%83%95%E6%8A%95%E3%81%92%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/id6791525847?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/2c/e4/642ce44a-d79a-c327-cb84-a09d3fd4bbbf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "画面に触れた瞬間——時間がゆっくりと止まる。\n\n指で画面をなぞると、その軌跡にナイフが次々と浮かび上がる。止まった時間の中、どこまでも。\n指を離せば、世界は一気"
+        },
+        {
+          "rank": 95,
+          "name": "ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG",
+          "publisher": "SQUARE ENIX",
+          "category": "ゲーム",
+          "app_id": "6747736697",
+          "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%B9%E3%83%9E%E3%83%83%E3%82%B7%E3%83%A5%E3%82%B0%E3%83%AD%E3%82%A6-%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A8%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%88rpg/id6747736697?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/44/d4/6c44d45e-1c59-daf3-938b-8b2181e4dca6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ドラゴンクエスト×直感＆爽快フィールドバトル！\n\nローグライトRPGで始まる新たなる冒険の旅へ\n\n直感操作でモンスターの群れを斬ってかわして、必殺技で一気に吹き"
+        },
+        {
+          "rank": 98,
+          "name": "XP Hero(ヒーロー)): まずは世界観をのぞいてみて",
+          "publisher": "Supercent, Inc.",
+          "category": "ゲーム",
+          "app_id": "6740618570",
+          "url": "https://apps.apple.com/jp/app/xp-hero-%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC-%E3%81%BE%E3%81%9A%E3%81%AF%E4%B8%96%E7%95%8C%E8%A6%B3%E3%82%92%E3%81%AE%E3%81%9E%E3%81%84%E3%81%A6%E3%81%BF%E3%81%A6/id6740618570?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/88/af/b888af06-e834-b2eb-ba91-bd94cc57fe4b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "混沌の中で生き残り、究極のヒーローになる準備はできていますか？\n\nモンスター、闇、そして絶え間ない危険に満ちた神秘的な世界が『XP Hero』であなたを待ってい"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 37,
+          "name": "おしえてポン！2 みんなで盛り上がるジェスチャーゲーム",
+          "publisher": "Buckmoon Inc.",
+          "category": "ゲーム",
+          "app_id": "807458120",
+          "url": "https://apps.apple.com/jp/app/%E3%81%8A%E3%81%97%E3%81%88%E3%81%A6%E3%83%9D%E3%83%B3-2-%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%E7%9B%9B%E3%82%8A%E4%B8%8A%E3%81%8C%E3%82%8B%E3%82%B8%E3%82%A7%E3%82%B9%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0/id807458120?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/0f/b9/310fb917-bf7c-a0a6-bf06-2c286d0dd8f3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "スマホをおでこにかざしてお題を当てる、日本生まれの定番ジェスチャーゲーム「おしえてポン！2」！\n評価4.5・レビュー4,000件超。飲み会も、家族の集まりも、旅"
+        },
+        {
+          "rank": 79,
+          "name": "オートにしてたら死んだ",
+          "publisher": "Sehyeon Heo",
+          "category": "ゲーム",
+          "app_id": "6786484095",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%BC%E3%83%88%E3%81%AB%E3%81%97%E3%81%A6%E3%81%9F%E3%82%89%E6%AD%BB%E3%82%93%E3%81%A0/id6786484095?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/f4/c3/bff4c30e-73af-3919-8384-6c941840bbde/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "オートにした。順調だった。なのに死んだ。\n次に変えるのは、操作ではなくビルドです。\n\n『オートにしてたら死んだ』は、戦闘の流れを装備と選択で設計する、2Dピクセ"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 37,
+          "name": "おしえてポン！2 みんなで盛り上がるジェスチャーゲーム",
+          "publisher": "Buckmoon Inc.",
+          "category": "ゲーム",
+          "app_id": "807458120",
+          "url": "https://apps.apple.com/jp/app/%E3%81%8A%E3%81%97%E3%81%88%E3%81%A6%E3%83%9D%E3%83%B3-2-%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%E7%9B%9B%E3%82%8A%E4%B8%8A%E3%81%8C%E3%82%8B%E3%82%B8%E3%82%A7%E3%82%B9%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0/id807458120?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/0f/b9/310fb917-bf7c-a0a6-bf06-2c286d0dd8f3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "スマホをおでこにかざしてお題を当てる、日本生まれの定番ジェスチャーゲーム「おしえてポン！2」！\n評価4.5・レビュー4,000件超。飲み会も、家族の集まりも、旅"
+        },
+        {
+          "rank": 79,
+          "name": "オートにしてたら死んだ",
+          "publisher": "Sehyeon Heo",
+          "category": "ゲーム",
+          "app_id": "6786484095",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%BC%E3%83%88%E3%81%AB%E3%81%97%E3%81%A6%E3%81%9F%E3%82%89%E6%AD%BB%E3%82%93%E3%81%A0/id6786484095?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/f4/c3/bff4c30e-73af-3919-8384-6c941840bbde/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "オートにした。順調だった。なのに死んだ。\n次に変えるのは、操作ではなくビルドです。\n\n『オートにしてたら死んだ』は、戦闘の流れを装備と選択で設計する、2Dピクセ"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 3,
+          "name": "Evony: The King's Return",
+          "publisher": "TG Inc.",
+          "category": "Games",
+          "package": "com.topgamesinc.evony"
+        },
+        {
+          "rank": 91,
+          "name": "Fruit Merge Drop",
+          "publisher": "Gimica GmbH",
+          "category": "Games",
+          "package": "com.gimica.fruitmergedrop"
+        },
+        {
+          "rank": 92,
+          "name": "Cars Royale: League of Rocket",
+          "publisher": "Starplay FZCO",
+          "category": "Games",
+          "package": "com.starplay.wreckracing"
+        },
+        {
+          "rank": 95,
+          "name": "Mystery Town: Merge Games",
+          "publisher": "Cedar Games Studio",
+          "category": "Games",
+          "package": "com.cedargames.mysterytown"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 86,
+          "name": "Offline Games - No Wifi Games",
+          "publisher": "JindoBlu",
+          "category": "Games",
+          "package": "com.JindoBlu.OfflineGames"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 57,
+          "name": "Paint & Hide: Color Guys",
+          "publisher": "HIGAME GLOBAL",
+          "category": "Games",
+          "package": "com.hp.hide.hunt.paint"
+        },
+        {
+          "rank": 75,
+          "name": "Kick the Buddy－Fun Action Game",
+          "publisher": "Playgendary Limited",
+          "category": "Games",
+          "package": "com.playgendary.kickthebuddy"
+        },
+        {
+          "rank": 90,
+          "name": "Annoying Uncle Punch Game®",
+          "publisher": "Game District LLC",
+          "category": "Games",
+          "package": "com.gtsy.annoying.punch.game"
+        },
+        {
+          "rank": 98,
+          "name": "Epic Plane Evolution",
+          "publisher": "VOODOO",
+          "category": "Games",
+          "package": "com.WalkTalk.FlightMaster"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 3,
+          "name": "Evony: The King's Return",
+          "publisher": "TG Inc.",
+          "category": "Games",
+          "package": "com.topgamesinc.evony"
+        },
+        {
+          "rank": 86,
+          "name": "Offline Games - No Wifi Games",
+          "publisher": "JindoBlu",
+          "category": "Games",
+          "package": "com.JindoBlu.OfflineGames"
+        },
+        {
+          "rank": 92,
+          "name": "Cars Royale: League of Rocket",
+          "publisher": "Starplay FZCO",
+          "category": "Games",
+          "package": "com.starplay.wreckracing"
+        },
+        {
+          "rank": 95,
+          "name": "Mystery Town: Merge Games",
+          "publisher": "Cedar Games Studio",
+          "category": "Games",
+          "package": "com.cedargames.mysterytown"
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 4,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 3,
+          "name": "Evony: The King's Return",
+          "publisher": "TG Inc.",
+          "category": "Games",
+          "package": "com.topgamesinc.evony"
+        },
+        {
+          "rank": 86,
+          "name": "Offline Games - No Wifi Games",
+          "publisher": "JindoBlu",
+          "category": "Games",
+          "package": "com.JindoBlu.OfflineGames"
+        },
+        {
+          "rank": 91,
+          "name": "Fruit Merge Drop",
+          "publisher": "Gimica GmbH",
+          "category": "Games",
+          "package": "com.gimica.fruitmergedrop"
+        },
+        {
+          "rank": 92,
+          "name": "Cars Royale: League of Rocket",
+          "publisher": "Starplay FZCO",
+          "category": "Games",
+          "package": "com.starplay.wreckracing"
+        },
+        {
+          "rank": 95,
+          "name": "Mystery Town: Merge Games",
+          "publisher": "Cedar Games Studio",
+          "category": "Games",
+          "package": "com.cedargames.mysterytown"
+        }
+      ]
+    }
+  }
+}
