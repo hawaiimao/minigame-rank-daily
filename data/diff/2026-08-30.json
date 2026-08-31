@@ -1,0 +1,594 @@
+{
+  "date": "2026-08-30",
+  "boards": {
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "七界梦谭",
+          "publisher": "飞光阁工作室",
+          "category": "角色扮演",
+          "subcategory": "修仙、高画质、MMORPG、开放世界、国风、3D"
+        },
+        {
+          "rank": 12,
+          "name": "粒粒的小人国",
+          "publisher": "腾讯",
+          "category": "模拟经营",
+          "subcategory": "建造、治愈、休闲、3D、社交、种田、换装、多人联机、角色扮演"
+        },
+        {
+          "rank": 13,
+          "name": "失乐枷锁",
+          "publisher": "月环网络",
+          "category": "恋爱",
+          "subcategory": "乙女、剧情、养成、无限流"
+        },
+        {
+          "rank": 14,
+          "name": "蓝色星原：旅谣",
+          "publisher": "蛮奈网络",
+          "category": "角色扮演",
+          "subcategory": "二次元、开放世界、冒险、动作、养成、收集"
+        },
+        {
+          "rank": 15,
+          "name": "小猫咪大城市",
+          "publisher": "嬉皮狗工作室",
+          "category": "模拟",
+          "subcategory": "休闲、冒险"
+        },
+        {
+          "rank": 16,
+          "name": "闪耀吧！噜咪",
+          "publisher": "哔哩哔哩游戏",
+          "category": "抓宠",
+          "subcategory": "卡牌、放置、冒险、角色扮演、养成、模拟经营、休闲"
+        },
+        {
+          "rank": 17,
+          "name": "追逐卡蕾多",
+          "publisher": "腾讯",
+          "category": "摩托车",
+          "subcategory": "美少女、二次元"
+        },
+        {
+          "rank": 18,
+          "name": "诡影藏锋",
+          "publisher": "网易游戏",
+          "category": "搜打撤",
+          "subcategory": "中式恐怖、高画质、PVP、动作"
+        },
+        {
+          "rank": 19,
+          "name": "格斗对决",
+          "publisher": "广州兆熙信息科技有限公司",
+          "category": "动作",
+          "subcategory": "横版、三国、多人联机、格斗"
+        },
+        {
+          "rank": 20,
+          "name": "望月",
+          "publisher": "望月游戏研究院",
+          "category": "角色扮演",
+          "subcategory": "开放世界、抓宠、高自由度、都市、建造、二次元、动作"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 10,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 77,
+          "name": "Word Tiles - Relaxing Puzzle",
+          "publisher": "Agave Games",
+          "category": "Games",
+          "app_id": "6783815362",
+          "url": "https://apps.apple.com/us/app/word-tiles-relaxing-puzzle/id6783815362?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/1b/5d/111b5d61-ee8b-6053-6955-eb9d17833e1e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Word Tiles is a relaxing word game designed for everyone!\n\nConnect the letter ti"
+        },
+        {
+          "rank": 89,
+          "name": "The Cozy Florist",
+          "publisher": "RiftSky Games",
+          "category": "Games",
+          "app_id": "6754878717",
+          "url": "https://apps.apple.com/us/app/the-cozy-florist/id6754878717?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/0d/ba/7f0dba1d-31b1-e99d-a09e-a72aa451822c/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Looking for a heartwarming game to relax without boredom? Eager to meet like-min"
+        },
+        {
+          "rank": 95,
+          "name": "Block Buster - No Timer",
+          "publisher": "Lion Studios Plus",
+          "category": "Games",
+          "app_id": "6745272388",
+          "url": "https://apps.apple.com/us/app/block-buster-no-timer/id6745272388?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/71/ab/c971ab32-0cd6-dcda-ce38-a5b83f9881cf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Block Buster - No Timer is a clever, colorful block puzzle where every move matt"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 83,
+          "name": "You Know: Associations",
+          "publisher": "Tripledot Studios",
+          "category": "Games",
+          "app_id": "6756664092",
+          "url": "https://apps.apple.com/us/app/you-know-associations/id6756664092?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/81/13/c381134b-f7f2-5a6b-b105-49afedef1d26/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "You Know: Associations is a fast, competitive card game where every move matters"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 56,
+          "name": "Imposter Game - Party Edition",
+          "publisher": "Sven Vucak",
+          "category": "Games",
+          "app_id": "6745120053",
+          "url": "https://apps.apple.com/us/app/imposter-game-party-edition/id6745120053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/69/e0/1069e0bd-1564-9f77-7ea4-a8072e6e90ff/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.png",
+          "slogan": "Are you the imposter - or will you expose them?\n\nImposter is the perfect game fo"
+        },
+        {
+          "rank": 60,
+          "name": "Stack Smash - 3D Puzzle Game",
+          "publisher": "Tripledot Studios",
+          "category": "Games",
+          "app_id": "6784602967",
+          "url": "https://apps.apple.com/us/app/stack-smash-3d-puzzle-game/id6784602967?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b0/a4/b1/b0a4b1bf-a09e-b035-cf09-0ee36f53995e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to the farm’s biggest little smash festival!\n\nAim your cannon, line up t"
+        },
+        {
+          "rank": 85,
+          "name": "Charades Guess Game · Guessly",
+          "publisher": "smak apps",
+          "category": "Games",
+          "app_id": "6473058122",
+          "url": "https://apps.apple.com/us/app/charades-guess-game-guessly/id6473058122?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/c6/32/92c63227-4331-6144-70b8-d491449ae5e9/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.jpeg/100x100bb.png",
+          "slogan": "Ready to turn ordinary hangouts into unforgettable moments? Meet Guessly — a cha"
+        },
+        {
+          "rank": 93,
+          "name": "Block Craft 3D: Building Games",
+          "publisher": "Wildlife Studios",
+          "category": "Games",
+          "app_id": "981633844",
+          "url": "https://apps.apple.com/us/app/block-craft-3d-building-games/id981633844?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f6/ce/77/f6ce772b-638d-1ff7-49e1-e91d9939c26b/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "Craft and grow your own village or build freely in an unlimited open world!\n\n+ C"
+        },
+        {
+          "rank": 94,
+          "name": "2 Player Games : Offline Games",
+          "publisher": "Moreno Maio",
+          "category": "Games",
+          "app_id": "1465731199",
+          "url": "https://apps.apple.com/us/app/2-player-games-offline-games/id1465731199?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/2d/4e/742d4eb8-d2f9-f959-a74b-ff158512b8a3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "If you want to play with your friend on the same device, this is the right game!"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 77,
+          "name": "Word Tiles - Relaxing Puzzle",
+          "publisher": "Agave Games",
+          "category": "Games",
+          "app_id": "6783815362",
+          "url": "https://apps.apple.com/us/app/word-tiles-relaxing-puzzle/id6783815362?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/1b/5d/111b5d61-ee8b-6053-6955-eb9d17833e1e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Word Tiles is a relaxing word game designed for everyone!\n\nConnect the letter ti"
+        },
+        {
+          "rank": 89,
+          "name": "The Cozy Florist",
+          "publisher": "RiftSky Games",
+          "category": "Games",
+          "app_id": "6754878717",
+          "url": "https://apps.apple.com/us/app/the-cozy-florist/id6754878717?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/0d/ba/7f0dba1d-31b1-e99d-a09e-a72aa451822c/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Looking for a heartwarming game to relax without boredom? Eager to meet like-min"
+        },
+        {
+          "rank": 95,
+          "name": "Block Buster - No Timer",
+          "publisher": "Lion Studios Plus",
+          "category": "Games",
+          "app_id": "6745272388",
+          "url": "https://apps.apple.com/us/app/block-buster-no-timer/id6745272388?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/71/ab/c971ab32-0cd6-dcda-ce38-a5b83f9881cf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Block Buster - No Timer is a clever, colorful block puzzle where every move matt"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 5,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 77,
+          "name": "Word Tiles - Relaxing Puzzle",
+          "publisher": "Agave Games",
+          "category": "Games",
+          "app_id": "6783815362",
+          "url": "https://apps.apple.com/us/app/word-tiles-relaxing-puzzle/id6783815362?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/1b/5d/111b5d61-ee8b-6053-6955-eb9d17833e1e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Word Tiles is a relaxing word game designed for everyone!\n\nConnect the letter ti"
+        },
+        {
+          "rank": 83,
+          "name": "You Know: Associations",
+          "publisher": "Tripledot Studios",
+          "category": "Games",
+          "app_id": "6756664092",
+          "url": "https://apps.apple.com/us/app/you-know-associations/id6756664092?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/81/13/c381134b-f7f2-5a6b-b105-49afedef1d26/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "You Know: Associations is a fast, competitive card game where every move matters"
+        },
+        {
+          "rank": 89,
+          "name": "The Cozy Florist",
+          "publisher": "RiftSky Games",
+          "category": "Games",
+          "app_id": "6754878717",
+          "url": "https://apps.apple.com/us/app/the-cozy-florist/id6754878717?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/0d/ba/7f0dba1d-31b1-e99d-a09e-a72aa451822c/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Looking for a heartwarming game to relax without boredom? Eager to meet like-min"
+        },
+        {
+          "rank": 95,
+          "name": "Block Buster - No Timer",
+          "publisher": "Lion Studios Plus",
+          "category": "Games",
+          "app_id": "6745272388",
+          "url": "https://apps.apple.com/us/app/block-buster-no-timer/id6745272388?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/71/ab/c971ab32-0cd6-dcda-ce38-a5b83f9881cf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Block Buster - No Timer is a clever, colorful block puzzle where every move matt"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 18,
+          "name": "九梦仙域-玄域热血封魔",
+          "publisher": "宝宏 赖",
+          "category": "游戏",
+          "app_id": "6446105986",
+          "url": "https://apps.apple.com/cn/app/%E4%B9%9D%E6%A2%A6%E4%BB%99%E5%9F%9F-%E7%8E%84%E5%9F%9F%E7%83%AD%E8%A1%80%E5%B0%81%E9%AD%94/id6446105986?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/68/3d/5a/683d5a87-fc6e-1b0a-1e5d-a91c46177b9a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+          "slogan": "在这动荡的仙界之中纯在这个一些妖魔邪道，充满正义感的你们为了守护苍生决定斩妖除魔！\n利用你们聪慧的大脑，结合实际情况来尽快消灭魔族吧！"
+        },
+        {
+          "rank": 72,
+          "name": "大话西游2口袋版-手机上的大话2",
+          "publisher": "Guangzhou NetEase Computer System Co.Ltd",
+          "category": "游戏",
+          "app_id": "1220839327",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A7%E8%AF%9D%E8%A5%BF%E6%B8%B82%E5%8F%A3%E8%A2%8B%E7%89%88-%E6%89%8B%E6%9C%BA%E4%B8%8A%E7%9A%84%E5%A4%A7%E8%AF%9D2/id1220839327?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/28/ed/8428edee-74c7-b2d8-70bf-844da9dcfe69/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "一款游戏，一生朋友。《大话西游2口袋版》迎来史上最强更新！\n\n《大话西游2口袋版》由《大话西游2》开发团队研发，是《大话西游2经典版》、《大话西游2免费版》在移"
+        },
+        {
+          "rank": 79,
+          "name": "我的安吉拉",
+          "publisher": "Outfit7 Network Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "1643581545",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E5%AE%89%E5%90%89%E6%8B%89/id1643581545?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/8c/68/398c68b2-0b60-44f3-9218-fbd74b01ff18/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "欢迎来到《我的安吉拉》绚丽的世界！领养专属于你的虚拟宠物安吉拉，为她带来奇妙精彩的一生！你要悉心呵护她，帮她从猫咪宝宝成长为猫咪美女哦！为安吉拉穿戴上最新潮、最"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 78,
+          "name": "我的汤姆猫",
+          "publisher": "Outfit7 Network Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6443993540",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%B1%A4%E5%A7%86%E7%8C%AB/id6443993540?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5a/58/68/5a58686d-50f0-39f0-ef7e-1b97c7045532/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "会说话的汤姆猫让每一天都成为有趣的冒险。\n\n玩家可以领养这只虚拟宠物，让它开心并帮助它探索自己的世界。\n\n- 会说话的汤姆猫真的会说话\n- 收集各种时尚物品和家"
+        },
+        {
+          "rank": 85,
+          "name": "天天台球-AR桌球斯诺克",
+          "publisher": "北京鲜趣互娱科技有限公司",
+          "category": "游戏",
+          "app_id": "1589930623",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E5%8F%B0%E7%90%83-ar%E6%A1%8C%E7%90%83%E6%96%AF%E8%AF%BA%E5%85%8B/id1589930623?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/09/75/8509759f-bd9d-ed17-c685-4af01a129e10/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【设计手记】台球爱好者团队精心设计打磨的桌球游戏，我们希望给喜爱台球的爱好者一个发挥的平台！\n【游戏特色】\n《天天台球》是一款拥有优秀击打体验台球竞技手游！1V"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 18,
+          "name": "九梦仙域-玄域热血封魔",
+          "publisher": "宝宏 赖",
+          "category": "游戏",
+          "app_id": "6446105986",
+          "url": "https://apps.apple.com/cn/app/%E4%B9%9D%E6%A2%A6%E4%BB%99%E5%9F%9F-%E7%8E%84%E5%9F%9F%E7%83%AD%E8%A1%80%E5%B0%81%E9%AD%94/id6446105986?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/68/3d/5a/683d5a87-fc6e-1b0a-1e5d-a91c46177b9a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+          "slogan": "在这动荡的仙界之中纯在这个一些妖魔邪道，充满正义感的你们为了守护苍生决定斩妖除魔！\n利用你们聪慧的大脑，结合实际情况来尽快消灭魔族吧！"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 18,
+          "name": "九梦仙域-玄域热血封魔",
+          "publisher": "宝宏 赖",
+          "category": "游戏",
+          "app_id": "6446105986",
+          "url": "https://apps.apple.com/cn/app/%E4%B9%9D%E6%A2%A6%E4%BB%99%E5%9F%9F-%E7%8E%84%E5%9F%9F%E7%83%AD%E8%A1%80%E5%B0%81%E9%AD%94/id6446105986?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/68/3d/5a/683d5a87-fc6e-1b0a-1e5d-a91c46177b9a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+          "slogan": "在这动荡的仙界之中纯在这个一些妖魔邪道，充满正义感的你们为了守护苍生决定斩妖除魔！\n利用你们聪慧的大脑，结合实际情况来尽快消灭魔族吧！"
+        },
+        {
+          "rank": 72,
+          "name": "大话西游2口袋版-手机上的大话2",
+          "publisher": "Guangzhou NetEase Computer System Co.Ltd",
+          "category": "游戏",
+          "app_id": "1220839327",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A7%E8%AF%9D%E8%A5%BF%E6%B8%B82%E5%8F%A3%E8%A2%8B%E7%89%88-%E6%89%8B%E6%9C%BA%E4%B8%8A%E7%9A%84%E5%A4%A7%E8%AF%9D2/id1220839327?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/28/ed/8428edee-74c7-b2d8-70bf-844da9dcfe69/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "一款游戏，一生朋友。《大话西游2口袋版》迎来史上最强更新！\n\n《大话西游2口袋版》由《大话西游2》开发团队研发，是《大话西游2经典版》、《大话西游2免费版》在移"
+        },
+        {
+          "rank": 79,
+          "name": "我的安吉拉",
+          "publisher": "Outfit7 Network Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "1643581545",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E5%AE%89%E5%90%89%E6%8B%89/id1643581545?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/8c/68/398c68b2-0b60-44f3-9218-fbd74b01ff18/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "欢迎来到《我的安吉拉》绚丽的世界！领养专属于你的虚拟宠物安吉拉，为她带来奇妙精彩的一生！你要悉心呵护她，帮她从猫咪宝宝成长为猫咪美女哦！为安吉拉穿戴上最新潮、最"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 13,
+          "name": "野獣アニマルバトル",
+          "publisher": "Reo Sato",
+          "category": "ゲーム",
+          "app_id": "6760141878",
+          "url": "https://apps.apple.com/jp/app/%E9%87%8E%E7%8D%A3%E3%82%A2%E3%83%8B%E3%83%9E%E3%83%AB%E3%83%90%E3%83%88%E3%83%AB/id6760141878?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/5b/d5/565bd560-04db-ec03-c567-38475f62f4d0/AppIcon-1x_U007emarketing-0-6-0-85-220-0.png/100x100bb.png",
+          "slogan": "【けものたちの、頂上決戦】\nクマ、イノシシ、サメ――野生の猛者たちと、なぜか交ざる謎の人間たち。\n異種混合の本気の殴り合いが、いま始まる。\nスマホに最適化された"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 85,
+          "name": "Castle Busters",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "6746328263",
+          "url": "https://apps.apple.com/jp/app/castle-busters/id6746328263?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/71/8d/56718d51-1a58-bade-84bf-5d010e77e6e4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "SMASH EVERY CASTLE. RULE EVERY ARENA.\nCastle Busters is fast, loud, and unfair i"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 78,
+          "name": "2人でワード人狼",
+          "publisher": "Tomoaki Namiki",
+          "category": "ゲーム",
+          "app_id": "6618113245",
+          "url": "https://apps.apple.com/jp/app/2%E4%BA%BA%E3%81%A7%E3%83%AF%E3%83%BC%E3%83%89%E4%BA%BA%E7%8B%BC/id6618113245?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/9b/be/d29bbe45-4365-4557-a799-06043aa9c06b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "2人でできる新感覚ワード当てゲーム！\n\n必要なのはスマホ一台のみ！\nルールは簡単・・・先に相手に出題されたワードを当てるだけ！\n自分のワードを悟らせないように質"
+        },
+        {
+          "rank": 94,
+          "name": "バスゲーム：カーパーキング・バスゲーム",
+          "publisher": "ABI GLOBAL LTD.",
+          "category": "ゲーム",
+          "app_id": "6689516366",
+          "url": "https://apps.apple.com/jp/app/%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0-%E3%82%AB%E3%83%BC%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0-%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0/id6689516366?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/2e/d8/982ed875-2811-80df-5e91-d2b13be492ac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "頭を使う難しいけど爽快なパズルゲームが好きですか？\n\nBus Escape: Traffic Jam Fever! の世界へようこそ！バスを動かしながら渋滞を解"
+        },
+        {
+          "rank": 95,
+          "name": "オフラインゲーム - 暇つぶし ゲーム - パズルゲーム",
+          "publisher": "Moreno Maio",
+          "category": "ゲーム",
+          "app_id": "6448104157",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0-%E6%9A%87%E3%81%A4%E3%81%B6%E3%81%97-%E3%82%B2%E3%83%BC%E3%83%A0-%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6448104157?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/fd/90/fcfd9020-315d-c520-d1a2-dae1f931d367/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「オフラインゲーム」の準備をしよう：すべての年齢層に楽しい、そして頭脳トレーニングにもなる！このオフラインゲームコレクションは、20以上のユニークなミニゲームが"
+        },
+        {
+          "rank": 100,
+          "name": "Jewel Loop - Coloring Sort",
+          "publisher": "Ta Ta Game Technology Limited",
+          "category": "ゲーム",
+          "app_id": "6790707229",
+          "url": "https://apps.apple.com/jp/app/jewel-loop-coloring-sort/id6790707229?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/64/c3/8a64c3e0-d098-1ad1-9a74-c21ba34dba05/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Jewel Loop - Coloring Sortは、宝石の仕分けとドット絵をひとつに束ねた、心が安らぐパズルの旅。つながった同じ色の宝石をタップすると、宝石"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 13,
+          "name": "野獣アニマルバトル",
+          "publisher": "Reo Sato",
+          "category": "ゲーム",
+          "app_id": "6760141878",
+          "url": "https://apps.apple.com/jp/app/%E9%87%8E%E7%8D%A3%E3%82%A2%E3%83%8B%E3%83%9E%E3%83%AB%E3%83%90%E3%83%88%E3%83%AB/id6760141878?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/5b/d5/565bd560-04db-ec03-c567-38475f62f4d0/AppIcon-1x_U007emarketing-0-6-0-85-220-0.png/100x100bb.png",
+          "slogan": "【けものたちの、頂上決戦】\nクマ、イノシシ、サメ――野生の猛者たちと、なぜか交ざる謎の人間たち。\n異種混合の本気の殴り合いが、いま始まる。\nスマホに最適化された"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 4,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 13,
+          "name": "野獣アニマルバトル",
+          "publisher": "Reo Sato",
+          "category": "ゲーム",
+          "app_id": "6760141878",
+          "url": "https://apps.apple.com/jp/app/%E9%87%8E%E7%8D%A3%E3%82%A2%E3%83%8B%E3%83%9E%E3%83%AB%E3%83%90%E3%83%88%E3%83%AB/id6760141878?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/5b/d5/565bd560-04db-ec03-c567-38475f62f4d0/AppIcon-1x_U007emarketing-0-6-0-85-220-0.png/100x100bb.png",
+          "slogan": "【けものたちの、頂上決戦】\nクマ、イノシシ、サメ――野生の猛者たちと、なぜか交ざる謎の人間たち。\n異種混合の本気の殴り合いが、いま始まる。\nスマホに最適化された"
+        },
+        {
+          "rank": 85,
+          "name": "Castle Busters",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "6746328263",
+          "url": "https://apps.apple.com/jp/app/castle-busters/id6746328263?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/71/8d/56718d51-1a58-bade-84bf-5d010e77e6e4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "SMASH EVERY CASTLE. RULE EVERY ARENA.\nCastle Busters is fast, loud, and unfair i"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 98,
+          "name": "Jackpot Fury",
+          "publisher": "LitonApp Studio",
+          "category": "Games",
+          "package": "com.blaze.casino.b.android"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 84,
+          "name": "Soul Land: New World",
+          "publisher": "LING CHAI (HONG KONG) LIMITED",
+          "category": "Games",
+          "package": "com.soulland.us"
+        },
+        {
+          "rank": 97,
+          "name": "Toon Blast",
+          "publisher": "Peak",
+          "category": "Games",
+          "package": "net.peakgames.toonblast"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 93,
+          "name": "Arrow Pro 3D",
+          "publisher": "Iridium Mobile Team",
+          "category": "Games",
+          "package": "arrow.cube.escape3d"
+        },
+        {
+          "rank": 96,
+          "name": "Craft Battle: Block Wars",
+          "publisher": "Coup Coup LTD",
+          "category": "Games",
+          "package": "com.novas.craft.battle.mod.block.war"
+        },
+        {
+          "rank": 99,
+          "name": "Color Block Jam",
+          "publisher": "Rollic Games",
+          "category": "Games",
+          "package": "com.GybeGames.ColorBlockJam"
+        },
+        {
+          "rank": 100,
+          "name": "Ragdoll 3: Monster Playground",
+          "publisher": "oZ Studio",
+          "category": "Games",
+          "package": "com.rc15.mutilate.ragdoll.sandbox.playground"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 84,
+          "name": "Soul Land: New World",
+          "publisher": "LING CHAI (HONG KONG) LIMITED",
+          "category": "Games",
+          "package": "com.soulland.us"
+        },
+        {
+          "rank": 98,
+          "name": "Jackpot Fury",
+          "publisher": "LitonApp Studio",
+          "category": "Games",
+          "package": "com.blaze.casino.b.android"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 4,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 84,
+          "name": "Soul Land: New World",
+          "publisher": "LING CHAI (HONG KONG) LIMITED",
+          "category": "Games",
+          "package": "com.soulland.us"
+        },
+        {
+          "rank": 97,
+          "name": "Toon Blast",
+          "publisher": "Peak",
+          "category": "Games",
+          "package": "net.peakgames.toonblast"
+        },
+        {
+          "rank": 98,
+          "name": "Jackpot Fury",
+          "publisher": "LitonApp Studio",
+          "category": "Games",
+          "package": "com.blaze.casino.b.android"
+        }
+      ]
+    }
+  }
+}
