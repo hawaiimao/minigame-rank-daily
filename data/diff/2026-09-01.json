@@ -1,0 +1,586 @@
+{
+  "date": "2026-09-01",
+  "boards": {
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "白银之城",
+          "publisher": "乐元素",
+          "category": "二次元",
+          "subcategory": "侦探、ARPG、开放世界、动作、角色扮演"
+        },
+        {
+          "rank": 10,
+          "name": "伯吉的温馨厨房",
+          "publisher": "萝卜游戏工作室",
+          "category": "放置",
+          "subcategory": "模拟经营、休闲"
+        },
+        {
+          "rank": 12,
+          "name": "失乐枷锁",
+          "publisher": "月环网络",
+          "category": "恋爱",
+          "subcategory": "乙女、剧情、养成、无限流"
+        },
+        {
+          "rank": 13,
+          "name": "闪耀吧！噜咪",
+          "publisher": "哔哩哔哩游戏",
+          "category": "抓宠",
+          "subcategory": "卡牌、放置、冒险、角色扮演、养成、模拟经营、休闲"
+        },
+        {
+          "rank": 14,
+          "name": "蓝色星原：旅谣",
+          "publisher": "蛮奈网络",
+          "category": "角色扮演",
+          "subcategory": "二次元、开放世界、冒险、动作、养成、收集"
+        },
+        {
+          "rank": 15,
+          "name": "小猫咪大城市",
+          "publisher": "嬉皮狗工作室",
+          "category": "模拟",
+          "subcategory": "休闲、冒险"
+        },
+        {
+          "rank": 17,
+          "name": "诡影藏锋",
+          "publisher": "网易游戏",
+          "category": "搜打撤",
+          "subcategory": "中式恐怖、高画质、PVP、动作"
+        },
+        {
+          "rank": 18,
+          "name": "霓虹深渊2",
+          "publisher": "Veewo Games",
+          "category": "Roguelike",
+          "subcategory": "多人联机、赛博朋克、Steam移植、地牢、像素、弹幕、单机、横版、动作、冒险"
+        },
+        {
+          "rank": 19,
+          "name": "星眠",
+          "publisher": "北京沐言星河科技有限公司",
+          "category": "乙女",
+          "subcategory": "女性向、模拟经营"
+        },
+        {
+          "rank": 20,
+          "name": "辉光之城1907",
+          "publisher": "薄雾集",
+          "category": "模拟经营",
+          "subcategory": "收集、模拟"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 10,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 96,
+          "name": "CrownCards - Trading Cards",
+          "publisher": "CrownCards",
+          "category": "Games",
+          "app_id": "6762010774",
+          "url": "https://apps.apple.com/us/app/crowncards-trading-cards/id6762010774?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/eb/42/77eb424b-1bf7-bfaf-3d36-2f5e3aed86c5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Pull genuine trading cards from your phone. Build your collection or ship the re"
+        },
+        {
+          "rank": 98,
+          "name": "UNO!™",
+          "publisher": "Mattel Game Studios HK Limited",
+          "category": "Games",
+          "app_id": "1344700142",
+          "url": "https://apps.apple.com/us/app/uno/id1344700142?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/91/16/a891164b-bb32-3440-ca16-49068d64a1d0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "UNO!™ is now mobile! Take the classic card game from the kitchen table anywhere!"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 81,
+          "name": "Bus Fever! Car Jam Escape",
+          "publisher": "Lumi Games",
+          "category": "Games",
+          "app_id": "6746743297",
+          "url": "https://apps.apple.com/us/app/bus-fever-car-jam-escape/id6746743297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/d7/dc/61d7dcf1-6aa0-7d72-b382-74e22b66e58a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready for a thrilling bus escape game adventure!\nTackle the challenging traf"
+        },
+        {
+          "rank": 92,
+          "name": "Idle Cat Gunner: Shooter RPG",
+          "publisher": "Neptune Company",
+          "category": "Games",
+          "app_id": "6764201639",
+          "url": "https://apps.apple.com/us/app/idle-cat-gunner-shooter-rpg/id6764201639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/ac/25/c8ac2544-5b40-175b-6307-0c2624240062/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Smash through obstacles, push forward, and grow without limits!\nSimple controls."
+        }
+      ],
+      "returning": [
+        {
+          "rank": 48,
+          "name": "Sand Blocks: Drop Puzzle",
+          "publisher": "Rollic Games",
+          "category": "Games",
+          "app_id": "6757140488",
+          "url": "https://apps.apple.com/us/app/sand-blocks-drop-puzzle/id6757140488?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/c9/40/c9c940cb-bcd5-0fac-dcb4-24d2b0a93f52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Pull the sand. Fill the pits. Clear the board.\n\nDive into a satisfying puzzle ex"
+        },
+        {
+          "rank": 85,
+          "name": "Car Sort: Color Puzzle",
+          "publisher": "Rollic Games",
+          "category": "Games",
+          "app_id": "6758138698",
+          "url": "https://apps.apple.com/us/app/car-sort-color-puzzle/id6758138698?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/e7/f9/f2e7f982-902e-3d53-203f-918e91808b46/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Ready to sort the traffic?\nTap to send colorful cars around the track! Match col"
+        },
+        {
+          "rank": 87,
+          "name": "Hidden Object Games: Seek It",
+          "publisher": "NimbleMind",
+          "category": "Games",
+          "app_id": "6751270213",
+          "url": "https://apps.apple.com/us/app/hidden-object-games-seek-it/id6751270213?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/a0/cc/f1a0ccc0-b6be-c273-5c98-80eca010e1c9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to the world of hidden objects, where every picture hides a story. Can y"
+        },
+        {
+          "rank": 90,
+          "name": "Packz",
+          "publisher": "Packz",
+          "category": "Games",
+          "app_id": "6755495631",
+          "url": "https://apps.apple.com/us/app/packz/id6755495631?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/cd/f2/95cdf262-44ba-a9a5-dae7-c6af78e30f96/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/100x100bb.png",
+          "slogan": "Open Packs. Get Cards. Ship or Cash Out Instantly.\n\nPacks can hold cards worth u"
+        },
+        {
+          "rank": 94,
+          "name": "Word Search Explorer®",
+          "publisher": "PlaySimple Games Pte Ltd",
+          "category": "Games",
+          "app_id": "1602508478",
+          "url": "https://apps.apple.com/us/app/word-search-explorer/id1602508478?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/bd/d1/3cbdd1bc-5cff-d751-7b94-7294dc2d3f61/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "With Word Search Explorer embark on a wondrous quest of adventure and wisdom, wh"
+        },
+        {
+          "rank": 99,
+          "name": "Lamar - Idle Vlogger",
+          "publisher": "Crazy Labs",
+          "category": "Games",
+          "app_id": "1595314851",
+          "url": "https://apps.apple.com/us/app/lamar-idle-vlogger/id1595314851?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/8a/d9/528ad987-0d40-f903-5fe5-3354c8141dfc/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Become a Viral Sensation with Lamar - Idle Vlogger!\nWelcome to the wacky world o"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 81,
+          "name": "Bus Fever! Car Jam Escape",
+          "publisher": "Lumi Games",
+          "category": "Games",
+          "app_id": "6746743297",
+          "url": "https://apps.apple.com/us/app/bus-fever-car-jam-escape/id6746743297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/d7/dc/61d7dcf1-6aa0-7d72-b382-74e22b66e58a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready for a thrilling bus escape game adventure!\nTackle the challenging traf"
+        },
+        {
+          "rank": 92,
+          "name": "Idle Cat Gunner: Shooter RPG",
+          "publisher": "Neptune Company",
+          "category": "Games",
+          "app_id": "6764201639",
+          "url": "https://apps.apple.com/us/app/idle-cat-gunner-shooter-rpg/id6764201639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/ac/25/c8ac2544-5b40-175b-6307-0c2624240062/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Smash through obstacles, push forward, and grow without limits!\nSimple controls."
+        },
+        {
+          "rank": 96,
+          "name": "CrownCards - Trading Cards",
+          "publisher": "CrownCards",
+          "category": "Games",
+          "app_id": "6762010774",
+          "url": "https://apps.apple.com/us/app/crowncards-trading-cards/id6762010774?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/eb/42/77eb424b-1bf7-bfaf-3d36-2f5e3aed86c5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Pull genuine trading cards from your phone. Build your collection or ship the re"
+        },
+        {
+          "rank": 98,
+          "name": "UNO!™",
+          "publisher": "Mattel Game Studios HK Limited",
+          "category": "Games",
+          "app_id": "1344700142",
+          "url": "https://apps.apple.com/us/app/uno/id1344700142?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/91/16/a891164b-bb32-3440-ca16-49068d64a1d0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "UNO!™ is now mobile! Take the classic card game from the kitchen table anywhere!"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 6,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 81,
+          "name": "Bus Fever! Car Jam Escape",
+          "publisher": "Lumi Games",
+          "category": "Games",
+          "app_id": "6746743297",
+          "url": "https://apps.apple.com/us/app/bus-fever-car-jam-escape/id6746743297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/d7/dc/61d7dcf1-6aa0-7d72-b382-74e22b66e58a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready for a thrilling bus escape game adventure!\nTackle the challenging traf"
+        },
+        {
+          "rank": 92,
+          "name": "Idle Cat Gunner: Shooter RPG",
+          "publisher": "Neptune Company",
+          "category": "Games",
+          "app_id": "6764201639",
+          "url": "https://apps.apple.com/us/app/idle-cat-gunner-shooter-rpg/id6764201639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/ac/25/c8ac2544-5b40-175b-6307-0c2624240062/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Smash through obstacles, push forward, and grow without limits!\nSimple controls."
+        },
+        {
+          "rank": 96,
+          "name": "CrownCards - Trading Cards",
+          "publisher": "CrownCards",
+          "category": "Games",
+          "app_id": "6762010774",
+          "url": "https://apps.apple.com/us/app/crowncards-trading-cards/id6762010774?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/eb/42/77eb424b-1bf7-bfaf-3d36-2f5e3aed86c5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Pull genuine trading cards from your phone. Build your collection or ship the re"
+        },
+        {
+          "rank": 98,
+          "name": "UNO!™",
+          "publisher": "Mattel Game Studios HK Limited",
+          "category": "Games",
+          "app_id": "1344700142",
+          "url": "https://apps.apple.com/us/app/uno/id1344700142?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/91/16/a891164b-bb32-3440-ca16-49068d64a1d0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "UNO!™ is now mobile! Take the classic card game from the kitchen table anywhere!"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 95,
+          "name": "万箭归宗：蛇影迷阵",
+          "publisher": "天宇 刘",
+          "category": "游戏",
+          "app_id": "6762199388",
+          "url": "https://apps.apple.com/cn/app/%E4%B8%87%E7%AE%AD%E5%BD%92%E5%AE%97-%E8%9B%87%E5%BD%B1%E8%BF%B7%E9%98%B5/id6762199388?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/1c/01/011c010d-3157-70d2-9a9e-21199b53c044/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "在染色模式中发射彩色小蛇直线冲锋，将网格染成目标图案，石头阻挡与三角转弯让每一步都充满策略；在铺路模式中拖拽方块搭建连续路径，引导多色小蛇并行归洞，传送门助你绝"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 35,
+          "name": "球球大作战",
+          "publisher": "巨人网络科技有限公司",
+          "category": "游戏",
+          "app_id": "996509117",
+          "url": "https://apps.apple.com/cn/app/%E7%90%83%E7%90%83%E5%A4%A7%E4%BD%9C%E6%88%98/id996509117?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/d0/74/33d07432-68f2-c13c-5f46-9449c60859e0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《球球大作战》（Battle of Balls）是轻松有趣的休闲竞技手游大作，年轻玩家的共同选择！\n这是一款好玩、萌酷、有挑战性的实时对战休闲竞技游戏。在这个球"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 96,
+          "name": "鸣潮",
+          "publisher": "库洛游戏",
+          "category": "游戏",
+          "app_id": "6450693428",
+          "url": "https://apps.apple.com/cn/app/%E9%B8%A3%E6%BD%AE/id6450693428?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/84/84/128484d9-5594-4db1-4712-a2c10de7047e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《鸣潮》是一款跨平台开放世界动作游戏，主打高自由度的动作战斗玩法与丰富多样的开放世界探索。而你，在这个世界苏醒的漂泊者，将在找回记忆、寻找自我身份的同时结识无数"
+        },
+        {
+          "rank": 98,
+          "name": "崩坏：星穹铁道",
+          "publisher": "miHoYo Games",
+          "category": "游戏",
+          "app_id": "1523037824",
+          "url": "https://apps.apple.com/cn/app/%E5%B4%A9%E5%9D%8F-%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93/id1523037824?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/a9/36/28a93625-e6d5-71a5-f66e-00e71399e0ae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "这片银河中有名为「星神」的存在，祂们造就现实，抹消星辰，在无数「世界」中留下祂们的痕迹。你——一名特殊的旅客，将与继承「开拓」意志的同伴一起，乘坐星穹列车穿越银"
+        },
+        {
+          "rank": 100,
+          "name": "向僵尸开炮-尸潮来袭",
+          "publisher": "Hainan Shengchang Network Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6474293468",
+          "url": "https://apps.apple.com/cn/app/%E5%90%91%E5%83%B5%E5%B0%B8%E5%BC%80%E7%82%AE-%E5%B0%B8%E6%BD%AE%E6%9D%A5%E8%A2%AD/id6474293468?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/d2/71/89d27123-c7af-8041-b70d-6e595068e7c7/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《向僵尸开炮》是一款制作精良、画风精美的射击Roguelike手游。故事背景设定在未来时代，某日天灾席卷地球，僵尸横行，自然资源与科技文明受到重创；为了保护人类"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 95,
+          "name": "万箭归宗：蛇影迷阵",
+          "publisher": "天宇 刘",
+          "category": "游戏",
+          "app_id": "6762199388",
+          "url": "https://apps.apple.com/cn/app/%E4%B8%87%E7%AE%AD%E5%BD%92%E5%AE%97-%E8%9B%87%E5%BD%B1%E8%BF%B7%E9%98%B5/id6762199388?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/1c/01/011c010d-3157-70d2-9a9e-21199b53c044/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "在染色模式中发射彩色小蛇直线冲锋，将网格染成目标图案，石头阻挡与三角转弯让每一步都充满策略；在铺路模式中拖拽方块搭建连续路径，引导多色小蛇并行归洞，传送门助你绝"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 35,
+          "name": "球球大作战",
+          "publisher": "巨人网络科技有限公司",
+          "category": "游戏",
+          "app_id": "996509117",
+          "url": "https://apps.apple.com/cn/app/%E7%90%83%E7%90%83%E5%A4%A7%E4%BD%9C%E6%88%98/id996509117?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/d0/74/33d07432-68f2-c13c-5f46-9449c60859e0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《球球大作战》（Battle of Balls）是轻松有趣的休闲竞技手游大作，年轻玩家的共同选择！\n这是一款好玩、萌酷、有挑战性的实时对战休闲竞技游戏。在这个球"
+        },
+        {
+          "rank": 95,
+          "name": "万箭归宗：蛇影迷阵",
+          "publisher": "天宇 刘",
+          "category": "游戏",
+          "app_id": "6762199388",
+          "url": "https://apps.apple.com/cn/app/%E4%B8%87%E7%AE%AD%E5%BD%92%E5%AE%97-%E8%9B%87%E5%BD%B1%E8%BF%B7%E9%98%B5/id6762199388?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/1c/01/011c010d-3157-70d2-9a9e-21199b53c044/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "在染色模式中发射彩色小蛇直线冲锋，将网格染成目标图案，石头阻挡与三角转弯让每一步都充满策略；在铺路模式中拖拽方块搭建连续路径，引导多色小蛇并行归洞，传送门助你绝"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 45,
+          "name": "LINE ポコポコ：3マッチパズルゲーム",
+          "publisher": "LINE Corporation",
+          "category": "ゲーム",
+          "app_id": "888615473",
+          "url": "https://apps.apple.com/jp/app/line-%E3%83%9D%E3%82%B3%E3%83%9D%E3%82%B3-3%E3%83%9E%E3%83%83%E3%83%81%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id888615473?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/b4/38/63b438a8-9f54-0fc3-8913-357ac0051bbf/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------\nポコからはじまる12周年！\nパズルゲームの定番！ LINE ポコポコ！\n---------"
+        },
+        {
+          "rank": 66,
+          "name": "脱出ゲーム レジャープールで過ごす夏",
+          "publisher": "daichi simada",
+          "category": "ゲーム",
+          "app_id": "6796562814",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E3%83%AC%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%97%E3%83%BC%E3%83%AB%E3%81%A7%E9%81%8E%E3%81%94%E3%81%99%E5%A4%8F/id6796562814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/79/91/56799156-7834-9ad2-158f-78c7ce9bb2bf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【このゲームの特徴】\n・レジャープールが舞台のユニークな脱出ゲーム\n・グラフィックにこだわった美しいビジュアル\n・BGMと効果音がゲームの雰囲気を盛り上げる\n・"
+        },
+        {
+          "rank": 99,
+          "name": "グッズソーティング3D：マッチゲーム",
+          "publisher": "Guru Smart Holding Limited",
+          "category": "ゲーム",
+          "app_id": "6499306806",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%83%E3%82%BA%E3%82%BD%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B03d-%E3%83%9E%E3%83%83%E3%83%81%E3%82%B2%E3%83%BC%E3%83%A0/id6499306806?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/62/26/1f622696-be28-91c0-4fc3-2cf3db6fff18/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "グッズソーティング3D：マッチゲームで、これまでにないエキサイティングなマッチングアドベンチャーに備えよう！複数のグッズをソートし、棚を整理し、レジャータイムを"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 93,
+          "name": "Bus Fever! Car Jam Escape",
+          "publisher": "Lumi Games",
+          "category": "ゲーム",
+          "app_id": "6746743297",
+          "url": "https://apps.apple.com/jp/app/bus-fever-car-jam-escape/id6746743297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/d7/dc/61d7dcf1-6aa0-7d72-b382-74e22b66e58a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "バスフィーバーへようこそ！究極の交通渋滞脱出チャレンジに挑戦しよう！\nバスフィーバーの世界では、交通の混乱と戦略的なパズル解決が融合しています。バスの詰まりや交"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 69,
+          "name": "リヴリヴ　終末スローライフ",
+          "publisher": "ENSAPIA Corporation",
+          "category": "ゲーム",
+          "app_id": "6747021698",
+          "url": "https://apps.apple.com/jp/app/%E3%83%AA%E3%83%B4%E3%83%AA%E3%83%B4-%E7%B5%82%E6%9C%AB%E3%82%B9%E3%83%AD%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%95/id6747021698?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/25/51/0e2551c8-36fe-d329-91c7-f3b52b1fd394/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "不思議な生き物リヴリーたちと共に生きる終末スローライフ。　\n錬金術で生み出したリヴリーのからだを借りて、\n終末世界を探索しながら暮らしを築いていきます。\n\nいろ"
+        },
+        {
+          "rank": 95,
+          "name": "Pokémon Sleep",
+          "publisher": "The Pokemon Company",
+          "category": "ゲーム",
+          "app_id": "1579464667",
+          "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-sleep/id1579464667?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/d0/66/bdd0665f-3db3-2636-77a1-249c470d99c9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【睡眠でポケモンをゲットしよう！】\n\nPokémon Sleep（ポケモンスリープ）の世界では、あなたが眠ることによって、\nあなたと同じ睡眠タイプのポケモンたち"
+        },
+        {
+          "rank": 96,
+          "name": "みんなで早押しクイズ",
+          "publisher": "Q ONE, Inc.",
+          "category": "ゲーム",
+          "app_id": "1044039663",
+          "url": "https://apps.apple.com/jp/app/%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%E6%97%A9%E6%8A%BC%E3%81%97%E3%82%AF%E3%82%A4%E3%82%BA/id1044039663?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/24/9a/62249a6c-8a24-6d93-627c-308ecb435e20/AppIcon-2-1x_U007epad-0-1-0-85-220-0.png/100x100bb.png",
+          "slogan": "オンライン対戦早押しクイズゲームアプリが登場！\nライバルと対戦してレート上位を目指そう！\n\n選べるモードは、ランダムマッチ・フリーマッチ(フレンド対戦)の2種類"
+        },
+        {
+          "rank": 98,
+          "name": "Screwdom : ボルトパズルゲーム",
+          "publisher": "Zego Global Pte Ltd",
+          "category": "ゲーム",
+          "app_id": "6740043080",
+          "url": "https://apps.apple.com/jp/app/screwdom-%E3%83%9C%E3%83%AB%E3%83%88%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6740043080?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/a2/3f/d2a23fc1-63b7-e7e8-819e-a32422d304bd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Screwdom 3D は、あなたの問題解決能力を究極的に試す、挑戦的で頭を使う 3D スクリュー ジャム ゲームです。このエキサイティングなゲームは、並べ替え"
+        },
+        {
+          "rank": 100,
+          "name": "Level Devil - NOT A Troll Game",
+          "publisher": "WebVentures B.V.",
+          "category": "ゲーム",
+          "app_id": "6477413486",
+          "url": "https://apps.apple.com/jp/app/level-devil-not-a-troll-game/id6477413486?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/6a/82/d06a82bf-97b8-562e-c62a-66618dde90ad/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "素敵で穏やかなプラットフォーマー\n\n走って、跳んで、ドアにたどり着き、完全に公平なステージ、親切なトゲ、信頼できる足場、そしてごく普通のサプライズに満ちた穏やか"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 66,
+          "name": "脱出ゲーム レジャープールで過ごす夏",
+          "publisher": "daichi simada",
+          "category": "ゲーム",
+          "app_id": "6796562814",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E3%83%AC%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%97%E3%83%BC%E3%83%AB%E3%81%A7%E9%81%8E%E3%81%94%E3%81%99%E5%A4%8F/id6796562814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/79/91/56799156-7834-9ad2-158f-78c7ce9bb2bf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【このゲームの特徴】\n・レジャープールが舞台のユニークな脱出ゲーム\n・グラフィックにこだわった美しいビジュアル\n・BGMと効果音がゲームの雰囲気を盛り上げる\n・"
+        },
+        {
+          "rank": 93,
+          "name": "Bus Fever! Car Jam Escape",
+          "publisher": "Lumi Games",
+          "category": "ゲーム",
+          "app_id": "6746743297",
+          "url": "https://apps.apple.com/jp/app/bus-fever-car-jam-escape/id6746743297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/d7/dc/61d7dcf1-6aa0-7d72-b382-74e22b66e58a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "バスフィーバーへようこそ！究極の交通渋滞脱出チャレンジに挑戦しよう！\nバスフィーバーの世界では、交通の混乱と戦略的なパズル解決が融合しています。バスの詰まりや交"
+        },
+        {
+          "rank": 99,
+          "name": "グッズソーティング3D：マッチゲーム",
+          "publisher": "Guru Smart Holding Limited",
+          "category": "ゲーム",
+          "app_id": "6499306806",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%83%E3%82%BA%E3%82%BD%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B03d-%E3%83%9E%E3%83%83%E3%83%81%E3%82%B2%E3%83%BC%E3%83%A0/id6499306806?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/62/26/1f622696-be28-91c0-4fc3-2cf3db6fff18/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "グッズソーティング3D：マッチゲームで、これまでにないエキサイティングなマッチングアドベンチャーに備えよう！複数のグッズをソートし、棚を整理し、レジャータイムを"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 5,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 45,
+          "name": "LINE ポコポコ：3マッチパズルゲーム",
+          "publisher": "LINE Corporation",
+          "category": "ゲーム",
+          "app_id": "888615473",
+          "url": "https://apps.apple.com/jp/app/line-%E3%83%9D%E3%82%B3%E3%83%9D%E3%82%B3-3%E3%83%9E%E3%83%83%E3%83%81%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id888615473?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/b4/38/63b438a8-9f54-0fc3-8913-357ac0051bbf/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------\nポコからはじまる12周年！\nパズルゲームの定番！ LINE ポコポコ！\n---------"
+        },
+        {
+          "rank": 66,
+          "name": "脱出ゲーム レジャープールで過ごす夏",
+          "publisher": "daichi simada",
+          "category": "ゲーム",
+          "app_id": "6796562814",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E3%83%AC%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%97%E3%83%BC%E3%83%AB%E3%81%A7%E9%81%8E%E3%81%94%E3%81%99%E5%A4%8F/id6796562814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/79/91/56799156-7834-9ad2-158f-78c7ce9bb2bf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【このゲームの特徴】\n・レジャープールが舞台のユニークな脱出ゲーム\n・グラフィックにこだわった美しいビジュアル\n・BGMと効果音がゲームの雰囲気を盛り上げる\n・"
+        },
+        {
+          "rank": 93,
+          "name": "Bus Fever! Car Jam Escape",
+          "publisher": "Lumi Games",
+          "category": "ゲーム",
+          "app_id": "6746743297",
+          "url": "https://apps.apple.com/jp/app/bus-fever-car-jam-escape/id6746743297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/d7/dc/61d7dcf1-6aa0-7d72-b382-74e22b66e58a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "バスフィーバーへようこそ！究極の交通渋滞脱出チャレンジに挑戦しよう！\nバスフィーバーの世界では、交通の混乱と戦略的なパズル解決が融合しています。バスの詰まりや交"
+        },
+        {
+          "rank": 99,
+          "name": "グッズソーティング3D：マッチゲーム",
+          "publisher": "Guru Smart Holding Limited",
+          "category": "ゲーム",
+          "app_id": "6499306806",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%83%E3%82%BA%E3%82%BD%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B03d-%E3%83%9E%E3%83%83%E3%83%81%E3%82%B2%E3%83%BC%E3%83%A0/id6499306806?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/62/26/1f622696-be28-91c0-4fc3-2cf3db6fff18/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "グッズソーティング3D：マッチゲームで、これまでにないエキサイティングなマッチングアドベンチャーに備えよう！複数のグッズをソートし、棚を整理し、レジャータイムを"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
