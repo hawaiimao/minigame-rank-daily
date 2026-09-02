@@ -70,7 +70,7 @@
           "name": "腾讯欢乐斗地主",
           "category": "棋牌",
           "category_rank": 1,
-          "subcategory": "牌类棋牌传统棋牌",
+          "subcategory": "牌类传统棋牌棋牌",
           "slogan": "",
           "publisher": "深圳市腾讯计算机系统有限公司",
           "change": "- 稳定",
@@ -246,7 +246,7 @@
           "name": "天天斗地主真人版",
           "category": "棋牌",
           "category_rank": 2,
-          "subcategory": "牌类棋牌传统棋牌",
+          "subcategory": "牌类传统棋牌棋牌",
           "slogan": "",
           "publisher": "深圳市禅游科技股份有限公司",
           "change": "- 稳定",
@@ -268,7 +268,7 @@
           "name": "天天象棋",
           "category": "棋牌",
           "category_rank": 3,
-          "subcategory": "棋类传统棋牌棋牌",
+          "subcategory": "棋类棋牌传统棋牌",
           "slogan": "",
           "publisher": "深圳市腾讯天游科技有限公司",
           "change": "- 稳定",
@@ -279,7 +279,7 @@
           "name": "跳一跳",
           "category": "休闲",
           "category_rank": 17,
-          "subcategory": "益智休闲超休闲",
+          "subcategory": "益智超休闲休闲",
           "slogan": "",
           "publisher": "深圳市腾讯计算机系统有限公司",
           "change": "- 稳定",
@@ -1464,7 +1464,7 @@
           "name": "腾讯欢乐斗地主",
           "category": "棋牌",
           "category_rank": 1,
-          "subcategory": "牌类传统棋牌棋牌",
+          "subcategory": "牌类棋牌传统棋牌",
           "slogan": "",
           "publisher": "深圳市腾讯计算机系统有限公司",
           "change": "- 稳定",
@@ -1717,7 +1717,7 @@
           "name": "海盗来了",
           "category": "休闲",
           "category_rank": 18,
-          "subcategory": "模拟经营强社交类模拟",
+          "subcategory": "模拟经营模拟强社交类",
           "slogan": "",
           "publisher": "北京豪腾创想科技有限公司",
           "change": "- 稳定",
@@ -1772,7 +1772,7 @@
           "name": "雀神广东麻将",
           "category": "棋牌",
           "category_rank": 2,
-          "subcategory": "牌类棋牌传统棋牌",
+          "subcategory": "牌类传统棋牌棋牌",
           "slogan": "",
           "publisher": "上海锋兮网络科技有限公司",
           "change": "- 稳定",
@@ -1849,7 +1849,7 @@
           "name": "英雄杀",
           "category": "角色",
           "category_rank": 22,
-          "subcategory": "卡牌卡牌竞技卡牌",
+          "subcategory": "卡牌卡牌卡牌竞技",
           "slogan": "",
           "publisher": "深圳市腾讯计算机系统有限公司",
           "change": "- 稳定",
@@ -2991,7 +2991,7 @@
           "name": "天天爱掼蛋",
           "category": "棋牌",
           "category_rank": 3,
-          "subcategory": "牌类传统棋牌棋牌",
+          "subcategory": "牌类棋牌传统棋牌",
           "slogan": "",
           "publisher": "南京呆萌猫网络科技有限公司",
           "change": "2",
@@ -3013,7 +3013,7 @@
           "name": "天天斗地主真人版",
           "category": "棋牌",
           "category_rank": 4,
-          "subcategory": "牌类传统棋牌棋牌",
+          "subcategory": "牌类棋牌传统棋牌",
           "slogan": "",
           "publisher": "深圳市禅游科技股份有限公司",
           "change": "3",
@@ -7613,7 +7613,36 @@
       "platform": "taptap",
       "platform_label": "TapTap",
       "board_label": "预约榜",
-      "first_anywhere": [],
+      "first_anywhere": [
+        {
+          "rank": 42,
+          "name": "我叫MT：崛起",
+          "publisher": "兔飞梦鲸工作室",
+          "category": "卡牌",
+          "subcategory": "放置、冒险、策略、魔幻、回合制"
+        },
+        {
+          "rank": 43,
+          "name": "沉默的蟋蟀",
+          "publisher": "蓬莱飞鱼工作室",
+          "category": "策略",
+          "subcategory": "养成、Roguelike、模拟、收集、独立游戏"
+        },
+        {
+          "rank": 45,
+          "name": "破晓之前",
+          "publisher": "薄荷兔游戏",
+          "category": "乙女",
+          "subcategory": "剧情、恋爱、养成、女性向、卡牌"
+        },
+        {
+          "rank": 46,
+          "name": "我在海上有小岛",
+          "publisher": "远山见月工作室",
+          "category": "模拟经营",
+          "subcategory": "Roguelike、放置、策略"
+        }
+      ],
       "first_on_board": [],
       "returning": [
         {
@@ -7622,15 +7651,247 @@
           "publisher": "晴空游戏工作室",
           "category": "角色扮演",
           "subcategory": "策略、回合制、二次元、卡牌"
+        },
+        {
+          "rank": 12,
+          "name": "追逐卡蕾多",
+          "publisher": "腾讯",
+          "category": "摩托车",
+          "subcategory": "美少女、二次元"
+        },
+        {
+          "rank": 20,
+          "name": "篮球少女：飞跃巅峰",
+          "publisher": "广州灵犀互动娱乐有限公司",
+          "category": "养成",
+          "subcategory": "二次元、篮球、美少女、模拟、卡牌、日系、体育"
+        },
+        {
+          "rank": 21,
+          "name": "仙逆：本尊",
+          "publisher": "智玩游戏工作室",
+          "category": "角色扮演",
+          "subcategory": "国风、修仙、国漫"
+        },
+        {
+          "rank": 23,
+          "name": "辉光之城1907",
+          "publisher": "薄雾集",
+          "category": "模拟经营",
+          "subcategory": "收集、模拟"
+        },
+        {
+          "rank": 25,
+          "name": "绿梦：时空之声",
+          "publisher": "绿梦工作室",
+          "category": "二次元",
+          "subcategory": "冒险、3D、策略、美少女、横版、科幻、角色扮演、动作"
+        },
+        {
+          "rank": 26,
+          "name": "雾海之下",
+          "publisher": "网易游戏",
+          "category": "多人联机",
+          "subcategory": "搜打撤、冒险"
+        },
+        {
+          "rank": 27,
+          "name": "对峙：交锋时刻",
+          "publisher": "梧桐",
+          "category": "射击",
+          "subcategory": "FPS、竞技、动作"
+        },
+        {
+          "rank": 28,
+          "name": "代号：Closet",
+          "publisher": "船岛游戏",
+          "category": "模拟"
+        },
+        {
+          "rank": 29,
+          "name": "剑隐侠踪录",
+          "publisher": "快哉风",
+          "category": "武侠",
+          "subcategory": "剧情、策略、回合制、国风、文字、水墨、角色扮演"
+        },
+        {
+          "rank": 30,
+          "name": "约定之日",
+          "publisher": "上海星烁互娱",
+          "category": "美少女",
+          "subcategory": "二次元、卡牌"
+        },
+        {
+          "rank": 31,
+          "name": "挖穿地球",
+          "publisher": "地牢工作室",
+          "category": "策略",
+          "subcategory": "放置、像素、休闲"
+        },
+        {
+          "rank": 32,
+          "name": "幻想九霄",
+          "publisher": "幻想九霄工作室",
+          "category": "角色扮演",
+          "subcategory": "放置、修仙"
+        },
+        {
+          "rank": 33,
+          "name": "归环",
+          "publisher": "萨罗斯工作室",
+          "category": "剧情",
+          "subcategory": "二次元、角色扮演"
+        },
+        {
+          "rank": 34,
+          "name": "仙境传说3",
+          "publisher": "哔哩哔哩游戏",
+          "category": "MMORPG",
+          "subcategory": "冒险、多人联机、角色扮演"
+        },
+        {
+          "rank": 35,
+          "name": "头号禁区",
+          "publisher": "沐瞳",
+          "category": "多人联机",
+          "subcategory": "搜打撤、竞技、MOBA、生存、动作、角色扮演"
+        },
+        {
+          "rank": 36,
+          "name": "代号：梦核（TapTap测试版）",
+          "publisher": "三点饮茶工作室",
+          "category": "冒险",
+          "subcategory": "多人联机、恐怖、休闲"
+        },
+        {
+          "rank": 37,
+          "name": "苏丹的游戏",
+          "publisher": "Game Tree",
+          "category": "模拟",
+          "subcategory": "剧情、角色扮演"
+        },
+        {
+          "rank": 38,
+          "name": "甄嬛传",
+          "publisher": "雷霆游戏",
+          "category": "模拟",
+          "subcategory": "休闲、模拟经营、养成、换装、放置"
+        },
+        {
+          "rank": 40,
+          "name": "代号：神不言",
+          "publisher": "祖龙",
+          "category": "恋爱",
+          "subcategory": "乙女、都市、女性向、养成、剧情、3D、模拟"
+        },
+        {
+          "rank": 41,
+          "name": "三国志：王道天下",
+          "publisher": "哔哩哔哩游戏",
+          "category": "SLG",
+          "subcategory": "三国、3D、策略"
+        },
+        {
+          "rank": 44,
+          "name": "塔塔冒险队",
+          "publisher": "莉莉丝游戏",
+          "category": "宠物",
+          "subcategory": "收集、塔防、策略、卡牌、养成、竖屏、放置"
+        },
+        {
+          "rank": 47,
+          "name": "望月",
+          "publisher": "望月游戏研究院",
+          "category": "角色扮演",
+          "subcategory": "开放世界、抓宠、高自由度、都市、建造、二次元、动作"
+        },
+        {
+          "rank": 48,
+          "name": "光阴之外",
+          "publisher": "BQ Game",
+          "category": "修仙",
+          "subcategory": "国风、养成、卡牌、模拟"
+        },
+        {
+          "rank": 49,
+          "name": "集合！浆果镇",
+          "publisher": "朝夕光年",
+          "category": "角色扮演",
+          "subcategory": "治愈、种田、建造、模拟、社交、派对游戏、多人联机、休闲"
+        },
+        {
+          "rank": 50,
+          "name": "诡秘之主：愚者",
+          "publisher": "祖龙游戏",
+          "category": "诡秘之主",
+          "subcategory": "卡牌、二次元、角色扮演、剧情"
         }
       ],
-      "new_publishers": [],
+      "new_publishers": [
+        {
+          "rank": 42,
+          "name": "我叫MT：崛起",
+          "publisher": "兔飞梦鲸工作室",
+          "category": "卡牌",
+          "subcategory": "放置、冒险、策略、魔幻、回合制"
+        },
+        {
+          "rank": 43,
+          "name": "沉默的蟋蟀",
+          "publisher": "蓬莱飞鱼工作室",
+          "category": "策略",
+          "subcategory": "养成、Roguelike、模拟、收集、独立游戏"
+        },
+        {
+          "rank": 45,
+          "name": "破晓之前",
+          "publisher": "薄荷兔游戏",
+          "category": "乙女",
+          "subcategory": "剧情、恋爱、养成、女性向、卡牌"
+        },
+        {
+          "rank": 46,
+          "name": "我在海上有小岛",
+          "publisher": "远山见月工作室",
+          "category": "模拟经营",
+          "subcategory": "Roguelike、放置、策略"
+        }
+      ],
       "totals": {
-        "new_to_board": 0,
-        "returning": 1,
-        "new_publishers": 0
+        "new_to_board": 4,
+        "returning": 26,
+        "new_publishers": 4
       },
-      "new_to_board": []
+      "new_to_board": [
+        {
+          "rank": 42,
+          "name": "我叫MT：崛起",
+          "publisher": "兔飞梦鲸工作室",
+          "category": "卡牌",
+          "subcategory": "放置、冒险、策略、魔幻、回合制"
+        },
+        {
+          "rank": 43,
+          "name": "沉默的蟋蟀",
+          "publisher": "蓬莱飞鱼工作室",
+          "category": "策略",
+          "subcategory": "养成、Roguelike、模拟、收集、独立游戏"
+        },
+        {
+          "rank": 45,
+          "name": "破晓之前",
+          "publisher": "薄荷兔游戏",
+          "category": "乙女",
+          "subcategory": "剧情、恋爱、养成、女性向、卡牌"
+        },
+        {
+          "rank": 46,
+          "name": "我在海上有小岛",
+          "publisher": "远山见月工作室",
+          "category": "模拟经营",
+          "subcategory": "Roguelike、放置、策略"
+        }
+      ]
     },
     "ios/美区免费榜": {
       "platform": "ios",
@@ -7763,7 +8024,7 @@
           "category": "游戏",
           "app_id": "6794973004",
           "url": "https://apps.apple.com/cn/app/%E4%BB%99%E9%80%86-%E6%9C%AC%E5%B0%8A-%E5%AE%98%E6%96%B9%E6%AD%A3%E7%89%88%E6%8E%88%E6%9D%83%E6%89%8B%E6%B8%B8/id6794973004?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/43/55/71435576-9517-0a19-d7f8-551f9d471017/AppIcon_24-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/a7/f0/efa7f0d5-955e-9bac-ad83-4320c0232784/AppIcon_28-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
           "slogan": "【腾讯动漫《仙逆》官方正版授权】\n这一次，你就是王林本尊！\n踏天之道，始于足下。你将从炼气期微末之境起步，亲历化凡悟道，从赵国修真界到洞府界，一路杀至问鼎巅峰！"
         },
         {
@@ -7818,7 +8079,7 @@
           "category": "游戏",
           "app_id": "6794973004",
           "url": "https://apps.apple.com/cn/app/%E4%BB%99%E9%80%86-%E6%9C%AC%E5%B0%8A-%E5%AE%98%E6%96%B9%E6%AD%A3%E7%89%88%E6%8E%88%E6%9D%83%E6%89%8B%E6%B8%B8/id6794973004?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/43/55/71435576-9517-0a19-d7f8-551f9d471017/AppIcon_24-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/a7/f0/efa7f0d5-955e-9bac-ad83-4320c0232784/AppIcon_28-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
           "slogan": "【腾讯动漫《仙逆》官方正版授权】\n这一次，你就是王林本尊！\n踏天之道，始于足下。你将从炼气期微末之境起步，亲历化凡悟道，从赵国修真界到洞府界，一路杀至问鼎巅峰！"
         },
         {
@@ -7845,7 +8106,7 @@
           "category": "游戏",
           "app_id": "6794973004",
           "url": "https://apps.apple.com/cn/app/%E4%BB%99%E9%80%86-%E6%9C%AC%E5%B0%8A-%E5%AE%98%E6%96%B9%E6%AD%A3%E7%89%88%E6%8E%88%E6%9D%83%E6%89%8B%E6%B8%B8/id6794973004?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/43/55/71435576-9517-0a19-d7f8-551f9d471017/AppIcon_24-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/a7/f0/efa7f0d5-955e-9bac-ad83-4320c0232784/AppIcon_28-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
           "slogan": "【腾讯动漫《仙逆》官方正版授权】\n这一次，你就是王林本尊！\n踏天之道，始于足下。你将从炼气期微末之境起步，亲历化凡悟道，从赵国修真界到洞府界，一路杀至问鼎巅峰！"
         },
         {
@@ -8044,16 +8305,61 @@
       "platform": "android",
       "platform_label": "Android",
       "board_label": "美区免费榜",
-      "first_anywhere": [],
+      "first_anywhere": [
+        {
+          "rank": 64,
+          "name": "Gugu Gaga: Keyboard Escape",
+          "publisher": "Goldoint",
+          "category": "Games",
+          "package": "com.metax.obby.escape.run"
+        },
+        {
+          "rank": 95,
+          "name": "Last Shelter: War Z",
+          "publisher": "LAST ORIGIN STUDIO LIMITED",
+          "category": "Games",
+          "package": "com.more.lastshelter.gp"
+        }
+      ],
       "first_on_board": [],
       "returning": [],
-      "new_publishers": [],
+      "new_publishers": [
+        {
+          "rank": 64,
+          "name": "Gugu Gaga: Keyboard Escape",
+          "publisher": "Goldoint",
+          "category": "Games",
+          "package": "com.metax.obby.escape.run"
+        },
+        {
+          "rank": 95,
+          "name": "Last Shelter: War Z",
+          "publisher": "LAST ORIGIN STUDIO LIMITED",
+          "category": "Games",
+          "package": "com.more.lastshelter.gp"
+        }
+      ],
       "totals": {
-        "new_to_board": 0,
+        "new_to_board": 2,
         "returning": 0,
-        "new_publishers": 0
+        "new_publishers": 2
       },
-      "new_to_board": []
+      "new_to_board": [
+        {
+          "rank": 64,
+          "name": "Gugu Gaga: Keyboard Escape",
+          "publisher": "Goldoint",
+          "category": "Games",
+          "package": "com.metax.obby.escape.run"
+        },
+        {
+          "rank": 95,
+          "name": "Last Shelter: War Z",
+          "publisher": "LAST ORIGIN STUDIO LIMITED",
+          "category": "Games",
+          "package": "com.more.lastshelter.gp"
+        }
+      ]
     }
   }
 }

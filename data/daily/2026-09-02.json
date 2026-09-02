@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-02T02:11:09",
+  "scraped_at": "2026-09-02T03:38:01",
   "period": "日榜",
   "logged_in": true,
   "top_n_target": 100,
@@ -38,7 +38,7 @@
               "name": "腾讯欢乐斗地主",
               "category": "棋牌",
               "category_rank": 1,
-              "subcategory": "牌类棋牌传统棋牌",
+              "subcategory": "牌类传统棋牌棋牌",
               "slogan": "",
               "publisher": "深圳市腾讯计算机系统有限公司",
               "change": "- 稳定",
@@ -214,7 +214,7 @@
               "name": "天天斗地主真人版",
               "category": "棋牌",
               "category_rank": 2,
-              "subcategory": "牌类棋牌传统棋牌",
+              "subcategory": "牌类传统棋牌棋牌",
               "slogan": "",
               "publisher": "深圳市禅游科技股份有限公司",
               "change": "- 稳定",
@@ -236,7 +236,7 @@
               "name": "天天象棋",
               "category": "棋牌",
               "category_rank": 3,
-              "subcategory": "棋类传统棋牌棋牌",
+              "subcategory": "棋类棋牌传统棋牌",
               "slogan": "",
               "publisher": "深圳市腾讯天游科技有限公司",
               "change": "- 稳定",
@@ -247,7 +247,7 @@
               "name": "跳一跳",
               "category": "休闲",
               "category_rank": 17,
-              "subcategory": "益智休闲超休闲",
+              "subcategory": "益智超休闲休闲",
               "slogan": "",
               "publisher": "深圳市腾讯计算机系统有限公司",
               "change": "- 稳定",
@@ -1297,7 +1297,7 @@
               "name": "腾讯欢乐斗地主",
               "category": "棋牌",
               "category_rank": 1,
-              "subcategory": "牌类传统棋牌棋牌",
+              "subcategory": "牌类棋牌传统棋牌",
               "slogan": "",
               "publisher": "深圳市腾讯计算机系统有限公司",
               "change": "- 稳定",
@@ -1550,7 +1550,7 @@
               "name": "海盗来了",
               "category": "休闲",
               "category_rank": 18,
-              "subcategory": "模拟经营强社交类模拟",
+              "subcategory": "模拟经营模拟强社交类",
               "slogan": "",
               "publisher": "北京豪腾创想科技有限公司",
               "change": "- 稳定",
@@ -1605,7 +1605,7 @@
               "name": "雀神广东麻将",
               "category": "棋牌",
               "category_rank": 2,
-              "subcategory": "牌类棋牌传统棋牌",
+              "subcategory": "牌类传统棋牌棋牌",
               "slogan": "",
               "publisher": "上海锋兮网络科技有限公司",
               "change": "- 稳定",
@@ -1682,7 +1682,7 @@
               "name": "英雄杀",
               "category": "角色",
               "category_rank": 22,
-              "subcategory": "卡牌卡牌竞技卡牌",
+              "subcategory": "卡牌卡牌卡牌竞技",
               "slogan": "",
               "publisher": "深圳市腾讯计算机系统有限公司",
               "change": "- 稳定",
@@ -2721,7 +2721,7 @@
               "name": "天天爱掼蛋",
               "category": "棋牌",
               "category_rank": 3,
-              "subcategory": "牌类传统棋牌棋牌",
+              "subcategory": "牌类棋牌传统棋牌",
               "slogan": "",
               "publisher": "南京呆萌猫网络科技有限公司",
               "change": "2",
@@ -2743,7 +2743,7 @@
               "name": "天天斗地主真人版",
               "category": "棋牌",
               "category_rank": 4,
-              "subcategory": "牌类传统棋牌棋牌",
+              "subcategory": "牌类棋牌传统棋牌",
               "slogan": "",
               "publisher": "深圳市禅游科技股份有限公司",
               "change": "3",
@@ -6681,17 +6681,17 @@
             },
             {
               "rank": 5,
-              "name": "伊莫",
-              "publisher": "爪印工作室",
-              "category": "抓宠",
-              "subcategory": "冒险、开放世界、高画质、宠物、角色扮演"
-            },
-            {
-              "rank": 6,
               "name": "白银之城",
               "publisher": "乐元素",
               "category": "二次元",
               "subcategory": "侦探、ARPG、开放世界、动作、角色扮演"
+            },
+            {
+              "rank": 6,
+              "name": "伊莫",
+              "publisher": "爪印工作室",
+              "category": "抓宠",
+              "subcategory": "冒险、开放世界、高画质、宠物、角色扮演"
             },
             {
               "rank": 7,
@@ -6720,6 +6720,284 @@
               "publisher": "乐元素",
               "category": "偶像",
               "subcategory": "女性向、二次元"
+            },
+            {
+              "rank": 11,
+              "name": "闪耀吧！噜咪",
+              "publisher": "哔哩哔哩游戏",
+              "category": "抓宠",
+              "subcategory": "卡牌、放置、冒险、角色扮演、养成、模拟经营、休闲"
+            },
+            {
+              "rank": 12,
+              "name": "追逐卡蕾多",
+              "publisher": "腾讯",
+              "category": "摩托车",
+              "subcategory": "美少女、二次元"
+            },
+            {
+              "rank": 13,
+              "name": "伯吉的温馨厨房",
+              "publisher": "萝卜游戏工作室",
+              "category": "放置",
+              "subcategory": "模拟经营、休闲"
+            },
+            {
+              "rank": 14,
+              "name": "蓝色星原：旅谣",
+              "publisher": "蛮奈网络",
+              "category": "角色扮演",
+              "subcategory": "二次元、开放世界、冒险、动作、养成、收集"
+            },
+            {
+              "rank": 15,
+              "name": "七界梦谭",
+              "publisher": "飞光阁工作室",
+              "category": "角色扮演",
+              "subcategory": "修仙、高画质、MMORPG、开放世界、国风、3D"
+            },
+            {
+              "rank": 16,
+              "name": "巫奇魔法学院 Witchbrook",
+              "category": "模拟",
+              "subcategory": "角色扮演、多人联机、合作、沙盒、工艺、治愈、捏脸、种田、可爱、支持Steam控制器、支持手柄、支持Steam家庭共享、上帝视角、恋爱、钓鱼、像素、开放世界、剧情"
+            },
+            {
+              "rank": 17,
+              "name": "龙岛异兽起源",
+              "publisher": "微乐游戏",
+              "category": "生存",
+              "subcategory": "开放世界、冒险、恐龙"
+            },
+            {
+              "rank": 18,
+              "name": "变形金刚：新纪元",
+              "publisher": "Wanda Game",
+              "category": "策略",
+              "subcategory": "剧情、收集"
+            },
+            {
+              "rank": 19,
+              "name": "星眠",
+              "publisher": "北京沐言星河科技有限公司",
+              "category": "乙女",
+              "subcategory": "女性向、模拟经营"
+            },
+            {
+              "rank": 20,
+              "name": "篮球少女：飞跃巅峰",
+              "publisher": "广州灵犀互动娱乐有限公司",
+              "category": "养成",
+              "subcategory": "二次元、篮球、美少女、模拟、卡牌、日系、体育"
+            },
+            {
+              "rank": 21,
+              "name": "仙逆：本尊",
+              "publisher": "智玩游戏工作室",
+              "category": "角色扮演",
+              "subcategory": "国风、修仙、国漫"
+            },
+            {
+              "rank": 22,
+              "name": "诡影藏锋",
+              "publisher": "网易游戏",
+              "category": "搜打撤",
+              "subcategory": "中式恐怖、高画质、PVP、动作"
+            },
+            {
+              "rank": 23,
+              "name": "辉光之城1907",
+              "publisher": "薄雾集",
+              "category": "模拟经营",
+              "subcategory": "收集、模拟"
+            },
+            {
+              "rank": 24,
+              "name": "霓虹深渊2",
+              "publisher": "Veewo Games",
+              "category": "Roguelike",
+              "subcategory": "多人联机、赛博朋克、Steam移植、地牢、像素、弹幕、单机、横版、动作、冒险、合作、搞笑、平台跳跃、弹幕射击、射击、刷宝、支持Steam控制器、支持手柄、支持Steam家庭共享"
+            },
+            {
+              "rank": 25,
+              "name": "绿梦：时空之声",
+              "publisher": "绿梦工作室",
+              "category": "二次元",
+              "subcategory": "冒险、3D、策略、美少女、横版、科幻、角色扮演、动作"
+            },
+            {
+              "rank": 26,
+              "name": "雾海之下",
+              "publisher": "网易游戏",
+              "category": "多人联机",
+              "subcategory": "搜打撤、冒险"
+            },
+            {
+              "rank": 27,
+              "name": "对峙：交锋时刻",
+              "publisher": "梧桐",
+              "category": "射击",
+              "subcategory": "FPS、竞技、动作"
+            },
+            {
+              "rank": 28,
+              "name": "代号：Closet",
+              "publisher": "船岛游戏",
+              "category": "模拟"
+            },
+            {
+              "rank": 29,
+              "name": "剑隐侠踪录",
+              "publisher": "快哉风",
+              "category": "武侠",
+              "subcategory": "剧情、策略、回合制、国风、文字、水墨、角色扮演"
+            },
+            {
+              "rank": 30,
+              "name": "约定之日",
+              "publisher": "上海星烁互娱",
+              "category": "美少女",
+              "subcategory": "二次元、卡牌"
+            },
+            {
+              "rank": 31,
+              "name": "挖穿地球",
+              "publisher": "地牢工作室",
+              "category": "策略",
+              "subcategory": "放置、像素、休闲"
+            },
+            {
+              "rank": 32,
+              "name": "幻想九霄",
+              "publisher": "幻想九霄工作室",
+              "category": "角色扮演",
+              "subcategory": "放置、修仙"
+            },
+            {
+              "rank": 33,
+              "name": "归环",
+              "publisher": "萨罗斯工作室",
+              "category": "剧情",
+              "subcategory": "二次元、角色扮演"
+            },
+            {
+              "rank": 34,
+              "name": "仙境传说3",
+              "publisher": "哔哩哔哩游戏",
+              "category": "MMORPG",
+              "subcategory": "冒险、多人联机、角色扮演"
+            },
+            {
+              "rank": 35,
+              "name": "头号禁区",
+              "publisher": "沐瞳",
+              "category": "多人联机",
+              "subcategory": "搜打撤、竞技、MOBA、生存、动作、角色扮演"
+            },
+            {
+              "rank": 36,
+              "name": "代号：梦核（TapTap测试版）",
+              "publisher": "三点饮茶工作室",
+              "category": "冒险",
+              "subcategory": "多人联机、恐怖、休闲"
+            },
+            {
+              "rank": 37,
+              "name": "苏丹的游戏",
+              "publisher": "Game Tree",
+              "category": "模拟",
+              "subcategory": "剧情、角色扮演"
+            },
+            {
+              "rank": 38,
+              "name": "甄嬛传",
+              "publisher": "雷霆游戏",
+              "category": "模拟",
+              "subcategory": "休闲、模拟经营、养成、换装、放置"
+            },
+            {
+              "rank": 39,
+              "name": "小猫咪大城市",
+              "publisher": "嬉皮狗工作室",
+              "category": "模拟",
+              "subcategory": "休闲、冒险、猫、可爱、治愈、探索、沙盒、搞笑、3D、卡通、单人、支持Steam控制器、支持手柄、支持Steam家庭共享、开放世界、平台跳跃、剧情"
+            },
+            {
+              "rank": 40,
+              "name": "代号：神不言",
+              "publisher": "祖龙",
+              "category": "恋爱",
+              "subcategory": "乙女、都市、女性向、养成、剧情、3D、模拟"
+            },
+            {
+              "rank": 41,
+              "name": "三国志：王道天下",
+              "publisher": "哔哩哔哩游戏",
+              "category": "SLG",
+              "subcategory": "三国、3D、策略"
+            },
+            {
+              "rank": 42,
+              "name": "我叫MT：崛起",
+              "publisher": "兔飞梦鲸工作室",
+              "category": "卡牌",
+              "subcategory": "放置、冒险、策略、魔幻、回合制"
+            },
+            {
+              "rank": 43,
+              "name": "沉默的蟋蟀",
+              "publisher": "蓬莱飞鱼工作室",
+              "category": "策略",
+              "subcategory": "养成、Roguelike、模拟、收集、独立游戏"
+            },
+            {
+              "rank": 44,
+              "name": "塔塔冒险队",
+              "publisher": "莉莉丝游戏",
+              "category": "宠物",
+              "subcategory": "收集、塔防、策略、卡牌、养成、竖屏、放置"
+            },
+            {
+              "rank": 45,
+              "name": "破晓之前",
+              "publisher": "薄荷兔游戏",
+              "category": "乙女",
+              "subcategory": "剧情、恋爱、养成、女性向、卡牌"
+            },
+            {
+              "rank": 46,
+              "name": "我在海上有小岛",
+              "publisher": "远山见月工作室",
+              "category": "模拟经营",
+              "subcategory": "Roguelike、放置、策略"
+            },
+            {
+              "rank": 47,
+              "name": "望月",
+              "publisher": "望月游戏研究院",
+              "category": "角色扮演",
+              "subcategory": "开放世界、抓宠、高自由度、都市、建造、二次元、动作"
+            },
+            {
+              "rank": 48,
+              "name": "光阴之外",
+              "publisher": "BQ Game",
+              "category": "修仙",
+              "subcategory": "国风、养成、卡牌、模拟"
+            },
+            {
+              "rank": 49,
+              "name": "集合！浆果镇",
+              "publisher": "朝夕光年",
+              "category": "角色扮演",
+              "subcategory": "治愈、种田、建造、模拟、社交、派对游戏、多人联机、休闲"
+            },
+            {
+              "rank": 50,
+              "name": "诡秘之主：愚者",
+              "publisher": "祖龙游戏",
+              "category": "诡秘之主",
+              "subcategory": "卡牌、二次元、角色扮演、剧情"
             }
           ]
         }
@@ -7178,7 +7456,7 @@
               "category": "Games",
               "app_id": "1638139403",
               "url": "https://apps.apple.com/us/app/block-crush/id1638139403?uo=2",
-              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/09/b4/2309b46a-4f58-21b2-f39b-83c1f7ff9548/AppIcon-0-0-1x_U007epad-0-11-0-sRGB-85-220.png/100x100bb.png",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/28/d1/a228d10d-fef5-7728-5d82-146f2774c176/AppIcon-0-0-1x_U007epad-0-11-0-sRGB-85-220.png/100x100bb.png",
               "slogan": "Block Crush is a classic block puzzle game designed around clear boards, simple "
             },
             {
@@ -7753,7 +8031,7 @@
               "category": "游戏",
               "app_id": "6794973004",
               "url": "https://apps.apple.com/cn/app/%E4%BB%99%E9%80%86-%E6%9C%AC%E5%B0%8A-%E5%AE%98%E6%96%B9%E6%AD%A3%E7%89%88%E6%8E%88%E6%9D%83%E6%89%8B%E6%B8%B8/id6794973004?uo=2",
-              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/43/55/71435576-9517-0a19-d7f8-551f9d471017/AppIcon_24-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/a7/f0/efa7f0d5-955e-9bac-ad83-4320c0232784/AppIcon_28-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
               "slogan": "【腾讯动漫《仙逆》官方正版授权】\n这一次，你就是王林本尊！\n踏天之道，始于足下。你将从炼气期微末之境起步，亲历化凡悟道，从赵国修真界到洞府界，一路杀至问鼎巅峰！"
             },
             {
@@ -9128,7 +9406,7 @@
               "category": "ゲーム",
               "app_id": "1638139403",
               "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%82%AF%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-block-crush/id1638139403?uo=2",
-              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/09/b4/2309b46a-4f58-21b2-f39b-83c1f7ff9548/AppIcon-0-0-1x_U007epad-0-11-0-sRGB-85-220.png/100x100bb.png",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/28/d1/a228d10d-fef5-7728-5d82-146f2774c176/AppIcon-0-0-1x_U007epad-0-11-0-sRGB-85-220.png/100x100bb.png",
               "slogan": "木のぬくもりを感じるブロックパズル Block Crush の世界へようこそ。\r\nやさしい木製ブロックで楽しむリラックスパズルは、論理・集中・創造性をひとつにま"
             },
             {
@@ -9578,7 +9856,7 @@
               "category": "ゲーム",
               "app_id": "6747736697",
               "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%B9%E3%83%9E%E3%83%83%E3%82%B7%E3%83%A5%E3%82%B0%E3%83%AD%E3%82%A6-%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A8%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%88rpg/id6747736697?uo=2",
-              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/44/d4/6c44d45e-1c59-daf3-938b-8b2181e4dca6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/a2/61/99a26144-5ec2-ff05-d60c-0902c74a0d07/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
               "slogan": "ドラゴンクエスト×直感＆爽快フィールドバトル！\n\nローグライトRPGで始まる新たなる冒険の旅へ\n\n直感操作でモンスターの群れを斬ってかわして、必殺技で一気に吹き"
             },
             {
@@ -9753,17 +10031,17 @@
           "rows": [
             {
               "rank": 1,
-              "name": "Roblox",
-              "publisher": "Roblox Corporation",
-              "category": "Games",
-              "package": "com.roblox.client"
-            },
-            {
-              "rank": 2,
               "name": "Meowdoku: Brain Puzzle Games",
               "publisher": "Oakever Games",
               "category": "Games",
               "package": "com.oakever.meowdoku"
+            },
+            {
+              "rank": 2,
+              "name": "Roblox",
+              "publisher": "Roblox Corporation",
+              "category": "Games",
+              "package": "com.roblox.client"
             },
             {
               "rank": 3,
@@ -9816,10 +10094,10 @@
             },
             {
               "rank": 10,
-              "name": "Pocket Sort: Coin Merge Puzzle",
-              "publisher": "SayGames Ltd",
+              "name": "Block Craft 3D：Building Game",
+              "publisher": "Wildlife Studios",
               "category": "Games",
-              "package": "com.pocket.sort.coin.puzzle.game"
+              "package": "com.fungames.blockcraft"
             },
             {
               "rank": 11,
@@ -9830,10 +10108,10 @@
             },
             {
               "rank": 12,
-              "name": "Block Craft 3D：Building Game",
-              "publisher": "Wildlife Studios",
+              "name": "Pocket Sort: Coin Merge Puzzle",
+              "publisher": "SayGames Ltd",
               "category": "Games",
-              "package": "com.fungames.blockcraft"
+              "package": "com.pocket.sort.coin.puzzle.game"
             },
             {
               "rank": 13,
@@ -9858,10 +10136,10 @@
             },
             {
               "rank": 16,
-              "name": "Fruit Ninja®",
-              "publisher": "Halfbrick Studios",
+              "name": "Bus Traffic Fever!",
+              "publisher": "GOODROID,Inc.",
               "category": "Games",
-              "package": "com.halfbrick.fruitninjafree"
+              "package": "jp.co.goodroid.hyper.busflow"
             },
             {
               "rank": 17,
@@ -9872,10 +10150,10 @@
             },
             {
               "rank": 18,
-              "name": "Township",
-              "publisher": "Playrix",
+              "name": "Fruit Ninja®",
+              "publisher": "Halfbrick Studios",
               "category": "Games",
-              "package": "com.playrix.township"
+              "package": "com.halfbrick.fruitninjafree"
             },
             {
               "rank": 19,
@@ -9886,10 +10164,10 @@
             },
             {
               "rank": 20,
-              "name": "Bus Traffic Fever!",
-              "publisher": "GOODROID,Inc.",
+              "name": "Township",
+              "publisher": "Playrix",
               "category": "Games",
-              "package": "jp.co.goodroid.hyper.busflow"
+              "package": "com.playrix.township"
             },
             {
               "rank": 21,
@@ -9900,31 +10178,31 @@
             },
             {
               "rank": 22,
-              "name": "Slow Mo Strike: Knives in Time",
-              "publisher": "KAYAC Inc.",
-              "category": "Games",
-              "package": "com.kayac.slow_mo_strike"
-            },
-            {
-              "rank": 23,
               "name": "Gossip Harbor: Merge & Story",
               "publisher": "Microfun Limited",
               "category": "Games",
               "package": "com.mergegames.gossipharbor"
             },
             {
-              "rank": 24,
-              "name": "Smash Land!",
-              "publisher": "Flow Games A.S.",
+              "rank": 23,
+              "name": "Slow Mo Strike: Knives in Time",
+              "publisher": "KAYAC Inc.",
               "category": "Games",
-              "package": "com.flow.smashparty"
+              "package": "com.kayac.slow_mo_strike"
             },
             {
-              "rank": 25,
+              "rank": 24,
               "name": "Mob Control",
               "publisher": "VOODOO",
               "category": "Games",
               "package": "com.vincentb.MobControl"
+            },
+            {
+              "rank": 25,
+              "name": "Smash Land!",
+              "publisher": "Flow Games A.S.",
+              "category": "Games",
+              "package": "com.flow.smashparty"
             },
             {
               "rank": 26,
@@ -9963,59 +10241,59 @@
             },
             {
               "rank": 31,
-              "name": "Cube Land Puzzle Game",
-              "publisher": "Rotatelab Yazilim ve Bilisim A.S.",
-              "category": "Games",
-              "package": "com.rotatelab.cubeblast"
-            },
-            {
-              "rank": 32,
               "name": "Idle Cat Gunner: Shooter RPG",
               "publisher": "NEPTUNE(TREEPLLA)",
               "category": "Games",
               "package": "com.Chodun.CatGunner"
             },
             {
-              "rank": 33,
-              "name": "Woodoku Blast",
-              "publisher": "Tripledot Studios Limited",
+              "rank": 32,
+              "name": "Cube Land Puzzle Game",
+              "publisher": "Rotatelab Yazilim ve Bilisim A.S.",
               "category": "Games",
-              "package": "com.tripledot.blockbash"
+              "package": "com.rotatelab.cubeblast"
             },
             {
-              "rank": 34,
+              "rank": 33,
               "name": "Color Block: Combo Blast",
               "publisher": "Ivy",
               "category": "Games",
               "package": "com.puzzlegames.puzzlebrickslegend"
             },
             {
+              "rank": 34,
+              "name": "Woodoku Blast",
+              "publisher": "Tripledot Studios Limited",
+              "category": "Games",
+              "package": "com.tripledot.blockbash"
+            },
+            {
               "rank": 35,
-              "name": "Yarn Loop",
-              "publisher": "Combo Game",
-              "category": "Games",
-              "package": "com.combo.yarnflow"
-            },
-            {
-              "rank": 36,
-              "name": "Tap Tile!",
-              "publisher": "Nebula  Studio",
-              "category": "Games",
-              "package": "com.nebula.tiles"
-            },
-            {
-              "rank": 37,
               "name": "Bus Fever! Car Jam Escape",
               "publisher": "Lumi Games",
               "category": "Games",
               "package": "gridplus.busjam.carpuzzle"
             },
             {
-              "rank": 38,
-              "name": "Melon Sandbox",
-              "publisher": "playducky.com",
+              "rank": 36,
+              "name": "Warline: Sniper Strike",
+              "publisher": "Powerfantasy HK Limited",
               "category": "Games",
-              "package": "com.studio27.MelonPlayground"
+              "package": "com.farlightgames.warline.gp.global"
+            },
+            {
+              "rank": 37,
+              "name": "Tap Tile!",
+              "publisher": "Nebula  Studio",
+              "category": "Games",
+              "package": "com.nebula.tiles"
+            },
+            {
+              "rank": 38,
+              "name": "Yarn Loop",
+              "publisher": "Combo Game",
+              "category": "Games",
+              "package": "com.combo.yarnflow"
             },
             {
               "rank": 39,
@@ -10026,45 +10304,45 @@
             },
             {
               "rank": 40,
-              "name": "Warline: Sniper Strike",
-              "publisher": "Powerfantasy HK Limited",
-              "category": "Games",
-              "package": "com.farlightgames.warline.gp.global"
-            },
-            {
-              "rank": 41,
-              "name": "Happy Color®: Color by Number",
-              "publisher": "X-FLOW",
-              "category": "Games",
-              "package": "com.pixel.art.coloring.color.number"
-            },
-            {
-              "rank": 42,
               "name": "Jigsawcard Solitaire Puzzle",
               "publisher": "Oakever Games",
               "category": "Games",
               "package": "com.oakever.jigsawcard"
             },
             {
-              "rank": 43,
-              "name": "Among Us",
-              "publisher": "Innersloth LLC",
+              "rank": 41,
+              "name": "Melon Sandbox",
+              "publisher": "playducky.com",
               "category": "Games",
-              "package": "com.innersloth.spacemafia"
+              "package": "com.studio27.MelonPlayground"
             },
             {
-              "rank": 44,
+              "rank": 42,
+              "name": "Happy Color®: Color by Number",
+              "publisher": "X-FLOW",
+              "category": "Games",
+              "package": "com.pixel.art.coloring.color.number"
+            },
+            {
+              "rank": 43,
               "name": "Paper.io 2",
               "publisher": "VOODOO",
               "category": "Games",
               "package": "io.voodoo.paper2"
             },
             {
-              "rank": 45,
-              "name": "You Know: Associations",
-              "publisher": "Tripledot Studios Limited",
+              "rank": 44,
+              "name": "Among Us",
+              "publisher": "Innersloth LLC",
               "category": "Games",
-              "package": "com.tripledot.cardassociation"
+              "package": "com.innersloth.spacemafia"
+            },
+            {
+              "rank": 45,
+              "name": "Royal Kingdom",
+              "publisher": "Dream Games, Ltd.",
+              "category": "Games",
+              "package": "com.dreamgames.royalkingdom"
             },
             {
               "rank": 46,
@@ -10075,45 +10353,45 @@
             },
             {
               "rank": 47,
-              "name": "Royal Kingdom",
-              "publisher": "Dream Games, Ltd.",
-              "category": "Games",
-              "package": "com.dreamgames.royalkingdom"
-            },
-            {
-              "rank": 48,
               "name": "Royal Match",
               "publisher": "Dream Games, Ltd.",
               "category": "Games",
               "package": "com.dreamgames.royalmatch"
             },
             {
-              "rank": 49,
-              "name": "Toca Boca World",
-              "publisher": "Toca Boca",
+              "rank": 48,
+              "name": "Candy Crush Saga",
+              "publisher": "King",
               "category": "Games",
-              "package": "com.tocaboca.tocalifeworld"
+              "package": "com.king.candycrushsaga"
             },
             {
-              "rank": 50,
+              "rank": 49,
               "name": "Zen Word® - Relax Puzzle Game",
               "publisher": "Oakever Games",
               "category": "Games",
               "package": "kidultlovin.word.zen"
             },
             {
-              "rank": 51,
-              "name": "Tile Explorer - Triple Match",
-              "publisher": "Oakever Games",
+              "rank": 50,
+              "name": "Toca Boca World",
+              "publisher": "Toca Boca",
               "category": "Games",
-              "package": "com.oakever.tiletrip"
+              "package": "com.tocaboca.tocalifeworld"
             },
             {
-              "rank": 52,
+              "rank": 51,
               "name": "Hole.io",
               "publisher": "VOODOO",
               "category": "Games",
               "package": "io.voodoo.holeio"
+            },
+            {
+              "rank": 52,
+              "name": "Tile Explorer - Triple Match",
+              "publisher": "Oakever Games",
+              "category": "Games",
+              "package": "com.oakever.tiletrip"
             },
             {
               "rank": 53,
@@ -10124,17 +10402,17 @@
             },
             {
               "rank": 54,
+              "name": "You Know: Associations",
+              "publisher": "Tripledot Studios Limited",
+              "category": "Games",
+              "package": "com.tripledot.cardassociation"
+            },
+            {
+              "rank": 55,
               "name": "Jigsaw Drop: Solitaire Puzzle",
               "publisher": "Runyou",
               "category": "Games",
               "package": "jigsaw.solitaire.match.games.free"
-            },
-            {
-              "rank": 55,
-              "name": "Candy Crush Saga",
-              "publisher": "King",
-              "category": "Games",
-              "package": "com.king.candycrushsaga"
             },
             {
               "rank": 56,
@@ -10152,24 +10430,24 @@
             },
             {
               "rank": 58,
+              "name": "Kick the Buddy－Fun Action Game",
+              "publisher": "Playgendary Limited",
+              "category": "Games",
+              "package": "com.playgendary.kickthebuddy"
+            },
+            {
+              "rank": 59,
+              "name": "Level Devil - NOT A Troll Game",
+              "publisher": "WebVentures B.V.",
+              "category": "Games",
+              "package": "com.unept.leveldevil"
+            },
+            {
+              "rank": 60,
               "name": "Stack Smash - Block 3D Puzzle",
               "publisher": "Tripledot Studios Limited",
               "category": "Games",
               "package": "com.tripledot.blockssmashgame"
-            },
-            {
-              "rank": 59,
-              "name": "Hit Fortune - Casino Slots",
-              "publisher": "BRAVOOCEAN INDIA PRIVATE LIMITED",
-              "category": "Games",
-              "package": "com.pawakuma.hitfortune"
-            },
-            {
-              "rank": 60,
-              "name": "Paint & Hide: Color Guys",
-              "publisher": "HIGAME GLOBAL",
-              "category": "Games",
-              "package": "com.hp.hide.hunt.paint"
             },
             {
               "rank": 61,
@@ -10180,94 +10458,94 @@
             },
             {
               "rank": 62,
+              "name": "Paint & Hide: Color Guys",
+              "publisher": "HIGAME GLOBAL",
+              "category": "Games",
+              "package": "com.hp.hide.hunt.paint"
+            },
+            {
+              "rank": 63,
               "name": "Solitaire - Classic Card Games",
               "publisher": "Guru Puzzle Game",
               "category": "Games",
               "package": "solitaire.patience.card.games.klondike.free"
             },
             {
-              "rank": 63,
-              "name": "Kick the Buddy－Fun Action Game",
-              "publisher": "Playgendary Limited",
-              "category": "Games",
-              "package": "com.playgendary.kickthebuddy"
-            },
-            {
               "rank": 64,
-              "name": "Level Devil - NOT A Troll Game",
-              "publisher": "WebVentures B.V.",
+              "name": "Gugu Gaga: Keyboard Escape",
+              "publisher": "Goldoint",
               "category": "Games",
-              "package": "com.unept.leveldevil"
+              "package": "com.metax.obby.escape.run"
             },
             {
               "rank": 65,
-              "name": "Offline Games No WiFi internet",
-              "publisher": "Fun Offline Games",
-              "category": "Games",
-              "package": "com.media720.games2020"
-            },
-            {
-              "rank": 66,
-              "name": "Point Out: Color Escape Puzzle",
-              "publisher": "Lion Studios Plus",
-              "category": "Games",
-              "package": "com.arrow.out"
-            },
-            {
-              "rank": 67,
               "name": "Knock Out",
               "publisher": "Combo Game",
               "category": "Games",
               "package": "com.combo.knockout"
             },
             {
-              "rank": 68,
+              "rank": 66,
+              "name": "Hit Fortune - Casino Slots",
+              "publisher": "BRAVOOCEAN INDIA PRIVATE LIMITED",
+              "category": "Games",
+              "package": "com.pawakuma.hitfortune"
+            },
+            {
+              "rank": 67,
               "name": "Match Factory!",
               "publisher": "Peak",
               "category": "Games",
               "package": "net.peakgames.match"
             },
             {
-              "rank": 69,
+              "rank": 68,
               "name": "Word Search Explorer",
               "publisher": "PlaySimple Games",
               "category": "Games",
               "package": "in.playsimple.wordsearch"
             },
             {
-              "rank": 70,
-              "name": "Pokémon GO",
-              "publisher": "Scopely Explore, Inc.",
+              "rank": 69,
+              "name": "Point Out: Color Escape Puzzle",
+              "publisher": "Lion Studios Plus",
               "category": "Games",
-              "package": "com.nianticlabs.pokemongo"
+              "package": "com.arrow.out"
+            },
+            {
+              "rank": 70,
+              "name": "Offline Games No WiFi internet",
+              "publisher": "Fun Offline Games",
+              "category": "Games",
+              "package": "com.media720.games2020"
             },
             {
               "rank": 71,
-              "name": "Castle Busters",
-              "publisher": "VOODOO",
-              "category": "Games",
-              "package": "com.epicoro.castleclashers"
-            },
-            {
-              "rank": 72,
-              "name": "Soul Land: New World",
-              "publisher": "LING CHAI (HONG KONG) LIMITED",
-              "category": "Games",
-              "package": "com.soulland.us"
-            },
-            {
-              "rank": 73,
               "name": "Whiteout Survival",
               "publisher": "Century Games PTE. LTD.",
               "category": "Games",
               "package": "com.gof.global"
             },
             {
-              "rank": 74,
+              "rank": 72,
               "name": "Total Battle: War Strategy",
               "publisher": "Scorewarrior",
               "category": "Games",
               "package": "com.totalbattle"
+            },
+            {
+              "rank": 73,
+              "name": "Pokémon GO",
+              "publisher": "Scopely Explore, Inc.",
+              "category": "Games",
+              "package": "com.nianticlabs.pokemongo"
+            },
+            {
+              "rank": 74,
+              "name": "Soul Land: New World",
+              "publisher": "LING CHAI (HONG KONG) LIMITED",
+              "category": "Games",
+              "package": "com.soulland.us"
             },
             {
               "rank": 75,
@@ -10277,53 +10555,53 @@
               "package": "com.animal.hunter.shooting.apex"
             },
             {
-              "rank": 77,
+              "rank": 76,
+              "name": "Castle Busters",
+              "publisher": "VOODOO",
+              "category": "Games",
+              "package": "com.epicoro.castleclashers"
+            },
+            {
+              "rank": 78,
               "name": "Screw Out 3D: Nut Sort Jam",
               "publisher": "Unico Studio",
               "category": "Games",
               "package": "net.happywit.screw.out.jam"
             },
             {
-              "rank": 78,
-              "name": "Fluffy Drop - No Timer",
-              "publisher": "UniRise Studio",
-              "category": "Games",
-              "package": "com.fluffydrop.op.gp"
-            },
-            {
               "rank": 79,
-              "name": "EA SPORTS FC Soccer Mobile 26",
-              "publisher": "ELECTRONIC ARTS",
-              "category": "Games",
-              "package": "com.ea.gp.fifamobile"
-            },
-            {
-              "rank": 80,
               "name": "Offline Games - No Wifi Games",
               "publisher": "JindoBlu",
               "category": "Games",
               "package": "com.JindoBlu.OfflineGames"
             },
             {
+              "rank": 80,
+              "name": "Fluffy Drop - No Timer",
+              "publisher": "UniRise Studio",
+              "category": "Games",
+              "package": "com.fluffydrop.op.gp"
+            },
+            {
               "rank": 81,
+              "name": "Get Color Pack: Sort Puzzle",
+              "publisher": "Tripledot Studios Limited",
+              "category": "Games",
+              "package": "com.zm.waterpack"
+            },
+            {
+              "rank": 82,
+              "name": "EA SPORTS FC Soccer Mobile 26",
+              "publisher": "ELECTRONIC ARTS",
+              "category": "Games",
+              "package": "com.ea.gp.fifamobile"
+            },
+            {
+              "rank": 83,
               "name": "Wordscapes Search: Word Games",
               "publisher": "PeopleFun",
               "category": "Games",
               "package": "com.peoplefun.wordsearch"
-            },
-            {
-              "rank": 82,
-              "name": "Mahjong Master: Daily Match",
-              "publisher": "Mindful Daily Puzzles",
-              "category": "Games",
-              "package": "com.mahjong.master.solitaire.match.puzzle"
-            },
-            {
-              "rank": 83,
-              "name": "Search It - Hidden Objects",
-              "publisher": "Leap Game Studios",
-              "category": "Games",
-              "package": "com.leap.searchit"
             },
             {
               "rank": 84,
@@ -10334,17 +10612,17 @@
             },
             {
               "rank": 85,
-              "name": "Fruit Merge Drop",
-              "publisher": "Gimica GmbH",
+              "name": "Search It - Hidden Objects",
+              "publisher": "Leap Game Studios",
               "category": "Games",
-              "package": "com.gimica.fruitmergedrop"
+              "package": "com.leap.searchit"
             },
             {
               "rank": 86,
-              "name": "Annoying Uncle Punch Game®",
-              "publisher": "Game District LLC",
+              "name": "Mahjong Master: Daily Match",
+              "publisher": "Mindful Daily Puzzles",
               "category": "Games",
-              "package": "com.gtsy.annoying.punch.game"
+              "package": "com.mahjong.master.solitaire.match.puzzle"
             },
             {
               "rank": 87,
@@ -10355,45 +10633,45 @@
             },
             {
               "rank": 88,
-              "name": "Lordrush",
-              "publisher": "Century Games Innovation Pte. Ltd.",
-              "category": "Games",
-              "package": "com.s01.global"
-            },
-            {
-              "rank": 89,
-              "name": "Get Color Pack: Sort Puzzle",
-              "publisher": "Tripledot Studios Limited",
-              "category": "Games",
-              "package": "com.zm.waterpack"
-            },
-            {
-              "rank": 90,
-              "name": "Jewel Coloring",
-              "publisher": "TaTa Game Technology Limited",
-              "category": "Games",
-              "package": "color.number.paint.pixle.art.sort.jigsaw"
-            },
-            {
-              "rank": 91,
               "name": "I Am Cat",
               "publisher": "Estoty",
               "category": "Games",
               "package": "com.NewFolderGames.IAmCat"
             },
             {
-              "rank": 92,
-              "name": "Mystery Town: Merge Games",
-              "publisher": "Cedar Games Studio",
+              "rank": 89,
+              "name": "Annoying Uncle Punch Game®",
+              "publisher": "Game District LLC",
               "category": "Games",
-              "package": "com.cedargames.mysterytown"
+              "package": "com.gtsy.annoying.punch.game"
             },
             {
-              "rank": 93,
+              "rank": 90,
+              "name": "Lordrush",
+              "publisher": "Century Games Innovation Pte. Ltd.",
+              "category": "Games",
+              "package": "com.s01.global"
+            },
+            {
+              "rank": 91,
               "name": "Kingshot",
               "publisher": "Century Games PTE. LTD.",
               "category": "Games",
               "package": "com.run.tower.defense"
+            },
+            {
+              "rank": 92,
+              "name": "Jewel Coloring",
+              "publisher": "TaTa Game Technology Limited",
+              "category": "Games",
+              "package": "color.number.paint.pixle.art.sort.jigsaw"
+            },
+            {
+              "rank": 93,
+              "name": "Mystery Town: Merge Games",
+              "publisher": "Cedar Games Studio",
+              "category": "Games",
+              "package": "com.cedargames.mysterytown"
             },
             {
               "rank": 94,
@@ -10404,10 +10682,10 @@
             },
             {
               "rank": 95,
-              "name": "Cars Royale: League of Rocket",
-              "publisher": "Starplay FZCO",
+              "name": "Last Shelter: War Z",
+              "publisher": "LAST ORIGIN STUDIO LIMITED",
               "category": "Games",
-              "package": "com.starplay.wreckracing"
+              "package": "com.more.lastshelter.gp"
             },
             {
               "rank": 96,
@@ -10418,31 +10696,31 @@
             },
             {
               "rank": 97,
+              "name": "Cars Royale: League of Rocket",
+              "publisher": "Starplay FZCO",
+              "category": "Games",
+              "package": "com.starplay.wreckracing"
+            },
+            {
+              "rank": 98,
               "name": "Epic Plane Evolution",
               "publisher": "VOODOO",
               "category": "Games",
               "package": "com.WalkTalk.FlightMaster"
             },
             {
-              "rank": 98,
-              "name": "Zoodoku",
-              "publisher": "Nebula  Studio",
-              "category": "Games",
-              "package": "com.nebula.zoodoku"
-            },
-            {
               "rank": 99,
-              "name": "Solitaire",
-              "publisher": "Mouse Games",
-              "category": "Games",
-              "package": "com.smilerlee.klondike"
-            },
-            {
-              "rank": 100,
               "name": "Word Connect Association",
               "publisher": "PlaySimple Games",
               "category": "Games",
               "package": "in.playsimple.wordtrip.association"
+            },
+            {
+              "rank": 100,
+              "name": "Solitaire",
+              "publisher": "Mouse Games",
+              "category": "Games",
+              "package": "com.smilerlee.klondike"
             }
           ]
         }
@@ -10450,7 +10728,7 @@
     }
   },
   "auth_expired": false,
-  "scraped_at_utc": "2026-09-02T02:11:33+00:00",
-  "scraped_at_beijing": "2026-09-02T10:11:09+08:00",
+  "scraped_at_utc": "2026-09-02T03:42:28+00:00",
+  "scraped_at_beijing": "2026-09-02T11:38:01+08:00",
   "date_beijing": "2026-09-02"
 }
