@@ -1,0 +1,671 @@
+{
+  "date": "2026-09-08",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 9,
+          "name": "造个大英雄",
+          "category": "休闲",
+          "category_rank": 8,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "造个大英雄",
+          "category": "休闲",
+          "category_rank": 8,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 4,
+          "name": "梦回甄嬛传",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "梦回甄嬛传，合成物品推进剧情，收集角色卡牌、装扮家园与皮肤。",
+          "publisher": "广州擎迅网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "极限跳高冠军",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "跳跃蹦高高，失败就从头再来，你能顺利通关吗",
+          "publisher": "广州易游互玩科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 4,
+          "name": "梦回甄嬛传",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "梦回甄嬛传，合成物品推进剧情，收集角色卡牌、装扮家园与皮肤。",
+          "publisher": "广州擎迅网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "梦回甄嬛传",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "梦回甄嬛传，合成物品推进剧情，收集角色卡牌、装扮家园与皮肤。",
+          "publisher": "广州擎迅网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "极限跳高冠军",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "跳跃蹦高高，失败就从头再来，你能顺利通关吗",
+          "publisher": "广州易游互玩科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 3,
+          "name": "篮球少女：飞跃巅峰",
+          "publisher": "广州灵犀互动娱乐有限公司",
+          "category": "养成",
+          "subcategory": "二次元、篮球、美少女、模拟、卡牌、日系、体育"
+        },
+        {
+          "rank": 6,
+          "name": "蓝色星原：旅谣",
+          "publisher": "蛮奈网络",
+          "category": "角色扮演",
+          "subcategory": "二次元、开放世界、冒险、动作、养成、收集"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 95,
+          "name": "Rap Star:Idle Clicker",
+          "publisher": "聪 马",
+          "category": "Games",
+          "app_id": "6761469046",
+          "url": "https://apps.apple.com/us/app/rap-star-idle-clicker/id6761469046?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/3c/74/533c741b-d78d-9221-28de-230b0aa89f1a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "From streets to stardom — tap, rap, earn, date, collect. Rap Star: Idle Clicker "
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 21,
+          "name": "Bus Fever Party!",
+          "publisher": "Lumi Games",
+          "category": "Games",
+          "app_id": "6746743297",
+          "url": "https://apps.apple.com/us/app/bus-fever-party/id6746743297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/20/4a/88204a17-8942-3a71-df34-96dfc698e48d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready for a thrilling bus escape game adventure!\nTackle the challenging traf"
+        },
+        {
+          "rank": 99,
+          "name": "Top Lords",
+          "publisher": "GAME SPARK PTE. LTD.",
+          "category": "Games",
+          "app_id": "6767834940",
+          "url": "https://apps.apple.com/us/app/top-lords/id6767834940?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/44/b1/2e44b163-08fd-c846-efc2-6cf333e9dd4d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Rise to the Throne with just a Few Taps!\nDownload for Free and Jump Right in!\n\nT"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 73,
+          "name": "Hollywood Merge",
+          "publisher": "VoyagerOne",
+          "category": "Games",
+          "app_id": "6755455500",
+          "url": "https://apps.apple.com/us/app/hollywood-merge/id6755455500?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/f7/a1/73f7a1cb-c3c3-54b2-6e41-5cda43387311/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Breaking News: You are a Hollywood Heiress! \r\nJust yesterday, you were strugglin"
+        },
+        {
+          "rank": 82,
+          "name": "Lamar - Idle Vlogger",
+          "publisher": "Crazy Labs",
+          "category": "Games",
+          "app_id": "1595314851",
+          "url": "https://apps.apple.com/us/app/lamar-idle-vlogger/id1595314851?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/8a/d9/528ad987-0d40-f903-5fe5-3354c8141dfc/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Become a Viral Sensation with Lamar - Idle Vlogger!\nWelcome to the wacky world o"
+        },
+        {
+          "rank": 83,
+          "name": "Solitaire Smash: Real Cash!",
+          "publisher": "Play Perfect",
+          "category": "Games",
+          "app_id": "6446482475",
+          "url": "https://apps.apple.com/us/app/solitaire-smash-real-cash/id6446482475?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/53/bc/e253bcfd-0c64-fe56-0e7a-9866c20f64f8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Looking for a Solitaire game that offers a fun and challenging gameplay experien"
+        },
+        {
+          "rank": 87,
+          "name": "Family Farm Merge",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "Games",
+          "app_id": "6760998152",
+          "url": "https://apps.apple.com/us/app/family-farm-merge/id6760998152?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/1f/1e/b91f1e74-bdab-1765-f3c1-a80ba21db282/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Family Farm Merge: Merge Your Way Back to Nature!\n\nWelcome to Family Farm Merge,"
+        },
+        {
+          "rank": 92,
+          "name": "UNO!™",
+          "publisher": "Mattel Game Studios HK Limited",
+          "category": "Games",
+          "app_id": "1344700142",
+          "url": "https://apps.apple.com/us/app/uno/id1344700142?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/91/16/a891164b-bb32-3440-ca16-49068d64a1d0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "UNO!™ is now mobile! Take the classic card game from the kitchen table anywhere!"
+        },
+        {
+          "rank": 96,
+          "name": "Cider Casino - Real Money",
+          "publisher": "Mystic Mirror Studio Limited",
+          "category": "Games",
+          "app_id": "6744304405",
+          "url": "https://apps.apple.com/us/app/cider-casino-real-money/id6744304405?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/8f/19/8d8f1924-b603-b754-055f-34d0cf107341/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Cider Casino!\nReady for an exciting real money slots experience right"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 95,
+          "name": "Rap Star:Idle Clicker",
+          "publisher": "聪 马",
+          "category": "Games",
+          "app_id": "6761469046",
+          "url": "https://apps.apple.com/us/app/rap-star-idle-clicker/id6761469046?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/3c/74/533c741b-d78d-9221-28de-230b0aa89f1a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "From streets to stardom — tap, rap, earn, date, collect. Rap Star: Idle Clicker "
+        },
+        {
+          "rank": 99,
+          "name": "Top Lords",
+          "publisher": "GAME SPARK PTE. LTD.",
+          "category": "Games",
+          "app_id": "6767834940",
+          "url": "https://apps.apple.com/us/app/top-lords/id6767834940?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/44/b1/2e44b163-08fd-c846-efc2-6cf333e9dd4d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Rise to the Throne with just a Few Taps!\nDownload for Free and Jump Right in!\n\nT"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 6,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 21,
+          "name": "Bus Fever Party!",
+          "publisher": "Lumi Games",
+          "category": "Games",
+          "app_id": "6746743297",
+          "url": "https://apps.apple.com/us/app/bus-fever-party/id6746743297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/20/4a/88204a17-8942-3a71-df34-96dfc698e48d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready for a thrilling bus escape game adventure!\nTackle the challenging traf"
+        },
+        {
+          "rank": 95,
+          "name": "Rap Star:Idle Clicker",
+          "publisher": "聪 马",
+          "category": "Games",
+          "app_id": "6761469046",
+          "url": "https://apps.apple.com/us/app/rap-star-idle-clicker/id6761469046?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/3c/74/533c741b-d78d-9221-28de-230b0aa89f1a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "From streets to stardom — tap, rap, earn, date, collect. Rap Star: Idle Clicker "
+        },
+        {
+          "rank": 99,
+          "name": "Top Lords",
+          "publisher": "GAME SPARK PTE. LTD.",
+          "category": "Games",
+          "app_id": "6767834940",
+          "url": "https://apps.apple.com/us/app/top-lords/id6767834940?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/44/b1/2e44b163-08fd-c846-efc2-6cf333e9dd4d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Rise to the Throne with just a Few Taps!\nDownload for Free and Jump Right in!\n\nT"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 92,
+          "name": "Cavallo - Odds picker",
+          "publisher": "AVANT GLOBAL SOLUTIONS LTD",
+          "category": "游戏",
+          "app_id": "1520470665",
+          "url": "https://apps.apple.com/cn/app/cavallo-odds-picker/id1520470665?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/44/d4/42/44d442fd-7a34-4600-a5a1-cd16e89aa6d0/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-85-220.png/100x100bb.png",
+          "slogan": "Who's the luckiest? Touch your screen and test your odds in the latest Cavallo o"
+        },
+        {
+          "rank": 94,
+          "name": "マルバツパズル ○×ロジック",
+          "publisher": "BEAK,K.K.",
+          "category": "游戏",
+          "app_id": "6806678157",
+          "url": "https://apps.apple.com/cn/app/%E3%83%9E%E3%83%AB%E3%83%90%E3%83%84%E3%83%91%E3%82%BA%E3%83%AB-%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF/id6806678157?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/f6/32/80f632af-dcf0-0db5-cc85-450d885a9433/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "全画面広告は、一切出しません。\n\n遊んでいる途中でいきなり画面が切り替わって、閉じ方がわからなくなる。\nそんなことが起きないパズルを作りました。広告は画面の下に"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 96,
+          "name": "保卫萝卜",
+          "publisher": "Beijing Kai Luo Tian Xia Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "534453594",
+          "url": "https://apps.apple.com/cn/app/%E4%BF%9D%E5%8D%AB%E8%90%9D%E5%8D%9C/id534453594?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/cd/8a/b1cd8aa8-cdbf-ee89-629b-50a3729396ec/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/100x100bb.png",
+          "slogan": "进入超过70个国家总榜、游戏榜TOP10，在整个亚太地区各市场排行榜TOP1-TOP5，欧美地区43个国家TOP25，被全球101个国家推荐为“热门游戏”，短短"
+        },
+        {
+          "rank": 100,
+          "name": "宾果消消消",
+          "publisher": "柠檬微趣",
+          "category": "游戏",
+          "app_id": "897447840",
+          "url": "https://apps.apple.com/cn/app/%E5%AE%BE%E6%9E%9C%E6%B6%88%E6%B6%88%E6%B6%88/id897447840?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/76/ba/e976ba46-38c0-7d90-5ce5-c5c2ad0ba2df/AppIcon-0-0-1x_U007emarketing-0-9-0-GLES2_U002c0-85-220.png/100x100bb.png",
+          "slogan": "《宾果消消消》,累计注册用户超过3亿,以三消+开店的形式，让国民连接在一起！\n2021年，3亿玩家的共同选择！\n\n消一消，能开店。奶茶店、蛋糕店、糖果店、花店、"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 92,
+          "name": "Cavallo - Odds picker",
+          "publisher": "AVANT GLOBAL SOLUTIONS LTD",
+          "category": "游戏",
+          "app_id": "1520470665",
+          "url": "https://apps.apple.com/cn/app/cavallo-odds-picker/id1520470665?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/44/d4/42/44d442fd-7a34-4600-a5a1-cd16e89aa6d0/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-85-220.png/100x100bb.png",
+          "slogan": "Who's the luckiest? Touch your screen and test your odds in the latest Cavallo o"
+        },
+        {
+          "rank": 94,
+          "name": "マルバツパズル ○×ロジック",
+          "publisher": "BEAK,K.K.",
+          "category": "游戏",
+          "app_id": "6806678157",
+          "url": "https://apps.apple.com/cn/app/%E3%83%9E%E3%83%AB%E3%83%90%E3%83%84%E3%83%91%E3%82%BA%E3%83%AB-%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF/id6806678157?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/f6/32/80f632af-dcf0-0db5-cc85-450d885a9433/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "全画面広告は、一切出しません。\n\n遊んでいる途中でいきなり画面が切り替わって、閉じ方がわからなくなる。\nそんなことが起きないパズルを作りました。広告は画面の下に"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 2,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 92,
+          "name": "Cavallo - Odds picker",
+          "publisher": "AVANT GLOBAL SOLUTIONS LTD",
+          "category": "游戏",
+          "app_id": "1520470665",
+          "url": "https://apps.apple.com/cn/app/cavallo-odds-picker/id1520470665?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/44/d4/42/44d442fd-7a34-4600-a5a1-cd16e89aa6d0/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-85-220.png/100x100bb.png",
+          "slogan": "Who's the luckiest? Touch your screen and test your odds in the latest Cavallo o"
+        },
+        {
+          "rank": 94,
+          "name": "マルバツパズル ○×ロジック",
+          "publisher": "BEAK,K.K.",
+          "category": "游戏",
+          "app_id": "6806678157",
+          "url": "https://apps.apple.com/cn/app/%E3%83%9E%E3%83%AB%E3%83%90%E3%83%84%E3%83%91%E3%82%BA%E3%83%AB-%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF/id6806678157?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/f6/32/80f632af-dcf0-0db5-cc85-450d885a9433/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "全画面広告は、一切出しません。\n\n遊んでいる途中でいきなり画面が切り替わって、閉じ方がわからなくなる。\nそんなことが起きないパズルを作りました。広告は画面の下に"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 57,
+          "name": "intro - イントロクイズ",
+          "publisher": "FUGA IKEDA",
+          "category": "ゲーム",
+          "app_id": "6760829877",
+          "url": "https://apps.apple.com/jp/app/intro-%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD%E3%82%AF%E3%82%A4%E3%82%BA/id6760829877?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/62/ad/aa62ad89-165a-865d-46a9-028c539538e6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "あなたのプレイリストが、そのままクイズになる。\n\nintro は、Apple Music や端末内の音楽の「原曲」で遊べる早押しイントロクイズ（イントロドン）ア"
+        },
+        {
+          "rank": 98,
+          "name": "Connect Tracks: ロジックパズル",
+          "publisher": "Oakever Games",
+          "category": "ゲーム",
+          "app_id": "6793115010",
+          "url": "https://apps.apple.com/jp/app/connect-tracks-%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB/id6793115010?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/92/c6/dc92c65c-1a1b-488d-df6b-b9684bcae83a/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "リラックスしながら、同時に頭もフル回転させられるゲームはいかがですか？Connect Tracks へようこそ！古典的な線路パズルを核にしたロジックパズルゲーム"
+        },
+        {
+          "rank": 99,
+          "name": "脱出ゲーム 大仏〜ハングオーバー〜",
+          "publisher": "MITSUO IMACHI",
+          "category": "ゲーム",
+          "app_id": "6782538009",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E5%A4%A7%E4%BB%8F-%E3%83%8F%E3%83%B3%E3%82%B0%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC/id6782538009?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/2d/d5/e12dd589-87b8-8ad8-dc61-7b942cccdcb7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "上り詰めた先には、何もなかった——\n\n気づくと、巨大な大仏の手のひらの上だった。\n朝の日差しに照らされた冷たい大仏。\n目の前には一本のロープ。\n昨晩、友人たちと"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 11,
+          "name": "Bus Fever Party!",
+          "publisher": "Lumi Games",
+          "category": "ゲーム",
+          "app_id": "6746743297",
+          "url": "https://apps.apple.com/jp/app/bus-fever-party/id6746743297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/20/4a/88204a17-8942-3a71-df34-96dfc698e48d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Bus Fever Party!へようこそ！究極の交通渋滞脱出チャレンジに挑戦しよう！\nBus Fever Party!の世界では、交通の混乱と戦略的なパズル解"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 73,
+          "name": "Marble Sort!",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "6754558455",
+          "url": "https://apps.apple.com/jp/app/marble-sort/id6754558455?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/d7/b8/54d7b895-5cf8-21f7-bdbc-ce963a00698e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "心地よいASMRの物理演算と無限の戦略性が融合。ドロップのタイミングを見極め、動くコンベアに乗り、ベルトが詰まる前に論理と戦略でマーブル（ビー玉）を完璧に仕分け"
+        },
+        {
+          "rank": 85,
+          "name": "Among Us!",
+          "publisher": "InnerSloth LLC",
+          "category": "ゲーム",
+          "app_id": "1351168404",
+          "url": "https://apps.apple.com/jp/app/among-us/id1351168404?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/7e/5c/a67e5c64-65f4-bd11-edcc-087936599310/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A game of teamwork and betrayal ...in space! Play online with 4-15 players as yo"
+        },
+        {
+          "rank": 91,
+          "name": "みんなで早押しクイズ",
+          "publisher": "Q ONE, Inc.",
+          "category": "ゲーム",
+          "app_id": "1044039663",
+          "url": "https://apps.apple.com/jp/app/%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%E6%97%A9%E6%8A%BC%E3%81%97%E3%82%AF%E3%82%A4%E3%82%BA/id1044039663?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/24/9a/62249a6c-8a24-6d93-627c-308ecb435e20/AppIcon-2-1x_U007epad-0-1-0-85-220-0.png/100x100bb.png",
+          "slogan": "オンライン対戦早押しクイズゲームアプリが登場！\nライバルと対戦してレート上位を目指そう！\n\n選べるモードは、ランダムマッチ・フリーマッチ(フレンド対戦)の2種類"
+        },
+        {
+          "rank": 92,
+          "name": "Brain Puzzle 3: Crazy Mind",
+          "publisher": "SmallStep Dev Team",
+          "category": "ゲーム",
+          "app_id": "6756482832",
+          "url": "https://apps.apple.com/jp/app/brain-puzzle-3-crazy-mind/id6756482832?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/a1/bc/34a1bccb-15c4-6491-8057-136a0a3c2a93/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "警告：このゲームは、イライラ、突然の爆笑、そして友達に見せびらかしたくなる衝動を引き起こす可能性があります！\n\n退屈さよサヨナラ！大人気パズルシリーズが完全新作"
+        },
+        {
+          "rank": 94,
+          "name": "バスゲーム：カーパーキング・バスゲーム",
+          "publisher": "ABI GLOBAL LTD.",
+          "category": "ゲーム",
+          "app_id": "6689516366",
+          "url": "https://apps.apple.com/jp/app/%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0-%E3%82%AB%E3%83%BC%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0-%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0/id6689516366?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/2e/d8/982ed875-2811-80df-5e91-d2b13be492ac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "頭を使う難しいけど爽快なパズルゲームが好きですか？\n\nBus Escape: Traffic Jam Fever! の世界へようこそ！バスを動かしながら渋滞を解"
+        },
+        {
+          "rank": 96,
+          "name": "オンクレならタイクレ！オンラインクレーンゲーム(オンクレ)",
+          "publisher": "TAITO Corporation",
+          "category": "ゲーム",
+          "app_id": "1276424024",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%B3%E3%82%AF%E3%83%AC%E3%81%AA%E3%82%89%E3%82%BF%E3%82%A4%E3%82%AF%E3%83%AC-%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0-%E3%82%AA%E3%83%B3%E3%82%AF%E3%83%AC/id1276424024?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/38/b6/2838b607-8ef0-08b0-c4ad-4abdca13e346/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "「おうちでクレーンゲーム、しよ？」\n人気の景品が５０００種類以上！欲しい景品がきっと見つかる！\n「タイトーオンラインクレーン」、略して「タイクレ」は３６５日２４"
+        },
+        {
+          "rank": 100,
+          "name": "ネジ3Dパズル：ピンを外すゲーム",
+          "publisher": "Kiwi Fun HK Limited",
+          "category": "ゲーム",
+          "app_id": "6749300334",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8D%E3%82%B83d%E3%83%91%E3%82%BA%E3%83%AB-%E3%83%94%E3%83%B3%E3%82%92%E5%A4%96%E3%81%99%E3%82%B2%E3%83%BC%E3%83%A0/id6749300334?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/8f/5f/c08f5f51-310b-8d9a-5e82-1affa0519567/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ネジ3Dパズル：ピンを外すゲームは、頭を使いながらリラックスして楽しめる中毒性の高い3Dパズルゲームです。複雑な構造を回転・仕分け・分解しながら、ネジを外す爽快"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 57,
+          "name": "intro - イントロクイズ",
+          "publisher": "FUGA IKEDA",
+          "category": "ゲーム",
+          "app_id": "6760829877",
+          "url": "https://apps.apple.com/jp/app/intro-%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD%E3%82%AF%E3%82%A4%E3%82%BA/id6760829877?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/62/ad/aa62ad89-165a-865d-46a9-028c539538e6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "あなたのプレイリストが、そのままクイズになる。\n\nintro は、Apple Music や端末内の音楽の「原曲」で遊べる早押しイントロクイズ（イントロドン）ア"
+        },
+        {
+          "rank": 99,
+          "name": "脱出ゲーム 大仏〜ハングオーバー〜",
+          "publisher": "MITSUO IMACHI",
+          "category": "ゲーム",
+          "app_id": "6782538009",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E5%A4%A7%E4%BB%8F-%E3%83%8F%E3%83%B3%E3%82%B0%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC/id6782538009?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/2d/d5/e12dd589-87b8-8ad8-dc61-7b942cccdcb7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "上り詰めた先には、何もなかった——\n\n気づくと、巨大な大仏の手のひらの上だった。\n朝の日差しに照らされた冷たい大仏。\n目の前には一本のロープ。\n昨晩、友人たちと"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 7,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 11,
+          "name": "Bus Fever Party!",
+          "publisher": "Lumi Games",
+          "category": "ゲーム",
+          "app_id": "6746743297",
+          "url": "https://apps.apple.com/jp/app/bus-fever-party/id6746743297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/20/4a/88204a17-8942-3a71-df34-96dfc698e48d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Bus Fever Party!へようこそ！究極の交通渋滞脱出チャレンジに挑戦しよう！\nBus Fever Party!の世界では、交通の混乱と戦略的なパズル解"
+        },
+        {
+          "rank": 57,
+          "name": "intro - イントロクイズ",
+          "publisher": "FUGA IKEDA",
+          "category": "ゲーム",
+          "app_id": "6760829877",
+          "url": "https://apps.apple.com/jp/app/intro-%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD%E3%82%AF%E3%82%A4%E3%82%BA/id6760829877?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/62/ad/aa62ad89-165a-865d-46a9-028c539538e6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "あなたのプレイリストが、そのままクイズになる。\n\nintro は、Apple Music や端末内の音楽の「原曲」で遊べる早押しイントロクイズ（イントロドン）ア"
+        },
+        {
+          "rank": 98,
+          "name": "Connect Tracks: ロジックパズル",
+          "publisher": "Oakever Games",
+          "category": "ゲーム",
+          "app_id": "6793115010",
+          "url": "https://apps.apple.com/jp/app/connect-tracks-%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB/id6793115010?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/92/c6/dc92c65c-1a1b-488d-df6b-b9684bcae83a/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "リラックスしながら、同時に頭もフル回転させられるゲームはいかがですか？Connect Tracks へようこそ！古典的な線路パズルを核にしたロジックパズルゲーム"
+        },
+        {
+          "rank": 99,
+          "name": "脱出ゲーム 大仏〜ハングオーバー〜",
+          "publisher": "MITSUO IMACHI",
+          "category": "ゲーム",
+          "app_id": "6782538009",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E5%A4%A7%E4%BB%8F-%E3%83%8F%E3%83%B3%E3%82%B0%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC/id6782538009?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/2d/d5/e12dd589-87b8-8ad8-dc61-7b942cccdcb7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "上り詰めた先には、何もなかった——\n\n気づくと、巨大な大仏の手のひらの上だった。\n朝の日差しに照らされた冷たい大仏。\n目の前には一本のロープ。\n昨晩、友人たちと"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
