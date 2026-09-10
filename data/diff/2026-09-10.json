@@ -1,0 +1,1264 @@
+{
+  "date": "2026-09-10",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "动物排排队",
+          "category": "休闲",
+          "category_rank": 7,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 11,
+          "name": "眼力突围",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "长沙指创网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 15,
+          "name": "欢乐麻将",
+          "category": "棋牌",
+          "category_rank": 3,
+          "subcategory": "牌类",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 18,
+          "name": "天天斗地主真人版",
+          "category": "棋牌",
+          "category_rank": 4,
+          "subcategory": "牌类棋牌传统棋牌",
+          "slogan": "",
+          "publisher": "深圳市禅游科技股份有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "动物排排队",
+          "category": "休闲",
+          "category_rank": 7,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "奇幻果园",
+          "category": "休闲",
+          "category_rank": 12,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "杭州锦泽文化创意有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "眼力突围",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "长沙指创网络科技有限公司",
+          "change": "4",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "沙画消消",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "长沙指极星科技有限公司",
+          "change": "1",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 12,
+          "name": "整顿职场模拟器",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "整顿职场，与老板斗智斗勇。",
+          "publisher": "个人开发者",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 11,
+          "name": "人类战争模拟",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "在城镇街区开启紧凑近距离对战，灵活走位、精准瞄准完成对战挑战",
+          "publisher": "北京玩伴同乐科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 13,
+          "name": "音悦节奏球",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款音乐节奏类游戏，玩家控制跳跃的小球，跟随节奏完成挑战。",
+          "publisher": "厦门真嘟假嘟网络科技有限公司",
+          "change": "59",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 12,
+          "name": "整顿职场模拟器",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "整顿职场，与老板斗智斗勇。",
+          "publisher": "个人开发者",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "神器传说",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款有手就能玩的开宝箱修仙小游戏",
+          "publisher": "深圳市拾光筑梦文化传媒有限公司",
+          "change": "18",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "无尽冬日",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "《无尽冬日》是结合经营城建和角色养成玩法的多人在线策略游戏。",
+          "publisher": "上海青笛科技有限公司",
+          "change": "2",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "恐龙大逃亡",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款好玩的小游戏",
+          "publisher": "北京宝可嘻科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 16,
+          "name": "神仙打架",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "跟着坤哥抽卡集神闯天涯！",
+          "publisher": "广州中泽互联科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "一起冲关吧",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一起冲关吧，挑战你的观察力与分类思维！",
+          "publisher": "武汉智地卓越信息科技有限公司",
+          "change": "40",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 7,
+          "name": "无尽征程",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "无尽征程，休闲闯关",
+          "publisher": "广州狮子鱼信息科技有限公司",
+          "change": "16",
+          "change_direction": "down"
+        },
+        {
+          "rank": 13,
+          "name": "放大找个茬",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "放大找茬，轻松解压快乐无烦恼！",
+          "publisher": "苏州橙美信息技术有限公司",
+          "change": "9",
+          "change_direction": "down"
+        },
+        {
+          "rank": 15,
+          "name": "羊了个羊：对对碰",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "每一关都是脑力对决。你能通关吗？",
+          "publisher": "广州摩摩达科技有限公司",
+          "change": "6",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 8,
+          "name": "恐龙大逃亡",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款好玩的小游戏",
+          "publisher": "北京宝可嘻科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 16,
+          "name": "神仙打架",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "跟着坤哥抽卡集神闯天涯！",
+          "publisher": "广州中泽互联科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 3,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "恐龙大逃亡",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款好玩的小游戏",
+          "publisher": "北京宝可嘻科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 16,
+          "name": "神仙打架",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "跟着坤哥抽卡集神闯天涯！",
+          "publisher": "广州中泽互联科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "一起冲关吧",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一起冲关吧，挑战你的观察力与分类思维！",
+          "publisher": "武汉智地卓越信息科技有限公司",
+          "change": "40",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "未眠野",
+          "publisher": "悦然互动",
+          "category": "角色扮演",
+          "subcategory": "冒险、开放世界、高自由度、动作、高画质"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "无限大",
+          "publisher": "网易游戏",
+          "category": "开放世界",
+          "subcategory": "角色扮演、高自由度、都市、二次元、动作、高画质、3D"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "未眠野",
+          "publisher": "悦然互动",
+          "category": "角色扮演",
+          "subcategory": "冒险、开放世界、高自由度、动作、高画质"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "未眠野",
+          "publisher": "悦然互动",
+          "category": "角色扮演",
+          "subcategory": "冒险、开放世界、高自由度、动作、高画质"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 87,
+          "name": "Angry Smash - Physics Puzzle",
+          "publisher": "Tripledot Studios",
+          "category": "Games",
+          "app_id": "6785384304",
+          "url": "https://apps.apple.com/us/app/angry-smash-physics-puzzle/id6785384304?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/65/58/e5655839-cded-678b-ab80-110546cdd565/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Ahoy, adventurer! Get ready to blast your way through a colourful world of tropi"
+        },
+        {
+          "rank": 95,
+          "name": "Sunday City: Life Simulator",
+          "publisher": "Kefir",
+          "category": "Games",
+          "app_id": "6450834358",
+          "url": "https://apps.apple.com/us/app/sunday-city-life-simulator/id6450834358?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/da/d6/f4/dad6f4ce-6b4a-4574-a72e-6110af99370a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "May your dreams become reality in Sunday City.\n\nSunday City is an eternal summer"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 81,
+          "name": "PUBG MOBILE",
+          "publisher": "Tencent Mobile International Limited",
+          "category": "Games",
+          "app_id": "1330123889",
+          "url": "https://apps.apple.com/us/app/pubg-mobile/id1330123889?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/98/24/6d9824dd-f75f-9bd6-221e-33324fedecb2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "【Epic battle royale masterpiece】\nLots of events for you to explore.Climb to the "
+        },
+        {
+          "rank": 98,
+          "name": "Clash of Clans",
+          "publisher": "Supercell",
+          "category": "Games",
+          "app_id": "529479190",
+          "url": "https://apps.apple.com/us/app/clash-of-clans/id529479190?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/af/ca/d7afca1f-0b51-4cc1-7e7f-b0fba87e3739/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Join millions of players worldwide as you build your village, raise a Clan, and "
+        },
+        {
+          "rank": 99,
+          "name": "Jewel Color Sort: Diamond Game",
+          "publisher": "HappyTapLand Technology Co., Ltd.",
+          "category": "Games",
+          "app_id": "6772975295",
+          "url": "https://apps.apple.com/us/app/jewel-color-sort-diamond-game/id6772975295?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/ac/4c/3aac4c3e-3afb-acab-552f-e462830ce3b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Jewel Color Sort, a dazzling world of color and relaxing puzzle gamep"
+        },
+        {
+          "rank": 100,
+          "name": "Offline Games - No Wifi Games",
+          "publisher": "Moreno Maio",
+          "category": "Games",
+          "app_id": "6448104157",
+          "url": "https://apps.apple.com/us/app/offline-games-no-wifi-games/id6448104157?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2c/bf/bd/2cbfbd36-668b-54e4-40a5-c3b6b79ad4fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready for 'Offline Games': fun for all ages, and a mental workout too! This "
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 95,
+          "name": "Sunday City: Life Simulator",
+          "publisher": "Kefir",
+          "category": "Games",
+          "app_id": "6450834358",
+          "url": "https://apps.apple.com/us/app/sunday-city-life-simulator/id6450834358?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/da/d6/f4/dad6f4ce-6b4a-4574-a72e-6110af99370a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "May your dreams become reality in Sunday City.\n\nSunday City is an eternal summer"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 4,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 87,
+          "name": "Angry Smash - Physics Puzzle",
+          "publisher": "Tripledot Studios",
+          "category": "Games",
+          "app_id": "6785384304",
+          "url": "https://apps.apple.com/us/app/angry-smash-physics-puzzle/id6785384304?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/65/58/e5655839-cded-678b-ab80-110546cdd565/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Ahoy, adventurer! Get ready to blast your way through a colourful world of tropi"
+        },
+        {
+          "rank": 95,
+          "name": "Sunday City: Life Simulator",
+          "publisher": "Kefir",
+          "category": "Games",
+          "app_id": "6450834358",
+          "url": "https://apps.apple.com/us/app/sunday-city-life-simulator/id6450834358?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/da/d6/f4/dad6f4ce-6b4a-4574-a72e-6110af99370a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "May your dreams become reality in Sunday City.\n\nSunday City is an eternal summer"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 35,
+          "name": "香草英雄团",
+          "publisher": "芜湖大灵网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6749613426",
+          "url": "https://apps.apple.com/cn/app/%E9%A6%99%E8%8D%89%E8%8B%B1%E9%9B%84%E5%9B%A2/id6749613426?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/a9/dd/5fa9dd71-d650-9190-e54b-952c86b12a4f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《香草英雄团》是一款轻松休闲，大世界探索的小队RPG手游。\n冒险者可轻松通过单手摇杆操作控制10人英雄团队征服探索被迷雾笼罩的香草大陆，领略高山、湖泊、沙漠、白"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 1,
+          "name": "王者万象棋",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1614798032",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E4%B8%87%E8%B1%A1%E6%A3%8B/id1614798032?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/5c/7a/025c7a40-b125-5ab9-1237-7283fcbf089a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《王者万象棋》由王者荣耀项目原班人马开发，是一款《王者荣耀》英雄策略对战新游。王者万象棋全面创新突破了“王者模拟战”的玩法体验，延续了玩家最熟悉的英雄阵容，节奏"
+        },
+        {
+          "rank": 96,
+          "name": "英雄大对决",
+          "publisher": "Hainan Jiasheng Network Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6746191325",
+          "url": "https://apps.apple.com/cn/app/%E8%8B%B1%E9%9B%84%E5%A4%A7%E5%AF%B9%E5%86%B3/id6746191325?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/7f/03/2d7f0306-540e-b4f1-6796-cca7cd91b86d/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《英雄大对决》是一款结合了肉鸽元素、塔防策略与经营建造的休闲挂机萌系游戏！\r\n\r\n黑暗如墨汁般浸染大陆的每一寸肌理，哥布林的尖啸划破沉寂，锈蚀的兵器映出贪婪的寒"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 100,
+          "name": "割绳子2",
+          "publisher": "Yodo1, LTD",
+          "category": "游戏",
+          "app_id": "747314884",
+          "url": "https://apps.apple.com/cn/app/%E5%89%B2%E7%BB%B3%E5%AD%902/id747314884?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/5f/72/895f7270-e1dd-fb06-55ab-e921d753a87f/AppIconBlue-1x_U007emarketing-0-10-0-85-220-0.png/100x100bb.png",
+          "slogan": "苹果精品力荐！\n全球亿万小伙伴都在玩，萌到Cry的经典休闲小游戏！\n●美味的糖果大冒险，只需手指轻轻一滑，帮小吃货圆满糖果梦！ \n●数百个小关卡玩到尽兴，找寻绳"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 35,
+          "name": "香草英雄团",
+          "publisher": "芜湖大灵网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6749613426",
+          "url": "https://apps.apple.com/cn/app/%E9%A6%99%E8%8D%89%E8%8B%B1%E9%9B%84%E5%9B%A2/id6749613426?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/a9/dd/5fa9dd71-d650-9190-e54b-952c86b12a4f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《香草英雄团》是一款轻松休闲，大世界探索的小队RPG手游。\n冒险者可轻松通过单手摇杆操作控制10人英雄团队征服探索被迷雾笼罩的香草大陆，领略高山、湖泊、沙漠、白"
+        },
+        {
+          "rank": 96,
+          "name": "英雄大对决",
+          "publisher": "Hainan Jiasheng Network Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6746191325",
+          "url": "https://apps.apple.com/cn/app/%E8%8B%B1%E9%9B%84%E5%A4%A7%E5%AF%B9%E5%86%B3/id6746191325?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/7f/03/2d7f0306-540e-b4f1-6796-cca7cd91b86d/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《英雄大对决》是一款结合了肉鸽元素、塔防策略与经营建造的休闲挂机萌系游戏！\r\n\r\n黑暗如墨汁般浸染大陆的每一寸肌理，哥布林的尖啸划破沉寂，锈蚀的兵器映出贪婪的寒"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 1,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "王者万象棋",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1614798032",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E4%B8%87%E8%B1%A1%E6%A3%8B/id1614798032?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/5c/7a/025c7a40-b125-5ab9-1237-7283fcbf089a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《王者万象棋》由王者荣耀项目原班人马开发，是一款《王者荣耀》英雄策略对战新游。王者万象棋全面创新突破了“王者模拟战”的玩法体验，延续了玩家最熟悉的英雄阵容，节奏"
+        },
+        {
+          "rank": 35,
+          "name": "香草英雄团",
+          "publisher": "芜湖大灵网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6749613426",
+          "url": "https://apps.apple.com/cn/app/%E9%A6%99%E8%8D%89%E8%8B%B1%E9%9B%84%E5%9B%A2/id6749613426?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/a9/dd/5fa9dd71-d650-9190-e54b-952c86b12a4f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《香草英雄团》是一款轻松休闲，大世界探索的小队RPG手游。\n冒险者可轻松通过单手摇杆操作控制10人英雄团队征服探索被迷雾笼罩的香草大陆，领略高山、湖泊、沙漠、白"
+        },
+        {
+          "rank": 96,
+          "name": "英雄大对决",
+          "publisher": "Hainan Jiasheng Network Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6746191325",
+          "url": "https://apps.apple.com/cn/app/%E8%8B%B1%E9%9B%84%E5%A4%A7%E5%AF%B9%E5%86%B3/id6746191325?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/7f/03/2d7f0306-540e-b4f1-6796-cca7cd91b86d/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《英雄大对决》是一款结合了肉鸽元素、塔防策略与经营建造的休闲挂机萌系游戏！\r\n\r\n黑暗如墨汁般浸染大陆的每一寸肌理，哥布林的尖啸划破沉寂，锈蚀的兵器映出贪婪的寒"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 3,
+          "name": "ぷんぷん闘神",
+          "publisher": "Chase Online Company",
+          "category": "ゲーム",
+          "app_id": "6767176253",
+          "url": "https://apps.apple.com/jp/app/%E3%81%B7%E3%82%93%E3%81%B7%E3%82%93%E9%97%98%E7%A5%9E/id6767176253?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/e2/9d/09e29d10-2ded-e793-c8df-b6c1a059b41e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "ぷんぷんしたら、神にも勝てる！怒りを力に変えろ！\n『ぷんぷん闘神』は、放置育成と爽快なバトルが融合した神話ファンタジーRPG。\n個性豊かな神々や英雄たちを仲間に"
+        },
+        {
+          "rank": 66,
+          "name": "Z ルート：リデンプション",
+          "publisher": "BUILDING-BLOCKS NETWORK TECHNOLOGY CO.,LIMITED",
+          "category": "ゲーム",
+          "app_id": "6762268182",
+          "url": "https://apps.apple.com/jp/app/z-%E3%83%AB%E3%83%BC%E3%83%88-%E3%83%AA%E3%83%87%E3%83%B3%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3/id6762268182?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/f4/f7/daf4f773-1761-4734-0e1e-4ae0e632b497/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "この世界はすでに灰燼と化し、ゾンビがすべてを支配している。Z Route——それは最後の救済へと続く道、終末の死闘が繰り広げられる戦場だ。逃げ場はない。ただ銃を"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 95,
+          "name": "Last Shelter: War Z",
+          "publisher": "LAST ORIGIN STUDIO LIMITED",
+          "category": "ゲーム",
+          "app_id": "6760406772",
+          "url": "https://apps.apple.com/jp/app/last-shelter-war-z/id6760406772?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/56/50/9e5650cd-622a-cbef-822f-bafad759b39e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "人類最後の砦は陥落した。最後に残された生存者集団の指揮官として、あなたは終末後の過酷な新世界に立ち向かうことになる。あなたは廃墟となった地下シェルターに身を潜め"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 87,
+          "name": "Find The Cat 2 - Spot It!",
+          "publisher": "Agave Games",
+          "category": "ゲーム",
+          "app_id": "6758662578",
+          "url": "https://apps.apple.com/jp/app/find-the-cat-2-spot-it/id6758662578?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/19/73/d5197389-0db3-b630-6b25-85a89e9ca641/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to a brand-new adventure in the Find The Cat series. Get ready for a col"
+        },
+        {
+          "rank": 93,
+          "name": "カラーブロック コンボブラスト",
+          "publisher": "FLYYES TECHNOLOGY PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6478063606",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AB%E3%83%A9%E3%83%BC%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF-%E3%82%B3%E3%83%B3%E3%83%9C%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88/id6478063606?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/7d/38/287d38bd-98ef-219e-80f6-2e2d02045f98/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Color Block：究極のクラシック・ブロックパズルアドベンチャー\n\n時代を超えたブロックパズルを、クラシックにひとひねりしてお届け！\n\nColor Blo"
+        },
+        {
+          "rank": 97,
+          "name": "Family Farm Merge",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6760998152",
+          "url": "https://apps.apple.com/jp/app/family-farm-merge/id6760998152?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/29/00/462900b2-4a89-1e1d-8b30-bfe1574c98d7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Family Farm Merge：自然へと戻るマージの冒険！\n\n『Family Farm Merge』へようこそ。これは、名作『Family Farm』シリー"
+        },
+        {
+          "rank": 98,
+          "name": "ランダムダイス2",
+          "publisher": "111%",
+          "category": "ゲーム",
+          "app_id": "6748432502",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E3%83%80%E3%82%A4%E3%82%B92/id6748432502?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/66/b9/d866b9ac-a856-0de1-2c6e-2aceb907c91f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「待たせたな。俺が、《ランダムダイス2》だ。」\n\n不確実な確率と、課金に依存する時代はもう終わり！\nプレイヤーの純粋な「戦略」だけを残すため、ガチャシステムを果"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 3,
+          "name": "ぷんぷん闘神",
+          "publisher": "Chase Online Company",
+          "category": "ゲーム",
+          "app_id": "6767176253",
+          "url": "https://apps.apple.com/jp/app/%E3%81%B7%E3%82%93%E3%81%B7%E3%82%93%E9%97%98%E7%A5%9E/id6767176253?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/e2/9d/09e29d10-2ded-e793-c8df-b6c1a059b41e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "ぷんぷんしたら、神にも勝てる！怒りを力に変えろ！\n『ぷんぷん闘神』は、放置育成と爽快なバトルが融合した神話ファンタジーRPG。\n個性豊かな神々や英雄たちを仲間に"
+        },
+        {
+          "rank": 95,
+          "name": "Last Shelter: War Z",
+          "publisher": "LAST ORIGIN STUDIO LIMITED",
+          "category": "ゲーム",
+          "app_id": "6760406772",
+          "url": "https://apps.apple.com/jp/app/last-shelter-war-z/id6760406772?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/56/50/9e5650cd-622a-cbef-822f-bafad759b39e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "人類最後の砦は陥落した。最後に残された生存者集団の指揮官として、あなたは終末後の過酷な新世界に立ち向かうことになる。あなたは廃墟となった地下シェルターに身を潜め"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 4,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 3,
+          "name": "ぷんぷん闘神",
+          "publisher": "Chase Online Company",
+          "category": "ゲーム",
+          "app_id": "6767176253",
+          "url": "https://apps.apple.com/jp/app/%E3%81%B7%E3%82%93%E3%81%B7%E3%82%93%E9%97%98%E7%A5%9E/id6767176253?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/e2/9d/09e29d10-2ded-e793-c8df-b6c1a059b41e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "ぷんぷんしたら、神にも勝てる！怒りを力に変えろ！\n『ぷんぷん闘神』は、放置育成と爽快なバトルが融合した神話ファンタジーRPG。\n個性豊かな神々や英雄たちを仲間に"
+        },
+        {
+          "rank": 66,
+          "name": "Z ルート：リデンプション",
+          "publisher": "BUILDING-BLOCKS NETWORK TECHNOLOGY CO.,LIMITED",
+          "category": "ゲーム",
+          "app_id": "6762268182",
+          "url": "https://apps.apple.com/jp/app/z-%E3%83%AB%E3%83%BC%E3%83%88-%E3%83%AA%E3%83%87%E3%83%B3%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3/id6762268182?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/f4/f7/daf4f773-1761-4734-0e1e-4ae0e632b497/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "この世界はすでに灰燼と化し、ゾンビがすべてを支配している。Z Route——それは最後の救済へと続く道、終末の死闘が繰り広げられる戦場だ。逃げ場はない。ただ銃を"
+        },
+        {
+          "rank": 95,
+          "name": "Last Shelter: War Z",
+          "publisher": "LAST ORIGIN STUDIO LIMITED",
+          "category": "ゲーム",
+          "app_id": "6760406772",
+          "url": "https://apps.apple.com/jp/app/last-shelter-war-z/id6760406772?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/56/50/9e5650cd-622a-cbef-822f-bafad759b39e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "人類最後の砦は陥落した。最後に残された生存者集団の指揮官として、あなたは終末後の過酷な新世界に立ち向かうことになる。あなたは廃墟となった地下シェルターに身を潜め"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 11,
+          "name": "Fish Sort Puzzle: Fish Games",
+          "publisher": "Shycheese",
+          "category": "Games",
+          "package": "triple.sorting.bubble.fish.match"
+        },
+        {
+          "rank": 40,
+          "name": "Ball Sort Puzzle - Color Game",
+          "publisher": "Guru Puzzle Game",
+          "category": "Games",
+          "package": "ball.sort.puzzle.color.sorting.bubble.games"
+        },
+        {
+          "rank": 51,
+          "name": "Color by Number：Coloring Games",
+          "publisher": "Wildlife Studios",
+          "category": "Games",
+          "package": "com.tfgco.apps.coloring.free.color.by.number"
+        },
+        {
+          "rank": 52,
+          "name": "Jelly Master: Mukbang ASMR",
+          "publisher": "FALCON GAME",
+          "category": "Games",
+          "package": "com.fc.p.cp.jelly.mukbang.asmr.live.diy"
+        },
+        {
+          "rank": 60,
+          "name": "Bulldozer Master: Crush & Mine",
+          "publisher": "Supercent, Inc.",
+          "category": "Games",
+          "package": "io.supercent.bulldozermasters"
+        },
+        {
+          "rank": 78,
+          "name": "Avatar World ®",
+          "publisher": "Pazu Games",
+          "category": "Games",
+          "package": "com.pazugames.avatarworld"
+        },
+        {
+          "rank": 79,
+          "name": "Arrow Smash: Earn Cash",
+          "publisher": "PT ANUGRAH KERTAS UTAMA",
+          "category": "Games",
+          "package": "com.arrowswishwin.aethernova"
+        },
+        {
+          "rank": 83,
+          "name": "Snake.io - Fun Snake .io Games",
+          "publisher": "Kooapps Games | Fun Arcade and Casual Action Games",
+          "category": "Games",
+          "package": "com.amelosinteractive.snake"
+        },
+        {
+          "rank": 84,
+          "name": "Wool Crush™",
+          "publisher": "Astrasen Global",
+          "category": "Games",
+          "package": "wool.match.color.sort.jam.puzzle"
+        },
+        {
+          "rank": 88,
+          "name": "Chess - Play and Learn Online",
+          "publisher": "Chess.com",
+          "category": "Games",
+          "package": "com.chess"
+        },
+        {
+          "rank": 89,
+          "name": "Suck it Up ™ - Hole Them All",
+          "publisher": "Tactile Games",
+          "category": "Games",
+          "package": "dk.tactile.holegame"
+        },
+        {
+          "rank": 96,
+          "name": "Spider Fighter 3: Action Game",
+          "publisher": "Starplay FZCO",
+          "category": "Games",
+          "package": "com.starplay.spider.fighter.openworld"
+        },
+        {
+          "rank": 98,
+          "name": "Satisfying Toys : Calm Games",
+          "publisher": "Koko Zone",
+          "category": "Games",
+          "package": "com.kkz.antistress.satisfying.relax.toys.games"
+        },
+        {
+          "rank": 100,
+          "name": "Madden NFL 27 Mobile Football",
+          "publisher": "ELECTRONIC ARTS",
+          "category": "Games",
+          "package": "com.ea.gp.maddennfl21mobile"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 27,
+          "name": "Colony Flow!",
+          "publisher": "ABI GAMES PTE. LTD.",
+          "category": "Games",
+          "package": "com.abi.colony.flow"
+        },
+        {
+          "rank": 54,
+          "name": "Colorever: Gem Art Puzzle",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "package": "com.oakever.gemcoloring"
+        },
+        {
+          "rank": 56,
+          "name": "Tiles Survive!",
+          "publisher": "FunPlus International AG",
+          "category": "Games",
+          "package": "com.funplus.ts.global"
+        },
+        {
+          "rank": 64,
+          "name": "Police Chief",
+          "publisher": "VoyagerOne IE",
+          "category": "Games",
+          "package": "com.slg.policewar"
+        },
+        {
+          "rank": 66,
+          "name": "Clash of Clans",
+          "publisher": "Supercell",
+          "category": "Games",
+          "package": "com.supercell.clashofclans"
+        },
+        {
+          "rank": 85,
+          "name": "Foodstars: Merge & Cook",
+          "publisher": "Happibits Game",
+          "category": "Games",
+          "package": "com.merge.game.foodstars"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 61,
+          "name": "Z Route: Redemption",
+          "publisher": "37GAMES GLOBAL",
+          "category": "Games",
+          "package": "com.zroute.global"
+        },
+        {
+          "rank": 68,
+          "name": "Hidden Object Games: Seek It",
+          "publisher": "NimbleMind Network Inc.",
+          "category": "Games",
+          "package": "hidden.object.find.seek.search.mystery.puzzle.games.free"
+        },
+        {
+          "rank": 69,
+          "name": "Kick & Break The Ragdoll Games",
+          "publisher": "Game District LLC",
+          "category": "Games",
+          "package": "com.playflix.kick.breakragdoll.games"
+        },
+        {
+          "rank": 70,
+          "name": "My Talking Tom 2: Pet Game",
+          "publisher": "Outfit7 Limited",
+          "category": "Games",
+          "package": "com.outfit7.mytalkingtom2"
+        },
+        {
+          "rank": 76,
+          "name": "Angry Smash",
+          "publisher": "Tripledot Studios Limited",
+          "category": "Games",
+          "package": "com.tripledot.angrysmash"
+        },
+        {
+          "rank": 77,
+          "name": "I Am Cat",
+          "publisher": "Estoty",
+          "category": "Games",
+          "package": "com.NewFolderGames.IAmCat"
+        },
+        {
+          "rank": 80,
+          "name": "Double Tile!",
+          "publisher": "HungryStudio",
+          "category": "Games",
+          "package": "com.hungrystudio.mahjong"
+        },
+        {
+          "rank": 81,
+          "name": "Wordscapes Search: Word Games",
+          "publisher": "PeopleFun",
+          "category": "Games",
+          "package": "com.peoplefun.wordsearch"
+        },
+        {
+          "rank": 87,
+          "name": "Zoodoku",
+          "publisher": "Nebula  Studio",
+          "category": "Games",
+          "package": "com.nebula.zoodoku"
+        },
+        {
+          "rank": 92,
+          "name": "Epic Plane Evolution",
+          "publisher": "VOODOO",
+          "category": "Games",
+          "package": "com.WalkTalk.FlightMaster"
+        },
+        {
+          "rank": 94,
+          "name": "Find It Out® - Hidden Object",
+          "publisher": "Guru Puzzle Game",
+          "category": "Games",
+          "package": "find.out.hidden.objects.seek.puzzle.games.free"
+        },
+        {
+          "rank": 95,
+          "name": "Lamar - Idle Vlogger",
+          "publisher": "CrazyLabs LTD",
+          "category": "Games",
+          "package": "com.advant.streamer"
+        },
+        {
+          "rank": 97,
+          "name": "Toon Blast",
+          "publisher": "Peak",
+          "category": "Games",
+          "package": "net.peakgames.toonblast"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 11,
+          "name": "Fish Sort Puzzle: Fish Games",
+          "publisher": "Shycheese",
+          "category": "Games",
+          "package": "triple.sorting.bubble.fish.match"
+        },
+        {
+          "rank": 27,
+          "name": "Colony Flow!",
+          "publisher": "ABI GAMES PTE. LTD.",
+          "category": "Games",
+          "package": "com.abi.colony.flow"
+        },
+        {
+          "rank": 52,
+          "name": "Jelly Master: Mukbang ASMR",
+          "publisher": "FALCON GAME",
+          "category": "Games",
+          "package": "com.fc.p.cp.jelly.mukbang.asmr.live.diy"
+        },
+        {
+          "rank": 56,
+          "name": "Tiles Survive!",
+          "publisher": "FunPlus International AG",
+          "category": "Games",
+          "package": "com.funplus.ts.global"
+        },
+        {
+          "rank": 66,
+          "name": "Clash of Clans",
+          "publisher": "Supercell",
+          "category": "Games",
+          "package": "com.supercell.clashofclans"
+        },
+        {
+          "rank": 78,
+          "name": "Avatar World ®",
+          "publisher": "Pazu Games",
+          "category": "Games",
+          "package": "com.pazugames.avatarworld"
+        },
+        {
+          "rank": 79,
+          "name": "Arrow Smash: Earn Cash",
+          "publisher": "PT ANUGRAH KERTAS UTAMA",
+          "category": "Games",
+          "package": "com.arrowswishwin.aethernova"
+        },
+        {
+          "rank": 83,
+          "name": "Snake.io - Fun Snake .io Games",
+          "publisher": "Kooapps Games | Fun Arcade and Casual Action Games",
+          "category": "Games",
+          "package": "com.amelosinteractive.snake"
+        },
+        {
+          "rank": 84,
+          "name": "Wool Crush™",
+          "publisher": "Astrasen Global",
+          "category": "Games",
+          "package": "wool.match.color.sort.jam.puzzle"
+        },
+        {
+          "rank": 88,
+          "name": "Chess - Play and Learn Online",
+          "publisher": "Chess.com",
+          "category": "Games",
+          "package": "com.chess"
+        },
+        {
+          "rank": 89,
+          "name": "Suck it Up ™ - Hole Them All",
+          "publisher": "Tactile Games",
+          "category": "Games",
+          "package": "dk.tactile.holegame"
+        },
+        {
+          "rank": 98,
+          "name": "Satisfying Toys : Calm Games",
+          "publisher": "Koko Zone",
+          "category": "Games",
+          "package": "com.kkz.antistress.satisfying.relax.toys.games"
+        }
+      ],
+      "totals": {
+        "new_to_board": 20,
+        "returning": 13,
+        "new_publishers": 12
+      },
+      "new_to_board": [
+        {
+          "rank": 11,
+          "name": "Fish Sort Puzzle: Fish Games",
+          "publisher": "Shycheese",
+          "category": "Games",
+          "package": "triple.sorting.bubble.fish.match"
+        },
+        {
+          "rank": 27,
+          "name": "Colony Flow!",
+          "publisher": "ABI GAMES PTE. LTD.",
+          "category": "Games",
+          "package": "com.abi.colony.flow"
+        },
+        {
+          "rank": 40,
+          "name": "Ball Sort Puzzle - Color Game",
+          "publisher": "Guru Puzzle Game",
+          "category": "Games",
+          "package": "ball.sort.puzzle.color.sorting.bubble.games"
+        },
+        {
+          "rank": 51,
+          "name": "Color by Number：Coloring Games",
+          "publisher": "Wildlife Studios",
+          "category": "Games",
+          "package": "com.tfgco.apps.coloring.free.color.by.number"
+        },
+        {
+          "rank": 52,
+          "name": "Jelly Master: Mukbang ASMR",
+          "publisher": "FALCON GAME",
+          "category": "Games",
+          "package": "com.fc.p.cp.jelly.mukbang.asmr.live.diy"
+        },
+        {
+          "rank": 54,
+          "name": "Colorever: Gem Art Puzzle",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "package": "com.oakever.gemcoloring"
+        },
+        {
+          "rank": 56,
+          "name": "Tiles Survive!",
+          "publisher": "FunPlus International AG",
+          "category": "Games",
+          "package": "com.funplus.ts.global"
+        },
+        {
+          "rank": 60,
+          "name": "Bulldozer Master: Crush & Mine",
+          "publisher": "Supercent, Inc.",
+          "category": "Games",
+          "package": "io.supercent.bulldozermasters"
+        },
+        {
+          "rank": 64,
+          "name": "Police Chief",
+          "publisher": "VoyagerOne IE",
+          "category": "Games",
+          "package": "com.slg.policewar"
+        },
+        {
+          "rank": 66,
+          "name": "Clash of Clans",
+          "publisher": "Supercell",
+          "category": "Games",
+          "package": "com.supercell.clashofclans"
+        },
+        {
+          "rank": 78,
+          "name": "Avatar World ®",
+          "publisher": "Pazu Games",
+          "category": "Games",
+          "package": "com.pazugames.avatarworld"
+        },
+        {
+          "rank": 79,
+          "name": "Arrow Smash: Earn Cash",
+          "publisher": "PT ANUGRAH KERTAS UTAMA",
+          "category": "Games",
+          "package": "com.arrowswishwin.aethernova"
+        },
+        {
+          "rank": 83,
+          "name": "Snake.io - Fun Snake .io Games",
+          "publisher": "Kooapps Games | Fun Arcade and Casual Action Games",
+          "category": "Games",
+          "package": "com.amelosinteractive.snake"
+        },
+        {
+          "rank": 84,
+          "name": "Wool Crush™",
+          "publisher": "Astrasen Global",
+          "category": "Games",
+          "package": "wool.match.color.sort.jam.puzzle"
+        },
+        {
+          "rank": 85,
+          "name": "Foodstars: Merge & Cook",
+          "publisher": "Happibits Game",
+          "category": "Games",
+          "package": "com.merge.game.foodstars"
+        },
+        {
+          "rank": 88,
+          "name": "Chess - Play and Learn Online",
+          "publisher": "Chess.com",
+          "category": "Games",
+          "package": "com.chess"
+        },
+        {
+          "rank": 89,
+          "name": "Suck it Up ™ - Hole Them All",
+          "publisher": "Tactile Games",
+          "category": "Games",
+          "package": "dk.tactile.holegame"
+        },
+        {
+          "rank": 96,
+          "name": "Spider Fighter 3: Action Game",
+          "publisher": "Starplay FZCO",
+          "category": "Games",
+          "package": "com.starplay.spider.fighter.openworld"
+        },
+        {
+          "rank": 98,
+          "name": "Satisfying Toys : Calm Games",
+          "publisher": "Koko Zone",
+          "category": "Games",
+          "package": "com.kkz.antistress.satisfying.relax.toys.games"
+        },
+        {
+          "rank": 100,
+          "name": "Madden NFL 27 Mobile Football",
+          "publisher": "ELECTRONIC ARTS",
+          "category": "Games",
+          "package": "com.ea.gp.maddennfl21mobile"
+        }
+      ]
+    }
+  }
+}
