@@ -1,0 +1,939 @@
+{
+  "date": "2026-09-11",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "找个儿不同",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "厦门市指丰科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "下方了",
+          "category": "休闲",
+          "category_rank": 12,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "深圳飞鱼星空科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "开车我贼6",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "陇川县章凤龙凤移动通讯店",
+          "change": "5",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 7,
+          "name": "神奇改造师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "无需下载，点击即玩",
+          "publisher": "深圳炘之科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 4,
+          "name": "野外跳水挑战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "凌空飞跃，挑战水域新高度！",
+          "publisher": "武汉爆鸣互娱科技有限公司",
+          "change": "84",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "躺平发育",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "门不倒，人不跑，看看你能撑几秒！",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "change": "4",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 7,
+          "name": "神奇改造师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "无需下载，点击即玩",
+          "publisher": "深圳炘之科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 7,
+          "name": "神奇改造师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "无需下载，点击即玩",
+          "publisher": "深圳炘之科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 6,
+          "name": "三国杀",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "三分钟一局，快节奏对战",
+          "publisher": "杭州游卡网络技术有限公司",
+          "change": "55",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "梦仙灵",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "可体验挂机修仙、主支线剧情，通过打怪升级提升战力",
+          "publisher": "广州信跃网络技术有限公司",
+          "change": "5",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "像素方块冒险世界",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "方块人建造悬崖别墅，挂机敛财",
+          "publisher": "厦门大橙互娱科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 11,
+          "name": "指尖欢乐坊",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "指尖欢乐坊！",
+          "publisher": "广州粤良科技有限公司",
+          "change": "15",
+          "change_direction": "down"
+        },
+        {
+          "rank": 12,
+          "name": "罗布乐思钓鱼",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "在多样水域抛竿垂钓，解锁珍稀鱼类，成长为钓鱼大师",
+          "publisher": "厦门石猿科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 13,
+          "name": "迷宫挑战解谜",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "结伴穿梭昏暗迷宫搜寻出路，避开诡异怪物，携手完成后室密室逃生",
+          "publisher": "厦门大橙互娱科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 15,
+          "name": "咕嘎咕嘎",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "合成角色挖掘方块，开启宝箱，收集金币并挑战关卡。",
+          "publisher": "合肥金蛋互动科技有限公司",
+          "change": "10",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "地府撤离",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "《地府撤离》是一款休闲游戏。",
+          "publisher": "广州游伦网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 16,
+          "name": "随手画个轮",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "画车轮，过难关，三角轮胎VS圆轮胎，谁才是最强赛道之王",
+          "publisher": "广州易游互玩科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 6,
+          "name": "极限破译",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "埋藏了千年的真相，您能探寻到吗？",
+          "publisher": "杭州祈游网络科技有限公司",
+          "change": "16",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "剑侠世界：起源",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "剑侠情缘，传承之作",
+          "publisher": "成都西山居世游科技有限公司",
+          "change": "22",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "顶住啊兄弟",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "顶住啊兄弟",
+          "publisher": "湖南中昱智云物联科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 15,
+          "name": "咕嘎咕嘎",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "合成角色挖掘方块，开启宝箱，收集金币并挑战关卡。",
+          "publisher": "合肥金蛋互动科技有限公司",
+          "change": "10",
+          "change_direction": "down"
+        }
+      ],
+      "totals": {
+        "new_to_board": 7,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "像素方块冒险世界",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "方块人建造悬崖别墅，挂机敛财",
+          "publisher": "厦门大橙互娱科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 11,
+          "name": "指尖欢乐坊",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "指尖欢乐坊！",
+          "publisher": "广州粤良科技有限公司",
+          "change": "15",
+          "change_direction": "down"
+        },
+        {
+          "rank": 12,
+          "name": "罗布乐思钓鱼",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "在多样水域抛竿垂钓，解锁珍稀鱼类，成长为钓鱼大师",
+          "publisher": "厦门石猿科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 13,
+          "name": "迷宫挑战解谜",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "结伴穿梭昏暗迷宫搜寻出路，避开诡异怪物，携手完成后室密室逃生",
+          "publisher": "厦门大橙互娱科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 15,
+          "name": "咕嘎咕嘎",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "合成角色挖掘方块，开启宝箱，收集金币并挑战关卡。",
+          "publisher": "合肥金蛋互动科技有限公司",
+          "change": "10",
+          "change_direction": "down"
+        },
+        {
+          "rank": 16,
+          "name": "随手画个轮",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "画车轮，过难关，三角轮胎VS圆轮胎，谁才是最强赛道之王",
+          "publisher": "广州易游互玩科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "地府撤离",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "《地府撤离》是一款休闲游戏。",
+          "publisher": "广州游伦网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 2,
+          "name": "代号:暗火",
+          "publisher": "黯火小队工作室",
+          "category": "射击",
+          "subcategory": "动作、刷宝、割草、角色扮演、美少女、策略"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "拳皇·命运",
+          "publisher": "Wanda Game",
+          "category": "动作",
+          "subcategory": "格斗、竞技、PVP、街机、休闲"
+        },
+        {
+          "rank": 6,
+          "name": "烽火望长安",
+          "publisher": "万紫游戏",
+          "category": "国风",
+          "subcategory": "历史、策略、卡牌"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "代号:暗火",
+          "publisher": "黯火小队工作室",
+          "category": "射击",
+          "subcategory": "动作、刷宝、割草、角色扮演、美少女、策略"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 60,
+          "name": "Lumina Saga M",
+          "publisher": "HYPER HEAT INTERACTIVE CO., LIMITED",
+          "category": "Games",
+          "app_id": "6759653523",
+          "url": "https://apps.apple.com/us/app/lumina-saga-m/id6759653523?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/fd/10/b2fd1033-c1e7-e3ca-4253-971ac7f68146/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A Dream World Awaits\n\nEnter the colorful world of LUMINA SAGA, where fantasy adv"
+        },
+        {
+          "rank": 100,
+          "name": "We Are Cooking",
+          "publisher": "Matryoshka Games (CY) LTD",
+          "category": "Games",
+          "app_id": "6498920694",
+          "url": "https://apps.apple.com/us/app/we-are-cooking/id6498920694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/f3/29/a3f3296e-218e-d0db-f02e-60bd291d76c6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to We Are Cooking, a game designed for food lovers who enjoy cooking at "
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 91,
+          "name": "Last Z: Survival Shooter",
+          "publisher": "Omnilojo Pte Ltd",
+          "category": "Games",
+          "app_id": "6503272652",
+          "url": "https://apps.apple.com/us/app/last-z-survival-shooter/id6503272652?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/3a/da/083ada8d-3366-6c51-c9d4-c11bc9ceccd1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "In an apocalyptic world overrun by the undead, where the fate of humanity hangs "
+        },
+        {
+          "rank": 94,
+          "name": "Mahjong Clash: Win Real Cash",
+          "publisher": "Aviagames Inc.",
+          "category": "Games",
+          "app_id": "6760530627",
+          "url": "https://apps.apple.com/us/app/mahjong-clash-win-real-cash/id6760530627?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/a5/78/ada578cb-f1eb-7502-0242-14d7ea299bdf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Mahjong Clash – Play Mahjong & Compete for Real Cash\nMahjong Clash brings classi"
+        },
+        {
+          "rank": 99,
+          "name": "Snake Puzzle: Slither to Eat!",
+          "publisher": "Superboost Soft Limited",
+          "category": "Games",
+          "app_id": "6751537447",
+          "url": "https://apps.apple.com/us/app/snake-puzzle-slither-to-eat/id6751537447?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/18/c9/6b18c940-bf58-5ef6-b921-e102289e025a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Guide your snake through tricky puzzles, eat apples to grow longer, and reach th"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 60,
+          "name": "Lumina Saga M",
+          "publisher": "HYPER HEAT INTERACTIVE CO., LIMITED",
+          "category": "Games",
+          "app_id": "6759653523",
+          "url": "https://apps.apple.com/us/app/lumina-saga-m/id6759653523?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/fd/10/b2fd1033-c1e7-e3ca-4253-971ac7f68146/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A Dream World Awaits\n\nEnter the colorful world of LUMINA SAGA, where fantasy adv"
+        },
+        {
+          "rank": 100,
+          "name": "We Are Cooking",
+          "publisher": "Matryoshka Games (CY) LTD",
+          "category": "Games",
+          "app_id": "6498920694",
+          "url": "https://apps.apple.com/us/app/we-are-cooking/id6498920694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/f3/29/a3f3296e-218e-d0db-f02e-60bd291d76c6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to We Are Cooking, a game designed for food lovers who enjoy cooking at "
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 60,
+          "name": "Lumina Saga M",
+          "publisher": "HYPER HEAT INTERACTIVE CO., LIMITED",
+          "category": "Games",
+          "app_id": "6759653523",
+          "url": "https://apps.apple.com/us/app/lumina-saga-m/id6759653523?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/fd/10/b2fd1033-c1e7-e3ca-4253-971ac7f68146/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A Dream World Awaits\n\nEnter the colorful world of LUMINA SAGA, where fantasy adv"
+        },
+        {
+          "rank": 100,
+          "name": "We Are Cooking",
+          "publisher": "Matryoshka Games (CY) LTD",
+          "category": "Games",
+          "app_id": "6498920694",
+          "url": "https://apps.apple.com/us/app/we-are-cooking/id6498920694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/f3/29/a3f3296e-218e-d0db-f02e-60bd291d76c6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to We Are Cooking, a game designed for food lovers who enjoy cooking at "
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 11,
+          "name": "富贵小羊-锦线牧灵羊",
+          "publisher": "录嘉 王",
+          "category": "游戏",
+          "app_id": "6800314521",
+          "url": "https://apps.apple.com/cn/app/%E5%AF%8C%E8%B4%B5%E5%B0%8F%E7%BE%8A-%E9%94%A6%E7%BA%BF%E7%89%A7%E7%81%B5%E7%BE%8A/id6800314521?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/24/b8/7a24b844-b472-ad71-4daf-f32fdd7638aa/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "本作是一款以祥羊纳福、聚财聚宝为主题的国风休闲益智游戏。游戏融汇四种趣味玩法，操作简约轻快，以拖拽、连线、控闸、画径为主，轻操作、重巧思，兼具闲趣与策略，步步皆"
+        },
+        {
+          "rank": 12,
+          "name": "地铁跑酷 - 寻灵山海古都归来",
+          "publisher": "iDreamSky Technology Limited",
+          "category": "游戏",
+          "app_id": "995122577",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E9%93%81%E8%B7%91%E9%85%B7-%E5%AF%BB%E7%81%B5%E5%B1%B1%E6%B5%B7%E5%8F%A4%E9%83%BD%E5%BD%92%E6%9D%A5/id995122577?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/56/2a/fc562ac2-2a7d-5d99-cb62-4136cc398a01/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【游戏特色】\n《地铁跑酷》洛阳神游版本开启！重返千年神都洛阳，穿行古朴城楼、恢弘宫阙与传统街巷，在古都风光与山海奇境交织的赛道中，开启一场跨越千年的东方奇幻之旅"
+        },
+        {
+          "rank": 21,
+          "name": "阴阳师 - 十周年送十连十金",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "895670960",
+          "url": "https://apps.apple.com/cn/app/%E9%98%B4%E9%98%B3%E5%B8%88-%E5%8D%81%E5%91%A8%E5%B9%B4%E9%80%81%E5%8D%81%E8%BF%9E%E5%8D%81%E9%87%91/id895670960?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/92/ae/2a92ae86-e33c-9c72-d19f-b016b0045a05/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "阴阳师，你我共创的绮美世界\n\n【游戏介绍】\n《阴阳师》是网易游戏匠心巨制的3D半即时回合制RPG手游。以平安时代为背景，讲述人鬼共生的奇幻故事。在唯美写意的画风"
+        },
+        {
+          "rank": 22,
+          "name": "轻松快解压-鸭鸭觅途",
+          "publisher": "诗婷 渠",
+          "category": "游戏",
+          "app_id": "6803478700",
+          "url": "https://apps.apple.com/cn/app/%E8%BD%BB%E6%9D%BE%E5%BF%AB%E8%A7%A3%E5%8E%8B-%E9%B8%AD%E9%B8%AD%E8%A7%85%E9%80%94/id6803478700?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/ca/dc/70cadcd6-f542-3d2b-a9ae-a3dcaf510f37/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "操控可爱小黄鸭闯荡趣味迷宫，吃光地图里所有南瓜，抵达黑白棋盘终点即可通关。滑动操控紫色区块，规划你的前进路线，小心灰色石块阻挡前路。\n两大模式随心玩：\n关卡挑战"
+        },
+        {
+          "rank": 80,
+          "name": "绝区零",
+          "publisher": "miHoYo Games",
+          "category": "游戏",
+          "app_id": "1606359076",
+          "url": "https://apps.apple.com/cn/app/%E7%BB%9D%E5%8C%BA%E9%9B%B6/id1606359076?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/18/91/9c18913d-f0bc-6832-2ca6-0732e36b50e9/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "不要进入空洞。\n我知道我知道，空洞里有以太资源、有异化造物、甚至有旧文明的遗产，全都是珍贵的财富。\n但是别忘了，那里面空间紊乱，怪物肆虐，异变横生，终究是一场吞"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 59,
+          "name": "小冰冰斗蛐蛐",
+          "publisher": "上海莉莉丝计算机",
+          "category": "游戏",
+          "app_id": "6785356130",
+          "url": "https://apps.apple.com/cn/app/%E5%B0%8F%E5%86%B0%E5%86%B0%E6%96%97%E8%9B%90%E8%9B%90/id6785356130?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/86/d5/b886d559-8b3d-6e90-2985-4f9e58e522f2/AppIcon-Mainland-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【原班团队，新作来袭】\n小冰冰传奇团队打造的IP新作，单手竖屏，选技乱斗，带你找回记忆中最纯粹的竞技场策略博弈！\n\n【千种技能，自由构筑】\n千种技能，百个符文，"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 72,
+          "name": "消灭星星全新版",
+          "publisher": "Zplay (Beijing) Info. Tech. Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "834878585",
+          "url": "https://apps.apple.com/cn/app/%E6%B6%88%E7%81%AD%E6%98%9F%E6%98%9F%E5%85%A8%E6%96%B0%E7%89%88/id834878585?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/be/c2/5bbec20d-bb6c-1b95-c9d1-498f048f410d/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "消灭星星全新版——5亿人都在玩的解压神器，经典回味，爽感加倍！\n【经典点消 回味永恒】 轻轻一点，星星爆破，经典音效瞬间迸发！简单到3岁会上手，上瘾到3小时停不"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 11,
+          "name": "富贵小羊-锦线牧灵羊",
+          "publisher": "录嘉 王",
+          "category": "游戏",
+          "app_id": "6800314521",
+          "url": "https://apps.apple.com/cn/app/%E5%AF%8C%E8%B4%B5%E5%B0%8F%E7%BE%8A-%E9%94%A6%E7%BA%BF%E7%89%A7%E7%81%B5%E7%BE%8A/id6800314521?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/24/b8/7a24b844-b472-ad71-4daf-f32fdd7638aa/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "本作是一款以祥羊纳福、聚财聚宝为主题的国风休闲益智游戏。游戏融汇四种趣味玩法，操作简约轻快，以拖拽、连线、控闸、画径为主，轻操作、重巧思，兼具闲趣与策略，步步皆"
+        },
+        {
+          "rank": 22,
+          "name": "轻松快解压-鸭鸭觅途",
+          "publisher": "诗婷 渠",
+          "category": "游戏",
+          "app_id": "6803478700",
+          "url": "https://apps.apple.com/cn/app/%E8%BD%BB%E6%9D%BE%E5%BF%AB%E8%A7%A3%E5%8E%8B-%E9%B8%AD%E9%B8%AD%E8%A7%85%E9%80%94/id6803478700?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/ca/dc/70cadcd6-f542-3d2b-a9ae-a3dcaf510f37/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "操控可爱小黄鸭闯荡趣味迷宫，吃光地图里所有南瓜，抵达黑白棋盘终点即可通关。滑动操控紫色区块，规划你的前进路线，小心灰色石块阻挡前路。\n两大模式随心玩：\n关卡挑战"
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 1,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 11,
+          "name": "富贵小羊-锦线牧灵羊",
+          "publisher": "录嘉 王",
+          "category": "游戏",
+          "app_id": "6800314521",
+          "url": "https://apps.apple.com/cn/app/%E5%AF%8C%E8%B4%B5%E5%B0%8F%E7%BE%8A-%E9%94%A6%E7%BA%BF%E7%89%A7%E7%81%B5%E7%BE%8A/id6800314521?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/24/b8/7a24b844-b472-ad71-4daf-f32fdd7638aa/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "本作是一款以祥羊纳福、聚财聚宝为主题的国风休闲益智游戏。游戏融汇四种趣味玩法，操作简约轻快，以拖拽、连线、控闸、画径为主，轻操作、重巧思，兼具闲趣与策略，步步皆"
+        },
+        {
+          "rank": 12,
+          "name": "地铁跑酷 - 寻灵山海古都归来",
+          "publisher": "iDreamSky Technology Limited",
+          "category": "游戏",
+          "app_id": "995122577",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E9%93%81%E8%B7%91%E9%85%B7-%E5%AF%BB%E7%81%B5%E5%B1%B1%E6%B5%B7%E5%8F%A4%E9%83%BD%E5%BD%92%E6%9D%A5/id995122577?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/56/2a/fc562ac2-2a7d-5d99-cb62-4136cc398a01/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【游戏特色】\n《地铁跑酷》洛阳神游版本开启！重返千年神都洛阳，穿行古朴城楼、恢弘宫阙与传统街巷，在古都风光与山海奇境交织的赛道中，开启一场跨越千年的东方奇幻之旅"
+        },
+        {
+          "rank": 21,
+          "name": "阴阳师 - 十周年送十连十金",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "895670960",
+          "url": "https://apps.apple.com/cn/app/%E9%98%B4%E9%98%B3%E5%B8%88-%E5%8D%81%E5%91%A8%E5%B9%B4%E9%80%81%E5%8D%81%E8%BF%9E%E5%8D%81%E9%87%91/id895670960?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/92/ae/2a92ae86-e33c-9c72-d19f-b016b0045a05/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "阴阳师，你我共创的绮美世界\n\n【游戏介绍】\n《阴阳师》是网易游戏匠心巨制的3D半即时回合制RPG手游。以平安时代为背景，讲述人鬼共生的奇幻故事。在唯美写意的画风"
+        },
+        {
+          "rank": 22,
+          "name": "轻松快解压-鸭鸭觅途",
+          "publisher": "诗婷 渠",
+          "category": "游戏",
+          "app_id": "6803478700",
+          "url": "https://apps.apple.com/cn/app/%E8%BD%BB%E6%9D%BE%E5%BF%AB%E8%A7%A3%E5%8E%8B-%E9%B8%AD%E9%B8%AD%E8%A7%85%E9%80%94/id6803478700?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/ca/dc/70cadcd6-f542-3d2b-a9ae-a3dcaf510f37/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "操控可爱小黄鸭闯荡趣味迷宫，吃光地图里所有南瓜，抵达黑白棋盘终点即可通关。滑动操控紫色区块，规划你的前进路线，小心灰色石块阻挡前路。\n两大模式随心玩：\n关卡挑战"
+        },
+        {
+          "rank": 59,
+          "name": "小冰冰斗蛐蛐",
+          "publisher": "上海莉莉丝计算机",
+          "category": "游戏",
+          "app_id": "6785356130",
+          "url": "https://apps.apple.com/cn/app/%E5%B0%8F%E5%86%B0%E5%86%B0%E6%96%97%E8%9B%90%E8%9B%90/id6785356130?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/86/d5/b886d559-8b3d-6e90-2985-4f9e58e522f2/AppIcon-Mainland-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【原班团队，新作来袭】\n小冰冰传奇团队打造的IP新作，单手竖屏，选技乱斗，带你找回记忆中最纯粹的竞技场策略博弈！\n\n【千种技能，自由构筑】\n千种技能，百个符文，"
+        },
+        {
+          "rank": 80,
+          "name": "绝区零",
+          "publisher": "miHoYo Games",
+          "category": "游戏",
+          "app_id": "1606359076",
+          "url": "https://apps.apple.com/cn/app/%E7%BB%9D%E5%8C%BA%E9%9B%B6/id1606359076?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/18/91/9c18913d-f0bc-6832-2ca6-0732e36b50e9/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "不要进入空洞。\n我知道我知道，空洞里有以太资源、有异化造物、甚至有旧文明的遗产，全都是珍贵的财富。\n但是别忘了，那里面空间紊乱，怪物肆虐，异变横生，终究是一场吞"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "サカモトデイズ　ミッション：ローグ ドーン",
+          "publisher": "Rudel inc.",
+          "category": "ゲーム",
+          "app_id": "6756270200",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B5%E3%82%AB%E3%83%A2%E3%83%88%E3%83%87%E3%82%A4%E3%82%BA-%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3-%E3%83%AD%E3%83%BC%E3%82%B0-%E3%83%89%E3%83%BC%E3%83%B3/id6756270200?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/01/a4/2801a494-bbf1-99e0-7d5c-bdb39d8ae630/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "TVアニメ『SAKAMOTO DAYS』の新作ゲームが育成×ローグライトアクションで登場！\n\n迫りくる\"殺し屋\"を蹴散らし、勝機を掴みとれ。\n・直感操作の\"回避"
+        },
+        {
+          "rank": 2,
+          "name": "[777Real]緑ドン VIVA！情熱南米編",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6804965220",
+          "url": "https://apps.apple.com/jp/app/777real-%E7%B7%91%E3%83%89%E3%83%B3-viva-%E6%83%85%E7%86%B1%E5%8D%97%E7%B1%B3%E7%B7%A8/id6804965220?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/55/60/1b556044-4188-8119-8a5e-6d9232dfad98/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\n緑ドン VIVA！情熱南米編\n2010年/エレコ\n--------------"
+        },
+        {
+          "rank": 80,
+          "name": "ブラウンダスト２ 胸いっぱいのRPG",
+          "publisher": "NEOWIZ",
+          "category": "ゲーム",
+          "app_id": "6450099588",
+          "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%80%E3%82%B9%E3%83%88%EF%BC%92-%E8%83%B8%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%AErpg/id6450099588?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/00/7e/21007ec3-f524-54f1-dd70-f6411ef1d596/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "▣ゲーム紹介▣\n\n■ ブラウンダスト2×魔都精兵のスレイブ2コラボ ■\nブラウンダスト2と魔都精兵のスレイブ2が出会った\n羽前京香、出雲天花、山城恋がブラウンダ"
+        },
+        {
+          "rank": 94,
+          "name": "777Real(777リアル) パチンコ･パチスロアプリ",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "1545088576",
+          "url": "https://apps.apple.com/jp/app/777real-777%E3%83%AA%E3%82%A2%E3%83%AB-%E3%83%91%E3%83%81%E3%83%B3%E3%82%B3-%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD%E3%82%A2%E3%83%97%E3%83%AA/id1545088576?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/e3/8b/0de38b6d-04bc-7ec6-c9a7-bb57befc120d/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\n777Real（スリーセブンリアル）\n--------------------"
+        },
+        {
+          "rank": 99,
+          "name": "ツリーオブセイヴァー：ネバーランド",
+          "publisher": "Qookka Games",
+          "category": "ゲーム",
+          "app_id": "6445884108",
+          "url": "https://apps.apple.com/jp/app/%E3%83%84%E3%83%AA%E3%83%BC%E3%82%AA%E3%83%96%E3%82%BB%E3%82%A4%E3%83%B4%E3%82%A1%E3%83%BC-%E3%83%8D%E3%83%90%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89/id6445884108?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/51/6b/7b516bae-f25d-3a5d-db29-474de56f5d81/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "1. 10日間の「衣装取り放題」！200種類以上の豪華衣装ドロップラッシュ！\n新たな冒険の楽園【森息の霊境】が期間限定オープン！仲間と一緒に衣装コレクターになっ"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 92,
+          "name": "ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG",
+          "publisher": "SQUARE ENIX",
+          "category": "ゲーム",
+          "app_id": "6747736697",
+          "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%B9%E3%83%9E%E3%83%83%E3%82%B7%E3%83%A5%E3%82%B0%E3%83%AD%E3%82%A6-%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A8%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%88rpg/id6747736697?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/a2/61/99a26144-5ec2-ff05-d60c-0902c74a0d07/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ドラゴンクエスト×直感＆爽快フィールドバトル！\n\nローグライトRPGで始まる新たなる冒険の旅へ\n\n直感操作でモンスターの群れを斬ってかわして、必殺技で一気に吹き"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "サカモトデイズ　ミッション：ローグ ドーン",
+          "publisher": "Rudel inc.",
+          "category": "ゲーム",
+          "app_id": "6756270200",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B5%E3%82%AB%E3%83%A2%E3%83%88%E3%83%87%E3%82%A4%E3%82%BA-%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3-%E3%83%AD%E3%83%BC%E3%82%B0-%E3%83%89%E3%83%BC%E3%83%B3/id6756270200?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/01/a4/2801a494-bbf1-99e0-7d5c-bdb39d8ae630/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "TVアニメ『SAKAMOTO DAYS』の新作ゲームが育成×ローグライトアクションで登場！\n\n迫りくる\"殺し屋\"を蹴散らし、勝機を掴みとれ。\n・直感操作の\"回避"
+        },
+        {
+          "rank": 80,
+          "name": "ブラウンダスト２ 胸いっぱいのRPG",
+          "publisher": "NEOWIZ",
+          "category": "ゲーム",
+          "app_id": "6450099588",
+          "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%80%E3%82%B9%E3%83%88%EF%BC%92-%E8%83%B8%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%AErpg/id6450099588?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/00/7e/21007ec3-f524-54f1-dd70-f6411ef1d596/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "▣ゲーム紹介▣\n\n■ ブラウンダスト2×魔都精兵のスレイブ2コラボ ■\nブラウンダスト2と魔都精兵のスレイブ2が出会った\n羽前京香、出雲天花、山城恋がブラウンダ"
+        },
+        {
+          "rank": 99,
+          "name": "ツリーオブセイヴァー：ネバーランド",
+          "publisher": "Qookka Games",
+          "category": "ゲーム",
+          "app_id": "6445884108",
+          "url": "https://apps.apple.com/jp/app/%E3%83%84%E3%83%AA%E3%83%BC%E3%82%AA%E3%83%96%E3%82%BB%E3%82%A4%E3%83%B4%E3%82%A1%E3%83%BC-%E3%83%8D%E3%83%90%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89/id6445884108?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/51/6b/7b516bae-f25d-3a5d-db29-474de56f5d81/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "1. 10日間の「衣装取り放題」！200種類以上の豪華衣装ドロップラッシュ！\n新たな冒険の楽園【森息の霊境】が期間限定オープン！仲間と一緒に衣装コレクターになっ"
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 1,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "サカモトデイズ　ミッション：ローグ ドーン",
+          "publisher": "Rudel inc.",
+          "category": "ゲーム",
+          "app_id": "6756270200",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B5%E3%82%AB%E3%83%A2%E3%83%88%E3%83%87%E3%82%A4%E3%82%BA-%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3-%E3%83%AD%E3%83%BC%E3%82%B0-%E3%83%89%E3%83%BC%E3%83%B3/id6756270200?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/01/a4/2801a494-bbf1-99e0-7d5c-bdb39d8ae630/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "TVアニメ『SAKAMOTO DAYS』の新作ゲームが育成×ローグライトアクションで登場！\n\n迫りくる\"殺し屋\"を蹴散らし、勝機を掴みとれ。\n・直感操作の\"回避"
+        },
+        {
+          "rank": 2,
+          "name": "[777Real]緑ドン VIVA！情熱南米編",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6804965220",
+          "url": "https://apps.apple.com/jp/app/777real-%E7%B7%91%E3%83%89%E3%83%B3-viva-%E6%83%85%E7%86%B1%E5%8D%97%E7%B1%B3%E7%B7%A8/id6804965220?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/55/60/1b556044-4188-8119-8a5e-6d9232dfad98/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\n緑ドン VIVA！情熱南米編\n2010年/エレコ\n--------------"
+        },
+        {
+          "rank": 80,
+          "name": "ブラウンダスト２ 胸いっぱいのRPG",
+          "publisher": "NEOWIZ",
+          "category": "ゲーム",
+          "app_id": "6450099588",
+          "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%80%E3%82%B9%E3%83%88%EF%BC%92-%E8%83%B8%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%AErpg/id6450099588?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/00/7e/21007ec3-f524-54f1-dd70-f6411ef1d596/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "▣ゲーム紹介▣\n\n■ ブラウンダスト2×魔都精兵のスレイブ2コラボ ■\nブラウンダスト2と魔都精兵のスレイブ2が出会った\n羽前京香、出雲天花、山城恋がブラウンダ"
+        },
+        {
+          "rank": 94,
+          "name": "777Real(777リアル) パチンコ･パチスロアプリ",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "1545088576",
+          "url": "https://apps.apple.com/jp/app/777real-777%E3%83%AA%E3%82%A2%E3%83%AB-%E3%83%91%E3%83%81%E3%83%B3%E3%82%B3-%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD%E3%82%A2%E3%83%97%E3%83%AA/id1545088576?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/e3/8b/0de38b6d-04bc-7ec6-c9a7-bb57befc120d/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\n777Real（スリーセブンリアル）\n--------------------"
+        },
+        {
+          "rank": 99,
+          "name": "ツリーオブセイヴァー：ネバーランド",
+          "publisher": "Qookka Games",
+          "category": "ゲーム",
+          "app_id": "6445884108",
+          "url": "https://apps.apple.com/jp/app/%E3%83%84%E3%83%AA%E3%83%BC%E3%82%AA%E3%83%96%E3%82%BB%E3%82%A4%E3%83%B4%E3%82%A1%E3%83%BC-%E3%83%8D%E3%83%90%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89/id6445884108?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/51/6b/7b516bae-f25d-3a5d-db29-474de56f5d81/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "1. 10日間の「衣装取り放題」！200種類以上の豪華衣装ドロップラッシュ！\n新たな冒険の楽園【森息の霊境】が期間限定オープン！仲間と一緒に衣装コレクターになっ"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 20,
+          "name": "Zenless Zone Zero",
+          "publisher": "COGNOSPHERE PTE. LTD.",
+          "category": "Games",
+          "package": "com.HoYoverse.Nap"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "Toca Boca World",
+          "publisher": "Toca Boca",
+          "category": "Games",
+          "package": "com.tocaboca.tocalifeworld"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 20,
+          "name": "Zenless Zone Zero",
+          "publisher": "COGNOSPHERE PTE. LTD.",
+          "category": "Games",
+          "package": "com.HoYoverse.Nap"
+        }
+      ]
+    }
+  }
+}
