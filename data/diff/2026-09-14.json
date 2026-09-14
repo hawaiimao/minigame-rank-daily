@@ -1,0 +1,754 @@
+{
+  "date": "2026-09-14",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 6,
+          "name": "造个大英雄",
+          "category": "休闲",
+          "category_rank": 5,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 8,
+          "name": "暴走闯关者",
+          "category": "休闲",
+          "category_rank": 7,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "长沙四五互娱网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "贪吃蛇大作战",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智io轻竞技",
+          "slogan": "",
+          "publisher": "武汉微派网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "奇幻果园",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "杭州锦泽文化创意有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 15,
+          "name": "迷雾大陆",
+          "category": "角色",
+          "category_rank": 3,
+          "subcategory": "ARPG",
+          "slogan": "",
+          "publisher": "北京豪腾创想科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 18,
+          "name": "天命行者",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "广州大蓝网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "看谁先上车",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "长沙四五互娱网络科技有限公司",
+          "change": "5",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "兵器王者",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "亲手打造独一无二的神兵利器，并在排行榜上争夺荣耀之巅",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "change": "3",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "手机反恐特别行动",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "2024最爽快射击的割草游戏 成为英雄，迎击尸潮！",
+          "publisher": "成都疾风劲趣科技有限公司",
+          "change": "11",
+          "change_direction": "down"
+        },
+        {
+          "rank": 16,
+          "name": "梦仙灵",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "可体验挂机修仙、主支线剧情，通过打怪升级提升战力",
+          "publisher": "广州信跃网络技术有限公司",
+          "change": "18",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "空格之境",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "转生商贾之女，重振江南丝织厂",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "5",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 4,
+          "name": "卤蛋兄弟",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "🔥超热门肉鸽小游戏，卤蛋兄弟英雄大乱战",
+          "publisher": "个人开发者",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 11,
+          "name": "钢铁机甲的碰撞",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "蜘蛛侠城市模拟",
+          "publisher": "长沙游点意思科技有限公司",
+          "change": "51",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "生肖挖挖乐",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "超难小游戏.仅百分之0.01挑战成功",
+          "publisher": "庆阳趣玩网络科技有限责任公司",
+          "change": "14",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "羊了个羊：对对碰",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "每一关都是脑力对决。你能通关吗？",
+          "publisher": "广州摩摩达科技有限公司",
+          "change": "10",
+          "change_direction": "down"
+        },
+        {
+          "rank": 15,
+          "name": "我要消光光",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一消就上头，越消越想玩，你敢来挑战吗？",
+          "publisher": "上海密幂科技有限公司",
+          "change": "6",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "谁是你爸",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "小婴儿整蛊老爸！",
+          "publisher": "厦门哟咯科技有限公司",
+          "change": "7",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 11,
+          "name": "钢铁机甲的碰撞",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "蜘蛛侠城市模拟",
+          "publisher": "长沙游点意思科技有限公司",
+          "change": "51",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "生肖挖挖乐",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "超难小游戏.仅百分之0.01挑战成功",
+          "publisher": "庆阳趣玩网络科技有限责任公司",
+          "change": "14",
+          "change_direction": "down"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 3,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "卤蛋兄弟",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "🔥超热门肉鸽小游戏，卤蛋兄弟英雄大乱战",
+          "publisher": "个人开发者",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 11,
+          "name": "钢铁机甲的碰撞",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "蜘蛛侠城市模拟",
+          "publisher": "长沙游点意思科技有限公司",
+          "change": "51",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "生肖挖挖乐",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "超难小游戏.仅百分之0.01挑战成功",
+          "publisher": "庆阳趣玩网络科技有限责任公司",
+          "change": "14",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 67,
+          "name": "Connect Master - Match Puzzle",
+          "publisher": "ROOFTOP GAMES OYUN TEKNOLOJILERI ANONIM SIRKETI",
+          "category": "Games",
+          "app_id": "6745692355",
+          "url": "https://apps.apple.com/us/app/connect-master-match-puzzle/id6745692355?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/a6/d1/d0a6d1be-4f73-eda6-aaac-4786e951280b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Connect Master – Match Puzzle, a vibrant visual logic puzzle game whe"
+        },
+        {
+          "rank": 89,
+          "name": "My Sticker Room - Decor Game",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6743738094",
+          "url": "https://apps.apple.com/us/app/my-sticker-room-decor-game/id6743738094?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/b7/b8/abb7b80a-92c1-91bd-f141-974e67a2dea8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "THE ULTIMATE COZY STICKER GAME\n\nLife can be stressful, so it’s important to make"
+        },
+        {
+          "rank": 97,
+          "name": "Goods Puzzle: Sort Challenge™",
+          "publisher": "FALCON GAMES",
+          "category": "Games",
+          "app_id": "6482849843",
+          "url": "https://apps.apple.com/us/app/goods-puzzle-sort-challenge/id6482849843?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/49/34/f249345d-b69c-77f5-5f97-c737bdc8facb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready to embark on an exciting matching adventure like never before in Goods"
+        },
+        {
+          "rank": 98,
+          "name": "Catedrop: Card Puzzle",
+          "publisher": "GOODROID,Inc.",
+          "category": "Games",
+          "app_id": "6788647921",
+          "url": "https://apps.apple.com/us/app/catedrop-card-puzzle/id6788647921?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/aa/76/61aa76cf-5edf-e9bf-5e10-5d6b097917ef/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Collect cards, reveal hidden ones, and clear every stage!\n\nWelcome to Catedrop, "
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 77,
+          "name": "Loop Sort",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "6751101794",
+          "url": "https://apps.apple.com/us/app/loop-sort/id6751101794?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/5a/20/4a5a2017-fce2-7153-e264-81be2cdda43f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Get ready for a fun and addictive truck puzzle challenge!\nTap once to send the c"
+        },
+        {
+          "rank": 94,
+          "name": "Word Tiles - Relaxing Puzzle",
+          "publisher": "Agave Games",
+          "category": "Games",
+          "app_id": "6783815362",
+          "url": "https://apps.apple.com/us/app/word-tiles-relaxing-puzzle/id6783815362?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/6d/59/126d59ff-52e5-75ea-bd90-50757da93a94/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Word Tiles is a relaxing word game designed for everyone!\n\nConnect the letter ti"
+        },
+        {
+          "rank": 96,
+          "name": "Fillwords: Word Search Puzzles",
+          "publisher": "MALPA GAMES",
+          "category": "Games",
+          "app_id": "1197961218",
+          "url": "https://apps.apple.com/us/app/fillwords-word-search-puzzles/id1197961218?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/25/ec/4b25ecbe-634a-e01c-9143-4a2649827487/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fillwords is an exciting word game with 2000+ levels!\n\nThe goal of the puzzle is"
+        },
+        {
+          "rank": 99,
+          "name": "2 Player Games : Offline Games",
+          "publisher": "Moreno Maio",
+          "category": "Games",
+          "app_id": "1465731199",
+          "url": "https://apps.apple.com/us/app/2-player-games-offline-games/id1465731199?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/dd/c3/43ddc3d6-da0e-3fba-9241-ad63caba5e28/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "If you want to play with your friend on the same device, this is the right game!"
+        },
+        {
+          "rank": 100,
+          "name": "Travel Town - Merge Adventure",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "app_id": "1521236603",
+          "url": "https://apps.apple.com/us/app/travel-town-merge-adventure/id1521236603?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/10/9e/e0109e46-df0c-c51b-d838-e9abb268fbff/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Explore Travel Town, where you can combine everything into better and more usefu"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 67,
+          "name": "Connect Master - Match Puzzle",
+          "publisher": "ROOFTOP GAMES OYUN TEKNOLOJILERI ANONIM SIRKETI",
+          "category": "Games",
+          "app_id": "6745692355",
+          "url": "https://apps.apple.com/us/app/connect-master-match-puzzle/id6745692355?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/a6/d1/d0a6d1be-4f73-eda6-aaac-4786e951280b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Connect Master – Match Puzzle, a vibrant visual logic puzzle game whe"
+        },
+        {
+          "rank": 89,
+          "name": "My Sticker Room - Decor Game",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6743738094",
+          "url": "https://apps.apple.com/us/app/my-sticker-room-decor-game/id6743738094?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/b7/b8/abb7b80a-92c1-91bd-f141-974e67a2dea8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "THE ULTIMATE COZY STICKER GAME\n\nLife can be stressful, so it’s important to make"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 5,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 67,
+          "name": "Connect Master - Match Puzzle",
+          "publisher": "ROOFTOP GAMES OYUN TEKNOLOJILERI ANONIM SIRKETI",
+          "category": "Games",
+          "app_id": "6745692355",
+          "url": "https://apps.apple.com/us/app/connect-master-match-puzzle/id6745692355?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/a6/d1/d0a6d1be-4f73-eda6-aaac-4786e951280b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Connect Master – Match Puzzle, a vibrant visual logic puzzle game whe"
+        },
+        {
+          "rank": 89,
+          "name": "My Sticker Room - Decor Game",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6743738094",
+          "url": "https://apps.apple.com/us/app/my-sticker-room-decor-game/id6743738094?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/b7/b8/abb7b80a-92c1-91bd-f141-974e67a2dea8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "THE ULTIMATE COZY STICKER GAME\n\nLife can be stressful, so it’s important to make"
+        },
+        {
+          "rank": 97,
+          "name": "Goods Puzzle: Sort Challenge™",
+          "publisher": "FALCON GAMES",
+          "category": "Games",
+          "app_id": "6482849843",
+          "url": "https://apps.apple.com/us/app/goods-puzzle-sort-challenge/id6482849843?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/49/34/f249345d-b69c-77f5-5f97-c737bdc8facb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready to embark on an exciting matching adventure like never before in Goods"
+        },
+        {
+          "rank": 98,
+          "name": "Catedrop: Card Puzzle",
+          "publisher": "GOODROID,Inc.",
+          "category": "Games",
+          "app_id": "6788647921",
+          "url": "https://apps.apple.com/us/app/catedrop-card-puzzle/id6788647921?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/aa/76/61aa76cf-5edf-e9bf-5e10-5d6b097917ef/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Collect cards, reveal hidden ones, and clear every stage!\n\nWelcome to Catedrop, "
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 99,
+          "name": "云·原神",
+          "publisher": "miHoYo Games",
+          "category": "游戏",
+          "app_id": "1569029742",
+          "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E5%8E%9F%E7%A5%9E/id1569029742?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/20/1a/88201a53-fb3c-fdd0-3a5e-fc4a82c3e894/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "无数生灵繁衍聚集的广袤大陆「提瓦特」，天地万象蕴含其间。\n这里是七神统治、七种元素交汇的世界……\n\n陌生的天空下，少年少女立于尘沙。\n你们是一对旅行中的双子，从"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 90,
+          "name": "向僵尸开炮-尸潮来袭",
+          "publisher": "Hainan Shengchang Network Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6474293468",
+          "url": "https://apps.apple.com/cn/app/%E5%90%91%E5%83%B5%E5%B0%B8%E5%BC%80%E7%82%AE-%E5%B0%B8%E6%BD%AE%E6%9D%A5%E8%A2%AD/id6474293468?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/d2/71/89d27123-c7af-8041-b70d-6e595068e7c7/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《向僵尸开炮》是一款制作精良、画风精美的射击Roguelike手游。故事背景设定在未来时代，某日天灾席卷地球，僵尸横行，自然资源与科技文明受到重创；为了保护人类"
+        },
+        {
+          "rank": 98,
+          "name": "小镇大厨 - 模拟餐厅经营美食烹饪游戏",
+          "publisher": "MagicSeven Co., Ltd",
+          "category": "游戏",
+          "app_id": "1397824035",
+          "url": "https://apps.apple.com/cn/app/%E5%B0%8F%E9%95%87%E5%A4%A7%E5%8E%A8-%E6%A8%A1%E6%8B%9F%E9%A4%90%E5%8E%85%E7%BB%8F%E8%90%A5%E7%BE%8E%E9%A3%9F%E7%83%B9%E9%A5%AA%E6%B8%B8%E6%88%8F/id1397824035?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/2f/70/eb2f7029-798a-2a1a-ad99-2bfb83075984/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "来《小镇大厨》尽情烹饪美食！享受令人上瘾的时间管理游戏！\n免费下载的烹饪模拟手游。化身疯狂的厨师，随时随地经营餐厅！\n\n• 200多种美味的菜肴！\n为饥肠辘辘的"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 99,
+          "name": "云·原神",
+          "publisher": "miHoYo Games",
+          "category": "游戏",
+          "app_id": "1569029742",
+          "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E5%8E%9F%E7%A5%9E/id1569029742?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/20/1a/88201a53-fb3c-fdd0-3a5e-fc4a82c3e894/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "无数生灵繁衍聚集的广袤大陆「提瓦特」，天地万象蕴含其间。\n这里是七神统治、七种元素交汇的世界……\n\n陌生的天空下，少年少女立于尘沙。\n你们是一对旅行中的双子，从"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 36,
+          "name": "Fish Sort Puzzle:フィッシュソート泡を消そう",
+          "publisher": "Shycheese",
+          "category": "ゲーム",
+          "app_id": "6771681639",
+          "url": "https://apps.apple.com/jp/app/fish-sort-puzzle-%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%82%BD%E3%83%BC%E3%83%88%E6%B3%A1%E3%82%92%E6%B6%88%E3%81%9D%E3%81%86/id6771681639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/86/39/5986391c-4a07-7794-f2a0-016fbca50e38/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "海の世界へ冒険に飛び込もう！\n魚をタップして、水槽へ泳がせましょう。各水槽に必要な魚の数が表示されるので、規定数を集めてコレクションを完成させよう！\n下段の泡を"
+        },
+        {
+          "rank": 53,
+          "name": "くまのレストラン",
+          "publisher": "Odencat Inc.",
+          "category": "ゲーム",
+          "app_id": "1425197699",
+          "url": "https://apps.apple.com/jp/app/%E3%81%8F%E3%81%BE%E3%81%AE%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/id1425197699?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b0/d1/ee/b0d1ee8d-f31b-c9ae-b46d-c90e54ff583f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「くまのレストラン」\n\nそのレストランでは死者に最後の晩餐がふるまわれます。ハンバーガー、オムレツ、寿司、プリン、なんでもござれ。記憶のかけらさえあれば、生前の"
+        },
+        {
+          "rank": 99,
+          "name": "マイステッカールーム (My Sticker Room)",
+          "publisher": "SayGames LTD",
+          "category": "ゲーム",
+          "app_id": "6743738094",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BC%E3%83%A0-my-sticker-room/id6743738094?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/b7/b8/abb7b80a-92c1-91bd-f141-974e67a2dea8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "最高に心地よいシールゲーム\n\n生きていれば辛いことだってあります。ですので時間を作ってリラックスすることはとっても大切。そして可憐でかわいいゲームなら、他では味"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 76,
+          "name": "ねじねじパズル",
+          "publisher": "Chengdu Warrior Tech Limited",
+          "category": "ゲーム",
+          "app_id": "6737022506",
+          "url": "https://apps.apple.com/jp/app/%E3%81%AD%E3%81%98%E3%81%AD%E3%81%98%E3%83%91%E3%82%BA%E3%83%AB/id6737022506?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/95/40/e89540a2-adfe-43c8-6a39-22e61de1c722/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "ネジをひねって、プレッシャーから解放！巧みに配置されたネジをすべて外し、パネルを完全に空にするパズルゲームです。遊び方はシンプルですが、頭を使う奥深いチャレンジ"
+        },
+        {
+          "rank": 98,
+          "name": "ネジ3Dパズル：ピンを外すゲーム",
+          "publisher": "Kiwi Fun HK Limited",
+          "category": "ゲーム",
+          "app_id": "6749300334",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8D%E3%82%B83d%E3%83%91%E3%82%BA%E3%83%AB-%E3%83%94%E3%83%B3%E3%82%92%E5%A4%96%E3%81%99%E3%82%B2%E3%83%BC%E3%83%A0/id6749300334?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/c0/af/fcc0afd1-1561-50b4-6e66-ac4e87efeb0c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ネジ3Dパズル：ピンを外すゲームは、頭を使いながらリラックスして楽しめる中毒性の高い3Dパズルゲームです。複雑な構造を回転・仕分け・分解しながら、ネジを外す爽快"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 53,
+          "name": "くまのレストラン",
+          "publisher": "Odencat Inc.",
+          "category": "ゲーム",
+          "app_id": "1425197699",
+          "url": "https://apps.apple.com/jp/app/%E3%81%8F%E3%81%BE%E3%81%AE%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/id1425197699?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b0/d1/ee/b0d1ee8d-f31b-c9ae-b46d-c90e54ff583f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「くまのレストラン」\n\nそのレストランでは死者に最後の晩餐がふるまわれます。ハンバーガー、オムレツ、寿司、プリン、なんでもござれ。記憶のかけらさえあれば、生前の"
+        },
+        {
+          "rank": 99,
+          "name": "マイステッカールーム (My Sticker Room)",
+          "publisher": "SayGames LTD",
+          "category": "ゲーム",
+          "app_id": "6743738094",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BC%E3%83%A0-my-sticker-room/id6743738094?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/b7/b8/abb7b80a-92c1-91bd-f141-974e67a2dea8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "最高に心地よいシールゲーム\n\n生きていれば辛いことだってあります。ですので時間を作ってリラックスすることはとっても大切。そして可憐でかわいいゲームなら、他では味"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 2,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 36,
+          "name": "Fish Sort Puzzle:フィッシュソート泡を消そう",
+          "publisher": "Shycheese",
+          "category": "ゲーム",
+          "app_id": "6771681639",
+          "url": "https://apps.apple.com/jp/app/fish-sort-puzzle-%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%82%BD%E3%83%BC%E3%83%88%E6%B3%A1%E3%82%92%E6%B6%88%E3%81%9D%E3%81%86/id6771681639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/86/39/5986391c-4a07-7794-f2a0-016fbca50e38/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "海の世界へ冒険に飛び込もう！\n魚をタップして、水槽へ泳がせましょう。各水槽に必要な魚の数が表示されるので、規定数を集めてコレクションを完成させよう！\n下段の泡を"
+        },
+        {
+          "rank": 53,
+          "name": "くまのレストラン",
+          "publisher": "Odencat Inc.",
+          "category": "ゲーム",
+          "app_id": "1425197699",
+          "url": "https://apps.apple.com/jp/app/%E3%81%8F%E3%81%BE%E3%81%AE%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/id1425197699?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b0/d1/ee/b0d1ee8d-f31b-c9ae-b46d-c90e54ff583f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「くまのレストラン」\n\nそのレストランでは死者に最後の晩餐がふるまわれます。ハンバーガー、オムレツ、寿司、プリン、なんでもござれ。記憶のかけらさえあれば、生前の"
+        },
+        {
+          "rank": 99,
+          "name": "マイステッカールーム (My Sticker Room)",
+          "publisher": "SayGames LTD",
+          "category": "ゲーム",
+          "app_id": "6743738094",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BC%E3%83%A0-my-sticker-room/id6743738094?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/b7/b8/abb7b80a-92c1-91bd-f141-974e67a2dea8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "最高に心地よいシールゲーム\n\n生きていれば辛いことだってあります。ですので時間を作ってリラックスすることはとっても大切。そして可憐でかわいいゲームなら、他では味"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 97,
+          "name": "Jam Bus:Sandfall",
+          "publisher": "Nova Games Technology Limited",
+          "category": "Games",
+          "package": "bus.sand.fall.jam.loop.traffic.flow"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 100,
+          "name": "Solitaire Associations Journey",
+          "publisher": "Hitapps Games",
+          "category": "Games",
+          "package": "com.hitappsgames.wordsolitaire"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 97,
+          "name": "Jam Bus:Sandfall",
+          "publisher": "Nova Games Technology Limited",
+          "category": "Games",
+          "package": "bus.sand.fall.jam.loop.traffic.flow"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 97,
+          "name": "Jam Bus:Sandfall",
+          "publisher": "Nova Games Technology Limited",
+          "category": "Games",
+          "package": "bus.sand.fall.jam.loop.traffic.flow"
+        }
+      ]
+    }
+  }
+}
