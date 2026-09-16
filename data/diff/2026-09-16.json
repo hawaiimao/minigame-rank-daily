@@ -1,0 +1,869 @@
+{
+  "date": "2026-09-16",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "欢乐岛大冒险",
+          "category": "休闲",
+          "category_rank": 4,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州格子游戏科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "天天斗地主真人版",
+          "category": "棋牌",
+          "category_rank": 2,
+          "subcategory": "牌类棋牌传统棋牌",
+          "slogan": "",
+          "publisher": "深圳市禅游科技股份有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "欢乐麻将",
+          "category": "棋牌",
+          "category_rank": 3,
+          "subcategory": "牌类",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 5,
+          "name": "欢乐岛大冒险",
+          "category": "休闲",
+          "category_rank": 4,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州格子游戏科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 7,
+          "name": "造个大英雄",
+          "category": "休闲",
+          "category_rank": 6,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "厦门凯斌信息科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "欢乐岛大冒险",
+          "category": "休闲",
+          "category_rank": 4,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州格子游戏科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "王者舰队",
+          "category": "角色",
+          "category_rank": 1,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "北京赫德时代科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 14,
+          "name": "我的花园世界",
+          "category": "休闲",
+          "category_rank": 9,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "厦门麟贝互娱科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 15,
+          "name": "王者征途",
+          "category": "角色",
+          "category_rank": 4,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "上海巨人统平网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "空格之境",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "奔奔王国",
+          "category": "竞技",
+          "category_rank": 2,
+          "subcategory": "对战",
+          "slogan": "",
+          "publisher": "福州点点松云网络有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "神器传说",
+          "category": "休闲",
+          "category_rank": 12,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "深圳全民互动科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 6,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "密室出逃",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "广州三狼网络有限公司",
+          "change": "5",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "俄罗斯方块拼图",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "消除消除休闲",
+          "slogan": "",
+          "publisher": "广州京游网络科技有限公司",
+          "change": "2",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 7,
+          "name": "这关可真行",
+          "category": "休闲",
+          "category_rank": 7,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "深圳市石晟科技有限公司",
+          "change": "1",
+          "change_direction": "down"
+        }
+      ],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 20,
+          "name": "车速狂飙",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "指尖控车，稳行赛道赢挑战！",
+          "publisher": "武汉爆鸣互娱科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 20,
+          "name": "车速狂飙",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "指尖控车，稳行赛道赢挑战！",
+          "publisher": "武汉爆鸣互娱科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "四季合合",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "久违的四季岛，我来啦！",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "change": "4",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "炮台一发入魂",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "巧调炮台，精准一发命中！",
+          "publisher": "武汉爆鸣互娱科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 15,
+          "name": "眼力搜查",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "放大找茬，轻松解压快乐无烦恼！",
+          "publisher": "南京暗夜科技信息有限公司",
+          "change": "11",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "清理大师模拟",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "化身景观整理师，清理、修整并恢复每一处空间。",
+          "publisher": "厦门市晨曦光年科技有限公司",
+          "change": "7",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "小鱼生存探险",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "在海底的世界里开启趣味海洋冒险吧！",
+          "publisher": "上海伊凯园网络科技有限公司",
+          "change": "10",
+          "change_direction": "down"
+        },
+        {
+          "rank": 14,
+          "name": "我真能通关",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "你能过几关？",
+          "publisher": "广州池骋网络科技有限公司",
+          "change": "7",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "傲视神魔传",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "全网炸裂，鬼服三国！",
+          "publisher": "厦门爆量互娱网络科技有限公司",
+          "change": "18",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 15,
+          "name": "眼力搜查",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "放大找茬，轻松解压快乐无烦恼！",
+          "publisher": "南京暗夜科技信息有限公司",
+          "change": "11",
+          "change_direction": "down"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "炮台一发入魂",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "巧调炮台，精准一发命中！",
+          "publisher": "武汉爆鸣互娱科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 15,
+          "name": "眼力搜查",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "放大找茬，轻松解压快乐无烦恼！",
+          "publisher": "南京暗夜科技信息有限公司",
+          "change": "11",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "清理大师模拟",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "化身景观整理师，清理、修整并恢复每一处空间。",
+          "publisher": "厦门市晨曦光年科技有限公司",
+          "change": "7",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 81,
+          "name": "Fillwords: Word Search Puzzles",
+          "publisher": "MALPA GAMES",
+          "category": "Games",
+          "app_id": "1197961218",
+          "url": "https://apps.apple.com/us/app/fillwords-word-search-puzzles/id1197961218?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/25/ec/4b25ecbe-634a-e01c-9143-4a2649827487/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fillwords is an exciting word game with 2000+ levels!\n\nThe goal of the puzzle is"
+        },
+        {
+          "rank": 95,
+          "name": "Yarn Fever! Unravel Puzzle",
+          "publisher": "Brave HK Limited",
+          "category": "Games",
+          "app_id": "6747875092",
+          "url": "https://apps.apple.com/us/app/yarn-fever-unravel-puzzle/id6747875092?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/ef/3f/c7ef3f3d-eb52-f7bc-db00-0e48fd338740/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Yarn Fever! Unravel Puzzle is a colorful and addictive puzzle game where ASMR re"
+        },
+        {
+          "rank": 97,
+          "name": "Search It - Hidden Objects",
+          "publisher": "LEAP BILISIM TEKNOLOJILERI VE YAZILIM TICARET ANONIM SIRKETI",
+          "category": "Games",
+          "app_id": "6756185760",
+          "url": "https://apps.apple.com/us/app/search-it-hidden-objects/id6756185760?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/24/20/be242090-7c65-391f-756f-696019b7c3b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Search It – Hidden Objects is a relaxing hidden object game that challenges your"
+        },
+        {
+          "rank": 99,
+          "name": "CrownCoins Casino",
+          "publisher": "Sunflower",
+          "category": "Games",
+          "app_id": "6450413462",
+          "url": "https://apps.apple.com/us/app/crowncoins-casino/id6450413462?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/da/b4/78dab484-4985-0a56-1f8a-28691ee73c94/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "CROWN COINS CASINO. America loves it. You will too! \nPLAY. WIN. REDEEM. REPEAT. "
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 35,
+          "name": "宝石战争-正版授权",
+          "publisher": "Acing Surplus",
+          "category": "游戏",
+          "app_id": "6751681478",
+          "url": "https://apps.apple.com/cn/app/%E5%AE%9D%E7%9F%B3%E6%88%98%E4%BA%89-%E6%AD%A3%E7%89%88%E6%8E%88%E6%9D%83/id6751681478?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/79/58/bc795853-3785-f64c-7609-dab939295373/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《宝石战争》超烧脑的RPG策略游戏来了！\r\n警告：本游戏非常费肝费时，肝就可以应有尽有！（想靠氪金碾压？不好意思，我们更看重你的策略和肝度！）\r\n\r\n一、160"
+        },
+        {
+          "rank": 97,
+          "name": "烧脑大乱斗－清理大师清洁达人游戏",
+          "publisher": "Guangzhou ShuanBai Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6768230439",
+          "url": "https://apps.apple.com/cn/app/%E7%83%A7%E8%84%91%E5%A4%A7%E4%B9%B1%E6%96%97-%E6%B8%85%E7%90%86%E5%A4%A7%E5%B8%88%E6%B8%85%E6%B4%81%E8%BE%BE%E4%BA%BA%E6%B8%B8%E6%88%8F/id6768230439?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/b5/7a/4ab57a96-a8d2-2809-8be1-6e563279dd37/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "这是一款休闲解压模拟小游戏，关卡丰富，包含清理污垢、翻新物品、护肤修护等趣味玩法，指尖简单操作即可完成清洁。画面细腻、反馈治愈，看着脏污慢慢消失十分解压。无复杂"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 49,
+          "name": "大话西游",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1015364140",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A7%E8%AF%9D%E8%A5%BF%E6%B8%B8/id1015364140?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/51/ea/be51ea0b-7d8e-92c4-d4f8-7d445745de60/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "网易经典回合大作——《大话西游》手游，传承二十四年经典大话底蕴，延续原汁原味的回合制战斗、情义社交与多样 PK 体验。游戏以更精致的国风美术、更细腻的角色表现和"
+        },
+        {
+          "rank": 71,
+          "name": "万箭归宗：蛇影迷阵",
+          "publisher": "天宇 刘",
+          "category": "游戏",
+          "app_id": "6762199388",
+          "url": "https://apps.apple.com/cn/app/%E4%B8%87%E7%AE%AD%E5%BD%92%E5%AE%97-%E8%9B%87%E5%BD%B1%E8%BF%B7%E9%98%B5/id6762199388?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/3f/85/ae3f85ed-8ddb-0be1-b442-5699e4f95668/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "在染色模式中发射彩色小蛇直线冲锋，将网格染成目标图案，石头阻挡与三角转弯让每一步都充满策略；在铺路模式中拖拽方块搭建连续路径，引导多色小蛇并行归洞，传送门助你绝"
+        },
+        {
+          "rank": 99,
+          "name": "多乐够级",
+          "publisher": "Beijing Pengqu Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "820847275",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%9A%E4%B9%90%E5%A4%9F%E7%BA%A7/id820847275?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/8f/82/8e8f825f-48fc-bd40-63b5-6fe5c3ab7431/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "风靡山东的特色经典游戏一多乐够级，各种地道玩法任你选择，更有单机场、联网场随心挑选！安装即玩，游戏内牌友多多，快来一起打够级。\n【玩法多多】\n6副牌带鹰、6副牌"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 35,
+          "name": "宝石战争-正版授权",
+          "publisher": "Acing Surplus",
+          "category": "游戏",
+          "app_id": "6751681478",
+          "url": "https://apps.apple.com/cn/app/%E5%AE%9D%E7%9F%B3%E6%88%98%E4%BA%89-%E6%AD%A3%E7%89%88%E6%8E%88%E6%9D%83/id6751681478?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/79/58/bc795853-3785-f64c-7609-dab939295373/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《宝石战争》超烧脑的RPG策略游戏来了！\r\n警告：本游戏非常费肝费时，肝就可以应有尽有！（想靠氪金碾压？不好意思，我们更看重你的策略和肝度！）\r\n\r\n一、160"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 35,
+          "name": "宝石战争-正版授权",
+          "publisher": "Acing Surplus",
+          "category": "游戏",
+          "app_id": "6751681478",
+          "url": "https://apps.apple.com/cn/app/%E5%AE%9D%E7%9F%B3%E6%88%98%E4%BA%89-%E6%AD%A3%E7%89%88%E6%8E%88%E6%9D%83/id6751681478?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/79/58/bc795853-3785-f64c-7609-dab939295373/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《宝石战争》超烧脑的RPG策略游戏来了！\r\n警告：本游戏非常费肝费时，肝就可以应有尽有！（想靠氪金碾压？不好意思，我们更看重你的策略和肝度！）\r\n\r\n一、160"
+        },
+        {
+          "rank": 97,
+          "name": "烧脑大乱斗－清理大师清洁达人游戏",
+          "publisher": "Guangzhou ShuanBai Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6768230439",
+          "url": "https://apps.apple.com/cn/app/%E7%83%A7%E8%84%91%E5%A4%A7%E4%B9%B1%E6%96%97-%E6%B8%85%E7%90%86%E5%A4%A7%E5%B8%88%E6%B8%85%E6%B4%81%E8%BE%BE%E4%BA%BA%E6%B8%B8%E6%88%8F/id6768230439?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/b5/7a/4ab57a96-a8d2-2809-8be1-6e563279dd37/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "这是一款休闲解压模拟小游戏，关卡丰富，包含清理污垢、翻新物品、护肤修护等趣味玩法，指尖简单操作即可完成清洁。画面细腻、反馈治愈，看着脏污慢慢消失十分解压。无复杂"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "コードギアス ナイトメア・サバイバー",
+          "publisher": "JORO,Inc.",
+          "category": "ゲーム",
+          "app_id": "6762118255",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6762118255?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/3a/5a/113a5aff-7b7f-9a09-818d-e4bf76f6b1f4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『コードギアス ナイトメア・サバイバー（ギアサバ）』\n\n◆◆ 「コードギアス」の世界を「サバイバーアクション」でプレイしよう！ ◆◆\nナイトメアフレーム（KMF"
+        },
+        {
+          "rank": 13,
+          "name": "弱虫ペダル レゾナンス・ぺダイズム",
+          "publisher": "enish Inc.",
+          "category": "ゲーム",
+          "app_id": "6758927408",
+          "url": "https://apps.apple.com/jp/app/%E5%BC%B1%E8%99%AB%E3%83%9A%E3%83%80%E3%83%AB-%E3%83%AC%E3%82%BE%E3%83%8A%E3%83%B3%E3%82%B9-%E3%81%BA%E3%83%80%E3%82%A4%E3%82%BA%E3%83%A0/id6758927408?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/a7/82/42a782f8-1185-9b59-ba12-03d6dc6ce700/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "ケイデンスを推し上げろ！\n\nあなたはトレーナーとなり、\"推し\"の選手を育成。\n自分だけのチームを編成し、ロードレースを勝ち抜こう！\n\nアニメ『弱虫ペダル』初の本"
+        },
+        {
+          "rank": 30,
+          "name": "プロ野球 球団経営シミュレーション",
+          "publisher": "Takumi Takebe",
+          "category": "ゲーム",
+          "app_id": "6800189630",
+          "url": "https://apps.apple.com/jp/app/%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83-%E7%90%83%E5%9B%A3%E7%B5%8C%E5%96%B6%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/id6800189630?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/ce/5b/65ce5bbb-8879-acbc-d939-276988d469ad/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "借金100億円。\nあなたが引き継ぐのは、それだけの負債を抱えた弱小球団です。\n\n任期は20シーズン。\n返済を終え、球団を日本一へ導く。それが社長としての務めです"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 90,
+          "name": "Family Farm Merge",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6760998152",
+          "url": "https://apps.apple.com/jp/app/family-farm-merge/id6760998152?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/29/00/462900b2-4a89-1e1d-8b30-bfe1574c98d7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Family Farm Merge：自然へと戻るマージの冒険！\n\n『Family Farm Merge』へようこそ。これは、名作『Family Farm』シリー"
+        },
+        {
+          "rank": 95,
+          "name": "バスゲーム：カーパーキング・バスゲーム",
+          "publisher": "ABI GLOBAL LTD.",
+          "category": "ゲーム",
+          "app_id": "6689516366",
+          "url": "https://apps.apple.com/jp/app/%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0-%E3%82%AB%E3%83%BC%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0-%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0/id6689516366?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/58/23/7a58233d-7a15-6a5b-c73e-4117aa42b79b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "頭を使う難しいけど爽快なパズルゲームが好きですか？\n\nBus Escape: Traffic Jam Fever! の世界へようこそ！バスを動かしながら渋滞を解"
+        },
+        {
+          "rank": 96,
+          "name": "マイステッカールーム (My Sticker Room)",
+          "publisher": "SayGames LTD",
+          "category": "ゲーム",
+          "app_id": "6743738094",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BC%E3%83%A0-my-sticker-room/id6743738094?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/b7/b8/abb7b80a-92c1-91bd-f141-974e67a2dea8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "最高に心地よいシールゲーム\n\n生きていれば辛いことだってあります。ですので時間を作ってリラックスすることはとっても大切。そして可憐でかわいいゲームなら、他では味"
+        },
+        {
+          "rank": 97,
+          "name": "Level Devil - NOT A Troll Game",
+          "publisher": "WebVentures B.V.",
+          "category": "ゲーム",
+          "app_id": "6477413486",
+          "url": "https://apps.apple.com/jp/app/level-devil-not-a-troll-game/id6477413486?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/1e/cd/ff1ecd0f-f57f-4b90-5962-0d1173c7946a/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "素敵で穏やかなプラットフォーマー\n\n走って、跳んで、ドアにたどり着き、完全に公平なステージ、親切なトゲ、信頼できる足場、そしてごく普通のサプライズに満ちた穏やか"
+        },
+        {
+          "rank": 99,
+          "name": "E.D.E.N：最終防衛線",
+          "publisher": "Game Duo Co.,Ltd.",
+          "category": "ゲーム",
+          "app_id": "6754559095",
+          "url": "https://apps.apple.com/jp/app/e-d-e-n-%E6%9C%80%E7%B5%82%E9%98%B2%E8%A1%9B%E7%B7%9A/id6754559095?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/3c/fc/ed3cfc30-255d-3776-7eba-f6e34ecf45b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「指揮官、滅亡寸前の世界で、人類の希望はあなたの命令だけ——。\n特殊能力を持つ少女たちに「EDEN」を授与し、人類最後の防衛線を指揮してください！」\n\n【指揮官"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "コードギアス ナイトメア・サバイバー",
+          "publisher": "JORO,Inc.",
+          "category": "ゲーム",
+          "app_id": "6762118255",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6762118255?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/3a/5a/113a5aff-7b7f-9a09-818d-e4bf76f6b1f4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『コードギアス ナイトメア・サバイバー（ギアサバ）』\n\n◆◆ 「コードギアス」の世界を「サバイバーアクション」でプレイしよう！ ◆◆\nナイトメアフレーム（KMF"
+        },
+        {
+          "rank": 13,
+          "name": "弱虫ペダル レゾナンス・ぺダイズム",
+          "publisher": "enish Inc.",
+          "category": "ゲーム",
+          "app_id": "6758927408",
+          "url": "https://apps.apple.com/jp/app/%E5%BC%B1%E8%99%AB%E3%83%9A%E3%83%80%E3%83%AB-%E3%83%AC%E3%82%BE%E3%83%8A%E3%83%B3%E3%82%B9-%E3%81%BA%E3%83%80%E3%82%A4%E3%82%BA%E3%83%A0/id6758927408?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/a7/82/42a782f8-1185-9b59-ba12-03d6dc6ce700/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "ケイデンスを推し上げろ！\n\nあなたはトレーナーとなり、\"推し\"の選手を育成。\n自分だけのチームを編成し、ロードレースを勝ち抜こう！\n\nアニメ『弱虫ペダル』初の本"
+        },
+        {
+          "rank": 30,
+          "name": "プロ野球 球団経営シミュレーション",
+          "publisher": "Takumi Takebe",
+          "category": "ゲーム",
+          "app_id": "6800189630",
+          "url": "https://apps.apple.com/jp/app/%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83-%E7%90%83%E5%9B%A3%E7%B5%8C%E5%96%B6%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/id6800189630?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/ce/5b/65ce5bbb-8879-acbc-d939-276988d469ad/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "借金100億円。\nあなたが引き継ぐのは、それだけの負債を抱えた弱小球団です。\n\n任期は20シーズン。\n返済を終え、球団を日本一へ導く。それが社長としての務めです"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 5,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "コードギアス ナイトメア・サバイバー",
+          "publisher": "JORO,Inc.",
+          "category": "ゲーム",
+          "app_id": "6762118255",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6762118255?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/3a/5a/113a5aff-7b7f-9a09-818d-e4bf76f6b1f4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『コードギアス ナイトメア・サバイバー（ギアサバ）』\n\n◆◆ 「コードギアス」の世界を「サバイバーアクション」でプレイしよう！ ◆◆\nナイトメアフレーム（KMF"
+        },
+        {
+          "rank": 13,
+          "name": "弱虫ペダル レゾナンス・ぺダイズム",
+          "publisher": "enish Inc.",
+          "category": "ゲーム",
+          "app_id": "6758927408",
+          "url": "https://apps.apple.com/jp/app/%E5%BC%B1%E8%99%AB%E3%83%9A%E3%83%80%E3%83%AB-%E3%83%AC%E3%82%BE%E3%83%8A%E3%83%B3%E3%82%B9-%E3%81%BA%E3%83%80%E3%82%A4%E3%82%BA%E3%83%A0/id6758927408?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/a7/82/42a782f8-1185-9b59-ba12-03d6dc6ce700/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "ケイデンスを推し上げろ！\n\nあなたはトレーナーとなり、\"推し\"の選手を育成。\n自分だけのチームを編成し、ロードレースを勝ち抜こう！\n\nアニメ『弱虫ペダル』初の本"
+        },
+        {
+          "rank": 30,
+          "name": "プロ野球 球団経営シミュレーション",
+          "publisher": "Takumi Takebe",
+          "category": "ゲーム",
+          "app_id": "6800189630",
+          "url": "https://apps.apple.com/jp/app/%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83-%E7%90%83%E5%9B%A3%E7%B5%8C%E5%96%B6%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/id6800189630?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/ce/5b/65ce5bbb-8879-acbc-d939-276988d469ad/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "借金100億円。\nあなたが引き継ぐのは、それだけの負債を抱えた弱小球団です。\n\n任期は20シーズン。\n返済を終え、球団を日本一へ導く。それが社長としての務めです"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 49,
+          "name": "Craft Builder: 3D Block World",
+          "publisher": "Coup Coup LTD",
+          "category": "Games",
+          "package": "com.novas.craft.builder.block.world"
+        },
+        {
+          "rank": 88,
+          "name": "Brain Puzzle 2: Logic Twist",
+          "publisher": "JoyGame Studio",
+          "category": "Games",
+          "package": "com.brain.logic.joygame"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 59,
+          "name": "Color by Number：Coloring Games",
+          "publisher": "Wildlife Studios",
+          "category": "Games",
+          "package": "com.tfgco.apps.coloring.free.color.by.number"
+        },
+        {
+          "rank": 62,
+          "name": "Offline Games - No Wifi Games",
+          "publisher": "JindoBlu",
+          "category": "Games",
+          "package": "com.JindoBlu.OfflineGames"
+        },
+        {
+          "rank": 63,
+          "name": "Block Craft 3D: Realm Builder",
+          "publisher": "Metagame.Ltd",
+          "category": "Games",
+          "package": "com.wilds.craft.mysticland.explore"
+        },
+        {
+          "rank": 73,
+          "name": "Level Devil - NOT A Troll Game",
+          "publisher": "WebVentures B.V.",
+          "category": "Games",
+          "package": "com.unept.leveldevil"
+        },
+        {
+          "rank": 75,
+          "name": "Snake Clash!",
+          "publisher": "Supercent, Inc.",
+          "category": "Games",
+          "package": "io.supercent.linkedcubic"
+        },
+        {
+          "rank": 76,
+          "name": "Annoying Uncle Punch Game®",
+          "publisher": "Game District LLC",
+          "category": "Games",
+          "package": "com.gtsy.annoying.punch.game"
+        },
+        {
+          "rank": 90,
+          "name": "Tasty Travels: Merge Game",
+          "publisher": "Century Games PTE. LTD.",
+          "category": "Games",
+          "package": "com.fatmerge.global"
+        },
+        {
+          "rank": 93,
+          "name": "Bluey: Let's Play!",
+          "publisher": "Budge Studios",
+          "category": "Games",
+          "package": "com.budgestudios.googleplay.BlueyBLU"
+        },
+        {
+          "rank": 94,
+          "name": "Avatar World ®",
+          "publisher": "Pazu Games",
+          "category": "Games",
+          "package": "com.pazugames.avatarworld"
+        },
+        {
+          "rank": 96,
+          "name": "Kick & Break The Ragdoll Games",
+          "publisher": "Game District LLC",
+          "category": "Games",
+          "package": "com.playflix.kick.breakragdoll.games"
+        },
+        {
+          "rank": 98,
+          "name": "Madden NFL 27 Mobile Football",
+          "publisher": "ELECTRONIC ARTS",
+          "category": "Games",
+          "package": "com.ea.gp.maddennfl21mobile"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 11,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 49,
+          "name": "Craft Builder: 3D Block World",
+          "publisher": "Coup Coup LTD",
+          "category": "Games",
+          "package": "com.novas.craft.builder.block.world"
+        },
+        {
+          "rank": 88,
+          "name": "Brain Puzzle 2: Logic Twist",
+          "publisher": "JoyGame Studio",
+          "category": "Games",
+          "package": "com.brain.logic.joygame"
+        }
+      ]
+    }
+  }
+}
