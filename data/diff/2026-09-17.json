@@ -1,0 +1,931 @@
+{
+  "date": "2026-09-17",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "天天象棋",
+          "category": "棋牌",
+          "category_rank": 2,
+          "subcategory": "棋类棋牌传统棋牌",
+          "slogan": "",
+          "publisher": "深圳市腾讯天游科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "解压打毛线",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州池骋网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "浪漫餐厅",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "北京柠檬微趣科技股份有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "跳一跳",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智超休闲休闲",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "天命行者",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "广州大蓝网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "天天象棋",
+          "category": "棋牌",
+          "category_rank": 2,
+          "subcategory": "棋类棋牌传统棋牌",
+          "slogan": "",
+          "publisher": "深圳市腾讯天游科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "蛇突猛进",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "趣味蛇类跑酷闯关",
+          "publisher": "武汉爆鸣互娱科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "蛇突猛进",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "趣味蛇类跑酷闯关",
+          "publisher": "武汉爆鸣互娱科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "妖怪金手指",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "躺平收妖，猛将护床！塔防摸鱼爽到嗨~",
+          "publisher": "霍尔果斯天翔信息技术有限公司",
+          "change": "36",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "神器传说",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款有手就能玩的开宝箱修仙小游戏",
+          "publisher": "深圳市拾光筑梦文化传媒有限公司",
+          "change": "8",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "武侠大明星",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款融合Rouguelike元素的武侠割草手游。",
+          "publisher": "海南临游科技有限公司",
+          "change": "15",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "速度与极限",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "从一副裸底盘造出最狂野的赛车，弹弓一拉，看你的座驾能飞多远！",
+          "publisher": "海南简晨科技有限公司",
+          "change": "67",
+          "change_direction": "down"
+        },
+        {
+          "rank": 9,
+          "name": "无畏三国",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "字字皆兵，攻守不停，几分钟畅玩三国塔防！",
+          "publisher": "广州凌图游戏科技有限公司",
+          "change": "50",
+          "change_direction": "down"
+        },
+        {
+          "rank": 11,
+          "name": "吃鸡小纵队",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "兄弟们给我上！",
+          "publisher": "武汉摸鱼岛科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 15,
+          "name": "一起过这关",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "驾驶重卡拉倒大楼，在快节奏对抗中用砖块连击碾压对手！",
+          "publisher": "海南简晨科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "幻界传说",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "高爆单职业热血攻速传奇，全新玩法，多重福利!!",
+          "publisher": "广州铸航网络科技有限公司",
+          "change": "1",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 9,
+          "name": "无畏三国",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "字字皆兵，攻守不停，几分钟畅玩三国塔防！",
+          "publisher": "广州凌图游戏科技有限公司",
+          "change": "50",
+          "change_direction": "down"
+        },
+        {
+          "rank": 11,
+          "name": "吃鸡小纵队",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "兄弟们给我上！",
+          "publisher": "武汉摸鱼岛科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "幻界传说",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "高爆单职业热血攻速传奇，全新玩法，多重福利!!",
+          "publisher": "广州铸航网络科技有限公司",
+          "change": "1",
+          "change_direction": "down"
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 0,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "速度与极限",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "从一副裸底盘造出最狂野的赛车，弹弓一拉，看你的座驾能飞多远！",
+          "publisher": "海南简晨科技有限公司",
+          "change": "67",
+          "change_direction": "down"
+        },
+        {
+          "rank": 9,
+          "name": "无畏三国",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "字字皆兵，攻守不停，几分钟畅玩三国塔防！",
+          "publisher": "广州凌图游戏科技有限公司",
+          "change": "50",
+          "change_direction": "down"
+        },
+        {
+          "rank": 11,
+          "name": "吃鸡小纵队",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "兄弟们给我上！",
+          "publisher": "武汉摸鱼岛科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 15,
+          "name": "一起过这关",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "驾驶重卡拉倒大楼，在快节奏对抗中用砖块连击碾压对手！",
+          "publisher": "海南简晨科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "幻界传说",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "高爆单职业热血攻速传奇，全新玩法，多重福利!!",
+          "publisher": "广州铸航网络科技有限公司",
+          "change": "1",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "无限大",
+          "publisher": "网易游戏",
+          "category": "开放世界",
+          "subcategory": "角色扮演、高自由度、都市、二次元、动作、高画质、3D"
+        },
+        {
+          "rank": 10,
+          "name": "七界梦谭",
+          "publisher": "飞光阁工作室",
+          "category": "角色扮演",
+          "subcategory": "修仙、高画质、MMORPG、开放世界、国风、3D"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 16,
+          "name": "DAVE THE DIVER",
+          "publisher": "Mintrocket",
+          "category": "Games",
+          "app_id": "6759962259",
+          "url": "https://apps.apple.com/us/app/dave-the-diver/id6759962259?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/55/d5/ee55d59e-a983-3e69-2d93-5f3f39336687/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "With 130,000+ reviews and a 96% Overwhelmingly Positive rating, Dave the Diver i"
+        },
+        {
+          "rank": 37,
+          "name": "Flick Shot Rogues",
+          "publisher": "Noodlecake",
+          "category": "Games",
+          "app_id": "6758023730",
+          "url": "https://apps.apple.com/us/app/flick-shot-rogues/id6758023730?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/78/7a/d0787a39-9dbf-8a65-4661-7eb16cfcc3e3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "*NOTICE - TRY BEFORE YOU BUY* - Play the beginning for free. A one-time in-app p"
+        },
+        {
+          "rank": 39,
+          "name": "Free Fire x NARUTO SHIPPUDEN",
+          "publisher": "GARENA INTERNATIONAL I PRIVATE LIMITED",
+          "category": "Games",
+          "app_id": "1300146617",
+          "url": "https://apps.apple.com/us/app/free-fire-x-naruto-shippuden/id1300146617?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/16/6b/ef166bba-1d69-85f5-ed84-6b7c6e73b55c/AppIcon-1788350393-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Ninjas unite. The Nine Tails is back!\n\nThe classic collaboration returns with th"
+        },
+        {
+          "rank": 42,
+          "name": "Mobile Legends: Bang Bang.US",
+          "publisher": "Skystone Games Pte. Ltd.",
+          "category": "Games",
+          "app_id": "6741568655",
+          "url": "https://apps.apple.com/us/app/mobile-legends-bang-bang-us/id6741568655?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/e1/77/78e177f1-e174-dfe5-bbd9-f4f2988d9b89/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "Mobile Legends: Bang Bang. US - The Ultimate 5v5 MOBA Experience, Now Even Bette"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 80,
+          "name": "We Are Cooking",
+          "publisher": "Matryoshka Games (CY) LTD",
+          "category": "Games",
+          "app_id": "6498920694",
+          "url": "https://apps.apple.com/us/app/we-are-cooking/id6498920694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/4b/35/104b3525-265d-7b76-24fd-3c798a8ec392/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to We Are Cooking, a game designed for food lovers who enjoy cooking at "
+        },
+        {
+          "rank": 98,
+          "name": "Angry Birds 2",
+          "publisher": "Rovio Entertainment Oyj",
+          "category": "Games",
+          "app_id": "880047117",
+          "url": "https://apps.apple.com/us/app/angry-birds-2/id880047117?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/12/75/2f1275bc-d155-45f9-c189-3cc518f3ff1a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Play the world's best bird flinging, pig popping game!\n\nUse the slingshot to fli"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 16,
+          "name": "DAVE THE DIVER",
+          "publisher": "Mintrocket",
+          "category": "Games",
+          "app_id": "6759962259",
+          "url": "https://apps.apple.com/us/app/dave-the-diver/id6759962259?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/55/d5/ee55d59e-a983-3e69-2d93-5f3f39336687/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "With 130,000+ reviews and a 96% Overwhelmingly Positive rating, Dave the Diver i"
+        },
+        {
+          "rank": 37,
+          "name": "Flick Shot Rogues",
+          "publisher": "Noodlecake",
+          "category": "Games",
+          "app_id": "6758023730",
+          "url": "https://apps.apple.com/us/app/flick-shot-rogues/id6758023730?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/78/7a/d0787a39-9dbf-8a65-4661-7eb16cfcc3e3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "*NOTICE - TRY BEFORE YOU BUY* - Play the beginning for free. A one-time in-app p"
+        },
+        {
+          "rank": 42,
+          "name": "Mobile Legends: Bang Bang.US",
+          "publisher": "Skystone Games Pte. Ltd.",
+          "category": "Games",
+          "app_id": "6741568655",
+          "url": "https://apps.apple.com/us/app/mobile-legends-bang-bang-us/id6741568655?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/e1/77/78e177f1-e174-dfe5-bbd9-f4f2988d9b89/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "Mobile Legends: Bang Bang. US - The Ultimate 5v5 MOBA Experience, Now Even Bette"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 2,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 16,
+          "name": "DAVE THE DIVER",
+          "publisher": "Mintrocket",
+          "category": "Games",
+          "app_id": "6759962259",
+          "url": "https://apps.apple.com/us/app/dave-the-diver/id6759962259?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/55/d5/ee55d59e-a983-3e69-2d93-5f3f39336687/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "With 130,000+ reviews and a 96% Overwhelmingly Positive rating, Dave the Diver i"
+        },
+        {
+          "rank": 37,
+          "name": "Flick Shot Rogues",
+          "publisher": "Noodlecake",
+          "category": "Games",
+          "app_id": "6758023730",
+          "url": "https://apps.apple.com/us/app/flick-shot-rogues/id6758023730?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/78/7a/d0787a39-9dbf-8a65-4661-7eb16cfcc3e3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "*NOTICE - TRY BEFORE YOU BUY* - Play the beginning for free. A one-time in-app p"
+        },
+        {
+          "rank": 39,
+          "name": "Free Fire x NARUTO SHIPPUDEN",
+          "publisher": "GARENA INTERNATIONAL I PRIVATE LIMITED",
+          "category": "Games",
+          "app_id": "1300146617",
+          "url": "https://apps.apple.com/us/app/free-fire-x-naruto-shippuden/id1300146617?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/16/6b/ef166bba-1d69-85f5-ed84-6b7c6e73b55c/AppIcon-1788350393-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Ninjas unite. The Nine Tails is back!\n\nThe classic collaboration returns with th"
+        },
+        {
+          "rank": 42,
+          "name": "Mobile Legends: Bang Bang.US",
+          "publisher": "Skystone Games Pte. Ltd.",
+          "category": "Games",
+          "app_id": "6741568655",
+          "url": "https://apps.apple.com/us/app/mobile-legends-bang-bang-us/id6741568655?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/e1/77/78e177f1-e174-dfe5-bbd9-f4f2988d9b89/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "Mobile Legends: Bang Bang. US - The Ultimate 5v5 MOBA Experience, Now Even Bette"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 41,
+          "name": "云·伊莫",
+          "publisher": "上海趣乐糖网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6796757624",
+          "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E4%BC%8A%E8%8E%AB/id6796757624?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/02/3b/e8023b1f-35dc-709a-b814-7224a8a00cce/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《云·伊莫》是多人在线大世界捉宠RPG《伊莫》的云游戏版本，仅需安装超小包体，一键下载、秒速启动。无需担心设备性能与存储空间，联结者即可获得超高画质与流畅帧率，"
+        },
+        {
+          "rank": 80,
+          "name": "童年小院",
+          "publisher": "燕鹏 曹",
+          "category": "游戏",
+          "app_id": "6753788791",
+          "url": "https://apps.apple.com/cn/app/%E7%AB%A5%E5%B9%B4%E5%B0%8F%E9%99%A2/id6753788791?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/b2/0e/3ab20e46-caa4-6819-d7de-4a875525f974/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "欢迎推开那扇挂着旧风铃的木栅栏 —— 这里是你的童年小院，从今天起，你就是这方天地的主人啦！\n\n清晨先去菜园逛逛吧：把饱满的玉米粒埋进松土里，看着西瓜藤慢慢爬满"
+        },
+        {
+          "rank": 92,
+          "name": "地下城与勇士：起源",
+          "publisher": "Tencent Mobile Games",
+          "category": "游戏",
+          "app_id": "1529851592",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E4%B8%8B%E5%9F%8E%E4%B8%8E%E5%8B%87%E5%A3%AB-%E8%B5%B7%E6%BA%90/id1529851592?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/07/8f/29078fba-fa28-63b3-071d-e9882e50f1a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "DNF手游全新满级扩张版本来袭，80版本全职业二觉开启强者之路！延续端游经典情怀，复刻职业连招快感！新增「深渊：失调次元」和「装备升星系统」，多角色组队速刷，超"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 2,
+          "name": "闪耀吧！噜咪",
+          "publisher": "Shanghai Hode Information Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6754912970",
+          "url": "https://apps.apple.com/cn/app/%E9%97%AA%E8%80%80%E5%90%A7-%E5%99%9C%E5%92%AA/id6754912970?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/68/29/f86829c9-16a5-c9ed-b1f1-c425e9a0e1de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "捉宠不用肝 冒险超简单\n立即下载游戏，上线尊享海量体力与彩色噜咪蛋！孵化超强噜咪，助力冒险启程！\n\n《闪耀吧！噜咪》是一款轻松异世界捉宠冒险RPG手游。在清新明"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 97,
+          "name": "镇邪人",
+          "publisher": "Anhui Leihu Network Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6771697396",
+          "url": "https://apps.apple.com/cn/app/%E9%95%87%E9%82%AA%E4%BA%BA/id6771697396?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/25/65/6f25658c-fcc3-de71-f3a4-241dfa06e569/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "天灵灵、地灵灵，一把木剑镇邪灵；莫问前程凶与吉，镇邪天师且慢行。诚邀各位镇邪天师加入镇邪司，一同探索地宫秘境，搜集稀世珍宝，打败千年邪崇！\n\n——签到得传说破盾"
+        },
+        {
+          "rank": 98,
+          "name": "疯狂动物园-跑酷牛仔向前冲",
+          "publisher": "Featherweight Games Pty Limited",
+          "category": "游戏",
+          "app_id": "1047961826",
+          "url": "https://apps.apple.com/cn/app/%E7%96%AF%E7%8B%82%E5%8A%A8%E7%89%A9%E5%9B%AD-%E8%B7%91%E9%85%B7%E7%89%9B%E4%BB%94%E5%90%91%E5%89%8D%E5%86%B2/id1047961826?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/fd/25/d4fd251d-3fea-9daa-3f6c-f41cf9f7c9ab/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【游戏介绍】\n准备好迎接一场疯狂的牛仔骑行冒险吧！《疯狂动物园》是一款让你欢乐放松的休闲小游戏，融合了「3D像素」、「急速跑酷」和「模拟经营」的元素。你将化身为"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 2,
+          "name": "闪耀吧！噜咪",
+          "publisher": "Shanghai Hode Information Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6754912970",
+          "url": "https://apps.apple.com/cn/app/%E9%97%AA%E8%80%80%E5%90%A7-%E5%99%9C%E5%92%AA/id6754912970?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/68/29/f86829c9-16a5-c9ed-b1f1-c425e9a0e1de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "捉宠不用肝 冒险超简单\n立即下载游戏，上线尊享海量体力与彩色噜咪蛋！孵化超强噜咪，助力冒险启程！\n\n《闪耀吧！噜咪》是一款轻松异世界捉宠冒险RPG手游。在清新明"
+        },
+        {
+          "rank": 41,
+          "name": "云·伊莫",
+          "publisher": "上海趣乐糖网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6796757624",
+          "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E4%BC%8A%E8%8E%AB/id6796757624?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/02/3b/e8023b1f-35dc-709a-b814-7224a8a00cce/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《云·伊莫》是多人在线大世界捉宠RPG《伊莫》的云游戏版本，仅需安装超小包体，一键下载、秒速启动。无需担心设备性能与存储空间，联结者即可获得超高画质与流畅帧率，"
+        },
+        {
+          "rank": 80,
+          "name": "童年小院",
+          "publisher": "燕鹏 曹",
+          "category": "游戏",
+          "app_id": "6753788791",
+          "url": "https://apps.apple.com/cn/app/%E7%AB%A5%E5%B9%B4%E5%B0%8F%E9%99%A2/id6753788791?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/b2/0e/3ab20e46-caa4-6819-d7de-4a875525f974/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "欢迎推开那扇挂着旧风铃的木栅栏 —— 这里是你的童年小院，从今天起，你就是这方天地的主人啦！\n\n清晨先去菜园逛逛吧：把饱满的玉米粒埋进松土里，看着西瓜藤慢慢爬满"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 2,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "闪耀吧！噜咪",
+          "publisher": "Shanghai Hode Information Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6754912970",
+          "url": "https://apps.apple.com/cn/app/%E9%97%AA%E8%80%80%E5%90%A7-%E5%99%9C%E5%92%AA/id6754912970?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/68/29/f86829c9-16a5-c9ed-b1f1-c425e9a0e1de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "捉宠不用肝 冒险超简单\n立即下载游戏，上线尊享海量体力与彩色噜咪蛋！孵化超强噜咪，助力冒险启程！\n\n《闪耀吧！噜咪》是一款轻松异世界捉宠冒险RPG手游。在清新明"
+        },
+        {
+          "rank": 41,
+          "name": "云·伊莫",
+          "publisher": "上海趣乐糖网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6796757624",
+          "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E4%BC%8A%E8%8E%AB/id6796757624?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/02/3b/e8023b1f-35dc-709a-b814-7224a8a00cce/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《云·伊莫》是多人在线大世界捉宠RPG《伊莫》的云游戏版本，仅需安装超小包体，一键下载、秒速启动。无需担心设备性能与存储空间，联结者即可获得超高画质与流畅帧率，"
+        },
+        {
+          "rank": 80,
+          "name": "童年小院",
+          "publisher": "燕鹏 曹",
+          "category": "游戏",
+          "app_id": "6753788791",
+          "url": "https://apps.apple.com/cn/app/%E7%AB%A5%E5%B9%B4%E5%B0%8F%E9%99%A2/id6753788791?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/b2/0e/3ab20e46-caa4-6819-d7de-4a875525f974/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "欢迎推开那扇挂着旧风铃的木栅栏 —— 这里是你的童年小院，从今天起，你就是这方天地的主人啦！\n\n清晨先去菜园逛逛吧：把饱满的玉米粒埋进松土里，看着西瓜藤慢慢爬满"
+        },
+        {
+          "rank": 92,
+          "name": "地下城与勇士：起源",
+          "publisher": "Tencent Mobile Games",
+          "category": "游戏",
+          "app_id": "1529851592",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E4%B8%8B%E5%9F%8E%E4%B8%8E%E5%8B%87%E5%A3%AB-%E8%B5%B7%E6%BA%90/id1529851592?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/07/8f/29078fba-fa28-63b3-071d-e9882e50f1a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "DNF手游全新满级扩张版本来袭，80版本全职业二觉开启强者之路！延续端游经典情怀，复刻职业连招快感！新增「深渊：失调次元」和「装备升星系统」，多角色组队速刷，超"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "エバーナイト：リバース",
+          "publisher": "LONGSIN GAME",
+          "category": "ゲーム",
+          "app_id": "6780761128",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A8%E3%83%90%E3%83%BC%E3%83%8A%E3%82%A4%E3%83%88-%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9/id6780761128?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/f2/9d/62f29dd1-7ca4-69c1-09c0-0c947c12aa99/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "■ 戦略性に富むカードバトル\n守護者配置、スキル連携と属性相性を見極めて、最強編成を作り上げよう！\n状況に応じた戦術調整が、強敵を打ち破る鍵となる！\n\n■ 領地"
+        },
+        {
+          "rank": 12,
+          "name": "デイヴ・ザ・ダイバー",
+          "publisher": "Mintrocket",
+          "category": "ゲーム",
+          "app_id": "6759962259",
+          "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%A4%E3%83%B4-%E3%82%B6-%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC/id6759962259?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/55/d5/ee55d59e-a983-3e69-2d93-5f3f39336687/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "13万件以上のレビューで96%という圧倒的好評を獲得したデイヴ・ザ・ダイバーが、モバイルに登場！\nモバイル版は、PC版『デイヴ・ザ・ダイバー』をベースにした完全"
+        },
+        {
+          "rank": 34,
+          "name": "ブンブン伝説",
+          "publisher": "KOU NAKAGOMI",
+          "category": "ゲーム",
+          "app_id": "6811043476",
+          "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%B3%E3%83%96%E3%83%B3%E4%BC%9D%E8%AA%AC/id6811043476?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/a0/38/7da038c7-8023-0448-e673-a2ed7c166b33/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "アクセルを回し、クラッチを合わせて、エンジン音でリズムを刻もう。\n\n『ブンブン伝説』は、単車のアクセルとクラッチを操るサウンドゲームです。回転を上げる、落とす、"
+        },
+        {
+          "rank": 63,
+          "name": "ピクセルブレイブ：伝説の勇者たち",
+          "publisher": "JMMOBI Inc.",
+          "category": "ゲーム",
+          "app_id": "6756157199",
+          "url": "https://apps.apple.com/jp/app/%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%83%96%E3%83%AC%E3%82%A4%E3%83%96-%E4%BC%9D%E8%AA%AC%E3%81%AE%E5%8B%87%E8%80%85%E3%81%9F%E3%81%A1/id6756157199?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/19/fb/8a19fb68-555a-17b1-1786-25b72621c5d8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "公式コミュニティに参加して、リリース記念抽選に挑戦\nDiscord：https://discord.gg/uA5UA5aTaf\nゲーム内通貨やレアアイテムが当た"
+        },
+        {
+          "rank": 95,
+          "name": "カラースライドパズル (Color Slide)",
+          "publisher": "SayGames LTD",
+          "category": "ゲーム",
+          "app_id": "6590876141",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89%E3%83%91%E3%82%BA%E3%83%AB-color-slide/id6590876141?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/cd/7c/bfcd7cf6-8c71-ba19-5a39-149b3968c946/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
+          "slogan": "► 超絶楽しい六角パズル\nリラックスと脳トレが一度に楽しめる、シンプルだけどやりごたえのあるパズルをお探しですか？『カラースライドパズル』は、そんなあなたの贅沢"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 59,
+          "name": "ヴィータ麻雀(Vita Mahjong)",
+          "publisher": "Vita Studio",
+          "category": "ゲーム",
+          "app_id": "6468921495",
+          "url": "https://apps.apple.com/jp/app/%E3%83%B4%E3%82%A3%E3%83%BC%E3%82%BF%E9%BA%BB%E9%9B%80-vita-mahjong/id6468921495?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/52/6a/87526a46-131a-bf31-6dbe-457cc9541485/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Vita麻雀は高齢者のためのカードゲームです。革新とクラシックゲームを組み合わせたマッチングゲームが発売されて嬉しいです。大きなタイルとユーザーフレンドリーで目"
+        },
+        {
+          "rank": 75,
+          "name": "Find The Cat 2 - Spot It!",
+          "publisher": "Agave Games",
+          "category": "ゲーム",
+          "app_id": "6758662578",
+          "url": "https://apps.apple.com/jp/app/find-the-cat-2-spot-it/id6758662578?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/19/73/d5197389-0db3-b630-6b25-85a89e9ca641/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to a brand-new adventure in the Find The Cat series. Get ready for a col"
+        },
+        {
+          "rank": 80,
+          "name": "ウッドパズル：Screw ネジ外すゲーム  - 人気 脳トレ",
+          "publisher": "LONGSEA LINK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6642698438",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A6%E3%83%83%E3%83%89%E3%83%91%E3%82%BA%E3%83%AB-screw-%E3%83%8D%E3%82%B8%E5%A4%96%E3%81%99%E3%82%B2%E3%83%BC%E3%83%A0-%E4%BA%BA%E6%B0%97-%E8%84%B3%E3%83%88%E3%83%AC/id6642698438?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/94/d5/e894d527-5e60-ed35-283d-ebb0fe72077a/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "「ウッドパズル：Screw ネジ外すゲーム - 人気 脳トレ」へようこそ！\nシンプルな操作で誰でも楽しめる「ウッドパズル：Screw ネジ外すゲーム」は、ナット"
+        },
+        {
+          "rank": 89,
+          "name": "ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG",
+          "publisher": "SQUARE ENIX",
+          "category": "ゲーム",
+          "app_id": "6747736697",
+          "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%B9%E3%83%9E%E3%83%83%E3%82%B7%E3%83%A5%E3%82%B0%E3%83%AD%E3%82%A6-%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A8%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%88rpg/id6747736697?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/a2/61/99a26144-5ec2-ff05-d60c-0902c74a0d07/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ドラゴンクエスト×直感＆爽快フィールドバトル！\n\nローグライトRPGで始まる新たなる冒険の旅へ\n\n直感操作でモンスターの群れを斬ってかわして、必殺技で一気に吹き"
+        },
+        {
+          "rank": 96,
+          "name": "デジモンUP",
+          "publisher": "Bandai Namco Entertainment Inc.",
+          "category": "ゲーム",
+          "app_id": "6756247422",
+          "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3up/id6756247422?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/e4/66/c2e466b5-147a-7793-7bb8-e3c3a831f9a9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「またデジモンと強くなれる。」\nデジモンの新作アプリゲームが登場！\n\n今なら、ゲーム開始時に「ゲッコーモン」や「八神太一＆アグモン」をもれなくプレゼント！今すぐ"
+        },
+        {
+          "rank": 97,
+          "name": "Pokémon TCG Pocket",
+          "publisher": "The Pokemon Company",
+          "category": "ゲーム",
+          "app_id": "6479970832",
+          "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-tcg-pocket/id6479970832?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/46/d9/0f46d910-52f3-3c86-77e0-a7c0673f2553/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『Pokémon Trading Card Game Pocket』は世界150の国と地域で遊ばれているアプリです。\nいつでもどこでもスマホで『ポケモンカード』"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 5,
+          "name": "エバーナイト：リバース",
+          "publisher": "LONGSIN GAME",
+          "category": "ゲーム",
+          "app_id": "6780761128",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A8%E3%83%90%E3%83%BC%E3%83%8A%E3%82%A4%E3%83%88-%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9/id6780761128?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/f2/9d/62f29dd1-7ca4-69c1-09c0-0c947c12aa99/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "■ 戦略性に富むカードバトル\n守護者配置、スキル連携と属性相性を見極めて、最強編成を作り上げよう！\n状況に応じた戦術調整が、強敵を打ち破る鍵となる！\n\n■ 領地"
+        },
+        {
+          "rank": 12,
+          "name": "デイヴ・ザ・ダイバー",
+          "publisher": "Mintrocket",
+          "category": "ゲーム",
+          "app_id": "6759962259",
+          "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%A4%E3%83%B4-%E3%82%B6-%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC/id6759962259?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/55/d5/ee55d59e-a983-3e69-2d93-5f3f39336687/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "13万件以上のレビューで96%という圧倒的好評を獲得したデイヴ・ザ・ダイバーが、モバイルに登場！\nモバイル版は、PC版『デイヴ・ザ・ダイバー』をベースにした完全"
+        },
+        {
+          "rank": 34,
+          "name": "ブンブン伝説",
+          "publisher": "KOU NAKAGOMI",
+          "category": "ゲーム",
+          "app_id": "6811043476",
+          "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%B3%E3%83%96%E3%83%B3%E4%BC%9D%E8%AA%AC/id6811043476?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/a0/38/7da038c7-8023-0448-e673-a2ed7c166b33/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "アクセルを回し、クラッチを合わせて、エンジン音でリズムを刻もう。\n\n『ブンブン伝説』は、単車のアクセルとクラッチを操るサウンドゲームです。回転を上げる、落とす、"
+        },
+        {
+          "rank": 63,
+          "name": "ピクセルブレイブ：伝説の勇者たち",
+          "publisher": "JMMOBI Inc.",
+          "category": "ゲーム",
+          "app_id": "6756157199",
+          "url": "https://apps.apple.com/jp/app/%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%83%96%E3%83%AC%E3%82%A4%E3%83%96-%E4%BC%9D%E8%AA%AC%E3%81%AE%E5%8B%87%E8%80%85%E3%81%9F%E3%81%A1/id6756157199?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/19/fb/8a19fb68-555a-17b1-1786-25b72621c5d8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "公式コミュニティに参加して、リリース記念抽選に挑戦\nDiscord：https://discord.gg/uA5UA5aTaf\nゲーム内通貨やレアアイテムが当た"
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 6,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "エバーナイト：リバース",
+          "publisher": "LONGSIN GAME",
+          "category": "ゲーム",
+          "app_id": "6780761128",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A8%E3%83%90%E3%83%BC%E3%83%8A%E3%82%A4%E3%83%88-%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9/id6780761128?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/f2/9d/62f29dd1-7ca4-69c1-09c0-0c947c12aa99/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "■ 戦略性に富むカードバトル\n守護者配置、スキル連携と属性相性を見極めて、最強編成を作り上げよう！\n状況に応じた戦術調整が、強敵を打ち破る鍵となる！\n\n■ 領地"
+        },
+        {
+          "rank": 12,
+          "name": "デイヴ・ザ・ダイバー",
+          "publisher": "Mintrocket",
+          "category": "ゲーム",
+          "app_id": "6759962259",
+          "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%A4%E3%83%B4-%E3%82%B6-%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC/id6759962259?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/55/d5/ee55d59e-a983-3e69-2d93-5f3f39336687/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "13万件以上のレビューで96%という圧倒的好評を獲得したデイヴ・ザ・ダイバーが、モバイルに登場！\nモバイル版は、PC版『デイヴ・ザ・ダイバー』をベースにした完全"
+        },
+        {
+          "rank": 34,
+          "name": "ブンブン伝説",
+          "publisher": "KOU NAKAGOMI",
+          "category": "ゲーム",
+          "app_id": "6811043476",
+          "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%B3%E3%83%96%E3%83%B3%E4%BC%9D%E8%AA%AC/id6811043476?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/a0/38/7da038c7-8023-0448-e673-a2ed7c166b33/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "アクセルを回し、クラッチを合わせて、エンジン音でリズムを刻もう。\n\n『ブンブン伝説』は、単車のアクセルとクラッチを操るサウンドゲームです。回転を上げる、落とす、"
+        },
+        {
+          "rank": 63,
+          "name": "ピクセルブレイブ：伝説の勇者たち",
+          "publisher": "JMMOBI Inc.",
+          "category": "ゲーム",
+          "app_id": "6756157199",
+          "url": "https://apps.apple.com/jp/app/%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%83%96%E3%83%AC%E3%82%A4%E3%83%96-%E4%BC%9D%E8%AA%AC%E3%81%AE%E5%8B%87%E8%80%85%E3%81%9F%E3%81%A1/id6756157199?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/19/fb/8a19fb68-555a-17b1-1786-25b72621c5d8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "公式コミュニティに参加して、リリース記念抽選に挑戦\nDiscord：https://discord.gg/uA5UA5aTaf\nゲーム内通貨やレアアイテムが当た"
+        },
+        {
+          "rank": 95,
+          "name": "カラースライドパズル (Color Slide)",
+          "publisher": "SayGames LTD",
+          "category": "ゲーム",
+          "app_id": "6590876141",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89%E3%83%91%E3%82%BA%E3%83%AB-color-slide/id6590876141?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/cd/7c/bfcd7cf6-8c71-ba19-5a39-149b3968c946/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
+          "slogan": "► 超絶楽しい六角パズル\nリラックスと脳トレが一度に楽しめる、シンプルだけどやりごたえのあるパズルをお探しですか？『カラースライドパズル』は、そんなあなたの贅沢"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
