@@ -1,0 +1,864 @@
+{
+  "date": "2026-09-18",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "打下毛线",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州指望科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "武侠大明星",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "海南盛昌网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "青云诀之伏魔",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "海南元游信息技术有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "开局带把枪",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "邯郸小空科技有限公司",
+          "change": "3",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 17,
+          "name": "这也能合成",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "《这也能合成》是一款脑洞大开的魔性合成游戏！",
+          "publisher": "深圳市指点天下科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "三国杀",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "三分钟一局，快节奏对战",
+          "publisher": "杭州游卡网络技术有限公司",
+          "change": "3",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 17,
+          "name": "这也能合成",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "《这也能合成》是一款脑洞大开的魔性合成游戏！",
+          "publisher": "深圳市指点天下科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "我的花园世界",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "超治愈的种花小游戏，快来经营你的花店吧！",
+          "publisher": "海南途趣科技有限公司",
+          "change": "9",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "次神光之觉醒",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "玩家扮演英雄召唤者，与英雄一起历练，维护世界平衡",
+          "publisher": "北京雪境科技有限公司",
+          "change": "5",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "王者征途",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "巨人首款放置征途，自动打怪，挂机升级！",
+          "publisher": "上海巨人统平网络科技有限公司",
+          "change": "12",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "魔法之旅",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "四大职业，八大副本，超强战队，等你来打",
+          "publisher": "四川天天颖网络科技有限公司",
+          "change": "31",
+          "change_direction": "down"
+        },
+        {
+          "rank": 12,
+          "name": "智力解压馆",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "小蜜蜂搬砖解压小游戏",
+          "publisher": "重庆云威科技有限公司",
+          "change": "42",
+          "change_direction": "down"
+        },
+        {
+          "rank": 13,
+          "name": "乐园闯关大计划",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这一关你敢来闯吗",
+          "publisher": "广州沐上网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "战国之道游戏软件V2.1.5",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "实时 PK 跨服争霸，美人相伴高爆领真充！",
+          "publisher": "西安品文网络科技有限公司",
+          "change": "25",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "快来开家店",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "开了家快餐厅！",
+          "publisher": "厦门奇趣星河科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "迷你火炮射击",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "迷你火炮出击，找出伪装外星人",
+          "publisher": "深圳市小创趣游网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "咕嘎咕嘎",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "合成角色挖掘方块，开启宝箱，收集金币并挑战关卡。",
+          "publisher": "合肥金蛋互动科技有限公司",
+          "change": "13",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "极限跳高冠军",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "跳跃蹦高高，失败就从头再来，你能顺利通关吗",
+          "publisher": "广州易游互玩科技有限公司",
+          "change": "3",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 8,
+          "name": "魔法之旅",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "四大职业，八大副本，超强战队，等你来打",
+          "publisher": "四川天天颖网络科技有限公司",
+          "change": "31",
+          "change_direction": "down"
+        },
+        {
+          "rank": 13,
+          "name": "乐园闯关大计划",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这一关你敢来闯吗",
+          "publisher": "广州沐上网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "战国之道游戏软件V2.1.5",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "实时 PK 跨服争霸，美人相伴高爆领真充！",
+          "publisher": "西安品文网络科技有限公司",
+          "change": "25",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "快来开家店",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "开了家快餐厅！",
+          "publisher": "厦门奇趣星河科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 2,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "魔法之旅",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "四大职业，八大副本，超强战队，等你来打",
+          "publisher": "四川天天颖网络科技有限公司",
+          "change": "31",
+          "change_direction": "down"
+        },
+        {
+          "rank": 12,
+          "name": "智力解压馆",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "小蜜蜂搬砖解压小游戏",
+          "publisher": "重庆云威科技有限公司",
+          "change": "42",
+          "change_direction": "down"
+        },
+        {
+          "rank": 13,
+          "name": "乐园闯关大计划",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这一关你敢来闯吗",
+          "publisher": "广州沐上网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "战国之道游戏软件V2.1.5",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "实时 PK 跨服争霸，美人相伴高爆领真充！",
+          "publisher": "西安品文网络科技有限公司",
+          "change": "25",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "快来开家店",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "开了家快餐厅！",
+          "publisher": "厦门奇趣星河科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "迷你火炮射击",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "迷你火炮出击，找出伪装外星人",
+          "publisher": "深圳市小创趣游网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 1,
+          "name": "崩坏：因缘精灵",
+          "publisher": "miHoYo",
+          "category": "冒险",
+          "subcategory": "宠物、自走棋、崩坏、策略、3D"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "Lumi Master",
+          "publisher": "BILIBILI HK LIMITED",
+          "category": "Games",
+          "app_id": "6754979232",
+          "url": "https://apps.apple.com/us/app/lumi-master/id6754979232?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/fc/bf/6afcbf0e-20bb-512b-c705-df397c933127/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Download now to claim an Ultimate Rainbow Lumi Egg & bonus Energy at launch!\n\nLu"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 83,
+          "name": "Fillwords: Word Search Puzzles",
+          "publisher": "MALPA GAMES",
+          "category": "Games",
+          "app_id": "1197961218",
+          "url": "https://apps.apple.com/us/app/fillwords-word-search-puzzles/id1197961218?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/25/ec/4b25ecbe-634a-e01c-9143-4a2649827487/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fillwords is an exciting word game with 2000+ levels!\n\nThe goal of the puzzle is"
+        },
+        {
+          "rank": 89,
+          "name": "PUBG MOBILE",
+          "publisher": "Tencent Mobile International Limited",
+          "category": "Games",
+          "app_id": "1330123889",
+          "url": "https://apps.apple.com/us/app/pubg-mobile/id1330123889?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/98/24/6d9824dd-f75f-9bd6-221e-33324fedecb2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "【Epic battle royale masterpiece】\nLots of events for you to explore.Climb to the "
+        },
+        {
+          "rank": 99,
+          "name": "Dark War:Survival",
+          "publisher": "Omnilojo Pte Ltd",
+          "category": "Games",
+          "app_id": "6670441558",
+          "url": "https://apps.apple.com/us/app/dark-war-survival/id6670441558?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/ee/c9/1ceec939-7fe7-a2b4-4eb8-e0af54e0ebed/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Gear up and brace yourself for the ultimate test of zombie apocalypse survival! "
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "Lumi Master",
+          "publisher": "BILIBILI HK LIMITED",
+          "category": "Games",
+          "app_id": "6754979232",
+          "url": "https://apps.apple.com/us/app/lumi-master/id6754979232?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/fc/bf/6afcbf0e-20bb-512b-c705-df397c933127/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Download now to claim an Ultimate Rainbow Lumi Egg & bonus Energy at launch!\n\nLu"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "Lumi Master",
+          "publisher": "BILIBILI HK LIMITED",
+          "category": "Games",
+          "app_id": "6754979232",
+          "url": "https://apps.apple.com/us/app/lumi-master/id6754979232?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/fc/bf/6afcbf0e-20bb-512b-c705-df397c933127/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Download now to claim an Ultimate Rainbow Lumi Egg & bonus Energy at launch!\n\nLu"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 39,
+          "name": "乡村旧时光-阳光养鸡场",
+          "publisher": "烁 刘",
+          "category": "游戏",
+          "app_id": "6810655731",
+          "url": "https://apps.apple.com/cn/app/%E4%B9%A1%E6%9D%91%E6%97%A7%E6%97%B6%E5%85%89-%E9%98%B3%E5%85%89%E5%85%BB%E9%B8%A1%E5%9C%BA/id6810655731?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/41/c3/7e41c3a8-b780-8550-533c-98e8c3cdeb85/AppIcon-1x_U007ephone-0-1-P3-85-220-0.png/100x100bb.png",
+          "slogan": "放下忙碌，奔赴治愈田园！在乡村旧时光-阳光养鸡场，开启悠闲惬意的田园养鸡经营之旅，亲手打造属于你的治愈阳光农场。\n暖阳洒满鸡场，小鸡悠然嬉戏。自由在场内走动拾取"
+        },
+        {
+          "rank": 52,
+          "name": "天天爱数独-这关我不会数独大师",
+          "publisher": "贺涛 周",
+          "category": "游戏",
+          "app_id": "1470558945",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E7%88%B1%E6%95%B0%E7%8B%AC-%E8%BF%99%E5%85%B3%E6%88%91%E4%B8%8D%E4%BC%9A%E6%95%B0%E7%8B%AC%E5%A4%A7%E5%B8%88/id1470558945?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/e2/7d/35e27df3-0b65-cb38-4dae-49b5201eaafa/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《天天爱数独》是一款猫咪主题的休闲益智解谜小游戏，把传统数独逻辑与消除闯关玩法结合，不用数字，改用放置萌猫来解谜，上手轻松，主打逻辑推理解压。\n核心规则\n1. "
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 97,
+          "name": "率土之滨",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "909211092",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%87%E5%9C%9F%E4%B9%8B%E6%BB%A8/id909211092?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/a8/d7/c0a8d707-d225-5d68-392f-6f580760a712/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "欢迎来到国人原创的东方战争策略游戏《率土之滨》。\r\n《率土之滨》提供了一个全自由的东方战争策略沙盘，你可以与众多玩家组建同盟，一起在这汉末大争之世中，创造你们的"
+        },
+        {
+          "rank": 99,
+          "name": "我的汤姆猫2-全新街区寻宝奇遇记",
+          "publisher": "Outfit7 Limited",
+          "category": "游戏",
+          "app_id": "1337578317",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%B1%A4%E5%A7%86%E7%8C%AB2-%E5%85%A8%E6%96%B0%E8%A1%97%E5%8C%BA%E5%AF%BB%E5%AE%9D%E5%A5%87%E9%81%87%E8%AE%B0/id1337578317?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/f1/b4/d8f1b4fe-838c-0d17-42d5-7d98748f8d4e/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/100x100bb.png",
+          "slogan": "超级明星虚拟猫咪将踏上终极宠物冒险之旅，有了你，这将比以往任何时候都更有趣！你最喜爱的有趣朋友已经准备好用他的新服装、惊人技能和特殊功能让你大开眼界。\n\n你能做"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 39,
+          "name": "乡村旧时光-阳光养鸡场",
+          "publisher": "烁 刘",
+          "category": "游戏",
+          "app_id": "6810655731",
+          "url": "https://apps.apple.com/cn/app/%E4%B9%A1%E6%9D%91%E6%97%A7%E6%97%B6%E5%85%89-%E9%98%B3%E5%85%89%E5%85%BB%E9%B8%A1%E5%9C%BA/id6810655731?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/41/c3/7e41c3a8-b780-8550-533c-98e8c3cdeb85/AppIcon-1x_U007ephone-0-1-P3-85-220-0.png/100x100bb.png",
+          "slogan": "放下忙碌，奔赴治愈田园！在乡村旧时光-阳光养鸡场，开启悠闲惬意的田园养鸡经营之旅，亲手打造属于你的治愈阳光农场。\n暖阳洒满鸡场，小鸡悠然嬉戏。自由在场内走动拾取"
+        },
+        {
+          "rank": 52,
+          "name": "天天爱数独-这关我不会数独大师",
+          "publisher": "贺涛 周",
+          "category": "游戏",
+          "app_id": "1470558945",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E7%88%B1%E6%95%B0%E7%8B%AC-%E8%BF%99%E5%85%B3%E6%88%91%E4%B8%8D%E4%BC%9A%E6%95%B0%E7%8B%AC%E5%A4%A7%E5%B8%88/id1470558945?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/e2/7d/35e27df3-0b65-cb38-4dae-49b5201eaafa/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《天天爱数独》是一款猫咪主题的休闲益智解谜小游戏，把传统数独逻辑与消除闯关玩法结合，不用数字，改用放置萌猫来解谜，上手轻松，主打逻辑推理解压。\n核心规则\n1. "
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 2,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 39,
+          "name": "乡村旧时光-阳光养鸡场",
+          "publisher": "烁 刘",
+          "category": "游戏",
+          "app_id": "6810655731",
+          "url": "https://apps.apple.com/cn/app/%E4%B9%A1%E6%9D%91%E6%97%A7%E6%97%B6%E5%85%89-%E9%98%B3%E5%85%89%E5%85%BB%E9%B8%A1%E5%9C%BA/id6810655731?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/41/c3/7e41c3a8-b780-8550-533c-98e8c3cdeb85/AppIcon-1x_U007ephone-0-1-P3-85-220-0.png/100x100bb.png",
+          "slogan": "放下忙碌，奔赴治愈田园！在乡村旧时光-阳光养鸡场，开启悠闲惬意的田园养鸡经营之旅，亲手打造属于你的治愈阳光农场。\n暖阳洒满鸡场，小鸡悠然嬉戏。自由在场内走动拾取"
+        },
+        {
+          "rank": 52,
+          "name": "天天爱数独-这关我不会数独大师",
+          "publisher": "贺涛 周",
+          "category": "游戏",
+          "app_id": "1470558945",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E7%88%B1%E6%95%B0%E7%8B%AC-%E8%BF%99%E5%85%B3%E6%88%91%E4%B8%8D%E4%BC%9A%E6%95%B0%E7%8B%AC%E5%A4%A7%E5%B8%88/id1470558945?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/e2/7d/35e27df3-0b65-cb38-4dae-49b5201eaafa/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《天天爱数独》是一款猫咪主题的休闲益智解谜小游戏，把传统数独逻辑与消除闯关玩法结合，不用数字，改用放置萌猫来解谜，上手轻松，主打逻辑推理解压。\n核心规则\n1. "
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 3,
+          "name": "Lumi Master（るぅみマスター）",
+          "publisher": "BILIBILI HK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6754979232",
+          "url": "https://apps.apple.com/jp/app/lumi-master-%E3%82%8B%E3%81%85%E3%81%BF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/id6754979232?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/fc/bf/6afcbf0e-20bb-512b-c705-df397c933127/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "オートでるぅみをどんどんゲット！図鑑コンプリートもらくらく！\n今すぐダウンロード！スタミナ＆にじいろたまご大量ゲット！\n強力なるぅみを手に入れ、冒険へ出発しよう"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 94,
+          "name": "バスゲーム：カーパーキング・バスゲーム",
+          "publisher": "ABI GLOBAL LTD.",
+          "category": "ゲーム",
+          "app_id": "6689516366",
+          "url": "https://apps.apple.com/jp/app/%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0-%E3%82%AB%E3%83%BC%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0-%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0/id6689516366?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/58/23/7a58233d-7a15-6a5b-c73e-4117aa42b79b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "頭を使う難しいけど爽快なパズルゲームが好きですか？\n\nBus Escape: Traffic Jam Fever! の世界へようこそ！バスを動かしながら渋滞を解"
+        },
+        {
+          "rank": 96,
+          "name": "トリミン2！-トリッキーミーン2 いじわる脳トレパズルゲーム",
+          "publisher": "FTY LLC.",
+          "category": "ゲーム",
+          "app_id": "6758080238",
+          "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%AA%E3%83%9F%E3%83%B32-%E3%83%88%E3%83%AA%E3%83%83%E3%82%AD%E3%83%BC%E3%83%9F%E3%83%BC%E3%83%B32-%E3%81%84%E3%81%98%E3%82%8F%E3%82%8B%E8%84%B3%E3%83%88%E3%83%AC%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6758080238?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/ab/7a/1cab7aa4-b609-9d02-8fe1-55706e5bec05/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "あの“トリミン”に続編登場！『トリッキーミーン2』リリース！\n\nアイテムを動かしてイラストを変化させる、いじわる謎解きゲームがパワーアップ！\n前作で好評だった「"
+        },
+        {
+          "rank": 97,
+          "name": "オフラインゲーム - 暇つぶし ゲーム - パズルゲーム",
+          "publisher": "Moreno Maio",
+          "category": "ゲーム",
+          "app_id": "6448104157",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0-%E6%9A%87%E3%81%A4%E3%81%B6%E3%81%97-%E3%82%B2%E3%83%BC%E3%83%A0-%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6448104157?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/d9/dc/0fd9dc3d-dd66-3619-ffce-d918b6477566/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「オフラインゲーム」の準備をしよう：すべての年齢層に楽しい、そして頭脳トレーニングにもなる！このオフラインゲームコレクションは、20以上のユニークなミニゲームが"
+        },
+        {
+          "rank": 99,
+          "name": "E.D.E.N：最終防衛線",
+          "publisher": "Game Duo Co.,Ltd.",
+          "category": "ゲーム",
+          "app_id": "6754559095",
+          "url": "https://apps.apple.com/jp/app/e-d-e-n-%E6%9C%80%E7%B5%82%E9%98%B2%E8%A1%9B%E7%B7%9A/id6754559095?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/8d/66/778d666a-02ed-8697-33fa-734a89770343/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「指揮官、滅亡寸前の世界で、人類の希望はあなたの命令だけ——。\n特殊能力を持つ少女たちに「EDEN」を授与し、人類最後の防衛線を指揮してください！」\n\n【指揮官"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 3,
+          "name": "Lumi Master（るぅみマスター）",
+          "publisher": "BILIBILI HK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6754979232",
+          "url": "https://apps.apple.com/jp/app/lumi-master-%E3%82%8B%E3%81%85%E3%81%BF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/id6754979232?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/fc/bf/6afcbf0e-20bb-512b-c705-df397c933127/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "オートでるぅみをどんどんゲット！図鑑コンプリートもらくらく！\n今すぐダウンロード！スタミナ＆にじいろたまご大量ゲット！\n強力なるぅみを手に入れ、冒険へ出発しよう"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 4,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 3,
+          "name": "Lumi Master（るぅみマスター）",
+          "publisher": "BILIBILI HK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6754979232",
+          "url": "https://apps.apple.com/jp/app/lumi-master-%E3%82%8B%E3%81%85%E3%81%BF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/id6754979232?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/fc/bf/6afcbf0e-20bb-512b-c705-df397c933127/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "オートでるぅみをどんどんゲット！図鑑コンプリートもらくらく！\n今すぐダウンロード！スタミナ＆にじいろたまご大量ゲット！\n強力なるぅみを手に入れ、冒険へ出発しよう"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 39,
+          "name": "Privacy App Guard",
+          "publisher": "Yongyou Trading Co",
+          "category": "Games",
+          "package": "com.privacy.guard.tool.afsrited"
+        },
+        {
+          "rank": 56,
+          "name": "CarLoop",
+          "publisher": "UUTEAM Technology Limited",
+          "category": "Games",
+          "package": "com.blast.puzzlegame.bear"
+        },
+        {
+          "rank": 93,
+          "name": "ARES: THE IRON VANGUARD",
+          "publisher": "Com2uS Holdings",
+          "category": "Games",
+          "package": "com.com2usholdings.agwiv.android.google.global.normal"
+        },
+        {
+          "rank": 97,
+          "name": "Frost Valley™: Merge & Story",
+          "publisher": "LITEORANGE CREATION PTE. LTD.",
+          "category": "Games",
+          "package": "com.liteorange.hometopia"
+        },
+        {
+          "rank": 100,
+          "name": "Last Extract",
+          "publisher": "VOODOO",
+          "category": "Games",
+          "package": "com.xiaomo.lastextract"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 96,
+          "name": "Block Out! - Color Sort Puzzle",
+          "publisher": "Grand Games A.Ş.",
+          "category": "Games",
+          "package": "com.grandgames.catblockjam"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 50,
+          "name": "Angry Smash",
+          "publisher": "Tripledot Studios Limited",
+          "category": "Games",
+          "package": "com.tripledot.angrysmash"
+        },
+        {
+          "rank": 65,
+          "name": "Yarn Fever! Unravel Puzzle",
+          "publisher": "Brave HK Limited",
+          "category": "Games",
+          "package": "puzzle.yarn.fever.unravel.puzzle"
+        },
+        {
+          "rank": 90,
+          "name": "Solitaire",
+          "publisher": "Mouse Games",
+          "category": "Games",
+          "package": "com.smilerlee.klondike"
+        },
+        {
+          "rank": 94,
+          "name": "Z Route: Redemption",
+          "publisher": "37GAMES GLOBAL",
+          "category": "Games",
+          "package": "com.zroute.global"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 39,
+          "name": "Privacy App Guard",
+          "publisher": "Yongyou Trading Co",
+          "category": "Games",
+          "package": "com.privacy.guard.tool.afsrited"
+        },
+        {
+          "rank": 56,
+          "name": "CarLoop",
+          "publisher": "UUTEAM Technology Limited",
+          "category": "Games",
+          "package": "com.blast.puzzlegame.bear"
+        },
+        {
+          "rank": 93,
+          "name": "ARES: THE IRON VANGUARD",
+          "publisher": "Com2uS Holdings",
+          "category": "Games",
+          "package": "com.com2usholdings.agwiv.android.google.global.normal"
+        },
+        {
+          "rank": 97,
+          "name": "Frost Valley™: Merge & Story",
+          "publisher": "LITEORANGE CREATION PTE. LTD.",
+          "category": "Games",
+          "package": "com.liteorange.hometopia"
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 4,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 39,
+          "name": "Privacy App Guard",
+          "publisher": "Yongyou Trading Co",
+          "category": "Games",
+          "package": "com.privacy.guard.tool.afsrited"
+        },
+        {
+          "rank": 56,
+          "name": "CarLoop",
+          "publisher": "UUTEAM Technology Limited",
+          "category": "Games",
+          "package": "com.blast.puzzlegame.bear"
+        },
+        {
+          "rank": 93,
+          "name": "ARES: THE IRON VANGUARD",
+          "publisher": "Com2uS Holdings",
+          "category": "Games",
+          "package": "com.com2usholdings.agwiv.android.google.global.normal"
+        },
+        {
+          "rank": 96,
+          "name": "Block Out! - Color Sort Puzzle",
+          "publisher": "Grand Games A.Ş.",
+          "category": "Games",
+          "package": "com.grandgames.catblockjam"
+        },
+        {
+          "rank": 97,
+          "name": "Frost Valley™: Merge & Story",
+          "publisher": "LITEORANGE CREATION PTE. LTD.",
+          "category": "Games",
+          "package": "com.liteorange.hometopia"
+        },
+        {
+          "rank": 100,
+          "name": "Last Extract",
+          "publisher": "VOODOO",
+          "category": "Games",
+          "package": "com.xiaomo.lastextract"
+        }
+      ]
+    }
+  }
+}
