@@ -1,0 +1,572 @@
+{
+  "date": "2026-09-20",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 1,
+          "name": "星布谷地",
+          "publisher": "miHoYo",
+          "category": "模拟经营",
+          "subcategory": "3D、休闲、社交、种田、多人联机、角色扮演、建造、治愈、模拟"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "Last Beacon: Survival",
+          "publisher": "YG Technology FZ-LLC",
+          "category": "Games",
+          "app_id": "6761043541",
+          "url": "https://apps.apple.com/us/app/last-beacon-survival/id6761043541?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/00/4b/ea004b70-f249-76f2-df36-eb72a2595a1c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This is a post-apocalyptic ocean survival game where you will experience thrilli"
+        },
+        {
+          "rank": 72,
+          "name": "Caps Unlock",
+          "publisher": "Gimica GmbH",
+          "category": "Games",
+          "app_id": "6771319069",
+          "url": "https://apps.apple.com/us/app/caps-unlock/id6771319069?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/ab/de/9dabde01-ead6-e713-9448-0f5f8400d9d6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Every cap holds part of the puzzle together. Can you work out the correct order "
+        },
+        {
+          "rank": 92,
+          "name": "Color Slide - Hexa Puzzle",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6590876141",
+          "url": "https://apps.apple.com/us/app/color-slide-hexa-puzzle/id6590876141?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/cd/7c/bfcd7cf6-8c71-ba19-5a39-149b3968c946/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
+          "slogan": "► Hex-traordinary Fun\n\nLooking for a simple yet difficult puzzle that will both "
+        },
+        {
+          "rank": 95,
+          "name": "Brain Test: Tricky Puzzles",
+          "publisher": "UNICO STUDIO",
+          "category": "Games",
+          "app_id": "1486214495",
+          "url": "https://apps.apple.com/us/app/brain-test-tricky-puzzles/id1486214495?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/c8/82/a2c882c7-ff0a-4d01-c884-1381370912b4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Brain Test: Tricky Puzzles is a collection of clever and surprising puzzles buil"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 96,
+          "name": "Epic Plane Evolution",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "6504122823",
+          "url": "https://apps.apple.com/us/app/epic-plane-evolution/id6504122823?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/b3/39/dfb339f3-7a6d-c138-975c-fa52ee077c03/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Launch, Upgrade, and Conquer the Skies with your plane!\n\n\nPrepare for an exhilar"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 70,
+          "name": "Hole.io",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "1389111413",
+          "url": "https://apps.apple.com/us/app/hole-io/id1389111413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/fe/ef/17feef67-58f9-ce21-96ee-9179d7ce6baa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Hole.io, the wildly satisfying eat-the-world game played by millions!"
+        },
+        {
+          "rank": 73,
+          "name": "Police Chief",
+          "publisher": "VoyagerOne",
+          "category": "Games",
+          "app_id": "6757350661",
+          "url": "https://apps.apple.com/us/app/police-chief/id6757350661?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/e6/84/7be6842e-44ea-d20e-ffe7-927e6b566be1/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "The world is shrouded in crime. Cities teem with gangs, smuggling rings, and ass"
+        },
+        {
+          "rank": 80,
+          "name": "Imposter Game - Party Edition",
+          "publisher": "Sven Vucak",
+          "category": "Games",
+          "app_id": "6745120053",
+          "url": "https://apps.apple.com/us/app/imposter-game-party-edition/id6745120053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/69/e0/1069e0bd-1564-9f77-7ea4-a8072e6e90ff/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.png",
+          "slogan": "Are you the imposter - or will you expose them?\n\nImposter is the perfect game fo"
+        },
+        {
+          "rank": 88,
+          "name": "My Sticker Room - Decor Game",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6743738094",
+          "url": "https://apps.apple.com/us/app/my-sticker-room-decor-game/id6743738094?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/b7/b8/abb7b80a-92c1-91bd-f141-974e67a2dea8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "THE ULTIMATE COZY STICKER GAME\n\nLife can be stressful, so it’s important to make"
+        },
+        {
+          "rank": 90,
+          "name": "Block Craft 3D: Building Games",
+          "publisher": "Wildlife Studios",
+          "category": "Games",
+          "app_id": "981633844",
+          "url": "https://apps.apple.com/us/app/block-craft-3d-building-games/id981633844?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/da/80/e6da80a1-ccf2-a7cc-e301-7049467d42bd/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "Craft and grow your own village or build freely in an unlimited open world!\n\n+ C"
+        },
+        {
+          "rank": 94,
+          "name": "Cookingo: Perfect Meal",
+          "publisher": "Higame Global Limited",
+          "category": "Games",
+          "app_id": "6756288168",
+          "url": "https://apps.apple.com/us/app/cookingo-perfect-meal/id6756288168?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/f4/65/5ff465ab-c04b-fff5-79e3-5fc19a770fb3/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to Cookingo, your peaceful little escape from the hustle and bustle of e"
+        },
+        {
+          "rank": 98,
+          "name": "Double Tile!",
+          "publisher": "Hungry Studio",
+          "category": "Games",
+          "app_id": "6754014472",
+          "url": "https://apps.apple.com/us/app/double-tile/id6754014472?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/47/3c/1e473c90-b852-23bb-40e0-3595577649ae/AppIcon-0-0-1x_U007epad-0-11-0-sRGB-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Double Tile! Start your brain puzzles journey in this relaxing mahjon"
+        },
+        {
+          "rank": 100,
+          "name": "Apex Hunter: Animal Shooting",
+          "publisher": "CozyCraft",
+          "category": "Games",
+          "app_id": "6761614488",
+          "url": "https://apps.apple.com/us/app/apex-hunter-animal-shooting/id6761614488?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fb/66/89/fb668970-61fd-ed5b-1f9b-6c428b5065cf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "**Apex Hunter: Animal Shooting**\n\nThe title of Apex Hunter isn't given. It's ear"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "Last Beacon: Survival",
+          "publisher": "YG Technology FZ-LLC",
+          "category": "Games",
+          "app_id": "6761043541",
+          "url": "https://apps.apple.com/us/app/last-beacon-survival/id6761043541?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/00/4b/ea004b70-f249-76f2-df36-eb72a2595a1c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This is a post-apocalyptic ocean survival game where you will experience thrilli"
+        },
+        {
+          "rank": 72,
+          "name": "Caps Unlock",
+          "publisher": "Gimica GmbH",
+          "category": "Games",
+          "app_id": "6771319069",
+          "url": "https://apps.apple.com/us/app/caps-unlock/id6771319069?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/ab/de/9dabde01-ead6-e713-9448-0f5f8400d9d6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Every cap holds part of the puzzle together. Can you work out the correct order "
+        },
+        {
+          "rank": 95,
+          "name": "Brain Test: Tricky Puzzles",
+          "publisher": "UNICO STUDIO",
+          "category": "Games",
+          "app_id": "1486214495",
+          "url": "https://apps.apple.com/us/app/brain-test-tricky-puzzles/id1486214495?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/c8/82/a2c882c7-ff0a-4d01-c884-1381370912b4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Brain Test: Tricky Puzzles is a collection of clever and surprising puzzles buil"
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 8,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "Last Beacon: Survival",
+          "publisher": "YG Technology FZ-LLC",
+          "category": "Games",
+          "app_id": "6761043541",
+          "url": "https://apps.apple.com/us/app/last-beacon-survival/id6761043541?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/00/4b/ea004b70-f249-76f2-df36-eb72a2595a1c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This is a post-apocalyptic ocean survival game where you will experience thrilli"
+        },
+        {
+          "rank": 72,
+          "name": "Caps Unlock",
+          "publisher": "Gimica GmbH",
+          "category": "Games",
+          "app_id": "6771319069",
+          "url": "https://apps.apple.com/us/app/caps-unlock/id6771319069?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/ab/de/9dabde01-ead6-e713-9448-0f5f8400d9d6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Every cap holds part of the puzzle together. Can you work out the correct order "
+        },
+        {
+          "rank": 92,
+          "name": "Color Slide - Hexa Puzzle",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6590876141",
+          "url": "https://apps.apple.com/us/app/color-slide-hexa-puzzle/id6590876141?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/cd/7c/bfcd7cf6-8c71-ba19-5a39-149b3968c946/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
+          "slogan": "► Hex-traordinary Fun\n\nLooking for a simple yet difficult puzzle that will both "
+        },
+        {
+          "rank": 95,
+          "name": "Brain Test: Tricky Puzzles",
+          "publisher": "UNICO STUDIO",
+          "category": "Games",
+          "app_id": "1486214495",
+          "url": "https://apps.apple.com/us/app/brain-test-tricky-puzzles/id1486214495?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/c8/82/a2c882c7-ff0a-4d01-c884-1381370912b4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Brain Test: Tricky Puzzles is a collection of clever and surprising puzzles buil"
+        },
+        {
+          "rank": 96,
+          "name": "Epic Plane Evolution",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "6504122823",
+          "url": "https://apps.apple.com/us/app/epic-plane-evolution/id6504122823?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/b3/39/dfb339f3-7a6d-c138-975c-fa52ee077c03/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Launch, Upgrade, and Conquer the Skies with your plane!\n\n\nPrepare for an exhilar"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 2,
+          "name": "弹壳战机！",
+          "publisher": "北京猩球科技有限公司",
+          "category": "游戏",
+          "app_id": "6789496517",
+          "url": "https://apps.apple.com/cn/app/%E5%BC%B9%E5%A3%B3%E6%88%98%E6%9C%BA/id6789496517?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/9e/2f/819e2fab-96e2-46ab-082e-6bafd9e1218e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "【弹壳特攻队团队最新力作】\n由《弹壳特攻队》团队倾力打造，全新飞行射击冒险来袭！融合肉鸽闯关、随机技能与华丽弹幕，每一次起飞都将开启一段截然不同的空战旅程，带来"
+        },
+        {
+          "rank": 90,
+          "name": "猫咪整理师 - 房间造景布置小屋 整理解压收纳达人",
+          "publisher": "Togother Many Information Technology Co, Ltd.",
+          "category": "游戏",
+          "app_id": "6752363458",
+          "url": "https://apps.apple.com/cn/app/%E7%8C%AB%E5%92%AA%E6%95%B4%E7%90%86%E5%B8%88-%E6%88%BF%E9%97%B4%E9%80%A0%E6%99%AF%E5%B8%83%E7%BD%AE%E5%B0%8F%E5%B1%8B-%E6%95%B4%E7%90%86%E8%A7%A3%E5%8E%8B%E6%94%B6%E7%BA%B3%E8%BE%BE%E4%BA%BA/id6752363458?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/a8/33/5fa8339d-b003-a171-fb34-a1c9937982e8/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "欢迎来到你的专属解压小天地！在这里，动动手指，像玩贴纸一样，就能DIY出独一无二的可爱场景。\n\n拿起你的小镊子，把各种各样的家具和物品贴到它们该去的地方。看着乱"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 19,
+          "name": "烽火望长安",
+          "publisher": "Ailetong",
+          "category": "游戏",
+          "app_id": "6755034452",
+          "url": "https://apps.apple.com/cn/app/%E7%83%BD%E7%81%AB%E6%9C%9B%E9%95%BF%E5%AE%89/id6755034452?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/69/a6/3a/69a63a95-15f7-ee25-8430-3b65abc6dccc/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "“华夏论英雄”，论的是胸怀天下的豪杰；“奇谋定天下”，定的是靠谋略赢得的万里江山。 \n在《烽火望长安》里，你不再是一个历史的旁观者，而是多朝代的亲历者、创造者，"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 55,
+          "name": "美食小当家",
+          "publisher": "Beijing Liu Xin Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "1468445407",
+          "url": "https://apps.apple.com/cn/app/%E7%BE%8E%E9%A3%9F%E5%B0%8F%E5%BD%93%E5%AE%B6/id1468445407?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/12/6c/f4126cf4-de13-d8ac-9df9-8bb7089f8ed6/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《美食小当家》是一款画风治愈，集模拟经营、休闲养成为一体的美食烹饪游戏。你将扮演热爱美食，立志将餐厅开往全球的美食小当家，从经营煎饼早餐店起，开始你梦想中的美食"
+        },
+        {
+          "rank": 81,
+          "name": "楼下的早餐店：美食烹饪游戏",
+          "publisher": "YiYo Studios Co., Ltd",
+          "category": "游戏",
+          "app_id": "1512355786",
+          "url": "https://apps.apple.com/cn/app/%E6%A5%BC%E4%B8%8B%E7%9A%84%E6%97%A9%E9%A4%90%E5%BA%97-%E7%BE%8E%E9%A3%9F%E7%83%B9%E9%A5%AA%E6%B8%B8%E6%88%8F/id1512355786?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/b6/b0/7fb6b0d3-bffb-747d-b5e3-bdb939752d95/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "烹饪游戏融合剧情是怎样的全新体验呢？\n\n《楼下的早餐店》是款有温度的餐厅经营烹饪游戏，如深夜食堂那样，一边为客人烹饪美食，一边同他们分享遭遇，故事由此慢慢展开."
+        },
+        {
+          "rank": 99,
+          "name": "迷你枪战精英",
+          "publisher": "Hainan Mengxing Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "1551614000",
+          "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E6%9E%AA%E6%88%98%E7%B2%BE%E8%8B%B1/id1551614000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/09/fa/6909fa5f-78f2-3533-7b9a-d30e72759c2e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《迷你枪战精英》是迷你世界IP矩阵下全新推出的一款射击手游。明亮清新的Q版画风，紧张刺激的团队对抗，提供不同以往的 游戏体验。游戏内小艾、幻音、幻-零式、华乐等"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 2,
+          "name": "弹壳战机！",
+          "publisher": "北京猩球科技有限公司",
+          "category": "游戏",
+          "app_id": "6789496517",
+          "url": "https://apps.apple.com/cn/app/%E5%BC%B9%E5%A3%B3%E6%88%98%E6%9C%BA/id6789496517?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/9e/2f/819e2fab-96e2-46ab-082e-6bafd9e1218e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "【弹壳特攻队团队最新力作】\n由《弹壳特攻队》团队倾力打造，全新飞行射击冒险来袭！融合肉鸽闯关、随机技能与华丽弹幕，每一次起飞都将开启一段截然不同的空战旅程，带来"
+        },
+        {
+          "rank": 19,
+          "name": "烽火望长安",
+          "publisher": "Ailetong",
+          "category": "游戏",
+          "app_id": "6755034452",
+          "url": "https://apps.apple.com/cn/app/%E7%83%BD%E7%81%AB%E6%9C%9B%E9%95%BF%E5%AE%89/id6755034452?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/69/a6/3a/69a63a95-15f7-ee25-8430-3b65abc6dccc/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "“华夏论英雄”，论的是胸怀天下的豪杰；“奇谋定天下”，定的是靠谋略赢得的万里江山。 \n在《烽火望长安》里，你不再是一个历史的旁观者，而是多朝代的亲历者、创造者，"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 3,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "弹壳战机！",
+          "publisher": "北京猩球科技有限公司",
+          "category": "游戏",
+          "app_id": "6789496517",
+          "url": "https://apps.apple.com/cn/app/%E5%BC%B9%E5%A3%B3%E6%88%98%E6%9C%BA/id6789496517?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/9e/2f/819e2fab-96e2-46ab-082e-6bafd9e1218e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "【弹壳特攻队团队最新力作】\n由《弹壳特攻队》团队倾力打造，全新飞行射击冒险来袭！融合肉鸽闯关、随机技能与华丽弹幕，每一次起飞都将开启一段截然不同的空战旅程，带来"
+        },
+        {
+          "rank": 19,
+          "name": "烽火望长安",
+          "publisher": "Ailetong",
+          "category": "游戏",
+          "app_id": "6755034452",
+          "url": "https://apps.apple.com/cn/app/%E7%83%BD%E7%81%AB%E6%9C%9B%E9%95%BF%E5%AE%89/id6755034452?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/69/a6/3a/69a63a95-15f7-ee25-8430-3b65abc6dccc/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "“华夏论英雄”，论的是胸怀天下的豪杰；“奇谋定天下”，定的是靠谋略赢得的万里江山。 \n在《烽火望长安》里，你不再是一个历史的旁观者，而是多朝代的亲历者、创造者，"
+        },
+        {
+          "rank": 90,
+          "name": "猫咪整理师 - 房间造景布置小屋 整理解压收纳达人",
+          "publisher": "Togother Many Information Technology Co, Ltd.",
+          "category": "游戏",
+          "app_id": "6752363458",
+          "url": "https://apps.apple.com/cn/app/%E7%8C%AB%E5%92%AA%E6%95%B4%E7%90%86%E5%B8%88-%E6%88%BF%E9%97%B4%E9%80%A0%E6%99%AF%E5%B8%83%E7%BD%AE%E5%B0%8F%E5%B1%8B-%E6%95%B4%E7%90%86%E8%A7%A3%E5%8E%8B%E6%94%B6%E7%BA%B3%E8%BE%BE%E4%BA%BA/id6752363458?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/a8/33/5fa8339d-b003-a171-fb34-a1c9937982e8/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "欢迎来到你的专属解压小天地！在这里，动动手指，像玩贴纸一样，就能DIY出独一无二的可爱场景。\n\n拿起你的小镊子，把各种各样的家具和物品贴到它们该去的地方。看着乱"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 66,
+          "name": "Catedrop: Card Puzzle",
+          "publisher": "GOODROID,Inc.",
+          "category": "ゲーム",
+          "app_id": "6788647921",
+          "url": "https://apps.apple.com/jp/app/catedrop-card-puzzle/id6788647921?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/aa/76/61aa76cf-5edf-e9bf-5e10-5d6b097917ef/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Catedropへようこそ！一手ごとに新たな可能性が広がる、新感覚のカードパズルゲームです。\n\n同じカードをグループに集めてボードから消し、その下に隠されたカー"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 48,
+          "name": "滅亡の未来：ラスト・スタンド",
+          "publisher": "Lolly Technology Limited",
+          "category": "ゲーム",
+          "app_id": "6799583064",
+          "url": "https://apps.apple.com/jp/app/%E6%BB%85%E4%BA%A1%E3%81%AE%E6%9C%AA%E6%9D%A5-%E3%83%A9%E3%82%B9%E3%83%88-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/id6799583064?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/62/95/4e6295d7-3c3e-394b-a273-05b69d0a19d1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "闇に覆われた幻想世界へ足を踏み入れ、狼の守護者たちの足跡を辿り、危険に満ちた城、荒野、古代遺跡を探索せよ。数々のステージに挑み、キャラクターを育成し、スキルを強"
+        },
+        {
+          "rank": 80,
+          "name": "Brain Puzzle 3: Crazy Mind",
+          "publisher": "SmallStep Dev Team",
+          "category": "ゲーム",
+          "app_id": "6756482832",
+          "url": "https://apps.apple.com/jp/app/brain-puzzle-3-crazy-mind/id6756482832?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/f4/df/edf4df66-c8f5-e488-bc0d-7677aa8ea52d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "警告：このゲームは、イライラ、突然の爆笑、そして友達に見せびらかしたくなる衝動を引き起こす可能性があります！\n\n退屈さよサヨナラ！大人気パズルシリーズが完全新作"
+        },
+        {
+          "rank": 82,
+          "name": "ジグソードロップ：ソリティアパズル",
+          "publisher": "Runyou Game",
+          "category": "ゲーム",
+          "app_id": "6767091927",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B8%E3%82%B0%E3%82%BD%E3%83%BC%E3%83%89%E3%83%AD%E3%83%83%E3%83%97-%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2%E3%83%91%E3%82%BA%E3%83%AB/id6767091927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/b0/b8/c6b0b8cf-6c17-69b4-299a-e473da7b0271/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ジグソーパズルとソリティアが融合した、新しい落下型パズルゲーム。\n\nピースを動かして絵の一部を完成させると、その部分が消えて新しいピースが上から落ちてきます。ジ"
+        },
+        {
+          "rank": 83,
+          "name": "増えうさぎ by クラシル",
+          "publisher": "Kurashiru, Inc",
+          "category": "ゲーム",
+          "app_id": "6754262851",
+          "url": "https://apps.apple.com/jp/app/%E5%A2%97%E3%81%88%E3%81%86%E3%81%95%E3%81%8E-by-%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%AB/id6754262851?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/f4/7e/19f47eba-1e42-458d-40e3-8e596f298092/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "【増えうさぎとは？】\n大人気「クラシル」シリーズから、タップだけでどんどん増える『増えうさぎ』が新登場！\n\nかわいいうさぎたちが無限に増えていく様子を眺めながら"
+        },
+        {
+          "rank": 90,
+          "name": "Cookingo: Perfect Meal",
+          "publisher": "Higame Global Limited",
+          "category": "ゲーム",
+          "app_id": "6756288168",
+          "url": "https://apps.apple.com/jp/app/cookingo-perfect-meal/id6756288168?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/f4/65/5ff465ab-c04b-fff5-79e3-5fc19a770fb3/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to Cookingo, your peaceful little escape from the hustle and bustle of e"
+        },
+        {
+          "rank": 92,
+          "name": "カラーブロック コンボブラスト",
+          "publisher": "FLYYES TECHNOLOGY PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6478063606",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AB%E3%83%A9%E3%83%BC%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF-%E3%82%B3%E3%83%B3%E3%83%9C%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88/id6478063606?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/8e/5d/e58e5db1-35a0-081e-48dd-de2a6408863c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "カラーブロックは、ブロックを置いてラインを消すだけのシンプルなブロックパズル。\n通勤中のちょっとした暇つぶしから、じっくり頭を使う脳トレまで、その日の気分に合わ"
+        },
+        {
+          "rank": 99,
+          "name": "耳だけ捜査線 - 暇つぶし論理パズルゲーム",
+          "publisher": "FTY LLC.",
+          "category": "ゲーム",
+          "app_id": "6754370732",
+          "url": "https://apps.apple.com/jp/app/%E8%80%B3%E3%81%A0%E3%81%91%E6%8D%9C%E6%9F%BB%E7%B7%9A-%E6%9A%87%E3%81%A4%E3%81%B6%E3%81%97%E8%AB%96%E7%90%86%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6754370732?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/1c/86/ef1c86b8-068f-4b2c-9b3b-145bba133acf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "今日もパトロールご苦労様です！\n\n警察署のメンバーと一緒に事件を解決してください！\n事件解決の鍵は参考人たちの証言。だれも嘘をつかないこの世界では証言を頼りに無"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 7,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 66,
+          "name": "Catedrop: Card Puzzle",
+          "publisher": "GOODROID,Inc.",
+          "category": "ゲーム",
+          "app_id": "6788647921",
+          "url": "https://apps.apple.com/jp/app/catedrop-card-puzzle/id6788647921?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/aa/76/61aa76cf-5edf-e9bf-5e10-5d6b097917ef/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Catedropへようこそ！一手ごとに新たな可能性が広がる、新感覚のカードパズルゲームです。\n\n同じカードをグループに集めてボードから消し、その下に隠されたカー"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 23,
+          "name": "Keyboard Escape: +1 Speed ASMR",
+          "publisher": "Goldoint",
+          "category": "Games",
+          "package": "com.metax.obby.escape.run"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 23,
+          "name": "Keyboard Escape: +1 Speed ASMR",
+          "publisher": "Goldoint",
+          "category": "Games",
+          "package": "com.metax.obby.escape.run"
+        }
+      ]
+    }
+  }
+}
