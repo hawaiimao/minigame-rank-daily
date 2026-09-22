@@ -1,0 +1,889 @@
+{
+  "date": "2026-09-22",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 15,
+          "name": "上个了车",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "天天象棋",
+          "category": "棋牌",
+          "category_rank": 2,
+          "subcategory": "棋类棋牌传统棋牌",
+          "slogan": "",
+          "publisher": "深圳市腾讯天游科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 16,
+          "name": "欢乐麻将",
+          "category": "棋牌",
+          "category_rank": 4,
+          "subcategory": "牌类",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 18,
+          "name": "解压打毛线",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州池骋网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 15,
+          "name": "上个了车",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "武侠大明星",
+          "category": "休闲",
+          "category_rank": 7,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "海南盛昌网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 18,
+          "name": "同学来改作业",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "点击拖拽完成趣味作业改正挑战",
+          "publisher": "杭州奶糖互娱网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "这就很上头",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款休闲的小游戏！！",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "兵器王者",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "亲手打造独一无二的神兵利器，并在排行榜上争夺荣耀之巅",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "change": "4",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 18,
+          "name": "同学来改作业",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "点击拖拽完成趣味作业改正挑战",
+          "publisher": "杭州奶糖互娱网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "这就很上头",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款休闲的小游戏！！",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "空格之境",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "转生商贾之女，重振江南丝织厂",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "5",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "俱乐大玩家",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "多人同场实时暗标竞价，考验你的眼力与心理博弈。",
+          "publisher": "海南临游科技有限公司",
+          "change": "3",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "零号档案：重启",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "科幻互动剧情游戏，通过推理与选择解锁成就，探寻事件真相。",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 11,
+          "name": "大西瓜进化传奇",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "十分好玩的水果碰一碰！ ",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "飞机模拟器3D",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "3D真实飞行驾驶模拟，带你体验空中巡航与降落的刺激挑战！",
+          "publisher": "厦门做一些好玩的游戏有限公司",
+          "change": "7",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "给我一把刀",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "怪物来袭，准备迎战，看我一刀999！",
+          "publisher": "广州绿之洲科技有限公司",
+          "change": "5",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "零号档案：重启",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "科幻互动剧情游戏，通过推理与选择解锁成就，探寻事件真相。",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 11,
+          "name": "大西瓜进化传奇",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "十分好玩的水果碰一碰！ ",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "飞机模拟器3D",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "3D真实飞行驾驶模拟，带你体验空中巡航与降落的刺激挑战！",
+          "publisher": "厦门做一些好玩的游戏有限公司",
+          "change": "7",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "星途天城",
+          "publisher": "广州春芒网络科技有限公司",
+          "category": "卡牌",
+          "subcategory": "养成、神话、美少女、策略、角色扮演"
+        },
+        {
+          "rank": 10,
+          "name": "万界绮园：逐光筑梦手札",
+          "publisher": "游萤互娱",
+          "category": "模拟经营",
+          "subcategory": "治愈、种田、建造、女性向、竖屏"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "Aniimo",
+          "publisher": "PAWPRINT INTERACTIVE ENTERTAINMENT PTE. LTD",
+          "category": "Games",
+          "app_id": "6759098797",
+          "url": "https://apps.apple.com/us/app/aniimo/id6759098797?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/a8/2e/aba82e5b-5492-1e01-d677-634abedfa5e8/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Aniimo is a free-to-play, next-gen creature-catching open-world RPG. On the vast"
+        },
+        {
+          "rank": 95,
+          "name": "AMAZE!!!",
+          "publisher": "Crazy Labs",
+          "category": "Games",
+          "app_id": "1452526406",
+          "url": "https://apps.apple.com/us/app/amaze/id1452526406?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/b4/b7/03b4b7cf-ea86-7400-f8b8-89e2dcf7e0be/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Are you ready for an extraordinary puzzle adventure? Get ready to be amazed!\n\nIm"
+        },
+        {
+          "rank": 100,
+          "name": "Wordscapes - Word Game",
+          "publisher": "PeopleFun, Inc.",
+          "category": "Games",
+          "app_id": "1207472156",
+          "url": "https://apps.apple.com/us/app/wordscapes-word-game/id1207472156?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/2c/32/902c32d6-0344-d82b-0863-88317de7b9af/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Playing Wordscapes 10 mins a day sharpens your mind and prepares you for your da"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 37,
+          "name": "BanG Dream! Our Notes",
+          "publisher": "BILIBILI HK LIMITED",
+          "category": "Games",
+          "app_id": "6757695187",
+          "url": "https://apps.apple.com/us/app/bang-dream-our-notes/id6757695187?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/e7/1c/b1e71c16-312a-d0d7-ffec-6ef1ec1ce7ef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Presenting BanG Dream! Our Notes, a brand-new rhythm game adventure from BanG Dr"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 68,
+          "name": "Water Sort Puzzle : Challenge",
+          "publisher": "贺翔 段",
+          "category": "Games",
+          "app_id": "6787414784",
+          "url": "https://apps.apple.com/us/app/water-sort-puzzle-challenge/id6787414784?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/77/91/5f779194-85ef-b50e-293d-383f34be36a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Water Sort Puzzle : Challenge is a relaxing color sorting game with simple rules"
+        },
+        {
+          "rank": 72,
+          "name": "Crossword Go!",
+          "publisher": "PlaySimple Games Pte Ltd",
+          "category": "Games",
+          "app_id": "6739069151",
+          "url": "https://apps.apple.com/us/app/crossword-go/id6739069151?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/d6/59/62d659c9-3cfe-4f3c-2461-f81bc80e7a0b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Challenge your mind and compete in real-time crossword duels! \nTrain your brain,"
+        },
+        {
+          "rank": 91,
+          "name": "CrownCards - Trading Cards",
+          "publisher": "CrownCards",
+          "category": "Games",
+          "app_id": "6762010774",
+          "url": "https://apps.apple.com/us/app/crowncards-trading-cards/id6762010774?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/eb/42/77eb424b-1bf7-bfaf-3d36-2f5e3aed86c5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Pull genuine trading cards from your phone. Build your collection or ship the re"
+        },
+        {
+          "rank": 92,
+          "name": "CrownCoins Casino",
+          "publisher": "Sunflower",
+          "category": "Games",
+          "app_id": "6450413462",
+          "url": "https://apps.apple.com/us/app/crowncoins-casino/id6450413462?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/da/b4/78dab484-4985-0a56-1f8a-28691ee73c94/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "CROWN COINS CASINO. America loves it. You will too! \nPLAY. WIN. REDEEM. REPEAT. "
+        },
+        {
+          "rank": 93,
+          "name": "Solitaire Cash: Win Real Money",
+          "publisher": "Papaya Gaming",
+          "category": "Games",
+          "app_id": "1446254576",
+          "url": "https://apps.apple.com/us/app/solitaire-cash-win-real-money/id1446254576?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/52/04/465204a1-4dbc-2e7a-6ca3-289b6ddccdff/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Forget the ordinary games. Here you play for something bigger, where winning the"
+        },
+        {
+          "rank": 96,
+          "name": "Fillwords: Word Search Puzzles",
+          "publisher": "MALPA GAMES",
+          "category": "Games",
+          "app_id": "1197961218",
+          "url": "https://apps.apple.com/us/app/fillwords-word-search-puzzles/id1197961218?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/25/ec/4b25ecbe-634a-e01c-9143-4a2649827487/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fillwords is an exciting word game with 2000+ levels!\n\nThe goal of the puzzle is"
+        },
+        {
+          "rank": 99,
+          "name": "Shoot & Hide",
+          "publisher": "Crazy Labs",
+          "category": "Games",
+          "app_id": "6747033069",
+          "url": "https://apps.apple.com/us/app/shoot-hide/id6747033069?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/7f/6d/b27f6db8-6164-ceb0-6fd5-02ba8b077c0f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Test your timing and reflexes in a fast, satisfying game of risk and precision. "
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "Aniimo",
+          "publisher": "PAWPRINT INTERACTIVE ENTERTAINMENT PTE. LTD",
+          "category": "Games",
+          "app_id": "6759098797",
+          "url": "https://apps.apple.com/us/app/aniimo/id6759098797?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/a8/2e/aba82e5b-5492-1e01-d677-634abedfa5e8/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Aniimo is a free-to-play, next-gen creature-catching open-world RPG. On the vast"
+        },
+        {
+          "rank": 89,
+          "name": "Cash Avalanche:Casino Slot",
+          "publisher": "Spruce Interactive Inc",
+          "category": "Games",
+          "app_id": "6751794501",
+          "url": "https://apps.apple.com/us/app/cash-avalanche-casino-slot/id6751794501?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/6e/7a/ea6e7adc-631e-9b29-345c-a23c4a01bf40/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Cash Avalanche — Spin Into the Excitement\n\nCash Avalanche delivers an immersive "
+        },
+        {
+          "rank": 100,
+          "name": "Wordscapes - Word Game",
+          "publisher": "PeopleFun, Inc.",
+          "category": "Games",
+          "app_id": "1207472156",
+          "url": "https://apps.apple.com/us/app/wordscapes-word-game/id1207472156?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/2c/32/902c32d6-0344-d82b-0863-88317de7b9af/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Playing Wordscapes 10 mins a day sharpens your mind and prepares you for your da"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 7,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "Aniimo",
+          "publisher": "PAWPRINT INTERACTIVE ENTERTAINMENT PTE. LTD",
+          "category": "Games",
+          "app_id": "6759098797",
+          "url": "https://apps.apple.com/us/app/aniimo/id6759098797?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/a8/2e/aba82e5b-5492-1e01-d677-634abedfa5e8/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Aniimo is a free-to-play, next-gen creature-catching open-world RPG. On the vast"
+        },
+        {
+          "rank": 37,
+          "name": "BanG Dream! Our Notes",
+          "publisher": "BILIBILI HK LIMITED",
+          "category": "Games",
+          "app_id": "6757695187",
+          "url": "https://apps.apple.com/us/app/bang-dream-our-notes/id6757695187?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/e7/1c/b1e71c16-312a-d0d7-ffec-6ef1ec1ce7ef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Presenting BanG Dream! Our Notes, a brand-new rhythm game adventure from BanG Dr"
+        },
+        {
+          "rank": 95,
+          "name": "AMAZE!!!",
+          "publisher": "Crazy Labs",
+          "category": "Games",
+          "app_id": "1452526406",
+          "url": "https://apps.apple.com/us/app/amaze/id1452526406?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/b4/b7/03b4b7cf-ea86-7400-f8b8-89e2dcf7e0be/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Are you ready for an extraordinary puzzle adventure? Get ready to be amazed!\n\nIm"
+        },
+        {
+          "rank": 100,
+          "name": "Wordscapes - Word Game",
+          "publisher": "PeopleFun, Inc.",
+          "category": "Games",
+          "app_id": "1207472156",
+          "url": "https://apps.apple.com/us/app/wordscapes-word-game/id1207472156?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/2c/32/902c32d6-0344-d82b-0863-88317de7b9af/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Playing Wordscapes 10 mins a day sharpens your mind and prepares you for your da"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 99,
+          "name": "保卫萝卜2",
+          "publisher": "Beijing Kai Luo Tian Xia Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "689888397",
+          "url": "https://apps.apple.com/cn/app/%E4%BF%9D%E5%8D%AB%E8%90%9D%E5%8D%9C2/id689888397?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/ba/2f/06ba2f8e-0636-1fc1-3d30-322519247beb/AppIcon_cn-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "2012年4月，保卫萝卜1代苹果版正式封包测试，开启了走向国民萌系塔防的第一步，转眼8年时间，保卫萝卜系列游戏已经拥有超过4.3亿玩家，谨代表萝卜团队，感谢你们"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 47,
+          "name": "万界绮园：逐光筑梦手札",
+          "publisher": "Chongqing Fire Joy Interactive Technology Ltd.",
+          "category": "游戏",
+          "app_id": "6782856932",
+          "url": "https://apps.apple.com/cn/app/%E4%B8%87%E7%95%8C%E7%BB%AE%E5%9B%AD-%E9%80%90%E5%85%89%E7%AD%91%E6%A2%A6%E6%89%8B%E6%9C%AD/id6782856932?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/5c/7d/235c7d5d-ba2a-81af-8f20-d21a2a626191/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "这是一款什么样的游戏？\n嗯......好问题！领主听好了！（闭眼酝酿）（长吸一口气）\n《万界绮园：逐光筑梦手札》是一款以魔物陪伴、治愈生活为主的——搞怪风格、异"
+        },
+        {
+          "rank": 78,
+          "name": "勇士之心",
+          "publisher": "BingoGames",
+          "category": "游戏",
+          "app_id": "6764461448",
+          "url": "https://apps.apple.com/cn/app/%E5%8B%87%E5%A3%AB%E4%B9%8B%E5%BF%83/id6764461448?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/ca/1b/12ca1bac-23ae-84a1-59fb-359a8418123d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "操控勇士深入奇幻地下城，走位、放技能、连击连招，打击感拉满，每一刀都爽到极致！\n《勇士之心》— 热血横版格斗，经典重燃！\n【热血动作 · 极致战斗体验】\n经典横"
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 47,
+          "name": "万界绮园：逐光筑梦手札",
+          "publisher": "Chongqing Fire Joy Interactive Technology Ltd.",
+          "category": "游戏",
+          "app_id": "6782856932",
+          "url": "https://apps.apple.com/cn/app/%E4%B8%87%E7%95%8C%E7%BB%AE%E5%9B%AD-%E9%80%90%E5%85%89%E7%AD%91%E6%A2%A6%E6%89%8B%E6%9C%AD/id6782856932?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/5c/7d/235c7d5d-ba2a-81af-8f20-d21a2a626191/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "这是一款什么样的游戏？\n嗯......好问题！领主听好了！（闭眼酝酿）（长吸一口气）\n《万界绮园：逐光筑梦手札》是一款以魔物陪伴、治愈生活为主的——搞怪风格、异"
+        },
+        {
+          "rank": 78,
+          "name": "勇士之心",
+          "publisher": "BingoGames",
+          "category": "游戏",
+          "app_id": "6764461448",
+          "url": "https://apps.apple.com/cn/app/%E5%8B%87%E5%A3%AB%E4%B9%8B%E5%BF%83/id6764461448?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/ca/1b/12ca1bac-23ae-84a1-59fb-359a8418123d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "操控勇士深入奇幻地下城，走位、放技能、连击连招，打击感拉满，每一刀都爽到极致！\n《勇士之心》— 热血横版格斗，经典重燃！\n【热血动作 · 极致战斗体验】\n经典横"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 0,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 47,
+          "name": "万界绮园：逐光筑梦手札",
+          "publisher": "Chongqing Fire Joy Interactive Technology Ltd.",
+          "category": "游戏",
+          "app_id": "6782856932",
+          "url": "https://apps.apple.com/cn/app/%E4%B8%87%E7%95%8C%E7%BB%AE%E5%9B%AD-%E9%80%90%E5%85%89%E7%AD%91%E6%A2%A6%E6%89%8B%E6%9C%AD/id6782856932?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/5c/7d/235c7d5d-ba2a-81af-8f20-d21a2a626191/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "这是一款什么样的游戏？\n嗯......好问题！领主听好了！（闭眼酝酿）（长吸一口气）\n《万界绮园：逐光筑梦手札》是一款以魔物陪伴、治愈生活为主的——搞怪风格、异"
+        },
+        {
+          "rank": 78,
+          "name": "勇士之心",
+          "publisher": "BingoGames",
+          "category": "游戏",
+          "app_id": "6764461448",
+          "url": "https://apps.apple.com/cn/app/%E5%8B%87%E5%A3%AB%E4%B9%8B%E5%BF%83/id6764461448?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/ca/1b/12ca1bac-23ae-84a1-59fb-359a8418123d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "操控勇士深入奇幻地下城，走位、放技能、连击连招，打击感拉满，每一刀都爽到极致！\n《勇士之心》— 热血横版格斗，经典重燃！\n【热血动作 · 极致战斗体验】\n经典横"
+        },
+        {
+          "rank": 99,
+          "name": "保卫萝卜2",
+          "publisher": "Beijing Kai Luo Tian Xia Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "689888397",
+          "url": "https://apps.apple.com/cn/app/%E4%BF%9D%E5%8D%AB%E8%90%9D%E5%8D%9C2/id689888397?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/ba/2f/06ba2f8e-0636-1fc1-3d30-322519247beb/AppIcon_cn-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "2012年4月，保卫萝卜1代苹果版正式封包测试，开启了走向国民萌系塔防的第一步，转眼8年时间，保卫萝卜系列游戏已经拥有超过4.3亿玩家，谨代表萝卜团队，感谢你们"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "バンドリ！アワーノーツ",
+          "publisher": "Bushiroad Inc.",
+          "category": "ゲーム",
+          "app_id": "6771716739",
+          "url": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84/id6771716739?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/d9/0a/ead90a2d-8e3c-3356-edb5-c0d66e21afae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "BanG Dream!（バンドリ！）プロジェクトがおくる最新モバイルゲーム『バンドリ！アワーノーツ』が撃奏リズム×アドベンチャーとして登場！\n\n5つの新たなバン"
+        },
+        {
+          "rank": 2,
+          "name": "アニモ",
+          "publisher": "PAWPRINT INTERACTIVE ENTERTAINMENT PTE. LTD",
+          "category": "ゲーム",
+          "app_id": "6759098797",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%8B%E3%83%A2/id6759098797?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/a8/2e/aba82e5b-5492-1e01-d677-634abedfa5e8/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『アニモ』は、基本プレイ無料の次世代オープンワールドモンスター収集RPG。\n広大なアイディル大陸を舞台に、個性豊かなアニモと出会い、リンクによって新たな能力を解"
+        },
+        {
+          "rank": 45,
+          "name": "PKKP 二人用クッキングゲーム",
+          "publisher": "嘉琪 范",
+          "category": "ゲーム",
+          "app_id": "6479975847",
+          "url": "https://apps.apple.com/jp/app/pkkp-%E4%BA%8C%E4%BA%BA%E7%94%A8%E3%82%AF%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B2%E3%83%BC%E3%83%A0/id6479975847?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/40/e1/3740e174-18ac-1728-f9d5-3407df4e93bd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【同じ画面/ローカルネットワーク接続で2人のプレイヤーをサポート】\n今回は、あなたの友人と一緒にレストランを経営する必要があります。\nできるだけ速く正確に料理を"
+        },
+        {
+          "rank": 74,
+          "name": "フリック対戦寿司",
+          "publisher": "M kajimura",
+          "category": "ゲーム",
+          "app_id": "1576158587",
+          "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%AA%E3%83%83%E3%82%AF%E5%AF%BE%E6%88%A6%E5%AF%BF%E5%8F%B8/id1576158587?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/46/3a/1f463a2a-809c-9ea2-28f6-b17c7b070b13/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "2大OS累計60万DL突破！毎月2万人がフリック！フリック練習アプリ。\n寿司コースの日本語や、デザートコースの英語などが選択でき、\nそれぞれ、３〜４つのコースか"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 94,
+          "name": "Among Us!",
+          "publisher": "InnerSloth LLC",
+          "category": "ゲーム",
+          "app_id": "1351168404",
+          "url": "https://apps.apple.com/jp/app/among-us/id1351168404?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/7e/5c/a67e5c64-65f4-bd11-edcc-087936599310/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A game of teamwork and betrayal ...in space! Play online with 4-15 players as yo"
+        },
+        {
+          "rank": 98,
+          "name": "Search It - Hidden Objects",
+          "publisher": "LEAP BILISIM TEKNOLOJILERI VE YAZILIM TICARET ANONIM SIRKETI",
+          "category": "ゲーム",
+          "app_id": "6756185760",
+          "url": "https://apps.apple.com/jp/app/search-it-hidden-objects/id6756185760?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/5c/ca/3b5ccadc-140f-b83f-d51b-e4687032cf01/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Search It – Hidden Objects は、観察力を試しながらリラックスできるアイテム探しゲームです。美しくデザインされたシーンを探索し、隠された"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "バンドリ！アワーノーツ",
+          "publisher": "Bushiroad Inc.",
+          "category": "ゲーム",
+          "app_id": "6771716739",
+          "url": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84/id6771716739?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/d9/0a/ead90a2d-8e3c-3356-edb5-c0d66e21afae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "BanG Dream!（バンドリ！）プロジェクトがおくる最新モバイルゲーム『バンドリ！アワーノーツ』が撃奏リズム×アドベンチャーとして登場！\n\n5つの新たなバン"
+        },
+        {
+          "rank": 2,
+          "name": "アニモ",
+          "publisher": "PAWPRINT INTERACTIVE ENTERTAINMENT PTE. LTD",
+          "category": "ゲーム",
+          "app_id": "6759098797",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%8B%E3%83%A2/id6759098797?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/a8/2e/aba82e5b-5492-1e01-d677-634abedfa5e8/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『アニモ』は、基本プレイ無料の次世代オープンワールドモンスター収集RPG。\n広大なアイディル大陸を舞台に、個性豊かなアニモと出会い、リンクによって新たな能力を解"
+        },
+        {
+          "rank": 45,
+          "name": "PKKP 二人用クッキングゲーム",
+          "publisher": "嘉琪 范",
+          "category": "ゲーム",
+          "app_id": "6479975847",
+          "url": "https://apps.apple.com/jp/app/pkkp-%E4%BA%8C%E4%BA%BA%E7%94%A8%E3%82%AF%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B2%E3%83%BC%E3%83%A0/id6479975847?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/40/e1/3740e174-18ac-1728-f9d5-3407df4e93bd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【同じ画面/ローカルネットワーク接続で2人のプレイヤーをサポート】\n今回は、あなたの友人と一緒にレストランを経営する必要があります。\nできるだけ速く正確に料理を"
+        },
+        {
+          "rank": 74,
+          "name": "フリック対戦寿司",
+          "publisher": "M kajimura",
+          "category": "ゲーム",
+          "app_id": "1576158587",
+          "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%AA%E3%83%83%E3%82%AF%E5%AF%BE%E6%88%A6%E5%AF%BF%E5%8F%B8/id1576158587?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/46/3a/1f463a2a-809c-9ea2-28f6-b17c7b070b13/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "2大OS累計60万DL突破！毎月2万人がフリック！フリック練習アプリ。\n寿司コースの日本語や、デザートコースの英語などが選択でき、\nそれぞれ、３〜４つのコースか"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 2,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "バンドリ！アワーノーツ",
+          "publisher": "Bushiroad Inc.",
+          "category": "ゲーム",
+          "app_id": "6771716739",
+          "url": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84/id6771716739?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/d9/0a/ead90a2d-8e3c-3356-edb5-c0d66e21afae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "BanG Dream!（バンドリ！）プロジェクトがおくる最新モバイルゲーム『バンドリ！アワーノーツ』が撃奏リズム×アドベンチャーとして登場！\n\n5つの新たなバン"
+        },
+        {
+          "rank": 2,
+          "name": "アニモ",
+          "publisher": "PAWPRINT INTERACTIVE ENTERTAINMENT PTE. LTD",
+          "category": "ゲーム",
+          "app_id": "6759098797",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%8B%E3%83%A2/id6759098797?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/a8/2e/aba82e5b-5492-1e01-d677-634abedfa5e8/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『アニモ』は、基本プレイ無料の次世代オープンワールドモンスター収集RPG。\n広大なアイディル大陸を舞台に、個性豊かなアニモと出会い、リンクによって新たな能力を解"
+        },
+        {
+          "rank": 45,
+          "name": "PKKP 二人用クッキングゲーム",
+          "publisher": "嘉琪 范",
+          "category": "ゲーム",
+          "app_id": "6479975847",
+          "url": "https://apps.apple.com/jp/app/pkkp-%E4%BA%8C%E4%BA%BA%E7%94%A8%E3%82%AF%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B2%E3%83%BC%E3%83%A0/id6479975847?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/40/e1/3740e174-18ac-1728-f9d5-3407df4e93bd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【同じ画面/ローカルネットワーク接続で2人のプレイヤーをサポート】\n今回は、あなたの友人と一緒にレストランを経営する必要があります。\nできるだけ速く正確に料理を"
+        },
+        {
+          "rank": 74,
+          "name": "フリック対戦寿司",
+          "publisher": "M kajimura",
+          "category": "ゲーム",
+          "app_id": "1576158587",
+          "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%AA%E3%83%83%E3%82%AF%E5%AF%BE%E6%88%A6%E5%AF%BF%E5%8F%B8/id1576158587?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/46/3a/1f463a2a-809c-9ea2-28f6-b17c7b070b13/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "2大OS累計60万DL突破！毎月2万人がフリック！フリック練習アプリ。\n寿司コースの日本語や、デザートコースの英語などが選択でき、\nそれぞれ、３〜４つのコースか"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 2,
+          "name": "Mobile Legends: Bang Bang.US",
+          "publisher": "Skystone Games Pte. Ltd.",
+          "category": "Games",
+          "package": "com.mobile.legends.usa"
+        },
+        {
+          "rank": 94,
+          "name": "Gardenscapes",
+          "publisher": "Playrix",
+          "category": "Games",
+          "package": "com.playrix.gardenscapes"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 95,
+          "name": "Wordscapes Search: Word Games",
+          "publisher": "PeopleFun",
+          "category": "Games",
+          "package": "com.peoplefun.wordsearch"
+        },
+        {
+          "rank": 98,
+          "name": "Search It - Hidden Objects",
+          "publisher": "Leap Game Studios",
+          "category": "Games",
+          "package": "com.leap.searchit"
+        },
+        {
+          "rank": 100,
+          "name": "Pokémon GO",
+          "publisher": "Scopely Explore, Inc.",
+          "category": "Games",
+          "package": "com.nianticlabs.pokemongo"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 2,
+          "name": "Mobile Legends: Bang Bang.US",
+          "publisher": "Skystone Games Pte. Ltd.",
+          "category": "Games",
+          "package": "com.mobile.legends.usa"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "Mobile Legends: Bang Bang.US",
+          "publisher": "Skystone Games Pte. Ltd.",
+          "category": "Games",
+          "package": "com.mobile.legends.usa"
+        },
+        {
+          "rank": 94,
+          "name": "Gardenscapes",
+          "publisher": "Playrix",
+          "category": "Games",
+          "package": "com.playrix.gardenscapes"
+        }
+      ]
+    }
+  }
+}
