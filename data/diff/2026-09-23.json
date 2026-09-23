@@ -1,0 +1,936 @@
+{
+  "date": "2026-09-23",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "救救我鸭",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "北京起跃文化有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 6,
+          "name": "青云诀之伏魔",
+          "category": "角色",
+          "category_rank": 1,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "海南元游信息技术有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "我就玩亿局",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "广州指上文化传媒有限公司",
+          "change": "3",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 15,
+          "name": "你跑的好快",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "警察抓小偷！",
+          "publisher": "成都游构网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 18,
+          "name": "解压合成王",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "合成小车，接走所有彩色小人",
+          "publisher": "长沙四五互娱网络科技有限公司",
+          "change": "12",
+          "change_direction": "down"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "三国杀",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "三分钟一局，快节奏对战",
+          "publisher": "杭州游卡网络技术有限公司",
+          "change": "1",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 15,
+          "name": "你跑的好快",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "警察抓小偷！",
+          "publisher": "成都游构网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 18,
+          "name": "解压合成王",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "合成小车，接走所有彩色小人",
+          "publisher": "长沙四五互娱网络科技有限公司",
+          "change": "12",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "王者之弈",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "弈局如战场，王者定乾坤！",
+          "publisher": "海南椰路信息科技有限公司",
+          "change": "52",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "武侠大明星",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款融合Rouguelike元素的武侠割草手游。",
+          "publisher": "海南临游科技有限公司",
+          "change": "5",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "赵云与阿斗",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "不是阿斗扶不起，赵云更有性价比！",
+          "publisher": "北京蜜獾兄弟科技有限公司",
+          "change": "4",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 11,
+          "name": "听我说谢谢你",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "胆子肥嘟嘟的，快来救救袋鼠鼠！",
+          "publisher": "广州绿之洲科技有限公司",
+          "change": "15",
+          "change_direction": "down"
+        },
+        {
+          "rank": 14,
+          "name": "疯狂飞车逃亡",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "史上超欢乐的游戏！",
+          "publisher": "深圳欢鱼软件有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "猫咪披萨店",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "化身猫咪店长，经营小店，接待顾客，扩张你的美味披萨店！",
+          "publisher": "北京光屿星途网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "解开绳子",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "《解开绳子》是一款融合绳索解谜、消除解压的休闲益智小游戏。",
+          "publisher": "长沙翌游科技有限公司",
+          "change": "68",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 12,
+          "name": "零号档案：重启",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "科幻互动剧情游戏，通过推理与选择解锁成就，探寻事件真相。",
+          "publisher": "海南顺福科技有限公司",
+          "change": "2",
+          "change_direction": "up"
+        },
+        {
+          "rank": 14,
+          "name": "疯狂飞车逃亡",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "史上超欢乐的游戏！",
+          "publisher": "深圳欢鱼软件有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "猫咪披萨店",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "化身猫咪店长，经营小店，接待顾客，扩张你的美味披萨店！",
+          "publisher": "北京光屿星途网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 0,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 11,
+          "name": "听我说谢谢你",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "胆子肥嘟嘟的，快来救救袋鼠鼠！",
+          "publisher": "广州绿之洲科技有限公司",
+          "change": "15",
+          "change_direction": "down"
+        },
+        {
+          "rank": 14,
+          "name": "疯狂飞车逃亡",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "史上超欢乐的游戏！",
+          "publisher": "深圳欢鱼软件有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "猫咪披萨店",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "化身猫咪店长，经营小店，接待顾客，扩张你的美味披萨店！",
+          "publisher": "北京光屿星途网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "解开绳子",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "《解开绳子》是一款融合绳索解谜、消除解压的休闲益智小游戏。",
+          "publisher": "长沙翌游科技有限公司",
+          "change": "68",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "失落城堡2",
+          "publisher": "雷霆游戏",
+          "category": "Roguelike",
+          "subcategory": "多人联机、动作、Steam移植、买断制、单机、独立游戏、冒险"
+        },
+        {
+          "rank": 10,
+          "name": "七界梦谭",
+          "publisher": "飞光阁工作室",
+          "category": "角色扮演",
+          "subcategory": "修仙、高画质、MMORPG、开放世界、国风、3D"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 93,
+          "name": "NoomiClone",
+          "publisher": "Matthew Jones",
+          "category": "Games",
+          "app_id": "1546690510",
+          "url": "https://apps.apple.com/us/app/noomiclone/id1546690510?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/69/be/dd69bea6-51e2-8470-9398-b44644999af7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fun physics-based bar simulation to simulate gymnastics and freerunning moves! A"
+        },
+        {
+          "rank": 99,
+          "name": "Songless: Guess the Song!",
+          "publisher": "Calico Studio Inc.",
+          "category": "Games",
+          "app_id": "6804464432",
+          "url": "https://apps.apple.com/us/app/songless-guess-the-song/id6804464432?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/fb/74/bafb744e-15c8-4fb4-e342-07fa497d9e5f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "Discover how well you really know your music with SONGLESS. Guess the song, expl"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 89,
+          "name": "PUBG MOBILE",
+          "publisher": "Tencent Mobile International Limited",
+          "category": "Games",
+          "app_id": "1330123889",
+          "url": "https://apps.apple.com/us/app/pubg-mobile/id1330123889?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/98/24/6d9824dd-f75f-9bd6-221e-33324fedecb2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "【Epic battle royale masterpiece】\nLots of events for you to explore.Climb to the "
+        },
+        {
+          "rank": 91,
+          "name": "Top Lords",
+          "publisher": "GAME SPARK PTE. LTD.",
+          "category": "Games",
+          "app_id": "6767834940",
+          "url": "https://apps.apple.com/us/app/top-lords/id6767834940?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/64/87/2d6487ba-6220-71de-6cce-ea32b57e2f22/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Rise to the Throne with just a Few Taps!\nDownload for Free and Jump Right in!\n\nT"
+        },
+        {
+          "rank": 92,
+          "name": "Grand Fortune Club",
+          "publisher": "EverPrime Futures Inc.",
+          "category": "Games",
+          "app_id": "6762178742",
+          "url": "https://apps.apple.com/us/app/grand-fortune-club/id6762178742?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/d8/41/bed841e5-f2cd-ee42-d776-f9612bda9a5a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Grand Fortune Club brings a colorful casino-style world full of bright visuals, "
+        },
+        {
+          "rank": 94,
+          "name": "Yarn Fever! Unravel Puzzle",
+          "publisher": "Brave HK Limited",
+          "category": "Games",
+          "app_id": "6747875092",
+          "url": "https://apps.apple.com/us/app/yarn-fever-unravel-puzzle/id6747875092?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/63/bc/4863bcf7-5224-68f1-c70f-8b673781b0f1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Yarn Fever! Unravel Puzzle is a colorful and addictive puzzle game where ASMR re"
+        },
+        {
+          "rank": 95,
+          "name": "Search It - Hidden Objects",
+          "publisher": "LEAP BILISIM TEKNOLOJILERI VE YAZILIM TICARET ANONIM SIRKETI",
+          "category": "Games",
+          "app_id": "6756185760",
+          "url": "https://apps.apple.com/us/app/search-it-hidden-objects/id6756185760?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/5c/ca/3b5ccadc-140f-b83f-d51b-e4687032cf01/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Search It – Hidden Objects is a relaxing hidden object game that challenges your"
+        },
+        {
+          "rank": 96,
+          "name": "NYT Games: Wordle & Crossword",
+          "publisher": "The New York Times Company",
+          "category": "Games",
+          "app_id": "307569751",
+          "url": "https://apps.apple.com/us/app/nyt-games-wordle-crossword/id307569751?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/9f/97/879f9746-80e8-3a08-64ad-a82398fe079f/Release-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/100x100bb.png",
+          "slogan": "New York Times Games is the essential app for anyone who loves word, logic and n"
+        },
+        {
+          "rank": 97,
+          "name": "Angry Birds 2",
+          "publisher": "Rovio Entertainment Oyj",
+          "category": "Games",
+          "app_id": "880047117",
+          "url": "https://apps.apple.com/us/app/angry-birds-2/id880047117?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/12/75/2f1275bc-d155-45f9-c189-3cc518f3ff1a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Play the world's best bird flinging, pig popping game!\n\nUse the slingshot to fli"
+        },
+        {
+          "rank": 98,
+          "name": "Packz",
+          "publisher": "Packz",
+          "category": "Games",
+          "app_id": "6755495631",
+          "url": "https://apps.apple.com/us/app/packz/id6755495631?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/ea/a9/6eeaa938-6260-368a-5572-5624cd0a9dc3/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/100x100bb.png",
+          "slogan": "Open Packs. Get Cards. Ship or Cash Out Instantly.\n\nPacks can hold cards worth u"
+        },
+        {
+          "rank": 100,
+          "name": "Cookingo: Perfect Meal",
+          "publisher": "Higame Global Limited",
+          "category": "Games",
+          "app_id": "6756288168",
+          "url": "https://apps.apple.com/us/app/cookingo-perfect-meal/id6756288168?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/f4/65/5ff465ab-c04b-fff5-79e3-5fc19a770fb3/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to Cookingo, your peaceful little escape from the hustle and bustle of e"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 93,
+          "name": "NoomiClone",
+          "publisher": "Matthew Jones",
+          "category": "Games",
+          "app_id": "1546690510",
+          "url": "https://apps.apple.com/us/app/noomiclone/id1546690510?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/69/be/dd69bea6-51e2-8470-9398-b44644999af7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fun physics-based bar simulation to simulate gymnastics and freerunning moves! A"
+        },
+        {
+          "rank": 99,
+          "name": "Songless: Guess the Song!",
+          "publisher": "Calico Studio Inc.",
+          "category": "Games",
+          "app_id": "6804464432",
+          "url": "https://apps.apple.com/us/app/songless-guess-the-song/id6804464432?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/fb/74/bafb744e-15c8-4fb4-e342-07fa497d9e5f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "Discover how well you really know your music with SONGLESS. Guess the song, expl"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 9,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 93,
+          "name": "NoomiClone",
+          "publisher": "Matthew Jones",
+          "category": "Games",
+          "app_id": "1546690510",
+          "url": "https://apps.apple.com/us/app/noomiclone/id1546690510?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/69/be/dd69bea6-51e2-8470-9398-b44644999af7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fun physics-based bar simulation to simulate gymnastics and freerunning moves! A"
+        },
+        {
+          "rank": 99,
+          "name": "Songless: Guess the Song!",
+          "publisher": "Calico Studio Inc.",
+          "category": "Games",
+          "app_id": "6804464432",
+          "url": "https://apps.apple.com/us/app/songless-guess-the-song/id6804464432?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/fb/74/bafb744e-15c8-4fb4-e342-07fa497d9e5f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "Discover how well you really know your music with SONGLESS. Guess the song, expl"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "古龙群侠录：自定义功法",
+          "publisher": "杭州淞羽网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6758942396",
+          "url": "https://apps.apple.com/cn/app/%E5%8F%A4%E9%BE%99%E7%BE%A4%E4%BE%A0%E5%BD%95-%E8%87%AA%E5%AE%9A%E4%B9%89%E5%8A%9F%E6%B3%95/id6758942396?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/88/62/ed886213-5a84-cea6-8e49-5a3bb623feee/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "《古龙群侠录》是根据“古龙武侠系列小说”正版授权改编的RPG游戏，游戏将多部古龙的经典作品进行融合，创造了一个全新的古龙江湖。\r\n在游戏中，玩家将扮演一个初入江"
+        },
+        {
+          "rank": 46,
+          "name": "原神-6周年",
+          "publisher": "miHoYo Games",
+          "category": "游戏",
+          "app_id": "1467190251",
+          "url": "https://apps.apple.com/cn/app/%E5%8E%9F%E7%A5%9E-6%E5%91%A8%E5%B9%B4/id1467190251?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/db/91/0cdb910c-48ee-d0ca-6ba1-94770855de73/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "陌生的天空下，少年少女立于尘沙。\n你们是一对旅行中的双子，从世界之外漂流而来。你的血亲被陌生的神灵带走，而你也被神封印，陷入沉眠。\n再度醒来，天地间风景已变……"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 1,
+          "name": "伊莫",
+          "publisher": "上海趣乐糖网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6768584375",
+          "url": "https://apps.apple.com/cn/app/%E4%BC%8A%E8%8E%AB/id6768584375?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/2e/40/1a2e4029-3af9-45e2-61f5-594590d918e5/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《伊莫》是一款多人在线大世界捉宠RPG。你将在广袤的艾德尔大陆上邂逅各种神奇生物——伊莫。和他们联结合体，还能以全新的视角和能力感受这个世界的美好。你也可以来到"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 100,
+          "name": "腾讯桌球 -经典台球八球斯诺克",
+          "publisher": "Tencent Mobile Games",
+          "category": "游戏",
+          "app_id": "990556801",
+          "url": "https://apps.apple.com/cn/app/%E8%85%BE%E8%AE%AF%E6%A1%8C%E7%90%83-%E7%BB%8F%E5%85%B8%E5%8F%B0%E7%90%83%E5%85%AB%E7%90%83%E6%96%AF%E8%AF%BA%E5%85%8B/id990556801?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/bb/50/4ebb5071-8b41-6ecc-3dde-a72237065c3f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【游戏介绍】\n\n《腾讯桌球》真人实时对战台球手游，还原现实台球玩法-8球、斯诺克、9球玩法，简单流行的操作方式，绚丽的动画特效，配以真实的物理参数，精准的进球，"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 5,
+          "name": "古龙群侠录：自定义功法",
+          "publisher": "杭州淞羽网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6758942396",
+          "url": "https://apps.apple.com/cn/app/%E5%8F%A4%E9%BE%99%E7%BE%A4%E4%BE%A0%E5%BD%95-%E8%87%AA%E5%AE%9A%E4%B9%89%E5%8A%9F%E6%B3%95/id6758942396?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/88/62/ed886213-5a84-cea6-8e49-5a3bb623feee/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "《古龙群侠录》是根据“古龙武侠系列小说”正版授权改编的RPG游戏，游戏将多部古龙的经典作品进行融合，创造了一个全新的古龙江湖。\r\n在游戏中，玩家将扮演一个初入江"
+        },
+        {
+          "rank": 77,
+          "name": "勇士之心",
+          "publisher": "Guangzhou Yimeng Technology Company Limited",
+          "category": "游戏",
+          "app_id": "6764461448",
+          "url": "https://apps.apple.com/cn/app/%E5%8B%87%E5%A3%AB%E4%B9%8B%E5%BF%83/id6764461448?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/ca/1b/12ca1bac-23ae-84a1-59fb-359a8418123d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "操控勇士深入奇幻地下城，走位、放技能、连击连招，打击感拉满，每一刀都爽到极致！\n《勇士之心》— 热血横版格斗，经典重燃！\n【热血动作 · 极致战斗体验】\n经典横"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 1,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "伊莫",
+          "publisher": "上海趣乐糖网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6768584375",
+          "url": "https://apps.apple.com/cn/app/%E4%BC%8A%E8%8E%AB/id6768584375?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/2e/40/1a2e4029-3af9-45e2-61f5-594590d918e5/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《伊莫》是一款多人在线大世界捉宠RPG。你将在广袤的艾德尔大陆上邂逅各种神奇生物——伊莫。和他们联结合体，还能以全新的视角和能力感受这个世界的美好。你也可以来到"
+        },
+        {
+          "rank": 5,
+          "name": "古龙群侠录：自定义功法",
+          "publisher": "杭州淞羽网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6758942396",
+          "url": "https://apps.apple.com/cn/app/%E5%8F%A4%E9%BE%99%E7%BE%A4%E4%BE%A0%E5%BD%95-%E8%87%AA%E5%AE%9A%E4%B9%89%E5%8A%9F%E6%B3%95/id6758942396?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/88/62/ed886213-5a84-cea6-8e49-5a3bb623feee/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "《古龙群侠录》是根据“古龙武侠系列小说”正版授权改编的RPG游戏，游戏将多部古龙的经典作品进行融合，创造了一个全新的古龙江湖。\r\n在游戏中，玩家将扮演一个初入江"
+        },
+        {
+          "rank": 46,
+          "name": "原神-6周年",
+          "publisher": "miHoYo Games",
+          "category": "游戏",
+          "app_id": "1467190251",
+          "url": "https://apps.apple.com/cn/app/%E5%8E%9F%E7%A5%9E-6%E5%91%A8%E5%B9%B4/id1467190251?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/db/91/0cdb910c-48ee-d0ca-6ba1-94770855de73/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "陌生的天空下，少年少女立于尘沙。\n你们是一对旅行中的双子，从世界之外漂流而来。你的血亲被陌生的神灵带走，而你也被神封印，陷入沉眠。\n再度醒来，天地间风景已变……"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 13,
+          "name": "スチームパンク：クロノ要塞",
+          "publisher": "Flame Games",
+          "category": "ゲーム",
+          "app_id": "6787008950",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%81%E3%83%BC%E3%83%A0%E3%83%91%E3%83%B3%E3%82%AF-%E3%82%AF%E3%83%AD%E3%83%8E%E8%A6%81%E5%A1%9E/id6787008950?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/e0/d9/3ce0d9a6-0b90-d6bb-faa7-f9f60eb2f8d1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "源質の暴動、時空を超えた冒険へ――\n\n蒸気パンク末世に蠢く怪獣軍団。\n個性豊かな英雄たちと共に、移動要塞で文明最後の砦を守れ!\n指揮官よ、廃土大陸で機動作戦を展"
+        },
+        {
+          "rank": 77,
+          "name": "脱出ゲーム Villa Riviera",
+          "publisher": "ArtDigic",
+          "category": "ゲーム",
+          "app_id": "6767723449",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-villa-riviera/id6767723449?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/6a/35/896a3594-93ab-972c-7253-3256c699bc20/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "まぶしい陽射しと、どこまでも青い地中海。\n潮風がテラスを抜け、遠くで海鳥の声が響く。\n断崖の上にひっそりと佇む白い邸宅で、君は目を覚ます――。\n\nリヴィエラの陽"
+        },
+        {
+          "rank": 80,
+          "name": "トリミン3！-暇つぶしに最適な脱出ゲーム",
+          "publisher": "ONIGIRI GAMES",
+          "category": "ゲーム",
+          "app_id": "6775674610",
+          "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%AA%E3%83%9F%E3%83%B33-%E6%9A%87%E3%81%A4%E3%81%B6%E3%81%97%E3%81%AB%E6%9C%80%E9%81%A9%E3%81%AA%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0/id6775674610?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/f1/06/11f106cc-8d62-a421-b945-230e7d6e3b21/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "画面内のアイテムを動かしながら、イラストの変化や仕掛けを見つけていくパズルゲームです。\n\nシリーズの特徴である「アイテムを動かして答えを探す」遊び方をベースに、"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 52,
+          "name": "EDGE POKER (エッジポーカー)",
+          "publisher": "DeNA Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6476597728",
+          "url": "https://apps.apple.com/jp/app/edge-poker-%E3%82%A8%E3%83%83%E3%82%B8%E3%83%9D%E3%83%BC%E3%82%AB%E3%83%BC/id6476597728?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/a2/9e/16a29ed4-5538-c7e3-06e4-59bb7b85d03f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "DeNAと日本のポーカーブームを牽引するプロポーカープレイヤー「世界のヨコサワ」率いるPOKER ROOM社がタッグを組み、ポーカー（テキサスホールデム）の本格"
+        },
+        {
+          "rank": 100,
+          "name": "Water Sort Puzzle - Order Up",
+          "publisher": "GlimmerJoy Limited",
+          "category": "ゲーム",
+          "app_id": "6757671759",
+          "url": "https://apps.apple.com/jp/app/water-sort-puzzle-order-up/id6757671759?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/4e/ed/2a4eed2c-6975-93c0-8fb6-698da044ed96/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Water Sort Puzzle - Order Up!\n\nReady to challenge your logic and relax your mind"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 13,
+          "name": "スチームパンク：クロノ要塞",
+          "publisher": "Flame Games",
+          "category": "ゲーム",
+          "app_id": "6787008950",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%81%E3%83%BC%E3%83%A0%E3%83%91%E3%83%B3%E3%82%AF-%E3%82%AF%E3%83%AD%E3%83%8E%E8%A6%81%E5%A1%9E/id6787008950?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/e0/d9/3ce0d9a6-0b90-d6bb-faa7-f9f60eb2f8d1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "源質の暴動、時空を超えた冒険へ――\n\n蒸気パンク末世に蠢く怪獣軍団。\n個性豊かな英雄たちと共に、移動要塞で文明最後の砦を守れ!\n指揮官よ、廃土大陸で機動作戦を展"
+        },
+        {
+          "rank": 77,
+          "name": "脱出ゲーム Villa Riviera",
+          "publisher": "ArtDigic",
+          "category": "ゲーム",
+          "app_id": "6767723449",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-villa-riviera/id6767723449?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/6a/35/896a3594-93ab-972c-7253-3256c699bc20/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "まぶしい陽射しと、どこまでも青い地中海。\n潮風がテラスを抜け、遠くで海鳥の声が響く。\n断崖の上にひっそりと佇む白い邸宅で、君は目を覚ます――。\n\nリヴィエラの陽"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 2,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 13,
+          "name": "スチームパンク：クロノ要塞",
+          "publisher": "Flame Games",
+          "category": "ゲーム",
+          "app_id": "6787008950",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%81%E3%83%BC%E3%83%A0%E3%83%91%E3%83%B3%E3%82%AF-%E3%82%AF%E3%83%AD%E3%83%8E%E8%A6%81%E5%A1%9E/id6787008950?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/e0/d9/3ce0d9a6-0b90-d6bb-faa7-f9f60eb2f8d1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "源質の暴動、時空を超えた冒険へ――\n\n蒸気パンク末世に蠢く怪獣軍団。\n個性豊かな英雄たちと共に、移動要塞で文明最後の砦を守れ!\n指揮官よ、廃土大陸で機動作戦を展"
+        },
+        {
+          "rank": 77,
+          "name": "脱出ゲーム Villa Riviera",
+          "publisher": "ArtDigic",
+          "category": "ゲーム",
+          "app_id": "6767723449",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-villa-riviera/id6767723449?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/6a/35/896a3594-93ab-972c-7253-3256c699bc20/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "まぶしい陽射しと、どこまでも青い地中海。\n潮風がテラスを抜け、遠くで海鳥の声が響く。\n断崖の上にひっそりと佇む白い邸宅で、君は目を覚ます――。\n\nリヴィエラの陽"
+        },
+        {
+          "rank": 80,
+          "name": "トリミン3！-暇つぶしに最適な脱出ゲーム",
+          "publisher": "ONIGIRI GAMES",
+          "category": "ゲーム",
+          "app_id": "6775674610",
+          "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%AA%E3%83%9F%E3%83%B33-%E6%9A%87%E3%81%A4%E3%81%B6%E3%81%97%E3%81%AB%E6%9C%80%E9%81%A9%E3%81%AA%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0/id6775674610?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/f1/06/11f106cc-8d62-a421-b945-230e7d6e3b21/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "画面内のアイテムを動かしながら、イラストの変化や仕掛けを見つけていくパズルゲームです。\n\nシリーズの特徴である「アイテムを動かして答えを探す」遊び方をベースに、"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 92,
+          "name": "Crowd Clash: Run Master",
+          "publisher": "Universe Game Labs",
+          "category": "Games",
+          "package": "com.bf14.epic.run.survivor.game"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 43,
+          "name": "Brawl Stars",
+          "publisher": "Supercell",
+          "category": "Games",
+          "package": "com.supercell.brawlstars"
+        },
+        {
+          "rank": 91,
+          "name": "Connect Master - Match Puzzle",
+          "publisher": "Rooftop Game",
+          "category": "Games",
+          "package": "com.game.people.connector"
+        },
+        {
+          "rank": 99,
+          "name": "My Sticker Room - Decor Game",
+          "publisher": "SayGames Ltd",
+          "category": "Games",
+          "package": "com.playstrom.my.sticker.room"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 45,
+          "name": "Color by Number：Coloring Games",
+          "publisher": "Wildlife Studios",
+          "category": "Games",
+          "package": "com.tfgco.apps.coloring.free.color.by.number"
+        },
+        {
+          "rank": 56,
+          "name": "Mystery Dumpling: Unbox ASMR",
+          "publisher": "Brocker Bus Studio",
+          "category": "Games",
+          "package": "com.mystery.dumplings.asmr.unboxing.squishy"
+        },
+        {
+          "rank": 60,
+          "name": "Toca Boca World",
+          "publisher": "Toca Boca",
+          "category": "Games",
+          "package": "com.tocaboca.tocalifeworld"
+        },
+        {
+          "rank": 65,
+          "name": "Among Us",
+          "publisher": "Innersloth LLC",
+          "category": "Games",
+          "package": "com.innersloth.spacemafia"
+        },
+        {
+          "rank": 69,
+          "name": "Craft Builder: 3D Block World",
+          "publisher": "Coup Coup LTD",
+          "category": "Games",
+          "package": "com.novas.craft.builder.block.world"
+        },
+        {
+          "rank": 71,
+          "name": "Hole.io",
+          "publisher": "VOODOO",
+          "category": "Games",
+          "package": "io.voodoo.holeio"
+        },
+        {
+          "rank": 75,
+          "name": "Snake Clash!",
+          "publisher": "Supercent, Inc.",
+          "category": "Games",
+          "package": "io.supercent.linkedcubic"
+        },
+        {
+          "rank": 82,
+          "name": "Annoying Uncle Punch Game®",
+          "publisher": "Game District LLC",
+          "category": "Games",
+          "package": "com.gtsy.annoying.punch.game"
+        },
+        {
+          "rank": 95,
+          "name": "Kingshot",
+          "publisher": "Century Games PTE. LTD.",
+          "category": "Games",
+          "package": "com.run.tower.defense"
+        },
+        {
+          "rank": 97,
+          "name": "Level Devil - NOT A Troll Game",
+          "publisher": "WebVentures B.V.",
+          "category": "Games",
+          "package": "com.unept.leveldevil"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 91,
+          "name": "Connect Master - Match Puzzle",
+          "publisher": "Rooftop Game",
+          "category": "Games",
+          "package": "com.game.people.connector"
+        },
+        {
+          "rank": 92,
+          "name": "Crowd Clash: Run Master",
+          "publisher": "Universe Game Labs",
+          "category": "Games",
+          "package": "com.bf14.epic.run.survivor.game"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 10,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 43,
+          "name": "Brawl Stars",
+          "publisher": "Supercell",
+          "category": "Games",
+          "package": "com.supercell.brawlstars"
+        },
+        {
+          "rank": 91,
+          "name": "Connect Master - Match Puzzle",
+          "publisher": "Rooftop Game",
+          "category": "Games",
+          "package": "com.game.people.connector"
+        },
+        {
+          "rank": 92,
+          "name": "Crowd Clash: Run Master",
+          "publisher": "Universe Game Labs",
+          "category": "Games",
+          "package": "com.bf14.epic.run.survivor.game"
+        },
+        {
+          "rank": 99,
+          "name": "My Sticker Room - Decor Game",
+          "publisher": "SayGames Ltd",
+          "category": "Games",
+          "package": "com.playstrom.my.sticker.room"
+        }
+      ]
+    }
+  }
+}
