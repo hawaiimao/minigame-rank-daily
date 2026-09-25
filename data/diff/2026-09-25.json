@@ -1,0 +1,617 @@
+{
+  "date": "2026-09-25",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "奇遇动物城",
+          "publisher": "莉莉丝游戏",
+          "category": "休闲"
+        },
+        {
+          "rank": 8,
+          "name": "九万亩",
+          "publisher": "两英里科技",
+          "category": "策略",
+          "subcategory": "SLG、像素、模拟经营、多人联机"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 7,
+          "name": "BanG Dream! Our Notes",
+          "publisher": "新闻消息",
+          "category": "音乐"
+        },
+        {
+          "rank": 9,
+          "name": "无限大",
+          "publisher": "网易游戏",
+          "category": "开放世界",
+          "subcategory": "角色扮演、高自由度、都市、二次元、动作、高画质、3D"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 8,
+          "name": "九万亩",
+          "publisher": "两英里科技",
+          "category": "策略",
+          "subcategory": "SLG、像素、模拟经营、多人联机"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "奇遇动物城",
+          "publisher": "莉莉丝游戏",
+          "category": "休闲"
+        },
+        {
+          "rank": 8,
+          "name": "九万亩",
+          "publisher": "两英里科技",
+          "category": "策略",
+          "subcategory": "SLG、像素、模拟经营、多人联机"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 36,
+          "name": "Firewood Splitting Simulator",
+          "publisher": "Gavin Shapiro",
+          "category": "Games",
+          "app_id": "6797562042",
+          "url": "https://apps.apple.com/us/app/firewood-splitting-simulator/id6797562042?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/14/0d/b6140d2a-b224-e719-34de-e62e729071e6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Relax, split wood, and watch it stack. Free to play, and no ads - just oddly sat"
+        },
+        {
+          "rank": 55,
+          "name": "EA SPORTS FC Soccer Mobile 27",
+          "publisher": "Electronic Arts",
+          "category": "Games",
+          "app_id": "1094930513",
+          "url": "https://apps.apple.com/us/app/ea-sports-fc-soccer-mobile-27/id1094930513?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/d1/84/41d18457-ec03-6812-f0a7-8a83686c6009/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This game includes optional in-game purchases of virtual currency that can be us"
+        },
+        {
+          "rank": 86,
+          "name": "Rotate Rings",
+          "publisher": "Nebula Studio",
+          "category": "Games",
+          "app_id": "6793924927",
+          "url": "https://apps.apple.com/us/app/rotate-rings/id6793924927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/d2/28/a0d2287e-3406-6134-6080-0676f7e9608f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Spin, align, and unlock! Welcome to Rotate Rings — the ultimate spatial logic pu"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 60,
+          "name": "Packz",
+          "publisher": "Packz",
+          "category": "Games",
+          "app_id": "6755495631",
+          "url": "https://apps.apple.com/us/app/packz/id6755495631?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/ea/a9/6eeaa938-6260-368a-5572-5624cd0a9dc3/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/100x100bb.png",
+          "slogan": "Open Packs. Get Cards. Ship or Cash Out Instantly.\n\nPacks can hold cards worth u"
+        },
+        {
+          "rank": 67,
+          "name": "82-0.com",
+          "publisher": "Vaulty Studios Inc.",
+          "category": "Games",
+          "app_id": "6780195090",
+          "url": "https://apps.apple.com/us/app/82-0-com/id6780195090?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/21/d3/5321d312-e22f-b6d6-dcfd-6ec69789b1db/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Can you build the perfect lineup and go 82-0?\n\n82-0 is the viral basketball rost"
+        },
+        {
+          "rank": 88,
+          "name": "Double Tile!",
+          "publisher": "Hungry Studio",
+          "category": "Games",
+          "app_id": "6754014472",
+          "url": "https://apps.apple.com/us/app/double-tile/id6754014472?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/b2/f1/b6b2f1de-46c8-5e88-cc7c-14fada92999d/AppIcon-0-0-1x_U007epad-0-11-0-sRGB-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Double Tile! Start your brain puzzles journey in this relaxing mahjon"
+        },
+        {
+          "rank": 89,
+          "name": "NoomiClone",
+          "publisher": "Matthew Jones",
+          "category": "Games",
+          "app_id": "1546690510",
+          "url": "https://apps.apple.com/us/app/noomiclone/id1546690510?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/69/be/dd69bea6-51e2-8470-9398-b44644999af7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fun physics-based bar simulation to simulate gymnastics and freerunning moves! A"
+        },
+        {
+          "rank": 91,
+          "name": "Grand Fortune Club",
+          "publisher": "EverPrime Futures Inc.",
+          "category": "Games",
+          "app_id": "6762178742",
+          "url": "https://apps.apple.com/us/app/grand-fortune-club/id6762178742?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/d8/41/bed841e5-f2cd-ee42-d776-f9612bda9a5a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Grand Fortune Club brings a colorful casino-style world full of bright visuals, "
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 36,
+          "name": "Firewood Splitting Simulator",
+          "publisher": "Gavin Shapiro",
+          "category": "Games",
+          "app_id": "6797562042",
+          "url": "https://apps.apple.com/us/app/firewood-splitting-simulator/id6797562042?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/14/0d/b6140d2a-b224-e719-34de-e62e729071e6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Relax, split wood, and watch it stack. Free to play, and no ads - just oddly sat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 5,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 36,
+          "name": "Firewood Splitting Simulator",
+          "publisher": "Gavin Shapiro",
+          "category": "Games",
+          "app_id": "6797562042",
+          "url": "https://apps.apple.com/us/app/firewood-splitting-simulator/id6797562042?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/14/0d/b6140d2a-b224-e719-34de-e62e729071e6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Relax, split wood, and watch it stack. Free to play, and no ads - just oddly sat"
+        },
+        {
+          "rank": 55,
+          "name": "EA SPORTS FC Soccer Mobile 27",
+          "publisher": "Electronic Arts",
+          "category": "Games",
+          "app_id": "1094930513",
+          "url": "https://apps.apple.com/us/app/ea-sports-fc-soccer-mobile-27/id1094930513?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/d1/84/41d18457-ec03-6812-f0a7-8a83686c6009/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This game includes optional in-game purchases of virtual currency that can be us"
+        },
+        {
+          "rank": 86,
+          "name": "Rotate Rings",
+          "publisher": "Nebula Studio",
+          "category": "Games",
+          "app_id": "6793924927",
+          "url": "https://apps.apple.com/us/app/rotate-rings/id6793924927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/d2/28/a0d2287e-3406-6134-6080-0676f7e9608f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Spin, align, and unlock! Welcome to Rotate Rings — the ultimate spatial logic pu"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 68,
+          "name": "重返未来：1999-巡游庆典",
+          "publisher": "Bluepoch Games",
+          "category": "游戏",
+          "app_id": "1611712418",
+          "url": "https://apps.apple.com/cn/app/%E9%87%8D%E8%BF%94%E6%9C%AA%E6%9D%A5-1999-%E5%B7%A1%E6%B8%B8%E5%BA%86%E5%85%B8/id1611712418?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/f6/a9/b8f6a92e-bf00-49ca-899c-403b66218266/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+          "slogan": "深蓝互动研发运营的一款近代复古神秘学RPG。\n\n【重返未来：1999 的剧情简介】\n1999年最后一天，一场“暴雨”在向天空倾泻。行人和墙壁在雨中剥落溶解，世界"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 76,
+          "name": "逆水寒",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1541570980",
+          "url": "https://apps.apple.com/cn/app/%E9%80%86%E6%B0%B4%E5%AF%92/id1541570980?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/53/77/6653776f-25b2-caec-4424-2075dac481c9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《逆水寒》手游是一款国风开放世界武侠游戏，以精湛细腻的画质、真实灵动的江湖氛围、颠覆传统MMO套路、智能AI深度植入影响游戏世界而著称，被称为“会呼吸的江湖”。"
+        },
+        {
+          "rank": 83,
+          "name": "天天爱消除",
+          "publisher": "Tencent Mobile Games",
+          "category": "游戏",
+          "app_id": "654897098",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E7%88%B1%E6%B6%88%E9%99%A4/id654897098?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/97/9e/9d979e9b-ea6f-188f-f200-64928d70b9ca/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
+          "slogan": "《天天爱消除》是一款以“消除烦恼，治愈心灵”为主题的萌系治愈向消除手游，陪伴玩家度过了10个寒暑！轻划手指，将三个相同的小动物旗子连成一行或一列，即可完成一次消"
+        },
+        {
+          "rank": 91,
+          "name": "永劫无间",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1580500427",
+          "url": "https://apps.apple.com/cn/app/%E6%B0%B8%E5%8A%AB%E6%97%A0%E9%97%B4/id1580500427?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/d6/45/8bd64568-2de0-ce6f-d75f-e22f192ddcf4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《永劫无间》手游是由网易24工作室开发的多人动作竞技手游。同名端游自上线以来风靡全球，全球玩家数量现已突破4000万。手游传承端游品质，将独具魅力的IP英雄、P"
+        },
+        {
+          "rank": 96,
+          "name": "阴阳师 - 十周年送十连十金",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "895670960",
+          "url": "https://apps.apple.com/cn/app/%E9%98%B4%E9%98%B3%E5%B8%88-%E5%8D%81%E5%91%A8%E5%B9%B4%E9%80%81%E5%8D%81%E8%BF%9E%E5%8D%81%E9%87%91/id895670960?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/92/ae/2a92ae86-e33c-9c72-d19f-b016b0045a05/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "阴阳师，你我共创的绮美世界\n\n【游戏介绍】\n《阴阳师》是网易游戏匠心巨制的3D半即时回合制RPG手游。以平安时代为背景，讲述人鬼共生的奇幻故事。在唯美写意的画风"
+        },
+        {
+          "rank": 98,
+          "name": "香肠派对",
+          "publisher": "X.D. Network Inc.",
+          "category": "游戏",
+          "app_id": "1326730621",
+          "url": "https://apps.apple.com/cn/app/%E9%A6%99%E8%82%A0%E6%B4%BE%E5%AF%B9/id1326730621?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/2a/58/1d2a5806-4690-4353-e460-6be12ab34c83/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "SS27赛季：创造与破坏 肆意的建造还是疯狂的破坏由你来决定！\n\n「摸金派对」专属大厅中选择战备物资，进入地图探索搜集，与怪物、对手对抗，撤离即可把宝物收入囊中"
+        },
+        {
+          "rank": 100,
+          "name": "宾果消消消",
+          "publisher": "柠檬微趣",
+          "category": "游戏",
+          "app_id": "897447840",
+          "url": "https://apps.apple.com/cn/app/%E5%AE%BE%E6%9E%9C%E6%B6%88%E6%B6%88%E6%B6%88/id897447840?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b3/ad/fa/b3adfa67-0410-21b2-4e9a-2007b68c4a12/AppIcon-0-0-1x_U007emarketing-0-9-0-GLES2_U002c0-85-220.png/100x100bb.png",
+          "slogan": "《宾果消消消》,累计注册用户超过3亿,以三消+开店的形式，让国民连接在一起！\n2021年，3亿玩家的共同选择！\n\n消一消，能开店。奶茶店、蛋糕店、糖果店、花店、"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 68,
+          "name": "重返未来：1999-巡游庆典",
+          "publisher": "Bluepoch Games",
+          "category": "游戏",
+          "app_id": "1611712418",
+          "url": "https://apps.apple.com/cn/app/%E9%87%8D%E8%BF%94%E6%9C%AA%E6%9D%A5-1999-%E5%B7%A1%E6%B8%B8%E5%BA%86%E5%85%B8/id1611712418?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/f6/a9/b8f6a92e-bf00-49ca-899c-403b66218266/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+          "slogan": "深蓝互动研发运营的一款近代复古神秘学RPG。\n\n【重返未来：1999 的剧情简介】\n1999年最后一天，一场“暴雨”在向天空倾泻。行人和墙壁在雨中剥落溶解，世界"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 6,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 68,
+          "name": "重返未来：1999-巡游庆典",
+          "publisher": "Bluepoch Games",
+          "category": "游戏",
+          "app_id": "1611712418",
+          "url": "https://apps.apple.com/cn/app/%E9%87%8D%E8%BF%94%E6%9C%AA%E6%9D%A5-1999-%E5%B7%A1%E6%B8%B8%E5%BA%86%E5%85%B8/id1611712418?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/f6/a9/b8f6a92e-bf00-49ca-899c-403b66218266/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+          "slogan": "深蓝互动研发运营的一款近代复古神秘学RPG。\n\n【重返未来：1999 的剧情简介】\n1999年最后一天，一场“暴雨”在向天空倾泻。行人和墙壁在雨中剥落溶解，世界"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 3,
+          "name": "[7R]ビッグドリーム THE GOLDEN PUSHER",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6806924020",
+          "url": "https://apps.apple.com/jp/app/7r-%E3%83%93%E3%83%83%E3%82%B0%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0-the-golden-pusher/id6806924020?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/a8/a3/bda8a3e3-1a9c-04b9-413b-211cb0c324ac/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\nスマスロ ビッグドリーム THE GOLDEN PUSHER\n2026年/Sa"
+        },
+        {
+          "rank": 53,
+          "name": "Rotate Rings",
+          "publisher": "Nebula Studio",
+          "category": "ゲーム",
+          "app_id": "6793924927",
+          "url": "https://apps.apple.com/jp/app/rotate-rings/id6793924927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/d2/28/a0d2287e-3406-6134-6080-0676f7e9608f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "回して、揃えて、ロック解除！『Rotate Rings』へようこそ——頭脳を研ぎ澄まし、心地よいリラックスをもたらす究極の3D空間パズルゲームです。\n複雑に組み"
+        },
+        {
+          "rank": 56,
+          "name": "PokeBuddy | ポケバディ",
+          "publisher": "Shinnosuke Komiya",
+          "category": "ゲーム",
+          "app_id": "6468970638",
+          "url": "https://apps.apple.com/jp/app/pokebuddy-%E3%83%9D%E3%82%B1%E3%83%90%E3%83%87%E3%82%A3/id6468970638?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/7d/12/757d1283-1d95-2a73-4e94-5a1627ac3858/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "ポケモンカードゲームのプレイとコレクションを丸ごと支える、ファンが個人で作った非公式アプリです。\n\n■ こんな方におすすめ\n・デッキのレシピをスマホで作って、一"
+        },
+        {
+          "rank": 82,
+          "name": "墜ちたる美: 合成&ストーリー",
+          "publisher": "KINETIC ENERGY WIRELESS(HONG KONG)LIMITED",
+          "category": "ゲーム",
+          "app_id": "6758072393",
+          "url": "https://apps.apple.com/jp/app/%E5%A2%9C%E3%81%A1%E3%81%9F%E3%82%8B%E7%BE%8E-%E5%90%88%E6%88%90-%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC/id6758072393?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/97/29/6697291d-d850-ab43-9561-99d0c6bd6239/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fallen Beauty: マージ&ストーリー\nマージでスタイルを。ひとときを、人生を変える。\n『Fallen Beauty』は、マージゲームプレイ、ドレスア"
+        },
+        {
+          "rank": 96,
+          "name": "脱出ゲーム：帰り道のコンビニ",
+          "publisher": "LIBERTY PLANT inc.",
+          "category": "ゲーム",
+          "app_id": "6791559371",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E5%B8%B0%E3%82%8A%E9%81%93%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B/id6791559371?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/bf/e5/afbfe5c0-6de0-775c-1bf7-3bb82ca58b63/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "いつもの帰り道に現れたのは、見覚えのないコンビニ「Dマート」\n\nどこにでもありそうな店内なのに、よく見ると、どこか少し違うようで…\n\n身近な商品や店内設備を手が"
+        },
+        {
+          "rank": 98,
+          "name": "オブジェクトを探す：隠されたパズル",
+          "publisher": "NimbleMind",
+          "category": "ゲーム",
+          "app_id": "6751270213",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%92%E6%8E%A2%E3%81%99-%E9%9A%A0%E3%81%95%E3%82%8C%E3%81%9F%E3%83%91%E3%82%BA%E3%83%AB/id6751270213?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/06/4c/b2064c2d-fc13-b6c4-835e-c1370ae3c7db/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "隠された驚異の世界へようこそ。すべての絵に物語が隠されています。あなたはすべてを見つけられますか？\n\nこの無料でありながら中毒性のある隠しオブジェクトパズルゲー"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "ピクセルブレイブ：伝説の勇者たち",
+          "publisher": "JMMOBI Inc.",
+          "category": "ゲーム",
+          "app_id": "6756157199",
+          "url": "https://apps.apple.com/jp/app/%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%83%96%E3%83%AC%E3%82%A4%E3%83%96-%E4%BC%9D%E8%AA%AC%E3%81%AE%E5%8B%87%E8%80%85%E3%81%9F%E3%81%A1/id6756157199?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/68/d0/1568d0fa-9af8-64a8-0473-80ce197cc79a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "公式コミュニティに参加して、リリース記念抽選に挑戦\nDiscord：https://discord.gg/uA5UA5aTaf\nゲーム内通貨やレアアイテムが当た"
+        },
+        {
+          "rank": 61,
+          "name": "Amaze GO! - 矢印 パズル",
+          "publisher": "Oakever Games",
+          "category": "ゲーム",
+          "app_id": "6758326278",
+          "url": "https://apps.apple.com/jp/app/amaze-go-%E7%9F%A2%E5%8D%B0-%E3%83%91%E3%82%BA%E3%83%AB/id6758326278?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/53/a9/1453a9f5-30ca-a2be-5e88-26a1e35dbb5f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Amaze GO! - 矢印パズルへようこそ。\n\n忙しい心を落ち着かせるために作られた、シンプルな矢印パズル。すべての矢が道を示す——あとは正しい順序を選ぶだけ"
+        },
+        {
+          "rank": 70,
+          "name": "Marble Sort!",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "6754558455",
+          "url": "https://apps.apple.com/jp/app/marble-sort/id6754558455?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/f1/38/27f13891-52d3-76dc-13b8-877a438d6b66/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "心地よいASMRの物理演算と無限の戦略性が融合。ドロップのタイミングを見極め、動くコンベアに乗り、ベルトが詰まる前に論理と戦略でマーブル（ビー玉）を完璧に仕分け"
+        },
+        {
+          "rank": 87,
+          "name": "幻想水滸伝 STAR LEAP",
+          "publisher": "KONAMI",
+          "category": "ゲーム",
+          "app_id": "6746180100",
+          "url": "https://apps.apple.com/jp/app/%E5%B9%BB%E6%83%B3%E6%B0%B4%E6%BB%B8%E4%BC%9D-star-leap/id6746180100?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/02/ae/0c/02ae0c1f-3b44-ac32-a686-e7566993083a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "◆本作の特徴◆\n■出会いが物語を動かす——仲間と紡ぐ群像劇\n世界を廻り、108星をはじめ多くのキャラクターとの出会いによって紡がれる物語。\n仲間が増えるほど、冒"
+        },
+        {
+          "rank": 88,
+          "name": "ブラウンダスト２ 胸いっぱいのRPG",
+          "publisher": "NEOWIZ",
+          "category": "ゲーム",
+          "app_id": "6450099588",
+          "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%80%E3%82%B9%E3%83%88%EF%BC%92-%E8%83%B8%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%AErpg/id6450099588?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/32/e8/b132e846-35fa-edd3-0946-4a0bbad0bcc5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "▣ゲーム紹介▣\n\n■ ブラウンダスト2×魔都精兵のスレイブ2コラボ ■\nブラウンダスト2と魔都精兵のスレイブ2が出会った\n羽前京香、出雲天花、山城恋がブラウンダ"
+        },
+        {
+          "rank": 99,
+          "name": "ねこ旅",
+          "publisher": "Onyx Hook LLC",
+          "category": "ゲーム",
+          "app_id": "6748996000",
+          "url": "https://apps.apple.com/jp/app/%E3%81%AD%E3%81%93%E6%97%85/id6748996000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/a4/08/38a40823-174a-ab4b-e617-8b84fc4e3b7e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "猫を旅に出して、のんびり帰りを待つ。\n癒しとちょっとしたワクワクを楽しめる、放置型アプリです。\n\n【遊び方】\n・猫を旅に出そう！\n　持たせるアイテムによって行き"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 56,
+          "name": "PokeBuddy | ポケバディ",
+          "publisher": "Shinnosuke Komiya",
+          "category": "ゲーム",
+          "app_id": "6468970638",
+          "url": "https://apps.apple.com/jp/app/pokebuddy-%E3%83%9D%E3%82%B1%E3%83%90%E3%83%87%E3%82%A3/id6468970638?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/7d/12/757d1283-1d95-2a73-4e94-5a1627ac3858/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "ポケモンカードゲームのプレイとコレクションを丸ごと支える、ファンが個人で作った非公式アプリです。\n\n■ こんな方におすすめ\n・デッキのレシピをスマホで作って、一"
+        },
+        {
+          "rank": 82,
+          "name": "墜ちたる美: 合成&ストーリー",
+          "publisher": "KINETIC ENERGY WIRELESS(HONG KONG)LIMITED",
+          "category": "ゲーム",
+          "app_id": "6758072393",
+          "url": "https://apps.apple.com/jp/app/%E5%A2%9C%E3%81%A1%E3%81%9F%E3%82%8B%E7%BE%8E-%E5%90%88%E6%88%90-%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC/id6758072393?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/97/29/6697291d-d850-ab43-9561-99d0c6bd6239/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fallen Beauty: マージ&ストーリー\nマージでスタイルを。ひとときを、人生を変える。\n『Fallen Beauty』は、マージゲームプレイ、ドレスア"
+        },
+        {
+          "rank": 96,
+          "name": "脱出ゲーム：帰り道のコンビニ",
+          "publisher": "LIBERTY PLANT inc.",
+          "category": "ゲーム",
+          "app_id": "6791559371",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E5%B8%B0%E3%82%8A%E9%81%93%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B/id6791559371?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/bf/e5/afbfe5c0-6de0-775c-1bf7-3bb82ca58b63/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "いつもの帰り道に現れたのは、見覚えのないコンビニ「Dマート」\n\nどこにでもありそうな店内なのに、よく見ると、どこか少し違うようで…\n\n身近な商品や店内設備を手が"
+        },
+        {
+          "rank": 98,
+          "name": "オブジェクトを探す：隠されたパズル",
+          "publisher": "NimbleMind",
+          "category": "ゲーム",
+          "app_id": "6751270213",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%92%E6%8E%A2%E3%81%99-%E9%9A%A0%E3%81%95%E3%82%8C%E3%81%9F%E3%83%91%E3%82%BA%E3%83%AB/id6751270213?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/06/4c/b2064c2d-fc13-b6c4-835e-c1370ae3c7db/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "隠された驚異の世界へようこそ。すべての絵に物語が隠されています。あなたはすべてを見つけられますか？\n\nこの無料でありながら中毒性のある隠しオブジェクトパズルゲー"
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 6,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 3,
+          "name": "[7R]ビッグドリーム THE GOLDEN PUSHER",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6806924020",
+          "url": "https://apps.apple.com/jp/app/7r-%E3%83%93%E3%83%83%E3%82%B0%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0-the-golden-pusher/id6806924020?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/a8/a3/bda8a3e3-1a9c-04b9-413b-211cb0c324ac/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\nスマスロ ビッグドリーム THE GOLDEN PUSHER\n2026年/Sa"
+        },
+        {
+          "rank": 53,
+          "name": "Rotate Rings",
+          "publisher": "Nebula Studio",
+          "category": "ゲーム",
+          "app_id": "6793924927",
+          "url": "https://apps.apple.com/jp/app/rotate-rings/id6793924927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/d2/28/a0d2287e-3406-6134-6080-0676f7e9608f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "回して、揃えて、ロック解除！『Rotate Rings』へようこそ——頭脳を研ぎ澄まし、心地よいリラックスをもたらす究極の3D空間パズルゲームです。\n複雑に組み"
+        },
+        {
+          "rank": 56,
+          "name": "PokeBuddy | ポケバディ",
+          "publisher": "Shinnosuke Komiya",
+          "category": "ゲーム",
+          "app_id": "6468970638",
+          "url": "https://apps.apple.com/jp/app/pokebuddy-%E3%83%9D%E3%82%B1%E3%83%90%E3%83%87%E3%82%A3/id6468970638?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/7d/12/757d1283-1d95-2a73-4e94-5a1627ac3858/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "ポケモンカードゲームのプレイとコレクションを丸ごと支える、ファンが個人で作った非公式アプリです。\n\n■ こんな方におすすめ\n・デッキのレシピをスマホで作って、一"
+        },
+        {
+          "rank": 82,
+          "name": "墜ちたる美: 合成&ストーリー",
+          "publisher": "KINETIC ENERGY WIRELESS(HONG KONG)LIMITED",
+          "category": "ゲーム",
+          "app_id": "6758072393",
+          "url": "https://apps.apple.com/jp/app/%E5%A2%9C%E3%81%A1%E3%81%9F%E3%82%8B%E7%BE%8E-%E5%90%88%E6%88%90-%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC/id6758072393?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/97/29/6697291d-d850-ab43-9561-99d0c6bd6239/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fallen Beauty: マージ&ストーリー\nマージでスタイルを。ひとときを、人生を変える。\n『Fallen Beauty』は、マージゲームプレイ、ドレスア"
+        },
+        {
+          "rank": 96,
+          "name": "脱出ゲーム：帰り道のコンビニ",
+          "publisher": "LIBERTY PLANT inc.",
+          "category": "ゲーム",
+          "app_id": "6791559371",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E5%B8%B0%E3%82%8A%E9%81%93%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B/id6791559371?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/bf/e5/afbfe5c0-6de0-775c-1bf7-3bb82ca58b63/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "いつもの帰り道に現れたのは、見覚えのないコンビニ「Dマート」\n\nどこにでもありそうな店内なのに、よく見ると、どこか少し違うようで…\n\n身近な商品や店内設備を手が"
+        },
+        {
+          "rank": 98,
+          "name": "オブジェクトを探す：隠されたパズル",
+          "publisher": "NimbleMind",
+          "category": "ゲーム",
+          "app_id": "6751270213",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%92%E6%8E%A2%E3%81%99-%E9%9A%A0%E3%81%95%E3%82%8C%E3%81%9F%E3%83%91%E3%82%BA%E3%83%AB/id6751270213?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/06/4c/b2064c2d-fc13-b6c4-835e-c1370ae3c7db/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "隠された驚異の世界へようこそ。すべての絵に物語が隠されています。あなたはすべてを見つけられますか？\n\nこの無料でありながら中毒性のある隠しオブジェクトパズルゲー"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
