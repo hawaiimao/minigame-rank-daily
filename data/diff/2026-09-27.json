@@ -1,0 +1,935 @@
+{
+  "date": "2026-09-27",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "赛场极限漂移",
+          "category": "休闲",
+          "category_rank": 7,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 14,
+          "name": "破坏布娃娃2",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "躺平发育",
+          "category": "休闲",
+          "category_rank": 8,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊娱乐文化有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 13,
+          "name": "开局带把枪",
+          "category": "休闲",
+          "category_rank": 12,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "邯郸小空科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 15,
+          "name": "贪吃蛇大作战",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "益智io轻竞技",
+          "slogan": "",
+          "publisher": "武汉微派网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 18,
+          "name": "打下毛线",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州指望科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "赛场极限漂移",
+          "category": "休闲",
+          "category_rank": 7,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 14,
+          "name": "破坏布娃娃2",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "次神：光之觉醒",
+          "category": "角色",
+          "category_rank": 2,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "在线途游（北京）科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 11,
+          "name": "欢乐战三国",
+          "category": "角色",
+          "category_rank": 3,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "深圳市奥创互娱科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "造化仙府",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "上海沛炫网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "开局带把枪",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "邯郸小空科技有限公司",
+          "change": "7",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "猛鬼宿舍",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊娱乐文化有限公司",
+          "change": "6",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 17,
+          "name": "小人上车",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "彩色小人排队上车消除",
+          "publisher": "长沙指色科技有限公司",
+          "change": "13",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "肥鹅美食街",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "合成缤纷食材，烹饪美味佳肴，打造属于你的美食街！",
+          "publisher": "北京豪腾创想科技有限公司",
+          "change": "5",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 17,
+          "name": "小人上车",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "彩色小人排队上车消除",
+          "publisher": "长沙指色科技有限公司",
+          "change": "13",
+          "change_direction": "down"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 17,
+          "name": "小人上车",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "彩色小人排队上车消除",
+          "publisher": "长沙指色科技有限公司",
+          "change": "13",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 17,
+          "name": "三界降妖录",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "暗黑西游题材放置卡牌，重构混沌三界，改写西行命运。 ",
+          "publisher": "广州联动网络科技有限公司",
+          "change": "5",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "喵骑战域",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "萌猫持枪闯战域，升级火力一路变强",
+          "publisher": "重庆很开心科技有限公司",
+          "change": "2",
+          "change_direction": "down"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "四季合合",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "久违的四季岛，我来啦！",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "change": "13",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 17,
+          "name": "三界降妖录",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "暗黑西游题材放置卡牌，重构混沌三界，改写西行命运。 ",
+          "publisher": "广州联动网络科技有限公司",
+          "change": "5",
+          "change_direction": "down"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 17,
+          "name": "三界降妖录",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "暗黑西游题材放置卡牌，重构混沌三界，改写西行命运。 ",
+          "publisher": "广州联动网络科技有限公司",
+          "change": "5",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "喵骑战域",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "萌猫持枪闯战域，升级火力一路变强",
+          "publisher": "重庆很开心科技有限公司",
+          "change": "2",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "王牌战斗队",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "冒险挑战，王牌集结！",
+          "publisher": "广州亿梦科技有限公司",
+          "change": "21",
+          "change_direction": "down"
+        },
+        {
+          "rank": 10,
+          "name": "店长请到位",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "帮店长完成房间布置！",
+          "publisher": "武汉智地卓越信息科技有限公司",
+          "change": "27",
+          "change_direction": "down"
+        },
+        {
+          "rank": 13,
+          "name": "百战霸主",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "斩尽天下鬼，踏遍九幽路，百战不败者，方为真霸主！",
+          "publisher": "广州鱼娱信息科技有限公司",
+          "change": "32",
+          "change_direction": "down"
+        },
+        {
+          "rank": 14,
+          "name": "水方块世界生存",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "自由编辑方块，搭建像素沙盒场景",
+          "publisher": "厦门像素光年信息科技有限公司",
+          "change": "11",
+          "change_direction": "down"
+        },
+        {
+          "rank": 16,
+          "name": "出招吧老铁",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "拼字成妖，一路通关~",
+          "publisher": "成都望峰科技有限公司",
+          "change": "16",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 17,
+          "name": "天启来袭",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "策略塔防：化身指挥官，布塔御敌，升级科技守住基地！",
+          "publisher": "广州灵桃互娱网络有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 8,
+          "name": "王牌战斗队",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "冒险挑战，王牌集结！",
+          "publisher": "广州亿梦科技有限公司",
+          "change": "21",
+          "change_direction": "down"
+        },
+        {
+          "rank": 13,
+          "name": "百战霸主",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "斩尽天下鬼，踏遍九幽路，百战不败者，方为真霸主！",
+          "publisher": "广州鱼娱信息科技有限公司",
+          "change": "32",
+          "change_direction": "down"
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 0,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "王牌战斗队",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "冒险挑战，王牌集结！",
+          "publisher": "广州亿梦科技有限公司",
+          "change": "21",
+          "change_direction": "down"
+        },
+        {
+          "rank": 10,
+          "name": "店长请到位",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "帮店长完成房间布置！",
+          "publisher": "武汉智地卓越信息科技有限公司",
+          "change": "27",
+          "change_direction": "down"
+        },
+        {
+          "rank": 13,
+          "name": "百战霸主",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "斩尽天下鬼，踏遍九幽路，百战不败者，方为真霸主！",
+          "publisher": "广州鱼娱信息科技有限公司",
+          "change": "32",
+          "change_direction": "down"
+        },
+        {
+          "rank": 14,
+          "name": "水方块世界生存",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "自由编辑方块，搭建像素沙盒场景",
+          "publisher": "厦门像素光年信息科技有限公司",
+          "change": "11",
+          "change_direction": "down"
+        },
+        {
+          "rank": 16,
+          "name": "出招吧老铁",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "拼字成妖，一路通关~",
+          "publisher": "成都望峰科技有限公司",
+          "change": "16",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "天启来袭",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "策略塔防：化身指挥官，布塔御敌，升级科技守住基地！",
+          "publisher": "广州灵桃互娱网络有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "星途天城",
+          "publisher": "广州春芒网络科技有限公司",
+          "category": "卡牌",
+          "subcategory": "养成、神话、美少女、策略、角色扮演"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 80,
+          "name": "Delta Force: 2nd Anniversary",
+          "publisher": "Level Infinite",
+          "category": "Games",
+          "app_id": "6451399876",
+          "url": "https://apps.apple.com/us/app/delta-force-2nd-anniversary/id6451399876?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/5d/a0/585da0e7-9e9c-a7b5-8b5f-cfe69fca3188/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "DELTA FORCE — ANNIVERSARY SEASON: REORIENTATION IS NOW LIVE!\n\nWelcome back, vete"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 79,
+          "name": "Geometry Dash Lite",
+          "publisher": "RobTop Games AB",
+          "category": "Games",
+          "app_id": "698255242",
+          "url": "https://apps.apple.com/us/app/geometry-dash-lite/id698255242?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/08/7f/2a087f71-90d8-b8a0-7f4d-97a0c35e2194/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "Jump and fly your way through danger in this rhythm-based action platformer!\n\n\"F"
+        },
+        {
+          "rank": 83,
+          "name": "Block Craft 3D: Building Games",
+          "publisher": "Wildlife Studios",
+          "category": "Games",
+          "app_id": "981633844",
+          "url": "https://apps.apple.com/us/app/block-craft-3d-building-games/id981633844?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/b9/ff/beb9ff92-b774-c4fb-b13e-7c7279dc26d4/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "Craft and grow your own village or build freely in an unlimited open world!\n\n+ C"
+        },
+        {
+          "rank": 84,
+          "name": "Imposter Game - Party Edition",
+          "publisher": "Sven Vucak",
+          "category": "Games",
+          "app_id": "6745120053",
+          "url": "https://apps.apple.com/us/app/imposter-game-party-edition/id6745120053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/69/e0/1069e0bd-1564-9f77-7ea4-a8072e6e90ff/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.png",
+          "slogan": "Are you the imposter - or will you expose them?\n\nImposter is the perfect game fo"
+        },
+        {
+          "rank": 94,
+          "name": "2 Player Games : Offline Games",
+          "publisher": "Moreno Maio",
+          "category": "Games",
+          "app_id": "1465731199",
+          "url": "https://apps.apple.com/us/app/2-player-games-offline-games/id1465731199?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/dd/c3/43ddc3d6-da0e-3fba-9241-ad63caba5e28/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "If you want to play with your friend on the same device, this is the right game!"
+        },
+        {
+          "rank": 98,
+          "name": "Royal Cooking",
+          "publisher": "Matryoshka Games (CY) LTD",
+          "category": "Games",
+          "app_id": "1664415775",
+          "url": "https://apps.apple.com/us/app/royal-cooking/id1664415775?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/d4/79/a5d479ee-8981-9b0c-2fd7-adbab2f157e7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Royal Cooking — an exciting game where you’ll create the finest meals"
+        },
+        {
+          "rank": 99,
+          "name": "Hollywood Merge",
+          "publisher": "VoyagerOne",
+          "category": "Games",
+          "app_id": "6755455500",
+          "url": "https://apps.apple.com/us/app/hollywood-merge/id6755455500?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/f4/21/b7f4217e-8611-6844-a3ba-189fe14e0f3d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Breaking News: You are a Hollywood Heiress! \r\nJust yesterday, you were strugglin"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 80,
+          "name": "Delta Force: 2nd Anniversary",
+          "publisher": "Level Infinite",
+          "category": "Games",
+          "app_id": "6451399876",
+          "url": "https://apps.apple.com/us/app/delta-force-2nd-anniversary/id6451399876?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/5d/a0/585da0e7-9e9c-a7b5-8b5f-cfe69fca3188/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "DELTA FORCE — ANNIVERSARY SEASON: REORIENTATION IS NOW LIVE!\n\nWelcome back, vete"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 6,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 80,
+          "name": "Delta Force: 2nd Anniversary",
+          "publisher": "Level Infinite",
+          "category": "Games",
+          "app_id": "6451399876",
+          "url": "https://apps.apple.com/us/app/delta-force-2nd-anniversary/id6451399876?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/5d/a0/585da0e7-9e9c-a7b5-8b5f-cfe69fca3188/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "DELTA FORCE — ANNIVERSARY SEASON: REORIENTATION IS NOW LIVE!\n\nWelcome back, vete"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 34,
+          "name": "接小人上车-逃出孤岛",
+          "publisher": "天嘉 赵",
+          "category": "游戏",
+          "app_id": "6795026537",
+          "url": "https://apps.apple.com/cn/app/%E6%8E%A5%E5%B0%8F%E4%BA%BA%E4%B8%8A%E8%BD%A6-%E9%80%83%E5%87%BA%E5%AD%A4%E5%B2%9B/id6795026537?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/fd/25/e1fd2509-999a-dabc-ac5a-459f50f322d5/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "孤岛危机蔓延，无数受困者亟待营救，联盟正式征召你成为救援水手，奔赴孤岛开启救援行动。\n救援规则须知：依据难民衣着色彩划分转运组别，精准分流是救援关键。身穿黄色衣"
+        },
+        {
+          "rank": 41,
+          "name": "毛线整理：织造大师",
+          "publisher": "秀森 王",
+          "category": "游戏",
+          "app_id": "6792979995",
+          "url": "https://apps.apple.com/cn/app/%E6%AF%9B%E7%BA%BF%E6%95%B4%E7%90%86-%E7%BB%87%E9%80%A0%E5%A4%A7%E5%B8%88/id6792979995?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/4d/b5/9d4db527-6ae9-68d8-f299-e0a9aa8cfff5/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "以柔软毛线为核心载体，打造两套独创沉浸式整理玩法\n\n错落分段针织管线四散排布，轻触旋转每一段绒管，弯折、衔接、贯通零散线路，将纷乱线头拼接成完整流畅的绒丝通道。"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 5,
+          "name": "跃动小子",
+          "publisher": "BAI XIANG NETWORK TECHNOLOGY (SHANGHAI) CO., LTD",
+          "category": "游戏",
+          "app_id": "6444717468",
+          "url": "https://apps.apple.com/cn/app/%E8%B7%83%E5%8A%A8%E5%B0%8F%E5%AD%90/id6444717468?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/73/48/1f734835-f276-13d0-8074-a47abd4758d7/AppIcon_yd-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "你，只是一个名不见经传的角斗士。\n为了有朝一日能成为角斗场的王者，四处奔走收集宝箱。\n从宝箱中获取传奇装备，并在角斗场中证明自己的实力！\n而这一切只需要轻轻动动"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 98,
+          "name": "楼下的早餐店：美食烹饪游戏",
+          "publisher": "YiYo Studios Co., Ltd",
+          "category": "游戏",
+          "app_id": "1512355786",
+          "url": "https://apps.apple.com/cn/app/%E6%A5%BC%E4%B8%8B%E7%9A%84%E6%97%A9%E9%A4%90%E5%BA%97-%E7%BE%8E%E9%A3%9F%E7%83%B9%E9%A5%AA%E6%B8%B8%E6%88%8F/id1512355786?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/b6/b0/7fb6b0d3-bffb-747d-b5e3-bdb939752d95/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "烹饪游戏融合剧情是怎样的全新体验呢？\n\n《楼下的早餐店》是款有温度的餐厅经营烹饪游戏，如深夜食堂那样，一边为客人烹饪美食，一边同他们分享遭遇，故事由此慢慢展开."
+        },
+        {
+          "rank": 99,
+          "name": "恋与深空",
+          "publisher": "Paper Games",
+          "category": "游戏",
+          "app_id": "1618911882",
+          "url": "https://apps.apple.com/cn/app/%E6%81%8B%E4%B8%8E%E6%B7%B1%E7%A9%BA/id1618911882?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/f1/c8/e7f1c836-d257-3244-2f65-b7b3702831a4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《恋与深空》延续《恋与》系列世界观，是一款近未来幻想的高沉浸3D恋爱游戏。通过超沉浸的第一人称视角演出、丰富恋爱互动、多感官玩法设置提供高拟真恋爱体验， 让爱触"
+        },
+        {
+          "rank": 100,
+          "name": "猛鬼宿舍",
+          "publisher": "Beijing Mihuan Games Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "1609347000",
+          "url": "https://apps.apple.com/cn/app/%E7%8C%9B%E9%AC%BC%E5%AE%BF%E8%88%8D/id1609347000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/b6/cc/d2b6cc90-ab64-1605-8bb3-2d84064029e9/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+          "slogan": "《猛鬼宿舍》是一款2D塔防小游戏。游戏中玩家需躲避猎梦者的追捕，寻找适合自己的宿舍躲避，并发展经济建造炮台，抵御猎梦者。游戏中玩家只可以在房间中的空地板上进行建"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 5,
+          "name": "跃动小子",
+          "publisher": "BAI XIANG NETWORK TECHNOLOGY (SHANGHAI) CO., LTD",
+          "category": "游戏",
+          "app_id": "6444717468",
+          "url": "https://apps.apple.com/cn/app/%E8%B7%83%E5%8A%A8%E5%B0%8F%E5%AD%90/id6444717468?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/73/48/1f734835-f276-13d0-8074-a47abd4758d7/AppIcon_yd-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "你，只是一个名不见经传的角斗士。\n为了有朝一日能成为角斗场的王者，四处奔走收集宝箱。\n从宝箱中获取传奇装备，并在角斗场中证明自己的实力！\n而这一切只需要轻轻动动"
+        },
+        {
+          "rank": 34,
+          "name": "接小人上车-逃出孤岛",
+          "publisher": "天嘉 赵",
+          "category": "游戏",
+          "app_id": "6795026537",
+          "url": "https://apps.apple.com/cn/app/%E6%8E%A5%E5%B0%8F%E4%BA%BA%E4%B8%8A%E8%BD%A6-%E9%80%83%E5%87%BA%E5%AD%A4%E5%B2%9B/id6795026537?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/fd/25/e1fd2509-999a-dabc-ac5a-459f50f322d5/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "孤岛危机蔓延，无数受困者亟待营救，联盟正式征召你成为救援水手，奔赴孤岛开启救援行动。\n救援规则须知：依据难民衣着色彩划分转运组别，精准分流是救援关键。身穿黄色衣"
+        },
+        {
+          "rank": 41,
+          "name": "毛线整理：织造大师",
+          "publisher": "秀森 王",
+          "category": "游戏",
+          "app_id": "6792979995",
+          "url": "https://apps.apple.com/cn/app/%E6%AF%9B%E7%BA%BF%E6%95%B4%E7%90%86-%E7%BB%87%E9%80%A0%E5%A4%A7%E5%B8%88/id6792979995?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/4d/b5/9d4db527-6ae9-68d8-f299-e0a9aa8cfff5/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "以柔软毛线为核心载体，打造两套独创沉浸式整理玩法\n\n错落分段针织管线四散排布，轻触旋转每一段绒管，弯折、衔接、贯通零散线路，将纷乱线头拼接成完整流畅的绒丝通道。"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 3,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "跃动小子",
+          "publisher": "BAI XIANG NETWORK TECHNOLOGY (SHANGHAI) CO., LTD",
+          "category": "游戏",
+          "app_id": "6444717468",
+          "url": "https://apps.apple.com/cn/app/%E8%B7%83%E5%8A%A8%E5%B0%8F%E5%AD%90/id6444717468?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/73/48/1f734835-f276-13d0-8074-a47abd4758d7/AppIcon_yd-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "你，只是一个名不见经传的角斗士。\n为了有朝一日能成为角斗场的王者，四处奔走收集宝箱。\n从宝箱中获取传奇装备，并在角斗场中证明自己的实力！\n而这一切只需要轻轻动动"
+        },
+        {
+          "rank": 34,
+          "name": "接小人上车-逃出孤岛",
+          "publisher": "天嘉 赵",
+          "category": "游戏",
+          "app_id": "6795026537",
+          "url": "https://apps.apple.com/cn/app/%E6%8E%A5%E5%B0%8F%E4%BA%BA%E4%B8%8A%E8%BD%A6-%E9%80%83%E5%87%BA%E5%AD%A4%E5%B2%9B/id6795026537?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/fd/25/e1fd2509-999a-dabc-ac5a-459f50f322d5/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "孤岛危机蔓延，无数受困者亟待营救，联盟正式征召你成为救援水手，奔赴孤岛开启救援行动。\n救援规则须知：依据难民衣着色彩划分转运组别，精准分流是救援关键。身穿黄色衣"
+        },
+        {
+          "rank": 41,
+          "name": "毛线整理：织造大师",
+          "publisher": "秀森 王",
+          "category": "游戏",
+          "app_id": "6792979995",
+          "url": "https://apps.apple.com/cn/app/%E6%AF%9B%E7%BA%BF%E6%95%B4%E7%90%86-%E7%BB%87%E9%80%A0%E5%A4%A7%E5%B8%88/id6792979995?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/4d/b5/9d4db527-6ae9-68d8-f299-e0a9aa8cfff5/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "以柔软毛线为核心载体，打造两套独创沉浸式整理玩法\n\n错落分段针织管线四散排布，轻触旋转每一段绒管，弯折、衔接、贯通零散线路，将纷乱线头拼接成完整流畅的绒丝通道。"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 40,
+          "name": "ぷよぷよ‼クエスト(ぷよクエ)_簡単爽快パズルRPGゲーム",
+          "publisher": "SEGA CORPORATION",
+          "category": "ゲーム",
+          "app_id": "595291824",
+          "url": "https://apps.apple.com/jp/app/%E3%81%B7%E3%82%88%E3%81%B7%E3%82%88-%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88-%E3%81%B7%E3%82%88%E3%82%AF%E3%82%A8-%E7%B0%A1%E5%8D%98%E7%88%BD%E5%BF%AB%E3%83%91%E3%82%BA%E3%83%ABrpg%E3%82%B2%E3%83%BC%E3%83%A0/id595291824?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/cb/76/c1cb7665-cb59-b0ff-7392-b44dbee05b7e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『ぷよぷよ!!クエスト』は、なぞって消す かんたん操作で大連鎖が楽しい「パズルRPG」！ クエストに挑戦したり、友達とギルドを組んで最強の魔導師を目指そう！\r\n"
+        },
+        {
+          "rank": 99,
+          "name": "Tangled Rope: Solve Puzzles!",
+          "publisher": "JoyGame Studio Limited",
+          "category": "ゲーム",
+          "app_id": "6599838025",
+          "url": "https://apps.apple.com/jp/app/tangled-rope-solve-puzzles/id6599838025?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/42/fa/4842fa68-c08d-543a-beba-0e2a61385351/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Tangled Ropeで究極のパズル体験を解きほぐそう！ますます複雑になる結び目を解くことで、あなたの論理と忍耐を試す準備をしましょう。各レベルは、あなたが思"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 67,
+          "name": "Tetris® - テトリス (公式ゲーム)",
+          "publisher": "PlayStudios",
+          "category": "ゲーム",
+          "app_id": "1491074310",
+          "url": "https://apps.apple.com/jp/app/tetris-%E3%83%86%E3%83%88%E3%83%AA%E3%82%B9-%E5%85%AC%E5%BC%8F%E3%82%B2%E3%83%BC%E3%83%A0/id1491074310?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/15/3b/56153b62-67f1-f28a-c5d3-0f289c8a6bc6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "積む。消す。繰り返す。TETRIS®、世界で最も象徴的なパズルゲームが、ついにモバイルに登場し、あなたのポケットに戻ってきました。サクッと一勝負、ハイスコアを目"
+        },
+        {
+          "rank": 77,
+          "name": "グッズソーティング3D：マッチゲーム",
+          "publisher": "Guru Smart Holding Limited",
+          "category": "ゲーム",
+          "app_id": "6499306806",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%83%E3%82%BA%E3%82%BD%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B03d-%E3%83%9E%E3%83%83%E3%83%81%E3%82%B2%E3%83%BC%E3%83%A0/id6499306806?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/eb/ca/c5ebcafe-8d58-2b7a-eaa8-98d6aa9d11b1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "グッズソーティング3D：マッチゲームで、これまでにないエキサイティングなマッチングアドベンチャーに備えよう！複数のグッズをソートし、棚を整理し、レジャータイムを"
+        },
+        {
+          "rank": 86,
+          "name": "Delta Force: 2nd Anniversary",
+          "publisher": "Level Infinite",
+          "category": "ゲーム",
+          "app_id": "6451399876",
+          "url": "https://apps.apple.com/jp/app/delta-force-2nd-anniversary/id6451399876?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/5d/a0/585da0e7-9e9c-a7b5-8b5f-cfe69fca3188/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "『Delta Force』周年シーズン「リオリエンテーション」開幕！\n\n周年シーズン「リオリエンテーション」が開幕――\nおかえりなさい、オペレーターの皆さん。\n"
+        },
+        {
+          "rank": 95,
+          "name": "LINE：ディズニー ツムツム",
+          "publisher": "LINE Corporation",
+          "category": "ゲーム",
+          "app_id": "724594093",
+          "url": "https://apps.apple.com/jp/app/line-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%83%84%E3%83%A0%E3%83%84%E3%83%A0/id724594093?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/fd/70/45fd701b-1bc7-f8f3-3841-0e17af1e42b2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.jpeg/100x100bb.png",
+          "slogan": "ディズニーストアで大人気のぬいぐるみTSUM TSUM(ツムツム)を集めてつなげる簡単パズルゲームがLINEに登場！\nミッキーマウスや､ドナルドダック､くまのプ"
+        },
+        {
+          "rank": 96,
+          "name": "Travel Town - マージアドベンチャー",
+          "publisher": "Moon Active",
+          "category": "ゲーム",
+          "app_id": "1521236603",
+          "url": "https://apps.apple.com/jp/app/travel-town-%E3%83%9E%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC/id1521236603?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/30/43/4b30439f-771a-f3d5-2775-24c44576a13e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "マージゲームの傑作、トラベルタウンがついに日本上陸！\n\n嵐で破壊されてしまった街に美しさを取り戻そう！\n\n面白いイベントやカードも盛りだくさん！\n\n◆はじめに　"
+        },
+        {
+          "rank": 97,
+          "name": "ペタペタペンギン団",
+          "publisher": "MOREFUN (H.K.) LIMITED",
+          "category": "ゲーム",
+          "app_id": "6742937695",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9A%E3%82%BF%E3%83%9A%E3%82%BF%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3%E5%9B%A3/id6742937695?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/fa/57/61fa5759-f2c1-0003-d642-1b4ee404af89/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【無料で３０００連ガチャ、豪華特典ゲット！】\nペタペタペンギン団、予約数100万突破！今DLして無料で3000連ガチャを引ける！さらに地域限定スキン・「剣魂」（"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 99,
+          "name": "Tangled Rope: Solve Puzzles!",
+          "publisher": "JoyGame Studio Limited",
+          "category": "ゲーム",
+          "app_id": "6599838025",
+          "url": "https://apps.apple.com/jp/app/tangled-rope-solve-puzzles/id6599838025?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/42/fa/4842fa68-c08d-543a-beba-0e2a61385351/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Tangled Ropeで究極のパズル体験を解きほぐそう！ますます複雑になる結び目を解くことで、あなたの論理と忍耐を試す準備をしましょう。各レベルは、あなたが思"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 6,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 40,
+          "name": "ぷよぷよ‼クエスト(ぷよクエ)_簡単爽快パズルRPGゲーム",
+          "publisher": "SEGA CORPORATION",
+          "category": "ゲーム",
+          "app_id": "595291824",
+          "url": "https://apps.apple.com/jp/app/%E3%81%B7%E3%82%88%E3%81%B7%E3%82%88-%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88-%E3%81%B7%E3%82%88%E3%82%AF%E3%82%A8-%E7%B0%A1%E5%8D%98%E7%88%BD%E5%BF%AB%E3%83%91%E3%82%BA%E3%83%ABrpg%E3%82%B2%E3%83%BC%E3%83%A0/id595291824?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/cb/76/c1cb7665-cb59-b0ff-7392-b44dbee05b7e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『ぷよぷよ!!クエスト』は、なぞって消す かんたん操作で大連鎖が楽しい「パズルRPG」！ クエストに挑戦したり、友達とギルドを組んで最強の魔導師を目指そう！\r\n"
+        },
+        {
+          "rank": 99,
+          "name": "Tangled Rope: Solve Puzzles!",
+          "publisher": "JoyGame Studio Limited",
+          "category": "ゲーム",
+          "app_id": "6599838025",
+          "url": "https://apps.apple.com/jp/app/tangled-rope-solve-puzzles/id6599838025?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/42/fa/4842fa68-c08d-543a-beba-0e2a61385351/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Tangled Ropeで究極のパズル体験を解きほぐそう！ますます複雑になる結び目を解くことで、あなたの論理と忍耐を試す準備をしましょう。各レベルは、あなたが思"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
