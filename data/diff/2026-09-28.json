@@ -1,0 +1,750 @@
+{
+  "date": "2026-09-28",
+  "boards": {
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "绿梦：时空之声",
+          "publisher": "绿梦工作室",
+          "category": "二次元",
+          "subcategory": "冒险、3D、策略、美少女、横版、科幻、角色扮演、动作"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 87,
+          "name": "Hotel Legacy: Merge Game",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "Games",
+          "app_id": "6752886832",
+          "url": "https://apps.apple.com/us/app/hotel-legacy-merge-game/id6752886832?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/88/79/4f887970-9a2b-73c3-fff9-01ccf18e228b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Merge & Renovate at Hotel Legacy!\n\nAlyssa suddenly inherited a mysterious legacy"
+        },
+        {
+          "rank": 89,
+          "name": "Dice Dreams™",
+          "publisher": "SuperPlay",
+          "category": "Games",
+          "app_id": "1484468651",
+          "url": "https://apps.apple.com/us/app/dice-dreams/id1484468651?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/71/03/f171036e-5a26-9eb3-2d93-e9154db3e9b6/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Dice Dreams!\n\nATTACK, STEAL AND GET REVENGE!\nAttack your friends, ste"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 82,
+          "name": "Rap Star:Idle Clicker",
+          "publisher": "聪 马",
+          "category": "Games",
+          "app_id": "6761469046",
+          "url": "https://apps.apple.com/us/app/rap-star-idle-clicker/id6761469046?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/3c/74/533c741b-d78d-9221-28de-230b0aa89f1a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "From streets to stardom — tap, rap, earn, date, collect. Rap Star: Idle Clicker "
+        },
+        {
+          "rank": 84,
+          "name": "Charades Guess Game · Guessly",
+          "publisher": "smak apps",
+          "category": "Games",
+          "app_id": "6473058122",
+          "url": "https://apps.apple.com/us/app/charades-guess-game-guessly/id6473058122?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/52/df/73/52df7353-dd07-9ccb-7c00-bde3c2bd1420/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.jpeg/100x100bb.png",
+          "slogan": "Ready to turn ordinary hangouts into unforgettable moments? Meet Guessly — a cha"
+        },
+        {
+          "rank": 90,
+          "name": "Loop Sort",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "6751101794",
+          "url": "https://apps.apple.com/us/app/loop-sort/id6751101794?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/ea/96/83ea96eb-55cd-e2e0-0b86-ff08286c2bbd/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Get ready for a fun and addictive truck puzzle challenge!\nTap once to send the c"
+        },
+        {
+          "rank": 93,
+          "name": "Top Lords",
+          "publisher": "GAME SPARK PTE. LTD.",
+          "category": "Games",
+          "app_id": "6767834940",
+          "url": "https://apps.apple.com/us/app/top-lords/id6767834940?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/29/0a/10290a6d-2cc2-7e76-ec58-fe6ec7318e76/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Rise to the Throne with just a Few Taps!\nDownload for Free and Jump Right in!\n\nT"
+        },
+        {
+          "rank": 94,
+          "name": "Grand Fortune Club",
+          "publisher": "EverPrime Futures Inc.",
+          "category": "Games",
+          "app_id": "6762178742",
+          "url": "https://apps.apple.com/us/app/grand-fortune-club/id6762178742?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/d8/41/bed841e5-f2cd-ee42-d776-f9612bda9a5a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Grand Fortune Club brings a colorful casino-style world full of bright visuals, "
+        },
+        {
+          "rank": 98,
+          "name": "Cookingo: Perfect Meal",
+          "publisher": "Higame Global Limited",
+          "category": "Games",
+          "app_id": "6756288168",
+          "url": "https://apps.apple.com/us/app/cookingo-perfect-meal/id6756288168?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/c1/2a/14c12a84-a079-04c3-4e3a-05c65aafa60a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to Cookingo, your peaceful little escape from the hustle and bustle of e"
+        },
+        {
+          "rank": 100,
+          "name": "Dark War:Survival",
+          "publisher": "Omnilojo Pte Ltd",
+          "category": "Games",
+          "app_id": "6670441558",
+          "url": "https://apps.apple.com/us/app/dark-war-survival/id6670441558?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/8c/dd/4f8cdd1b-058a-951f-5643-e621f1333847/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Gear up and brace yourself for the ultimate test of zombie apocalypse survival! "
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 7,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 87,
+          "name": "Hotel Legacy: Merge Game",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "Games",
+          "app_id": "6752886832",
+          "url": "https://apps.apple.com/us/app/hotel-legacy-merge-game/id6752886832?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/88/79/4f887970-9a2b-73c3-fff9-01ccf18e228b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Merge & Renovate at Hotel Legacy!\n\nAlyssa suddenly inherited a mysterious legacy"
+        },
+        {
+          "rank": 89,
+          "name": "Dice Dreams™",
+          "publisher": "SuperPlay",
+          "category": "Games",
+          "app_id": "1484468651",
+          "url": "https://apps.apple.com/us/app/dice-dreams/id1484468651?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/71/03/f171036e-5a26-9eb3-2d93-e9154db3e9b6/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Dice Dreams!\n\nATTACK, STEAL AND GET REVENGE!\nAttack your friends, ste"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 59,
+          "name": "螺丝多多-螺丝真好玩",
+          "publisher": "天宇 张",
+          "category": "游戏",
+          "app_id": "6760753927",
+          "url": "https://apps.apple.com/cn/app/%E8%9E%BA%E4%B8%9D%E5%A4%9A%E5%A4%9A-%E8%9E%BA%E4%B8%9D%E7%9C%9F%E5%A5%BD%E7%8E%A9/id6760753927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/a7/f4/aaa7f4b3-1778-e410-25f4-4f8e8773ebc5/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "一款将螺丝元素与创新玩法完美融合的高级解谜游戏合集。我们精心设计了三种截然不同的游戏模式，每一种都以螺丝为核心，带来独一无二的沉浸式体验。无论你是喜欢策略思考、"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 81,
+          "name": "滑雪大冒险 - 空翻才是灵魂",
+          "publisher": "Yodo1, LTD",
+          "category": "游戏",
+          "app_id": "564672254",
+          "url": "https://apps.apple.com/cn/app/%E6%BB%91%E9%9B%AA%E5%A4%A7%E5%86%92%E9%99%A9-%E7%A9%BA%E7%BF%BB%E6%89%8D%E6%98%AF%E7%81%B5%E9%AD%82/id564672254?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/e5/26/a6e52616-10c6-f3cc-5b6a-20c5ab19d9b3/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "*正版官方授权免费版本*\n\n雪崩来啦！快点跑呀！\n还在做美梦的小摔哥在雪崩中惊醒，展开滑雪大逃亡。换上酷炫技能套装、骑上战车，加速躲避障碍，勇往直前！一路上，唐"
+        },
+        {
+          "rank": 90,
+          "name": "肥鹅美食街",
+          "publisher": "北京豪腾创想科技有限公司",
+          "category": "游戏",
+          "app_id": "6758614459",
+          "url": "https://apps.apple.com/cn/app/%E8%82%A5%E9%B9%85%E7%BE%8E%E9%A3%9F%E8%A1%97/id6758614459?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/25/37/40253759-ee68-2ab4-afe6-a3eeca8dc842/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "解谜合成，合成高级食材，提高烹饪技巧，探索缤纷菜谱；\n经营小店，邂逅各种Q萌可爱的肥鹅客人，聆听它们的故事；\n治愈画风，沉浸式烹饪体验，鹅来鹅往，打造热闹的市井"
+        },
+        {
+          "rank": 97,
+          "name": "天天台球-AR桌球斯诺克",
+          "publisher": "北京鲜趣互娱科技有限公司",
+          "category": "游戏",
+          "app_id": "1589930623",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E5%8F%B0%E7%90%83-ar%E6%A1%8C%E7%90%83%E6%96%AF%E8%AF%BA%E5%85%8B/id1589930623?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/09/75/8509759f-bd9d-ed17-c685-4af01a129e10/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【设计手记】台球爱好者团队精心设计打磨的桌球游戏，我们希望给喜爱台球的爱好者一个发挥的平台！\n【游戏特色】\n《天天台球》是一款拥有优秀击打体验台球竞技手游！1V"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 59,
+          "name": "螺丝多多-螺丝真好玩",
+          "publisher": "天宇 张",
+          "category": "游戏",
+          "app_id": "6760753927",
+          "url": "https://apps.apple.com/cn/app/%E8%9E%BA%E4%B8%9D%E5%A4%9A%E5%A4%9A-%E8%9E%BA%E4%B8%9D%E7%9C%9F%E5%A5%BD%E7%8E%A9/id6760753927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/a7/f4/aaa7f4b3-1778-e410-25f4-4f8e8773ebc5/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "一款将螺丝元素与创新玩法完美融合的高级解谜游戏合集。我们精心设计了三种截然不同的游戏模式，每一种都以螺丝为核心，带来独一无二的沉浸式体验。无论你是喜欢策略思考、"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 59,
+          "name": "螺丝多多-螺丝真好玩",
+          "publisher": "天宇 张",
+          "category": "游戏",
+          "app_id": "6760753927",
+          "url": "https://apps.apple.com/cn/app/%E8%9E%BA%E4%B8%9D%E5%A4%9A%E5%A4%9A-%E8%9E%BA%E4%B8%9D%E7%9C%9F%E5%A5%BD%E7%8E%A9/id6760753927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/a7/f4/aaa7f4b3-1778-e410-25f4-4f8e8773ebc5/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "一款将螺丝元素与创新玩法完美融合的高级解谜游戏合集。我们精心设计了三种截然不同的游戏模式，每一种都以螺丝为核心，带来独一无二的沉浸式体验。无论你是喜欢策略思考、"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 27,
+          "name": "大学偏差値バトル！",
+          "publisher": "SHUHEI SASAKI",
+          "category": "ゲーム",
+          "app_id": "6761196039",
+          "url": "https://apps.apple.com/jp/app/%E5%A4%A7%E5%AD%A6%E5%81%8F%E5%B7%AE%E5%80%A4%E3%83%90%E3%83%88%E3%83%AB/id6761196039?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/52/e0/f252e0cc-1b94-6c46-2ea5-eceb1ba48cf0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "■ 大学偏差値バトル！とは\n\n2つの大学を比べて「どちらの偏差値が高いか？」を当てるシンプルで奥深いクイズゲームです。\n\n東京大学・京都大学・早稲田大学・慶應義"
+        },
+        {
+          "rank": 58,
+          "name": "ほりほりドリル:コツコツ採掘・作業ゲーム",
+          "publisher": "Toki Matsui",
+          "category": "ゲーム",
+          "app_id": "1661085984",
+          "url": "https://apps.apple.com/jp/app/%E3%81%BB%E3%82%8A%E3%81%BB%E3%82%8A%E3%83%89%E3%83%AA%E3%83%AB-%E3%82%B3%E3%83%84%E3%82%B3%E3%83%84%E6%8E%A1%E6%8E%98-%E4%BD%9C%E6%A5%AD%E3%82%B2%E3%83%BC%E3%83%A0/id1661085984?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/28/3c/0e283c42-5ee1-9a25-827b-239ac7bba120/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "掘って、掘って、掘りまくる\n超作業的、採掘ゲーム\n集めた素材を使ってドリルを強化しながら、999層目指して掘り進もう!\n\n◆こんな人におすすめ◆\n\n・コツコツ遊"
+        },
+        {
+          "rank": 98,
+          "name": "Colorever",
+          "publisher": "Oakever Games",
+          "category": "ゲーム",
+          "app_id": "6761757565",
+          "url": "https://apps.apple.com/jp/app/colorever/id6761757565?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b3/d7/17/b3d7172c-50e2-a616-c2e1-7e4158c06325/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "パズル、色分け、そしてアートが融合した、心やすらぐ世界へようこそ。きらめく宝石を色や形ごとに仕分け、スペースをうまく使いながら、美しいピクセルアート（ドット絵）"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 100,
+          "name": "Brain Puzzle 2: Logic Twist",
+          "publisher": "SmallStep Dev Team",
+          "category": "ゲーム",
+          "app_id": "6747063674",
+          "url": "https://apps.apple.com/jp/app/brain-puzzle-2-logic-twist/id6747063674?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/47/c4/3e47c40d-ac93-a88f-6f9e-90dc94aec2a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "今回は、前作のユーモラスなストーリーテリングと脳を揺さぶるデザインを継承し、さらに豊かで驚きに満ちたパズル体験をお届けします。\n\nこのまったく新しい続編では、風"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 80,
+          "name": "Cookingo: Perfect Meal",
+          "publisher": "Higame Global Limited",
+          "category": "ゲーム",
+          "app_id": "6756288168",
+          "url": "https://apps.apple.com/jp/app/cookingo-perfect-meal/id6756288168?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/c1/2a/14c12a84-a079-04c3-4e3a-05c65aafa60a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to Cookingo, your peaceful little escape from the hustle and bustle of e"
+        },
+        {
+          "rank": 82,
+          "name": "モンスターストライク",
+          "publisher": "XFLAG, Inc.",
+          "category": "ゲーム",
+          "app_id": "658511662",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF/id658511662?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/00/0c/31000cbd-5ade-592b-8226-0c8c4af0188e/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/100x100bb.png",
+          "slogan": "◆祝・国内利用者5000万人突破！／テレビCM絶賛放映中！◆\n\n最大4人同時に楽しめる「ひっぱりハンティングRPG！」\nモンスターマスターになって様々な能力を持"
+        },
+        {
+          "rank": 83,
+          "name": "ねこ旅",
+          "publisher": "Onyx Hook LLC",
+          "category": "ゲーム",
+          "app_id": "6748996000",
+          "url": "https://apps.apple.com/jp/app/%E3%81%AD%E3%81%93%E6%97%85/id6748996000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/a4/08/38a40823-174a-ab4b-e617-8b84fc4e3b7e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "猫を旅に出して、のんびり帰りを待つ。\n癒しとちょっとしたワクワクを楽しめる、放置型アプリです。\n\n【遊び方】\n・猫を旅に出そう！\n　持たせるアイテムによって行き"
+        },
+        {
+          "rank": 90,
+          "name": "X-Clash: サバイバル",
+          "publisher": "9z Games(HK)",
+          "category": "ゲーム",
+          "app_id": "6749109552",
+          "url": "https://apps.apple.com/jp/app/x-clash-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id6749109552?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/b9/d1/3eb9d1d2-7103-8a83-d37d-f45d4c9b1f1f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "邪悪なる虚無が大陸を引き裂き、アンデッドの疫病が文明の最後の残滓を貪り尽くす！この二重の終末において、真に相応しき者のみが王国を再建できるのだ！\r\n\r\nこの大災"
+        },
+        {
+          "rank": 96,
+          "name": "Arrow Pro 3D",
+          "publisher": "Lumen Studio",
+          "category": "ゲーム",
+          "app_id": "6762267809",
+          "url": "https://apps.apple.com/jp/app/arrow-pro-3d/id6762267809?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a5/2d/c2/a52dc22a-4c36-4f81-84a8-261b696bd84d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Arrow Pro 3Dへようこそ。観察力 - タイミング - 計画性が融合した、癒し系3Dパズルゲームです。\nキューブをくるくる回しながら矢印を解放し、面をす"
+        },
+        {
+          "rank": 99,
+          "name": "ねじねじパズル",
+          "publisher": "Chengdu Warrior Tech Limited",
+          "category": "ゲーム",
+          "app_id": "6737022506",
+          "url": "https://apps.apple.com/jp/app/%E3%81%AD%E3%81%98%E3%81%AD%E3%81%98%E3%83%91%E3%82%BA%E3%83%AB/id6737022506?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/3f/9f/2a3f9f88-e468-c5b6-5d5a-6aade1025b99/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "ネジをひねって、プレッシャーから解放！巧みに配置されたネジをすべて外し、パネルを完全に空にするパズルゲームです。遊び方はシンプルですが、頭を使う奥深いチャレンジ"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 27,
+          "name": "大学偏差値バトル！",
+          "publisher": "SHUHEI SASAKI",
+          "category": "ゲーム",
+          "app_id": "6761196039",
+          "url": "https://apps.apple.com/jp/app/%E5%A4%A7%E5%AD%A6%E5%81%8F%E5%B7%AE%E5%80%A4%E3%83%90%E3%83%88%E3%83%AB/id6761196039?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/52/e0/f252e0cc-1b94-6c46-2ea5-eceb1ba48cf0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "■ 大学偏差値バトル！とは\n\n2つの大学を比べて「どちらの偏差値が高いか？」を当てるシンプルで奥深いクイズゲームです。\n\n東京大学・京都大学・早稲田大学・慶應義"
+        },
+        {
+          "rank": 58,
+          "name": "ほりほりドリル:コツコツ採掘・作業ゲーム",
+          "publisher": "Toki Matsui",
+          "category": "ゲーム",
+          "app_id": "1661085984",
+          "url": "https://apps.apple.com/jp/app/%E3%81%BB%E3%82%8A%E3%81%BB%E3%82%8A%E3%83%89%E3%83%AA%E3%83%AB-%E3%82%B3%E3%83%84%E3%82%B3%E3%83%84%E6%8E%A1%E6%8E%98-%E4%BD%9C%E6%A5%AD%E3%82%B2%E3%83%BC%E3%83%A0/id1661085984?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/28/3c/0e283c42-5ee1-9a25-827b-239ac7bba120/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "掘って、掘って、掘りまくる\n超作業的、採掘ゲーム\n集めた素材を使ってドリルを強化しながら、999層目指して掘り進もう!\n\n◆こんな人におすすめ◆\n\n・コツコツ遊"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 6,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 27,
+          "name": "大学偏差値バトル！",
+          "publisher": "SHUHEI SASAKI",
+          "category": "ゲーム",
+          "app_id": "6761196039",
+          "url": "https://apps.apple.com/jp/app/%E5%A4%A7%E5%AD%A6%E5%81%8F%E5%B7%AE%E5%80%A4%E3%83%90%E3%83%88%E3%83%AB/id6761196039?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/52/e0/f252e0cc-1b94-6c46-2ea5-eceb1ba48cf0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "■ 大学偏差値バトル！とは\n\n2つの大学を比べて「どちらの偏差値が高いか？」を当てるシンプルで奥深いクイズゲームです。\n\n東京大学・京都大学・早稲田大学・慶應義"
+        },
+        {
+          "rank": 58,
+          "name": "ほりほりドリル:コツコツ採掘・作業ゲーム",
+          "publisher": "Toki Matsui",
+          "category": "ゲーム",
+          "app_id": "1661085984",
+          "url": "https://apps.apple.com/jp/app/%E3%81%BB%E3%82%8A%E3%81%BB%E3%82%8A%E3%83%89%E3%83%AA%E3%83%AB-%E3%82%B3%E3%83%84%E3%82%B3%E3%83%84%E6%8E%A1%E6%8E%98-%E4%BD%9C%E6%A5%AD%E3%82%B2%E3%83%BC%E3%83%A0/id1661085984?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/28/3c/0e283c42-5ee1-9a25-827b-239ac7bba120/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "掘って、掘って、掘りまくる\n超作業的、採掘ゲーム\n集めた素材を使ってドリルを強化しながら、999層目指して掘り進もう!\n\n◆こんな人におすすめ◆\n\n・コツコツ遊"
+        },
+        {
+          "rank": 98,
+          "name": "Colorever",
+          "publisher": "Oakever Games",
+          "category": "ゲーム",
+          "app_id": "6761757565",
+          "url": "https://apps.apple.com/jp/app/colorever/id6761757565?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b3/d7/17/b3d7172c-50e2-a616-c2e1-7e4158c06325/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "パズル、色分け、そしてアートが融合した、心やすらぐ世界へようこそ。きらめく宝石を色や形ごとに仕分け、スペースをうまく使いながら、美しいピクセルアート（ドット絵）"
+        },
+        {
+          "rank": 100,
+          "name": "Brain Puzzle 2: Logic Twist",
+          "publisher": "SmallStep Dev Team",
+          "category": "ゲーム",
+          "app_id": "6747063674",
+          "url": "https://apps.apple.com/jp/app/brain-puzzle-2-logic-twist/id6747063674?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/47/c4/3e47c40d-ac93-a88f-6f9e-90dc94aec2a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "今回は、前作のユーモラスなストーリーテリングと脳を揺さぶるデザインを継承し、さらに豊かで驚きに満ちたパズル体験をお届けします。\n\nこのまったく新しい続編では、風"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 35,
+          "name": "Minion Rush: Running Game",
+          "publisher": "Gameloft SE",
+          "category": "Games",
+          "package": "com.gameloft.android.ANMP.GloftDMHM"
+        },
+        {
+          "rank": 81,
+          "name": "2 Player games : the Challenge",
+          "publisher": "JindoBlu",
+          "category": "Games",
+          "package": "com.JindoBlu.TwoPlayerGamesChallenge"
+        },
+        {
+          "rank": 82,
+          "name": "Crossword Master - Word Puzzle",
+          "publisher": "Easybrain",
+          "category": "Games",
+          "package": "com.easybrain.crossword.puzzles"
+        },
+        {
+          "rank": 85,
+          "name": "Farkle Dice Roll",
+          "publisher": "FunCraft Games",
+          "category": "Games",
+          "package": "com.funcraft.farkle"
+        },
+        {
+          "rank": 86,
+          "name": "Jigsaw Puzzles - Puzzle Games",
+          "publisher": "Easybrain",
+          "category": "Games",
+          "package": "com.easybrain.jigsaw.puzzles"
+        },
+        {
+          "rank": 89,
+          "name": "Spades - Classic Cards",
+          "publisher": "Tripledot Studios Limited",
+          "category": "Games",
+          "package": "com.tripledot.spades"
+        },
+        {
+          "rank": 94,
+          "name": "PBS KIDS Games",
+          "publisher": "PBS KIDS",
+          "category": "Games",
+          "package": "org.pbskids.gamesapp"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 6,
+          "name": "Castlevania: 40th Anniversary",
+          "publisher": "KONAMI",
+          "category": "Games",
+          "package": "jp.konami.epjCastlevania1"
+        },
+        {
+          "rank": 20,
+          "name": "Rotate Rings",
+          "publisher": "Nebula  Studio",
+          "category": "Games",
+          "package": "com.nebula.rotaterings"
+        },
+        {
+          "rank": 28,
+          "name": "Delta Force: 2nd Anniversary",
+          "publisher": "Level Infinite",
+          "category": "Games",
+          "package": "com.proxima.dfm"
+        },
+        {
+          "rank": 33,
+          "name": "EA SPORTS FC Soccer Mobile 27",
+          "publisher": "ELECTRONIC ARTS",
+          "category": "Games",
+          "package": "com.ea.gp.fifamobile"
+        },
+        {
+          "rank": 45,
+          "name": "Warhammer 40,000: Boltgun Boom",
+          "publisher": "Nitro Games Oyj",
+          "category": "Games",
+          "package": "com.nitrogames.boltgunboom"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 44,
+          "name": "Police Chief",
+          "publisher": "VoyagerOne IE",
+          "category": "Games",
+          "package": "com.slg.policewar"
+        },
+        {
+          "rank": 48,
+          "name": "Free Fire x NARUTO SHIPPUDEN",
+          "publisher": "GARENA INTERNATIONAL I",
+          "category": "Games",
+          "package": "com.dts.freefireth"
+        },
+        {
+          "rank": 56,
+          "name": "Double Tile!",
+          "publisher": "HungryStudio",
+          "category": "Games",
+          "package": "com.hungrystudio.mahjong"
+        },
+        {
+          "rank": 57,
+          "name": "Offline Games: No WiFi - FunOn",
+          "publisher": "Fun Offline Games",
+          "category": "Games",
+          "package": "com.media720.games2020"
+        },
+        {
+          "rank": 59,
+          "name": "Pokémon TCG Pocket",
+          "publisher": "The Pokémon Company",
+          "category": "Games",
+          "package": "jp.pokemon.pokemontcgp"
+        },
+        {
+          "rank": 60,
+          "name": "Kingshot",
+          "publisher": "Century Games PTE. LTD.",
+          "category": "Games",
+          "package": "com.run.tower.defense"
+        },
+        {
+          "rank": 63,
+          "name": "Avatar World ®",
+          "publisher": "Pazu Games",
+          "category": "Games",
+          "package": "com.pazugames.avatarworld"
+        },
+        {
+          "rank": 66,
+          "name": "Kick the Buddy－Fun Action Game",
+          "publisher": "Playgendary Limited",
+          "category": "Games",
+          "package": "com.playgendary.kickthebuddy"
+        },
+        {
+          "rank": 67,
+          "name": "Kick & Break The Ragdoll Games",
+          "publisher": "Game District LLC",
+          "category": "Games",
+          "package": "com.playflix.kick.breakragdoll.games"
+        },
+        {
+          "rank": 71,
+          "name": "Match Factory!",
+          "publisher": "Peak",
+          "category": "Games",
+          "package": "net.peakgames.match"
+        },
+        {
+          "rank": 74,
+          "name": "Chess - Play and Learn Online",
+          "publisher": "Chess.com",
+          "category": "Games",
+          "package": "com.chess"
+        },
+        {
+          "rank": 79,
+          "name": "Find It Out® - Hidden Object",
+          "publisher": "Guru Puzzle Game",
+          "category": "Games",
+          "package": "find.out.hidden.objects.seek.puzzle.games.free"
+        },
+        {
+          "rank": 80,
+          "name": "Pizza Ready!",
+          "publisher": "Supercent, Inc.",
+          "category": "Games",
+          "package": "io.supercent.pizzaidle"
+        },
+        {
+          "rank": 84,
+          "name": "Yarn Fever! Unravel Puzzle",
+          "publisher": "Brave HK Limited",
+          "category": "Games",
+          "package": "puzzle.yarn.fever.unravel.puzzle"
+        },
+        {
+          "rank": 90,
+          "name": "Toon Blast",
+          "publisher": "Peak",
+          "category": "Games",
+          "package": "net.peakgames.toonblast"
+        },
+        {
+          "rank": 97,
+          "name": "Hollywood Merge",
+          "publisher": "VoyagerOne IE",
+          "category": "Games",
+          "package": "com.hollywood.merge"
+        },
+        {
+          "rank": 98,
+          "name": "Free Fire MAX x NARUTO",
+          "publisher": "GARENA INTERNATIONAL I",
+          "category": "Games",
+          "package": "com.dts.freefiremax"
+        },
+        {
+          "rank": 99,
+          "name": "Level Devil - NOT A Troll Game",
+          "publisher": "WebVentures B.V.",
+          "category": "Games",
+          "package": "com.unept.leveldevil"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 35,
+          "name": "Minion Rush: Running Game",
+          "publisher": "Gameloft SE",
+          "category": "Games",
+          "package": "com.gameloft.android.ANMP.GloftDMHM"
+        },
+        {
+          "rank": 45,
+          "name": "Warhammer 40,000: Boltgun Boom",
+          "publisher": "Nitro Games Oyj",
+          "category": "Games",
+          "package": "com.nitrogames.boltgunboom"
+        },
+        {
+          "rank": 94,
+          "name": "PBS KIDS Games",
+          "publisher": "PBS KIDS",
+          "category": "Games",
+          "package": "org.pbskids.gamesapp"
+        }
+      ],
+      "totals": {
+        "new_to_board": 12,
+        "returning": 18,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "Castlevania: 40th Anniversary",
+          "publisher": "KONAMI",
+          "category": "Games",
+          "package": "jp.konami.epjCastlevania1"
+        },
+        {
+          "rank": 20,
+          "name": "Rotate Rings",
+          "publisher": "Nebula  Studio",
+          "category": "Games",
+          "package": "com.nebula.rotaterings"
+        },
+        {
+          "rank": 28,
+          "name": "Delta Force: 2nd Anniversary",
+          "publisher": "Level Infinite",
+          "category": "Games",
+          "package": "com.proxima.dfm"
+        },
+        {
+          "rank": 33,
+          "name": "EA SPORTS FC Soccer Mobile 27",
+          "publisher": "ELECTRONIC ARTS",
+          "category": "Games",
+          "package": "com.ea.gp.fifamobile"
+        },
+        {
+          "rank": 35,
+          "name": "Minion Rush: Running Game",
+          "publisher": "Gameloft SE",
+          "category": "Games",
+          "package": "com.gameloft.android.ANMP.GloftDMHM"
+        },
+        {
+          "rank": 45,
+          "name": "Warhammer 40,000: Boltgun Boom",
+          "publisher": "Nitro Games Oyj",
+          "category": "Games",
+          "package": "com.nitrogames.boltgunboom"
+        },
+        {
+          "rank": 81,
+          "name": "2 Player games : the Challenge",
+          "publisher": "JindoBlu",
+          "category": "Games",
+          "package": "com.JindoBlu.TwoPlayerGamesChallenge"
+        },
+        {
+          "rank": 82,
+          "name": "Crossword Master - Word Puzzle",
+          "publisher": "Easybrain",
+          "category": "Games",
+          "package": "com.easybrain.crossword.puzzles"
+        },
+        {
+          "rank": 85,
+          "name": "Farkle Dice Roll",
+          "publisher": "FunCraft Games",
+          "category": "Games",
+          "package": "com.funcraft.farkle"
+        },
+        {
+          "rank": 86,
+          "name": "Jigsaw Puzzles - Puzzle Games",
+          "publisher": "Easybrain",
+          "category": "Games",
+          "package": "com.easybrain.jigsaw.puzzles"
+        },
+        {
+          "rank": 89,
+          "name": "Spades - Classic Cards",
+          "publisher": "Tripledot Studios Limited",
+          "category": "Games",
+          "package": "com.tripledot.spades"
+        },
+        {
+          "rank": 94,
+          "name": "PBS KIDS Games",
+          "publisher": "PBS KIDS",
+          "category": "Games",
+          "package": "org.pbskids.gamesapp"
+        }
+      ]
+    }
+  }
+}
