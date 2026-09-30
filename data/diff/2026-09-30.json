@@ -1,0 +1,868 @@
+{
+  "date": "2026-09-30",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "开心消消乐",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "乐元素科技(北京)股份有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 13,
+          "name": "一箭又一箭",
+          "category": "休闲",
+          "category_rank": 12,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "海南掌趣网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 16,
+          "name": "奇幻果园",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "杭州锦泽文化创意有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "梦幻消除战",
+          "category": "休闲",
+          "category_rank": 19,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "广州喜势网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "王者征途",
+          "category": "角色",
+          "category_rank": 2,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "上海巨人统平网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "原始征途",
+          "category": "角色",
+          "category_rank": 4,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "巨人网络集团股份有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "次神：光之觉醒",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "在线途游（北京）科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "挪了下车",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州指望科技有限公司",
+          "change": "2",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "救救我鸭",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "北京起跃文化有限公司",
+          "change": "2",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "砖了个砖",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "好玩又上瘾的消除游戏",
+          "publisher": "北京简游互娱科技有限公司",
+          "change": "4",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "空格之境",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "转生商贾之女，重振江南丝织厂",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "1",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "俱乐大玩家",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "多人同场实时暗标竞价，考验你的眼力与心理博弈。",
+          "publisher": "海南临游科技有限公司",
+          "change": "13",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "遗弃之地",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "鬼怪题材横版策略塔防游戏，通过释放符咒、搭配天书技能获得胜利",
+          "publisher": "北京智诚互娱科技有限公司",
+          "change": "45",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 18,
+          "name": "水果洞洞消",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "水果进洞对对消除。",
+          "publisher": "北京米兜科技有限公司",
+          "change": "30",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 6,
+          "name": "诡偶",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "民俗悬疑解谜，诡异木偶牵旧怨，神秘古镇探往事！",
+          "publisher": "成都探游科技有限公司",
+          "change": "25",
+          "change_direction": "down"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "我的厂长日常",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "体验厂长的经营日常！",
+          "publisher": "厦门很稳网络科技有限公司",
+          "change": "10",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "诡偶",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "民俗悬疑解谜，诡异木偶牵旧怨，神秘古镇探往事！",
+          "publisher": "成都探游科技有限公司",
+          "change": "25",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "水果洞洞消",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "水果进洞对对消除。",
+          "publisher": "北京米兜科技有限公司",
+          "change": "30",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 4,
+          "name": "现代战线",
+          "publisher": "玄鑫工作室",
+          "category": "射击",
+          "subcategory": "FPS、竞技"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 3,
+          "name": "猛兽派对",
+          "publisher": "Recreate Games",
+          "category": "可爱",
+          "subcategory": "搞笑、休闲、派对游戏、魔性、物理、多人联机、角色扮演"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "现代战线",
+          "publisher": "玄鑫工作室",
+          "category": "射击",
+          "subcategory": "FPS、竞技"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 81,
+          "name": "Brain Puzzle 2: Logic Twist",
+          "publisher": "SmallStep Dev Team",
+          "category": "Games",
+          "app_id": "6747063674",
+          "url": "https://apps.apple.com/us/app/brain-puzzle-2-logic-twist/id6747063674?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/47/c4/3e47c40d-ac93-a88f-6f9e-90dc94aec2a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This time, we’re continuing the humorous storytelling and brain-teasing design o"
+        },
+        {
+          "rank": 97,
+          "name": "Jam Bus:Sandfall",
+          "publisher": "Nova Games Technology Limited",
+          "category": "Games",
+          "app_id": "6797530374",
+          "url": "https://apps.apple.com/us/app/jam-bus-sandfall/id6797530374?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c8/16/6c/c8166c99-8454-96ba-3a28-80160000cc83/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Clear colorful sand with buses, plan each route, and avoid every crash.Tap the r"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 55,
+          "name": "Woodoku Blast: Block Puzzle",
+          "publisher": "Tripledot Studios",
+          "category": "Games",
+          "app_id": "6608975929",
+          "url": "https://apps.apple.com/us/app/woodoku-blast-block-puzzle/id6608975929?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/db/da/88dbdaf0-cc45-ac11-7bd8-b48f656f5d66/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Woodoku Blast: The Mesmerizing Colorful Block Puzzle Game!\nPrepare yo"
+        },
+        {
+          "rank": 79,
+          "name": "Royal Cooking",
+          "publisher": "Matryoshka Games (CY) LTD",
+          "category": "Games",
+          "app_id": "1664415775",
+          "url": "https://apps.apple.com/us/app/royal-cooking/id1664415775?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/d4/79/a5d479ee-8981-9b0c-2fd7-adbab2f157e7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Royal Cooking — an exciting game where you’ll create the finest meals"
+        },
+        {
+          "rank": 96,
+          "name": "Playtest Pro by BestPlay",
+          "publisher": "Bestplay Systems",
+          "category": "Games",
+          "app_id": "6503697761",
+          "url": "https://apps.apple.com/us/app/playtest-pro-by-bestplay/id6503697761?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/d1/44/3dd144e3-cf83-a6c1-8eeb-3b7d0fd3c377/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Introducing Playtest Pro, the ideal platform for sharing your insights and shapi"
+        },
+        {
+          "rank": 99,
+          "name": "Disney Solitaire",
+          "publisher": "SuperPlay",
+          "category": "Games",
+          "app_id": "6475757306",
+          "url": "https://apps.apple.com/us/app/disney-solitaire/id6475757306?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/13/4d/3c134dff-c40d-b4b5-dc23-42661a0762d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Disney Solitaire, the ultimate card game that transforms classic trip"
+        },
+        {
+          "rank": 100,
+          "name": "CrownCoins Casino",
+          "publisher": "Sunflower",
+          "category": "Games",
+          "app_id": "6450413462",
+          "url": "https://apps.apple.com/us/app/crowncoins-casino/id6450413462?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/da/b4/78dab484-4985-0a56-1f8a-28691ee73c94/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "CROWN COINS CASINO. America loves it. You will too! \nPLAY. WIN. REDEEM. REPEAT. "
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 97,
+          "name": "Jam Bus:Sandfall",
+          "publisher": "Nova Games Technology Limited",
+          "category": "Games",
+          "app_id": "6797530374",
+          "url": "https://apps.apple.com/us/app/jam-bus-sandfall/id6797530374?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c8/16/6c/c8166c99-8454-96ba-3a28-80160000cc83/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Clear colorful sand with buses, plan each route, and avoid every crash.Tap the r"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 5,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 81,
+          "name": "Brain Puzzle 2: Logic Twist",
+          "publisher": "SmallStep Dev Team",
+          "category": "Games",
+          "app_id": "6747063674",
+          "url": "https://apps.apple.com/us/app/brain-puzzle-2-logic-twist/id6747063674?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/47/c4/3e47c40d-ac93-a88f-6f9e-90dc94aec2a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This time, we’re continuing the humorous storytelling and brain-teasing design o"
+        },
+        {
+          "rank": 97,
+          "name": "Jam Bus:Sandfall",
+          "publisher": "Nova Games Technology Limited",
+          "category": "Games",
+          "app_id": "6797530374",
+          "url": "https://apps.apple.com/us/app/jam-bus-sandfall/id6797530374?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c8/16/6c/c8166c99-8454-96ba-3a28-80160000cc83/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Clear colorful sand with buses, plan each route, and avoid every crash.Tap the r"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 47,
+          "name": "汤姆猫跑酷-猫拉松：秋风逐月",
+          "publisher": "Outfit7 Limited",
+          "category": "游戏",
+          "app_id": "1089336971",
+          "url": "https://apps.apple.com/cn/app/%E6%B1%A4%E5%A7%86%E7%8C%AB%E8%B7%91%E9%85%B7-%E7%8C%AB%E6%8B%89%E6%9D%BE-%E7%A7%8B%E9%A3%8E%E9%80%90%E6%9C%88/id1089336971?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/c7/d2/c1c7d243-2721-d628-3ac5-95c737860b0d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "与会说话的汤姆猫和他的朋友们一起奔跑、冲刺、追逐浣熊派，体验无限跑酷大冒险！帮助会说话的汤姆猫穿越多彩世界、闪避刺激障碍，夺回被盗金条！还有会说话的安吉拉、金杰"
+        },
+        {
+          "rank": 76,
+          "name": "皇冠斗地主-骰子斗地主",
+          "publisher": "弈趣玩科技(北京)有限公司",
+          "category": "游戏",
+          "app_id": "6746925059",
+          "url": "https://apps.apple.com/cn/app/%E7%9A%87%E5%86%A0%E6%96%97%E5%9C%B0%E4%B8%BB-%E9%AA%B0%E5%AD%90%E6%96%97%E5%9C%B0%E4%B8%BB/id6746925059?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/0d/c5/390dc558-9ac3-1468-97bd-d3ffba5c8ff3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《皇冠斗地主》2026年棋牌游戏精品之作！\n全新核心玩法“骰子斗地主”重磅上线，将经典斗地主与趣味骰子机制结合，带来更刺激、更有变化的真人竞技体验。\n\n【游戏特"
+        },
+        {
+          "rank": 93,
+          "name": "千万别点错",
+          "publisher": "SkyIsland Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6761234103",
+          "url": "https://apps.apple.com/cn/app/%E5%8D%83%E4%B8%87%E5%88%AB%E7%82%B9%E9%94%99/id6761234103?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/77/04/75770459-0df7-94d9-2853-10129e40dc84/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "这是一款结合数独式逻辑推理与线索判断的益智解谜游戏。玩家需要根据下方给出的文字提示、条件限制和隐藏线索，在上方表格中逐步筛选、排除并选择正确答案。游戏强调观察力"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 16,
+          "name": "破烂水手",
+          "publisher": "厦门快爆游网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6737040876",
+          "url": "https://apps.apple.com/cn/app/%E7%A0%B4%E7%83%82%E6%B0%B4%E6%89%8B/id6737040876?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/92/83/2692839e-df90-3b08-8a54-c279f2d0f203/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "新一代友尽神器预定！多人合作欢乐漂流记\n《破烂水手》（Trash Sailors）是一款手绘风格的海上冒险生存游戏，支持1-4名玩家合作游玩。\n世界被巨大的垃圾"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 46,
+          "name": "罗斯方块—快乐方块单机格子游戏怀旧经典版",
+          "publisher": "Wuhan Dobest Information Technology Co, Ltd.",
+          "category": "游戏",
+          "app_id": "1094636977",
+          "url": "https://apps.apple.com/cn/app/%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97-%E5%BF%AB%E4%B9%90%E6%96%B9%E5%9D%97%E5%8D%95%E6%9C%BA%E6%A0%BC%E5%AD%90%E6%B8%B8%E6%88%8F%E6%80%80%E6%97%A7%E7%BB%8F%E5%85%B8%E7%89%88/id1094636977?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/31/19/6a311907-0ed3-6460-5cff-52c2fd64a7c2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "罗斯方块是众多玩家早期接触的一款经典方块。如今它改头换面，以全新的面貌出现在你的面前。这款方块产品，会再度刮起一股狂潮，让方块爱好者欲罢不能。别再观望啦，下载体"
+        },
+        {
+          "rank": 95,
+          "name": "美食小当家",
+          "publisher": "Beijing Liu Xin Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "1468445407",
+          "url": "https://apps.apple.com/cn/app/%E7%BE%8E%E9%A3%9F%E5%B0%8F%E5%BD%93%E5%AE%B6/id1468445407?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/fe/6d/27fe6da8-e586-8f57-2bae-16fbe8c89298/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《美食小当家》是一款画风治愈，集模拟经营、休闲养成为一体的美食烹饪游戏。你将扮演热爱美食，立志将餐厅开往全球的美食小当家，从经营煎饼早餐店起，开始你梦想中的美食"
+        },
+        {
+          "rank": 97,
+          "name": "王者荣耀世界",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1612566389",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E4%B8%96%E7%95%8C/id1612566389?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/1f/d7/f01fd761-fb29-8e46-4a72-bfd9bf25ba54/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【产品介绍】\n《王者荣耀世界》是国民级MOBA手游《王者荣耀》IP旗下的「王者英雄多人战斗冒险游戏」。游戏高度还原王者荣耀世界观，英雄人设故事与技能设定，在3D"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 16,
+          "name": "破烂水手",
+          "publisher": "厦门快爆游网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6737040876",
+          "url": "https://apps.apple.com/cn/app/%E7%A0%B4%E7%83%82%E6%B0%B4%E6%89%8B/id6737040876?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/92/83/2692839e-df90-3b08-8a54-c279f2d0f203/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "新一代友尽神器预定！多人合作欢乐漂流记\n《破烂水手》（Trash Sailors）是一款手绘风格的海上冒险生存游戏，支持1-4名玩家合作游玩。\n世界被巨大的垃圾"
+        },
+        {
+          "rank": 76,
+          "name": "皇冠斗地主-骰子斗地主",
+          "publisher": "弈趣玩科技(北京)有限公司",
+          "category": "游戏",
+          "app_id": "6746925059",
+          "url": "https://apps.apple.com/cn/app/%E7%9A%87%E5%86%A0%E6%96%97%E5%9C%B0%E4%B8%BB-%E9%AA%B0%E5%AD%90%E6%96%97%E5%9C%B0%E4%B8%BB/id6746925059?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/0d/c5/390dc558-9ac3-1468-97bd-d3ffba5c8ff3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《皇冠斗地主》2026年棋牌游戏精品之作！\n全新核心玩法“骰子斗地主”重磅上线，将经典斗地主与趣味骰子机制结合，带来更刺激、更有变化的真人竞技体验。\n\n【游戏特"
+        },
+        {
+          "rank": 93,
+          "name": "千万别点错",
+          "publisher": "SkyIsland Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6761234103",
+          "url": "https://apps.apple.com/cn/app/%E5%8D%83%E4%B8%87%E5%88%AB%E7%82%B9%E9%94%99/id6761234103?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/77/04/75770459-0df7-94d9-2853-10129e40dc84/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "这是一款结合数独式逻辑推理与线索判断的益智解谜游戏。玩家需要根据下方给出的文字提示、条件限制和隐藏线索，在上方表格中逐步筛选、排除并选择正确答案。游戏强调观察力"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 3,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 16,
+          "name": "破烂水手",
+          "publisher": "厦门快爆游网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6737040876",
+          "url": "https://apps.apple.com/cn/app/%E7%A0%B4%E7%83%82%E6%B0%B4%E6%89%8B/id6737040876?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/92/83/2692839e-df90-3b08-8a54-c279f2d0f203/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "新一代友尽神器预定！多人合作欢乐漂流记\n《破烂水手》（Trash Sailors）是一款手绘风格的海上冒险生存游戏，支持1-4名玩家合作游玩。\n世界被巨大的垃圾"
+        },
+        {
+          "rank": 47,
+          "name": "汤姆猫跑酷-猫拉松：秋风逐月",
+          "publisher": "Outfit7 Limited",
+          "category": "游戏",
+          "app_id": "1089336971",
+          "url": "https://apps.apple.com/cn/app/%E6%B1%A4%E5%A7%86%E7%8C%AB%E8%B7%91%E9%85%B7-%E7%8C%AB%E6%8B%89%E6%9D%BE-%E7%A7%8B%E9%A3%8E%E9%80%90%E6%9C%88/id1089336971?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/c7/d2/c1c7d243-2721-d628-3ac5-95c737860b0d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "与会说话的汤姆猫和他的朋友们一起奔跑、冲刺、追逐浣熊派，体验无限跑酷大冒险！帮助会说话的汤姆猫穿越多彩世界、闪避刺激障碍，夺回被盗金条！还有会说话的安吉拉、金杰"
+        },
+        {
+          "rank": 76,
+          "name": "皇冠斗地主-骰子斗地主",
+          "publisher": "弈趣玩科技(北京)有限公司",
+          "category": "游戏",
+          "app_id": "6746925059",
+          "url": "https://apps.apple.com/cn/app/%E7%9A%87%E5%86%A0%E6%96%97%E5%9C%B0%E4%B8%BB-%E9%AA%B0%E5%AD%90%E6%96%97%E5%9C%B0%E4%B8%BB/id6746925059?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/0d/c5/390dc558-9ac3-1468-97bd-d3ffba5c8ff3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《皇冠斗地主》2026年棋牌游戏精品之作！\n全新核心玩法“骰子斗地主”重磅上线，将经典斗地主与趣味骰子机制结合，带来更刺激、更有变化的真人竞技体验。\n\n【游戏特"
+        },
+        {
+          "rank": 93,
+          "name": "千万别点错",
+          "publisher": "SkyIsland Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6761234103",
+          "url": "https://apps.apple.com/cn/app/%E5%8D%83%E4%B8%87%E5%88%AB%E7%82%B9%E9%94%99/id6761234103?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/77/04/75770459-0df7-94d9-2853-10129e40dc84/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "这是一款结合数独式逻辑推理与线索判断的益智解谜游戏。玩家需要根据下方给出的文字提示、条件限制和隐藏线索，在上方表格中逐步筛选、排除并选择正确答案。游戏强调观察力"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 32,
+          "name": "Tether Up! - ロープで登る協力ゲーム",
+          "publisher": "IBUKI YOSHIDA",
+          "category": "ゲーム",
+          "app_id": "6814103261",
+          "url": "https://apps.apple.com/jp/app/tether-up-%E3%83%AD%E3%83%BC%E3%83%97%E3%81%A7%E7%99%BB%E3%82%8B%E5%8D%94%E5%8A%9B%E3%82%B2%E3%83%BC%E3%83%A0/id6814103261?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/f6/9d/4bf69d52-dc89-c941-5303-039dbab898bb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "一本のロープで、ふたりはつながっている。\n\n「Tether Up!」は、相棒とロープで結ばれたまま、どこまでも高く登り続ける協力クライムアクションです。ステージ"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 78,
+          "name": "LINE ポコポコ：3マッチパズルゲーム",
+          "publisher": "LINE Corporation",
+          "category": "ゲーム",
+          "app_id": "888615473",
+          "url": "https://apps.apple.com/jp/app/line-%E3%83%9D%E3%82%B3%E3%83%9D%E3%82%B3-3%E3%83%9E%E3%83%83%E3%83%81%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id888615473?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/7e/d4/497ed4b1-8f89-7404-abaa-fd321f8bf6f9/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------\nポコからはじまる12周年！\nパズルゲームの定番！ LINE ポコポコ！\n---------"
+        },
+        {
+          "rank": 82,
+          "name": "ペタペタペンギン団",
+          "publisher": "MOREFUN (H.K.) LIMITED",
+          "category": "ゲーム",
+          "app_id": "6742937695",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9A%E3%82%BF%E3%83%9A%E3%82%BF%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3%E5%9B%A3/id6742937695?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/fa/57/61fa5759-f2c1-0003-d642-1b4ee404af89/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【無料で３０００連ガチャ、豪華特典ゲット！】\nペタペタペンギン団、予約数100万突破！今DLして無料で3000連ガチャを引ける！さらに地域限定スキン・「剣魂」（"
+        },
+        {
+          "rank": 83,
+          "name": "みんなで早押しクイズ",
+          "publisher": "Q ONE, Inc.",
+          "category": "ゲーム",
+          "app_id": "1044039663",
+          "url": "https://apps.apple.com/jp/app/%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%E6%97%A9%E6%8A%BC%E3%81%97%E3%82%AF%E3%82%A4%E3%82%BA/id1044039663?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/e8/bb/50e8bb91-67e3-4d80-a516-4e826cb1c193/AppIcon-2-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "オンライン対戦早押しクイズゲームアプリが登場！\nライバルと対戦してレート上位を目指そう！\n\n選べるモードは、ランダムマッチ・フリーマッチ(フレンド対戦)の2種類"
+        },
+        {
+          "rank": 95,
+          "name": "Brain Puzzle 2: Logic Twist",
+          "publisher": "SmallStep Dev Team",
+          "category": "ゲーム",
+          "app_id": "6747063674",
+          "url": "https://apps.apple.com/jp/app/brain-puzzle-2-logic-twist/id6747063674?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/47/c4/3e47c40d-ac93-a88f-6f9e-90dc94aec2a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "今回は、前作のユーモラスなストーリーテリングと脳を揺さぶるデザインを継承し、さらに豊かで驚きに満ちたパズル体験をお届けします。\n\nこのまったく新しい続編では、風"
+        },
+        {
+          "rank": 98,
+          "name": "Car Jam - バスストップ ジャムゲーム",
+          "publisher": "BLANKZONET",
+          "category": "ゲーム",
+          "app_id": "6505095234",
+          "url": "https://apps.apple.com/jp/app/car-jam-%E3%83%90%E3%82%B9%E3%82%B9%E3%83%88%E3%83%83%E3%83%97-%E3%82%B8%E3%83%A3%E3%83%A0%E3%82%B2%E3%83%BC%E3%83%A0/id6505095234?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/3b/45/6a3b4517-5a6c-6a37-0190-e0a805dc33f0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "『Car Jam』と一緒に刺激的な旅を始めよう！\nここで、あなたの謎解き能力が試される、数多くの車の中を走り回り、一人一人の乗客たちが自分だけの「専属車両」に乗"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 5,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 32,
+          "name": "Tether Up! - ロープで登る協力ゲーム",
+          "publisher": "IBUKI YOSHIDA",
+          "category": "ゲーム",
+          "app_id": "6814103261",
+          "url": "https://apps.apple.com/jp/app/tether-up-%E3%83%AD%E3%83%BC%E3%83%97%E3%81%A7%E7%99%BB%E3%82%8B%E5%8D%94%E5%8A%9B%E3%82%B2%E3%83%BC%E3%83%A0/id6814103261?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/f6/9d/4bf69d52-dc89-c941-5303-039dbab898bb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "一本のロープで、ふたりはつながっている。\n\n「Tether Up!」は、相棒とロープで結ばれたまま、どこまでも高く登り続ける協力クライムアクションです。ステージ"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 74,
+          "name": "Doll Dress Up: Fashion Star",
+          "publisher": "CozyTap Studio",
+          "category": "Games",
+          "package": "com.fashion.dress.up"
+        },
+        {
+          "rank": 86,
+          "name": "Smash Blast",
+          "publisher": "Devsimo",
+          "category": "Games",
+          "package": "com.convention.baseball.biology.quotes"
+        },
+        {
+          "rank": 88,
+          "name": "Freddy Playground Sandbox",
+          "publisher": "Big Host Africa",
+          "category": "Games",
+          "package": "com.freddys.playground.sandbox"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 13,
+          "name": "Angry Birds 2",
+          "publisher": "Rovio Entertainment Oy",
+          "category": "Games",
+          "package": "com.rovio.baba"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 80,
+          "name": "Woodoku Blast",
+          "publisher": "Tripledot Studios Limited",
+          "category": "Games",
+          "package": "com.tripledot.blockbash"
+        },
+        {
+          "rank": 82,
+          "name": "Fluffy Drop - No Timer",
+          "publisher": "UniRise Studio",
+          "category": "Games",
+          "package": "com.fluffydrop.op.gp"
+        },
+        {
+          "rank": 84,
+          "name": "Treasure Master",
+          "publisher": "Gimica GmbH",
+          "category": "Games",
+          "package": "com.gimica.treasuremaster"
+        },
+        {
+          "rank": 90,
+          "name": "Solitaire",
+          "publisher": "Mouse Games",
+          "category": "Games",
+          "package": "com.smilerlee.klondike"
+        },
+        {
+          "rank": 91,
+          "name": "Privacy App Guard",
+          "publisher": "Yongyou Trading Co",
+          "category": "Games",
+          "package": "com.privacy.guard.tool.afsrited"
+        },
+        {
+          "rank": 94,
+          "name": "Last Extract",
+          "publisher": "VOODOO",
+          "category": "Games",
+          "package": "com.xiaomo.lastextract"
+        },
+        {
+          "rank": 98,
+          "name": "Loop Master™: Color Jam Sort",
+          "publisher": "Pleasure City",
+          "category": "Games",
+          "package": "com.loop.clear.cube.free.card.puzzle.sort.match"
+        },
+        {
+          "rank": 99,
+          "name": "Vigor Mahjong",
+          "publisher": "CanaryDroid",
+          "category": "Games",
+          "package": "com.godlike.vigormahjong"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 13,
+          "name": "Angry Birds 2",
+          "publisher": "Rovio Entertainment Oy",
+          "category": "Games",
+          "package": "com.rovio.baba"
+        },
+        {
+          "rank": 74,
+          "name": "Doll Dress Up: Fashion Star",
+          "publisher": "CozyTap Studio",
+          "category": "Games",
+          "package": "com.fashion.dress.up"
+        },
+        {
+          "rank": 86,
+          "name": "Smash Blast",
+          "publisher": "Devsimo",
+          "category": "Games",
+          "package": "com.convention.baseball.biology.quotes"
+        },
+        {
+          "rank": 88,
+          "name": "Freddy Playground Sandbox",
+          "publisher": "Big Host Africa",
+          "category": "Games",
+          "package": "com.freddys.playground.sandbox"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 8,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 13,
+          "name": "Angry Birds 2",
+          "publisher": "Rovio Entertainment Oy",
+          "category": "Games",
+          "package": "com.rovio.baba"
+        },
+        {
+          "rank": 74,
+          "name": "Doll Dress Up: Fashion Star",
+          "publisher": "CozyTap Studio",
+          "category": "Games",
+          "package": "com.fashion.dress.up"
+        },
+        {
+          "rank": 86,
+          "name": "Smash Blast",
+          "publisher": "Devsimo",
+          "category": "Games",
+          "package": "com.convention.baseball.biology.quotes"
+        },
+        {
+          "rank": 88,
+          "name": "Freddy Playground Sandbox",
+          "publisher": "Big Host Africa",
+          "category": "Games",
+          "package": "com.freddys.playground.sandbox"
+        }
+      ]
+    }
+  }
+}
