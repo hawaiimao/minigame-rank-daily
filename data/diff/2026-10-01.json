@@ -1,0 +1,547 @@
+{
+  "date": "2026-10-01",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "欢乐麻将",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 2名牌类",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "天天象棋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 3名棋类棋牌传统棋牌",
+          "publisher": "深圳市腾讯天游科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 18,
+          "name": "天天斗地主真人版",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 4名牌类棋牌传统棋牌",
+          "publisher": "深圳市禅游科技股份有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "跳一跳",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 16名益智超休闲休闲",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "大王请上阵",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 4名卡牌",
+          "publisher": "深圳市悦莱顺网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "永夜起源",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 5名卡牌",
+          "publisher": "广州招崭信息科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "天天象棋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 2名棋类棋牌传统棋牌",
+          "publisher": "深圳市腾讯天游科技有限公司",
+          "change": "1",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "代号：新生（TapTap测试版）",
+          "publisher": "末班车工作室",
+          "category": "射击",
+          "subcategory": "俯视角、搜打撤、多人联机、3D、动作"
+        },
+        {
+          "rank": 8,
+          "name": "小苔屋",
+          "publisher": "猫猫世纪工作室",
+          "category": "休闲"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "七界梦谭",
+          "publisher": "飞光阁工作室",
+          "category": "角色扮演",
+          "subcategory": "修仙、高画质、MMORPG、开放世界、国风、3D"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 5,
+          "name": "代号：新生（TapTap测试版）",
+          "publisher": "末班车工作室",
+          "category": "射击",
+          "subcategory": "俯视角、搜打撤、多人联机、3D、动作"
+        },
+        {
+          "rank": 8,
+          "name": "小苔屋",
+          "publisher": "猫猫世纪工作室",
+          "category": "休闲"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "代号：新生（TapTap测试版）",
+          "publisher": "末班车工作室",
+          "category": "射击",
+          "subcategory": "俯视角、搜打撤、多人联机、3D、动作"
+        },
+        {
+          "rank": 8,
+          "name": "小苔屋",
+          "publisher": "猫猫世纪工作室",
+          "category": "休闲"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "Bloons Blitz",
+          "publisher": "Ninja Kiwi",
+          "category": "Games",
+          "app_id": "6741921686",
+          "url": "https://apps.apple.com/us/app/bloons-blitz/id6741921686?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/7c/36/9e7c3672-20ce-8201-5510-2a4f26d95340/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Embark on the ultimate road trip adventure across the Bloons universe! Get ready"
+        },
+        {
+          "rank": 37,
+          "name": "PlayCash Rewards",
+          "publisher": "Scale.ad, LLC",
+          "category": "Games",
+          "app_id": "6761865516",
+          "url": "https://apps.apple.com/us/app/playcash-rewards/id6761865516?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/de/85/8ade855f-a918-85be-9dcf-b61211b2842b/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "PlayCash helps you discover great mobile games and stay motivated as you play.\n\n"
+        },
+        {
+          "rank": 90,
+          "name": "Winter Burrow",
+          "publisher": "Noodlecake",
+          "category": "Games",
+          "app_id": "6757809616",
+          "url": "https://apps.apple.com/us/app/winter-burrow/id6757809616?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/a4/9b/a9a49b1b-2bcc-44cc-9659-a24bc707231c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Winter Burrow is a cozy woodland survival game. Explore, gather resources, craft"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 96,
+          "name": "Clash Royale",
+          "publisher": "Supercell",
+          "category": "Games",
+          "app_id": "1053012308",
+          "url": "https://apps.apple.com/us/app/clash-royale/id1053012308?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/45/d0/7745d02a-8eac-2295-b062-73bb93e90506/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "Enter the Arena! Build your Battle Deck and outsmart the enemy in fast real-time"
+        },
+        {
+          "rank": 97,
+          "name": "Bubble Cash",
+          "publisher": "Papaya Gaming",
+          "category": "Games",
+          "app_id": "1475514684",
+          "url": "https://apps.apple.com/us/app/bubble-cash/id1475514684?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/de/a2/b3dea2e5-438d-c212-a099-3f308ba9e4b6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Forget the ordinary games. Here you play for something bigger, where winning the"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 5,
+          "name": "Bloons Blitz",
+          "publisher": "Ninja Kiwi",
+          "category": "Games",
+          "app_id": "6741921686",
+          "url": "https://apps.apple.com/us/app/bloons-blitz/id6741921686?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/7c/36/9e7c3672-20ce-8201-5510-2a4f26d95340/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Embark on the ultimate road trip adventure across the Bloons universe! Get ready"
+        },
+        {
+          "rank": 37,
+          "name": "PlayCash Rewards",
+          "publisher": "Scale.ad, LLC",
+          "category": "Games",
+          "app_id": "6761865516",
+          "url": "https://apps.apple.com/us/app/playcash-rewards/id6761865516?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/de/85/8ade855f-a918-85be-9dcf-b61211b2842b/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "PlayCash helps you discover great mobile games and stay motivated as you play.\n\n"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 2,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "Bloons Blitz",
+          "publisher": "Ninja Kiwi",
+          "category": "Games",
+          "app_id": "6741921686",
+          "url": "https://apps.apple.com/us/app/bloons-blitz/id6741921686?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/7c/36/9e7c3672-20ce-8201-5510-2a4f26d95340/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Embark on the ultimate road trip adventure across the Bloons universe! Get ready"
+        },
+        {
+          "rank": 37,
+          "name": "PlayCash Rewards",
+          "publisher": "Scale.ad, LLC",
+          "category": "Games",
+          "app_id": "6761865516",
+          "url": "https://apps.apple.com/us/app/playcash-rewards/id6761865516?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/de/85/8ade855f-a918-85be-9dcf-b61211b2842b/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "PlayCash helps you discover great mobile games and stay motivated as you play.\n\n"
+        },
+        {
+          "rank": 90,
+          "name": "Winter Burrow",
+          "publisher": "Noodlecake",
+          "category": "Games",
+          "app_id": "6757809616",
+          "url": "https://apps.apple.com/us/app/winter-burrow/id6757809616?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/a4/9b/a9a49b1b-2bcc-44cc-9659-a24bc707231c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Winter Burrow is a cozy woodland survival game. Explore, gather resources, craft"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 83,
+          "name": "云•鸣潮",
+          "publisher": "库洛游戏",
+          "category": "游戏",
+          "app_id": "6478398975",
+          "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E9%B8%A3%E6%BD%AE/id6478398975?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/55/f0/2a55f0f1-8f74-74e6-3fa2-a26bc81017c8/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《云·鸣潮》正式上线，登录即可获赠600分钟免费时长！\n\n《云·鸣潮》是跨平台开放世界动作游戏《鸣潮》的云游戏版本，仅需安装超小包体，一键下载秒启动，同时具备超"
+        },
+        {
+          "rank": 84,
+          "name": "Bingo3x3: Fast Party Games",
+          "publisher": "HAREPPO",
+          "category": "游戏",
+          "app_id": "1111937542",
+          "url": "https://apps.apple.com/cn/app/bingo3x3-fast-party-games/id1111937542?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/08/6d/ee086dee-6679-3a21-0e6e-070ff88de939/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Transform any gathering with the ultimate modern bingo experience!\n\nBingo3x3 is "
+        },
+        {
+          "rank": 87,
+          "name": "我的梦想医院",
+          "publisher": "Nordcurrent UAB",
+          "category": "游戏",
+          "app_id": "6477787562",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%A2%A6%E6%83%B3%E5%8C%BB%E9%99%A2/id6477787562?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/ab/e4/b2abe4eb-14c7-8488-3bf8-eb4576dadd87/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "数十种激烈的挑战在这款奇特的医院模拟游戏中等待着你，而其中的设备如同气候一样各具特色。你的任务就是完善每家医院，确保提供最贴心的就医环境！\r\n作为一名年轻护士协"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 62,
+          "name": "鸣潮",
+          "publisher": "库洛游戏",
+          "category": "游戏",
+          "app_id": "6450693428",
+          "url": "https://apps.apple.com/cn/app/%E9%B8%A3%E6%BD%AE/id6450693428?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/c4/af/5fc4af53-3203-8ef0-981b-ce39a352bb65/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《鸣潮》是一款跨平台开放世界动作游戏，主打高自由度的动作战斗玩法与丰富多样的开放世界探索。而你，在这个世界苏醒的漂泊者，将在找回记忆、寻找自我身份的同时结识无数"
+        },
+        {
+          "rank": 90,
+          "name": "FC足球世界-Next",
+          "publisher": "Tencent Mobile Games",
+          "category": "游戏",
+          "app_id": "1305599559",
+          "url": "https://apps.apple.com/cn/app/fc%E8%B6%B3%E7%90%83%E4%B8%96%E7%95%8C-next/id1305599559?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/e4/37/6de43779-c5f4-34b9-cb56-b98f7834e423/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "《FC足球世界》是由EA SPORTS研发、腾讯游戏发行的新世代足球手游，汇聚超19,000名真实球星、690支球队与35个联赛，从现役巨星到传奇名宿全面收录；"
+        },
+        {
+          "rank": 92,
+          "name": "美职篮巅峰对决",
+          "publisher": "Gala Sports Technology Limited",
+          "category": "游戏",
+          "app_id": "6498993861",
+          "url": "https://apps.apple.com/cn/app/%E7%BE%8E%E8%81%8C%E7%AF%AE%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3/id6498993861?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/4a/65/f94a65d2-c7c5-6724-a0c8-e225c8ba8dc4/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+          "slogan": "超千万真实玩家选择，NBA正版授权，全民篮球竞技手游！\n\n【真爽手感，大幅简化操作，极致篮球轻松体验】\n操作要爽，不要手指打架的复杂操作！\n手机端最好的篮球操控"
+        },
+        {
+          "rank": 95,
+          "name": "实况足球",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1347776121",
+          "url": "https://apps.apple.com/cn/app/%E5%AE%9E%E5%86%B5%E8%B6%B3%E7%90%83/id1347776121?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/79/02/0079020a-b439-6ee9-e1bb-ae1f54735c4d/PesMobile-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "■实况足球2027，震撼登场！\n全球10亿下载，实况足球手游现已更新2027赛季年度版本！攻防双阵型时代来临！足坛前沿战术理念在你手中复刻，进攻防守两套阵型动态"
+        },
+        {
+          "rank": 98,
+          "name": "王国保卫战：起源 (KR Origins) - 塔防史诗冒险",
+          "publisher": "Ironhide S.A.",
+          "category": "游戏",
+          "app_id": "1544488000",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E5%9B%BD%E4%BF%9D%E5%8D%AB%E6%88%98-%E8%B5%B7%E6%BA%90-kr-origins-%E5%A1%94%E9%98%B2%E5%8F%B2%E8%AF%97%E5%86%92%E9%99%A9/id1544488000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/73/43/6e/73436e28-a6df-0c29-d9de-658ce860a59e/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+          "slogan": "***2015 DICE最佳移动游戏提名***\r\n\r\n最令人着迷的塔防游戏重磅回归，带来全新冒险前传 —— 欢迎进入《王国保卫战：起源》！ \r\n\r\n《王国保卫战"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 84,
+          "name": "Bingo3x3: Fast Party Games",
+          "publisher": "HAREPPO",
+          "category": "游戏",
+          "app_id": "1111937542",
+          "url": "https://apps.apple.com/cn/app/bingo3x3-fast-party-games/id1111937542?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/08/6d/ee086dee-6679-3a21-0e6e-070ff88de939/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Transform any gathering with the ultimate modern bingo experience!\n\nBingo3x3 is "
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 5,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 83,
+          "name": "云•鸣潮",
+          "publisher": "库洛游戏",
+          "category": "游戏",
+          "app_id": "6478398975",
+          "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E9%B8%A3%E6%BD%AE/id6478398975?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/55/f0/2a55f0f1-8f74-74e6-3fa2-a26bc81017c8/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《云·鸣潮》正式上线，登录即可获赠600分钟免费时长！\n\n《云·鸣潮》是跨平台开放世界动作游戏《鸣潮》的云游戏版本，仅需安装超小包体，一键下载秒启动，同时具备超"
+        },
+        {
+          "rank": 84,
+          "name": "Bingo3x3: Fast Party Games",
+          "publisher": "HAREPPO",
+          "category": "游戏",
+          "app_id": "1111937542",
+          "url": "https://apps.apple.com/cn/app/bingo3x3-fast-party-games/id1111937542?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/08/6d/ee086dee-6679-3a21-0e6e-070ff88de939/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Transform any gathering with the ultimate modern bingo experience!\n\nBingo3x3 is "
+        },
+        {
+          "rank": 87,
+          "name": "我的梦想医院",
+          "publisher": "Nordcurrent UAB",
+          "category": "游戏",
+          "app_id": "6477787562",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%A2%A6%E6%83%B3%E5%8C%BB%E9%99%A2/id6477787562?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/ab/e4/b2abe4eb-14c7-8488-3bf8-eb4576dadd87/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "数十种激烈的挑战在这款奇特的医院模拟游戏中等待着你，而其中的设备如同气候一样各具特色。你的任务就是完善每家医院，确保提供最贴心的就医环境！\r\n作为一名年轻护士协"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 97,
+          "name": "Disney Solitaire ディズニー ソリティア",
+          "publisher": "SuperPlay",
+          "category": "ゲーム",
+          "app_id": "6475757306",
+          "url": "https://apps.apple.com/jp/app/disney-solitaire-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2/id6475757306?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/13/4d/3c134dff-c40d-b4b5-dc23-42661a0762d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ディズニーソリティアへようこそ。クラシックなトライピークスソリティアが、魔法に満ちたエキサイティングな体験へと生まれ変わります！\n\nディズニーとピクサーの世界か"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "SUPERSTAR EBiDAN",
+          "publisher": "DalcomSoft Japan, Inc.",
+          "category": "ゲーム",
+          "app_id": "6450412255",
+          "url": "https://apps.apple.com/jp/app/superstar-ebidan/id6450412255?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/f2/93/f5f2932c-492b-bc45-860e-af97537c70c9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【全世界累計1億ダウンロードを突破したSUPERSTARシリーズ！】\n\n▼SUPERSTAR EBiDANとは\nデビュー曲から最新曲がリズムゲームで遊べるEBi"
+        },
+        {
+          "rank": 88,
+          "name": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
+          "publisher": "SEGA CORPORATION",
+          "category": "ゲーム",
+          "app_id": "1489932710",
+          "url": "https://apps.apple.com/jp/app/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%BB%E3%82%AB%E3%82%A4-%E3%82%AB%E3%83%A9%E3%83%95%E3%83%AB%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8-feat-%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF/id1489932710?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/dc/c5/d5dcc559-fc95-1902-28d2-27a73ce5931f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「ヴァンパイア」「KING」「ロキ」「シャルル」「Tell Your World」など\n最新の人気曲からみんなが知ってる名曲まで、3DMV付きで多数収録！\nSE"
+        },
+        {
+          "rank": 99,
+          "name": "Lumi Master（るぅみマスター）",
+          "publisher": "BILIBILI HK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6754979232",
+          "url": "https://apps.apple.com/jp/app/lumi-master-%E3%82%8B%E3%81%85%E3%81%BF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/id6754979232?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/48/5c/9a485c34-5416-0a9f-4b60-60f5bf39652c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "オートでるぅみをどんどんゲット！図鑑コンプリートもらくらく！\n今すぐダウンロード！スタミナ＆にじいろたまご大量ゲット！\n強力なるぅみを手に入れ、冒険へ出発しよう"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 97,
+          "name": "Disney Solitaire ディズニー ソリティア",
+          "publisher": "SuperPlay",
+          "category": "ゲーム",
+          "app_id": "6475757306",
+          "url": "https://apps.apple.com/jp/app/disney-solitaire-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2/id6475757306?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/13/4d/3c134dff-c40d-b4b5-dc23-42661a0762d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ディズニーソリティアへようこそ。クラシックなトライピークスソリティアが、魔法に満ちたエキサイティングな体験へと生まれ変わります！\n\nディズニーとピクサーの世界か"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 97,
+          "name": "Disney Solitaire ディズニー ソリティア",
+          "publisher": "SuperPlay",
+          "category": "ゲーム",
+          "app_id": "6475757306",
+          "url": "https://apps.apple.com/jp/app/disney-solitaire-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2/id6475757306?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/13/4d/3c134dff-c40d-b4b5-dc23-42661a0762d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ディズニーソリティアへようこそ。クラシックなトライピークスソリティアが、魔法に満ちたエキサイティングな体験へと生まれ変わります！\n\nディズニーとピクサーの世界か"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
