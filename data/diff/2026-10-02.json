@@ -1,0 +1,518 @@
+{
+  "date": "2026-10-02",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "打个螺丝",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 15名益智",
+          "publisher": "广州尊悦文化发展有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 6,
+          "name": "青云诀之伏魔",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 1名MMO",
+          "publisher": "海南元游信息技术有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 11,
+          "name": "神器传说",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 7名益智",
+          "publisher": "深圳全民互动科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 18,
+          "name": "永远的蔚蓝星球",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名塔防",
+          "publisher": "广州颂悦信息技术有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "奇幻果园",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 12名模拟经营",
+          "publisher": "杭州锦泽文化创意有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "这关可真行",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 17名塔防",
+          "publisher": "深圳市石晟科技有限公司",
+          "change": "2",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "艾希：续",
+          "publisher": "新闻消息",
+          "category": "动作"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 6,
+          "name": "龙岛异兽起源",
+          "publisher": "微乐游戏",
+          "category": "生存",
+          "subcategory": "开放世界、冒险、恐龙"
+        },
+        {
+          "rank": 7,
+          "name": "无限大",
+          "publisher": "网易游戏",
+          "category": "开放世界",
+          "subcategory": "角色扮演、高自由度、都市、二次元、动作、高画质、3D"
+        },
+        {
+          "rank": 8,
+          "name": "未眠野",
+          "publisher": "悦然互动",
+          "category": "开放世界",
+          "subcategory": "高自由度、角色扮演、冒险、动作、高画质"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "艾希：续",
+          "publisher": "新闻消息",
+          "category": "动作"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 82,
+          "name": "Word Tiles - Relaxing Puzzle",
+          "publisher": "Agave Games",
+          "category": "Games",
+          "app_id": "6783815362",
+          "url": "https://apps.apple.com/us/app/word-tiles-relaxing-puzzle/id6783815362?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/a6/0d/b7a60dcc-8136-3463-23ed-fb4976800c3d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Word Tiles is a relaxing word game designed for everyone!\n\nConnect the letter ti"
+        },
+        {
+          "rank": 88,
+          "name": "Hole Stars: Puzzle Game",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "app_id": "6747028173",
+          "url": "https://apps.apple.com/us/app/hole-stars-puzzle-game/id6747028173?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/fa/01/01fa01b0-d0b6-f63f-a67b-4227ff759314/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Hole Stars – Scoop, Solve, and Shine\n\nLooking for a game that’s fun, fast, and t"
+        },
+        {
+          "rank": 95,
+          "name": "OneState RP: Role Play Online",
+          "publisher": "CHILLBASE LTD",
+          "category": "Games",
+          "app_id": "1597760047",
+          "url": "https://apps.apple.com/us/app/onestate-rp-role-play-online/id1597760047?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/7d/51/5c7d5143-0bd7-9ce4-7680-5aae0f4839d6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "OneState – Live Free, Play Real\n\nIn OneState, real players run everything — the "
+        },
+        {
+          "rank": 97,
+          "name": "Travel Town - Merge Adventure",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "app_id": "1521236603",
+          "url": "https://apps.apple.com/us/app/travel-town-merge-adventure/id1521236603?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/1b/b5/cf1bb5a0-61ea-3356-434f-c0885be27798/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Explore Travel Town, where you can combine everything into better and more usefu"
+        },
+        {
+          "rank": 98,
+          "name": "PUBG MOBILE",
+          "publisher": "Tencent Mobile International Limited",
+          "category": "Games",
+          "app_id": "1330123889",
+          "url": "https://apps.apple.com/us/app/pubg-mobile/id1330123889?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/98/24/6d9824dd-f75f-9bd6-221e-33324fedecb2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "【Epic battle royale masterpiece】\nLots of events for you to explore.Climb to the "
+        },
+        {
+          "rank": 99,
+          "name": "Retro Bowl",
+          "publisher": "New Star Games",
+          "category": "Games",
+          "app_id": "1478902583",
+          "url": "https://apps.apple.com/us/app/retro-bowl/id1478902583?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/7d/d8/197dd8db-93d4-f20b-b99b-fd809f070698/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Retro Bowl is the perfect game for the armchair quarterback to finally prove a p"
+        },
+        {
+          "rank": 100,
+          "name": "Pocket Sort: Coin Merge Puzzle",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6755425214",
+          "url": "https://apps.apple.com/us/app/pocket-sort-coin-merge-puzzle/id6755425214?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fb/6f/7b/fb6f7bf1-770c-1717-f125-64b47f57679d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "► SORT YOUR WAY TO HAPPINESS\n\nMaster mergers, ready those fingers and get to mat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 7,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 44,
+          "name": "球球大作战-送天使的羽毛",
+          "publisher": "巨人网络科技有限公司",
+          "category": "游戏",
+          "app_id": "996509117",
+          "url": "https://apps.apple.com/cn/app/%E7%90%83%E7%90%83%E5%A4%A7%E4%BD%9C%E6%88%98-%E9%80%81%E5%A4%A9%E4%BD%BF%E7%9A%84%E7%BE%BD%E6%AF%9B/id996509117?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/36/c4/9536c467-4873-bfc1-590e-26341e4dae1e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《球球大作战》（Battle of Balls）是轻松有趣的休闲竞技手游大作，年轻玩家的共同选择！\n这是一款好玩、萌酷、有挑战性的实时对战休闲竞技游戏。在这个球"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 45,
+          "name": "潮汐守望者",
+          "publisher": "Moonton Games",
+          "category": "游戏",
+          "app_id": "6484164228",
+          "url": "https://apps.apple.com/cn/app/%E6%BD%AE%E6%B1%90%E5%AE%88%E6%9C%9B%E8%80%85/id6484164228?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/6c/52/dc6c5269-daea-49c8-7958-cff00f94fb1f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「策略不将就，谁玩谁上头」\n塔防策略革新者《潮汐守望者》——抛开简单呆板的合成消除，感受耐玩上头的塔防策略。\n你将扮演泰亚大陆的指挥官，在原汁原味的写实西幻世界"
+        },
+        {
+          "rank": 89,
+          "name": "云·原神",
+          "publisher": "miHoYo Games",
+          "category": "游戏",
+          "app_id": "1569029742",
+          "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E5%8E%9F%E7%A5%9E/id1569029742?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/31/71/1b3171d3-bd1b-bfe4-1e78-ec1ec92568eb/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "无数生灵繁衍聚集的广袤大陆「提瓦特」，天地万象蕴含其间。\n这里是七神统治、七种元素交汇的世界……\n\n陌生的天空下，少年少女立于尘沙。\n你们是一对旅行中的双子，从"
+        },
+        {
+          "rank": 92,
+          "name": "迷你枪战精英",
+          "publisher": "Hainan Mengxing Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "1551614000",
+          "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E6%9E%AA%E6%88%98%E7%B2%BE%E8%8B%B1/id1551614000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/c5/f3/20c5f3ba-6c83-5c95-a1c3-51b5f60ddac9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《迷你枪战精英》是迷你世界IP矩阵下全新推出的一款射击手游。明亮清新的Q版画风，紧张刺激的团队对抗，提供不同以往的 游戏体验。游戏内小艾、幻音、幻-零式、华乐等"
+        },
+        {
+          "rank": 96,
+          "name": "初音未来：缤纷舞台",
+          "publisher": "Beijing Zhaoxiguangnian Information Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "1554443522",
+          "url": "https://apps.apple.com/cn/app/%E5%88%9D%E9%9F%B3%E6%9C%AA%E6%9D%A5-%E7%BC%A4%E7%BA%B7%E8%88%9E%E5%8F%B0/id1554443522?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/0f/b7/e40fb71c-7671-93d0-7cf0-d24027eafb28/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「“世界”，是一个可以找到真正心愿的地方。」 - 初音未来\n游戏讲述了五组热爱音乐的少年少女们误打误撞地进入由心愿诞生的虚拟世界，在初音未来等虚拟歌手们的帮助下"
+        },
+        {
+          "rank": 98,
+          "name": "香肠派对",
+          "publisher": "X.D. Network Inc.",
+          "category": "游戏",
+          "app_id": "1326730621",
+          "url": "https://apps.apple.com/cn/app/%E9%A6%99%E8%82%A0%E6%B4%BE%E5%AF%B9/id1326730621?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/23/2c/69232c41-bd1f-df47-ef3e-ce87ff4f96ef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "SS27赛季：创造与破坏 肆意的建造还是疯狂的破坏由你来决定！\n\n经典派对新武器—砖砖发射器，支持实时搭建与拆解建筑结构，战术维度全面升级！新武器—QLU-11"
+        },
+        {
+          "rank": 100,
+          "name": "极品飞车：集结",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1598249037",
+          "url": "https://apps.apple.com/cn/app/%E6%9E%81%E5%93%81%E9%A3%9E%E8%BD%A6-%E9%9B%86%E7%BB%93/id1598249037?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/bb/8d/7bbb8d29-a2b0-fe15-b7b3-3c5c36c77074/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【开放世界 自由探索】\n欢迎来到一亿平米热湾大世界，在这里，12种风貌各异的区域，20个地标以及500个玩法点等你来探索。高自由度地图搭配上丰富的单人以及多人玩"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 6,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 44,
+          "name": "球球大作战-送天使的羽毛",
+          "publisher": "巨人网络科技有限公司",
+          "category": "游戏",
+          "app_id": "996509117",
+          "url": "https://apps.apple.com/cn/app/%E7%90%83%E7%90%83%E5%A4%A7%E4%BD%9C%E6%88%98-%E9%80%81%E5%A4%A9%E4%BD%BF%E7%9A%84%E7%BE%BD%E6%AF%9B/id996509117?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/36/c4/9536c467-4873-bfc1-590e-26341e4dae1e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《球球大作战》（Battle of Balls）是轻松有趣的休闲竞技手游大作，年轻玩家的共同选择！\n这是一款好玩、萌酷、有挑战性的实时对战休闲竞技游戏。在这个球"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 76,
+          "name": "Risdom（リズダム） -英語攻略リズムゲーム-",
+          "publisher": "Benesse Corporation",
+          "category": "ゲーム",
+          "app_id": "6464281123",
+          "url": "https://apps.apple.com/jp/app/risdom-%E3%83%AA%E3%82%BA%E3%83%80%E3%83%A0-%E8%8B%B1%E8%AA%9E%E6%94%BB%E7%95%A5%E3%83%AA%E3%82%BA%E3%83%A0%E3%82%B2%E3%83%BC%E3%83%A0/id6464281123?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/74/23/c4742340-d8bd-6557-faf8-7bf80ee7249c/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "≪ゲーム時間を勉強時間に≫\n■Risdom（リズダム）とは\nセガ エックスディーとベネッセが共同開発した、リズムゲームを楽しみながら英検®５級～１級レベルの英語"
+        },
+        {
+          "rank": 82,
+          "name": "妖怪ウォッチ ぷにぷに",
+          "publisher": "Level-5 Inc.",
+          "category": "ゲーム",
+          "app_id": "1032346221",
+          "url": "https://apps.apple.com/jp/app/%E5%A6%96%E6%80%AA%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81-%E3%81%B7%E3%81%AB%E3%81%B7%E3%81%AB/id1032346221?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/a8/f2/77a8f229-a7a8-d3f7-224e-ff3e7ee1e788/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+          "slogan": "あの「妖怪ウォッチ」が\n”ぷにっ”とパズルでスマホゲームに！\n\nジバニャンやコマさんなど、みんなが大好きな妖怪が\nぷにぷに感が気持ちいい“妖怪ぷに”になったよ！"
+        },
+        {
+          "rank": 92,
+          "name": "ブレードウォー",
+          "publisher": "EVISTA PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6769617371",
+          "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%AC%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A9%E3%83%BC/id6769617371?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/c6/17/49c6179f-cc24-a1e0-604c-38a777fcd8cc/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "厳しい寒さが三国の大地を襲った。さあ、今、新たな物語があなたの手で始まろうとしている！\n仁義の心を持つ領主として、城門を開きさまよう難民を迎え、無料で獲得したS"
+        },
+        {
+          "rank": 99,
+          "name": "ナンバーマッチ - 数字パズル",
+          "publisher": "Easybrain Ltd",
+          "category": "ゲーム",
+          "app_id": "1545567989",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E3%83%9E%E3%83%83%E3%83%81-%E6%95%B0%E5%AD%97%E3%83%91%E3%82%BA%E3%83%AB/id1545567989?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/39/8b/66398be1-3c5c-db79-0248-a096170e6efe/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Number Matchは、ペアをマッチさせてボードから消す、シンプルなルールのハマれるパズルゲームです。ナンバーマッチは脳を使ったいい暇つぶしにもなります。論"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 97,
+          "name": "幻想水滸伝 STAR LEAP",
+          "publisher": "KONAMI",
+          "category": "ゲーム",
+          "app_id": "6746180100",
+          "url": "https://apps.apple.com/jp/app/%E5%B9%BB%E6%83%B3%E6%B0%B4%E6%BB%B8%E4%BC%9D-star-leap/id6746180100?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/02/ae/0c/02ae0c1f-3b44-ac32-a686-e7566993083a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "◆本作の特徴◆\n■出会いが物語を動かす——仲間と紡ぐ群像劇\n世界を廻り、108星をはじめ多くのキャラクターとの出会いによって紡がれる物語。\n仲間が増えるほど、冒"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 76,
+          "name": "Risdom（リズダム） -英語攻略リズムゲーム-",
+          "publisher": "Benesse Corporation",
+          "category": "ゲーム",
+          "app_id": "6464281123",
+          "url": "https://apps.apple.com/jp/app/risdom-%E3%83%AA%E3%82%BA%E3%83%80%E3%83%A0-%E8%8B%B1%E8%AA%9E%E6%94%BB%E7%95%A5%E3%83%AA%E3%82%BA%E3%83%A0%E3%82%B2%E3%83%BC%E3%83%A0/id6464281123?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/74/23/c4742340-d8bd-6557-faf8-7bf80ee7249c/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "≪ゲーム時間を勉強時間に≫\n■Risdom（リズダム）とは\nセガ エックスディーとベネッセが共同開発した、リズムゲームを楽しみながら英検®５級～１級レベルの英語"
+        },
+        {
+          "rank": 82,
+          "name": "妖怪ウォッチ ぷにぷに",
+          "publisher": "Level-5 Inc.",
+          "category": "ゲーム",
+          "app_id": "1032346221",
+          "url": "https://apps.apple.com/jp/app/%E5%A6%96%E6%80%AA%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81-%E3%81%B7%E3%81%AB%E3%81%B7%E3%81%AB/id1032346221?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/a8/f2/77a8f229-a7a8-d3f7-224e-ff3e7ee1e788/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+          "slogan": "あの「妖怪ウォッチ」が\n”ぷにっ”とパズルでスマホゲームに！\n\nジバニャンやコマさんなど、みんなが大好きな妖怪が\nぷにぷに感が気持ちいい“妖怪ぷに”になったよ！"
+        },
+        {
+          "rank": 92,
+          "name": "ブレードウォー",
+          "publisher": "EVISTA PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6769617371",
+          "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%AC%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A9%E3%83%BC/id6769617371?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/c6/17/49c6179f-cc24-a1e0-604c-38a777fcd8cc/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "厳しい寒さが三国の大地を襲った。さあ、今、新たな物語があなたの手で始まろうとしている！\n仁義の心を持つ領主として、城門を開きさまよう難民を迎え、無料で獲得したS"
+        },
+        {
+          "rank": 99,
+          "name": "ナンバーマッチ - 数字パズル",
+          "publisher": "Easybrain Ltd",
+          "category": "ゲーム",
+          "app_id": "1545567989",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E3%83%9E%E3%83%83%E3%83%81-%E6%95%B0%E5%AD%97%E3%83%91%E3%82%BA%E3%83%AB/id1545567989?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/39/8b/66398be1-3c5c-db79-0248-a096170e6efe/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Number Matchは、ペアをマッチさせてボードから消す、シンプルなルールのハマれるパズルゲームです。ナンバーマッチは脳を使ったいい暇つぶしにもなります。論"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 1,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 76,
+          "name": "Risdom（リズダム） -英語攻略リズムゲーム-",
+          "publisher": "Benesse Corporation",
+          "category": "ゲーム",
+          "app_id": "6464281123",
+          "url": "https://apps.apple.com/jp/app/risdom-%E3%83%AA%E3%82%BA%E3%83%80%E3%83%A0-%E8%8B%B1%E8%AA%9E%E6%94%BB%E7%95%A5%E3%83%AA%E3%82%BA%E3%83%A0%E3%82%B2%E3%83%BC%E3%83%A0/id6464281123?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/74/23/c4742340-d8bd-6557-faf8-7bf80ee7249c/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "≪ゲーム時間を勉強時間に≫\n■Risdom（リズダム）とは\nセガ エックスディーとベネッセが共同開発した、リズムゲームを楽しみながら英検®５級～１級レベルの英語"
+        },
+        {
+          "rank": 82,
+          "name": "妖怪ウォッチ ぷにぷに",
+          "publisher": "Level-5 Inc.",
+          "category": "ゲーム",
+          "app_id": "1032346221",
+          "url": "https://apps.apple.com/jp/app/%E5%A6%96%E6%80%AA%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81-%E3%81%B7%E3%81%AB%E3%81%B7%E3%81%AB/id1032346221?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/a8/f2/77a8f229-a7a8-d3f7-224e-ff3e7ee1e788/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+          "slogan": "あの「妖怪ウォッチ」が\n”ぷにっ”とパズルでスマホゲームに！\n\nジバニャンやコマさんなど、みんなが大好きな妖怪が\nぷにぷに感が気持ちいい“妖怪ぷに”になったよ！"
+        },
+        {
+          "rank": 92,
+          "name": "ブレードウォー",
+          "publisher": "EVISTA PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6769617371",
+          "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%AC%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A9%E3%83%BC/id6769617371?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/c6/17/49c6179f-cc24-a1e0-604c-38a777fcd8cc/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "厳しい寒さが三国の大地を襲った。さあ、今、新たな物語があなたの手で始まろうとしている！\n仁義の心を持つ領主として、城門を開きさまよう難民を迎え、無料で獲得したS"
+        },
+        {
+          "rank": 99,
+          "name": "ナンバーマッチ - 数字パズル",
+          "publisher": "Easybrain Ltd",
+          "category": "ゲーム",
+          "app_id": "1545567989",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E3%83%9E%E3%83%83%E3%83%81-%E6%95%B0%E5%AD%97%E3%83%91%E3%82%BA%E3%83%AB/id1545567989?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/39/8b/66398be1-3c5c-db79-0248-a096170e6efe/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Number Matchは、ペアをマッチさせてボードから消す、シンプルなルールのハマれるパズルゲームです。ナンバーマッチは脳を使ったいい暇つぶしにもなります。論"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
