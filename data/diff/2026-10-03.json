@@ -1,0 +1,519 @@
+{
+  "date": "2026-10-03",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 16,
+          "name": "灵瑞集猫咪树屋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 15名模拟经营",
+          "publisher": "",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "躺平发育",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 8名塔防",
+          "publisher": "北京蜜獾工坊娱乐文化有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 11,
+          "name": "造个大英雄",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 10名益智",
+          "publisher": "厦门凯斌信息科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 13,
+          "name": "贪吃蛇大作战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 12名益智io轻竞技",
+          "publisher": "武汉微派网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "赵云与阿斗",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 16名塔防",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 16,
+          "name": "灵瑞集猫咪树屋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 15名模拟经营",
+          "publisher": "",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "三国杀",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 3名益智",
+          "publisher": "杭州游卡网络技术有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 13,
+          "name": "奔奔王国",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "竞技 · 2名对战",
+          "publisher": "福州点点松云网络有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "次神：光之觉醒",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 4名卡牌",
+          "publisher": "在线途游（北京）科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 18,
+          "name": "闪耀吧！噜咪",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名模拟经营",
+          "publisher": "上海幻电信息科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [
+        {
+          "rank": 20,
+          "name": "挪了个啥",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 18名益智",
+          "publisher": "个人开发者",
+          "change": "2",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "猛鬼宿舍",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 17名塔防",
+          "publisher": "北京蜜獾工坊娱乐文化有限公司",
+          "change": "6",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 20,
+          "name": "挪了个啥",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 18名益智",
+          "publisher": "个人开发者",
+          "change": "2",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 85,
+          "name": "NYT Games: Wordle & Crossword",
+          "publisher": "The New York Times Company",
+          "category": "Games",
+          "app_id": "307569751",
+          "url": "https://apps.apple.com/us/app/nyt-games-wordle-crossword/id307569751?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/e3/d9/76e3d90a-5d4f-4ae2-82c3-7926d76d8a17/Release-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/100x100bb.png",
+          "slogan": "New York Times Games is the essential app for anyone who loves word, logic and n"
+        },
+        {
+          "rank": 88,
+          "name": "Jam Bus:Sandfall",
+          "publisher": "Nova Games Technology Limited",
+          "category": "Games",
+          "app_id": "6797530374",
+          "url": "https://apps.apple.com/us/app/jam-bus-sandfall/id6797530374?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c8/16/6c/c8166c99-8454-96ba-3a28-80160000cc83/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Clear colorful sand with buses, plan each route, and avoid every crash.Tap the r"
+        },
+        {
+          "rank": 91,
+          "name": "Foodstars: Merge & Cook",
+          "publisher": "Happibits",
+          "category": "Games",
+          "app_id": "6753862216",
+          "url": "https://apps.apple.com/us/app/foodstars-merge-cook/id6753862216?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/db/2f/fbdb2fd9-b516-51a0-2176-2d73fea41f6a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Dream of becoming a Star Chef? Now’s your chance!\nEver imagined learning the sec"
+        },
+        {
+          "rank": 93,
+          "name": "Geometry Dash Lite",
+          "publisher": "RobTop Games AB",
+          "category": "Games",
+          "app_id": "698255242",
+          "url": "https://apps.apple.com/us/app/geometry-dash-lite/id698255242?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/08/7f/2a087f71-90d8-b8a0-7f4d-97a0c35e2194/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "Jump and fly your way through danger in this rhythm-based action platformer!\n\n\"F"
+        },
+        {
+          "rank": 96,
+          "name": "Find Hidden Objects - Spot It!",
+          "publisher": "Yolo Game Studios",
+          "category": "Games",
+          "app_id": "6474133872",
+          "url": "https://apps.apple.com/us/app/find-hidden-objects-spot-it/id6474133872?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/a8/47/49a8473d-7985-cea2-12f8-d102db87702f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Embark on a relaxing and enjoyable journey through hundreds of levels. Have fun "
+        },
+        {
+          "rank": 97,
+          "name": "Wordscapes - Word Game",
+          "publisher": "PeopleFun, Inc.",
+          "category": "Games",
+          "app_id": "1207472156",
+          "url": "https://apps.apple.com/us/app/wordscapes-word-game/id1207472156?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/84/72/05847236-2992-f097-404c-b26bbb30c565/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Playing Wordscapes 10 mins a day sharpens your mind and prepares you for your da"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 6,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 74,
+          "name": "来掼蛋-边锋掼蛋新版",
+          "publisher": "杭州齐盛网络技术有限公司",
+          "category": "游戏",
+          "app_id": "6742978828",
+          "url": "https://apps.apple.com/cn/app/%E6%9D%A5%E6%8E%BC%E8%9B%8B-%E8%BE%B9%E9%94%8B%E6%8E%BC%E8%9B%8B%E6%96%B0%E7%89%88/id6742978828?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/ab/75/48ab758a-4387-8aa4-82f5-ef43dbefa376/AppIcon-1x_U007epad-0-4-85-220-0.png/100x100bb.png",
+          "slogan": "掼蛋是当前风靡全国的扑克游戏，而《来掼蛋》则是围绕比赛玩法打造的全新掼蛋品类游戏，为全国掼蛋爱好者提供一个同台竞技的高品质游戏平台。\n\n游戏特色：\n【适合新手】"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 91,
+          "name": "勇士之心",
+          "publisher": "Guangzhou Yimeng Technology Company Limited",
+          "category": "游戏",
+          "app_id": "6764461448",
+          "url": "https://apps.apple.com/cn/app/%E5%8B%87%E5%A3%AB%E4%B9%8B%E5%BF%83/id6764461448?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/ca/1b/12ca1bac-23ae-84a1-59fb-359a8418123d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "操控勇士深入奇幻地下城，走位、放技能、连击连招，打击感拉满，每一刀都爽到极致！\n《勇士之心》— 热血横版格斗，经典重燃！\n【热血动作 · 极致战斗体验】\n经典横"
+        },
+        {
+          "rank": 93,
+          "name": "猛鬼宿舍",
+          "publisher": "Beijing Mihuan Games Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "1609347000",
+          "url": "https://apps.apple.com/cn/app/%E7%8C%9B%E9%AC%BC%E5%AE%BF%E8%88%8D/id1609347000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/b6/cc/d2b6cc90-ab64-1605-8bb3-2d84064029e9/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+          "slogan": "《猛鬼宿舍》是一款2D塔防小游戏。游戏中玩家需躲避猎梦者的追捕，寻找适合自己的宿舍躲避，并发展经济建造炮台，抵御猎梦者。游戏中玩家只可以在房间中的空地板上进行建"
+        },
+        {
+          "rank": 94,
+          "name": "元梦之星",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1632344522",
+          "url": "https://apps.apple.com/cn/app/%E5%85%83%E6%A2%A6%E4%B9%8B%E6%98%9F/id1632344522?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/71/46/58714613-f8ea-6cc6-9299-ff297c63a514/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "《元梦之星》是一款轻松社交派对游戏，玩家们可以化身星宝，体验纯粹的游玩乐趣，收获简单的快乐。无论i人e人，都能轻松找到属于自己的社交方式。\n\n《元梦之星》的快乐"
+        },
+        {
+          "rank": 99,
+          "name": "皇冠斗地主-骰子斗地主",
+          "publisher": "弈趣玩科技(北京)有限公司",
+          "category": "游戏",
+          "app_id": "6746925059",
+          "url": "https://apps.apple.com/cn/app/%E7%9A%87%E5%86%A0%E6%96%97%E5%9C%B0%E4%B8%BB-%E9%AA%B0%E5%AD%90%E6%96%97%E5%9C%B0%E4%B8%BB/id6746925059?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/0d/c5/390dc558-9ac3-1468-97bd-d3ffba5c8ff3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《皇冠斗地主》2026年棋牌游戏精品之作！\n全新核心玩法“骰子斗地主”重磅上线，将经典斗地主与趣味骰子机制结合，带来更刺激、更有变化的真人竞技体验。\n\n【游戏特"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 74,
+          "name": "来掼蛋-边锋掼蛋新版",
+          "publisher": "杭州齐盛网络技术有限公司",
+          "category": "游戏",
+          "app_id": "6742978828",
+          "url": "https://apps.apple.com/cn/app/%E6%9D%A5%E6%8E%BC%E8%9B%8B-%E8%BE%B9%E9%94%8B%E6%8E%BC%E8%9B%8B%E6%96%B0%E7%89%88/id6742978828?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/ab/75/48ab758a-4387-8aa4-82f5-ef43dbefa376/AppIcon-1x_U007epad-0-4-85-220-0.png/100x100bb.png",
+          "slogan": "掼蛋是当前风靡全国的扑克游戏，而《来掼蛋》则是围绕比赛玩法打造的全新掼蛋品类游戏，为全国掼蛋爱好者提供一个同台竞技的高品质游戏平台。\n\n游戏特色：\n【适合新手】"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 4,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 74,
+          "name": "来掼蛋-边锋掼蛋新版",
+          "publisher": "杭州齐盛网络技术有限公司",
+          "category": "游戏",
+          "app_id": "6742978828",
+          "url": "https://apps.apple.com/cn/app/%E6%9D%A5%E6%8E%BC%E8%9B%8B-%E8%BE%B9%E9%94%8B%E6%8E%BC%E8%9B%8B%E6%96%B0%E7%89%88/id6742978828?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/ab/75/48ab758a-4387-8aa4-82f5-ef43dbefa376/AppIcon-1x_U007epad-0-4-85-220-0.png/100x100bb.png",
+          "slogan": "掼蛋是当前风靡全国的扑克游戏，而《来掼蛋》则是围绕比赛玩法打造的全新掼蛋品类游戏，为全国掼蛋爱好者提供一个同台竞技的高品质游戏平台。\n\n游戏特色：\n【适合新手】"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 19,
+          "name": "ドラゴンブラッド：スレイヤーズ学院（ドラガク）",
+          "publisher": "Archosaur Games",
+          "category": "ゲーム",
+          "app_id": "6751229187",
+          "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%96%E3%83%A9%E3%83%83%E3%83%89-%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%82%BA%E5%AD%A6%E9%99%A2-%E3%83%89%E3%83%A9%E3%82%AC%E3%82%AF/id6751229187?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/6a/36/f46a3616-c6da-da5a-b7be-f81b2ee9fa96/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "累計発行部数3000万部、全世界で爆発的な人気を誇るファンタジー小説「龍族」が群像劇RPGで登場！\nAIアシスタント搭載、魅力的なキャラで爽快バトル、新たなIF"
+        },
+        {
+          "rank": 62,
+          "name": "World of Airports",
+          "publisher": "Jakub Kadlec",
+          "category": "ゲーム",
+          "app_id": "1462642534",
+          "url": "https://apps.apple.com/jp/app/world-of-airports/id1462642534?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/8c/fc/898cfc7b-57ac-5744-c4f2-17e07d81e607/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "WORLD OF AIRPORTS\n\nモバイルで楽しめるリアルな航空ゲームのひとつで、自分だけの空港を築き、管理し、成長させましょう。\n\nWorld of Ai"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 91,
+          "name": "モンスターサバイバル",
+          "publisher": "Farlight Games",
+          "category": "ゲーム",
+          "app_id": "6741567125",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id6741567125?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/01/3e/3f013e74-6af1-4630-428c-556215de12b0/AppIcon-Global-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【収集！100種類以上のタタを手軽にゲット！】\nどこにでもいるようなデザインはもう卒業！よだれを垂らすフルッグ、しょんぼり顔のナンモナイシ……どのタタもかわいさ"
+        },
+        {
+          "rank": 92,
+          "name": "モンスターストライク",
+          "publisher": "XFLAG, Inc.",
+          "category": "ゲーム",
+          "app_id": "658511662",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF/id658511662?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/00/0c/31000cbd-5ade-592b-8226-0c8c4af0188e/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/100x100bb.png",
+          "slogan": "◆祝・国内利用者5000万人突破！／テレビCM絶賛放映中！◆\n\n最大4人同時に楽しめる「ひっぱりハンティングRPG！」\nモンスターマスターになって様々な能力を持"
+        },
+        {
+          "rank": 100,
+          "name": "チート勇者～インベントリ攻略ゲー～RPG",
+          "publisher": "5minlab Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6755585789",
+          "url": "https://apps.apple.com/jp/app/%E3%83%81%E3%83%BC%E3%83%88%E5%8B%87%E8%80%85-%E3%82%A4%E3%83%B3%E3%83%99%E3%83%B3%E3%83%88%E3%83%AA%E6%94%BB%E7%95%A5%E3%82%B2%E3%83%BC-rpg/id6755585789?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/ca/74/e6ca74e1-fcf1-2a49-457d-d77847eaeb69/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "チート勇者 – レトロドット絵ローグライクRPG\n『チート勇者』は、レトロなドット絵で楽しめるローグライクRPG。\nマージと合成を駆使し、ペットとともに強くなり"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 19,
+          "name": "ドラゴンブラッド：スレイヤーズ学院（ドラガク）",
+          "publisher": "Archosaur Games",
+          "category": "ゲーム",
+          "app_id": "6751229187",
+          "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%96%E3%83%A9%E3%83%83%E3%83%89-%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%82%BA%E5%AD%A6%E9%99%A2-%E3%83%89%E3%83%A9%E3%82%AC%E3%82%AF/id6751229187?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/6a/36/f46a3616-c6da-da5a-b7be-f81b2ee9fa96/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "累計発行部数3000万部、全世界で爆発的な人気を誇るファンタジー小説「龍族」が群像劇RPGで登場！\nAIアシスタント搭載、魅力的なキャラで爽快バトル、新たなIF"
+        },
+        {
+          "rank": 62,
+          "name": "World of Airports",
+          "publisher": "Jakub Kadlec",
+          "category": "ゲーム",
+          "app_id": "1462642534",
+          "url": "https://apps.apple.com/jp/app/world-of-airports/id1462642534?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/8c/fc/898cfc7b-57ac-5744-c4f2-17e07d81e607/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "WORLD OF AIRPORTS\n\nモバイルで楽しめるリアルな航空ゲームのひとつで、自分だけの空港を築き、管理し、成長させましょう。\n\nWorld of Ai"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 19,
+          "name": "ドラゴンブラッド：スレイヤーズ学院（ドラガク）",
+          "publisher": "Archosaur Games",
+          "category": "ゲーム",
+          "app_id": "6751229187",
+          "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%96%E3%83%A9%E3%83%83%E3%83%89-%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%82%BA%E5%AD%A6%E9%99%A2-%E3%83%89%E3%83%A9%E3%82%AC%E3%82%AF/id6751229187?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/6a/36/f46a3616-c6da-da5a-b7be-f81b2ee9fa96/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "累計発行部数3000万部、全世界で爆発的な人気を誇るファンタジー小説「龍族」が群像劇RPGで登場！\nAIアシスタント搭載、魅力的なキャラで爽快バトル、新たなIF"
+        },
+        {
+          "rank": 62,
+          "name": "World of Airports",
+          "publisher": "Jakub Kadlec",
+          "category": "ゲーム",
+          "app_id": "1462642534",
+          "url": "https://apps.apple.com/jp/app/world-of-airports/id1462642534?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/8c/fc/898cfc7b-57ac-5744-c4f2-17e07d81e607/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "WORLD OF AIRPORTS\n\nモバイルで楽しめるリアルな航空ゲームのひとつで、自分だけの空港を築き、管理し、成長させましょう。\n\nWorld of Ai"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 86,
+          "name": "Word Tiles - Relaxing Puzzle",
+          "publisher": "Agave Games",
+          "category": "Games",
+          "package": "com.agavegames.wordtiles"
+        },
+        {
+          "rank": 99,
+          "name": "Dot Link - Connect the Dots",
+          "publisher": "Bluetile",
+          "category": "Games",
+          "package": "com.playvalve.connect.dots"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
