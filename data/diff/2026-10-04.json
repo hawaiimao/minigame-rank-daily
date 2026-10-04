@@ -1,0 +1,862 @@
+{
+  "date": "2026-10-04",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 3,
+          "name": "拳击布娃娃游戏",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 3名",
+          "publisher": "益智",
+          "change": "--",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "脑洞工坊",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 14名",
+          "publisher": "益智",
+          "change": "广州宝可梦科技有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "挪个不停",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 18名",
+          "publisher": "益智",
+          "change": "长沙指色网络科技有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "玩转脑洞呀",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 19名",
+          "publisher": "益智",
+          "change": "--",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "羊了个羊：星球",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 1名",
+          "publisher": "消除",
+          "change": "北京简游科技有限公司",
+          "change_direction": "top"
+        },
+        {
+          "rank": 2,
+          "name": "上个了车",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 2名",
+          "publisher": "益智",
+          "change": "--",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 5,
+          "name": "腾讯欢乐斗地主",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 1名",
+          "publisher": "牌类",
+          "change": "+2",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 7,
+          "name": "躺平发育",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 6名",
+          "publisher": "塔防",
+          "change": "北京蜜獾工坊娱乐文化有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 8,
+          "name": "向末日开炮",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 7名",
+          "publisher": "模拟经营",
+          "change": "海南易多量科技有限公司",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 5
+      },
+      "new_to_board": [
+        {
+          "rank": 3,
+          "name": "拳击布娃娃游戏",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 3名",
+          "publisher": "益智",
+          "change": "--",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "保卫向日葵",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 8名",
+          "publisher": "塔防",
+          "change": "深圳市一起梦游科技有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "向往的生活",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 12名",
+          "publisher": "模拟经营",
+          "change": "深圳市必凡娱乐科技有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "欢乐战三国",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 5名",
+          "publisher": "卡牌",
+          "change": "深圳市奥创互娱科技有限公司",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "三国：冰河时代",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "其他 · 1名",
+          "publisher": "其他",
+          "change": "欢游互动（北京）科技有限公司",
+          "change_direction": "top"
+        },
+        {
+          "rank": 2,
+          "name": "向僵尸开炮",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 1名",
+          "publisher": "益智",
+          "change": "海南盛昌网络科技有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 3,
+          "name": "我的花园世界",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 2名",
+          "publisher": "模拟经营",
+          "change": "厦门麟贝互娱科技有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 4,
+          "name": "无尽冬日",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "竞技 · 1名",
+          "publisher": "对战",
+          "change": "点点互动（北京）科技有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 6,
+          "name": "永远的蔚蓝星球",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 4名",
+          "publisher": "塔防",
+          "change": "广州颂悦信息技术有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 7,
+          "name": "青云诀之伏魔",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 1名",
+          "publisher": "MMO",
+          "change": "海南元游信息技术有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 10,
+          "name": "大王请上阵",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 2名",
+          "publisher": "卡牌",
+          "change": "深圳市悦莱顺网络科技有限公司",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 7
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "贪吃蛇大作战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 16名",
+          "publisher": "益智",
+          "change": "+2",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "羊了个羊：星球",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 1名",
+          "publisher": "消除",
+          "change": "北京简游科技有限公司",
+          "change_direction": "top"
+        },
+        {
+          "rank": 2,
+          "name": "赵云与阿斗",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 2名",
+          "publisher": "塔防",
+          "change": "北京蜜獾工坊科技有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 3,
+          "name": "抓大鹅",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 3名",
+          "publisher": "益智",
+          "change": "青岛蓝飞互娱科技股份有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "掼蛋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 1名",
+          "publisher": "牌类",
+          "change": "+2",
+          "change_direction": "up"
+        }
+      ],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 4
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "粒粒的小人国",
+          "publisher": "腾讯",
+          "category": "模拟经营",
+          "subcategory": "建造、治愈、休闲、3D、社交、种田、换装、多人联机、角色扮演"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 98,
+          "name": "Find The Cat 2 - Spot It!",
+          "publisher": "Agave Games",
+          "category": "Games",
+          "app_id": "6758662578",
+          "url": "https://apps.apple.com/us/app/find-the-cat-2-spot-it/id6758662578?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/8b/a5/8f8ba52a-ab1f-726e-08b3-2579b2d7a343/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to a brand-new adventure in the Find The Cat series. Get ready for a col"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 48,
+          "name": "PlayCash Rewards",
+          "publisher": "Scale.ad, LLC",
+          "category": "Games",
+          "app_id": "6761865516",
+          "url": "https://apps.apple.com/us/app/playcash-rewards/id6761865516?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/52/eb/4a52eb61-93f9-f185-6a2c-881cb4b0fe5d/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "PlayCash helps you discover great mobile games and stay motivated as you play.\n\n"
+        },
+        {
+          "rank": 83,
+          "name": "Offline Games - No Wifi Games",
+          "publisher": "Moreno Maio",
+          "category": "Games",
+          "app_id": "6448104157",
+          "url": "https://apps.apple.com/us/app/offline-games-no-wifi-games/id6448104157?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/44/b0/5644b07d-d3f7-f6b4-8f05-7a85f644b5cf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready for 'Offline Games': fun for all ages, and a mental workout too! This "
+        },
+        {
+          "rank": 84,
+          "name": "Imposter Game - Party Edition",
+          "publisher": "Sven Vucak",
+          "category": "Games",
+          "app_id": "6745120053",
+          "url": "https://apps.apple.com/us/app/imposter-game-party-edition/id6745120053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/69/e0/1069e0bd-1564-9f77-7ea4-a8072e6e90ff/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.png",
+          "slogan": "Are you the imposter - or will you expose them?\n\nImposter is the perfect game fo"
+        },
+        {
+          "rank": 92,
+          "name": "Aniimo",
+          "publisher": "PAWPRINT INTERACTIVE ENTERTAINMENT PTE. LTD",
+          "category": "Games",
+          "app_id": "6759098797",
+          "url": "https://apps.apple.com/us/app/aniimo/id6759098797?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/a8/2e/aba82e5b-5492-1e01-d677-634abedfa5e8/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Aniimo is a free-to-play, next-gen creature-catching open-world RPG. On the vast"
+        },
+        {
+          "rank": 95,
+          "name": "Coin Master - Board Adventure",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "app_id": "6745761596",
+          "url": "https://apps.apple.com/us/app/coin-master-board-adventure/id6745761596?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/ba/e5/a3bae5fc-fa4e-5051-9c6f-08f3181213c0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Roll, raid, and rule the board!\n\nWelcome to Coin Master: Board Adventure, where "
+        },
+        {
+          "rank": 97,
+          "name": "2 Player Games : Offline Games",
+          "publisher": "Moreno Maio",
+          "category": "Games",
+          "app_id": "1465731199",
+          "url": "https://apps.apple.com/us/app/2-player-games-offline-games/id1465731199?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/dd/c3/43ddc3d6-da0e-3fba-9241-ad63caba5e28/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "If you want to play with your friend on the same device, this is the right game!"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 6,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 98,
+          "name": "Find The Cat 2 - Spot It!",
+          "publisher": "Agave Games",
+          "category": "Games",
+          "app_id": "6758662578",
+          "url": "https://apps.apple.com/us/app/find-the-cat-2-spot-it/id6758662578?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/8b/a5/8f8ba52a-ab1f-726e-08b3-2579b2d7a343/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to a brand-new adventure in the Find The Cat series. Get ready for a col"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 31,
+          "name": "奇幻果园",
+          "publisher": "Hangzhou Qiongxiao Network Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6787906105",
+          "url": "https://apps.apple.com/cn/app/%E5%A5%87%E5%B9%BB%E6%9E%9C%E5%9B%AD/id6787906105?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/eb/d4/baebd40e-8dfa-7496-5d8f-082933993341/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "这是一场关于耕耘与甜趣的治愈之旅。果香漫野，清风徐徐，在这片奇幻果园里，慢享悠然日常。你守护的不只是一方沃土，更是一段温暖惬意的时光。\n悉心栽种果苗，静待硕果满"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 86,
+          "name": "模拟城市：我是市长",
+          "publisher": "Beijing Bewinner Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "1174766830",
+          "url": "https://apps.apple.com/cn/app/%E6%A8%A1%E6%8B%9F%E5%9F%8E%E5%B8%82-%E6%88%91%E6%98%AF%E5%B8%82%E9%95%BF/id1174766830?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/3f/6f/743f6fc0-4932-bd9c-ed03-dc71252f56da/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "享誉全球的经典3D模拟经营手游，倾情打造全新“开元古都”国风资料片！\n\n由EA开发、蜂巢游戏独家国内发行的《模拟城市：我是市长》，即将迎来市民入驻啦！一起建设高"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 31,
+          "name": "奇幻果园",
+          "publisher": "Hangzhou Qiongxiao Network Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6787906105",
+          "url": "https://apps.apple.com/cn/app/%E5%A5%87%E5%B9%BB%E6%9E%9C%E5%9B%AD/id6787906105?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/eb/d4/baebd40e-8dfa-7496-5d8f-082933993341/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "这是一场关于耕耘与甜趣的治愈之旅。果香漫野，清风徐徐，在这片奇幻果园里，慢享悠然日常。你守护的不只是一方沃土，更是一段温暖惬意的时光。\n悉心栽种果苗，静待硕果满"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 31,
+          "name": "奇幻果园",
+          "publisher": "Hangzhou Qiongxiao Network Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6787906105",
+          "url": "https://apps.apple.com/cn/app/%E5%A5%87%E5%B9%BB%E6%9E%9C%E5%9B%AD/id6787906105?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/eb/d4/baebd40e-8dfa-7496-5d8f-082933993341/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "这是一场关于耕耘与甜趣的治愈之旅。果香漫野，清风徐徐，在这片奇幻果园里，慢享悠然日常。你守护的不只是一方沃土，更是一段温暖惬意的时光。\n悉心栽种果苗，静待硕果满"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 85,
+          "name": "Jewel Color Sort: ピクセルアートパズル",
+          "publisher": "HappyTapLand Technology Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6772975295",
+          "url": "https://apps.apple.com/jp/app/jewel-color-sort-%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%A2%E3%83%BC%E3%83%88%E3%83%91%E3%82%BA%E3%83%AB/id6772975295?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/ac/4c/3aac4c3e-3afb-acab-552f-e462830ce3b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "鮮やかな色彩とリラックスできるパズルゲームの世界、Jewel Color Sortへようこそ。\nタップして輝く宝石を分類し、正しいカラーゾーンに配置しましょう。"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 78,
+          "name": "ジグソードロップ：ソリティアパズル",
+          "publisher": "Runyou Game",
+          "category": "ゲーム",
+          "app_id": "6767091927",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B8%E3%82%B0%E3%82%BD%E3%83%BC%E3%83%89%E3%83%AD%E3%83%83%E3%83%97-%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2%E3%83%91%E3%82%BA%E3%83%AB/id6767091927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/49/ff/ba49ff67-a806-953b-651f-e15be691e02f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ジグソーパズルとソリティアが融合した、新しい落下型パズルゲーム。\n\nピースを動かして絵の一部を完成させると、その部分が消えて新しいピースが上から落ちてきます。ジ"
+        },
+        {
+          "rank": 80,
+          "name": "マイステッカールーム (My Sticker Room)",
+          "publisher": "SayGames LTD",
+          "category": "ゲーム",
+          "app_id": "6743738094",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BC%E3%83%A0-my-sticker-room/id6743738094?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/3c/6d/723c6dc7-affc-41c4-74cc-5ae0981d13de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "最高に心地よいシールゲーム\n\n生きていれば辛いことだってあります。ですので時間を作ってリラックスすることはとっても大切。そして可憐でかわいいゲームなら、他では味"
+        },
+        {
+          "rank": 91,
+          "name": "ランダムダイス2",
+          "publisher": "111%",
+          "category": "ゲーム",
+          "app_id": "6748432502",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E3%83%80%E3%82%A4%E3%82%B92/id6748432502?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/68/92/8c689267-f750-7590-35d6-fbac36f8cbfa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「待たせたな。俺が、《ランダムダイス2》だ。」\n\n不確実な確率と、課金に依存する時代はもう終わり！\nプレイヤーの純粋な「戦略」だけを残すため、ガチャシステムを果"
+        },
+        {
+          "rank": 92,
+          "name": "カラースライドパズル (Color Slide)",
+          "publisher": "SayGames LTD",
+          "category": "ゲーム",
+          "app_id": "6590876141",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89%E3%83%91%E3%82%BA%E3%83%AB-color-slide/id6590876141?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/cd/7c/bfcd7cf6-8c71-ba19-5a39-149b3968c946/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
+          "slogan": "► 超絶楽しい六角パズル\nリラックスと脳トレが一度に楽しめる、シンプルだけどやりごたえのあるパズルをお探しですか？『カラースライドパズル』は、そんなあなたの贅沢"
+        },
+        {
+          "rank": 97,
+          "name": "魔法のタイルズ 3™: 音ゲー ピアノタイル",
+          "publisher": "Amanotes Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "1443446174",
+          "url": "https://apps.apple.com/jp/app/%E9%AD%94%E6%B3%95%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%BA-3-%E9%9F%B3%E3%82%B2%E3%83%BC-%E3%83%94%E3%82%A2%E3%83%8E%E3%82%BF%E3%82%A4%E3%83%AB/id1443446174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/da/1f/ecda1f99-9109-02f8-7f0c-a99ac272f264/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一年で一番大切な瞬間を、リズムにのって楽しみましょう！ヒット曲のビートで、魂ごとを音楽にのせていきましょう。\n\n\nMagic Tiles 3では、ポップス、ラッ"
+        },
+        {
+          "rank": 99,
+          "name": "にゃんこ大戦争",
+          "publisher": "ponos corporation",
+          "category": "ゲーム",
+          "app_id": "547145938",
+          "url": "https://apps.apple.com/jp/app/%E3%81%AB%E3%82%83%E3%82%93%E3%81%93%E5%A4%A7%E6%88%A6%E4%BA%89/id547145938?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/75/38/21753822-1174-a5eb-254a-6812ffbe4e95/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "にゃんこ大戦争は全世界累計1億1111万DL達成！\n世界中で大人気！ 誰でもお手軽プレイ!!\nにゃんこバトルゲーム!!\n「キモかわにゃんこ」が日本を、未来を、\n"
+        },
+        {
+          "rank": 100,
+          "name": "ナンバーマッチ - 数字パズル",
+          "publisher": "Easybrain Ltd",
+          "category": "ゲーム",
+          "app_id": "1545567989",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E3%83%9E%E3%83%83%E3%83%81-%E6%95%B0%E5%AD%97%E3%83%91%E3%82%BA%E3%83%AB/id1545567989?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/39/8b/66398be1-3c5c-db79-0248-a096170e6efe/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Number Matchは、ペアをマッチさせてボードから消す、シンプルなルールのハマれるパズルゲームです。ナンバーマッチは脳を使ったいい暇つぶしにもなります。論"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 85,
+          "name": "Jewel Color Sort: ピクセルアートパズル",
+          "publisher": "HappyTapLand Technology Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6772975295",
+          "url": "https://apps.apple.com/jp/app/jewel-color-sort-%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%A2%E3%83%BC%E3%83%88%E3%83%91%E3%82%BA%E3%83%AB/id6772975295?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/ac/4c/3aac4c3e-3afb-acab-552f-e462830ce3b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "鮮やかな色彩とリラックスできるパズルゲームの世界、Jewel Color Sortへようこそ。\nタップして輝く宝石を分類し、正しいカラーゾーンに配置しましょう。"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 7,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 85,
+          "name": "Jewel Color Sort: ピクセルアートパズル",
+          "publisher": "HappyTapLand Technology Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6772975295",
+          "url": "https://apps.apple.com/jp/app/jewel-color-sort-%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%A2%E3%83%BC%E3%83%88%E3%83%91%E3%82%BA%E3%83%AB/id6772975295?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/ac/4c/3aac4c3e-3afb-acab-552f-e462830ce3b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "鮮やかな色彩とリラックスできるパズルゲームの世界、Jewel Color Sortへようこそ。\nタップして輝く宝石を分類し、正しいカラーゾーンに配置しましょう。"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "MemeMix Challenge: Funny Party",
+          "publisher": "Amobear VN Game Global",
+          "category": "Games",
+          "package": "com.mimik.challenge.fun"
+        },
+        {
+          "rank": 69,
+          "name": "Tiki Smash!",
+          "publisher": "PeopleFun",
+          "category": "Games",
+          "package": "com.thrivegames.bashbest"
+        },
+        {
+          "rank": 93,
+          "name": "Solar Smash",
+          "publisher": "Paradyme Games",
+          "category": "Games",
+          "package": "com.paradyme.solarsmash"
+        },
+        {
+          "rank": 94,
+          "name": "GOGO! Blast",
+          "publisher": "Nebula  Studio",
+          "category": "Games",
+          "package": "com.nebula.arrows"
+        },
+        {
+          "rank": 96,
+          "name": "Food Sort: Puzzle Game",
+          "publisher": "Playdayy",
+          "category": "Games",
+          "package": "com.triple.food.sort.puzzle.game"
+        },
+        {
+          "rank": 98,
+          "name": "Dice Dreams™️",
+          "publisher": "SuperPlay.",
+          "category": "Games",
+          "package": "com.superplaystudios.dicedreams"
+        },
+        {
+          "rank": 99,
+          "name": "Fast Cash Farkle",
+          "publisher": "GreatPlay App",
+          "category": "Games",
+          "package": "com.greatplay.farklecash"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 62,
+          "name": "Disney Solitaire",
+          "publisher": "SuperPlay.",
+          "category": "Games",
+          "package": "com.superplaystudios.disneysolitairedreams"
+        },
+        {
+          "rank": 100,
+          "name": "Bloons Blitz",
+          "publisher": "ninja kiwi",
+          "category": "Games",
+          "package": "com.ninjakiwi.bloonsblitz"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 68,
+          "name": "Pokémon TCG Pocket",
+          "publisher": "The Pokémon Company",
+          "category": "Games",
+          "package": "jp.pokemon.pokemontcgp"
+        },
+        {
+          "rank": 73,
+          "name": "Hole Stars: Puzzle Game",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "package": "com.moonactive.holestars"
+        },
+        {
+          "rank": 74,
+          "name": "Double Tile!",
+          "publisher": "HungryStudio",
+          "category": "Games",
+          "package": "com.hungrystudio.mahjong"
+        },
+        {
+          "rank": 83,
+          "name": "Match Factory!",
+          "publisher": "Peak",
+          "category": "Games",
+          "package": "net.peakgames.match"
+        },
+        {
+          "rank": 90,
+          "name": "Wordscapes Search: Word Games",
+          "publisher": "PeopleFun",
+          "category": "Games",
+          "package": "com.peoplefun.wordsearch"
+        },
+        {
+          "rank": 95,
+          "name": "Annoying Uncle Punch Game®",
+          "publisher": "Game District LLC",
+          "category": "Games",
+          "package": "com.gtsy.annoying.punch.game"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "MemeMix Challenge: Funny Party",
+          "publisher": "Amobear VN Game Global",
+          "category": "Games",
+          "package": "com.mimik.challenge.fun"
+        },
+        {
+          "rank": 62,
+          "name": "Disney Solitaire",
+          "publisher": "SuperPlay.",
+          "category": "Games",
+          "package": "com.superplaystudios.disneysolitairedreams"
+        },
+        {
+          "rank": 93,
+          "name": "Solar Smash",
+          "publisher": "Paradyme Games",
+          "category": "Games",
+          "package": "com.paradyme.solarsmash"
+        },
+        {
+          "rank": 96,
+          "name": "Food Sort: Puzzle Game",
+          "publisher": "Playdayy",
+          "category": "Games",
+          "package": "com.triple.food.sort.puzzle.game"
+        },
+        {
+          "rank": 99,
+          "name": "Fast Cash Farkle",
+          "publisher": "GreatPlay App",
+          "category": "Games",
+          "package": "com.greatplay.farklecash"
+        },
+        {
+          "rank": 100,
+          "name": "Bloons Blitz",
+          "publisher": "ninja kiwi",
+          "category": "Games",
+          "package": "com.ninjakiwi.bloonsblitz"
+        }
+      ],
+      "totals": {
+        "new_to_board": 9,
+        "returning": 6,
+        "new_publishers": 6
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "MemeMix Challenge: Funny Party",
+          "publisher": "Amobear VN Game Global",
+          "category": "Games",
+          "package": "com.mimik.challenge.fun"
+        },
+        {
+          "rank": 62,
+          "name": "Disney Solitaire",
+          "publisher": "SuperPlay.",
+          "category": "Games",
+          "package": "com.superplaystudios.disneysolitairedreams"
+        },
+        {
+          "rank": 69,
+          "name": "Tiki Smash!",
+          "publisher": "PeopleFun",
+          "category": "Games",
+          "package": "com.thrivegames.bashbest"
+        },
+        {
+          "rank": 93,
+          "name": "Solar Smash",
+          "publisher": "Paradyme Games",
+          "category": "Games",
+          "package": "com.paradyme.solarsmash"
+        },
+        {
+          "rank": 94,
+          "name": "GOGO! Blast",
+          "publisher": "Nebula  Studio",
+          "category": "Games",
+          "package": "com.nebula.arrows"
+        },
+        {
+          "rank": 96,
+          "name": "Food Sort: Puzzle Game",
+          "publisher": "Playdayy",
+          "category": "Games",
+          "package": "com.triple.food.sort.puzzle.game"
+        },
+        {
+          "rank": 98,
+          "name": "Dice Dreams™️",
+          "publisher": "SuperPlay.",
+          "category": "Games",
+          "package": "com.superplaystudios.dicedreams"
+        },
+        {
+          "rank": 99,
+          "name": "Fast Cash Farkle",
+          "publisher": "GreatPlay App",
+          "category": "Games",
+          "package": "com.greatplay.farklecash"
+        },
+        {
+          "rank": 100,
+          "name": "Bloons Blitz",
+          "publisher": "ninja kiwi",
+          "category": "Games",
+          "package": "com.ninjakiwi.bloonsblitz"
+        }
+      ]
+    }
+  }
+}
