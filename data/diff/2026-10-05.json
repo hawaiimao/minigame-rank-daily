@@ -1,0 +1,476 @@
+{
+  "date": "2026-10-05",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 7,
+          "name": "脑力我最强",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 6名",
+          "publisher": "消除",
+          "change": "--",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "鱼吃鱼",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 16名",
+          "publisher": "益智",
+          "change": "广州德道科技有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "猛鬼宿舍",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 18名",
+          "publisher": "塔防",
+          "change": "北京蜜獾工坊娱乐文化有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "狙击外星人",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 19名",
+          "publisher": "益智",
+          "change": "厦门营火科技有限公司",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 7,
+          "name": "脑力我最强",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 6名",
+          "publisher": "消除",
+          "change": "--",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "天命行者",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 4名",
+          "publisher": "卡牌",
+          "change": "广州大蓝网络科技有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "灵画师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 5名",
+          "publisher": "ARPG",
+          "change": "广州光游网络科技有限公司",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 19,
+          "name": "灵画师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 5名",
+          "publisher": "ARPG",
+          "change": "广州光游网络科技有限公司",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 67,
+          "name": "Dark War:Survival",
+          "publisher": "Omnilojo Pte Ltd",
+          "category": "Games",
+          "app_id": "6670441558",
+          "url": "https://apps.apple.com/us/app/dark-war-survival/id6670441558?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/cc/16/9bcc1612-cff3-eaa6-0577-4784dded2668/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Gear up and brace yourself for the ultimate test of zombie apocalypse survival! "
+        },
+        {
+          "rank": 81,
+          "name": "Charades Guess Game · Guessly",
+          "publisher": "smak apps",
+          "category": "Games",
+          "app_id": "6473058122",
+          "url": "https://apps.apple.com/us/app/charades-guess-game-guessly/id6473058122?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/52/df/73/52df7353-dd07-9ccb-7c00-bde3c2bd1420/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.jpeg/100x100bb.png",
+          "slogan": "Ready to turn ordinary hangouts into unforgettable moments? Meet Guessly — a cha"
+        },
+        {
+          "rank": 87,
+          "name": "We Are Cooking",
+          "publisher": "Matryoshka Games (CY) LTD",
+          "category": "Games",
+          "app_id": "6498920694",
+          "url": "https://apps.apple.com/us/app/we-are-cooking/id6498920694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/4b/35/104b3525-265d-7b76-24fd-3c798a8ec392/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to We Are Cooking, a game designed for food lovers who enjoy cooking at "
+        },
+        {
+          "rank": 91,
+          "name": "Sunday City: Life Simulator",
+          "publisher": "Kefir",
+          "category": "Games",
+          "app_id": "6450834358",
+          "url": "https://apps.apple.com/us/app/sunday-city-life-simulator/id6450834358?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/e0/97/96e0973b-9288-01e5-37d0-74a3b003f42e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "May your dreams become reality in Sunday City.\n\nSunday City is an eternal summer"
+        },
+        {
+          "rank": 93,
+          "name": "Police Chief",
+          "publisher": "VoyagerOne",
+          "category": "Games",
+          "app_id": "6757350661",
+          "url": "https://apps.apple.com/us/app/police-chief/id6757350661?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/45/70/77457063-ee4f-6243-695a-a41d44f4a964/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "The world is shrouded in crime. Cities teem with gangs, smuggling rings, and ass"
+        },
+        {
+          "rank": 94,
+          "name": "Block Craft 3D: Building Games",
+          "publisher": "Wildlife Studios",
+          "category": "Games",
+          "app_id": "981633844",
+          "url": "https://apps.apple.com/us/app/block-craft-3d-building-games/id981633844?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/77/8c/c2778ce4-b174-9110-d7d7-2c7131caf704/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "Craft and grow your own village or build freely in an unlimited open world!\n\n+ C"
+        },
+        {
+          "rank": 95,
+          "name": "My Sticker Room - Decor Game",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6743738094",
+          "url": "https://apps.apple.com/us/app/my-sticker-room-decor-game/id6743738094?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/3c/6d/723c6dc7-affc-41c4-74cc-5ae0981d13de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "THE ULTIMATE COZY STICKER GAME\n\nLife can be stressful, so it’s important to make"
+        },
+        {
+          "rank": 96,
+          "name": "Hollywood Merge",
+          "publisher": "VoyagerOne",
+          "category": "Games",
+          "app_id": "6755455500",
+          "url": "https://apps.apple.com/us/app/hollywood-merge/id6755455500?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/4a/81/e44a8199-b099-edd3-4963-cbf2a268239a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Breaking News: You are a Hollywood Heiress! \r\nJust yesterday, you were strugglin"
+        },
+        {
+          "rank": 97,
+          "name": "Charades - Family & Party Game",
+          "publisher": "Dmytro Cheverda",
+          "category": "Games",
+          "app_id": "1453837845",
+          "url": "https://apps.apple.com/us/app/charades-family-party-game/id1453837845?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/a3/01/39a30118-f47a-83b7-06cf-41e8aa202175/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+          "slogan": "Fun and easy to play game will cheer up your party or family gathering.\n\nGuess t"
+        },
+        {
+          "rank": 98,
+          "name": "Top Lords",
+          "publisher": "GAME SPARK PTE. LTD.",
+          "category": "Games",
+          "app_id": "6767834940",
+          "url": "https://apps.apple.com/us/app/top-lords/id6767834940?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/29/0a/10290a6d-2cc2-7e76-ec58-fe6ec7318e76/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Rise to the Throne with just a Few Taps!\nDownload for Free and Jump Right in!\n\nT"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 10,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 97,
+          "name": "明日之后",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1435567000",
+          "url": "https://apps.apple.com/cn/app/%E6%98%8E%E6%97%A5%E4%B9%8B%E5%90%8E/id1435567000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/31/e9/1731e9ba-e145-f440-491a-7a579b5543e1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "今天，你将重新审视脚下的每一寸土地。这不是一次更新，而是整个世界被推倒重塑后的再次呼吸。迎接「重生日」，不是旧世界的修补，而是从废墟中新的生长。\n《明日之后》「"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 98,
+          "name": "率土之滨",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "909211092",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%87%E5%9C%9F%E4%B9%8B%E6%BB%A8/id909211092?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/cc/2f/cfcc2fd7-1444-6cae-b2b2-34be98554491/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "欢迎来到国人原创的东方战争策略游戏《率土之滨》。\r\n《率土之滨》提供了一个全自由的东方战争策略沙盘，你可以与众多玩家组建同盟，一起在这汉末大争之世中，创造你们的"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 97,
+          "name": "明日之后",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1435567000",
+          "url": "https://apps.apple.com/cn/app/%E6%98%8E%E6%97%A5%E4%B9%8B%E5%90%8E/id1435567000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/31/e9/1731e9ba-e145-f440-491a-7a579b5543e1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "今天，你将重新审视脚下的每一寸土地。这不是一次更新，而是整个世界被推倒重塑后的再次呼吸。迎接「重生日」，不是旧世界的修补，而是从废墟中新的生长。\n《明日之后》「"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 2,
+          "name": "マーラッシュ",
+          "publisher": "kodai koga",
+          "category": "ゲーム",
+          "app_id": "6792188317",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%BC%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5/id6792188317?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/c8/b5/5fc8b559-bd51-9fe7-b0e5-ec1951070e9e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "【マーラッシュ】は、大人気の麻辣湯（マーラータン）屋さんを体験できるシミュレーションゲームです。\n\n棚にずらりと並んだ具材をトングでつかんで、ボウルにいれよう！"
+        },
+        {
+          "rank": 19,
+          "name": "麻辣湯ものがたり（マーラータン）",
+          "publisher": "Ryusei Okamoto",
+          "category": "ゲーム",
+          "app_id": "6816625266",
+          "url": "https://apps.apple.com/jp/app/%E9%BA%BB%E8%BE%A3%E6%B9%AF%E3%82%82%E3%81%AE%E3%81%8C%E3%81%9F%E3%82%8A-%E3%83%9E%E3%83%BC%E3%83%A9%E3%83%BC%E3%82%BF%E3%83%B3/id6816625266?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/bb/bd/33bbbd19-0ce1-000e-908c-7a684bcf5f6a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "小さな麻辣湯（マーラータン）屋さんの店長になって、街いちばんの人気店を目指そう！\n\n画面をなぞって店長を動かし、具材の補充やレジ、片付けをこなすだけ。売上がたま"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 88,
+          "name": "Lumi Master（るぅみマスター）",
+          "publisher": "BILIBILI HK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6754979232",
+          "url": "https://apps.apple.com/jp/app/lumi-master-%E3%82%8B%E3%81%85%E3%81%BF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/id6754979232?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/48/5c/9a485c34-5416-0a9f-4b60-60f5bf39652c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "オートでるぅみをどんどんゲット！図鑑コンプリートもらくらく！\n今すぐダウンロード！スタミナ＆にじいろたまご大量ゲット！\n強力なるぅみを手に入れ、冒険へ出発しよう"
+        },
+        {
+          "rank": 89,
+          "name": "耳だけ捜査線 - 暇つぶし論理パズルゲーム",
+          "publisher": "FTY LLC.",
+          "category": "ゲーム",
+          "app_id": "6754370732",
+          "url": "https://apps.apple.com/jp/app/%E8%80%B3%E3%81%A0%E3%81%91%E6%8D%9C%E6%9F%BB%E7%B7%9A-%E6%9A%87%E3%81%A4%E3%81%B6%E3%81%97%E8%AB%96%E7%90%86%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6754370732?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/0a/63/c90a630a-b840-1f50-2065-5fea3d1bd08c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "今日もパトロールご苦労様です！\n\n警察署のメンバーと一緒に事件を解決してください！\n事件解決の鍵は参考人たちの証言。だれも嘘をつかないこの世界では証言を頼りに無"
+        },
+        {
+          "rank": 94,
+          "name": "ワクワク電車ライフ - 街を発展！車掌ゲーム",
+          "publisher": "ONIGIRI GAMES",
+          "category": "ゲーム",
+          "app_id": "6780728551",
+          "url": "https://apps.apple.com/jp/app/%E3%83%AF%E3%82%AF%E3%83%AF%E3%82%AF%E9%9B%BB%E8%BB%8A%E3%83%A9%E3%82%A4%E3%83%95-%E8%A1%97%E3%82%92%E7%99%BA%E5%B1%95-%E8%BB%8A%E6%8E%8C%E3%82%B2%E3%83%BC%E3%83%A0/id6780728551?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/ab/fa/1babfa4e-d740-3b7c-0d4c-c341f2074509/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "日本の電車を運転して、たくさんの乗客を駅まで届けよう！\n乗客を運ぶほどコインが増え、車両のスピードや性能をどんどんアップグレード！\n\nあなたの選択によって路線や"
+        },
+        {
+          "rank": 96,
+          "name": "Fluffy Drop",
+          "publisher": "UniRise Studio",
+          "category": "ゲーム",
+          "app_id": "6762342518",
+          "url": "https://apps.apple.com/jp/app/fluffy-drop/id6762342518?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/bd/6c/25bd6c97-ee5f-bf77-dabb-0ac8db3091f1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fluffy Drop – ふわふわパズルアドベンチャー ひと手ごとに、心がはずむ\n\nふわふわボールを同じ色のエリアに導く、シンプルで奥深いパズルゲーム。\nドラ"
+        },
+        {
+          "rank": 99,
+          "name": "ねこ旅",
+          "publisher": "Onyx Hook LLC",
+          "category": "ゲーム",
+          "app_id": "6748996000",
+          "url": "https://apps.apple.com/jp/app/%E3%81%AD%E3%81%93%E6%97%85/id6748996000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/a4/08/38a40823-174a-ab4b-e617-8b84fc4e3b7e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "猫を旅に出して、のんびり帰りを待つ。\n癒しとちょっとしたワクワクを楽しめる、放置型アプリです。\n\n【遊び方】\n・猫を旅に出そう！\n　持たせるアイテムによって行き"
+        },
+        {
+          "rank": 100,
+          "name": "Brain Puzzle 2: Logic Twist",
+          "publisher": "SmallStep Dev Team",
+          "category": "ゲーム",
+          "app_id": "6747063674",
+          "url": "https://apps.apple.com/jp/app/brain-puzzle-2-logic-twist/id6747063674?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/47/c4/3e47c40d-ac93-a88f-6f9e-90dc94aec2a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "今回は、前作のユーモラスなストーリーテリングと脳を揺さぶるデザインを継承し、さらに豊かで驚きに満ちたパズル体験をお届けします。\n\nこのまったく新しい続編では、風"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 2,
+          "name": "マーラッシュ",
+          "publisher": "kodai koga",
+          "category": "ゲーム",
+          "app_id": "6792188317",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%BC%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5/id6792188317?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/c8/b5/5fc8b559-bd51-9fe7-b0e5-ec1951070e9e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "【マーラッシュ】は、大人気の麻辣湯（マーラータン）屋さんを体験できるシミュレーションゲームです。\n\n棚にずらりと並んだ具材をトングでつかんで、ボウルにいれよう！"
+        },
+        {
+          "rank": 19,
+          "name": "麻辣湯ものがたり（マーラータン）",
+          "publisher": "Ryusei Okamoto",
+          "category": "ゲーム",
+          "app_id": "6816625266",
+          "url": "https://apps.apple.com/jp/app/%E9%BA%BB%E8%BE%A3%E6%B9%AF%E3%82%82%E3%81%AE%E3%81%8C%E3%81%9F%E3%82%8A-%E3%83%9E%E3%83%BC%E3%83%A9%E3%83%BC%E3%82%BF%E3%83%B3/id6816625266?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/bb/bd/33bbbd19-0ce1-000e-908c-7a684bcf5f6a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "小さな麻辣湯（マーラータン）屋さんの店長になって、街いちばんの人気店を目指そう！\n\n画面をなぞって店長を動かし、具材の補充やレジ、片付けをこなすだけ。売上がたま"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 6,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "マーラッシュ",
+          "publisher": "kodai koga",
+          "category": "ゲーム",
+          "app_id": "6792188317",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%BC%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5/id6792188317?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/c8/b5/5fc8b559-bd51-9fe7-b0e5-ec1951070e9e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "【マーラッシュ】は、大人気の麻辣湯（マーラータン）屋さんを体験できるシミュレーションゲームです。\n\n棚にずらりと並んだ具材をトングでつかんで、ボウルにいれよう！"
+        },
+        {
+          "rank": 19,
+          "name": "麻辣湯ものがたり（マーラータン）",
+          "publisher": "Ryusei Okamoto",
+          "category": "ゲーム",
+          "app_id": "6816625266",
+          "url": "https://apps.apple.com/jp/app/%E9%BA%BB%E8%BE%A3%E6%B9%AF%E3%82%82%E3%81%AE%E3%81%8C%E3%81%9F%E3%82%8A-%E3%83%9E%E3%83%BC%E3%83%A9%E3%83%BC%E3%82%BF%E3%83%B3/id6816625266?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/bb/bd/33bbbd19-0ce1-000e-908c-7a684bcf5f6a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "小さな麻辣湯（マーラータン）屋さんの店長になって、街いちばんの人気店を目指そう！\n\n画面をなぞって店長を動かし、具材の補充やレジ、片付けをこなすだけ。売上がたま"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
