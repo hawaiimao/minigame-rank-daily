@@ -1,0 +1,543 @@
+{
+  "date": "2026-10-07",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "肥鹅美食街",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "模拟经营",
+          "change": "北京豪腾创想科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "一找一个准",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 15名",
+          "publisher": "益智",
+          "change": "长沙指米网络科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "疯狂水世界",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 16名",
+          "publisher": "模拟经营",
+          "change": "益世界网络科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "开心消消乐",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 17名",
+          "publisher": "消除",
+          "change": "乐元素科技(北京)股份有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "猛鬼宿舍",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 18名",
+          "publisher": "塔防",
+          "change": "北京蜜獾工坊娱乐文化有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 5,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "下方了",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 10名",
+          "publisher": "塔防",
+          "change": "深圳飞鱼星空科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "天命行者",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 5名",
+          "publisher": "卡牌",
+          "change": "广州大蓝网络科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 1,
+          "name": "三国杀·烽烟策",
+          "publisher": "上海游卡",
+          "category": "SLG",
+          "subcategory": "策略、战争、三国、三国杀、3D"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 90,
+          "name": "Lavish Luck Casino",
+          "publisher": "Prudent Owl Limited",
+          "category": "Games",
+          "app_id": "6738905436",
+          "url": "https://apps.apple.com/us/app/lavish-luck-casino/id6738905436?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/c3/f7/b6c3f7f1-c102-83bd-66fd-8259f6ddcd34/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the exciting world of Lavish Luck Casino! Experience authentic Las Veg"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 99,
+          "name": "Color Block Jam",
+          "publisher": "Rollic Games",
+          "category": "Games",
+          "app_id": "6504332779",
+          "url": "https://apps.apple.com/us/app/color-block-jam/id6504332779?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/24/5c/3a245c1e-d6e8-ff54-5141-6be6af820b3f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Color Block Jam: A Fun & Challenging Puzzle Adventure\r\nGet ready for an exciting"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 85,
+          "name": "Packz",
+          "publisher": "Packz",
+          "category": "Games",
+          "app_id": "6755495631",
+          "url": "https://apps.apple.com/us/app/packz/id6755495631?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/d3/ec/66d3ecd2-ac79-6e52-fe4b-313182a8b079/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/100x100bb.png",
+          "slogan": "Open Packs. Get Cards. Ship or Cash Out Instantly.\n\nPacks can hold cards worth u"
+        },
+        {
+          "rank": 87,
+          "name": "Clash Royale",
+          "publisher": "Supercell",
+          "category": "Games",
+          "app_id": "1053012308",
+          "url": "https://apps.apple.com/us/app/clash-royale/id1053012308?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/dd/c2/e1ddc25b-e234-42ac-7748-1c663d309cf9/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "Enter the Arena! Build your Battle Deck and outsmart the enemy in fast real-time"
+        },
+        {
+          "rank": 92,
+          "name": "Bubble Cash",
+          "publisher": "Papaya Gaming",
+          "category": "Games",
+          "app_id": "1475514684",
+          "url": "https://apps.apple.com/us/app/bubble-cash/id1475514684?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/48/42/64/4842646d-5697-09b2-5730-e71a1fca66fd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Forget the ordinary games. Here you play for something bigger, where winning the"
+        },
+        {
+          "rank": 94,
+          "name": "Hole Stars: Puzzle Game",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "app_id": "6747028173",
+          "url": "https://apps.apple.com/us/app/hole-stars-puzzle-game/id6747028173?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/c7/50/66c750af-e329-1224-daab-ed3462797a02/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Hole Stars – Scoop, Solve, and Shine\n\nLooking for a game that’s fun, fast, and t"
+        },
+        {
+          "rank": 95,
+          "name": "CrownCoins Casino",
+          "publisher": "Sunflower",
+          "category": "Games",
+          "app_id": "6450413462",
+          "url": "https://apps.apple.com/us/app/crowncoins-casino/id6450413462?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/82/f9/3482f982-0090-a3b6-48a7-0b2998425160/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "CROWN COINS CASINO. America loves it. You will too! \nPLAY. WIN. REDEEM. REPEAT. "
+        },
+        {
+          "rank": 98,
+          "name": "Sunday City: Life Simulator",
+          "publisher": "Kefir",
+          "category": "Games",
+          "app_id": "6450834358",
+          "url": "https://apps.apple.com/us/app/sunday-city-life-simulator/id6450834358?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/45/42/4a454221-1016-1dcd-c9de-e594ecfb466a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "May your dreams become reality in Sunday City.\n\nSunday City is an eternal summer"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 90,
+          "name": "Lavish Luck Casino",
+          "publisher": "Prudent Owl Limited",
+          "category": "Games",
+          "app_id": "6738905436",
+          "url": "https://apps.apple.com/us/app/lavish-luck-casino/id6738905436?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/c3/f7/b6c3f7f1-c102-83bd-66fd-8259f6ddcd34/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the exciting world of Lavish Luck Casino! Experience authentic Las Veg"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 6,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 90,
+          "name": "Lavish Luck Casino",
+          "publisher": "Prudent Owl Limited",
+          "category": "Games",
+          "app_id": "6738905436",
+          "url": "https://apps.apple.com/us/app/lavish-luck-casino/id6738905436?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/c3/f7/b6c3f7f1-c102-83bd-66fd-8259f6ddcd34/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the exciting world of Lavish Luck Casino! Experience authentic Las Veg"
+        },
+        {
+          "rank": 99,
+          "name": "Color Block Jam",
+          "publisher": "Rollic Games",
+          "category": "Games",
+          "app_id": "6504332779",
+          "url": "https://apps.apple.com/us/app/color-block-jam/id6504332779?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/24/5c/3a245c1e-d6e8-ff54-5141-6be6af820b3f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Color Block Jam: A Fun & Challenging Puzzle Adventure\r\nGet ready for an exciting"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 82,
+          "name": "向僵尸开炮-尸潮来袭",
+          "publisher": "Hainan Shengchang Network Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6474293468",
+          "url": "https://apps.apple.com/cn/app/%E5%90%91%E5%83%B5%E5%B0%B8%E5%BC%80%E7%82%AE-%E5%B0%B8%E6%BD%AE%E6%9D%A5%E8%A2%AD/id6474293468?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/63/cd/4363cd87-84de-69c3-dc1f-71ac02b1590e/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《向僵尸开炮》是一款制作精良、画风精美的射击Roguelike手游。故事背景设定在未来时代，某日天灾席卷地球，僵尸横行，自然资源与科技文明受到重创；为了保护人类"
+        },
+        {
+          "rank": 97,
+          "name": "天天酷跑",
+          "publisher": "Tencent Mobile Games",
+          "category": "游戏",
+          "app_id": "653350791",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E9%85%B7%E8%B7%91/id653350791?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/f3/aa/26f3aa78-9383-6e60-10b7-d1ddaa122690/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "---限时兑换、积分抽奖，好运不停步！---\n\n“积分兑换”隆重开幕，现在可以用积分兑换无法在商城中购买的稀有角色、稀有坐骑和稀有宠物！“积分抽奖”惊喜连连，卡"
+        },
+        {
+          "rank": 99,
+          "name": "小镇大厨 - 模拟餐厅经营美食烹饪游戏",
+          "publisher": "MagicSeven Co., Ltd",
+          "category": "游戏",
+          "app_id": "1397824035",
+          "url": "https://apps.apple.com/cn/app/%E5%B0%8F%E9%95%87%E5%A4%A7%E5%8E%A8-%E6%A8%A1%E6%8B%9F%E9%A4%90%E5%8E%85%E7%BB%8F%E8%90%A5%E7%BE%8E%E9%A3%9F%E7%83%B9%E9%A5%AA%E6%B8%B8%E6%88%8F/id1397824035?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/2f/70/eb2f7029-798a-2a1a-ad99-2bfb83075984/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "来《小镇大厨》尽情烹饪美食！享受令人上瘾的时间管理游戏！\n免费下载的烹饪模拟手游。化身疯狂的厨师，随时随地经营餐厅！\n\n• 200多种美味的菜肴！\n为饥肠辘辘的"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "TOY BLOX トイブロックス-トリマ公式ブロックパズル",
+          "publisher": "GeoTechnologies, Inc.",
+          "category": "ゲーム",
+          "app_id": "6789060737",
+          "url": "https://apps.apple.com/jp/app/toy-blox-%E3%83%88%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%88%E3%83%AA%E3%83%9E%E5%85%AC%E5%BC%8F%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB/id6789060737?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/7b/6a/a47b6aa1-1f73-3eff-9a63-849d282cbaf5/AppIcon-production-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【TOY BLOXとは】\n大人気ポイ活アプリ「トリマ」からブロックパズルゲーム「TOY BLOX（トイブロックス）」が誕生しました！\nトイブロックスは、初心者か"
+        },
+        {
+          "rank": 63,
+          "name": "Keepsweeper",
+          "publisher": "Flarup Industries",
+          "category": "ゲーム",
+          "app_id": "6814857804",
+          "url": "https://apps.apple.com/jp/app/keepsweeper/id6814857804?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/74/73/dc7473c1-1e5e-342d-4e84-725a0dbecc8a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "It starts with a grid. Then you build a kingdom.\n\nKeepsweeper mixes Minesweeper-"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 96,
+          "name": "ランダムダイス2",
+          "publisher": "111%",
+          "category": "ゲーム",
+          "app_id": "6748432502",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E3%83%80%E3%82%A4%E3%82%B92/id6748432502?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/68/92/8c689267-f750-7590-35d6-fbac36f8cbfa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「待たせたな。俺が、《ランダムダイス2》だ。」\n\n不確実な確率と、課金に依存する時代はもう終わり！\nプレイヤーの純粋な「戦略」だけを残すため、ガチャシステムを果"
+        },
+        {
+          "rank": 97,
+          "name": "カラーブロック コンボブラスト",
+          "publisher": "FLYYES TECHNOLOGY PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6478063606",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AB%E3%83%A9%E3%83%BC%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF-%E3%82%B3%E3%83%B3%E3%83%9C%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88/id6478063606?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/43/b9/d243b999-5946-ebfc-611e-63fbb8778f22/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "カラーブロックは、ブロックを置いてラインを消すだけのシンプルなブロックパズル。\n通勤中のちょっとした暇つぶしから、じっくり頭を使う脳トレまで、その日の気分に合わ"
+        },
+        {
+          "rank": 99,
+          "name": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
+          "publisher": "SEGA CORPORATION",
+          "category": "ゲーム",
+          "app_id": "1489932710",
+          "url": "https://apps.apple.com/jp/app/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%BB%E3%82%AB%E3%82%A4-%E3%82%AB%E3%83%A9%E3%83%95%E3%83%AB%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8-feat-%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF/id1489932710?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/dc/c5/d5dcc559-fc95-1902-28d2-27a73ce5931f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「ヴァンパイア」「KING」「ロキ」「シャルル」「Tell Your World」など\n最新の人気曲からみんなが知ってる名曲まで、3DMV付きで多数収録！\nSE"
+        },
+        {
+          "rank": 100,
+          "name": "Among Us!",
+          "publisher": "InnerSloth LLC",
+          "category": "ゲーム",
+          "app_id": "1351168404",
+          "url": "https://apps.apple.com/jp/app/among-us/id1351168404?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/b8/06/06b80694-d4ff-a00e-1e22-9aafd5dd6e2e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A game of teamwork and betrayal ...in space! Play online with 4-15 players as yo"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "TOY BLOX トイブロックス-トリマ公式ブロックパズル",
+          "publisher": "GeoTechnologies, Inc.",
+          "category": "ゲーム",
+          "app_id": "6789060737",
+          "url": "https://apps.apple.com/jp/app/toy-blox-%E3%83%88%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%88%E3%83%AA%E3%83%9E%E5%85%AC%E5%BC%8F%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB/id6789060737?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/7b/6a/a47b6aa1-1f73-3eff-9a63-849d282cbaf5/AppIcon-production-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【TOY BLOXとは】\n大人気ポイ活アプリ「トリマ」からブロックパズルゲーム「TOY BLOX（トイブロックス）」が誕生しました！\nトイブロックスは、初心者か"
+        },
+        {
+          "rank": 63,
+          "name": "Keepsweeper",
+          "publisher": "Flarup Industries",
+          "category": "ゲーム",
+          "app_id": "6814857804",
+          "url": "https://apps.apple.com/jp/app/keepsweeper/id6814857804?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/74/73/dc7473c1-1e5e-342d-4e84-725a0dbecc8a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "It starts with a grid. Then you build a kingdom.\n\nKeepsweeper mixes Minesweeper-"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 4,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "TOY BLOX トイブロックス-トリマ公式ブロックパズル",
+          "publisher": "GeoTechnologies, Inc.",
+          "category": "ゲーム",
+          "app_id": "6789060737",
+          "url": "https://apps.apple.com/jp/app/toy-blox-%E3%83%88%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%88%E3%83%AA%E3%83%9E%E5%85%AC%E5%BC%8F%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB/id6789060737?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/7b/6a/a47b6aa1-1f73-3eff-9a63-849d282cbaf5/AppIcon-production-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【TOY BLOXとは】\n大人気ポイ活アプリ「トリマ」からブロックパズルゲーム「TOY BLOX（トイブロックス）」が誕生しました！\nトイブロックスは、初心者か"
+        },
+        {
+          "rank": 63,
+          "name": "Keepsweeper",
+          "publisher": "Flarup Industries",
+          "category": "ゲーム",
+          "app_id": "6814857804",
+          "url": "https://apps.apple.com/jp/app/keepsweeper/id6814857804?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/74/73/dc7473c1-1e5e-342d-4e84-725a0dbecc8a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "It starts with a grid. Then you build a kingdom.\n\nKeepsweeper mixes Minesweeper-"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 85,
+          "name": "Bison Gold",
+          "publisher": "Yousuf Rahman",
+          "category": "Games",
+          "package": "com.bisongold.goldpg"
+        },
+        {
+          "rank": 98,
+          "name": "The Operator",
+          "publisher": "Bureau 81",
+          "category": "Games",
+          "package": "com.Bureau81.OPERATOR"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 71,
+          "name": "Dice Dreams™️",
+          "publisher": "SuperPlay.",
+          "category": "Games",
+          "package": "com.superplaystudios.dicedreams"
+        },
+        {
+          "rank": 93,
+          "name": "Screw Out 3D: Nut Sort Jam",
+          "publisher": "Unico Studio",
+          "category": "Games",
+          "package": "net.happywit.screw.out.jam"
+        },
+        {
+          "rank": 95,
+          "name": "Loop Master™: Color Jam Sort",
+          "publisher": "Pleasure City",
+          "category": "Games",
+          "package": "com.loop.clear.cube.free.card.puzzle.sort.match"
+        },
+        {
+          "rank": 96,
+          "name": "Treasure Master",
+          "publisher": "Gimica GmbH",
+          "category": "Games",
+          "package": "com.gimica.treasuremaster"
+        },
+        {
+          "rank": 100,
+          "name": "Kingshot",
+          "publisher": "Century Games PTE. LTD.",
+          "category": "Games",
+          "package": "com.run.tower.defense"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 85,
+          "name": "Bison Gold",
+          "publisher": "Yousuf Rahman",
+          "category": "Games",
+          "package": "com.bisongold.goldpg"
+        },
+        {
+          "rank": 98,
+          "name": "The Operator",
+          "publisher": "Bureau 81",
+          "category": "Games",
+          "package": "com.Bureau81.OPERATOR"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 5,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 85,
+          "name": "Bison Gold",
+          "publisher": "Yousuf Rahman",
+          "category": "Games",
+          "package": "com.bisongold.goldpg"
+        },
+        {
+          "rank": 98,
+          "name": "The Operator",
+          "publisher": "Bureau 81",
+          "category": "Games",
+          "package": "com.Bureau81.OPERATOR"
+        }
+      ]
+    }
+  }
+}
