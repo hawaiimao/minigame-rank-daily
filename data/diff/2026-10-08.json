@@ -1,0 +1,418 @@
+{
+  "date": "2026-10-08",
+  "boards": {
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 9,
+          "name": "英雄请出战",
+          "publisher": "北京集英舍软件科技有限公司",
+          "category": "冒险",
+          "subcategory": "像素、三国、角色扮演、竖屏、回合制、策略、养成"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 7,
+          "name": "七界梦谭",
+          "publisher": "飞光阁工作室",
+          "category": "角色扮演",
+          "subcategory": "修仙、高画质、MMORPG、开放世界、国风、3D"
+        },
+        {
+          "rank": 8,
+          "name": "失落城堡2",
+          "publisher": "雷霆游戏",
+          "category": "Roguelike",
+          "subcategory": "多人联机、动作、Steam移植、买断制、单机、独立游戏、冒险"
+        },
+        {
+          "rank": 10,
+          "name": "拳皇·命运",
+          "publisher": "Wanda Game",
+          "category": "动作",
+          "subcategory": "格斗、竞技、PVP、街机、休闲"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 9,
+          "name": "英雄请出战",
+          "publisher": "北京集英舍软件科技有限公司",
+          "category": "冒险",
+          "subcategory": "像素、三国、角色扮演、竖屏、回合制、策略、养成"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "英雄请出战",
+          "publisher": "北京集英舍软件科技有限公司",
+          "category": "冒险",
+          "subcategory": "像素、三国、角色扮演、竖屏、回合制、策略、养成"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 93,
+          "name": "Merge Bubbles - Word Game",
+          "publisher": "Elephit Limited",
+          "category": "Games",
+          "app_id": "6766297786",
+          "url": "https://apps.apple.com/us/app/merge-bubbles-word-game/id6766297786?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/1b/b1/a81bb189-7800-70ab-6252-2c8b94bd13c4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Merge Bubbles is a fresh and satisfying word puzzle game combining word associat"
+        },
+        {
+          "rank": 98,
+          "name": "Treasure Masters",
+          "publisher": "Gimica GmbH",
+          "category": "Games",
+          "app_id": "6444407009",
+          "url": "https://apps.apple.com/us/app/treasure-masters/id6444407009?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/fe/26/11fe261a-6a1c-09b7-263b-f3cf62d95b6a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Treasure Masters will take you on an endless treasure hunt! \n\nDifferent Monsters"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 91,
+          "name": "Shoot & Hide",
+          "publisher": "Crazy Labs",
+          "category": "Games",
+          "app_id": "6747033069",
+          "url": "https://apps.apple.com/us/app/shoot-hide/id6747033069?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/a9/71/23a97182-d3b0-d9f3-7ec7-22ba2c23db4f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Test your timing and reflexes in a fast, satisfying game of risk and precision. "
+        },
+        {
+          "rank": 92,
+          "name": "Match Factory!",
+          "publisher": "Peak Games",
+          "category": "Games",
+          "app_id": "6449094229",
+          "url": "https://apps.apple.com/us/app/match-factory/id6449094229?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/a8/f0/96a8f01a-d130-f69b-0a3e-0e8347de7e76/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Match Factory - The Ultimate 3D Puzzle Adventure!\n\nDive into the fasc"
+        },
+        {
+          "rank": 100,
+          "name": "Picture Blast Solitaire",
+          "publisher": "Joyteractive",
+          "category": "Games",
+          "app_id": "6758704957",
+          "url": "https://apps.apple.com/us/app/picture-blast-solitaire/id6758704957?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/58/c8/bd58c859-fcaa-21bf-c601-0fcc15c5c2c2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Relaxing picture puzzles meet the timeless fun of solitaire. Build beautiful art"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 93,
+          "name": "Merge Bubbles - Word Game",
+          "publisher": "Elephit Limited",
+          "category": "Games",
+          "app_id": "6766297786",
+          "url": "https://apps.apple.com/us/app/merge-bubbles-word-game/id6766297786?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/1b/b1/a81bb189-7800-70ab-6252-2c8b94bd13c4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Merge Bubbles is a fresh and satisfying word puzzle game combining word associat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 93,
+          "name": "Merge Bubbles - Word Game",
+          "publisher": "Elephit Limited",
+          "category": "Games",
+          "app_id": "6766297786",
+          "url": "https://apps.apple.com/us/app/merge-bubbles-word-game/id6766297786?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/1b/b1/a81bb189-7800-70ab-6252-2c8b94bd13c4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Merge Bubbles is a fresh and satisfying word puzzle game combining word associat"
+        },
+        {
+          "rank": 98,
+          "name": "Treasure Masters",
+          "publisher": "Gimica GmbH",
+          "category": "Games",
+          "app_id": "6444407009",
+          "url": "https://apps.apple.com/us/app/treasure-masters/id6444407009?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/fe/26/11fe261a-6a1c-09b7-263b-f3cf62d95b6a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Treasure Masters will take you on an endless treasure hunt! \n\nDifferent Monsters"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 97,
+          "name": "登山赛车2 - Hill Climb Racing 2",
+          "publisher": "Fingersoft",
+          "category": "游戏",
+          "app_id": "1146465836",
+          "url": "https://apps.apple.com/cn/app/%E7%99%BB%E5%B1%B1%E8%B5%9B%E8%BD%A62-hill-climb-racing-2/id1146465836?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/ab/2d/33ab2da2-f0ab-76bf-e960-12e4d2720e50/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "《Hill Climb Racing》重磅回归！规模更大、体验更佳，乐趣也更上一层楼！与全球数百万玩家一同畅玩这款物理效果逼真、满载火爆场面的赛车游戏吧！\n\n《"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 85,
+          "name": "王者荣耀世界",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1612566389",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E4%B8%96%E7%95%8C/id1612566389?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/1f/d7/f01fd761-fb29-8e46-4a72-bfd9bf25ba54/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【产品介绍】\n《王者荣耀世界》是国民级MOBA手游《王者荣耀》IP旗下的「王者英雄多人战斗冒险游戏」。游戏高度还原王者荣耀世界观，英雄人设故事与技能设定，在3D"
+        },
+        {
+          "rank": 89,
+          "name": "部落冲突：皇室战争（CR）",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1595603720",
+          "url": "https://apps.apple.com/cn/app/%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81-%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89-cr/id1595603720?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/5b/5e/865b5e00-e116-4757-b3d1-b844af43f05d/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "欢迎加入皇室竞技场！配置卡组，智取对手，体验实时对战！\n\n《部落冲突:皇室战争》是由风靡全球的手游《部落冲突》主创成员打造的又一力作。在这里，您可以看到您所钟爱"
+        },
+        {
+          "rank": 95,
+          "name": "率土之滨",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "909211092",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%87%E5%9C%9F%E4%B9%8B%E6%BB%A8/id909211092?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/cc/2f/cfcc2fd7-1444-6cae-b2b2-34be98554491/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "欢迎来到国人原创的东方战争策略游戏《率土之滨》。\r\n《率土之滨》提供了一个全自由的东方战争策略沙盘，你可以与众多玩家组建同盟，一起在这汉末大争之世中，创造你们的"
+        },
+        {
+          "rank": 100,
+          "name": "掌上穿越火线",
+          "publisher": "Tencent Technology (Shenzhen) Company Limited",
+          "category": "游戏",
+          "app_id": "945598289",
+          "url": "https://apps.apple.com/cn/app/%E6%8E%8C%E4%B8%8A%E7%A9%BF%E8%B6%8A%E7%81%AB%E7%BA%BF/id945598289?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/6b/f4/706bf438-302e-990e-1820-095e94b49c20/CFGroupAppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
+          "slogan": "《掌上穿越火线》由腾讯公司出品，官方认证竞技类游戏社区APP，覆盖CFIP下的所有游戏，为亿万CF玩家提供游戏资讯、游戏社区、赛事直播、游戏数据查询及分享等特色"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 97,
+          "name": "登山赛车2 - Hill Climb Racing 2",
+          "publisher": "Fingersoft",
+          "category": "游戏",
+          "app_id": "1146465836",
+          "url": "https://apps.apple.com/cn/app/%E7%99%BB%E5%B1%B1%E8%B5%9B%E8%BD%A62-hill-climb-racing-2/id1146465836?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/ab/2d/33ab2da2-f0ab-76bf-e960-12e4d2720e50/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "《Hill Climb Racing》重磅回归！规模更大、体验更佳，乐趣也更上一层楼！与全球数百万玩家一同畅玩这款物理效果逼真、满载火爆场面的赛车游戏吧！\n\n《"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 4,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 97,
+          "name": "登山赛车2 - Hill Climb Racing 2",
+          "publisher": "Fingersoft",
+          "category": "游戏",
+          "app_id": "1146465836",
+          "url": "https://apps.apple.com/cn/app/%E7%99%BB%E5%B1%B1%E8%B5%9B%E8%BD%A62-hill-climb-racing-2/id1146465836?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/ab/2d/33ab2da2-f0ab-76bf-e960-12e4d2720e50/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "《Hill Climb Racing》重磅回归！规模更大、体验更佳，乐趣也更上一层楼！与全球数百万玩家一同畅玩这款物理效果逼真、满载火爆场面的赛车游戏吧！\n\n《"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 4,
+          "name": "ピクセル放置RPG：俺の絵だけ解像度がおかしい",
+          "publisher": "ANTIC TECNOLOGY LIMITED",
+          "category": "ゲーム",
+          "app_id": "6769318336",
+          "url": "https://apps.apple.com/jp/app/%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E6%94%BE%E7%BD%AErpg-%E4%BF%BA%E3%81%AE%E7%B5%B5%E3%81%A0%E3%81%91%E8%A7%A3%E5%83%8F%E5%BA%A6%E3%81%8C%E3%81%8A%E3%81%8B%E3%81%97%E3%81%84/id6769318336?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/32/ae/0d32aea2-242b-684e-1f41-e5a8b8aad8c8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "放置ゲームに、もう物足りなさを感じていませんか？\nあなたが\"冒険者そのもの\"になる、正真正銘のRPGです。\nダンジョンに潜り、装備を掘り、スキルを磨き、ギルドの"
+        },
+        {
+          "rank": 25,
+          "name": "VS BOAT－3D競艇オンライン対戦ゲーム",
+          "publisher": "soma anraku",
+          "category": "ゲーム",
+          "app_id": "6817994753",
+          "url": "https://apps.apple.com/jp/app/vs-boat-3d%E7%AB%B6%E8%89%87%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E5%AF%BE%E6%88%A6%E3%82%B2%E3%83%BC%E3%83%A0/id6817994753?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/2a/8f/3b2a8fbd-4084-3a4c-05e8-e70e1644f264/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "大時計が0秒になった瞬間、6艇が一斉にスタートラインへ。左手でレバー、右手でハンドルを握る、本格3Dのボートレース（競艇）対戦ゲーム「VS BOAT」。\n内を差"
+        },
+        {
+          "rank": 54,
+          "name": "[グリパチ]CR戦国乙女5 10th Anniversary",
+          "publisher": "CommSeed Corporation",
+          "category": "ゲーム",
+          "app_id": "6771605991",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%AA%E3%83%91%E3%83%81-cr%E6%88%A6%E5%9B%BD%E4%B9%99%E5%A5%B35-10th-anniversary/id6771605991?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/e0/a3/b8e0a39a-372f-3ddf-e6cd-5fb52565a5e0/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "■斬り進め、乙女。10周年アニバーサリー機種！\n2018年8月に登場した、人気シリーズ”戦国乙女”の10周年アニバーサリータイトル\n「CR戦国乙女5～10th "
+        },
+        {
+          "rank": 95,
+          "name": "LINE マジマジ：爽快魔法マージパズル",
+          "publisher": "LINE Corporation",
+          "category": "ゲーム",
+          "app_id": "6578433768",
+          "url": "https://apps.apple.com/jp/app/line-%E3%83%9E%E3%82%B8%E3%83%9E%E3%82%B8-%E7%88%BD%E5%BF%AB%E9%AD%94%E6%B3%95%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%91%E3%82%BA%E3%83%AB/id6578433768?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/d2/4c/d1d24c12-730e-1dbc-5ccc-57786e2966fa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "LINE FRIENDS完全新作マージパズル！ブロックを合わせる超簡単合成ゲームで壊れた魔法の世界を修復しよう。スキマ時間に遊べる癒し系の無料マージゲーム！\n\n"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 79,
+          "name": "Travel Town - マージアドベンチャー",
+          "publisher": "Moon Active",
+          "category": "ゲーム",
+          "app_id": "1521236603",
+          "url": "https://apps.apple.com/jp/app/travel-town-%E3%83%9E%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC/id1521236603?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/93/3c/0d933c97-8df0-0549-251a-f6daa2d96c9a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "マージゲームの傑作、トラベルタウンがついに日本上陸！\n\n嵐で破壊されてしまった街に美しさを取り戻そう！\n\n面白いイベントやカードも盛りだくさん！\n\n◆はじめに　"
+        },
+        {
+          "rank": 92,
+          "name": "幻想水滸伝 STAR LEAP",
+          "publisher": "KONAMI",
+          "category": "ゲーム",
+          "app_id": "6746180100",
+          "url": "https://apps.apple.com/jp/app/%E5%B9%BB%E6%83%B3%E6%B0%B4%E6%BB%B8%E4%BC%9D-star-leap/id6746180100?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/9f/a5/9f9fa5db-04aa-97dc-b8a7-03663390c593/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "◆本作の特徴◆\n■出会いが物語を動かす——仲間と紡ぐ群像劇\n世界を廻り、108星をはじめ多くのキャラクターとの出会いによって紡がれる物語。\n仲間が増えるほど、冒"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 4,
+          "name": "ピクセル放置RPG：俺の絵だけ解像度がおかしい",
+          "publisher": "ANTIC TECNOLOGY LIMITED",
+          "category": "ゲーム",
+          "app_id": "6769318336",
+          "url": "https://apps.apple.com/jp/app/%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E6%94%BE%E7%BD%AErpg-%E4%BF%BA%E3%81%AE%E7%B5%B5%E3%81%A0%E3%81%91%E8%A7%A3%E5%83%8F%E5%BA%A6%E3%81%8C%E3%81%8A%E3%81%8B%E3%81%97%E3%81%84/id6769318336?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/32/ae/0d32aea2-242b-684e-1f41-e5a8b8aad8c8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "放置ゲームに、もう物足りなさを感じていませんか？\nあなたが\"冒険者そのもの\"になる、正真正銘のRPGです。\nダンジョンに潜り、装備を掘り、スキルを磨き、ギルドの"
+        },
+        {
+          "rank": 25,
+          "name": "VS BOAT－3D競艇オンライン対戦ゲーム",
+          "publisher": "soma anraku",
+          "category": "ゲーム",
+          "app_id": "6817994753",
+          "url": "https://apps.apple.com/jp/app/vs-boat-3d%E7%AB%B6%E8%89%87%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E5%AF%BE%E6%88%A6%E3%82%B2%E3%83%BC%E3%83%A0/id6817994753?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/2a/8f/3b2a8fbd-4084-3a4c-05e8-e70e1644f264/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "大時計が0秒になった瞬間、6艇が一斉にスタートラインへ。左手でレバー、右手でハンドルを握る、本格3Dのボートレース（競艇）対戦ゲーム「VS BOAT」。\n内を差"
+        },
+        {
+          "rank": 54,
+          "name": "[グリパチ]CR戦国乙女5 10th Anniversary",
+          "publisher": "CommSeed Corporation",
+          "category": "ゲーム",
+          "app_id": "6771605991",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%AA%E3%83%91%E3%83%81-cr%E6%88%A6%E5%9B%BD%E4%B9%99%E5%A5%B35-10th-anniversary/id6771605991?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/e0/a3/b8e0a39a-372f-3ddf-e6cd-5fb52565a5e0/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "■斬り進め、乙女。10周年アニバーサリー機種！\n2018年8月に登場した、人気シリーズ”戦国乙女”の10周年アニバーサリータイトル\n「CR戦国乙女5～10th "
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 2,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "ピクセル放置RPG：俺の絵だけ解像度がおかしい",
+          "publisher": "ANTIC TECNOLOGY LIMITED",
+          "category": "ゲーム",
+          "app_id": "6769318336",
+          "url": "https://apps.apple.com/jp/app/%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E6%94%BE%E7%BD%AErpg-%E4%BF%BA%E3%81%AE%E7%B5%B5%E3%81%A0%E3%81%91%E8%A7%A3%E5%83%8F%E5%BA%A6%E3%81%8C%E3%81%8A%E3%81%8B%E3%81%97%E3%81%84/id6769318336?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/32/ae/0d32aea2-242b-684e-1f41-e5a8b8aad8c8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "放置ゲームに、もう物足りなさを感じていませんか？\nあなたが\"冒険者そのもの\"になる、正真正銘のRPGです。\nダンジョンに潜り、装備を掘り、スキルを磨き、ギルドの"
+        },
+        {
+          "rank": 25,
+          "name": "VS BOAT－3D競艇オンライン対戦ゲーム",
+          "publisher": "soma anraku",
+          "category": "ゲーム",
+          "app_id": "6817994753",
+          "url": "https://apps.apple.com/jp/app/vs-boat-3d%E7%AB%B6%E8%89%87%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E5%AF%BE%E6%88%A6%E3%82%B2%E3%83%BC%E3%83%A0/id6817994753?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/2a/8f/3b2a8fbd-4084-3a4c-05e8-e70e1644f264/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "大時計が0秒になった瞬間、6艇が一斉にスタートラインへ。左手でレバー、右手でハンドルを握る、本格3Dのボートレース（競艇）対戦ゲーム「VS BOAT」。\n内を差"
+        },
+        {
+          "rank": 54,
+          "name": "[グリパチ]CR戦国乙女5 10th Anniversary",
+          "publisher": "CommSeed Corporation",
+          "category": "ゲーム",
+          "app_id": "6771605991",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%AA%E3%83%91%E3%83%81-cr%E6%88%A6%E5%9B%BD%E4%B9%99%E5%A5%B35-10th-anniversary/id6771605991?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/e0/a3/b8e0a39a-372f-3ddf-e6cd-5fb52565a5e0/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "■斬り進め、乙女。10周年アニバーサリー機種！\n2018年8月に登場した、人気シリーズ”戦国乙女”の10周年アニバーサリータイトル\n「CR戦国乙女5～10th "
+        },
+        {
+          "rank": 95,
+          "name": "LINE マジマジ：爽快魔法マージパズル",
+          "publisher": "LINE Corporation",
+          "category": "ゲーム",
+          "app_id": "6578433768",
+          "url": "https://apps.apple.com/jp/app/line-%E3%83%9E%E3%82%B8%E3%83%9E%E3%82%B8-%E7%88%BD%E5%BF%AB%E9%AD%94%E6%B3%95%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%91%E3%82%BA%E3%83%AB/id6578433768?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/d2/4c/d1d24c12-730e-1dbc-5ccc-57786e2966fa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "LINE FRIENDS完全新作マージパズル！ブロックを合わせる超簡単合成ゲームで壊れた魔法の世界を修復しよう。スキマ時間に遊べる癒し系の無料マージゲーム！\n\n"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
