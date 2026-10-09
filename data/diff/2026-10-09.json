@@ -1,0 +1,599 @@
+{
+  "date": "2026-10-09",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "极限战场",
+          "publisher": "网易游戏",
+          "category": "角色扮演"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "极限战场",
+          "publisher": "网易游戏",
+          "category": "角色扮演"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 12,
+          "name": "All Dubs",
+          "publisher": "Vaulty Studios Inc.",
+          "category": "Games",
+          "app_id": "6797929772",
+          "url": "https://apps.apple.com/us/app/all-dubs/id6797929772?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/db/c2/f1dbc2bb-ac4e-bcd2-202f-0d9ae7ed0d0f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Can you build the perfect team and finish the season undefeated? \n\nALL DUBS is t"
+        },
+        {
+          "rank": 92,
+          "name": "Hole.io - Original Hole Game",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "1389111413",
+          "url": "https://apps.apple.com/us/app/hole-io-original-hole-game/id1389111413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/71/2b/19712b76-bc3e-5d47-48d1-b0cf41717b4b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Hole.io, the wildly satisfying eat-the-world game played by millions!"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 82,
+          "name": "PlayCash Rewards",
+          "publisher": "Scale.ad, LLC",
+          "category": "Games",
+          "app_id": "6761865516",
+          "url": "https://apps.apple.com/us/app/playcash-rewards/id6761865516?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/52/eb/4a52eb61-93f9-f185-6a2c-881cb4b0fe5d/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "PlayCash helps you discover great mobile games and stay motivated as you play.\n\n"
+        },
+        {
+          "rank": 85,
+          "name": "Retro Bowl",
+          "publisher": "New Star Games",
+          "category": "Games",
+          "app_id": "1478902583",
+          "url": "https://apps.apple.com/us/app/retro-bowl/id1478902583?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/7d/d8/197dd8db-93d4-f20b-b99b-fd809f070698/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Retro Bowl is the perfect game for the armchair quarterback to finally prove a p"
+        },
+        {
+          "rank": 95,
+          "name": "EA SPORTS FC Soccer Mobile 27",
+          "publisher": "Electronic Arts",
+          "category": "Games",
+          "app_id": "1094930513",
+          "url": "https://apps.apple.com/us/app/ea-sports-fc-soccer-mobile-27/id1094930513?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/d1/84/41d18457-ec03-6812-f0a7-8a83686c6009/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This game includes optional in-game purchases of virtual currency that can be us"
+        },
+        {
+          "rank": 97,
+          "name": "Sunday City: Life Simulator",
+          "publisher": "Kefir",
+          "category": "Games",
+          "app_id": "6450834358",
+          "url": "https://apps.apple.com/us/app/sunday-city-life-simulator/id6450834358?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/45/42/4a454221-1016-1dcd-c9de-e594ecfb466a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "May your dreams become reality in Sunday City.\n\nSunday City is an eternal summer"
+        },
+        {
+          "rank": 99,
+          "name": "NoomiClone",
+          "publisher": "Matthew Jones",
+          "category": "Games",
+          "app_id": "1546690510",
+          "url": "https://apps.apple.com/us/app/noomiclone/id1546690510?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/46/cb/e546cb7e-f3d1-c1a4-a2f7-47a07214774f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Swing, flip and twist through a physics playground built for calisthenics, gymna"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 5,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 12,
+          "name": "All Dubs",
+          "publisher": "Vaulty Studios Inc.",
+          "category": "Games",
+          "app_id": "6797929772",
+          "url": "https://apps.apple.com/us/app/all-dubs/id6797929772?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/db/c2/f1dbc2bb-ac4e-bcd2-202f-0d9ae7ed0d0f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Can you build the perfect team and finish the season undefeated? \n\nALL DUBS is t"
+        },
+        {
+          "rank": 92,
+          "name": "Hole.io - Original Hole Game",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "1389111413",
+          "url": "https://apps.apple.com/us/app/hole-io-original-hole-game/id1389111413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/71/2b/19712b76-bc3e-5d47-48d1-b0cf41717b4b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Hole.io, the wildly satisfying eat-the-world game played by millions!"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 86,
+          "name": "我的汤姆猫2-地下探险万圣主题派对",
+          "publisher": "Outfit7 Limited",
+          "category": "游戏",
+          "app_id": "1337578317",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%B1%A4%E5%A7%86%E7%8C%AB2-%E5%9C%B0%E4%B8%8B%E6%8E%A2%E9%99%A9%E4%B8%87%E5%9C%A3%E4%B8%BB%E9%A2%98%E6%B4%BE%E5%AF%B9/id1337578317?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/3b/79/ee3b7989-6a0e-bffc-2b7d-a351fa4d16b6/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/100x100bb.png",
+          "slogan": "超级明星虚拟猫咪将踏上终极宠物冒险之旅，有了你，这将比以往任何时候都更有趣！你最喜爱的有趣朋友已经准备好用他的新服装、惊人技能和特殊功能让你大开眼界。\n\n你能做"
+        },
+        {
+          "rank": 99,
+          "name": "捕鱼大咖-畅爽3D街机捕鱼游戏",
+          "publisher": "游酷盛世科技(北京)有限公司",
+          "category": "游戏",
+          "app_id": "1561105019",
+          "url": "https://apps.apple.com/cn/app/%E6%8D%95%E9%B1%BC%E5%A4%A7%E5%92%96-%E7%95%85%E7%88%BD3d%E8%A1%97%E6%9C%BA%E6%8D%95%E9%B1%BC%E6%B8%B8%E6%88%8F/id1561105019?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/c0/36/0ec03655-5205-fafc-ab1b-aeadf6491ea3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "顶级团队，史诗巨制，《捕鱼大咖》巅峰来袭！\n\n亲爱的捕鱼玩家们，欢迎来到《捕鱼大咖》！在这里您将置身海底世界，感受真实逼真的首领、丰富多彩的鱼种、最刺激的深海冒"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 95,
+          "name": "疯狂动物园-跑酷牛仔向前冲",
+          "publisher": "Featherweight Games Pty Limited",
+          "category": "游戏",
+          "app_id": "1047961826",
+          "url": "https://apps.apple.com/cn/app/%E7%96%AF%E7%8B%82%E5%8A%A8%E7%89%A9%E5%9B%AD-%E8%B7%91%E9%85%B7%E7%89%9B%E4%BB%94%E5%90%91%E5%89%8D%E5%86%B2/id1047961826?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/fd/25/d4fd251d-3fea-9daa-3f6c-f41cf9f7c9ab/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【游戏介绍】\n准备好迎接一场疯狂的牛仔骑行冒险吧！《疯狂动物园》是一款让你欢乐放松的休闲小游戏，融合了「3D像素」、「急速跑酷」和「模拟经营」的元素。你将化身为"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 99,
+          "name": "捕鱼大咖-畅爽3D街机捕鱼游戏",
+          "publisher": "游酷盛世科技(北京)有限公司",
+          "category": "游戏",
+          "app_id": "1561105019",
+          "url": "https://apps.apple.com/cn/app/%E6%8D%95%E9%B1%BC%E5%A4%A7%E5%92%96-%E7%95%85%E7%88%BD3d%E8%A1%97%E6%9C%BA%E6%8D%95%E9%B1%BC%E6%B8%B8%E6%88%8F/id1561105019?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/c0/36/0ec03655-5205-fafc-ab1b-aeadf6491ea3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "顶级团队，史诗巨制，《捕鱼大咖》巅峰来袭！\n\n亲爱的捕鱼玩家们，欢迎来到《捕鱼大咖》！在这里您将置身海底世界，感受真实逼真的首领、丰富多彩的鱼种、最刺激的深海冒"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 86,
+          "name": "我的汤姆猫2-地下探险万圣主题派对",
+          "publisher": "Outfit7 Limited",
+          "category": "游戏",
+          "app_id": "1337578317",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%B1%A4%E5%A7%86%E7%8C%AB2-%E5%9C%B0%E4%B8%8B%E6%8E%A2%E9%99%A9%E4%B8%87%E5%9C%A3%E4%B8%BB%E9%A2%98%E6%B4%BE%E5%AF%B9/id1337578317?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/3b/79/ee3b7989-6a0e-bffc-2b7d-a351fa4d16b6/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/100x100bb.png",
+          "slogan": "超级明星虚拟猫咪将踏上终极宠物冒险之旅，有了你，这将比以往任何时候都更有趣！你最喜爱的有趣朋友已经准备好用他的新服装、惊人技能和特殊功能让你大开眼界。\n\n你能做"
+        },
+        {
+          "rank": 99,
+          "name": "捕鱼大咖-畅爽3D街机捕鱼游戏",
+          "publisher": "游酷盛世科技(北京)有限公司",
+          "category": "游戏",
+          "app_id": "1561105019",
+          "url": "https://apps.apple.com/cn/app/%E6%8D%95%E9%B1%BC%E5%A4%A7%E5%92%96-%E7%95%85%E7%88%BD3d%E8%A1%97%E6%9C%BA%E6%8D%95%E9%B1%BC%E6%B8%B8%E6%88%8F/id1561105019?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/c0/36/0ec03655-5205-fafc-ab1b-aeadf6491ea3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "顶级团队，史诗巨制，《捕鱼大咖》巅峰来袭！\n\n亲爱的捕鱼玩家们，欢迎来到《捕鱼大咖》！在这里您将置身海底世界，感受真实逼真的首领、丰富多彩的鱼种、最刺激的深海冒"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 4,
+          "name": "神楽姫絵巻～美少女育成放置RPG",
+          "publisher": "GameCC",
+          "category": "ゲーム",
+          "app_id": "6784473841",
+          "url": "https://apps.apple.com/jp/app/%E7%A5%9E%E6%A5%BD%E5%A7%AB%E7%B5%B5%E5%B7%BB-%E7%BE%8E%E5%B0%91%E5%A5%B3%E8%82%B2%E6%88%90%E6%94%BE%E7%BD%AErpg/id6784473841?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/65/3c/36653c3b-efba-6a66-7f8a-ead8833ee1d8/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "◆新規限定！豪華スタートダッシュ特典！\n 無料10000連ガチャ開催！\n虹晶石＆SSR神妖プレゼント！\n限定SSR衣装「喰竜の神服」も無料GET！\n\nかつて記憶"
+        },
+        {
+          "rank": 51,
+          "name": "脱出ゲーム　森のかき氷屋さん　甘雪",
+          "publisher": "Sasaki Keisuke",
+          "category": "ゲーム",
+          "app_id": "6802154813",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E6%A3%AE%E3%81%AE%E3%81%8B%E3%81%8D%E6%B0%B7%E5%B1%8B%E3%81%95%E3%82%93-%E7%94%98%E9%9B%AA/id6802154813?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/3a/61/333a6139-4505-927c-7516-fe922d7a45e8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【あらすじ】\n「甘雪スペシャル」を食べるため、北海道から埼玉にあるかき氷屋「甘雪」を訪れた主人公。\nしかし、店主の様子はどこかおかしい。\n目当ての「甘雪スペシャ"
+        },
+        {
+          "rank": 68,
+          "name": "超進化物語2",
+          "publisher": "Guangzhou Anteng Information Technology Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6742139163",
+          "url": "https://apps.apple.com/jp/app/%E8%B6%85%E9%80%B2%E5%8C%96%E7%89%A9%E8%AA%9E2/id6742139163?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/81/c7/aa81c7eb-cbb8-f54b-3edf-18e33504d51e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "『超進化物語2』は、NTFusionが独自開発した、モンスターの「変態」と進化を楽しめる新作スマホゲーム！舞台は「超進化大陸」と呼ばれる幻想世界。あなたは「ファ"
+        },
+        {
+          "rank": 86,
+          "name": "脱出ゲーム 華金を楽しみたい",
+          "publisher": "Shiro Miyahara",
+          "category": "ゲーム",
+          "app_id": "6812830268",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E8%8F%AF%E9%87%91%E3%82%92%E6%A5%BD%E3%81%97%E3%81%BF%E3%81%9F%E3%81%84/id6812830268?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/cc/0c/91cc0c44-6fac-6fbd-e6db-a59fa961f829/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "〜華金を楽しみたい〜\n\nやっと1週間が終わった！\n金曜日の夜のこの解放感、なんともたまらん！\n\n最近の楽しみは、仕事終わりに行ったことがない居酒屋に1人で入るこ"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 65,
+          "name": "PokeBuddy | ポケバディ",
+          "publisher": "Shinnosuke Komiya",
+          "category": "ゲーム",
+          "app_id": "6468970638",
+          "url": "https://apps.apple.com/jp/app/pokebuddy-%E3%83%9D%E3%82%B1%E3%83%90%E3%83%87%E3%82%A3/id6468970638?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/af/1e/4f/af1e4fb5-f195-84e0-3e91-07def73437e4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "ポケモンカードゲームのプレイとコレクションを丸ごと支える、ファンが個人で作った非公式アプリです。\n\n■ こんな方におすすめ\n・デッキのレシピをスマホで作って、一"
+        },
+        {
+          "rank": 88,
+          "name": "eFootball™",
+          "publisher": "KONAMI",
+          "category": "ゲーム",
+          "app_id": "1117270703",
+          "url": "https://apps.apple.com/jp/app/efootball/id1117270703?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/c5/a7/99c5a7ab-102e-ccf0-e876-b7f884b66787/PesMobile-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "精細なグラフィックとリアルな操作性の本格サッカーアクションゲーム。\n世界中のクラブ・代表チームの現役選手やレジェンドを獲得・育成し、自由に編成したあなただけのチ"
+        },
+        {
+          "rank": 98,
+          "name": "墜ちたる美: 合成&ストーリー",
+          "publisher": "KINETIC ENERGY WIRELESS(HONG KONG)LIMITED",
+          "category": "ゲーム",
+          "app_id": "6758072393",
+          "url": "https://apps.apple.com/jp/app/%E5%A2%9C%E3%81%A1%E3%81%9F%E3%82%8B%E7%BE%8E-%E5%90%88%E6%88%90-%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC/id6758072393?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/55/85/3c558515-f7b0-6f3e-63d0-c75720584c2f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fallen Beauty: マージ&ストーリー\nマージでスタイルを。ひとときを、人生を変える。\n『Fallen Beauty』は、マージゲームプレイ、ドレスア"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 4,
+          "name": "神楽姫絵巻～美少女育成放置RPG",
+          "publisher": "GameCC",
+          "category": "ゲーム",
+          "app_id": "6784473841",
+          "url": "https://apps.apple.com/jp/app/%E7%A5%9E%E6%A5%BD%E5%A7%AB%E7%B5%B5%E5%B7%BB-%E7%BE%8E%E5%B0%91%E5%A5%B3%E8%82%B2%E6%88%90%E6%94%BE%E7%BD%AErpg/id6784473841?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/65/3c/36653c3b-efba-6a66-7f8a-ead8833ee1d8/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "◆新規限定！豪華スタートダッシュ特典！\n 無料10000連ガチャ開催！\n虹晶石＆SSR神妖プレゼント！\n限定SSR衣装「喰竜の神服」も無料GET！\n\nかつて記憶"
+        },
+        {
+          "rank": 51,
+          "name": "脱出ゲーム　森のかき氷屋さん　甘雪",
+          "publisher": "Sasaki Keisuke",
+          "category": "ゲーム",
+          "app_id": "6802154813",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E6%A3%AE%E3%81%AE%E3%81%8B%E3%81%8D%E6%B0%B7%E5%B1%8B%E3%81%95%E3%82%93-%E7%94%98%E9%9B%AA/id6802154813?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/3a/61/333a6139-4505-927c-7516-fe922d7a45e8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【あらすじ】\n「甘雪スペシャル」を食べるため、北海道から埼玉にあるかき氷屋「甘雪」を訪れた主人公。\nしかし、店主の様子はどこかおかしい。\n目当ての「甘雪スペシャ"
+        },
+        {
+          "rank": 68,
+          "name": "超進化物語2",
+          "publisher": "Guangzhou Anteng Information Technology Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6742139163",
+          "url": "https://apps.apple.com/jp/app/%E8%B6%85%E9%80%B2%E5%8C%96%E7%89%A9%E8%AA%9E2/id6742139163?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/81/c7/aa81c7eb-cbb8-f54b-3edf-18e33504d51e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "『超進化物語2』は、NTFusionが独自開発した、モンスターの「変態」と進化を楽しめる新作スマホゲーム！舞台は「超進化大陸」と呼ばれる幻想世界。あなたは「ファ"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 3,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "神楽姫絵巻～美少女育成放置RPG",
+          "publisher": "GameCC",
+          "category": "ゲーム",
+          "app_id": "6784473841",
+          "url": "https://apps.apple.com/jp/app/%E7%A5%9E%E6%A5%BD%E5%A7%AB%E7%B5%B5%E5%B7%BB-%E7%BE%8E%E5%B0%91%E5%A5%B3%E8%82%B2%E6%88%90%E6%94%BE%E7%BD%AErpg/id6784473841?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/65/3c/36653c3b-efba-6a66-7f8a-ead8833ee1d8/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "◆新規限定！豪華スタートダッシュ特典！\n 無料10000連ガチャ開催！\n虹晶石＆SSR神妖プレゼント！\n限定SSR衣装「喰竜の神服」も無料GET！\n\nかつて記憶"
+        },
+        {
+          "rank": 51,
+          "name": "脱出ゲーム　森のかき氷屋さん　甘雪",
+          "publisher": "Sasaki Keisuke",
+          "category": "ゲーム",
+          "app_id": "6802154813",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E6%A3%AE%E3%81%AE%E3%81%8B%E3%81%8D%E6%B0%B7%E5%B1%8B%E3%81%95%E3%82%93-%E7%94%98%E9%9B%AA/id6802154813?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/3a/61/333a6139-4505-927c-7516-fe922d7a45e8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【あらすじ】\n「甘雪スペシャル」を食べるため、北海道から埼玉にあるかき氷屋「甘雪」を訪れた主人公。\nしかし、店主の様子はどこかおかしい。\n目当ての「甘雪スペシャ"
+        },
+        {
+          "rank": 68,
+          "name": "超進化物語2",
+          "publisher": "Guangzhou Anteng Information Technology Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6742139163",
+          "url": "https://apps.apple.com/jp/app/%E8%B6%85%E9%80%B2%E5%8C%96%E7%89%A9%E8%AA%9E2/id6742139163?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/81/c7/aa81c7eb-cbb8-f54b-3edf-18e33504d51e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "『超進化物語2』は、NTFusionが独自開発した、モンスターの「変態」と進化を楽しめる新作スマホゲーム！舞台は「超進化大陸」と呼ばれる幻想世界。あなたは「ファ"
+        },
+        {
+          "rank": 86,
+          "name": "脱出ゲーム 華金を楽しみたい",
+          "publisher": "Shiro Miyahara",
+          "category": "ゲーム",
+          "app_id": "6812830268",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E8%8F%AF%E9%87%91%E3%82%92%E6%A5%BD%E3%81%97%E3%81%BF%E3%81%9F%E3%81%84/id6812830268?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/cc/0c/91cc0c44-6fac-6fbd-e6db-a59fa961f829/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "〜華金を楽しみたい〜\n\nやっと1週間が終わった！\n金曜日の夜のこの解放感、なんともたまらん！\n\n最近の楽しみは、仕事終わりに行ったことがない居酒屋に1人で入るこ"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 72,
+          "name": "Hole.io - Original Hole Game",
+          "publisher": "VOODOO",
+          "category": "Games",
+          "package": "io.voodoo.holeio"
+        },
+        {
+          "rank": 83,
+          "name": "Draw Bridge Puzzle: Brain Game",
+          "publisher": "Brave Labs",
+          "category": "Games",
+          "package": "com.bravestars.draw.bridge.drawgame"
+        },
+        {
+          "rank": 88,
+          "name": "Auto Drill: Galaxy",
+          "publisher": "LAVA LABS OYUN YAZILIM VE PAZARLAMA ANONİM ŞİRKETİ",
+          "category": "Games",
+          "package": "com.lavalabs.autodrill"
+        },
+        {
+          "rank": 98,
+          "name": "Splash Buster: Smash Fest 3D",
+          "publisher": "Nebula  Studio",
+          "category": "Games",
+          "package": "com.nebula.splashbuster"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 85,
+          "name": "Last Beacon: Survival",
+          "publisher": "YG Technology FZ-LLC",
+          "category": "Games",
+          "package": "com.hnhs.endlesssea.gp"
+        },
+        {
+          "rank": 91,
+          "name": "Picture Blast Solitaire",
+          "publisher": "Gismart",
+          "category": "Games",
+          "package": "com.pic.blast.solitaire"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 37,
+          "name": "Wool Crush™",
+          "publisher": "Astrasen Global",
+          "category": "Games",
+          "package": "wool.match.color.sort.jam.puzzle"
+        },
+        {
+          "rank": 79,
+          "name": "Hidden Object Games: Seek It",
+          "publisher": "NimbleMind Network Inc.",
+          "category": "Games",
+          "package": "hidden.object.find.seek.search.mystery.puzzle.games.free"
+        },
+        {
+          "rank": 90,
+          "name": "Frost Valley™: Merge & Story",
+          "publisher": "Tuyoo Games (HK) Limited",
+          "category": "Games",
+          "package": "com.liteorange.hometopia"
+        },
+        {
+          "rank": 92,
+          "name": "Vigor Mahjong",
+          "publisher": "CanaryDroid",
+          "category": "Games",
+          "package": "com.godlike.vigormahjong"
+        },
+        {
+          "rank": 99,
+          "name": "Crossword Go!",
+          "publisher": "PlaySimple Games",
+          "category": "Games",
+          "package": "in.playsimple.crossword.go"
+        },
+        {
+          "rank": 100,
+          "name": "Total Battle: War Strategy",
+          "publisher": "Scorewarrior",
+          "category": "Games",
+          "package": "com.totalbattle"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 83,
+          "name": "Draw Bridge Puzzle: Brain Game",
+          "publisher": "Brave Labs",
+          "category": "Games",
+          "package": "com.bravestars.draw.bridge.drawgame"
+        },
+        {
+          "rank": 85,
+          "name": "Last Beacon: Survival",
+          "publisher": "YG Technology FZ-LLC",
+          "category": "Games",
+          "package": "com.hnhs.endlesssea.gp"
+        },
+        {
+          "rank": 88,
+          "name": "Auto Drill: Galaxy",
+          "publisher": "LAVA LABS OYUN YAZILIM VE PAZARLAMA ANONİM ŞİRKETİ",
+          "category": "Games",
+          "package": "com.lavalabs.autodrill"
+        },
+        {
+          "rank": 91,
+          "name": "Picture Blast Solitaire",
+          "publisher": "Gismart",
+          "category": "Games",
+          "package": "com.pic.blast.solitaire"
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 6,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 72,
+          "name": "Hole.io - Original Hole Game",
+          "publisher": "VOODOO",
+          "category": "Games",
+          "package": "io.voodoo.holeio"
+        },
+        {
+          "rank": 83,
+          "name": "Draw Bridge Puzzle: Brain Game",
+          "publisher": "Brave Labs",
+          "category": "Games",
+          "package": "com.bravestars.draw.bridge.drawgame"
+        },
+        {
+          "rank": 85,
+          "name": "Last Beacon: Survival",
+          "publisher": "YG Technology FZ-LLC",
+          "category": "Games",
+          "package": "com.hnhs.endlesssea.gp"
+        },
+        {
+          "rank": 88,
+          "name": "Auto Drill: Galaxy",
+          "publisher": "LAVA LABS OYUN YAZILIM VE PAZARLAMA ANONİM ŞİRKETİ",
+          "category": "Games",
+          "package": "com.lavalabs.autodrill"
+        },
+        {
+          "rank": 91,
+          "name": "Picture Blast Solitaire",
+          "publisher": "Gismart",
+          "category": "Games",
+          "package": "com.pic.blast.solitaire"
+        },
+        {
+          "rank": 98,
+          "name": "Splash Buster: Smash Fest 3D",
+          "publisher": "Nebula  Studio",
+          "category": "Games",
+          "package": "com.nebula.splashbuster"
+        }
+      ]
+    }
+  }
+}
