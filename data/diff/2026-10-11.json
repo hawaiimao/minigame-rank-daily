@@ -1,0 +1,630 @@
+{
+  "date": "2026-10-11",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "掼蛋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 5名",
+          "publisher": "牌类",
+          "change": "+2",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 7,
+          "name": "精英军团",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "竞技 · 1名",
+          "publisher": "塔防",
+          "change": "杭州叙炽网络科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 14,
+          "name": "天命行者",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 3名",
+          "publisher": "卡牌",
+          "change": "广州大蓝网络科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "佣兵小镇",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 5名",
+          "publisher": "卡牌",
+          "change": "成都天象互动文化传播有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "青云诀之伏魔",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 6名",
+          "publisher": "MMO",
+          "change": "海南元游信息技术有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "天天象棋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 2名",
+          "publisher": "棋类",
+          "change": "+2",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 20,
+          "name": "天天象棋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 2名",
+          "publisher": "棋类",
+          "change": "+2",
+          "change_direction": "down"
+        }
+      ],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "极境：垂钓者",
+          "publisher": "紫龙游戏",
+          "category": "钓鱼",
+          "subcategory": "模拟、休闲"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 1,
+          "name": "米塔",
+          "category": "模拟",
+          "subcategory": "角色扮演、第一人称视角、单机、剧情、冒险、恐怖、可爱、单人、3D、二次元、解谜、支持Steam家庭共享、2D"
+        },
+        {
+          "rank": 10,
+          "name": "小苔屋",
+          "publisher": "猫猫世纪工作室",
+          "category": "休闲"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "极境：垂钓者",
+          "publisher": "紫龙游戏",
+          "category": "钓鱼",
+          "subcategory": "模拟、休闲"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 75,
+          "name": "Aquapark.io",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "1453989822",
+          "url": "https://apps.apple.com/us/app/aquapark-io/id1453989822?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/95/d2/af95d245-e2c1-8960-6ec6-8281ebe54274/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Reach to the end of the water slide, try to be the first. Bump other players dur"
+        },
+        {
+          "rank": 86,
+          "name": "Vehicle Masters",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6444705312",
+          "url": "https://apps.apple.com/us/app/vehicle-masters/id6444705312?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/f1/57/fdf157a7-f44c-ca2c-ea59-bf5e2ff6c9b4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "► SLOWLY BUT SURELY\n\nLooking for a game with gallons of nitro and adrenaline, tr"
+        },
+        {
+          "rank": 90,
+          "name": "Headbands: Charades Party Game",
+          "publisher": "DKraft Studio s.r.o.",
+          "category": "Games",
+          "app_id": "1424246763",
+          "url": "https://apps.apple.com/us/app/headbands-charades-party-game/id1424246763?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/1b/75/381b752b-235a-6659-417f-f57c2d6a8b6b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "Headbands is the charades party game that turns any get-together into a comedy s"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 45,
+          "name": "Charades Guess Game · Guessly",
+          "publisher": "smak apps",
+          "category": "Games",
+          "app_id": "6473058122",
+          "url": "https://apps.apple.com/us/app/charades-guess-game-guessly/id6473058122?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/49/2e/58492e0a-a343-4dcd-bff6-53d52a479fb8/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.jpeg/100x100bb.png",
+          "slogan": "Ready to turn ordinary hangouts into unforgettable moments? Meet Guessly — a cha"
+        },
+        {
+          "rank": 82,
+          "name": "2 Player Games : Offline Games",
+          "publisher": "Moreno Maio",
+          "category": "Games",
+          "app_id": "1465731199",
+          "url": "https://apps.apple.com/us/app/2-player-games-offline-games/id1465731199?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7c/14/c1/7c14c1e3-502e-ed28-e663-1d42507eabfb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "If you want to play with your friend on the same device, this is the right game!"
+        },
+        {
+          "rank": 91,
+          "name": "Dark War:Survival",
+          "publisher": "Omnilojo Pte Ltd",
+          "category": "Games",
+          "app_id": "6670441558",
+          "url": "https://apps.apple.com/us/app/dark-war-survival/id6670441558?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/cc/16/9bcc1612-cff3-eaa6-0577-4784dded2668/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Gear up and brace yourself for the ultimate test of zombie apocalypse survival! "
+        },
+        {
+          "rank": 92,
+          "name": "Cookingo: Perfect Meal",
+          "publisher": "Higame Global Limited",
+          "category": "Games",
+          "app_id": "6756288168",
+          "url": "https://apps.apple.com/us/app/cookingo-perfect-meal/id6756288168?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/c1/2a/14c12a84-a079-04c3-4e3a-05c65aafa60a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to Cookingo, your peaceful little escape from the hustle and bustle of e"
+        },
+        {
+          "rank": 99,
+          "name": "Match Factory!",
+          "publisher": "Peak Games",
+          "category": "Games",
+          "app_id": "6449094229",
+          "url": "https://apps.apple.com/us/app/match-factory/id6449094229?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/a8/f0/96a8f01a-d130-f69b-0a3e-0e8347de7e76/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Match Factory - The Ultimate 3D Puzzle Adventure!\n\nDive into the fasc"
+        },
+        {
+          "rank": 100,
+          "name": "Goods Puzzle: Sort Challenge™",
+          "publisher": "FALCON GAMES",
+          "category": "Games",
+          "app_id": "6482849843",
+          "url": "https://apps.apple.com/us/app/goods-puzzle-sort-challenge/id6482849843?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/3e/ab/2e3eabe3-b4f8-4023-661e-7ace7b765176/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready to embark on an exciting matching adventure like never before in Goods"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 90,
+          "name": "Headbands: Charades Party Game",
+          "publisher": "DKraft Studio s.r.o.",
+          "category": "Games",
+          "app_id": "1424246763",
+          "url": "https://apps.apple.com/us/app/headbands-charades-party-game/id1424246763?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/1b/75/381b752b-235a-6659-417f-f57c2d6a8b6b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "Headbands is the charades party game that turns any get-together into a comedy s"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 6,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 75,
+          "name": "Aquapark.io",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "1453989822",
+          "url": "https://apps.apple.com/us/app/aquapark-io/id1453989822?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/95/d2/af95d245-e2c1-8960-6ec6-8281ebe54274/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Reach to the end of the water slide, try to be the first. Bump other players dur"
+        },
+        {
+          "rank": 86,
+          "name": "Vehicle Masters",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6444705312",
+          "url": "https://apps.apple.com/us/app/vehicle-masters/id6444705312?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/f1/57/fdf157a7-f44c-ca2c-ea59-bf5e2ff6c9b4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "► SLOWLY BUT SURELY\n\nLooking for a game with gallons of nitro and adrenaline, tr"
+        },
+        {
+          "rank": 90,
+          "name": "Headbands: Charades Party Game",
+          "publisher": "DKraft Studio s.r.o.",
+          "category": "Games",
+          "app_id": "1424246763",
+          "url": "https://apps.apple.com/us/app/headbands-charades-party-game/id1424246763?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/1b/75/381b752b-235a-6659-417f-f57c2d6a8b6b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "Headbands is the charades party game that turns any get-together into a comedy s"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 12,
+          "name": "我叫MT：崛起",
+          "publisher": "Chengmai Wulin Interactive Entertainment Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6808532104",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E5%8F%ABmt-%E5%B4%9B%E8%B5%B7/id6808532104?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/bc/b7/debcb778-a945-9265-59e6-b1a2b0d03b48/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《我叫MT：崛起》是一款以魔幻世界为背景的卡牌放置类手游，在MT的世界里，你将作为一位异世大陆冒险者，与哀木涕以及菊爆大队的一众伙伴并肩同行，重温原汁原味的大陆"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 51,
+          "name": "潮汐守望者",
+          "publisher": "Moonton Games",
+          "category": "游戏",
+          "app_id": "6484164228",
+          "url": "https://apps.apple.com/cn/app/%E6%BD%AE%E6%B1%90%E5%AE%88%E6%9C%9B%E8%80%85/id6484164228?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/6c/52/dc6c5269-daea-49c8-7958-cff00f94fb1f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「策略不将就，谁玩谁上头」\n塔防策略革新者《潮汐守望者》——抛开简单呆板的合成消除，感受耐玩上头的塔防策略。\n你将扮演泰亚大陆的指挥官，在原汁原味的写实西幻世界"
+        },
+        {
+          "rank": 83,
+          "name": "FC足球世界-Next",
+          "publisher": "Tencent Mobile Games",
+          "category": "游戏",
+          "app_id": "1305599559",
+          "url": "https://apps.apple.com/cn/app/fc%E8%B6%B3%E7%90%83%E4%B8%96%E7%95%8C-next/id1305599559?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/e4/37/6de43779-c5f4-34b9-cb56-b98f7834e423/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "《FC足球世界》是由EA SPORTS研发、腾讯游戏发行的新世代足球手游，汇聚超19,000名真实球星、690支球队与35个联赛，从现役巨星到传奇名宿全面收录；"
+        },
+        {
+          "rank": 93,
+          "name": "实况足球",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1347776121",
+          "url": "https://apps.apple.com/cn/app/%E5%AE%9E%E5%86%B5%E8%B6%B3%E7%90%83/id1347776121?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/79/02/0079020a-b439-6ee9-e1bb-ae1f54735c4d/PesMobile-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "■实况足球2027，震撼登场！\n全球10亿下载，实况足球手游现已更新2027赛季年度版本！攻防双阵型时代来临！足坛前沿战术理念在你手中复刻，进攻防守两套阵型动态"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 12,
+          "name": "我叫MT：崛起",
+          "publisher": "Chengmai Wulin Interactive Entertainment Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6808532104",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E5%8F%ABmt-%E5%B4%9B%E8%B5%B7/id6808532104?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/bc/b7/debcb778-a945-9265-59e6-b1a2b0d03b48/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《我叫MT：崛起》是一款以魔幻世界为背景的卡牌放置类手游，在MT的世界里，你将作为一位异世大陆冒险者，与哀木涕以及菊爆大队的一众伙伴并肩同行，重温原汁原味的大陆"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 12,
+          "name": "我叫MT：崛起",
+          "publisher": "Chengmai Wulin Interactive Entertainment Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6808532104",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E5%8F%ABmt-%E5%B4%9B%E8%B5%B7/id6808532104?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/bc/b7/debcb778-a945-9265-59e6-b1a2b0d03b48/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《我叫MT：崛起》是一款以魔幻世界为背景的卡牌放置类手游，在MT的世界里，你将作为一位异世大陆冒险者，与哀木涕以及菊爆大队的一众伙伴并肩同行，重温原汁原味的大陆"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 81,
+          "name": "パクパクフィッシュ-Fish Eat Fish.io",
+          "publisher": "MOBIBRAIN TECHNOLOGY PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6453700466",
+          "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%82%AF%E3%83%91%E3%82%AF%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5-fish-eat-fish-io/id6453700466?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/16/4a/2b164a83-be06-a723-345a-4f3888d0f83c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「大きな魚が小さな魚を食う」が、ようやく戻ってきた!\n伝統的なプレイを体験しながら、新しいゲームを楽しみ、この海の冒険に参加しましょう！\n広い海の中で、あなたは"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 51,
+          "name": "Playtest Pro by BestPlay",
+          "publisher": "Bestplay Systems",
+          "category": "ゲーム",
+          "app_id": "6503697761",
+          "url": "https://apps.apple.com/jp/app/playtest-pro-by-bestplay/id6503697761?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/d1/44/3dd144e3-cf83-a6c1-8eeb-3b7d0fd3c377/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Playtest Proのご紹介です。あなたの意見を共有し、毎日使う製品やサービスをより良くするための理想的なプラットフォームです。フィードバックが大好きな方も"
+        },
+        {
+          "rank": 93,
+          "name": "Shoot & Hide",
+          "publisher": "Crazy Labs",
+          "category": "ゲーム",
+          "app_id": "6747033069",
+          "url": "https://apps.apple.com/jp/app/shoot-hide/id6747033069?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/a9/71/23a97182-d3b0-d9f3-7ec7-22ba2c23db4f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Test your timing and reflexes in a fast, satisfying game of risk and precision. "
+        }
+      ],
+      "returning": [
+        {
+          "rank": 85,
+          "name": "魔法のタイルズ 3™: 音ゲー ピアノタイル",
+          "publisher": "Amanotes Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "1443446174",
+          "url": "https://apps.apple.com/jp/app/%E9%AD%94%E6%B3%95%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%BA-3-%E9%9F%B3%E3%82%B2%E3%83%BC-%E3%83%94%E3%82%A2%E3%83%8E%E3%82%BF%E3%82%A4%E3%83%AB/id1443446174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/b0/8c/f0b08c90-0fc9-8ed9-2349-d17aeba3c605/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一年で一番大切な瞬間を、リズムにのって楽しみましょう！ヒット曲のビートで、魂ごとを音楽にのせていきましょう。\n\n\nMagic Tiles 3では、ポップス、ラッ"
+        },
+        {
+          "rank": 88,
+          "name": "グッズソーティング3D：マッチゲーム",
+          "publisher": "Guru Smart Holding Limited",
+          "category": "ゲーム",
+          "app_id": "6499306806",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%83%E3%82%BA%E3%82%BD%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B03d-%E3%83%9E%E3%83%83%E3%83%81%E3%82%B2%E3%83%BC%E3%83%A0/id6499306806?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/5f/91/dd5f9193-81f1-4bda-93f7-b22663aa552f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "グッズソーティング3D：マッチゲームで、これまでにないエキサイティングなマッチングアドベンチャーに備えよう！複数のグッズをソートし、棚を整理し、レジャータイムを"
+        },
+        {
+          "rank": 94,
+          "name": "Paper.io 2",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "1423046460",
+          "url": "https://apps.apple.com/jp/app/paper-io-2/id1423046460?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/6b/d4/ea6bd487-84f9-325d-ac65-3fbfa60da2b0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "世界中の何百万人ものプレイヤーと一緒に、最高にハマるioゲームを体験しよう！アリーナを移動して線を引き、陣地を広げて、誰かに道を断たれる前にゾーンを確保しよう。"
+        },
+        {
+          "rank": 96,
+          "name": "STYLZ（スタイルズ）: 着せ替え・ファッションゲーム",
+          "publisher": "NAVER Z Japan Corp.",
+          "category": "ゲーム",
+          "app_id": "6761049663",
+          "url": "https://apps.apple.com/jp/app/stylz-%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%BA-%E7%9D%80%E3%81%9B%E6%9B%BF%E3%81%88-%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id6761049663?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/30/26/9530269b-9540-8a94-c415-2d3c7d84c724/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ZEPETOの制作チームが贈る、新作着せ替えゲーム『STYLZ』。  \n自分だけのコーデを完成させ、お客さまのリクエストをスタイリングで叶えよう。世界中のプレイ"
+        },
+        {
+          "rank": 97,
+          "name": "ウッドパズル：Screw ネジ外すゲーム  - 人気 脳トレ",
+          "publisher": "LONGSEA LINK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6642698438",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A6%E3%83%83%E3%83%89%E3%83%91%E3%82%BA%E3%83%AB-screw-%E3%83%8D%E3%82%B8%E5%A4%96%E3%81%99%E3%82%B2%E3%83%BC%E3%83%A0-%E4%BA%BA%E6%B0%97-%E8%84%B3%E3%83%88%E3%83%AC/id6642698438?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/b8/87/5eb8874d-4ca0-2d38-e9e9-2c2a357ed3d0/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "「ウッドパズル：Screw ネジ外すゲーム - 人気 脳トレ」へようこそ！\nシンプルな操作で誰でも楽しめる「ウッドパズル：Screw ネジ外すゲーム」は、ナット"
+        },
+        {
+          "rank": 100,
+          "name": "ナンバーマッチ - 数字パズル",
+          "publisher": "Easybrain Ltd",
+          "category": "ゲーム",
+          "app_id": "1545567989",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E3%83%9E%E3%83%83%E3%83%81-%E6%95%B0%E5%AD%97%E3%83%91%E3%82%BA%E3%83%AB/id1545567989?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/39/8b/66398be1-3c5c-db79-0248-a096170e6efe/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Number Matchは、ペアをマッチさせてボードから消す、シンプルなルールのハマれるパズルゲームです。ナンバーマッチは脳を使ったいい暇つぶしにもなります。論"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 51,
+          "name": "Playtest Pro by BestPlay",
+          "publisher": "Bestplay Systems",
+          "category": "ゲーム",
+          "app_id": "6503697761",
+          "url": "https://apps.apple.com/jp/app/playtest-pro-by-bestplay/id6503697761?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/d1/44/3dd144e3-cf83-a6c1-8eeb-3b7d0fd3c377/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Playtest Proのご紹介です。あなたの意見を共有し、毎日使う製品やサービスをより良くするための理想的なプラットフォームです。フィードバックが大好きな方も"
+        },
+        {
+          "rank": 81,
+          "name": "パクパクフィッシュ-Fish Eat Fish.io",
+          "publisher": "MOBIBRAIN TECHNOLOGY PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6453700466",
+          "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%82%AF%E3%83%91%E3%82%AF%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5-fish-eat-fish-io/id6453700466?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/16/4a/2b164a83-be06-a723-345a-4f3888d0f83c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「大きな魚が小さな魚を食う」が、ようやく戻ってきた!\n伝統的なプレイを体験しながら、新しいゲームを楽しみ、この海の冒険に参加しましょう！\n広い海の中で、あなたは"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 6,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 51,
+          "name": "Playtest Pro by BestPlay",
+          "publisher": "Bestplay Systems",
+          "category": "ゲーム",
+          "app_id": "6503697761",
+          "url": "https://apps.apple.com/jp/app/playtest-pro-by-bestplay/id6503697761?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/d1/44/3dd144e3-cf83-a6c1-8eeb-3b7d0fd3c377/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Playtest Proのご紹介です。あなたの意見を共有し、毎日使う製品やサービスをより良くするための理想的なプラットフォームです。フィードバックが大好きな方も"
+        },
+        {
+          "rank": 81,
+          "name": "パクパクフィッシュ-Fish Eat Fish.io",
+          "publisher": "MOBIBRAIN TECHNOLOGY PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6453700466",
+          "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%82%AF%E3%83%91%E3%82%AF%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5-fish-eat-fish-io/id6453700466?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/16/4a/2b164a83-be06-a723-345a-4f3888d0f83c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「大きな魚が小さな魚を食う」が、ようやく戻ってきた!\n伝統的なプレイを体験しながら、新しいゲームを楽しみ、この海の冒険に参加しましょう！\n広い海の中で、あなたは"
+        },
+        {
+          "rank": 93,
+          "name": "Shoot & Hide",
+          "publisher": "Crazy Labs",
+          "category": "ゲーム",
+          "app_id": "6747033069",
+          "url": "https://apps.apple.com/jp/app/shoot-hide/id6747033069?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/a9/71/23a97182-d3b0-d9f3-7ec7-22ba2c23db4f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Test your timing and reflexes in a fast, satisfying game of risk and precision. "
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 64,
+          "name": "All Dubs",
+          "publisher": "Vaulty Studios Inc.",
+          "category": "Games",
+          "package": "com.vaultystudios.alldubs"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 85,
+          "name": "Total Battle: War Strategy",
+          "publisher": "Scorewarrior",
+          "category": "Games",
+          "package": "com.totalbattle"
+        },
+        {
+          "rank": 90,
+          "name": "Stack Smash - Block 3D Puzzle",
+          "publisher": "Tripledot Studios Limited",
+          "category": "Games",
+          "package": "com.tripledot.blockssmashgame"
+        },
+        {
+          "rank": 95,
+          "name": "Snake Clash!",
+          "publisher": "Supercent, Inc.",
+          "category": "Games",
+          "package": "io.supercent.linkedcubic"
+        },
+        {
+          "rank": 97,
+          "name": "Brain Puzzle: Tricky Test",
+          "publisher": "SLEEK CHARM LIMITED",
+          "category": "Games",
+          "package": "com.brain.puzzle.tricky.test.annoying.quest"
+        },
+        {
+          "rank": 100,
+          "name": "Dot Link - Connect the Dots",
+          "publisher": "Bluetile",
+          "category": "Games",
+          "package": "com.playvalve.connect.dots"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 5,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 64,
+          "name": "All Dubs",
+          "publisher": "Vaulty Studios Inc.",
+          "category": "Games",
+          "package": "com.vaultystudios.alldubs"
+        }
+      ]
+    }
+  }
+}
