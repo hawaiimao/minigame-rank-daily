@@ -1,0 +1,802 @@
+{
+  "date": "2026-10-12",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "闯关也疯狂",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 5名",
+          "publisher": "益智",
+          "change": "广州宝可梦科技有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "禁区突围",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 15名",
+          "publisher": "塔防",
+          "change": "--",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "肥鹅美食街",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 7名",
+          "publisher": "模拟经营",
+          "change": "北京豪腾创想科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 13,
+          "name": "模拟城市：我是市长",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "其他 · 1名",
+          "publisher": "其他",
+          "change": "北京北纬通信科技股份有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 16,
+          "name": "躺平发育",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 13名",
+          "publisher": "塔防",
+          "change": "北京蜜獾工坊娱乐文化有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "疯狂水世界",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 14名",
+          "publisher": "模拟经营",
+          "change": "益世界网络科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "闯关也疯狂",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 5名",
+          "publisher": "益智",
+          "change": "广州宝可梦科技有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "禁区突围",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 15名",
+          "publisher": "塔防",
+          "change": "--",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "武侠大明星",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 9名",
+          "publisher": "塔防",
+          "change": "海南盛昌网络科技有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "空格之境",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "模拟经营",
+          "change": "江西启游互动科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "俄罗斯方块拼图",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 17名",
+          "publisher": "消除",
+          "change": "+2",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "拳皇·命运",
+          "publisher": "Wanda Game",
+          "category": "动作",
+          "subcategory": "格斗、竞技、PVP、街机、休闲"
+        },
+        {
+          "rank": 9,
+          "name": "星布谷地",
+          "publisher": "miHoYo",
+          "category": "模拟经营",
+          "subcategory": "3D、休闲、社交、种田、多人联机、角色扮演、建造、治愈、模拟"
+        },
+        {
+          "rank": 10,
+          "name": "篮球少女：飞跃巅峰",
+          "publisher": "广州灵犀互动娱乐有限公司",
+          "category": "卡牌",
+          "subcategory": "二次元、养成、篮球、模拟、美少女、策略"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 51,
+          "name": "9 Kings",
+          "publisher": "Playdigious",
+          "category": "Games",
+          "app_id": "6757860952",
+          "url": "https://apps.apple.com/us/app/9-kings/id6757860952?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/67/75/14677591-4fc6-fcb4-83f7-a09a3a0f6457/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "*Try 9 Kings for free and buy the full game to unlock all Kings, new quests, mul"
+        },
+        {
+          "rank": 78,
+          "name": "Little Kitty, Big City",
+          "publisher": "Double Dagger Studio",
+          "category": "Games",
+          "app_id": "6760796215",
+          "url": "https://apps.apple.com/us/app/little-kitty-big-city/id6760796215?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/a5/d1/e4a5d1ff-5074-921a-2910-ab4a5616a787/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "You're a curious little kitty with a big personality, on an adventure to find yo"
+        },
+        {
+          "rank": 95,
+          "name": "Text or Die",
+          "publisher": "Rollic Games",
+          "category": "Games",
+          "app_id": "1562313985",
+          "url": "https://apps.apple.com/us/app/text-or-die/id1562313985?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/e9/0d/8ae90d40-2896-e291-988f-c895681f628f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "The longest answer wins! Answer each question with the longest answer you can th"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 76,
+          "name": "Lamar - Idle Vlogger",
+          "publisher": "Crazy Labs",
+          "category": "Games",
+          "app_id": "1595314851",
+          "url": "https://apps.apple.com/us/app/lamar-idle-vlogger/id1595314851?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/76/e0/08/76e00836-3826-e4b8-5f5a-a9090ebd7b9a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Become a Viral Sensation with Lamar - Idle Vlogger!\nWelcome to the wacky world o"
+        },
+        {
+          "rank": 90,
+          "name": "Gardenscapes",
+          "publisher": "Playrix",
+          "category": "Games",
+          "app_id": "1105855019",
+          "url": "https://apps.apple.com/us/app/gardenscapes/id1105855019?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/4d/5b/ba4d5b0c-7989-8fc2-445e-96ab5f020ff1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Gardenscapes, the first game from the Playrix Scapes™ series! Make ma"
+        },
+        {
+          "rank": 94,
+          "name": "Coin Master",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "app_id": "406889139",
+          "url": "https://apps.apple.com/us/app/coin-master/id406889139?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/02/f8/5902f87b-b4db-d1ec-7c6e-c537067b7ad3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Join your Facebook friends and millions of players around the world for prize-wi"
+        },
+        {
+          "rank": 96,
+          "name": "We Are Cooking",
+          "publisher": "Matryoshka Games (CY) LTD",
+          "category": "Games",
+          "app_id": "6498920694",
+          "url": "https://apps.apple.com/us/app/we-are-cooking/id6498920694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/1a/f8/6b1af8e8-d8a2-c312-9452-dd94c36adc92/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to We Are Cooking, a game designed for food lovers who enjoy cooking at "
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 51,
+          "name": "9 Kings",
+          "publisher": "Playdigious",
+          "category": "Games",
+          "app_id": "6757860952",
+          "url": "https://apps.apple.com/us/app/9-kings/id6757860952?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/67/75/14677591-4fc6-fcb4-83f7-a09a3a0f6457/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "*Try 9 Kings for free and buy the full game to unlock all Kings, new quests, mul"
+        },
+        {
+          "rank": 78,
+          "name": "Little Kitty, Big City",
+          "publisher": "Double Dagger Studio",
+          "category": "Games",
+          "app_id": "6760796215",
+          "url": "https://apps.apple.com/us/app/little-kitty-big-city/id6760796215?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/a5/d1/e4a5d1ff-5074-921a-2910-ab4a5616a787/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "You're a curious little kitty with a big personality, on an adventure to find yo"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 4,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 51,
+          "name": "9 Kings",
+          "publisher": "Playdigious",
+          "category": "Games",
+          "app_id": "6757860952",
+          "url": "https://apps.apple.com/us/app/9-kings/id6757860952?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/67/75/14677591-4fc6-fcb4-83f7-a09a3a0f6457/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "*Try 9 Kings for free and buy the full game to unlock all Kings, new quests, mul"
+        },
+        {
+          "rank": 78,
+          "name": "Little Kitty, Big City",
+          "publisher": "Double Dagger Studio",
+          "category": "Games",
+          "app_id": "6760796215",
+          "url": "https://apps.apple.com/us/app/little-kitty-big-city/id6760796215?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/a5/d1/e4a5d1ff-5074-921a-2910-ab4a5616a787/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "You're a curious little kitty with a big personality, on an adventure to find yo"
+        },
+        {
+          "rank": 95,
+          "name": "Text or Die",
+          "publisher": "Rollic Games",
+          "category": "Games",
+          "app_id": "1562313985",
+          "url": "https://apps.apple.com/us/app/text-or-die/id1562313985?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/e9/0d/8ae90d40-2896-e291-988f-c895681f628f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "The longest answer wins! Answer each question with the longest answer you can th"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 22,
+          "name": "地城狩猎-2026技能百搭地城刷宝爽游",
+          "publisher": "Miaoyi Games",
+          "category": "游戏",
+          "app_id": "6785441297",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E5%9F%8E%E7%8B%A9%E7%8C%8E-2026%E6%8A%80%E8%83%BD%E7%99%BE%E6%90%AD%E5%9C%B0%E5%9F%8E%E5%88%B7%E5%AE%9D%E7%88%BD%E6%B8%B8/id6785441297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/6d/a2/c06da251-7151-26b5-2483-aee665d4c887/AppIcon_1-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "2026最值得玩的暗黑Like刷宝手游。《地城狩猎》独创技能流派+铭文搭配+局内【天赐神选】三重策略体系，更有100%资源返还让你流派切换零成本！5分钟一局，无"
+        },
+        {
+          "rank": 74,
+          "name": "皇冠斗地主-小团团力荐",
+          "publisher": "弈趣玩科技(北京)有限公司",
+          "category": "游戏",
+          "app_id": "6746925059",
+          "url": "https://apps.apple.com/cn/app/%E7%9A%87%E5%86%A0%E6%96%97%E5%9C%B0%E4%B8%BB-%E5%B0%8F%E5%9B%A2%E5%9B%A2%E5%8A%9B%E8%8D%90/id6746925059?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/da/39/84da39a4-597d-0ee4-3d6a-8f0711e9c12f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《皇冠斗地主》人气伙伴小团团欢乐助阵！一起畅玩比牌斗地主、皇冠杠8杠、红中血流等特色玩法，斗地主与麻将乐趣一次集齐，随时开局，欢乐不停！\n\n【小团团陪你欢乐开局"
+        },
+        {
+          "rank": 97,
+          "name": "PopSwap",
+          "publisher": "Vardar Mert",
+          "category": "游戏",
+          "app_id": "6815579491",
+          "url": "https://apps.apple.com/cn/app/popswap/id6815579491?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/2e/08/ba2e08f1-29e9-a69e-5b1a-0fd8a7371d3a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "PopSwap rahatlatıcı ve bağımlılık verici bir nokta ve tıklama rahat bir oyundur."
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 71,
+          "name": "吃碰杠连连",
+          "publisher": "Guangzhou Duoying Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6745691636",
+          "url": "https://apps.apple.com/cn/app/%E5%90%83%E7%A2%B0%E6%9D%A0%E8%BF%9E%E8%BF%9E/id6745691636?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/0e/ef/d30eefba-88ba-c3c9-8e28-81439b1c4ae6/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "《吃碰杠连连》—— 融合麻将智慧的创新消除游戏\n一场颠覆传统的消除体验，将东方麻将哲学与现代解压玩法完美结合。在指尖轻触间激活大脑潜能，享受策略消除与知识积累的"
+        },
+        {
+          "rank": 88,
+          "name": "天天爱消除",
+          "publisher": "Tencent Mobile Games",
+          "category": "游戏",
+          "app_id": "654897098",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E7%88%B1%E6%B6%88%E9%99%A4/id654897098?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/97/9e/9d979e9b-ea6f-188f-f200-64928d70b9ca/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
+          "slogan": "《天天爱消除》是一款以“消除烦恼，治愈心灵”为主题的萌系治愈向消除手游，陪伴玩家度过了10个寒暑！轻划手指，将三个相同的小动物旗子连成一行或一列，即可完成一次消"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 22,
+          "name": "地城狩猎-2026技能百搭地城刷宝爽游",
+          "publisher": "Miaoyi Games",
+          "category": "游戏",
+          "app_id": "6785441297",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E5%9F%8E%E7%8B%A9%E7%8C%8E-2026%E6%8A%80%E8%83%BD%E7%99%BE%E6%90%AD%E5%9C%B0%E5%9F%8E%E5%88%B7%E5%AE%9D%E7%88%BD%E6%B8%B8/id6785441297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/6d/a2/c06da251-7151-26b5-2483-aee665d4c887/AppIcon_1-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "2026最值得玩的暗黑Like刷宝手游。《地城狩猎》独创技能流派+铭文搭配+局内【天赐神选】三重策略体系，更有100%资源返还让你流派切换零成本！5分钟一局，无"
+        },
+        {
+          "rank": 97,
+          "name": "PopSwap",
+          "publisher": "Vardar Mert",
+          "category": "游戏",
+          "app_id": "6815579491",
+          "url": "https://apps.apple.com/cn/app/popswap/id6815579491?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/2e/08/ba2e08f1-29e9-a69e-5b1a-0fd8a7371d3a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "PopSwap rahatlatıcı ve bağımlılık verici bir nokta ve tıklama rahat bir oyundur."
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 2,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 22,
+          "name": "地城狩猎-2026技能百搭地城刷宝爽游",
+          "publisher": "Miaoyi Games",
+          "category": "游戏",
+          "app_id": "6785441297",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E5%9F%8E%E7%8B%A9%E7%8C%8E-2026%E6%8A%80%E8%83%BD%E7%99%BE%E6%90%AD%E5%9C%B0%E5%9F%8E%E5%88%B7%E5%AE%9D%E7%88%BD%E6%B8%B8/id6785441297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/6d/a2/c06da251-7151-26b5-2483-aee665d4c887/AppIcon_1-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "2026最值得玩的暗黑Like刷宝手游。《地城狩猎》独创技能流派+铭文搭配+局内【天赐神选】三重策略体系，更有100%资源返还让你流派切换零成本！5分钟一局，无"
+        },
+        {
+          "rank": 74,
+          "name": "皇冠斗地主-小团团力荐",
+          "publisher": "弈趣玩科技(北京)有限公司",
+          "category": "游戏",
+          "app_id": "6746925059",
+          "url": "https://apps.apple.com/cn/app/%E7%9A%87%E5%86%A0%E6%96%97%E5%9C%B0%E4%B8%BB-%E5%B0%8F%E5%9B%A2%E5%9B%A2%E5%8A%9B%E8%8D%90/id6746925059?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/da/39/84da39a4-597d-0ee4-3d6a-8f0711e9c12f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《皇冠斗地主》人气伙伴小团团欢乐助阵！一起畅玩比牌斗地主、皇冠杠8杠、红中血流等特色玩法，斗地主与麻将乐趣一次集齐，随时开局，欢乐不停！\n\n【小团团陪你欢乐开局"
+        },
+        {
+          "rank": 97,
+          "name": "PopSwap",
+          "publisher": "Vardar Mert",
+          "category": "游戏",
+          "app_id": "6815579491",
+          "url": "https://apps.apple.com/cn/app/popswap/id6815579491?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/2e/08/ba2e08f1-29e9-a69e-5b1a-0fd8a7371d3a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "PopSwap rahatlatıcı ve bağımlılık verici bir nokta ve tıklama rahat bir oyundur."
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 70,
+          "name": "スナイパー3Dシューティング戦ゲーム（Sniper 3D）",
+          "publisher": "Wildlife Studios",
+          "category": "ゲーム",
+          "app_id": "930574573",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%8A%E3%82%A4%E3%83%91%E3%83%BC3d%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E6%88%A6%E3%82%B2%E3%83%BC%E3%83%A0-sniper-3d/id930574573?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/3b/29/573b29b0-4e3e-6358-73de-d2e1ad29f755/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "アクション満載のFPSゲームが登場！Sniper 3Dは、いつでもどこでもプレイでき、オンラインでもオフラインでも楽しめる無料シューターゲームです！\n\n武器とギ"
+        },
+        {
+          "rank": 84,
+          "name": "Dot Link - カラーマッチ",
+          "publisher": "Bluetile Games S.L.",
+          "category": "ゲーム",
+          "app_id": "6444312485",
+          "url": "https://apps.apple.com/jp/app/dot-link-%E3%82%AB%E3%83%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%81/id6444312485?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/ff/05/ddff05a9-3113-813c-bc6b-a4c3dca7e6a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Dot Link は中毒性のある新しいドット連結パズルゲームです！この脳のパズルを解くために、色の合ったドットを結びつけ、楽しい数千のレベルをプレイしましょう。"
+        },
+        {
+          "rank": 86,
+          "name": "アクアパーク.io",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "1453989822",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%82%AF%E3%82%A2%E3%83%91%E3%83%BC%E3%82%AF-io/id1453989822?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/95/d2/af95d245-e2c1-8960-6ec6-8281ebe54274/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ウォータースライダーの終点を目指して、1番を狙おう。レース中に他のプレイヤーにぶつかって、このカラフルで太陽いっぱいのゲームを楽しもう"
+        },
+        {
+          "rank": 89,
+          "name": "ニッポン征服 - 面白い 選択ゲーム",
+          "publisher": "ONIGIRI GAMES",
+          "category": "ゲーム",
+          "app_id": "6743064514",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E5%BE%81%E6%9C%8D-%E9%9D%A2%E7%99%BD%E3%81%84-%E9%81%B8%E6%8A%9E%E3%82%B2%E3%83%BC%E3%83%A0/id6743064514?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/3e/57/a03e5793-1f84-d17a-3446-b23835020825/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "あなたの選択で国が変わる！\n\n\nあなたは日本の総理大臣として、さまざまな政策を選択し、理想の国づくりを目指します。\n正しい選択をすれば、人口・お金・頭脳が増加し"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 59,
+          "name": "Connect Master - Match Puzzle",
+          "publisher": "ROOFTOP GAMES OYUN TEKNOLOJILERI ANONIM SIRKETI",
+          "category": "ゲーム",
+          "app_id": "6745692355",
+          "url": "https://apps.apple.com/jp/app/connect-master-match-puzzle/id6745692355?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/30/a2/3e30a285-9910-4c78-bdac-01a4e807d4de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Connect Master – Match Puzzleへようこそ！観察力、集中力、戦略が融合する、カラフルなビジュアルロジックパズルゲームです。\n\n- 目標"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 91,
+          "name": "マージファッション：ロマンス ストーリー & 着せ替え",
+          "publisher": "Wind's Choice Tech Limited",
+          "category": "ゲーム",
+          "app_id": "6737874398",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3-%E3%83%AD%E3%83%9E%E3%83%B3%E3%82%B9-%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC-%E7%9D%80%E3%81%9B%E6%9B%BF%E3%81%88/id6737874398?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/be/f2/59bef23a-6467-371a-cf83-1edc08bf2f9a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "マージファッション：ロマンスストーリーへようこそ！\n\n恋人にひどく裏切られたアリスは、自分の人生を変えることを決意します。新しいスタイルに生まれ変わり、自信を取"
+        },
+        {
+          "rank": 93,
+          "name": "Bouncy Match: Bubble Word",
+          "publisher": "Hyper Surfer Games",
+          "category": "ゲーム",
+          "app_id": "6771322750",
+          "url": "https://apps.apple.com/jp/app/bouncy-match-bubble-word/id6771322750?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/ef/40/07ef4030-c759-7a21-6e0a-a123cd1a5a02/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ひと手ごとにカラフルなバブルを整理し、まとめ、消していく。にぎやかな言葉パズルの世界へようこそ。\n\nBubble Word は、シンプルなドラッグ操作と気持ちの"
+        },
+        {
+          "rank": 95,
+          "name": "トップウォー",
+          "publisher": "River Game HK Limited",
+          "category": "ゲーム",
+          "app_id": "1479198816",
+          "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%83%E3%83%97%E3%82%A6%E3%82%A9%E3%83%BC/id1479198816?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/80/cc/b780cc6f-e90f-8a5b-e699-1c3e7eb24051/AppIcon-gl-1-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "指揮官、暗黒軍団がやってくる!\r\nこの暴君たちが世界を支配する!\r\n絶え間ない戦争、各地に散らばる難民、そして希望に満ちた世界。我々を解放するのは誰なのか？\r\n"
+        },
+        {
+          "rank": 98,
+          "name": "脱出ゲーム 華金を楽しみたい",
+          "publisher": "Shiro Miyahara",
+          "category": "ゲーム",
+          "app_id": "6812830268",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E8%8F%AF%E9%87%91%E3%82%92%E6%A5%BD%E3%81%97%E3%81%BF%E3%81%9F%E3%81%84/id6812830268?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/88/ce/7f88ceac-9904-f327-add2-a2b38179ed37/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "〜華金を楽しみたい〜\n\nやっと1週間が終わった！\n金曜日の夜のこの解放感、なんともたまらん！\n\n最近の楽しみは、仕事終わりに行ったことがない居酒屋に1人で入るこ"
+        },
+        {
+          "rank": 99,
+          "name": "Fluffy Drop",
+          "publisher": "UniRise Studio",
+          "category": "ゲーム",
+          "app_id": "6762342518",
+          "url": "https://apps.apple.com/jp/app/fluffy-drop/id6762342518?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/49/ad/1249adde-b4db-d84f-10fb-d95d76f02a27/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fluffy Drop – ふわふわパズルアドベンチャー ひと手ごとに、心がはずむ\n\nふわふわボールを同じ色のエリアに導く、シンプルで奥深いパズルゲーム。\nドラ"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 59,
+          "name": "Connect Master - Match Puzzle",
+          "publisher": "ROOFTOP GAMES OYUN TEKNOLOJILERI ANONIM SIRKETI",
+          "category": "ゲーム",
+          "app_id": "6745692355",
+          "url": "https://apps.apple.com/jp/app/connect-master-match-puzzle/id6745692355?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/30/a2/3e30a285-9910-4c78-bdac-01a4e807d4de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Connect Master – Match Puzzleへようこそ！観察力、集中力、戦略が融合する、カラフルなビジュアルロジックパズルゲームです。\n\n- 目標"
+        },
+        {
+          "rank": 70,
+          "name": "スナイパー3Dシューティング戦ゲーム（Sniper 3D）",
+          "publisher": "Wildlife Studios",
+          "category": "ゲーム",
+          "app_id": "930574573",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%8A%E3%82%A4%E3%83%91%E3%83%BC3d%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E6%88%A6%E3%82%B2%E3%83%BC%E3%83%A0-sniper-3d/id930574573?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/3b/29/573b29b0-4e3e-6358-73de-d2e1ad29f755/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "アクション満載のFPSゲームが登場！Sniper 3Dは、いつでもどこでもプレイでき、オンラインでもオフラインでも楽しめる無料シューターゲームです！\n\n武器とギ"
+        },
+        {
+          "rank": 84,
+          "name": "Dot Link - カラーマッチ",
+          "publisher": "Bluetile Games S.L.",
+          "category": "ゲーム",
+          "app_id": "6444312485",
+          "url": "https://apps.apple.com/jp/app/dot-link-%E3%82%AB%E3%83%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%81/id6444312485?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/ff/05/ddff05a9-3113-813c-bc6b-a4c3dca7e6a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Dot Link は中毒性のある新しいドット連結パズルゲームです！この脳のパズルを解くために、色の合ったドットを結びつけ、楽しい数千のレベルをプレイしましょう。"
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 5,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 59,
+          "name": "Connect Master - Match Puzzle",
+          "publisher": "ROOFTOP GAMES OYUN TEKNOLOJILERI ANONIM SIRKETI",
+          "category": "ゲーム",
+          "app_id": "6745692355",
+          "url": "https://apps.apple.com/jp/app/connect-master-match-puzzle/id6745692355?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/30/a2/3e30a285-9910-4c78-bdac-01a4e807d4de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Connect Master – Match Puzzleへようこそ！観察力、集中力、戦略が融合する、カラフルなビジュアルロジックパズルゲームです。\n\n- 目標"
+        },
+        {
+          "rank": 70,
+          "name": "スナイパー3Dシューティング戦ゲーム（Sniper 3D）",
+          "publisher": "Wildlife Studios",
+          "category": "ゲーム",
+          "app_id": "930574573",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%8A%E3%82%A4%E3%83%91%E3%83%BC3d%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E6%88%A6%E3%82%B2%E3%83%BC%E3%83%A0-sniper-3d/id930574573?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/3b/29/573b29b0-4e3e-6358-73de-d2e1ad29f755/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "アクション満載のFPSゲームが登場！Sniper 3Dは、いつでもどこでもプレイでき、オンラインでもオフラインでも楽しめる無料シューターゲームです！\n\n武器とギ"
+        },
+        {
+          "rank": 84,
+          "name": "Dot Link - カラーマッチ",
+          "publisher": "Bluetile Games S.L.",
+          "category": "ゲーム",
+          "app_id": "6444312485",
+          "url": "https://apps.apple.com/jp/app/dot-link-%E3%82%AB%E3%83%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%81/id6444312485?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/ff/05/ddff05a9-3113-813c-bc6b-a4c3dca7e6a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Dot Link は中毒性のある新しいドット連結パズルゲームです！この脳のパズルを解くために、色の合ったドットを結びつけ、楽しい数千のレベルをプレイしましょう。"
+        },
+        {
+          "rank": 86,
+          "name": "アクアパーク.io",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "1453989822",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%82%AF%E3%82%A2%E3%83%91%E3%83%BC%E3%82%AF-io/id1453989822?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/95/d2/af95d245-e2c1-8960-6ec6-8281ebe54274/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ウォータースライダーの終点を目指して、1番を狙おう。レース中に他のプレイヤーにぶつかって、このカラフルで太陽いっぱいのゲームを楽しもう"
+        },
+        {
+          "rank": 89,
+          "name": "ニッポン征服 - 面白い 選択ゲーム",
+          "publisher": "ONIGIRI GAMES",
+          "category": "ゲーム",
+          "app_id": "6743064514",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E5%BE%81%E6%9C%8D-%E9%9D%A2%E7%99%BD%E3%81%84-%E9%81%B8%E6%8A%9E%E3%82%B2%E3%83%BC%E3%83%A0/id6743064514?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/3e/57/a03e5793-1f84-d17a-3446-b23835020825/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "あなたの選択で国が変わる！\n\n\nあなたは日本の総理大臣として、さまざまな政策を選択し、理想の国づくりを目指します。\n正しい選択をすれば、人口・お金・頭脳が増加し"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 62,
+          "name": "Surprise Dumpling: ASMR Box",
+          "publisher": "NAMIGAME",
+          "category": "Games",
+          "package": "com.RC67.surprise.dumpling.ASMR.box"
+        },
+        {
+          "rank": 85,
+          "name": "Liquid Vial",
+          "publisher": "juyi",
+          "category": "Games",
+          "package": "com.liquid.vial.game"
+        },
+        {
+          "rank": 100,
+          "name": "Viral Streamer: Idle Clicker",
+          "publisher": "CSCMobi Studios",
+          "category": "Games",
+          "package": "com.cscmobi.livestream.idle.clicker"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 69,
+          "name": "Craft Builder: 3D Block World",
+          "publisher": "Coup Coup LTD",
+          "category": "Games",
+          "package": "com.novas.craft.builder.block.world"
+        },
+        {
+          "rank": 76,
+          "name": "Car Evolve",
+          "publisher": "Heseri Games",
+          "category": "Games",
+          "package": "io.heseri.car"
+        },
+        {
+          "rank": 91,
+          "name": "EA SPORTS FC Soccer Mobile 27",
+          "publisher": "ELECTRONIC ARTS",
+          "category": "Games",
+          "package": "com.ea.gp.fifamobile"
+        },
+        {
+          "rank": 93,
+          "name": "Colorever: Gem Art Puzzle",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "package": "com.oakever.gemcoloring"
+        },
+        {
+          "rank": 94,
+          "name": "Smash Blast",
+          "publisher": "Devsimo",
+          "category": "Games",
+          "package": "com.convention.baseball.biology.quotes"
+        },
+        {
+          "rank": 96,
+          "name": "Freddy Playground Sandbox",
+          "publisher": "Big Host Africa",
+          "category": "Games",
+          "package": "com.freddys.playground.sandbox"
+        },
+        {
+          "rank": 97,
+          "name": "Pokémon GO",
+          "publisher": "Scopely Explore, Inc.",
+          "category": "Games",
+          "package": "com.nianticlabs.pokemongo"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 62,
+          "name": "Surprise Dumpling: ASMR Box",
+          "publisher": "NAMIGAME",
+          "category": "Games",
+          "package": "com.RC67.surprise.dumpling.ASMR.box"
+        },
+        {
+          "rank": 85,
+          "name": "Liquid Vial",
+          "publisher": "juyi",
+          "category": "Games",
+          "package": "com.liquid.vial.game"
+        },
+        {
+          "rank": 100,
+          "name": "Viral Streamer: Idle Clicker",
+          "publisher": "CSCMobi Studios",
+          "category": "Games",
+          "package": "com.cscmobi.livestream.idle.clicker"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 7,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 62,
+          "name": "Surprise Dumpling: ASMR Box",
+          "publisher": "NAMIGAME",
+          "category": "Games",
+          "package": "com.RC67.surprise.dumpling.ASMR.box"
+        },
+        {
+          "rank": 85,
+          "name": "Liquid Vial",
+          "publisher": "juyi",
+          "category": "Games",
+          "package": "com.liquid.vial.game"
+        },
+        {
+          "rank": 100,
+          "name": "Viral Streamer: Idle Clicker",
+          "publisher": "CSCMobi Studios",
+          "category": "Games",
+          "package": "com.cscmobi.livestream.idle.clicker"
+        }
+      ]
+    }
+  }
+}
