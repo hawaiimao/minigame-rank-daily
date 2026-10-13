@@ -1,0 +1,539 @@
+{
+  "date": "2026-10-13",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "砖了个砖",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "消除",
+          "change": "北京简游科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "跳一跳",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 13名",
+          "publisher": "益智",
+          "change": "+2",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "浪漫餐厅",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 14名",
+          "publisher": "益智",
+          "change": "北京柠檬微趣科技股份有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "我的花园世界",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 10名",
+          "publisher": "模拟经营",
+          "change": "厦门麟贝互娱科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "奔奔王国",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "竞技 · 2名",
+          "publisher": "对战",
+          "change": "福州点点松云网络有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "躺平发育",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 13名",
+          "publisher": "塔防",
+          "change": "北京蜜獾工坊娱乐文化有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "异人之下",
+          "publisher": "腾讯",
+          "category": "高画质",
+          "subcategory": "格斗、动作"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 72,
+          "name": "Satisfying Clean ASMR",
+          "publisher": "DongZ Game",
+          "category": "Games",
+          "app_id": "6767180267",
+          "url": "https://apps.apple.com/us/app/satisfying-clean-asmr/id6767180267?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/84/93/81849387-7103-2e79-b756-7467e2942d18/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "Clean, Restore & Relax in Satisfying Clean ASMR — the ultimate stress relief and"
+        },
+        {
+          "rank": 74,
+          "name": "Screw Match®: ASMR Game",
+          "publisher": "BESTPLAY GAMES PTE. LTD.",
+          "category": "Games",
+          "app_id": "6503636810",
+          "url": "https://apps.apple.com/us/app/screw-match-asmr-game/id6503636810?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/9a/c9/639ac972-369e-c4e3-cf63-608cff836e34/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This is a casual brain-challenging strategy game. Unlock the screw puzzle game. "
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 71,
+          "name": "Packz",
+          "publisher": "Packz",
+          "category": "Games",
+          "app_id": "6755495631",
+          "url": "https://apps.apple.com/us/app/packz/id6755495631?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/d3/ec/66d3ecd2-ac79-6e52-fe4b-313182a8b079/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/100x100bb.png",
+          "slogan": "Open Packs. Get Cards. Ship or Cash Out Instantly.\n\nPacks can hold cards worth u"
+        },
+        {
+          "rank": 86,
+          "name": "Bingo Cash - Win Real Money",
+          "publisher": "Papaya Gaming",
+          "category": "Games",
+          "app_id": "1522266397",
+          "url": "https://apps.apple.com/us/app/bingo-cash-win-real-money/id1522266397?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/9f/ea/ad9feaaf-6447-380e-8865-08335d698362/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Forget the ordinary games. Here you play for something bigger, where winning the"
+        },
+        {
+          "rank": 88,
+          "name": "Toon Blast",
+          "publisher": "Peak Games",
+          "category": "Games",
+          "app_id": "1176027022",
+          "url": "https://apps.apple.com/us/app/toon-blast/id1176027022?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/2a/ca/6a2aca94-240b-0909-0af1-52ab365e4425/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to “Toon Blast,” a free match-3 adventure that combines fun and strategy"
+        },
+        {
+          "rank": 91,
+          "name": "AMAZE!!!",
+          "publisher": "Crazy Labs",
+          "category": "Games",
+          "app_id": "1452526406",
+          "url": "https://apps.apple.com/us/app/amaze/id1452526406?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/b4/b7/03b4b7cf-ea86-7400-f8b8-89e2dcf7e0be/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Are you ready for an extraordinary puzzle adventure? Get ready to be amazed!\n\nIm"
+        },
+        {
+          "rank": 93,
+          "name": "CrownCoins Casino",
+          "publisher": "Sunflower",
+          "category": "Games",
+          "app_id": "6450413462",
+          "url": "https://apps.apple.com/us/app/crowncoins-casino/id6450413462?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/82/f9/3482f982-0090-a3b6-48a7-0b2998425160/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "CROWN COINS CASINO. America loves it. You will too! \nPLAY. WIN. REDEEM. REPEAT. "
+        },
+        {
+          "rank": 96,
+          "name": "Jelly Busters: Puzzle Game",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "app_id": "6756058501",
+          "url": "https://apps.apple.com/us/app/jelly-busters-puzzle-game/id6756058501?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c8/ca/f8/c8caf8e2-e8a5-8bec-b213-9a8f509849e7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Drop into the smoothest skatepark in town with the Jelly Busters crew, a squad o"
+        },
+        {
+          "rank": 97,
+          "name": "Jewel Coloring",
+          "publisher": "Ta Ta Game Technology Limited",
+          "category": "Games",
+          "app_id": "6759081967",
+          "url": "https://apps.apple.com/us/app/jewel-coloring/id6759081967?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/5a/63/395a63fe-9c3f-5a76-a4e1-27dba77589da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Jewel Coloring: Sparkle & Create with Pixel Art Puzzles\nEnter a vibrant world of"
+        },
+        {
+          "rank": 98,
+          "name": "Hole Stars: Puzzle Game",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "app_id": "6747028173",
+          "url": "https://apps.apple.com/us/app/hole-stars-puzzle-game/id6747028173?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/c7/50/66c750af-e329-1224-daab-ed3462797a02/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Hole Stars – Scoop, Solve, and Shine\n\nLooking for a game that’s fun, fast, and t"
+        },
+        {
+          "rank": 99,
+          "name": "Foodstars: Merge & Cook",
+          "publisher": "Happibits",
+          "category": "Games",
+          "app_id": "6753862216",
+          "url": "https://apps.apple.com/us/app/foodstars-merge-cook/id6753862216?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/d2/66/20d26619-ffaa-9e81-3bac-a10314d67b6c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Dream of becoming a Star Chef? Now’s your chance!\nEver imagined learning the sec"
+        },
+        {
+          "rank": 100,
+          "name": "Bubble Cash",
+          "publisher": "Papaya Gaming",
+          "category": "Games",
+          "app_id": "1475514684",
+          "url": "https://apps.apple.com/us/app/bubble-cash/id1475514684?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/48/42/64/4842646d-5697-09b2-5730-e71a1fca66fd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Forget the ordinary games. Here you play for something bigger, where winning the"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 72,
+          "name": "Satisfying Clean ASMR",
+          "publisher": "DongZ Game",
+          "category": "Games",
+          "app_id": "6767180267",
+          "url": "https://apps.apple.com/us/app/satisfying-clean-asmr/id6767180267?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/84/93/81849387-7103-2e79-b756-7467e2942d18/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "Clean, Restore & Relax in Satisfying Clean ASMR — the ultimate stress relief and"
+        },
+        {
+          "rank": 74,
+          "name": "Screw Match®: ASMR Game",
+          "publisher": "BESTPLAY GAMES PTE. LTD.",
+          "category": "Games",
+          "app_id": "6503636810",
+          "url": "https://apps.apple.com/us/app/screw-match-asmr-game/id6503636810?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/9a/c9/639ac972-369e-c4e3-cf63-608cff836e34/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This is a casual brain-challenging strategy game. Unlock the screw puzzle game. "
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 10,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 72,
+          "name": "Satisfying Clean ASMR",
+          "publisher": "DongZ Game",
+          "category": "Games",
+          "app_id": "6767180267",
+          "url": "https://apps.apple.com/us/app/satisfying-clean-asmr/id6767180267?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/84/93/81849387-7103-2e79-b756-7467e2942d18/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "Clean, Restore & Relax in Satisfying Clean ASMR — the ultimate stress relief and"
+        },
+        {
+          "rank": 74,
+          "name": "Screw Match®: ASMR Game",
+          "publisher": "BESTPLAY GAMES PTE. LTD.",
+          "category": "Games",
+          "app_id": "6503636810",
+          "url": "https://apps.apple.com/us/app/screw-match-asmr-game/id6503636810?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/9a/c9/639ac972-369e-c4e3-cf63-608cff836e34/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This is a casual brain-challenging strategy game. Unlock the screw puzzle game. "
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 96,
+          "name": "钢琴块2",
+          "publisher": "Forward Vision Corporation Limited",
+          "category": "游戏",
+          "app_id": "6448847085",
+          "url": "https://apps.apple.com/cn/app/%E9%92%A2%E7%90%B4%E5%9D%972/id6448847085?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/f2/81/cff2811b-a9d1-4169-ec53-f7580c789829/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+          "slogan": "为了更好地符合区域政策，由猎豹游戏研发运营的《钢琴块2™》中国大陆地区官方版本已正式上线，游戏内容与国际版保持一致，并优化了广告上的体验，期待您的下载与体验！\n"
+        },
+        {
+          "rank": 98,
+          "name": "无尽冬日",
+          "publisher": "Shanghai Qingdi Technology Company Limited",
+          "category": "游戏",
+          "app_id": "6478492012",
+          "url": "https://apps.apple.com/cn/app/%E6%97%A0%E5%B0%BD%E5%86%AC%E6%97%A5/id6478492012?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/96/a5/9c96a5a5-a92a-9405-d252-b2aa7b9aa8ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《无尽冬日》是一款将策略和放置结合的冰雪末日生存游戏，玩法独特，细节丰富，等你探索。\r\n\r\n一场突如其来的全球性气温骤降彻底地摧毁了人类文明，人类失去了赖以生存"
+        },
+        {
+          "rank": 99,
+          "name": "向僵尸开炮-尸潮来袭",
+          "publisher": "Hainan Shengchang Network Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6474293468",
+          "url": "https://apps.apple.com/cn/app/%E5%90%91%E5%83%B5%E5%B0%B8%E5%BC%80%E7%82%AE-%E5%B0%B8%E6%BD%AE%E6%9D%A5%E8%A2%AD/id6474293468?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/63/cd/4363cd87-84de-69c3-dc1f-71ac02b1590e/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《向僵尸开炮》是一款制作精良、画风精美的射击Roguelike手游。故事背景设定在未来时代，某日天灾席卷地球，僵尸横行，自然资源与科技文明受到重创；为了保护人类"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 82,
+          "name": "みんなで早押しクイズ",
+          "publisher": "Q ONE, Inc.",
+          "category": "ゲーム",
+          "app_id": "1044039663",
+          "url": "https://apps.apple.com/jp/app/%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%E6%97%A9%E6%8A%BC%E3%81%97%E3%82%AF%E3%82%A4%E3%82%BA/id1044039663?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/e8/bb/50e8bb91-67e3-4d80-a516-4e826cb1c193/AppIcon-2-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "オンライン対戦早押しクイズゲームアプリが登場！\nライバルと対戦してレート上位を目指そう！\n\n選べるモードは、ランダムマッチ・フリーマッチ(フレンド対戦)の2種類"
+        },
+        {
+          "rank": 89,
+          "name": "モンスターサバイバル",
+          "publisher": "Farlight Games",
+          "category": "ゲーム",
+          "app_id": "6741567125",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id6741567125?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/73/6a/a2736ac2-fe62-9bc3-0419-c35945a9fc05/AppIcon-Global-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【収集！100種類以上のタタを手軽にゲット！】\nどこにでもいるようなデザインはもう卒業！よだれを垂らすフルッグ、しょんぼり顔のナンモナイシ……どのタタもかわいさ"
+        },
+        {
+          "rank": 91,
+          "name": "Screwdom : ボルトパズルゲーム",
+          "publisher": "Zego Global Pte Ltd",
+          "category": "ゲーム",
+          "app_id": "6740043080",
+          "url": "https://apps.apple.com/jp/app/screwdom-%E3%83%9C%E3%83%AB%E3%83%88%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6740043080?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/d5/b3/e1d5b357-399a-99df-68a4-1917e9589375/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Screwdom 3D は、あなたの問題解決能力を究極的に試す、挑戦的で頭を使う 3D スクリュー ジャム ゲームです。このエキサイティングなゲームは、並べ替え"
+        },
+        {
+          "rank": 93,
+          "name": "ソリティア：パズルゲーム 脳トレ カードゲーム 暇つぶし連想",
+          "publisher": "Hitapps Games LTD",
+          "category": "ゲーム",
+          "app_id": "6748950306",
+          "url": "https://apps.apple.com/jp/app/%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2-%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0-%E8%84%B3%E3%83%88%E3%83%AC-%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0-%E6%9A%87%E3%81%A4%E3%81%B6%E3%81%97%E9%80%A3%E6%83%B3/id6748950306?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/58/42/2958425a-c849-cc2a-e588-ca832e94bc28/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ソリティア - ワードゲームは単なるワードゲームではありません。意味で単語をつなげ、巧みな連想を発見し、脳に挑戦するユニークで夢中になるワードパズルです。今すぐ"
+        },
+        {
+          "rank": 94,
+          "name": "EDGE POKER (エッジポーカー)",
+          "publisher": "DeNA Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6476597728",
+          "url": "https://apps.apple.com/jp/app/edge-poker-%E3%82%A8%E3%83%83%E3%82%B8%E3%83%9D%E3%83%BC%E3%82%AB%E3%83%BC/id6476597728?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/a2/9e/16a29ed4-5538-c7e3-06e4-59bb7b85d03f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "DeNAと日本のポーカーブームを牽引するプロポーカープレイヤー「世界のヨコサワ」率いるPOKER ROOM社がタッグを組み、ポーカー（テキサスホールデム）の本格"
+        },
+        {
+          "rank": 98,
+          "name": "Pokémon Sleep",
+          "publisher": "The Pokemon Company",
+          "category": "ゲーム",
+          "app_id": "1579464667",
+          "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-sleep/id1579464667?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/4c/95/0f4c95a6-4838-c217-1e99-167de82c4201/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【睡眠でポケモンをゲットしよう！】\n\nPokémon Sleep（ポケモンスリープ）の世界では、あなたが眠ることによって、\nあなたと同じ睡眠タイプのポケモンたち"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 6,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 45,
+          "name": "Tea Garden Mahjong Alarm",
+          "publisher": "The Wilder-ness, World Piece Computer, LLC",
+          "category": "Games",
+          "package": "com.teagarden.wilderness.world"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 82,
+          "name": "Color Block Run - Puzzle Game",
+          "publisher": "Play2Ever Games",
+          "category": "Games",
+          "package": "com.griffin.colorblock.games.free.android"
+        },
+        {
+          "rank": 84,
+          "name": "Block Craft 3D: Realm Builder",
+          "publisher": "Metagame.Ltd",
+          "category": "Games",
+          "package": "com.wilds.craft.mysticland.explore"
+        },
+        {
+          "rank": 85,
+          "name": "Keyboard Escape: +1 Speed ASMR",
+          "publisher": "Goldoint",
+          "category": "Games",
+          "package": "com.metax.obby.escape.run"
+        },
+        {
+          "rank": 89,
+          "name": "Shoot & Hide",
+          "publisher": "CrazyLabs LTD",
+          "category": "Games",
+          "package": "com.sniper.shoot.hide.game"
+        },
+        {
+          "rank": 91,
+          "name": "Dot Link - Connect the Dots",
+          "publisher": "Bluetile",
+          "category": "Games",
+          "package": "com.playvalve.connect.dots"
+        },
+        {
+          "rank": 96,
+          "name": "Find The Cat 2 - Spot It!",
+          "publisher": "Agave Games",
+          "category": "Games",
+          "package": "com.agavegames.findthecat2"
+        },
+        {
+          "rank": 99,
+          "name": "Kick the Buddy－Fun Action Game",
+          "publisher": "Playgendary Limited",
+          "category": "Games",
+          "package": "com.playgendary.kickthebuddy"
+        },
+        {
+          "rank": 100,
+          "name": "Treasure Master",
+          "publisher": "Gimica GmbH",
+          "category": "Games",
+          "package": "com.gimica.treasuremaster"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 45,
+          "name": "Tea Garden Mahjong Alarm",
+          "publisher": "The Wilder-ness, World Piece Computer, LLC",
+          "category": "Games",
+          "package": "com.teagarden.wilderness.world"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 8,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 45,
+          "name": "Tea Garden Mahjong Alarm",
+          "publisher": "The Wilder-ness, World Piece Computer, LLC",
+          "category": "Games",
+          "package": "com.teagarden.wilderness.world"
+        }
+      ]
+    }
+  }
+}
