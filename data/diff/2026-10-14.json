@@ -1,0 +1,601 @@
+{
+  "date": "2026-10-14",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "对子消消乐",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 5名",
+          "publisher": "消除",
+          "change": "厦门市宙火科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "五子棋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 5名",
+          "publisher": "棋类",
+          "change": "武汉市多比特信息科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "对子消消乐",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 5名",
+          "publisher": "消除",
+          "change": "厦门市宙火科技有限公司",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "空格之境",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "模拟经营",
+          "change": "江西启游互动科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "大王请上阵",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 4名",
+          "publisher": "卡牌",
+          "change": "深圳市悦莱顺网络科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "俄罗斯方块拼图",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 17名",
+          "publisher": "消除",
+          "change": "+2",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "失落城堡2",
+          "publisher": "雷霆游戏",
+          "category": "Roguelike",
+          "subcategory": "多人联机、动作、Steam移植、买断制、单机、独立游戏、冒险"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 96,
+          "name": "Word Connect Association",
+          "publisher": "PlaySimple Games Pte Ltd",
+          "category": "Games",
+          "app_id": "6747810901",
+          "url": "https://apps.apple.com/us/app/word-connect-association/id6747810901?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/82/c1/0b82c1ba-c25a-b67c-9bf9-ae6b6cf5de1c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Looking for a relaxing brain game that makes you think?\n Try this unique word as"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 98,
+          "name": "Cash Avalanche:Casino Slot",
+          "publisher": "Spruce Interactive Inc",
+          "category": "Games",
+          "app_id": "6751794501",
+          "url": "https://apps.apple.com/us/app/cash-avalanche-casino-slot/id6751794501?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/24/8b/8e248b33-74b2-8efd-8a37-a4d4ee825390/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Cash Avalanche — Spin Into the Excitement\n\nCash Avalanche delivers an immersive "
+        },
+        {
+          "rank": 99,
+          "name": "Grand Fortune Club",
+          "publisher": "EverPrime Futures Inc.",
+          "category": "Games",
+          "app_id": "6762178742",
+          "url": "https://apps.apple.com/us/app/grand-fortune-club/id6762178742?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/43/36/cd4336bb-5a7c-f406-00f4-2df76437f339/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Grand Fortune Club brings a colorful casino-style world full of bright visuals, "
+        },
+        {
+          "rank": 100,
+          "name": "Bruno Reels Casino",
+          "publisher": "EverPrime Futures Inc.",
+          "category": "Games",
+          "app_id": "6768564100",
+          "url": "https://apps.apple.com/us/app/bruno-reels-casino/id6768564100?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/ac/6d/3bac6db3-b321-63ee-165b-0a37f3089f33/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Bruno Reels Casino brings you an exciting casino-style slots experience filled w"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 96,
+          "name": "Word Connect Association",
+          "publisher": "PlaySimple Games Pte Ltd",
+          "category": "Games",
+          "app_id": "6747810901",
+          "url": "https://apps.apple.com/us/app/word-connect-association/id6747810901?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/82/c1/0b82c1ba-c25a-b67c-9bf9-ae6b6cf5de1c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Looking for a relaxing brain game that makes you think?\n Try this unique word as"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 7,
+          "name": "剑侠世界4：无限",
+          "publisher": "西山居世游",
+          "category": "游戏",
+          "app_id": "6759635917",
+          "url": "https://apps.apple.com/cn/app/%E5%89%91%E4%BE%A0%E4%B8%96%E7%95%8C4-%E6%97%A0%E9%99%90/id6759635917?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/53/7c/bc537cc2-0d28-069e-31b5-136f7abcd055/AppIcon-1x_U007emarketing-0-8-85-220-0.jpeg/100x100bb.png",
+          "slogan": "《剑侠世界4：无限》是西山居打造的剑侠世界系列MMO收官之作。游戏延续剑侠系列家族群战、经典门派、自由交易、社交与江湖恩怨等经典体验，并设计无缝大江湖、轻负担养"
+        },
+        {
+          "rank": 18,
+          "name": "怡然时光-机器人大时代",
+          "publisher": "国展 苏",
+          "category": "游戏",
+          "app_id": "6772951007",
+          "url": "https://apps.apple.com/cn/app/%E6%80%A1%E7%84%B6%E6%97%B6%E5%85%89-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%A7%E6%97%B6%E4%BB%A3/id6772951007?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/30/75/573075ad-571d-152d-ad4f-297c29b13144/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "踏入科幻机甲新世界，畅享合成闯关乐趣！《怡然时光-机器人大时代》是一款轻解压趣味合成游戏，玩法简单流畅，兼顾休闲放松与竞技挑战，让你在碎片化时光里，沉浸式体验机"
+        },
+        {
+          "rank": 96,
+          "name": "合数-2048、扫雷、数独、数织、水排序、数字华容道、消消乐",
+          "publisher": "利强 赵",
+          "category": "游戏",
+          "app_id": "6581490196",
+          "url": "https://apps.apple.com/cn/app/%E5%90%88%E6%95%B0-2048-%E6%89%AB%E9%9B%B7-%E6%95%B0%E7%8B%AC-%E6%95%B0%E7%BB%87-%E6%B0%B4%E6%8E%92%E5%BA%8F-%E6%95%B0%E5%AD%97%E5%8D%8E%E5%AE%B9%E9%81%93-%E6%B6%88%E6%B6%88%E4%B9%90/id6581490196?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/64/74/ef64745f-bd14-eef1-5fed-159cd92e6304/NGAppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "2048、扫雷、数独、数织、倒水……合数将 10 款经典益智与休闲小游戏放在一起。想轻松玩一局，或静下心来解一道题，都能找到适合此刻的挑战。\n\n熟悉的玩法，随心"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 8,
+          "name": "绿梦：时空之声",
+          "publisher": "上海竹子绿梦网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6791432398",
+          "url": "https://apps.apple.com/cn/app/%E7%BB%BF%E6%A2%A6-%E6%97%B6%E7%A9%BA%E4%B9%8B%E5%A3%B0/id6791432398?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/56/70/d05670bc-fde9-54d3-0fd6-7d340c04d4b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《绿梦：时空之声》是一款横版动作冒险类游戏，在这个虚构的近未来世界，您作为侵蚀管理局的现役蚀务官，在探寻历史真相的旅途中结识盟友，体验到层次丰富的横版关卡和风格"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 95,
+          "name": "我的梦想医院",
+          "publisher": "Nordcurrent UAB",
+          "category": "游戏",
+          "app_id": "6477787562",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%A2%A6%E6%83%B3%E5%8C%BB%E9%99%A2/id6477787562?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/ab/e4/b2abe4eb-14c7-8488-3bf8-eb4576dadd87/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "数十种激烈的挑战在这款奇特的医院模拟游戏中等待着你，而其中的设备如同气候一样各具特色。你的任务就是完善每家医院，确保提供最贴心的就医环境！\r\n作为一名年轻护士协"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 7,
+          "name": "剑侠世界4：无限",
+          "publisher": "西山居世游",
+          "category": "游戏",
+          "app_id": "6759635917",
+          "url": "https://apps.apple.com/cn/app/%E5%89%91%E4%BE%A0%E4%B8%96%E7%95%8C4-%E6%97%A0%E9%99%90/id6759635917?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/53/7c/bc537cc2-0d28-069e-31b5-136f7abcd055/AppIcon-1x_U007emarketing-0-8-85-220-0.jpeg/100x100bb.png",
+          "slogan": "《剑侠世界4：无限》是西山居打造的剑侠世界系列MMO收官之作。游戏延续剑侠系列家族群战、经典门派、自由交易、社交与江湖恩怨等经典体验，并设计无缝大江湖、轻负担养"
+        },
+        {
+          "rank": 8,
+          "name": "绿梦：时空之声",
+          "publisher": "上海竹子绿梦网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6791432398",
+          "url": "https://apps.apple.com/cn/app/%E7%BB%BF%E6%A2%A6-%E6%97%B6%E7%A9%BA%E4%B9%8B%E5%A3%B0/id6791432398?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/56/70/d05670bc-fde9-54d3-0fd6-7d340c04d4b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《绿梦：时空之声》是一款横版动作冒险类游戏，在这个虚构的近未来世界，您作为侵蚀管理局的现役蚀务官，在探寻历史真相的旅途中结识盟友，体验到层次丰富的横版关卡和风格"
+        },
+        {
+          "rank": 18,
+          "name": "怡然时光-机器人大时代",
+          "publisher": "国展 苏",
+          "category": "游戏",
+          "app_id": "6772951007",
+          "url": "https://apps.apple.com/cn/app/%E6%80%A1%E7%84%B6%E6%97%B6%E5%85%89-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%A7%E6%97%B6%E4%BB%A3/id6772951007?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/30/75/573075ad-571d-152d-ad4f-297c29b13144/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "踏入科幻机甲新世界，畅享合成闯关乐趣！《怡然时光-机器人大时代》是一款轻解压趣味合成游戏，玩法简单流畅，兼顾休闲放松与竞技挑战，让你在碎片化时光里，沉浸式体验机"
+        },
+        {
+          "rank": 96,
+          "name": "合数-2048、扫雷、数独、数织、水排序、数字华容道、消消乐",
+          "publisher": "利强 赵",
+          "category": "游戏",
+          "app_id": "6581490196",
+          "url": "https://apps.apple.com/cn/app/%E5%90%88%E6%95%B0-2048-%E6%89%AB%E9%9B%B7-%E6%95%B0%E7%8B%AC-%E6%95%B0%E7%BB%87-%E6%B0%B4%E6%8E%92%E5%BA%8F-%E6%95%B0%E5%AD%97%E5%8D%8E%E5%AE%B9%E9%81%93-%E6%B6%88%E6%B6%88%E4%B9%90/id6581490196?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/64/74/ef64745f-bd14-eef1-5fed-159cd92e6304/NGAppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "2048、扫雷、数独、数织、倒水……合数将 10 款经典益智与休闲小游戏放在一起。想轻松玩一局，或静下心来解一道题，都能找到适合此刻的挑战。\n\n熟悉的玩法，随心"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 1,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 7,
+          "name": "剑侠世界4：无限",
+          "publisher": "西山居世游",
+          "category": "游戏",
+          "app_id": "6759635917",
+          "url": "https://apps.apple.com/cn/app/%E5%89%91%E4%BE%A0%E4%B8%96%E7%95%8C4-%E6%97%A0%E9%99%90/id6759635917?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/53/7c/bc537cc2-0d28-069e-31b5-136f7abcd055/AppIcon-1x_U007emarketing-0-8-85-220-0.jpeg/100x100bb.png",
+          "slogan": "《剑侠世界4：无限》是西山居打造的剑侠世界系列MMO收官之作。游戏延续剑侠系列家族群战、经典门派、自由交易、社交与江湖恩怨等经典体验，并设计无缝大江湖、轻负担养"
+        },
+        {
+          "rank": 8,
+          "name": "绿梦：时空之声",
+          "publisher": "上海竹子绿梦网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6791432398",
+          "url": "https://apps.apple.com/cn/app/%E7%BB%BF%E6%A2%A6-%E6%97%B6%E7%A9%BA%E4%B9%8B%E5%A3%B0/id6791432398?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/56/70/d05670bc-fde9-54d3-0fd6-7d340c04d4b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《绿梦：时空之声》是一款横版动作冒险类游戏，在这个虚构的近未来世界，您作为侵蚀管理局的现役蚀务官，在探寻历史真相的旅途中结识盟友，体验到层次丰富的横版关卡和风格"
+        },
+        {
+          "rank": 18,
+          "name": "怡然时光-机器人大时代",
+          "publisher": "国展 苏",
+          "category": "游戏",
+          "app_id": "6772951007",
+          "url": "https://apps.apple.com/cn/app/%E6%80%A1%E7%84%B6%E6%97%B6%E5%85%89-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%A7%E6%97%B6%E4%BB%A3/id6772951007?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/30/75/573075ad-571d-152d-ad4f-297c29b13144/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "踏入科幻机甲新世界，畅享合成闯关乐趣！《怡然时光-机器人大时代》是一款轻解压趣味合成游戏，玩法简单流畅，兼顾休闲放松与竞技挑战，让你在碎片化时光里，沉浸式体验机"
+        },
+        {
+          "rank": 96,
+          "name": "合数-2048、扫雷、数独、数织、水排序、数字华容道、消消乐",
+          "publisher": "利强 赵",
+          "category": "游戏",
+          "app_id": "6581490196",
+          "url": "https://apps.apple.com/cn/app/%E5%90%88%E6%95%B0-2048-%E6%89%AB%E9%9B%B7-%E6%95%B0%E7%8B%AC-%E6%95%B0%E7%BB%87-%E6%B0%B4%E6%8E%92%E5%BA%8F-%E6%95%B0%E5%AD%97%E5%8D%8E%E5%AE%B9%E9%81%93-%E6%B6%88%E6%B6%88%E4%B9%90/id6581490196?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/64/74/ef64745f-bd14-eef1-5fed-159cd92e6304/NGAppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "2048、扫雷、数独、数织、倒水……合数将 10 款经典益智与休闲小游戏放在一起。想轻松玩一局，或静下心来解一道题，都能找到适合此刻的挑战。\n\n熟悉的玩法，随心"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 2,
+          "name": "[777Real]e 七つの大罪3",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6811791418",
+          "url": "https://apps.apple.com/jp/app/777real-e-%E4%B8%83%E3%81%A4%E3%81%AE%E5%A4%A7%E7%BD%AA3/id6811791418?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/92/5b/74925be5-bf9f-29a3-a155-4b52efd9fef1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\ne 七つの大罪3\n2026年/Sammy\n------------------"
+        },
+        {
+          "rank": 3,
+          "name": "Bus Fever Party: バスゲーム渋滞脱出パズル",
+          "publisher": "Lumi Games",
+          "category": "ゲーム",
+          "app_id": "6746743297",
+          "url": "https://apps.apple.com/jp/app/bus-fever-party-%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0%E6%B8%8B%E6%BB%9E%E8%84%B1%E5%87%BA%E3%83%91%E3%82%BA%E3%83%AB/id6746743297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/f1/a2/7ef1a204-38d3-ab2c-c242-910f66c7e788/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Bus Fever Party!へようこそ！究極の交通渋滞脱出チャレンジに挑戦しよう！\nBus Fever Party!の世界では、交通の混乱と戦略的なパズル解"
+        },
+        {
+          "rank": 5,
+          "name": "千年の旅ELF",
+          "publisher": "Kibi Play",
+          "category": "ゲーム",
+          "app_id": "6762710814",
+          "url": "https://apps.apple.com/jp/app/%E5%8D%83%E5%B9%B4%E3%81%AE%E6%97%85elf/id6762710814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/be/9d/2ebe9d1a-cec0-6a7b-c116-fcb1ab254b7a/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "魔女と契約し、ゴスペルの力を宿した仲間たちとともに、壮大な物語へ。\n\n■ 世界観\n神々が去った世界。\n残された人々は「魔女」と共に未来を切り開き、「ゴスペル」の"
+        },
+        {
+          "rank": 79,
+          "name": "イナズマイレブン クロス",
+          "publisher": "Level-5 Inc.",
+          "category": "ゲーム",
+          "app_id": "6756994116",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A4%E3%83%8A%E3%82%BA%E3%83%9E%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3-%E3%82%AF%E3%83%AD%E3%82%B9/id6756994116?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/86/5b/5d865b70-d284-6175-9831-3f6920aee2f2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "■『イナズマイレブン クロス』とは \n\nレベルファイブが贈る「イナズマイレブン」シリーズの新作がスマートフォンに登場！\n新たな主人公が繰り広げるオリジナルストー"
+        },
+        {
+          "rank": 84,
+          "name": "Bus Escape - バスストップ-ジャムゲーム",
+          "publisher": "ABI GLOBAL LTD.",
+          "category": "ゲーム",
+          "app_id": "6689516366",
+          "url": "https://apps.apple.com/jp/app/bus-escape-%E3%83%90%E3%82%B9%E3%82%B9%E3%83%88%E3%83%83%E3%83%97-%E3%82%B8%E3%83%A3%E3%83%A0%E3%82%B2%E3%83%BC%E3%83%A0/id6689516366?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b0/d6/2c/b0d62c42-ff65-30f5-5c0f-16948294ab91/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "頭を使う難しいけど爽快なパズルゲームが好きですか？\n\nBus Escape: Traffic Jam Fever! の世界へようこそ！バスを動かしながら渋滞を解"
+        },
+        {
+          "rank": 98,
+          "name": "WordBlade - 文字で戦うコマバトル",
+          "publisher": "IBUKI YOSHIDA",
+          "category": "ゲーム",
+          "app_id": "6819836440",
+          "url": "https://apps.apple.com/jp/app/wordblade-%E6%96%87%E5%AD%97%E3%81%A7%E6%88%A6%E3%81%86%E3%82%B3%E3%83%9E%E3%83%90%E3%83%88%E3%83%AB/id6819836440?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/eb/62/7deb6276-95c5-3a20-68de-41ef51c5b7ca/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "好きな「1文字」が、そのまま戦うコマになる。\nWordBladeは、文字の形で性能が決まる3Dコマバトルゲームです。\n\nひらがな、カタカナ、漢字、英字。入力した"
+        },
+        {
+          "rank": 99,
+          "name": "ナンプレ - 数字パズルゲーム",
+          "publisher": "Easybrain Ltd",
+          "category": "ゲーム",
+          "app_id": "1193508329",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8A%E3%83%B3%E3%83%97%E3%83%AC-%E6%95%B0%E5%AD%97%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id1193508329?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/8a/33/388a338e-41f4-84e8-369b-8a6fdc08e752/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "AppStore から、有数のダウンロード数を誇るナンプレアプリを手に入れて、楽しく脳を鍛えましょう！ナンプレは何百万人という人が毎日プレイしている、老若男女問"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 83,
+          "name": "マージ・デザート：復讐は蜜の味",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6761531281",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%BC%E3%82%B8-%E3%83%87%E3%82%B6%E3%83%BC%E3%83%88-%E5%BE%A9%E8%AE%90%E3%81%AF%E8%9C%9C%E3%81%AE%E5%91%B3/id6761531281?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/65/7b/b4657b18-5703-5daa-ab72-90b467b4d5b0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ようこそシュガータウンへ――\nここは甘美な香りに包まれながら、危険な秘密が潜む街…\n天才パティシエ・エラと共に故郷へ戻り、謎の火事に隠された真実を解き明かそう。"
+        },
+        {
+          "rank": 86,
+          "name": "オブジェクトを探す：隠されたパズル",
+          "publisher": "NimbleMind",
+          "category": "ゲーム",
+          "app_id": "6751270213",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%92%E6%8E%A2%E3%81%99-%E9%9A%A0%E3%81%95%E3%82%8C%E3%81%9F%E3%83%91%E3%82%BA%E3%83%AB/id6751270213?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/20/24/b920249a-8cc8-7034-b586-434ddc4f3347/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "隠された驚異の世界へようこそ。すべての絵に物語が隠されています。あなたはすべてを見つけられますか？\n\nこの無料でありながら中毒性のある隠しオブジェクトパズルゲー"
+        },
+        {
+          "rank": 93,
+          "name": "アニモ",
+          "publisher": "PAWPRINT INTERACTIVE ENTERTAINMENT PTE. LTD",
+          "category": "ゲーム",
+          "app_id": "6759098797",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%8B%E3%83%A2/id6759098797?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/a8/2e/aba82e5b-5492-1e01-d677-634abedfa5e8/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『アニモ』は、基本プレイ無料の次世代オープンワールドモンスター収集RPG。\n広大なアイディル大陸を舞台に、個性豊かなアニモと出会い、リンクによって新たな能力を解"
+        },
+        {
+          "rank": 100,
+          "name": "Search It - Hidden Objects",
+          "publisher": "LEAP BILISIM TEKNOLOJILERI VE YAZILIM TICARET ANONIM SIRKETI",
+          "category": "ゲーム",
+          "app_id": "6756185760",
+          "url": "https://apps.apple.com/jp/app/search-it-hidden-objects/id6756185760?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/cc/5d/80cc5de5-bfc1-dc9b-3107-9fab1203050e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Search It – Hidden Objects は、観察力を試しながらリラックスできるアイテム探しゲームです。美しくデザインされたシーンを探索し、隠された"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 5,
+          "name": "千年の旅ELF",
+          "publisher": "Kibi Play",
+          "category": "ゲーム",
+          "app_id": "6762710814",
+          "url": "https://apps.apple.com/jp/app/%E5%8D%83%E5%B9%B4%E3%81%AE%E6%97%85elf/id6762710814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/be/9d/2ebe9d1a-cec0-6a7b-c116-fcb1ab254b7a/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "魔女と契約し、ゴスペルの力を宿した仲間たちとともに、壮大な物語へ。\n\n■ 世界観\n神々が去った世界。\n残された人々は「魔女」と共に未来を切り開き、「ゴスペル」の"
+        }
+      ],
+      "totals": {
+        "new_to_board": 7,
+        "returning": 4,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "[777Real]e 七つの大罪3",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6811791418",
+          "url": "https://apps.apple.com/jp/app/777real-e-%E4%B8%83%E3%81%A4%E3%81%AE%E5%A4%A7%E7%BD%AA3/id6811791418?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/92/5b/74925be5-bf9f-29a3-a155-4b52efd9fef1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\ne 七つの大罪3\n2026年/Sammy\n------------------"
+        },
+        {
+          "rank": 3,
+          "name": "Bus Fever Party: バスゲーム渋滞脱出パズル",
+          "publisher": "Lumi Games",
+          "category": "ゲーム",
+          "app_id": "6746743297",
+          "url": "https://apps.apple.com/jp/app/bus-fever-party-%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0%E6%B8%8B%E6%BB%9E%E8%84%B1%E5%87%BA%E3%83%91%E3%82%BA%E3%83%AB/id6746743297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/f1/a2/7ef1a204-38d3-ab2c-c242-910f66c7e788/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Bus Fever Party!へようこそ！究極の交通渋滞脱出チャレンジに挑戦しよう！\nBus Fever Party!の世界では、交通の混乱と戦略的なパズル解"
+        },
+        {
+          "rank": 5,
+          "name": "千年の旅ELF",
+          "publisher": "Kibi Play",
+          "category": "ゲーム",
+          "app_id": "6762710814",
+          "url": "https://apps.apple.com/jp/app/%E5%8D%83%E5%B9%B4%E3%81%AE%E6%97%85elf/id6762710814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/be/9d/2ebe9d1a-cec0-6a7b-c116-fcb1ab254b7a/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "魔女と契約し、ゴスペルの力を宿した仲間たちとともに、壮大な物語へ。\n\n■ 世界観\n神々が去った世界。\n残された人々は「魔女」と共に未来を切り開き、「ゴスペル」の"
+        },
+        {
+          "rank": 79,
+          "name": "イナズマイレブン クロス",
+          "publisher": "Level-5 Inc.",
+          "category": "ゲーム",
+          "app_id": "6756994116",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A4%E3%83%8A%E3%82%BA%E3%83%9E%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3-%E3%82%AF%E3%83%AD%E3%82%B9/id6756994116?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/86/5b/5d865b70-d284-6175-9831-3f6920aee2f2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "■『イナズマイレブン クロス』とは \n\nレベルファイブが贈る「イナズマイレブン」シリーズの新作がスマートフォンに登場！\n新たな主人公が繰り広げるオリジナルストー"
+        },
+        {
+          "rank": 84,
+          "name": "Bus Escape - バスストップ-ジャムゲーム",
+          "publisher": "ABI GLOBAL LTD.",
+          "category": "ゲーム",
+          "app_id": "6689516366",
+          "url": "https://apps.apple.com/jp/app/bus-escape-%E3%83%90%E3%82%B9%E3%82%B9%E3%83%88%E3%83%83%E3%83%97-%E3%82%B8%E3%83%A3%E3%83%A0%E3%82%B2%E3%83%BC%E3%83%A0/id6689516366?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b0/d6/2c/b0d62c42-ff65-30f5-5c0f-16948294ab91/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "頭を使う難しいけど爽快なパズルゲームが好きですか？\n\nBus Escape: Traffic Jam Fever! の世界へようこそ！バスを動かしながら渋滞を解"
+        },
+        {
+          "rank": 98,
+          "name": "WordBlade - 文字で戦うコマバトル",
+          "publisher": "IBUKI YOSHIDA",
+          "category": "ゲーム",
+          "app_id": "6819836440",
+          "url": "https://apps.apple.com/jp/app/wordblade-%E6%96%87%E5%AD%97%E3%81%A7%E6%88%A6%E3%81%86%E3%82%B3%E3%83%9E%E3%83%90%E3%83%88%E3%83%AB/id6819836440?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/eb/62/7deb6276-95c5-3a20-68de-41ef51c5b7ca/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "好きな「1文字」が、そのまま戦うコマになる。\nWordBladeは、文字の形で性能が決まる3Dコマバトルゲームです。\n\nひらがな、カタカナ、漢字、英字。入力した"
+        },
+        {
+          "rank": 99,
+          "name": "ナンプレ - 数字パズルゲーム",
+          "publisher": "Easybrain Ltd",
+          "category": "ゲーム",
+          "app_id": "1193508329",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8A%E3%83%B3%E3%83%97%E3%83%AC-%E6%95%B0%E5%AD%97%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id1193508329?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/8a/33/388a338e-41f4-84e8-369b-8a6fdc08e752/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "AppStore から、有数のダウンロード数を誇るナンプレアプリを手に入れて、楽しく脳を鍛えましょう！ナンプレは何百万人という人が毎日プレイしている、老若男女問"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 92,
+          "name": "Vigor Mahjong",
+          "publisher": "CanaryDroid",
+          "category": "Games",
+          "package": "com.godlike.vigormahjong"
+        },
+        {
+          "rank": 95,
+          "name": "Search It - Hidden Objects",
+          "publisher": "Leap Game Studios",
+          "category": "Games",
+          "package": "com.leap.searchit"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
