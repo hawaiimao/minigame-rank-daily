@@ -1,0 +1,649 @@
+{
+  "date": "2026-10-15",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "掼蛋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 5名",
+          "publisher": "牌类",
+          "change": "+2",
+          "change_direction": "down"
+        },
+        {
+          "rank": 16,
+          "name": "无尽火线",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "模拟经营",
+          "change": "奇迹互动（北京）科技有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 18,
+          "name": "梦幻消除战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 12名",
+          "publisher": "模拟经营",
+          "change": "广州喜势网络科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "青云诀之伏魔",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 2名",
+          "publisher": "MMO",
+          "change": "海南元游信息技术有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "神器传说",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 12名",
+          "publisher": "益智",
+          "change": "深圳全民互动科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 3,
+          "name": "新大奉打更人",
+          "publisher": "大奉夜巡组",
+          "category": "养成",
+          "subcategory": "剧情、卡牌"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 3,
+          "name": "新大奉打更人",
+          "publisher": "大奉夜巡组",
+          "category": "养成",
+          "subcategory": "剧情、卡牌"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 3,
+          "name": "新大奉打更人",
+          "publisher": "大奉夜巡组",
+          "category": "养成",
+          "subcategory": "剧情、卡牌"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 90,
+          "name": "Screwdom",
+          "publisher": "Zego Global Pte Ltd",
+          "category": "Games",
+          "app_id": "6740043080",
+          "url": "https://apps.apple.com/us/app/screwdom/id6740043080?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/d5/b3/e1d5b357-399a-99df-68a4-1917e9589375/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Screwdom is a challenging and brain-teasing screw master 3D game that will put y"
+        },
+        {
+          "rank": 92,
+          "name": "Yes, Your Grace 2: Snowfall",
+          "publisher": "Noodlecake",
+          "category": "Games",
+          "app_id": "6757407113",
+          "url": "https://apps.apple.com/us/app/yes-your-grace-2-snowfall/id6757407113?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/07/1e/66071ee7-4cb1-5d4d-8606-61eb9f4abf15/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "*NOTICE - TRY BEFORE YOU BUY* - Play the beginning for free. A one-time in-app p"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 75,
+          "name": "Little Kitty, Big City",
+          "publisher": "Double Dagger Studio",
+          "category": "Games",
+          "app_id": "6760796215",
+          "url": "https://apps.apple.com/us/app/little-kitty-big-city/id6760796215?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/c1/b5/4dc1b505-a634-38bc-acd1-4a21e45f6b03/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "You're a curious little kitty with a big personality, on an adventure to find yo"
+        },
+        {
+          "rank": 95,
+          "name": "Clash Royale",
+          "publisher": "Supercell",
+          "category": "Games",
+          "app_id": "1053012308",
+          "url": "https://apps.apple.com/us/app/clash-royale/id1053012308?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/dd/c2/e1ddc25b-e234-42ac-7748-1c663d309cf9/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "Enter the Arena! Build your Battle Deck and outsmart the enemy in fast real-time"
+        },
+        {
+          "rank": 97,
+          "name": "Clash of Clans",
+          "publisher": "Supercell",
+          "category": "Games",
+          "app_id": "529479190",
+          "url": "https://apps.apple.com/us/app/clash-of-clans/id529479190?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/3a/33/ca3a3391-1dfe-a6c9-3701-97cc86f45241/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Join millions of players worldwide as you build your village, raise a Clan, and "
+        },
+        {
+          "rank": 100,
+          "name": "EA SPORTS FC Soccer Mobile 27",
+          "publisher": "Electronic Arts",
+          "category": "Games",
+          "app_id": "1094930513",
+          "url": "https://apps.apple.com/us/app/ea-sports-fc-soccer-mobile-27/id1094930513?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/d1/84/41d18457-ec03-6812-f0a7-8a83686c6009/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This game includes optional in-game purchases of virtual currency that can be us"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 90,
+          "name": "Screwdom",
+          "publisher": "Zego Global Pte Ltd",
+          "category": "Games",
+          "app_id": "6740043080",
+          "url": "https://apps.apple.com/us/app/screwdom/id6740043080?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/d5/b3/e1d5b357-399a-99df-68a4-1917e9589375/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Screwdom is a challenging and brain-teasing screw master 3D game that will put y"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 4,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 90,
+          "name": "Screwdom",
+          "publisher": "Zego Global Pte Ltd",
+          "category": "Games",
+          "app_id": "6740043080",
+          "url": "https://apps.apple.com/us/app/screwdom/id6740043080?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/d5/b3/e1d5b357-399a-99df-68a4-1917e9589375/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Screwdom is a challenging and brain-teasing screw master 3D game that will put y"
+        },
+        {
+          "rank": 92,
+          "name": "Yes, Your Grace 2: Snowfall",
+          "publisher": "Noodlecake",
+          "category": "Games",
+          "app_id": "6757407113",
+          "url": "https://apps.apple.com/us/app/yes-your-grace-2-snowfall/id6757407113?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/07/1e/66071ee7-4cb1-5d4d-8606-61eb9f4abf15/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "*NOTICE - TRY BEFORE YOU BUY* - Play the beginning for free. A one-time in-app p"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 19,
+          "name": "地铁跑酷 - 光河引路灵魂赴约",
+          "publisher": "iDreamSky Technology Limited",
+          "category": "游戏",
+          "app_id": "995122577",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E9%93%81%E8%B7%91%E9%85%B7-%E5%85%89%E6%B2%B3%E5%BC%95%E8%B7%AF%E7%81%B5%E9%AD%82%E8%B5%B4%E7%BA%A6/id995122577?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/ee/5f/72ee5f04-1d04-ab52-5a21-03808f6c9900/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【游戏特色】\n《地铁跑酷》墨西哥版本开启！重返神秘墨西哥，穿行绚丽街巷、特色建筑与热闹节庆场景，在异域风情与幽深月夜交织的赛道中，开启一场充满惊喜与未知的暗夜冒"
+        },
+        {
+          "rank": 24,
+          "name": "精灵永恒-奇幻大陆",
+          "publisher": "Qianhong Network",
+          "category": "游戏",
+          "app_id": "6810109789",
+          "url": "https://apps.apple.com/cn/app/%E7%B2%BE%E7%81%B5%E6%B0%B8%E6%81%92-%E5%A5%87%E5%B9%BB%E5%A4%A7%E9%99%86/id6810109789?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/ed/6e/4bed6e16-e14b-6b0e-f4f5-f38c70da254d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《精灵永恒-奇幻大陆》是一款角色扮演类的奇幻题材 MMORPG 游戏。偏卡通系的角色及怪物，简单的操作方式，生动的战斗效果，爽快的打击感，富有趣味的游戏设计，带"
+        },
+        {
+          "rank": 64,
+          "name": "挪箭666 - 箭头消除挑战挪一挪",
+          "publisher": "AkerSun Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6757469154",
+          "url": "https://apps.apple.com/cn/app/%E6%8C%AA%E7%AE%AD666-%E7%AE%AD%E5%A4%B4%E6%B6%88%E9%99%A4%E6%8C%91%E6%88%98%E6%8C%AA%E4%B8%80%E6%8C%AA/id6757469154?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/18/04/a5180423-3d09-e20a-9972-3909ae959c81/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "指尖一动，箭头听令！\n欢迎来到一个由箭头构成的奇妙世界。\n在这里，你就是唯一的指挥官。通过简单顺滑的滑动操作，你将引导成百上千的箭头，让它们从混乱无序变得井然有"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 97,
+          "name": "黑洞入侵",
+          "publisher": "SkyIsland Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6473766839",
+          "url": "https://apps.apple.com/cn/app/%E9%BB%91%E6%B4%9E%E5%85%A5%E4%BE%B5/id6473766839?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/ac/c7/a8acc756-f178-c2c5-ab60-695822a5a321/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "你能像黑洞王者一样移动黑洞，将建筑物吞入洞中吗？时钟在滴答作响，时间马上就要到了，你能成功吞掉它吗？\n进入竞技场，与其他黑洞进行激烈的战斗。用你的黑洞吃掉视线范"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 69,
+          "name": "云·终末地",
+          "publisher": "Shanghai Hypergryph Talos Network Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6758778913",
+          "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E7%BB%88%E6%9C%AB%E5%9C%B0/id6758778913?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/76/00/22/760022c3-5c6c-81ab-fe2e-2d1d83d385fc/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "《云・终末地》是《明日方舟：终末地》的官方云游戏版本，管理员仅需下载超小包体就可以尽情探索塔卫二，并享受高画质、高帧率与低电耗的畅快游戏体验。\n\n《明日方舟：终"
+        },
+        {
+          "rank": 98,
+          "name": "率土之滨",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "909211092",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%87%E5%9C%9F%E4%B9%8B%E6%BB%A8/id909211092?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/cc/2f/cfcc2fd7-1444-6cae-b2b2-34be98554491/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "欢迎来到国人原创的东方战争策略游戏《率土之滨》。\r\n《率土之滨》提供了一个全自由的东方战争策略沙盘，你可以与众多玩家组建同盟，一起在这汉末大争之世中，创造你们的"
+        },
+        {
+          "rank": 99,
+          "name": "宾果消消消",
+          "publisher": "柠檬微趣",
+          "category": "游戏",
+          "app_id": "897447840",
+          "url": "https://apps.apple.com/cn/app/%E5%AE%BE%E6%9E%9C%E6%B6%88%E6%B6%88%E6%B6%88/id897447840?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/8a/e5/998ae519-3a35-75ce-a946-5f49ca926b91/AppIcon-0-0-1x_U007emarketing-0-9-0-GLES2_U002c0-85-220.png/100x100bb.png",
+          "slogan": "《宾果消消消》,累计注册用户超过3亿,以三消+开店的形式，让国民连接在一起！\n2021年，3亿玩家的共同选择！\n\n消一消，能开店。奶茶店、蛋糕店、糖果店、花店、"
+        },
+        {
+          "rank": 100,
+          "name": "离线游戏 - 不用网络的游戏 不联网游戏",
+          "publisher": "Matchstick Castle Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6478842010",
+          "url": "https://apps.apple.com/cn/app/%E7%A6%BB%E7%BA%BF%E6%B8%B8%E6%88%8F-%E4%B8%8D%E7%94%A8%E7%BD%91%E7%BB%9C%E7%9A%84%E6%B8%B8%E6%88%8F-%E4%B8%8D%E8%81%94%E7%BD%91%E6%B8%B8%E6%88%8F/id6478842010?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/ec/fe/3eecfe3f-9ef4-426b-f5d5-70db2aac30a0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "告别流量焦虑！你的掌上迷你游乐园开张啦！ \n想随时随地来点小乐趣，又不想被网络信号绑架？ 这就是你的秘密武器！ 我们为你准备了一箩筐轻松有趣的小玩意，让你在任何"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 24,
+          "name": "精灵永恒-奇幻大陆",
+          "publisher": "Qianhong Network",
+          "category": "游戏",
+          "app_id": "6810109789",
+          "url": "https://apps.apple.com/cn/app/%E7%B2%BE%E7%81%B5%E6%B0%B8%E6%81%92-%E5%A5%87%E5%B9%BB%E5%A4%A7%E9%99%86/id6810109789?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/ed/6e/4bed6e16-e14b-6b0e-f4f5-f38c70da254d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《精灵永恒-奇幻大陆》是一款角色扮演类的奇幻题材 MMORPG 游戏。偏卡通系的角色及怪物，简单的操作方式，生动的战斗效果，爽快的打击感，富有趣味的游戏设计，带"
+        },
+        {
+          "rank": 64,
+          "name": "挪箭666 - 箭头消除挑战挪一挪",
+          "publisher": "AkerSun Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6757469154",
+          "url": "https://apps.apple.com/cn/app/%E6%8C%AA%E7%AE%AD666-%E7%AE%AD%E5%A4%B4%E6%B6%88%E9%99%A4%E6%8C%91%E6%88%98%E6%8C%AA%E4%B8%80%E6%8C%AA/id6757469154?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/18/04/a5180423-3d09-e20a-9972-3909ae959c81/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "指尖一动，箭头听令！\n欢迎来到一个由箭头构成的奇妙世界。\n在这里，你就是唯一的指挥官。通过简单顺滑的滑动操作，你将引导成百上千的箭头，让它们从混乱无序变得井然有"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 4,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 19,
+          "name": "地铁跑酷 - 光河引路灵魂赴约",
+          "publisher": "iDreamSky Technology Limited",
+          "category": "游戏",
+          "app_id": "995122577",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E9%93%81%E8%B7%91%E9%85%B7-%E5%85%89%E6%B2%B3%E5%BC%95%E8%B7%AF%E7%81%B5%E9%AD%82%E8%B5%B4%E7%BA%A6/id995122577?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/ee/5f/72ee5f04-1d04-ab52-5a21-03808f6c9900/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【游戏特色】\n《地铁跑酷》墨西哥版本开启！重返神秘墨西哥，穿行绚丽街巷、特色建筑与热闹节庆场景，在异域风情与幽深月夜交织的赛道中，开启一场充满惊喜与未知的暗夜冒"
+        },
+        {
+          "rank": 24,
+          "name": "精灵永恒-奇幻大陆",
+          "publisher": "Qianhong Network",
+          "category": "游戏",
+          "app_id": "6810109789",
+          "url": "https://apps.apple.com/cn/app/%E7%B2%BE%E7%81%B5%E6%B0%B8%E6%81%92-%E5%A5%87%E5%B9%BB%E5%A4%A7%E9%99%86/id6810109789?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/ed/6e/4bed6e16-e14b-6b0e-f4f5-f38c70da254d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《精灵永恒-奇幻大陆》是一款角色扮演类的奇幻题材 MMORPG 游戏。偏卡通系的角色及怪物，简单的操作方式，生动的战斗效果，爽快的打击感，富有趣味的游戏设计，带"
+        },
+        {
+          "rank": 64,
+          "name": "挪箭666 - 箭头消除挑战挪一挪",
+          "publisher": "AkerSun Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6757469154",
+          "url": "https://apps.apple.com/cn/app/%E6%8C%AA%E7%AE%AD666-%E7%AE%AD%E5%A4%B4%E6%B6%88%E9%99%A4%E6%8C%91%E6%88%98%E6%8C%AA%E4%B8%80%E6%8C%AA/id6757469154?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/18/04/a5180423-3d09-e20a-9972-3909ae959c81/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "指尖一动，箭头听令！\n欢迎来到一个由箭头构成的奇妙世界。\n在这里，你就是唯一的指挥官。通过简单顺滑的滑动操作，你将引导成百上千的箭头，让它们从混乱无序变得井然有"
+        },
+        {
+          "rank": 97,
+          "name": "黑洞入侵",
+          "publisher": "SkyIsland Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6473766839",
+          "url": "https://apps.apple.com/cn/app/%E9%BB%91%E6%B4%9E%E5%85%A5%E4%BE%B5/id6473766839?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/ac/c7/a8acc756-f178-c2c5-ab60-695822a5a321/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "你能像黑洞王者一样移动黑洞，将建筑物吞入洞中吗？时钟在滴答作响，时间马上就要到了，你能成功吞掉它吗？\n进入竞技场，与其他黑洞进行激烈的战斗。用你的黑洞吃掉视线范"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 28,
+          "name": "Foodie Pop!",
+          "publisher": "ABI GLOBAL LTD.",
+          "category": "ゲーム",
+          "app_id": "6811006356",
+          "url": "https://apps.apple.com/jp/app/foodie-pop/id6811006356?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/58/b9/ac58b9f0-9fe8-31fa-b0c7-d5173a7d1d45/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Foodie Pop!へようこそ！ — 居心地の良い料理シミュレーションと、食材をマッチさせて料理を提供する爽快なパズルゲームがひとつになった、楽しいゲーム体験"
+        },
+        {
+          "rank": 49,
+          "name": "首なし騎士：異世界伝説",
+          "publisher": "JMMOBI Inc.",
+          "category": "ゲーム",
+          "app_id": "6498629945",
+          "url": "https://apps.apple.com/jp/app/%E9%A6%96%E3%81%AA%E3%81%97%E9%A8%8E%E5%A3%AB-%E7%95%B0%E4%B8%96%E7%95%8C%E4%BC%9D%E8%AA%AC/id6498629945?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/4a/d4/584ad4a1-59bb-4e2e-7827-0f4f779c251d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "◆今なら、DLで1000連ガチャGet！\n超楽しい美少女召喚の冒険放置育成RPGゲーム『首なし騎士：異世界伝説』が、日本上陸中！\n\n◆ストーリー概要\n100年前"
+        },
+        {
+          "rank": 68,
+          "name": "YukiGuni",
+          "publisher": "SEVEN DOT",
+          "category": "ゲーム",
+          "app_id": "6815691344",
+          "url": "https://apps.apple.com/jp/app/yukiguni/id6815691344?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/34/78/1034783a-39eb-ac34-f661-548842c787bf/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "指で描いたラインが、そのままスキーコースに。\n\n本格 3D の雪山を、自分だけのスキーリゾートに育てる経営シミュレーションです。\n\n▼ あそびかた\n・山の上から"
+        },
+        {
+          "rank": 87,
+          "name": "ドラゴンのねどこ – コレクション＆育成",
+          "publisher": "Runaway",
+          "category": "ゲーム",
+          "app_id": "6746389113",
+          "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%81%AE%E3%81%AD%E3%81%A9%E3%81%93-%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3-%E8%82%B2%E6%88%90/id6746389113?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/1b/84/881b8409-15b3-95c6-f19c-d047362c2483/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "見たこともないドラゴンを発見しよう！ 数百種類のユニークなドラゴンを集めてお世話し、成長とともにその起源を解き明かそう。おちゃめなネコドラゴンから、めずらしいブ"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 77,
+          "name": "ブレードウォー",
+          "publisher": "EVISTA PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6769617371",
+          "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%AC%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A9%E3%83%BC/id6769617371?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/c6/17/49c6179f-cc24-a1e0-604c-38a777fcd8cc/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "厳しい寒さが三国の大地を襲った。さあ、今、新たな物語があなたの手で始まろうとしている！\n仁義の心を持つ領主として、城門を開きさまよう難民を迎え、無料で獲得したS"
+        },
+        {
+          "rank": 95,
+          "name": "777Real(777リアル) パチンコ･パチスロアプリ",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "1545088576",
+          "url": "https://apps.apple.com/jp/app/777real-777%E3%83%AA%E3%82%A2%E3%83%AB-%E3%83%91%E3%83%81%E3%83%B3%E3%82%B3-%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD%E3%82%A2%E3%83%97%E3%83%AA/id1545088576?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/27/cd/0e27cdc0-3f41-8abe-fc05-2eb93b24d3ec/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\n777Real（スリーセブンリアル）\n--------------------"
+        },
+        {
+          "rank": 96,
+          "name": "ねじねじパズル",
+          "publisher": "Chengdu Warrior Tech Limited",
+          "category": "ゲーム",
+          "app_id": "6737022506",
+          "url": "https://apps.apple.com/jp/app/%E3%81%AD%E3%81%98%E3%81%AD%E3%81%98%E3%83%91%E3%82%BA%E3%83%AB/id6737022506?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/4b/40/b84b40e2-58ac-19df-b298-0548a4d6c2bc/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "ネジをひねって、プレッシャーから解放！巧みに配置されたネジをすべて外し、パネルを完全に空にするパズルゲームです。遊び方はシンプルですが、頭を使う奥深いチャレンジ"
+        },
+        {
+          "rank": 97,
+          "name": "どうぶつタワーバトル - オンライン対戦ゲーム",
+          "publisher": "Yabuzaki Company, Inc.",
+          "category": "ゲーム",
+          "app_id": "1173389241",
+          "url": "https://apps.apple.com/jp/app/%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%82%BF%E3%83%AF%E3%83%BC%E3%83%90%E3%83%88%E3%83%AB-%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E5%AF%BE%E6%88%A6%E3%82%B2%E3%83%BC%E3%83%A0/id1173389241?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/ec/ed/f1eced41-fef4-aa51-7f45-19b5cbfd7409/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "▼▽かわいくリアルな動物を積んでいくゲーム「どうぶつタワー」がリアルタイム対戦できるようになりました▼▽\n\n▼▽iOSアプリ無料総合ランキング１位獲得しました▼"
+        },
+        {
+          "rank": 99,
+          "name": "Among Us!",
+          "publisher": "InnerSloth LLC",
+          "category": "ゲーム",
+          "app_id": "1351168404",
+          "url": "https://apps.apple.com/jp/app/among-us/id1351168404?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/b8/06/06b80694-d4ff-a00e-1e22-9aafd5dd6e2e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A game of teamwork and betrayal ...in space! Play online with 4-15 players as yo"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 68,
+          "name": "YukiGuni",
+          "publisher": "SEVEN DOT",
+          "category": "ゲーム",
+          "app_id": "6815691344",
+          "url": "https://apps.apple.com/jp/app/yukiguni/id6815691344?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/34/78/1034783a-39eb-ac34-f661-548842c787bf/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "指で描いたラインが、そのままスキーコースに。\n\n本格 3D の雪山を、自分だけのスキーリゾートに育てる経営シミュレーションです。\n\n▼ あそびかた\n・山の上から"
+        },
+        {
+          "rank": 87,
+          "name": "ドラゴンのねどこ – コレクション＆育成",
+          "publisher": "Runaway",
+          "category": "ゲーム",
+          "app_id": "6746389113",
+          "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%81%AE%E3%81%AD%E3%81%A9%E3%81%93-%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3-%E8%82%B2%E6%88%90/id6746389113?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/1b/84/881b8409-15b3-95c6-f19c-d047362c2483/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "見たこともないドラゴンを発見しよう！ 数百種類のユニークなドラゴンを集めてお世話し、成長とともにその起源を解き明かそう。おちゃめなネコドラゴンから、めずらしいブ"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 5,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 28,
+          "name": "Foodie Pop!",
+          "publisher": "ABI GLOBAL LTD.",
+          "category": "ゲーム",
+          "app_id": "6811006356",
+          "url": "https://apps.apple.com/jp/app/foodie-pop/id6811006356?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/58/b9/ac58b9f0-9fe8-31fa-b0c7-d5173a7d1d45/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Foodie Pop!へようこそ！ — 居心地の良い料理シミュレーションと、食材をマッチさせて料理を提供する爽快なパズルゲームがひとつになった、楽しいゲーム体験"
+        },
+        {
+          "rank": 49,
+          "name": "首なし騎士：異世界伝説",
+          "publisher": "JMMOBI Inc.",
+          "category": "ゲーム",
+          "app_id": "6498629945",
+          "url": "https://apps.apple.com/jp/app/%E9%A6%96%E3%81%AA%E3%81%97%E9%A8%8E%E5%A3%AB-%E7%95%B0%E4%B8%96%E7%95%8C%E4%BC%9D%E8%AA%AC/id6498629945?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/4a/d4/584ad4a1-59bb-4e2e-7827-0f4f779c251d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "◆今なら、DLで1000連ガチャGet！\n超楽しい美少女召喚の冒険放置育成RPGゲーム『首なし騎士：異世界伝説』が、日本上陸中！\n\n◆ストーリー概要\n100年前"
+        },
+        {
+          "rank": 68,
+          "name": "YukiGuni",
+          "publisher": "SEVEN DOT",
+          "category": "ゲーム",
+          "app_id": "6815691344",
+          "url": "https://apps.apple.com/jp/app/yukiguni/id6815691344?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/34/78/1034783a-39eb-ac34-f661-548842c787bf/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "指で描いたラインが、そのままスキーコースに。\n\n本格 3D の雪山を、自分だけのスキーリゾートに育てる経営シミュレーションです。\n\n▼ あそびかた\n・山の上から"
+        },
+        {
+          "rank": 87,
+          "name": "ドラゴンのねどこ – コレクション＆育成",
+          "publisher": "Runaway",
+          "category": "ゲーム",
+          "app_id": "6746389113",
+          "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%81%AE%E3%81%AD%E3%81%A9%E3%81%93-%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3-%E8%82%B2%E6%88%90/id6746389113?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/1b/84/881b8409-15b3-95c6-f19c-d047362c2483/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "見たこともないドラゴンを発見しよう！ 数百種類のユニークなドラゴンを集めてお世話し、成長とともにその起源を解き明かそう。おちゃめなネコドラゴンから、めずらしいブ"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 74,
+          "name": "Fast Cash Farkle",
+          "publisher": "GreatPlay App",
+          "category": "Games",
+          "package": "com.greatplay.farklecash"
+        },
+        {
+          "rank": 92,
+          "name": "Treasure Master",
+          "publisher": "Gimica GmbH",
+          "category": "Games",
+          "package": "com.gimica.treasuremaster"
+        },
+        {
+          "rank": 95,
+          "name": "Angry Smash",
+          "publisher": "Tripledot Studios Limited",
+          "category": "Games",
+          "package": "com.tripledot.angrysmash"
+        },
+        {
+          "rank": 97,
+          "name": "Total Battle: War Strategy",
+          "publisher": "Scorewarrior",
+          "category": "Games",
+          "package": "com.totalbattle"
+        },
+        {
+          "rank": 98,
+          "name": "Hit Fortune - Casino Slots",
+          "publisher": "BRAVOOCEAN INDIA PRIVATE LIMITED",
+          "category": "Games",
+          "package": "com.pawakuma.hitfortune"
+        },
+        {
+          "rank": 99,
+          "name": "Frost Valley™: Merge & Story",
+          "publisher": "Tuyoo Games (HK) Limited",
+          "category": "Games",
+          "package": "com.liteorange.hometopia"
+        },
+        {
+          "rank": 100,
+          "name": "Draw Bridge Puzzle: Brain Game",
+          "publisher": "Brave Labs",
+          "category": "Games",
+          "package": "com.bravestars.draw.bridge.drawgame"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 7,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
