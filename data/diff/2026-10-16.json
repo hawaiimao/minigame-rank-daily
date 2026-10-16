@@ -1,0 +1,581 @@
+{
+  "date": "2026-10-16",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "解压闯一关",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "益智",
+          "change": "广州探游网络科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "赵云与阿斗",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 12名",
+          "publisher": "塔防",
+          "change": "北京蜜獾工坊科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 2,
+          "name": "QQ经典农场",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 2名",
+          "publisher": "模拟经营",
+          "change": "深圳市腾讯计算机系统有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "大王请上阵",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 5名",
+          "publisher": "卡牌",
+          "change": "深圳市悦莱顺网络科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 9,
+          "name": "时之铃",
+          "publisher": "北京水泠喵网络科技有限公司",
+          "category": "二次元",
+          "subcategory": "自走棋、多人联机、角色扮演、美少女、策略"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 4,
+          "name": "变形金刚：新纪元",
+          "publisher": "Wanda Game",
+          "category": "策略",
+          "subcategory": "剧情、收集"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 9,
+          "name": "时之铃",
+          "publisher": "北京水泠喵网络科技有限公司",
+          "category": "二次元",
+          "subcategory": "自走棋、多人联机、角色扮演、美少女、策略"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "时之铃",
+          "publisher": "北京水泠喵网络科技有限公司",
+          "category": "二次元",
+          "subcategory": "自走棋、多人联机、角色扮演、美少女、策略"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 38,
+          "name": "Dragonbound: Wings of Magic",
+          "publisher": "Efun Global Company Limited",
+          "category": "Games",
+          "app_id": "6767434212",
+          "url": "https://apps.apple.com/us/app/dragonbound-wings-of-magic/id6767434212?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/24/a1/1f24a12b-6559-d2b6-70a1-28cb04bbd039/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the Dragon Knight Academy, master powerful magic, and hatch a dragon a"
+        },
+        {
+          "rank": 71,
+          "name": "Girls Echo",
+          "publisher": "HOWLYO HONG KONG LIMITED",
+          "category": "Games",
+          "app_id": "6797805969",
+          "url": "https://apps.apple.com/us/app/girls-echo/id6797805969?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6d/50/b3/6d50b3d3-dfd4-2d54-d004-33054cea92b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Two worlds. One fate. A story waiting to be rewritten.\n\nA mysterious catastrophe"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 77,
+          "name": "Goods Puzzle: 3D Sorting Games",
+          "publisher": "Guru Smart Holding Limited",
+          "category": "Games",
+          "app_id": "6499306806",
+          "url": "https://apps.apple.com/us/app/goods-puzzle-3d-sorting-games/id6499306806?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/5f/91/dd5f9193-81f1-4bda-93f7-b22663aa552f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready for an exciting matching adventure like never before in Goods Puzzle: "
+        }
+      ],
+      "returning": [
+        {
+          "rank": 87,
+          "name": "Pocket Sort: Coin Merge Puzzle",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6755425214",
+          "url": "https://apps.apple.com/us/app/pocket-sort-coin-merge-puzzle/id6755425214?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/25/0f/a2250ff0-b5ba-275a-b68a-4593bde0209e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "► SORT YOUR WAY TO HAPPINESS\n\nMaster mergers, ready those fingers and get to mat"
+        },
+        {
+          "rank": 88,
+          "name": "Cash Avalanche:Casino Slot",
+          "publisher": "Spruce Interactive Inc",
+          "category": "Games",
+          "app_id": "6751794501",
+          "url": "https://apps.apple.com/us/app/cash-avalanche-casino-slot/id6751794501?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/ac/78/b2ac7805-c3df-b3dd-59da-f2541638d8a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Cash Avalanche — Spin Into the Excitement\n\nCash Avalanche delivers an immersive "
+        },
+        {
+          "rank": 91,
+          "name": "Tile Explorer: Tiles Clear!",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "app_id": "6498883328",
+          "url": "https://apps.apple.com/us/app/tile-explorer-tiles-clear/id6498883328?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a7/92/3e/a7923ed6-40dc-447b-27b7-4df807b667a4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Looking for a relaxing and addictive tile matching adventure? Tile Explorer is y"
+        },
+        {
+          "rank": 95,
+          "name": "Retro Bowl",
+          "publisher": "New Star Games",
+          "category": "Games",
+          "app_id": "1478902583",
+          "url": "https://apps.apple.com/us/app/retro-bowl/id1478902583?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/7d/d8/197dd8db-93d4-f20b-b99b-fd809f070698/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Retro Bowl is the perfect game for the armchair quarterback to finally prove a p"
+        },
+        {
+          "rank": 97,
+          "name": "Car Match - Traffic Puzzle",
+          "publisher": "Grand Games A.Ş.",
+          "category": "Games",
+          "app_id": "6504421808",
+          "url": "https://apps.apple.com/us/app/car-match-traffic-puzzle/id6504421808?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/ec/60/b4ec6047-a192-cf1a-7a5e-f05bc66bcf9c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Discover Car Match! \n\nEmbark on a thrilling journey where every move brings exci"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 38,
+          "name": "Dragonbound: Wings of Magic",
+          "publisher": "Efun Global Company Limited",
+          "category": "Games",
+          "app_id": "6767434212",
+          "url": "https://apps.apple.com/us/app/dragonbound-wings-of-magic/id6767434212?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/24/a1/1f24a12b-6559-d2b6-70a1-28cb04bbd039/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the Dragon Knight Academy, master powerful magic, and hatch a dragon a"
+        },
+        {
+          "rank": 71,
+          "name": "Girls Echo",
+          "publisher": "HOWLYO HONG KONG LIMITED",
+          "category": "Games",
+          "app_id": "6797805969",
+          "url": "https://apps.apple.com/us/app/girls-echo/id6797805969?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6d/50/b3/6d50b3d3-dfd4-2d54-d004-33054cea92b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Two worlds. One fate. A story waiting to be rewritten.\n\nA mysterious catastrophe"
+        },
+        {
+          "rank": 77,
+          "name": "Goods Puzzle: 3D Sorting Games",
+          "publisher": "Guru Smart Holding Limited",
+          "category": "Games",
+          "app_id": "6499306806",
+          "url": "https://apps.apple.com/us/app/goods-puzzle-3d-sorting-games/id6499306806?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/5f/91/dd5f9193-81f1-4bda-93f7-b22663aa552f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready for an exciting matching adventure like never before in Goods Puzzle: "
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 5,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 38,
+          "name": "Dragonbound: Wings of Magic",
+          "publisher": "Efun Global Company Limited",
+          "category": "Games",
+          "app_id": "6767434212",
+          "url": "https://apps.apple.com/us/app/dragonbound-wings-of-magic/id6767434212?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/24/a1/1f24a12b-6559-d2b6-70a1-28cb04bbd039/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the Dragon Knight Academy, master powerful magic, and hatch a dragon a"
+        },
+        {
+          "rank": 71,
+          "name": "Girls Echo",
+          "publisher": "HOWLYO HONG KONG LIMITED",
+          "category": "Games",
+          "app_id": "6797805969",
+          "url": "https://apps.apple.com/us/app/girls-echo/id6797805969?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6d/50/b3/6d50b3d3-dfd4-2d54-d004-33054cea92b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Two worlds. One fate. A story waiting to be rewritten.\n\nA mysterious catastrophe"
+        },
+        {
+          "rank": 77,
+          "name": "Goods Puzzle: 3D Sorting Games",
+          "publisher": "Guru Smart Holding Limited",
+          "category": "Games",
+          "app_id": "6499306806",
+          "url": "https://apps.apple.com/us/app/goods-puzzle-3d-sorting-games/id6499306806?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/5f/91/dd5f9193-81f1-4bda-93f7-b22663aa552f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready for an exciting matching adventure like never before in Goods Puzzle: "
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 34,
+          "name": "饥饿鲨：进化",
+          "publisher": "上海碧汉网络科技有限公司",
+          "category": "游戏",
+          "app_id": "1000619473",
+          "url": "https://apps.apple.com/cn/app/%E9%A5%A5%E9%A5%BF%E9%B2%A8-%E8%BF%9B%E5%8C%96/id1000619473?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/a3/5a/f9a35af1-1cd5-dff9-e4e2-002c201d1c11/AppIcon-1x_U007emarketing-0-8-0-0-85-220-0.png/100x100bb.png",
+          "slogan": "饥饿鲨１０周年庆典！精彩活动，炫酷道具，呆萌鲨鱼强势来袭"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 98,
+          "name": "明日之后",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1435567000",
+          "url": "https://apps.apple.com/cn/app/%E6%98%8E%E6%97%A5%E4%B9%8B%E5%90%8E/id1435567000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/31/e9/1731e9ba-e145-f440-491a-7a579b5543e1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "今天，你将重新审视脚下的每一寸土地。这不是一次更新，而是整个世界被推倒重塑后的再次呼吸。迎接「重生日」，不是旧世界的修补，而是从废墟中新的生长。\n《明日之后》「"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 34,
+          "name": "饥饿鲨：进化",
+          "publisher": "上海碧汉网络科技有限公司",
+          "category": "游戏",
+          "app_id": "1000619473",
+          "url": "https://apps.apple.com/cn/app/%E9%A5%A5%E9%A5%BF%E9%B2%A8-%E8%BF%9B%E5%8C%96/id1000619473?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/a3/5a/f9a35af1-1cd5-dff9-e4e2-002c201d1c11/AppIcon-1x_U007emarketing-0-8-0-0-85-220-0.png/100x100bb.png",
+          "slogan": "饥饿鲨１０周年庆典！精彩活动，炫酷道具，呆萌鲨鱼强势来袭"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 34,
+          "name": "饥饿鲨：进化",
+          "publisher": "上海碧汉网络科技有限公司",
+          "category": "游戏",
+          "app_id": "1000619473",
+          "url": "https://apps.apple.com/cn/app/%E9%A5%A5%E9%A5%BF%E9%B2%A8-%E8%BF%9B%E5%8C%96/id1000619473?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/a3/5a/f9a35af1-1cd5-dff9-e4e2-002c201d1c11/AppIcon-1x_U007emarketing-0-8-0-0-85-220-0.png/100x100bb.png",
+          "slogan": "饥饿鲨１０周年庆典！精彩活动，炫酷道具，呆萌鲨鱼强势来袭"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "ダックサバイバー",
+          "publisher": "Joy Net Games",
+          "category": "ゲーム",
+          "app_id": "6799009278",
+          "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%83%E3%82%AF%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6799009278?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/a3/89/61a3898f-2517-e8c1-4e9b-c92e5ff0c304/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "簡単操作で楽しめるローグライク・シューティング！\n爽快感抜群のタワーディフェンス×サバイバル！\n\n未知のゾンビウイルスが世界を覆い、人類は最後の地下中枢へと追い"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 87,
+          "name": "Screw Match®: ASMR Game",
+          "publisher": "BESTPLAY GAMES PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6503636810",
+          "url": "https://apps.apple.com/jp/app/screw-match-asmr-game/id6503636810?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/9a/c9/639ac972-369e-c4e3-cf63-608cff836e34/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "これはカジュアルな脳トレ戦略ゲームです。ネジのパズルを解いて、プロットのミニゲームをプレイしましょう。今すぐ脳に挑戦しましょう！\n\n遊び方？\nこのレベルの目標は"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 61,
+          "name": "刀剣乱舞ぱずぎり",
+          "publisher": "EXNOA LLC",
+          "category": "ゲーム",
+          "app_id": "6747331078",
+          "url": "https://apps.apple.com/jp/app/%E5%88%80%E5%89%A3%E4%B9%B1%E8%88%9E%E3%81%B1%E3%81%9A%E3%81%8E%E3%82%8A/id6747331078?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/cc/cc/65ccccd8-1b60-803e-0b51-617f6f773a91/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "■なぞって、つなげて、簡単パズル！\n 同じ色の鬼をなぞってつなげると、刀剣男士が一刀両断！\n たくさんつなげるほど攻撃は強力になり、サクッと爽快感を楽しめるパズ"
+        },
+        {
+          "rank": 79,
+          "name": "Search It - Hidden Objects",
+          "publisher": "LEAP BILISIM TEKNOLOJILERI VE YAZILIM TICARET ANONIM SIRKETI",
+          "category": "ゲーム",
+          "app_id": "6756185760",
+          "url": "https://apps.apple.com/jp/app/search-it-hidden-objects/id6756185760?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/cc/5d/80cc5de5-bfc1-dc9b-3107-9fab1203050e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Search It – Hidden Objects は、観察力を試しながらリラックスできるアイテム探しゲームです。美しくデザインされたシーンを探索し、隠された"
+        },
+        {
+          "rank": 81,
+          "name": "Fluffy Drop",
+          "publisher": "UniRise Studio",
+          "category": "ゲーム",
+          "app_id": "6762342518",
+          "url": "https://apps.apple.com/jp/app/fluffy-drop/id6762342518?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/49/ad/1249adde-b4db-d84f-10fb-d95d76f02a27/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fluffy Drop – ふわふわパズルアドベンチャー ひと手ごとに、心がはずむ\n\nふわふわボールを同じ色のエリアに導く、シンプルで奥深いパズルゲーム。\nドラ"
+        },
+        {
+          "rank": 90,
+          "name": "トゥーンブラスト",
+          "publisher": "Peak Games",
+          "category": "ゲーム",
+          "app_id": "1176027022",
+          "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88/id1176027022?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/2a/ca/6a2aca94-240b-0909-0af1-52ab365e4425/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "最高にエキサイティングな爆破パズル、トゥンブラへようこそ！\n\n『Toy Blast』のクリエイターが贈る、ユニークなゲームプレイがいつまでも楽しめる究極パズルゲ"
+        },
+        {
+          "rank": 92,
+          "name": "ナンプレ - 数字パズルゲーム",
+          "publisher": "Easybrain Ltd",
+          "category": "ゲーム",
+          "app_id": "1193508329",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8A%E3%83%B3%E3%83%97%E3%83%AC-%E6%95%B0%E5%AD%97%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id1193508329?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/8a/33/388a338e-41f4-84e8-369b-8a6fdc08e752/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "AppStore から、有数のダウンロード数を誇るナンプレアプリを手に入れて、楽しく脳を鍛えましょう！ナンプレは何百万人という人が毎日プレイしている、老若男女問"
+        },
+        {
+          "rank": 95,
+          "name": "eFootball™",
+          "publisher": "KONAMI",
+          "category": "ゲーム",
+          "app_id": "1117270703",
+          "url": "https://apps.apple.com/jp/app/efootball/id1117270703?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/98/c4/f298c428-1e55-a238-3c3c-a2c59b50523a/PesMobile-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "精細なグラフィックとリアルな操作性の本格サッカーアクションゲーム。\n世界中のクラブ・代表チームの現役選手やレジェンドを獲得・育成し、自由に編成したあなただけのチ"
+        },
+        {
+          "rank": 99,
+          "name": "Family Farm Merge",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6760998152",
+          "url": "https://apps.apple.com/jp/app/family-farm-merge/id6760998152?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/62/78/b36278d6-8dbd-f0ed-15a7-4b6722c95e85/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Family Farm Merge：自然へと戻るマージの冒険！\n\n『Family Farm Merge』へようこそ。これは、名作『Family Farm』シリー"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "ダックサバイバー",
+          "publisher": "Joy Net Games",
+          "category": "ゲーム",
+          "app_id": "6799009278",
+          "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%83%E3%82%AF%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6799009278?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/a3/89/61a3898f-2517-e8c1-4e9b-c92e5ff0c304/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "簡単操作で楽しめるローグライク・シューティング！\n爽快感抜群のタワーディフェンス×サバイバル！\n\n未知のゾンビウイルスが世界を覆い、人類は最後の地下中枢へと追い"
+        },
+        {
+          "rank": 87,
+          "name": "Screw Match®: ASMR Game",
+          "publisher": "BESTPLAY GAMES PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6503636810",
+          "url": "https://apps.apple.com/jp/app/screw-match-asmr-game/id6503636810?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/9a/c9/639ac972-369e-c4e3-cf63-608cff836e34/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "これはカジュアルな脳トレ戦略ゲームです。ネジのパズルを解いて、プロットのミニゲームをプレイしましょう。今すぐ脳に挑戦しましょう！\n\n遊び方？\nこのレベルの目標は"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 7,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "ダックサバイバー",
+          "publisher": "Joy Net Games",
+          "category": "ゲーム",
+          "app_id": "6799009278",
+          "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%83%E3%82%AF%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6799009278?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/a3/89/61a3898f-2517-e8c1-4e9b-c92e5ff0c304/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "簡単操作で楽しめるローグライク・シューティング！\n爽快感抜群のタワーディフェンス×サバイバル！\n\n未知のゾンビウイルスが世界を覆い、人類は最後の地下中枢へと追い"
+        },
+        {
+          "rank": 87,
+          "name": "Screw Match®: ASMR Game",
+          "publisher": "BESTPLAY GAMES PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6503636810",
+          "url": "https://apps.apple.com/jp/app/screw-match-asmr-game/id6503636810?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/9a/c9/639ac972-369e-c4e3-cf63-608cff836e34/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "これはカジュアルな脳トレ戦略ゲームです。ネジのパズルを解いて、プロットのミニゲームをプレイしましょう。今すぐ脳に挑戦しましょう！\n\n遊び方？\nこのレベルの目標は"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 90,
+          "name": "Tap Drive：Traffic Rush",
+          "publisher": "RECETE ART INC.",
+          "category": "Games",
+          "package": "com.rushhour.tapdd"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 31,
+          "name": "Sand Blocks: Drop Puzzle",
+          "publisher": "Rollic Games",
+          "category": "Games",
+          "package": "com.uncosoft.wordpuzzle"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 94,
+          "name": "Spades - Classic Cards",
+          "publisher": "Tripledot Studios Limited",
+          "category": "Games",
+          "package": "com.tripledot.spades"
+        },
+        {
+          "rank": 99,
+          "name": "Hole Stars: Puzzle Game",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "package": "com.moonactive.holestars"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 90,
+          "name": "Tap Drive：Traffic Rush",
+          "publisher": "RECETE ART INC.",
+          "category": "Games",
+          "package": "com.rushhour.tapdd"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 31,
+          "name": "Sand Blocks: Drop Puzzle",
+          "publisher": "Rollic Games",
+          "category": "Games",
+          "package": "com.uncosoft.wordpuzzle"
+        },
+        {
+          "rank": 90,
+          "name": "Tap Drive：Traffic Rush",
+          "publisher": "RECETE ART INC.",
+          "category": "Games",
+          "package": "com.rushhour.tapdd"
+        }
+      ]
+    }
+  }
+}
