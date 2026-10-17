@@ -1,0 +1,723 @@
+{
+  "date": "2026-10-17",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 12,
+          "name": "指尖快消",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 8名",
+          "publisher": "消除",
+          "change": "厦门营火科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "指尖闯关大挑战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "益智",
+          "change": "广州格子游戏科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "解压打毛线",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 14名",
+          "publisher": "益智",
+          "change": "广州池骋网络科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "贪吃蛇大作战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 15名",
+          "publisher": "益智",
+          "change": "+2",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 12,
+          "name": "指尖快消",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 8名",
+          "publisher": "消除",
+          "change": "厦门营火科技有限公司",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "跃动小子",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 10名",
+          "publisher": "益智",
+          "change": "波克科技集团有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "肥鹅美食街",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 12名",
+          "publisher": "模拟经营",
+          "change": "北京豪腾创想科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "精英军团",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "竞技 · 2名",
+          "publisher": "塔防",
+          "change": "杭州叙炽网络科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "对峙：交锋时刻",
+          "publisher": "梧桐",
+          "category": "射击",
+          "subcategory": "FPS、竞技、动作"
+        },
+        {
+          "rank": 10,
+          "name": "小苔屋",
+          "publisher": "猫猫世纪工作室",
+          "category": "休闲"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 56,
+          "name": "Stake US - Casino & Slots",
+          "publisher": "Sweepsteaks Limited",
+          "category": "Games",
+          "app_id": "6738114176",
+          "url": "https://apps.apple.com/us/app/stake-us-casino-slots/id6738114176?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/97/77/879777ba-4b01-e114-a609-f9204329594e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Stake.us brings you the excitement of a true casino experience with a unique swe"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 98,
+          "name": "Bulldozer Master: Crush & Mine",
+          "publisher": "Supercent, Inc.",
+          "category": "Games",
+          "app_id": "6747710694",
+          "url": "https://apps.apple.com/us/app/bulldozer-master-crush-mine/id6747710694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/16/21/d81621aa-0c21-5cfc-3b60-595fde8c60d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get behind the wheel of powerful bulldozers, grab your pickaxe, and dig your way"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "9 Kings",
+          "publisher": "Playdigious",
+          "category": "Games",
+          "app_id": "6757860952",
+          "url": "https://apps.apple.com/us/app/9-kings/id6757860952?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/67/75/14677591-4fc6-fcb4-83f7-a09a3a0f6457/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "*Try 9 Kings for free and buy the full game to unlock all Kings, new quests, mul"
+        },
+        {
+          "rank": 66,
+          "name": "Imposter Game - Party Edition",
+          "publisher": "Sven Vucak",
+          "category": "Games",
+          "app_id": "6745120053",
+          "url": "https://apps.apple.com/us/app/imposter-game-party-edition/id6745120053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/69/e0/1069e0bd-1564-9f77-7ea4-a8072e6e90ff/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.png",
+          "slogan": "Are you the imposter - or will you expose them?\n\nImposter is the perfect game fo"
+        },
+        {
+          "rank": 79,
+          "name": "Geometry Dash Lite",
+          "publisher": "RobTop Games AB",
+          "category": "Games",
+          "app_id": "698255242",
+          "url": "https://apps.apple.com/us/app/geometry-dash-lite/id698255242?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/08/7f/2a087f71-90d8-b8a0-7f4d-97a0c35e2194/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "Jump and fly your way through danger in this rhythm-based action platformer!\n\n\"F"
+        },
+        {
+          "rank": 80,
+          "name": "Charades - Family & Party Game",
+          "publisher": "Dmytro Cheverda",
+          "category": "Games",
+          "app_id": "1453837845",
+          "url": "https://apps.apple.com/us/app/charades-family-party-game/id1453837845?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/79/23/aa7923e9-8abb-1801-3c00-69f3f84a08e9/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+          "slogan": "Fun and easy to play game will cheer up your party or family gathering.\n\nGuess t"
+        },
+        {
+          "rank": 85,
+          "name": "Pokémon GO",
+          "publisher": "Scopely Explore, Inc.",
+          "category": "Games",
+          "app_id": "1094591345",
+          "url": "https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/f4/a8/43f4a876-bd4f-f5ca-4167-38abafd00f96/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Join Trainers across the globe who are discovering Pokémon as they explore the w"
+        },
+        {
+          "rank": 87,
+          "name": "Clash Royale",
+          "publisher": "Supercell",
+          "category": "Games",
+          "app_id": "1053012308",
+          "url": "https://apps.apple.com/us/app/clash-royale/id1053012308?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/dd/c2/e1ddc25b-e234-42ac-7748-1c663d309cf9/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "Enter the Arena! Build your Battle Deck and outsmart the enemy in fast real-time"
+        },
+        {
+          "rank": 93,
+          "name": "Hole.io - Original Hole Game",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "1389111413",
+          "url": "https://apps.apple.com/us/app/hole-io-original-hole-game/id1389111413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/60/fb/6c60fbb8-9526-679d-6216-8a332cf61c90/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Hole.io, the wildly satisfying eat-the-world game played by millions!"
+        },
+        {
+          "rank": 94,
+          "name": "EA SPORTS FC Soccer Mobile 27",
+          "publisher": "Electronic Arts",
+          "category": "Games",
+          "app_id": "1094930513",
+          "url": "https://apps.apple.com/us/app/ea-sports-fc-soccer-mobile-27/id1094930513?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/d1/84/41d18457-ec03-6812-f0a7-8a83686c6009/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This game includes optional in-game purchases of virtual currency that can be us"
+        },
+        {
+          "rank": 100,
+          "name": "Royal Cooking",
+          "publisher": "Matryoshka Games (CY) LTD",
+          "category": "Games",
+          "app_id": "1664415775",
+          "url": "https://apps.apple.com/us/app/royal-cooking/id1664415775?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/d4/79/a5d479ee-8981-9b0c-2fd7-adbab2f157e7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Royal Cooking — an exciting game where you’ll create the finest meals"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 56,
+          "name": "Stake US - Casino & Slots",
+          "publisher": "Sweepsteaks Limited",
+          "category": "Games",
+          "app_id": "6738114176",
+          "url": "https://apps.apple.com/us/app/stake-us-casino-slots/id6738114176?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/97/77/879777ba-4b01-e114-a609-f9204329594e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Stake.us brings you the excitement of a true casino experience with a unique swe"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 9,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 56,
+          "name": "Stake US - Casino & Slots",
+          "publisher": "Sweepsteaks Limited",
+          "category": "Games",
+          "app_id": "6738114176",
+          "url": "https://apps.apple.com/us/app/stake-us-casino-slots/id6738114176?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/97/77/879777ba-4b01-e114-a609-f9204329594e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Stake.us brings you the excitement of a true casino experience with a unique swe"
+        },
+        {
+          "rank": 98,
+          "name": "Bulldozer Master: Crush & Mine",
+          "publisher": "Supercent, Inc.",
+          "category": "Games",
+          "app_id": "6747710694",
+          "url": "https://apps.apple.com/us/app/bulldozer-master-crush-mine/id6747710694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/16/21/d81621aa-0c21-5cfc-3b60-595fde8c60d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get behind the wheel of powerful bulldozers, grab your pickaxe, and dig your way"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 54,
+          "name": "霸海争锋",
+          "publisher": "ALLBY MUSIC GAME",
+          "category": "游戏",
+          "app_id": "6799914102",
+          "url": "https://apps.apple.com/cn/app/%E9%9C%B8%E6%B5%B7%E4%BA%89%E9%94%8B/id6799914102?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/d9/b9/e2d9b91b-4841-5fd7-2f24-d1ac8debcebb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "风暴正在改变海域，未知岛屿与敌对舰队阻挡着远征之路。你将组建英雄小队、培养同行宠物、强化盟约宝石，并在主线与支线关卡中探索风暴深处的秘密。\n战斗中，每个回合都会"
+        },
+        {
+          "rank": 97,
+          "name": "火炬之光：无限",
+          "publisher": "X.D. Network Inc.",
+          "category": "游戏",
+          "app_id": "1528917194",
+          "url": "https://apps.apple.com/cn/app/%E7%81%AB%E7%82%AC%E4%B9%8B%E5%85%89-%E6%97%A0%E9%99%90/id1528917194?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/05/4b/bf054b45-2343-deea-0a38-c21ed8ed138f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "大家好，我们是心动《火炬之光：无限》的研发运营团队。很荣幸能够开发这款真正意义上的“火炬之光”系列新作品，它将是一款纯正的刷宝ARPG。在这里你可以自由选择各种"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 67,
+          "name": "迷你枪战精英",
+          "publisher": "Hainan Mengxing Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "1551614000",
+          "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E6%9E%AA%E6%88%98%E7%B2%BE%E8%8B%B1/id1551614000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/c5/f3/20c5f3ba-6c83-5c95-a1c3-51b5f60ddac9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《迷你枪战精英》是迷你世界IP矩阵下全新推出的一款射击手游。明亮清新的Q版画风，紧张刺激的团队对抗，提供不同以往的 游戏体验。游戏内小艾、幻音、幻-零式、华乐等"
+        },
+        {
+          "rank": 79,
+          "name": "潮汐守望者",
+          "publisher": "Moonton Games",
+          "category": "游戏",
+          "app_id": "6484164228",
+          "url": "https://apps.apple.com/cn/app/%E6%BD%AE%E6%B1%90%E5%AE%88%E6%9C%9B%E8%80%85/id6484164228?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/25/81/4d258172-02fc-b388-b89f-4bacbde42544/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「策略不将就，谁玩谁上头」\n塔防策略革新者《潮汐守望者》——抛开简单呆板的合成消除，感受耐玩上头的塔防策略。\n你将扮演泰亚大陆的指挥官，在原汁原味的写实西幻世界"
+        },
+        {
+          "rank": 96,
+          "name": "明日方舟：终末地",
+          "publisher": "Shanghai Hypergryph Talos Network Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6753859465",
+          "url": "https://apps.apple.com/cn/app/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F-%E7%BB%88%E6%9C%AB%E5%9C%B0/id6753859465?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/73/70/7f7370d4-6f46-19fe-0941-b24e9713f5e2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《明日方舟：终末地》是一款由鹰角网络自研的3D即时策略RPG，玩家将作为终末地工业的管理员，逐步探索塔卫二，揭开属于这颗星球的秘密，保卫和拓展人类文明的边疆。\n"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 54,
+          "name": "霸海争锋",
+          "publisher": "ALLBY MUSIC GAME",
+          "category": "游戏",
+          "app_id": "6799914102",
+          "url": "https://apps.apple.com/cn/app/%E9%9C%B8%E6%B5%B7%E4%BA%89%E9%94%8B/id6799914102?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/d9/b9/e2d9b91b-4841-5fd7-2f24-d1ac8debcebb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "风暴正在改变海域，未知岛屿与敌对舰队阻挡着远征之路。你将组建英雄小队、培养同行宠物、强化盟约宝石，并在主线与支线关卡中探索风暴深处的秘密。\n战斗中，每个回合都会"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 54,
+          "name": "霸海争锋",
+          "publisher": "ALLBY MUSIC GAME",
+          "category": "游戏",
+          "app_id": "6799914102",
+          "url": "https://apps.apple.com/cn/app/%E9%9C%B8%E6%B5%B7%E4%BA%89%E9%94%8B/id6799914102?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/d9/b9/e2d9b91b-4841-5fd7-2f24-d1ac8debcebb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "风暴正在改变海域，未知岛屿与敌对舰队阻挡着远征之路。你将组建英雄小队、培养同行宠物、强化盟约宝石，并在主线与支线关卡中探索风暴深处的秘密。\n战斗中，每个回合都会"
+        },
+        {
+          "rank": 97,
+          "name": "火炬之光：无限",
+          "publisher": "X.D. Network Inc.",
+          "category": "游戏",
+          "app_id": "1528917194",
+          "url": "https://apps.apple.com/cn/app/%E7%81%AB%E7%82%AC%E4%B9%8B%E5%85%89-%E6%97%A0%E9%99%90/id1528917194?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/05/4b/bf054b45-2343-deea-0a38-c21ed8ed138f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "大家好，我们是心动《火炬之光：无限》的研发运营团队。很荣幸能够开发这款真正意义上的“火炬之光”系列新作品，它将是一款纯正的刷宝ARPG。在这里你可以自由选择各种"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 71,
+          "name": "BRAVE FRONTIER LEGION",
+          "publisher": "株式会社 GrandSoft",
+          "category": "ゲーム",
+          "app_id": "6744011639",
+          "url": "https://apps.apple.com/jp/app/brave-frontier-legion/id6744011639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/72/c4/be72c4ea-65a8-2a7b-ab4c-17e9e05f8dee/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "BRAVE FRONTIER LEGION 1周年!!\nレギオンバトルに参加で最大1000連召喚プレゼント中!!\n\nその力は、古より伝わる召喚の術。\n異界に眠る"
+        },
+        {
+          "rank": 76,
+          "name": "Brain Puzzle: Tricky Quest",
+          "publisher": "SmallStep Dev Team",
+          "category": "ゲーム",
+          "app_id": "6670789598",
+          "url": "https://apps.apple.com/jp/app/brain-puzzle-tricky-quest/id6670789598?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/f6/b8/aff6b8aa-595c-5d88-4568-2896fa2a5e4d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Congratulations on discovering a highly funny story game that will take you on a"
+        },
+        {
+          "rank": 83,
+          "name": "GiGO ONLINE CRANE -おトクなクレーンゲーム",
+          "publisher": "GENDA GiGO Entertainment Inc.",
+          "category": "ゲーム",
+          "app_id": "1296722934",
+          "url": "https://apps.apple.com/jp/app/gigo-online-crane-%E3%81%8A%E3%83%88%E3%82%AF%E3%81%AA%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id1296722934?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/14/97/e3149703-ae45-8606-950f-a795094db7e3/AppIcon_Product-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "本物のクレーンゲームをスマホで遠隔操作、獲った景品は自宅にお届け！\nちょっと暇な時間に楽しみながら景品もGETできて、毎日がもっと楽しくなる！\n【今なら新規登録"
+        },
+        {
+          "rank": 90,
+          "name": "ことば橋 - 言葉で橋をかける",
+          "publisher": "CURRY CROQUETTE",
+          "category": "ゲーム",
+          "app_id": "6821785946",
+          "url": "https://apps.apple.com/jp/app/%E3%81%93%E3%81%A8%E3%81%B0%E6%A9%8B-%E8%A8%80%E8%91%89%E3%81%A7%E6%A9%8B%E3%82%92%E3%81%8B%E3%81%91%E3%82%8B/id6821785946?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/80/85/518085c6-61fb-2730-7aa1-f6602e2e970f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "入れた言葉が、そのまま橋になる。\n\n言葉を入れると、その字が谷に並んで橋になります。字の形しだいで、橋は強くも弱くもなります。車を全部渡せる言葉を探す、物理パズ"
+        },
+        {
+          "rank": 93,
+          "name": "Detective Difference: 楽しむ間違い探し",
+          "publisher": "LONGSEA LINK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6738576262",
+          "url": "https://apps.apple.com/jp/app/detective-difference-%E6%A5%BD%E3%81%97%E3%82%80%E9%96%93%E9%81%95%E3%81%84%E6%8E%A2%E3%81%97/id6738576262?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/4e/c6/054ec6cf-a4ae-e68c-5cde-56883961db15/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Detective Difference: Spot Fun - いつでもどこでも目を鍛えて頭をテストしよう！違いを見つける楽しさを体験しよう！隠れた違いの世界"
+        },
+        {
+          "rank": 95,
+          "name": "Bulldozer Master: 壊して採掘",
+          "publisher": "Supercent, Inc.",
+          "category": "ゲーム",
+          "app_id": "6747710694",
+          "url": "https://apps.apple.com/jp/app/bulldozer-master-%E5%A3%8A%E3%81%97%E3%81%A6%E6%8E%A1%E6%8E%98/id6747710694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/16/21/d81621aa-0c21-5cfc-3b60-595fde8c60d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "強力なブルドーザーのハンドルを握り、ツルハシを手に取り、採掘帝国へと掘り進もう！\nBulldozer Masterでは、豊かな採掘ゾーンを探索し、鉱石を砕き、希"
+        },
+        {
+          "rank": 98,
+          "name": "80億分の1 - 人生シミュレーター",
+          "publisher": "HAYO (Apps)",
+          "category": "ゲーム",
+          "app_id": "6821576483",
+          "url": "https://apps.apple.com/jp/app/80%E5%84%84%E5%88%86%E3%81%AE1-%E4%BA%BA%E7%94%9F%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/id6821576483?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/9c/f3/129cf368-2821-04b9-982b-300518d20da9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "80億人のうち、今度はどんな人生を生きますか。\n\n80億分の1は、誕生から最後の思い出までをたどるオフラインの人生カードゲームです。小さな選択が健康、幸福、人間"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 65,
+          "name": "ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG",
+          "publisher": "SQUARE ENIX",
+          "category": "ゲーム",
+          "app_id": "6747736697",
+          "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%B9%E3%83%9E%E3%83%83%E3%82%B7%E3%83%A5%E3%82%B0%E3%83%AD%E3%82%A6-%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A8%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%88rpg/id6747736697?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/6b/fb/476bfbf3-bdb2-930d-1af9-b933d0c5c5a5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ドラゴンクエスト×直感＆爽快フィールドバトル！\n\nローグライトRPGで始まる新たなる冒険の旅へ\n\n直感操作でモンスターの群れを斬ってかわして、必殺技で一気に吹き"
+        },
+        {
+          "rank": 68,
+          "name": "にゃんこレスキュー！矢印パズル",
+          "publisher": "Nanali Inc.",
+          "category": "ゲーム",
+          "app_id": "6761253603",
+          "url": "https://apps.apple.com/jp/app/%E3%81%AB%E3%82%83%E3%82%93%E3%81%93%E3%83%AC%E3%82%B9%E3%82%AD%E3%83%A5%E3%83%BC-%E7%9F%A2%E5%8D%B0%E3%83%91%E3%82%BA%E3%83%AB/id6761253603?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/f6/f8/02f6f8af-bc46-0c57-2184-ad6cf7416680/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "矢印パズルを解いて、猫を救い出そう\n\n癒しの猫の村へようこそ。からまった矢印をほどいて、ツルに捕らわれた猫たちを救い出してください。静かだった村が、ゴロゴロとの"
+        },
+        {
+          "rank": 78,
+          "name": "にゃんこ大戦争",
+          "publisher": "ponos corporation",
+          "category": "ゲーム",
+          "app_id": "547145938",
+          "url": "https://apps.apple.com/jp/app/%E3%81%AB%E3%82%83%E3%82%93%E3%81%93%E5%A4%A7%E6%88%A6%E4%BA%89/id547145938?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/56/c2/fa56c217-a1cf-16aa-61cb-9a4dd79b4862/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "にゃんこ大戦争は全世界累計1億2000万DL達成！\n世界中で大人気！ 誰でもお手軽プレイ!!\nにゃんこバトルゲーム!!\n「キモかわにゃんこ」が日本を、未来を、\n"
+        },
+        {
+          "rank": 94,
+          "name": "XP Hero(ヒーロー)): まずは世界観をのぞいてみて",
+          "publisher": "Supercent, Inc.",
+          "category": "ゲーム",
+          "app_id": "6740618570",
+          "url": "https://apps.apple.com/jp/app/xp-hero-%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC-%E3%81%BE%E3%81%9A%E3%81%AF%E4%B8%96%E7%95%8C%E8%A6%B3%E3%82%92%E3%81%AE%E3%81%9E%E3%81%84%E3%81%A6%E3%81%BF%E3%81%A6/id6740618570?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/2a/09/be2a0986-ff23-3f44-9b73-1faf889d7a61/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "混沌の中で生き残り、究極のヒーローになる準備はできていますか？\n\nモンスター、闇、そして絶え間ない危険に満ちた神秘的な世界が『XP Hero』であなたを待ってい"
+        },
+        {
+          "rank": 100,
+          "name": "魔法のタイルズ 3™: 音ゲー ピアノタイル",
+          "publisher": "Amanotes Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "1443446174",
+          "url": "https://apps.apple.com/jp/app/%E9%AD%94%E6%B3%95%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%BA-3-%E9%9F%B3%E3%82%B2%E3%83%BC-%E3%83%94%E3%82%A2%E3%83%8E%E3%82%BF%E3%82%A4%E3%83%AB/id1443446174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/b0/8c/f0b08c90-0fc9-8ed9-2349-d17aeba3c605/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一年で一番大切な瞬間を、リズムにのって楽しみましょう！ヒット曲のビートで、魂ごとを音楽にのせていきましょう。\n\n\nMagic Tiles 3では、ポップス、ラッ"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 71,
+          "name": "BRAVE FRONTIER LEGION",
+          "publisher": "株式会社 GrandSoft",
+          "category": "ゲーム",
+          "app_id": "6744011639",
+          "url": "https://apps.apple.com/jp/app/brave-frontier-legion/id6744011639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/72/c4/be72c4ea-65a8-2a7b-ab4c-17e9e05f8dee/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "BRAVE FRONTIER LEGION 1周年!!\nレギオンバトルに参加で最大1000連召喚プレゼント中!!\n\nその力は、古より伝わる召喚の術。\n異界に眠る"
+        },
+        {
+          "rank": 83,
+          "name": "GiGO ONLINE CRANE -おトクなクレーンゲーム",
+          "publisher": "GENDA GiGO Entertainment Inc.",
+          "category": "ゲーム",
+          "app_id": "1296722934",
+          "url": "https://apps.apple.com/jp/app/gigo-online-crane-%E3%81%8A%E3%83%88%E3%82%AF%E3%81%AA%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id1296722934?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/14/97/e3149703-ae45-8606-950f-a795094db7e3/AppIcon_Product-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "本物のクレーンゲームをスマホで遠隔操作、獲った景品は自宅にお届け！\nちょっと暇な時間に楽しみながら景品もGETできて、毎日がもっと楽しくなる！\n【今なら新規登録"
+        },
+        {
+          "rank": 90,
+          "name": "ことば橋 - 言葉で橋をかける",
+          "publisher": "CURRY CROQUETTE",
+          "category": "ゲーム",
+          "app_id": "6821785946",
+          "url": "https://apps.apple.com/jp/app/%E3%81%93%E3%81%A8%E3%81%B0%E6%A9%8B-%E8%A8%80%E8%91%89%E3%81%A7%E6%A9%8B%E3%82%92%E3%81%8B%E3%81%91%E3%82%8B/id6821785946?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/80/85/518085c6-61fb-2730-7aa1-f6602e2e970f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "入れた言葉が、そのまま橋になる。\n\n言葉を入れると、その字が谷に並んで橋になります。字の形しだいで、橋は強くも弱くもなります。車を全部渡せる言葉を探す、物理パズ"
+        },
+        {
+          "rank": 98,
+          "name": "80億分の1 - 人生シミュレーター",
+          "publisher": "HAYO (Apps)",
+          "category": "ゲーム",
+          "app_id": "6821576483",
+          "url": "https://apps.apple.com/jp/app/80%E5%84%84%E5%88%86%E3%81%AE1-%E4%BA%BA%E7%94%9F%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/id6821576483?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/9c/f3/129cf368-2821-04b9-982b-300518d20da9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "80億人のうち、今度はどんな人生を生きますか。\n\n80億分の1は、誕生から最後の思い出までをたどるオフラインの人生カードゲームです。小さな選択が健康、幸福、人間"
+        }
+      ],
+      "totals": {
+        "new_to_board": 7,
+        "returning": 5,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 71,
+          "name": "BRAVE FRONTIER LEGION",
+          "publisher": "株式会社 GrandSoft",
+          "category": "ゲーム",
+          "app_id": "6744011639",
+          "url": "https://apps.apple.com/jp/app/brave-frontier-legion/id6744011639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/72/c4/be72c4ea-65a8-2a7b-ab4c-17e9e05f8dee/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "BRAVE FRONTIER LEGION 1周年!!\nレギオンバトルに参加で最大1000連召喚プレゼント中!!\n\nその力は、古より伝わる召喚の術。\n異界に眠る"
+        },
+        {
+          "rank": 76,
+          "name": "Brain Puzzle: Tricky Quest",
+          "publisher": "SmallStep Dev Team",
+          "category": "ゲーム",
+          "app_id": "6670789598",
+          "url": "https://apps.apple.com/jp/app/brain-puzzle-tricky-quest/id6670789598?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/f6/b8/aff6b8aa-595c-5d88-4568-2896fa2a5e4d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Congratulations on discovering a highly funny story game that will take you on a"
+        },
+        {
+          "rank": 83,
+          "name": "GiGO ONLINE CRANE -おトクなクレーンゲーム",
+          "publisher": "GENDA GiGO Entertainment Inc.",
+          "category": "ゲーム",
+          "app_id": "1296722934",
+          "url": "https://apps.apple.com/jp/app/gigo-online-crane-%E3%81%8A%E3%83%88%E3%82%AF%E3%81%AA%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id1296722934?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/14/97/e3149703-ae45-8606-950f-a795094db7e3/AppIcon_Product-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "本物のクレーンゲームをスマホで遠隔操作、獲った景品は自宅にお届け！\nちょっと暇な時間に楽しみながら景品もGETできて、毎日がもっと楽しくなる！\n【今なら新規登録"
+        },
+        {
+          "rank": 90,
+          "name": "ことば橋 - 言葉で橋をかける",
+          "publisher": "CURRY CROQUETTE",
+          "category": "ゲーム",
+          "app_id": "6821785946",
+          "url": "https://apps.apple.com/jp/app/%E3%81%93%E3%81%A8%E3%81%B0%E6%A9%8B-%E8%A8%80%E8%91%89%E3%81%A7%E6%A9%8B%E3%82%92%E3%81%8B%E3%81%91%E3%82%8B/id6821785946?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/80/85/518085c6-61fb-2730-7aa1-f6602e2e970f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "入れた言葉が、そのまま橋になる。\n\n言葉を入れると、その字が谷に並んで橋になります。字の形しだいで、橋は強くも弱くもなります。車を全部渡せる言葉を探す、物理パズ"
+        },
+        {
+          "rank": 93,
+          "name": "Detective Difference: 楽しむ間違い探し",
+          "publisher": "LONGSEA LINK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6738576262",
+          "url": "https://apps.apple.com/jp/app/detective-difference-%E6%A5%BD%E3%81%97%E3%82%80%E9%96%93%E9%81%95%E3%81%84%E6%8E%A2%E3%81%97/id6738576262?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/4e/c6/054ec6cf-a4ae-e68c-5cde-56883961db15/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Detective Difference: Spot Fun - いつでもどこでも目を鍛えて頭をテストしよう！違いを見つける楽しさを体験しよう！隠れた違いの世界"
+        },
+        {
+          "rank": 95,
+          "name": "Bulldozer Master: 壊して採掘",
+          "publisher": "Supercent, Inc.",
+          "category": "ゲーム",
+          "app_id": "6747710694",
+          "url": "https://apps.apple.com/jp/app/bulldozer-master-%E5%A3%8A%E3%81%97%E3%81%A6%E6%8E%A1%E6%8E%98/id6747710694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/16/21/d81621aa-0c21-5cfc-3b60-595fde8c60d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "強力なブルドーザーのハンドルを握り、ツルハシを手に取り、採掘帝国へと掘り進もう！\nBulldozer Masterでは、豊かな採掘ゾーンを探索し、鉱石を砕き、希"
+        },
+        {
+          "rank": 98,
+          "name": "80億分の1 - 人生シミュレーター",
+          "publisher": "HAYO (Apps)",
+          "category": "ゲーム",
+          "app_id": "6821576483",
+          "url": "https://apps.apple.com/jp/app/80%E5%84%84%E5%88%86%E3%81%AE1-%E4%BA%BA%E7%94%9F%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/id6821576483?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/9c/f3/129cf368-2821-04b9-982b-300518d20da9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "80億人のうち、今度はどんな人生を生きますか。\n\n80億分の1は、誕生から最後の思い出までをたどるオフラインの人生カードゲームです。小さな選択が健康、幸福、人間"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 75,
+          "name": "Tile Explorer - Triple Match",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "package": "com.oakever.tiletrip"
+        },
+        {
+          "rank": 91,
+          "name": "Pokémon GO",
+          "publisher": "Scopely Explore, Inc.",
+          "category": "Games",
+          "package": "com.nianticlabs.pokemongo"
+        },
+        {
+          "rank": 92,
+          "name": "Lordrush",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "Games",
+          "package": "com.s01.global"
+        },
+        {
+          "rank": 98,
+          "name": "Zoodoku: Brain Puzzle Games",
+          "publisher": "Nebula  Studio",
+          "category": "Games",
+          "package": "com.nebula.zoodoku"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
