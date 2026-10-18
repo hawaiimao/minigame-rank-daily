@@ -1,0 +1,691 @@
+{
+  "date": "2026-10-18",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 16,
+          "name": "眼神儿挺好",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "消除",
+          "change": "--",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "巴掌擂台对决",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 15名",
+          "publisher": "益智",
+          "change": "--",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 7,
+          "name": "躺平发育",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 6名",
+          "publisher": "塔防",
+          "change": "北京蜜獾工坊娱乐文化有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 11,
+          "name": "模拟城市：我是市长",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "其他 · 1名",
+          "publisher": "其他",
+          "change": "北京北纬通信科技股份有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "疯狂水世界",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 12名",
+          "publisher": "模拟经营",
+          "change": "益世界网络科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 16,
+          "name": "眼神儿挺好",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "消除",
+          "change": "--",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "巴掌擂台对决",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 15名",
+          "publisher": "益智",
+          "change": "--",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 11,
+          "name": "永夜起源",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 2名",
+          "publisher": "卡牌",
+          "change": "广州招崭信息科技有限公司",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 14,
+          "name": "下方了",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 8名",
+          "publisher": "塔防",
+          "change": "深圳飞鱼星空科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "奔奔王国",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "竞技 · 3名",
+          "publisher": "对战",
+          "change": "福州点点松云网络有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "原始征途",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 5名",
+          "publisher": "MMO",
+          "change": "巨人网络集团股份有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "救救我鸭",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 18名",
+          "publisher": "益智",
+          "change": "北京起跃文化有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "无限大",
+          "publisher": "网易游戏",
+          "category": "开放世界",
+          "subcategory": "角色扮演、高自由度、都市、二次元、动作、高画质、3D"
+        },
+        {
+          "rank": 10,
+          "name": "蓝色星原：旅谣",
+          "publisher": "蛮奈网络",
+          "category": "角色扮演",
+          "subcategory": "二次元、开放世界、冒险、动作、养成、收集"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 84,
+          "name": "Exposed - Who's Most Likely To",
+          "publisher": "vysgames",
+          "category": "Games",
+          "app_id": "1553777064",
+          "url": "https://apps.apple.com/us/app/exposed-whos-most-likely-to/id1553777064?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/05/d0/1e05d00a-12b8-03fb-11fc-457c119243ac/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Exposed is the party game that finds out who in your group is the most likely to"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 45,
+          "name": "Charades Guess Game · Guessly",
+          "publisher": "smak apps",
+          "category": "Games",
+          "app_id": "6473058122",
+          "url": "https://apps.apple.com/us/app/charades-guess-game-guessly/id6473058122?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/0b/7a/7a0b7a5e-d03c-e9cb-d787-35d113196899/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.jpeg/100x100bb.png",
+          "slogan": "Ready to turn ordinary hangouts into unforgettable moments? Meet Guessly — a cha"
+        },
+        {
+          "rank": 72,
+          "name": "Aquapark.io",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "1453989822",
+          "url": "https://apps.apple.com/us/app/aquapark-io/id1453989822?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/95/d2/af95d245-e2c1-8960-6ec6-8281ebe54274/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Reach to the end of the water slide, try to be the first. Bump other players dur"
+        },
+        {
+          "rank": 85,
+          "name": "Police Chief",
+          "publisher": "VoyagerOne",
+          "category": "Games",
+          "app_id": "6757350661",
+          "url": "https://apps.apple.com/us/app/police-chief/id6757350661?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/45/70/77457063-ee4f-6243-695a-a41d44f4a964/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "The world is shrouded in crime. Cities teem with gangs, smuggling rings, and ass"
+        },
+        {
+          "rank": 88,
+          "name": "Shoot & Hide",
+          "publisher": "Crazy Labs",
+          "category": "Games",
+          "app_id": "6747033069",
+          "url": "https://apps.apple.com/us/app/shoot-hide/id6747033069?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/a9/71/23a97182-d3b0-d9f3-7ec7-22ba2c23db4f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Test your timing and reflexes in a fast, satisfying game of risk and precision. "
+        },
+        {
+          "rank": 89,
+          "name": "Brain Puzzle 2: Logic Twist",
+          "publisher": "SmallStep Dev Team",
+          "category": "Games",
+          "app_id": "6747063674",
+          "url": "https://apps.apple.com/us/app/brain-puzzle-2-logic-twist/id6747063674?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/47/c4/3e47c40d-ac93-a88f-6f9e-90dc94aec2a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This time, we’re continuing the humorous storytelling and brain-teasing design o"
+        },
+        {
+          "rank": 91,
+          "name": "2 Player Games : Offline Games",
+          "publisher": "Moreno Maio",
+          "category": "Games",
+          "app_id": "1465731199",
+          "url": "https://apps.apple.com/us/app/2-player-games-offline-games/id1465731199?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7c/14/c1/7c14c1e3-502e-ed28-e663-1d42507eabfb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "If you want to play with your friend on the same device, this is the right game!"
+        },
+        {
+          "rank": 93,
+          "name": "Headbands: Charades Party Game",
+          "publisher": "DKraft Studio s.r.o.",
+          "category": "Games",
+          "app_id": "1424246763",
+          "url": "https://apps.apple.com/us/app/headbands-charades-party-game/id1424246763?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/1b/75/381b752b-235a-6659-417f-f57c2d6a8b6b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "Headbands is the charades party game that turns any get-together into a comedy s"
+        },
+        {
+          "rank": 97,
+          "name": "Brain Test: Tricky Puzzles",
+          "publisher": "UNICO STUDIO",
+          "category": "Games",
+          "app_id": "1486214495",
+          "url": "https://apps.apple.com/us/app/brain-test-tricky-puzzles/id1486214495?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/4d/9f/d64d9f83-5f5c-b2a2-529a-e05f566ba545/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Brain Test: Tricky Puzzles is a collection of clever and surprising puzzles buil"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 84,
+          "name": "Exposed - Who's Most Likely To",
+          "publisher": "vysgames",
+          "category": "Games",
+          "app_id": "1553777064",
+          "url": "https://apps.apple.com/us/app/exposed-whos-most-likely-to/id1553777064?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/05/d0/1e05d00a-12b8-03fb-11fc-457c119243ac/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Exposed is the party game that finds out who in your group is the most likely to"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 8,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 84,
+          "name": "Exposed - Who's Most Likely To",
+          "publisher": "vysgames",
+          "category": "Games",
+          "app_id": "1553777064",
+          "url": "https://apps.apple.com/us/app/exposed-whos-most-likely-to/id1553777064?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/05/d0/1e05d00a-12b8-03fb-11fc-457c119243ac/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Exposed is the party game that finds out who in your group is the most likely to"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 45,
+          "name": "四通八达：星轨漫游",
+          "publisher": "桂录 殷",
+          "category": "游戏",
+          "app_id": "6816929413",
+          "url": "https://apps.apple.com/cn/app/%E5%9B%9B%E9%80%9A%E5%85%AB%E8%BE%BE-%E6%98%9F%E8%BD%A8%E6%BC%AB%E6%B8%B8/id6816929413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/7f/6c/687f6ca4-cb13-d6c7-fe03-7facb80a24db/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "在环形航道之间轻点接驳节点，切换航行轨道，操控航船穿行环路之间，沿路收集散落露珠，驶向灯塔完成远航。\n\n晨雾、星潮、逆风三条特色航线，环形多层轨道交错排布。\n点"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 58,
+          "name": "消俄罗斯方块 - 经典消除益智小游戏",
+          "publisher": "巧莲 李",
+          "category": "游戏",
+          "app_id": "6758330501",
+          "url": "https://apps.apple.com/cn/app/%E6%B6%88%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97-%E7%BB%8F%E5%85%B8%E6%B6%88%E9%99%A4%E7%9B%8A%E6%99%BA%E5%B0%8F%E6%B8%B8%E6%88%8F/id6758330501?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/68/e5/ee68e592-925f-8017-a541-81b9ac086f69/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "经典俄罗斯方块玩法全新升级！拖动方块填充棋盘，满行 / 满列即可一键消除，轻松解锁连消快感。\n怀旧画风搭配解压音效，碎片时间随时畅玩，从 “连消新人” 到 “消"
+        },
+        {
+          "rank": 80,
+          "name": "伯吉的温馨厨房",
+          "publisher": "易美(深圳)网络科技发展有限公司",
+          "category": "游戏",
+          "app_id": "6795387415",
+          "url": "https://apps.apple.com/cn/app/%E4%BC%AF%E5%90%89%E7%9A%84%E6%B8%A9%E9%A6%A8%E5%8E%A8%E6%88%BF/id6795387415?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6d/6b/3f/6d6b3f34-4933-1a14-05b9-ca68a043ae4c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《伯吉的温馨厨房》是一款从Steam平台移植的治愈系模拟经营游戏，主打轻松真实'无压力'的烹饪体验与可爱又混乱的物理互动效果，让你随时随地都能打理属于自己的温馨"
+        },
+        {
+          "rank": 88,
+          "name": "The Phenomenon",
+          "publisher": "Kokots LLC",
+          "category": "游戏",
+          "app_id": "1288758206",
+          "url": "https://apps.apple.com/cn/app/the-phenomenon/id1288758206?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/d5/d6/89d5d6b6-ed6e-4675-4884-df144cc23f9b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "The Phenomenon 是一款章节式生存恐怖游戏，具有很高的重玩性，支持在线合作多人模式和跨平台游玩。游戏最早于 2015 年作为一款由一人独立开发的游戏"
+        },
+        {
+          "rank": 96,
+          "name": "极品飞车：集结",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1598249037",
+          "url": "https://apps.apple.com/cn/app/%E6%9E%81%E5%93%81%E9%A3%9E%E8%BD%A6-%E9%9B%86%E7%BB%93/id1598249037?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/bb/8d/7bbb8d29-a2b0-fe15-b7b3-3c5c36c77074/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【开放世界 自由探索】\n欢迎来到一亿平米热湾大世界，在这里，12种风貌各异的区域，20个地标以及500个玩法点等你来探索。高自由度地图搭配上丰富的单人以及多人玩"
+        },
+        {
+          "rank": 97,
+          "name": "实况足球",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1347776121",
+          "url": "https://apps.apple.com/cn/app/%E5%AE%9E%E5%86%B5%E8%B6%B3%E7%90%83/id1347776121?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/79/02/0079020a-b439-6ee9-e1bb-ae1f54735c4d/PesMobile-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "■实况足球2027，震撼登场！\n全球10亿下载，实况足球手游现已更新2027赛季年度版本！攻防双阵型时代来临！足坛前沿战术理念在你手中复刻，进攻防守两套阵型动态"
+        },
+        {
+          "rank": 98,
+          "name": "香肠派对",
+          "publisher": "X.D. Network Inc.",
+          "category": "游戏",
+          "app_id": "1326730621",
+          "url": "https://apps.apple.com/cn/app/%E9%A6%99%E8%82%A0%E6%B4%BE%E5%AF%B9/id1326730621?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/23/2c/69232c41-bd1f-df47-ef3e-ce87ff4f96ef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "SS27赛季：创造与破坏 肆意的建造还是疯狂的破坏由你来决定！\n\n经典派对新武器—砖砖发射器，支持实时搭建与拆解建筑结构，战术维度全面升级！新武器—QLU-11"
+        },
+        {
+          "rank": 100,
+          "name": "猛鬼宿舍",
+          "publisher": "Beijing Mihuan Games Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "1609347000",
+          "url": "https://apps.apple.com/cn/app/%E7%8C%9B%E9%AC%BC%E5%AE%BF%E8%88%8D/id1609347000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/b6/cc/d2b6cc90-ab64-1605-8bb3-2d84064029e9/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+          "slogan": "《猛鬼宿舍》是一款2D塔防小游戏。游戏中玩家需躲避猎梦者的追捕，寻找适合自己的宿舍躲避，并发展经济建造炮台，抵御猎梦者。游戏中玩家只可以在房间中的空地板上进行建"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 45,
+          "name": "四通八达：星轨漫游",
+          "publisher": "桂录 殷",
+          "category": "游戏",
+          "app_id": "6816929413",
+          "url": "https://apps.apple.com/cn/app/%E5%9B%9B%E9%80%9A%E5%85%AB%E8%BE%BE-%E6%98%9F%E8%BD%A8%E6%BC%AB%E6%B8%B8/id6816929413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/7f/6c/687f6ca4-cb13-d6c7-fe03-7facb80a24db/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "在环形航道之间轻点接驳节点，切换航行轨道，操控航船穿行环路之间，沿路收集散落露珠，驶向灯塔完成远航。\n\n晨雾、星潮、逆风三条特色航线，环形多层轨道交错排布。\n点"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 7,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 45,
+          "name": "四通八达：星轨漫游",
+          "publisher": "桂录 殷",
+          "category": "游戏",
+          "app_id": "6816929413",
+          "url": "https://apps.apple.com/cn/app/%E5%9B%9B%E9%80%9A%E5%85%AB%E8%BE%BE-%E6%98%9F%E8%BD%A8%E6%BC%AB%E6%B8%B8/id6816929413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/7f/6c/687f6ca4-cb13-d6c7-fe03-7facb80a24db/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "在环形航道之间轻点接驳节点，切换航行轨道，操控航船穿行环路之间，沿路收集散落露珠，驶向灯塔完成远航。\n\n晨雾、星潮、逆风三条特色航线，环形多层轨道交错排布。\n点"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 84,
+          "name": "Puzzle Time Brainy Challenge",
+          "publisher": "SmallStep Dev Team",
+          "category": "ゲーム",
+          "app_id": "6770503071",
+          "url": "https://apps.apple.com/jp/app/puzzle-time-brainy-challenge/id6770503071?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/5e/c9/055ec95b-9ccf-970a-b9c1-462305d19b0b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "あらゆる年齢層のプレイヤーが楽しめる、学校をテーマにした多彩で楽しい脳トレパズルゲーム！難解すぎて手詰まりになりがちなパズルレベルとは、もうお別れです。学校にま"
+        },
+        {
+          "rank": 90,
+          "name": "ハートピアスローライフ",
+          "publisher": "XD Entertainment Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6746151928",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8F%E3%83%BC%E3%83%88%E3%83%94%E3%82%A2%E3%82%B9%E3%83%AD%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%95/id6746151928?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/37/64/36/376436d1-7308-d29f-a82d-313559aa52ce/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『ハートピアスローライフ』は、XD Inc.が独自に開発した、自由度の高い生活シミュレーションゲームです。\n\nプレイヤーはゲーム内で自分のペースでゆっくりと過ご"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 82,
+          "name": "Hole.io",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "1389111413",
+          "url": "https://apps.apple.com/jp/app/hole-io/id1389111413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/60/fb/6c60fbb8-9526-679d-6216-8a332cf61c90/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "何百万人ものプレイヤーが夢中になっている、最高に爽快な世界丸飲みゲーム「Hole.io」へようこそ！賑やかなニューヨーク、海賊の入り江、または輝くSFの巨大都市"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 79,
+          "name": "Brain Puzzle 2: Logic Twist",
+          "publisher": "SmallStep Dev Team",
+          "category": "ゲーム",
+          "app_id": "6747063674",
+          "url": "https://apps.apple.com/jp/app/brain-puzzle-2-logic-twist/id6747063674?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/47/c4/3e47c40d-ac93-a88f-6f9e-90dc94aec2a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "今回は、前作のユーモラスなストーリーテリングと脳を揺さぶるデザインを継承し、さらに豊かで驚きに満ちたパズル体験をお届けします。\n\nこのまったく新しい続編では、風"
+        },
+        {
+          "rank": 96,
+          "name": "オンクレならタイクレ！オンラインクレーンゲーム(オンクレ)",
+          "publisher": "TAITO Corporation",
+          "category": "ゲーム",
+          "app_id": "1276424024",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%B3%E3%82%AF%E3%83%AC%E3%81%AA%E3%82%89%E3%82%BF%E3%82%A4%E3%82%AF%E3%83%AC-%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0-%E3%82%AA%E3%83%B3%E3%82%AF%E3%83%AC/id1276424024?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/38/b6/2838b607-8ef0-08b0-c4ad-4abdca13e346/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "「おうちでクレーンゲーム、しよ？」\n人気の景品が５０００種類以上！欲しい景品がきっと見つかる！\n「タイトーオンラインクレーン」、略して「タイクレ」は３６５日２４"
+        },
+        {
+          "rank": 97,
+          "name": "マイステッカールーム (My Sticker Room)",
+          "publisher": "SayGames LTD",
+          "category": "ゲーム",
+          "app_id": "6743738094",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BC%E3%83%A0-my-sticker-room/id6743738094?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/3c/6d/723c6dc7-affc-41c4-74cc-5ae0981d13de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "最高に心地よいシールゲーム\n\n生きていれば辛いことだってあります。ですので時間を作ってリラックスすることはとっても大切。そして可憐でかわいいゲームなら、他では味"
+        },
+        {
+          "rank": 98,
+          "name": "Triple Match: 3Dグッズソートマッチゲーム",
+          "publisher": "Orange One Limited",
+          "category": "ゲーム",
+          "app_id": "6473152241",
+          "url": "https://apps.apple.com/jp/app/triple-match-3d%E3%82%B0%E3%83%83%E3%82%BA%E3%82%BD%E3%83%BC%E3%83%88%E3%83%9E%E3%83%83%E3%83%81%E3%82%B2%E3%83%BC%E3%83%A0/id6473152241?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/4f/5f/1f4f5f22-6f54-5473-9490-94a1437f61ef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "スーパーでのお買い物を限られた時間内にすべてを手に入れることができたら、どんな気分でしょうか？その夢のような瞬間が、今ここで実現しました！\n\n「Goods Ma"
+        },
+        {
+          "rank": 99,
+          "name": "ドラゴンのねどこ – コレクション＆育成",
+          "publisher": "Runaway",
+          "category": "ゲーム",
+          "app_id": "6746389113",
+          "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%81%AE%E3%81%AD%E3%81%A9%E3%81%93-%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3-%E8%82%B2%E6%88%90/id6746389113?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/1b/84/881b8409-15b3-95c6-f19c-d047362c2483/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "見たこともないドラゴンを発見しよう！ 数百種類のユニークなドラゴンを集めてお世話し、成長とともにその起源を解き明かそう。おちゃめなネコドラゴンから、めずらしいブ"
+        },
+        {
+          "rank": 100,
+          "name": "ニッポン征服 - 面白い 選択ゲーム",
+          "publisher": "ONIGIRI GAMES",
+          "category": "ゲーム",
+          "app_id": "6743064514",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E5%BE%81%E6%9C%8D-%E9%9D%A2%E7%99%BD%E3%81%84-%E9%81%B8%E6%8A%9E%E3%82%B2%E3%83%BC%E3%83%A0/id6743064514?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/3e/57/a03e5793-1f84-d17a-3446-b23835020825/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "あなたの選択で国が変わる！\n\n\nあなたは日本の総理大臣として、さまざまな政策を選択し、理想の国づくりを目指します。\n正しい選択をすれば、人口・お金・頭脳が増加し"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 90,
+          "name": "ハートピアスローライフ",
+          "publisher": "XD Entertainment Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6746151928",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8F%E3%83%BC%E3%83%88%E3%83%94%E3%82%A2%E3%82%B9%E3%83%AD%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%95/id6746151928?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/37/64/36/376436d1-7308-d29f-a82d-313559aa52ce/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『ハートピアスローライフ』は、XD Inc.が独自に開発した、自由度の高い生活シミュレーションゲームです。\n\nプレイヤーはゲーム内で自分のペースでゆっくりと過ご"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 6,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 82,
+          "name": "Hole.io",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "1389111413",
+          "url": "https://apps.apple.com/jp/app/hole-io/id1389111413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/60/fb/6c60fbb8-9526-679d-6216-8a332cf61c90/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "何百万人ものプレイヤーが夢中になっている、最高に爽快な世界丸飲みゲーム「Hole.io」へようこそ！賑やかなニューヨーク、海賊の入り江、または輝くSFの巨大都市"
+        },
+        {
+          "rank": 84,
+          "name": "Puzzle Time Brainy Challenge",
+          "publisher": "SmallStep Dev Team",
+          "category": "ゲーム",
+          "app_id": "6770503071",
+          "url": "https://apps.apple.com/jp/app/puzzle-time-brainy-challenge/id6770503071?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/5e/c9/055ec95b-9ccf-970a-b9c1-462305d19b0b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "あらゆる年齢層のプレイヤーが楽しめる、学校をテーマにした多彩で楽しい脳トレパズルゲーム！難解すぎて手詰まりになりがちなパズルレベルとは、もうお別れです。学校にま"
+        },
+        {
+          "rank": 90,
+          "name": "ハートピアスローライフ",
+          "publisher": "XD Entertainment Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6746151928",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8F%E3%83%BC%E3%83%88%E3%83%94%E3%82%A2%E3%82%B9%E3%83%AD%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%95/id6746151928?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/37/64/36/376436d1-7308-d29f-a82d-313559aa52ce/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『ハートピアスローライフ』は、XD Inc.が独自に開発した、自由度の高い生活シミュレーションゲームです。\n\nプレイヤーはゲーム内で自分のペースでゆっくりと過ご"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "Amaze GO!™",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "package": "com.oakever.arrows"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 43,
+          "name": "Girls Echo",
+          "publisher": "HOWLYO GAME",
+          "category": "Games",
+          "package": "com.girlsecho.gp"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 94,
+          "name": "Auto Drill: Galaxy",
+          "publisher": "LAVA LABS OYUN YAZILIM VE PAZARLAMA ANONİM ŞİRKETİ",
+          "category": "Games",
+          "package": "com.lavalabs.autodrill"
+        },
+        {
+          "rank": 95,
+          "name": "Z Route: Redemption",
+          "publisher": "37GAMES GLOBAL",
+          "category": "Games",
+          "package": "com.zroute.global"
+        },
+        {
+          "rank": 100,
+          "name": "Chess - Play and Learn Online",
+          "publisher": "Chess.com",
+          "category": "Games",
+          "package": "com.chess"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 43,
+          "name": "Girls Echo",
+          "publisher": "HOWLYO GAME",
+          "category": "Games",
+          "package": "com.girlsecho.gp"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "Amaze GO!™",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "package": "com.oakever.arrows"
+        },
+        {
+          "rank": 43,
+          "name": "Girls Echo",
+          "publisher": "HOWLYO GAME",
+          "category": "Games",
+          "package": "com.girlsecho.gp"
+        }
+      ]
+    }
+  }
+}
