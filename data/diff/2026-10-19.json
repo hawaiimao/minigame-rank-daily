@@ -1,0 +1,603 @@
+{
+  "date": "2026-10-19",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 3,
+          "name": "锻剑模拟器手游",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 2名",
+          "publisher": "益智",
+          "change": "--",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 4,
+          "name": "铸剑大师小游戏",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 3名",
+          "publisher": "益智",
+          "change": "--",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "超级粉末模拟器",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 17名",
+          "publisher": "益智",
+          "change": "河北不等式网络科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "单车骑行挑战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "益智",
+          "change": "广州落音科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 3,
+          "name": "锻剑模拟器手游",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 2名",
+          "publisher": "益智",
+          "change": "--",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 4,
+          "name": "铸剑大师小游戏",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 3名",
+          "publisher": "益智",
+          "change": "--",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "超级粉末模拟器",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 17名",
+          "publisher": "益智",
+          "change": "河北不等式网络科技有限公司",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "跃动小子",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 9名",
+          "publisher": "益智",
+          "change": "波克科技集团有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "永远的蔚蓝星球",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "塔防",
+          "change": "广州颂悦信息技术有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "猛鬼宿舍",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 17名",
+          "publisher": "塔防",
+          "change": "北京蜜獾工坊娱乐文化有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "天天象棋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 2名",
+          "publisher": "棋类",
+          "change": "+2",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "变形金刚：新纪元",
+          "publisher": "Wanda Game",
+          "category": "策略",
+          "subcategory": "剧情、收集"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 73,
+          "name": "Gardenscapes",
+          "publisher": "Playrix",
+          "category": "Games",
+          "app_id": "1105855019",
+          "url": "https://apps.apple.com/us/app/gardenscapes/id1105855019?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/b1/f0/dbb1f00e-5031-70dd-3b6f-9a4feb52635f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Gardenscapes, the first game from the Playrix Scapes™ series! Make ma"
+        },
+        {
+          "rank": 83,
+          "name": "Foodstars: Merge & Cook",
+          "publisher": "Happibits",
+          "category": "Games",
+          "app_id": "6753862216",
+          "url": "https://apps.apple.com/us/app/foodstars-merge-cook/id6753862216?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/c0/b1/9cc0b1e9-42a1-5cd7-1694-18892b91ec56/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Dream of becoming a Star Chef? Now’s your chance!\nEver imagined learning the sec"
+        },
+        {
+          "rank": 89,
+          "name": "Jewel Coloring",
+          "publisher": "Ta Ta Game Technology Limited",
+          "category": "Games",
+          "app_id": "6759081967",
+          "url": "https://apps.apple.com/us/app/jewel-coloring/id6759081967?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/5a/63/395a63fe-9c3f-5a76-a4e1-27dba77589da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Jewel Coloring: Sparkle & Create with Pixel Art Puzzles\nEnter a vibrant world of"
+        },
+        {
+          "rank": 93,
+          "name": "Coin Master",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "app_id": "406889139",
+          "url": "https://apps.apple.com/us/app/coin-master/id406889139?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/d3/21/83d321dd-8b9c-f0cf-44f3-c376b6509a35/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Join your Facebook friends and millions of players around the world for prize-wi"
+        },
+        {
+          "rank": 96,
+          "name": "Jigsawcard Solitaire Puzzle",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "app_id": "6754900673",
+          "url": "https://apps.apple.com/us/app/jigsawcard-solitaire-puzzle/id6754900673?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/8c/f1/c38cf1bb-ff8d-c1d1-025a-f4ab9371a7d8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Jigsawcard – The HD Jigsaw Puzzle & Solitaire Card Game\nExperience an exciting n"
+        },
+        {
+          "rank": 97,
+          "name": "Lamar - Idle Vlogger",
+          "publisher": "Crazy Labs",
+          "category": "Games",
+          "app_id": "1595314851",
+          "url": "https://apps.apple.com/us/app/lamar-idle-vlogger/id1595314851?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/76/e0/08/76e00836-3826-e4b8-5f5a-a9090ebd7b9a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Become a Viral Sensation with Lamar - Idle Vlogger!\nWelcome to the wacky world o"
+        },
+        {
+          "rank": 100,
+          "name": "Catedrop: Card Puzzle",
+          "publisher": "GOODROID,Inc.",
+          "category": "Games",
+          "app_id": "6788647921",
+          "url": "https://apps.apple.com/us/app/catedrop-card-puzzle/id6788647921?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/f9/3e/56f93ed6-ae05-2a45-410d-6b1c1a1ee98c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Collect cards, reveal hidden ones, and clear every stage!\n\nWelcome to Catedrop, "
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 7,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 100,
+          "name": "拼图糕手",
+          "publisher": "Supersasa Games",
+          "category": "游戏",
+          "app_id": "6772052357",
+          "url": "https://apps.apple.com/cn/app/%E6%8B%BC%E5%9B%BE%E7%B3%95%E6%89%8B/id6772052357?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/33/be/8b33be8c-eaef-af9b-3b3b-1408032191eb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一款主打年代记忆的治愈系怀旧拼图休闲游戏，以碎片拼合还原经典旧时光为核心玩法，全年龄段零门槛上手，随时随地拼回专属你的童年图景。\n【慢拼无压，休闲闯关不烧脑】\n"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 80,
+          "name": "饥饿鲨：世界",
+          "publisher": "上海碧汉网络科技有限公司",
+          "category": "游戏",
+          "app_id": "1641036166",
+          "url": "https://apps.apple.com/cn/app/%E9%A5%A5%E9%A5%BF%E9%B2%A8-%E4%B8%96%E7%95%8C/id1641036166?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/05/9d/9a059d54-25d0-c2f5-8f7d-ee9e95e8ebbf/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "想活命就得吃！席卷海洋中各式各样的生物、从可以吞下的小鱼和小鸟，到美味的鲸鱼，甚至是毫无防备的人类！\n\n【深渊魔鲨，伤害爆炸】\n-来自深海的魔化鲨鱼自带恐怖的超"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 29,
+          "name": "乡村旧时光-阳光养鸡场",
+          "publisher": "烁 刘",
+          "category": "游戏",
+          "app_id": "6810655731",
+          "url": "https://apps.apple.com/cn/app/%E4%B9%A1%E6%9D%91%E6%97%A7%E6%97%B6%E5%85%89-%E9%98%B3%E5%85%89%E5%85%BB%E9%B8%A1%E5%9C%BA/id6810655731?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/41/c3/7e41c3a8-b780-8550-533c-98e8c3cdeb85/AppIcon-1x_U007ephone-0-1-P3-85-220-0.png/100x100bb.png",
+          "slogan": "放下忙碌，奔赴治愈田园！在乡村旧时光-阳光养鸡场，开启悠闲惬意的田园养鸡经营之旅，亲手打造属于你的治愈阳光农场。\n暖阳洒满鸡场，小鸡悠然嬉戏。自由在场内走动拾取"
+        },
+        {
+          "rank": 95,
+          "name": "天天爱消除",
+          "publisher": "Tencent Mobile Games",
+          "category": "游戏",
+          "app_id": "654897098",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E7%88%B1%E6%B6%88%E9%99%A4/id654897098?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/97/9e/9d979e9b-ea6f-188f-f200-64928d70b9ca/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
+          "slogan": "《天天爱消除》是一款以“消除烦恼，治愈心灵”为主题的萌系治愈向消除手游，陪伴玩家度过了10个寒暑！轻划手指，将三个相同的小动物旗子连成一行或一列，即可完成一次消"
+        },
+        {
+          "rank": 98,
+          "name": "掌上穿越火线",
+          "publisher": "Tencent Technology (Shenzhen) Company Limited",
+          "category": "游戏",
+          "app_id": "945598289",
+          "url": "https://apps.apple.com/cn/app/%E6%8E%8C%E4%B8%8A%E7%A9%BF%E8%B6%8A%E7%81%AB%E7%BA%BF/id945598289?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/6b/f4/706bf438-302e-990e-1820-095e94b49c20/CFGroupAppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
+          "slogan": "《掌上穿越火线》由腾讯公司出品，官方认证竞技类游戏社区APP，覆盖CFIP下的所有游戏，为亿万CF玩家提供游戏资讯、游戏社区、赛事直播、游戏数据查询及分享等特色"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 100,
+          "name": "拼图糕手",
+          "publisher": "Supersasa Games",
+          "category": "游戏",
+          "app_id": "6772052357",
+          "url": "https://apps.apple.com/cn/app/%E6%8B%BC%E5%9B%BE%E7%B3%95%E6%89%8B/id6772052357?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/33/be/8b33be8c-eaef-af9b-3b3b-1408032191eb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一款主打年代记忆的治愈系怀旧拼图休闲游戏，以碎片拼合还原经典旧时光为核心玩法，全年龄段零门槛上手，随时随地拼回专属你的童年图景。\n【慢拼无压，休闲闯关不烧脑】\n"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 80,
+          "name": "饥饿鲨：世界",
+          "publisher": "上海碧汉网络科技有限公司",
+          "category": "游戏",
+          "app_id": "1641036166",
+          "url": "https://apps.apple.com/cn/app/%E9%A5%A5%E9%A5%BF%E9%B2%A8-%E4%B8%96%E7%95%8C/id1641036166?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/05/9d/9a059d54-25d0-c2f5-8f7d-ee9e95e8ebbf/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "想活命就得吃！席卷海洋中各式各样的生物、从可以吞下的小鱼和小鸟，到美味的鲸鱼，甚至是毫无防备的人类！\n\n【深渊魔鲨，伤害爆炸】\n-来自深海的魔化鲨鱼自带恐怖的超"
+        },
+        {
+          "rank": 100,
+          "name": "拼图糕手",
+          "publisher": "Supersasa Games",
+          "category": "游戏",
+          "app_id": "6772052357",
+          "url": "https://apps.apple.com/cn/app/%E6%8B%BC%E5%9B%BE%E7%B3%95%E6%89%8B/id6772052357?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/33/be/8b33be8c-eaef-af9b-3b3b-1408032191eb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一款主打年代记忆的治愈系怀旧拼图休闲游戏，以碎片拼合还原经典旧时光为核心玩法，全年龄段零门槛上手，随时随地拼回专属你的童年图景。\n【慢拼无压，休闲闯关不烧脑】\n"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 88,
+          "name": "Ragdoll Blade",
+          "publisher": "tatsumaki games",
+          "category": "ゲーム",
+          "app_id": "6741186588",
+          "url": "https://apps.apple.com/jp/app/ragdoll-blade/id6741186588?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/8a/6d/9b8a6db3-fda0-d217-2ca1-0aa72ff64473/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ラグドールを操って、剣で敵を斬りまくれ！敵の刃に当たると、関節が動かなくなってしまう。敵の攻撃を巧みにかわすのが勝利のカギだ！"
+        },
+        {
+          "rank": 99,
+          "name": "Path Flow - Maze Puzzle",
+          "publisher": "GlimmerJoy Limited",
+          "category": "ゲーム",
+          "app_id": "6761477956",
+          "url": "https://apps.apple.com/jp/app/path-flow-maze-puzzle/id6761477956?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/53/28/21532890-cc53-cb3f-1f35-6ce2137e695a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Ready to test your logic and find the ultimate escape route? Path Flow: Maze Puz"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 75,
+          "name": "80億分の1 - 人生シミュレーター",
+          "publisher": "HAYO (Apps)",
+          "category": "ゲーム",
+          "app_id": "6821576483",
+          "url": "https://apps.apple.com/jp/app/80%E5%84%84%E5%88%86%E3%81%AE1-%E4%BA%BA%E7%94%9F%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/id6821576483?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/85/e9/e185e967-35e6-221b-b4e8-aca0134c7cd0/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "80億人のうち、今度はどんな人生を生きますか。\n\n80億分の1は、誕生から最後の思い出までをたどるオフラインの人生カードゲームです。小さな選択が健康、幸福、人間"
+        },
+        {
+          "rank": 89,
+          "name": "Pokémon Sleep",
+          "publisher": "The Pokemon Company",
+          "category": "ゲーム",
+          "app_id": "1579464667",
+          "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-sleep/id1579464667?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/4c/95/0f4c95a6-4838-c217-1e99-167de82c4201/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【睡眠でポケモンをゲットしよう！】\n\nPokémon Sleep（ポケモンスリープ）の世界では、あなたが眠ることによって、\nあなたと同じ睡眠タイプのポケモンたち"
+        },
+        {
+          "rank": 91,
+          "name": "Catedrop: Card Puzzle",
+          "publisher": "GOODROID,Inc.",
+          "category": "ゲーム",
+          "app_id": "6788647921",
+          "url": "https://apps.apple.com/jp/app/catedrop-card-puzzle/id6788647921?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/f9/3e/56f93ed6-ae05-2a45-410d-6b1c1a1ee98c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Catedropへようこそ！一手ごとに新たな可能性が広がる、新感覚のカードパズルゲームです。\n\n同じカードをグループに集めてボードから消し、その下に隠されたカー"
+        },
+        {
+          "rank": 92,
+          "name": "どうぶつタワーバトル - オンライン対戦ゲーム",
+          "publisher": "Yabuzaki Company, Inc.",
+          "category": "ゲーム",
+          "app_id": "1173389241",
+          "url": "https://apps.apple.com/jp/app/%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%82%BF%E3%83%AF%E3%83%BC%E3%83%90%E3%83%88%E3%83%AB-%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E5%AF%BE%E6%88%A6%E3%82%B2%E3%83%BC%E3%83%A0/id1173389241?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/ec/ed/f1eced41-fef4-aa51-7f45-19b5cbfd7409/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "▼▽かわいくリアルな動物を積んでいくゲーム「どうぶつタワー」がリアルタイム対戦できるようになりました▼▽\n\n▼▽iOSアプリ無料総合ランキング１位獲得しました▼"
+        },
+        {
+          "rank": 93,
+          "name": "みんなで早押しクイズ",
+          "publisher": "Q ONE, Inc.",
+          "category": "ゲーム",
+          "app_id": "1044039663",
+          "url": "https://apps.apple.com/jp/app/%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%E6%97%A9%E6%8A%BC%E3%81%97%E3%82%AF%E3%82%A4%E3%82%BA/id1044039663?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/67/34/406734ae-5d53-2849-0913-724331fa54a6/AppIcon-2-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "オンライン対戦早押しクイズゲームアプリが登場！\nライバルと対戦してレート上位を目指そう！\n\n選べるモードは、ランダムマッチ・フリーマッチ(フレンド対戦)の2種類"
+        },
+        {
+          "rank": 95,
+          "name": "ウッドパズル：Screw ネジ外すゲーム  - 人気 脳トレ",
+          "publisher": "LONGSEA LINK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6642698438",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A6%E3%83%83%E3%83%89%E3%83%91%E3%82%BA%E3%83%AB-screw-%E3%83%8D%E3%82%B8%E5%A4%96%E3%81%99%E3%82%B2%E3%83%BC%E3%83%A0-%E4%BA%BA%E6%B0%97-%E8%84%B3%E3%83%88%E3%83%AC/id6642698438?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/b8/87/5eb8874d-4ca0-2d38-e9e9-2c2a357ed3d0/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "「ウッドパズル：Screw ネジ外すゲーム - 人気 脳トレ」へようこそ！\nシンプルな操作で誰でも楽しめる「ウッドパズル：Screw ネジ外すゲーム」は、ナット"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 88,
+          "name": "Ragdoll Blade",
+          "publisher": "tatsumaki games",
+          "category": "ゲーム",
+          "app_id": "6741186588",
+          "url": "https://apps.apple.com/jp/app/ragdoll-blade/id6741186588?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/8a/6d/9b8a6db3-fda0-d217-2ca1-0aa72ff64473/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ラグドールを操って、剣で敵を斬りまくれ！敵の刃に当たると、関節が動かなくなってしまう。敵の攻撃を巧みにかわすのが勝利のカギだ！"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 6,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 88,
+          "name": "Ragdoll Blade",
+          "publisher": "tatsumaki games",
+          "category": "ゲーム",
+          "app_id": "6741186588",
+          "url": "https://apps.apple.com/jp/app/ragdoll-blade/id6741186588?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/8a/6d/9b8a6db3-fda0-d217-2ca1-0aa72ff64473/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ラグドールを操って、剣で敵を斬りまくれ！敵の刃に当たると、関節が動かなくなってしまう。敵の攻撃を巧みにかわすのが勝利のカギだ！"
+        },
+        {
+          "rank": 99,
+          "name": "Path Flow - Maze Puzzle",
+          "publisher": "GlimmerJoy Limited",
+          "category": "ゲーム",
+          "app_id": "6761477956",
+          "url": "https://apps.apple.com/jp/app/path-flow-maze-puzzle/id6761477956?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/53/28/21532890-cc53-cb3f-1f35-6ce2137e695a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Ready to test your logic and find the ultimate escape route? Path Flow: Maze Puz"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 70,
+          "name": "Sea Muncher-Big Bite Fish",
+          "publisher": "Dear Dream Game",
+          "category": "Games",
+          "package": "com.ocedomin.fishio"
+        },
+        {
+          "rank": 91,
+          "name": "Mini Games: Calm & Relax",
+          "publisher": "Unicorn Studio Official",
+          "category": "Games",
+          "package": "com.uc.minigame.relax"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 90,
+          "name": "Among Us",
+          "publisher": "Innersloth LLC",
+          "category": "Games",
+          "package": "com.innersloth.spacemafia"
+        },
+        {
+          "rank": 96,
+          "name": "Colorever: Gem Art Puzzle",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "package": "com.oakever.gemcoloring"
+        },
+        {
+          "rank": 99,
+          "name": "Snake Clash!",
+          "publisher": "Supercent, Inc.",
+          "category": "Games",
+          "package": "io.supercent.linkedcubic"
+        },
+        {
+          "rank": 100,
+          "name": "Hollywood Merge",
+          "publisher": "VoyagerOne IE",
+          "category": "Games",
+          "package": "com.hollywood.merge"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 70,
+          "name": "Sea Muncher-Big Bite Fish",
+          "publisher": "Dear Dream Game",
+          "category": "Games",
+          "package": "com.ocedomin.fishio"
+        },
+        {
+          "rank": 91,
+          "name": "Mini Games: Calm & Relax",
+          "publisher": "Unicorn Studio Official",
+          "category": "Games",
+          "package": "com.uc.minigame.relax"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 4,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 70,
+          "name": "Sea Muncher-Big Bite Fish",
+          "publisher": "Dear Dream Game",
+          "category": "Games",
+          "package": "com.ocedomin.fishio"
+        },
+        {
+          "rank": 91,
+          "name": "Mini Games: Calm & Relax",
+          "publisher": "Unicorn Studio Official",
+          "category": "Games",
+          "package": "com.uc.minigame.relax"
+        }
+      ]
+    }
+  }
+}
