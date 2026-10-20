@@ -1,0 +1,685 @@
+{
+  "date": "2026-10-20",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "欢乐麻将",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 3名",
+          "publisher": "牌类",
+          "change": "深圳市腾讯计算机系统有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "跳一跳",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 13名",
+          "publisher": "益智",
+          "change": "+2",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "天天象棋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 4名",
+          "publisher": "棋类",
+          "change": "+2",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "梦幻消除战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 15名",
+          "publisher": "模拟经营",
+          "change": "广州喜势网络科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "奔奔王国",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "竞技 · 3名",
+          "publisher": "对战",
+          "change": "福州点点松云网络有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "青云诀之伏魔",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 5名",
+          "publisher": "MMO",
+          "change": "海南元游信息技术有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 18,
+          "name": "指尖快消",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 16名",
+          "publisher": "消除",
+          "change": "厦门营火科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 18,
+          "name": "指尖快消",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 16名",
+          "publisher": "消除",
+          "change": "厦门营火科技有限公司",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "重返地心之下",
+          "publisher": "光屿工作室",
+          "category": "角色扮演",
+          "subcategory": "冒险、MMORPG、派对游戏"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 6,
+          "name": "失落城堡2",
+          "publisher": "雷霆游戏",
+          "category": "Roguelike",
+          "subcategory": "多人联机、动作、Steam移植、买断制、单机、独立游戏、冒险"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 8,
+          "name": "重返地心之下",
+          "publisher": "光屿工作室",
+          "category": "角色扮演",
+          "subcategory": "冒险、MMORPG、派对游戏"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "重返地心之下",
+          "publisher": "光屿工作室",
+          "category": "角色扮演",
+          "subcategory": "冒险、MMORPG、派对游戏"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 81,
+          "name": "Merge Bubbles - Word Game",
+          "publisher": "Cheer Games",
+          "category": "Games",
+          "app_id": "6766297786",
+          "url": "https://apps.apple.com/us/app/merge-bubbles-word-game/id6766297786?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/1b/b1/a81bb189-7800-70ab-6252-2c8b94bd13c4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Merge Bubbles is a fresh and satisfying word puzzle game combining word associat"
+        },
+        {
+          "rank": 84,
+          "name": "Picture Blast Solitaire",
+          "publisher": "Joyteractive",
+          "category": "Games",
+          "app_id": "6758704957",
+          "url": "https://apps.apple.com/us/app/picture-blast-solitaire/id6758704957?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/76/1e/7f761e88-bc6d-5237-5b0e-c839078540a3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Relaxing picture puzzles meet the timeless fun of solitaire. Build beautiful art"
+        },
+        {
+          "rank": 85,
+          "name": "Yarn Loop: Knit Puzzle",
+          "publisher": "Combo Games",
+          "category": "Games",
+          "app_id": "6755183085",
+          "url": "https://apps.apple.com/us/app/yarn-loop-knit-puzzle/id6755183085?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/64/15/09/64150997-01af-dedf-3d47-a06f519a8457/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Yarn Loop is a relaxing and satisfying puzzle game featuring colorful yarn bobbi"
+        },
+        {
+          "rank": 91,
+          "name": "82-0.com",
+          "publisher": "Vaulty Studios Inc.",
+          "category": "Games",
+          "app_id": "6780195090",
+          "url": "https://apps.apple.com/us/app/82-0-com/id6780195090?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/70/89/3670891c-7eed-e036-fc9c-07e35c69e11d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Can you build the perfect lineup and go 82-0?\n\n82-0 is the viral basketball rost"
+        },
+        {
+          "rank": 95,
+          "name": "Cash Avalanche:Casino Slot",
+          "publisher": "Spruce Interactive Inc",
+          "category": "Games",
+          "app_id": "6751794501",
+          "url": "https://apps.apple.com/us/app/cash-avalanche-casino-slot/id6751794501?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/0c/90/fb0c903a-dfad-fb98-3b51-7bd39db16a87/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Cash Avalanche — Spin Into the Excitement\n\nCash Avalanche delivers an immersive "
+        },
+        {
+          "rank": 96,
+          "name": "Loop Sort",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "6751101794",
+          "url": "https://apps.apple.com/us/app/loop-sort/id6751101794?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/8a/ec/1f8aeca0-adff-53e2-50f3-8f11f9814d13/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready for a fun and addictive truck puzzle challenge!\nTap once to send the c"
+        },
+        {
+          "rank": 97,
+          "name": "Cube Land Puzzle Game",
+          "publisher": "Rotatelab",
+          "category": "Games",
+          "app_id": "6757154335",
+          "url": "https://apps.apple.com/us/app/cube-land-puzzle-game/id6757154335?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fe/d5/73/fed57320-039d-8955-4ead-77eda1bb5ce1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Blast your way through colorful cube worlds! Cube Land Puzzle Game is a satisfyi"
+        },
+        {
+          "rank": 99,
+          "name": "CrownCoins Casino",
+          "publisher": "Sunflower",
+          "category": "Games",
+          "app_id": "6450413462",
+          "url": "https://apps.apple.com/us/app/crowncoins-casino/id6450413462?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/cc/1a/adcc1aea-145e-15ad-9416-1aa8f5e4a4d2/HalloweenPumpkinIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "CROWN COINS CASINO. America loves it. You will too! \nPLAY. WIN. REDEEM. REPEAT. "
+        },
+        {
+          "rank": 100,
+          "name": "Rap Star:Idle Clicker",
+          "publisher": "聪 马",
+          "category": "Games",
+          "app_id": "6761469046",
+          "url": "https://apps.apple.com/us/app/rap-star-idle-clicker/id6761469046?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/99/e8/97/99e897cd-f268-cc17-6695-2e5222338b19/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "From streets to stardom — tap, rap, earn, date, collect. Rap Star: Idle Clicker "
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 81,
+          "name": "Merge Bubbles - Word Game",
+          "publisher": "Cheer Games",
+          "category": "Games",
+          "app_id": "6766297786",
+          "url": "https://apps.apple.com/us/app/merge-bubbles-word-game/id6766297786?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/1b/b1/a81bb189-7800-70ab-6252-2c8b94bd13c4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Merge Bubbles is a fresh and satisfying word puzzle game combining word associat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 9,
+        "new_publishers": 1
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 20,
+          "name": "休闲大师-凌荒行",
+          "publisher": "涛 王",
+          "category": "游戏",
+          "app_id": "6822166107",
+          "url": "https://apps.apple.com/cn/app/%E4%BC%91%E9%97%B2%E5%A4%A7%E5%B8%88-%E5%87%8C%E8%8D%92%E8%A1%8C/id6822166107?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/db/59/21/db59214e-31aa-3ac3-6f30-dc31a28bbc19/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "麻将守卫战，化身戎装之士，操控遥感移步辗转，纵身腾跃可二段升空，凝神格挡便可抵御弹矢，奋勇剿灭敌寇。\n疯狂的麻将，化作灵秀雀牌，遨游于山林竹海，轻点即可腾空，凌"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 50,
+          "name": "英雄请出战",
+          "publisher": "BEIJING JIYINGSHE SOFTWARE TECHNOLOGY CO.,LTD",
+          "category": "游戏",
+          "app_id": "6758136169",
+          "url": "https://apps.apple.com/cn/app/%E8%8B%B1%E9%9B%84%E8%AF%B7%E5%87%BA%E6%88%98/id6758136169?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/6e/bb/3d6ebb9c-1491-b7dc-a5f8-ce1c157f3f75/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《英雄请出战》热血出征！\n\n上线领千抽，海量英雄武将随便抽！\n\n重制版 红白机 FC 吞食三国，复古像素回合制 RPG 重磅手游来袭！\n\n游戏以蜀汉主线复刻经典"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 85,
+          "name": "我的梦想医院",
+          "publisher": "Nordcurrent UAB",
+          "category": "游戏",
+          "app_id": "6477787562",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%A2%A6%E6%83%B3%E5%8C%BB%E9%99%A2/id6477787562?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/ab/e4/b2abe4eb-14c7-8488-3bf8-eb4576dadd87/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "数十种激烈的挑战在这款奇特的医院模拟游戏中等待着你，而其中的设备如同气候一样各具特色。你的任务就是完善每家医院，确保提供最贴心的就医环境！\r\n作为一名年轻护士协"
+        },
+        {
+          "rank": 86,
+          "name": "皇冠斗地主-小团团力荐",
+          "publisher": "弈趣玩科技(北京)有限公司",
+          "category": "游戏",
+          "app_id": "6746925059",
+          "url": "https://apps.apple.com/cn/app/%E7%9A%87%E5%86%A0%E6%96%97%E5%9C%B0%E4%B8%BB-%E5%B0%8F%E5%9B%A2%E5%9B%A2%E5%8A%9B%E8%8D%90/id6746925059?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/da/39/84da39a4-597d-0ee4-3d6a-8f0711e9c12f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《皇冠斗地主》人气伙伴小团团欢乐助阵！一起畅玩比牌斗地主、皇冠杠8杠、红中血流等特色玩法，斗地主与麻将乐趣一次集齐，随时开局，欢乐不停！\n\n【小团团陪你欢乐开局"
+        },
+        {
+          "rank": 91,
+          "name": "天天台球-AR桌球斯诺克",
+          "publisher": "北京鲜趣互娱科技有限公司",
+          "category": "游戏",
+          "app_id": "1589930623",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E5%8F%B0%E7%90%83-ar%E6%A1%8C%E7%90%83%E6%96%AF%E8%AF%BA%E5%85%8B/id1589930623?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/09/75/8509759f-bd9d-ed17-c685-4af01a129e10/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【设计手记】台球爱好者团队精心设计打磨的桌球游戏，我们希望给喜爱台球的爱好者一个发挥的平台！\n【游戏特色】\n《天天台球》是一款拥有优秀击打体验台球竞技手游！1V"
+        },
+        {
+          "rank": 95,
+          "name": "率土之滨",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "909211092",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%87%E5%9C%9F%E4%B9%8B%E6%BB%A8/id909211092?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/cc/2f/cfcc2fd7-1444-6cae-b2b2-34be98554491/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "欢迎来到国人原创的东方战争策略游戏《率土之滨》。\r\n《率土之滨》提供了一个全自由的东方战争策略沙盘，你可以与众多玩家组建同盟，一起在这汉末大争之世中，创造你们的"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 20,
+          "name": "休闲大师-凌荒行",
+          "publisher": "涛 王",
+          "category": "游戏",
+          "app_id": "6822166107",
+          "url": "https://apps.apple.com/cn/app/%E4%BC%91%E9%97%B2%E5%A4%A7%E5%B8%88-%E5%87%8C%E8%8D%92%E8%A1%8C/id6822166107?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/db/59/21/db59214e-31aa-3ac3-6f30-dc31a28bbc19/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "麻将守卫战，化身戎装之士，操控遥感移步辗转，纵身腾跃可二段升空，凝神格挡便可抵御弹矢，奋勇剿灭敌寇。\n疯狂的麻将，化作灵秀雀牌，遨游于山林竹海，轻点即可腾空，凌"
+        },
+        {
+          "rank": 50,
+          "name": "英雄请出战",
+          "publisher": "BEIJING JIYINGSHE SOFTWARE TECHNOLOGY CO.,LTD",
+          "category": "游戏",
+          "app_id": "6758136169",
+          "url": "https://apps.apple.com/cn/app/%E8%8B%B1%E9%9B%84%E8%AF%B7%E5%87%BA%E6%88%98/id6758136169?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/6e/bb/3d6ebb9c-1491-b7dc-a5f8-ce1c157f3f75/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《英雄请出战》热血出征！\n\n上线领千抽，海量英雄武将随便抽！\n\n重制版 红白机 FC 吞食三国，复古像素回合制 RPG 重磅手游来袭！\n\n游戏以蜀汉主线复刻经典"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 4,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 20,
+          "name": "休闲大师-凌荒行",
+          "publisher": "涛 王",
+          "category": "游戏",
+          "app_id": "6822166107",
+          "url": "https://apps.apple.com/cn/app/%E4%BC%91%E9%97%B2%E5%A4%A7%E5%B8%88-%E5%87%8C%E8%8D%92%E8%A1%8C/id6822166107?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/db/59/21/db59214e-31aa-3ac3-6f30-dc31a28bbc19/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "麻将守卫战，化身戎装之士，操控遥感移步辗转，纵身腾跃可二段升空，凝神格挡便可抵御弹矢，奋勇剿灭敌寇。\n疯狂的麻将，化作灵秀雀牌，遨游于山林竹海，轻点即可腾空，凌"
+        },
+        {
+          "rank": 50,
+          "name": "英雄请出战",
+          "publisher": "BEIJING JIYINGSHE SOFTWARE TECHNOLOGY CO.,LTD",
+          "category": "游戏",
+          "app_id": "6758136169",
+          "url": "https://apps.apple.com/cn/app/%E8%8B%B1%E9%9B%84%E8%AF%B7%E5%87%BA%E6%88%98/id6758136169?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/6e/bb/3d6ebb9c-1491-b7dc-a5f8-ce1c157f3f75/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《英雄请出战》热血出征！\n\n上线领千抽，海量英雄武将随便抽！\n\n重制版 红白机 FC 吞食三国，复古像素回合制 RPG 重磅手游来袭！\n\n游戏以蜀汉主线复刻经典"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 23,
+          "name": "[グリパチ]スマスロ 新鬼武者3",
+          "publisher": "CommSeed Corporation",
+          "category": "ゲーム",
+          "app_id": "6775338234",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%AA%E3%83%91%E3%83%81-%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E6%96%B0%E9%AC%BC%E6%AD%A6%E8%80%853/id6775338234?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/97/3f/cf973f02-949d-72eb-ab02-6a079380dcf4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "■シリーズ伝統のゲーム性！\n伝統の演出とゲーム性がスマスロで継承・進化した『スマスロ 新鬼武者３』がグリパチに登場！\n蒼剣RUSHとボーナス、上乗せコンボでロン"
+        },
+        {
+          "rank": 28,
+          "name": "7RL少女歌劇 レヴュースタァライト -The SLOT-",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6816938728",
+          "url": "https://apps.apple.com/jp/app/7rl%E5%B0%91%E5%A5%B3%E6%AD%8C%E5%8A%87-%E3%83%AC%E3%83%B4%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%BF%E3%82%A1%E3%83%A9%E3%82%A4%E3%83%88-the-slot/id6816938728?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/d2/dc/bbd2dc33-1285-f2c0-b0f8-f69d310e29d6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\nL少女歌劇 レヴュースタァライト -The SLOT-\n2025年/オーイズミ"
+        },
+        {
+          "rank": 83,
+          "name": "武器の王者：鍛造放置RPG",
+          "publisher": "MOBIBRAIN TECHNOLOGY PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6791394610",
+          "url": "https://apps.apple.com/jp/app/%E6%AD%A6%E5%99%A8%E3%81%AE%E7%8E%8B%E8%80%85-%E9%8D%9B%E9%80%A0%E6%94%BE%E7%BD%AErpg/id6791394610?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/7e/d2/3e7ed206-3396-17dc-c07c-5c0a0ce58e15/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "伝説の武器は、拾うものじゃない。自分で鍛え上げよう。\n『武器の王者：炎に鍛えられし刃』は、武器鍛造・装備収集・放置育成を楽しめる放置RPG。素材と設計図を集め、"
+        },
+        {
+          "rank": 92,
+          "name": "Jigsort™: Solitaire",
+          "publisher": "静 杜",
+          "category": "ゲーム",
+          "app_id": "6755670637",
+          "url": "https://apps.apple.com/jp/app/jigsort-solitaire/id6755670637?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/03/3d/7f033dc2-eb3f-04c7-40fe-5a2a6fd936a5/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "\\\\ 忙しい毎日に、心ほどける癒しのジグソーパズル世界へようこそ// \n\n日常の疲れを感じていませんか？\nただの暇つぶしではなく、遊ぶことで心からリフレッシュし"
+        },
+        {
+          "rank": 96,
+          "name": "フランベシェフ：マージ＆クッキング",
+          "publisher": "Microfun Limited",
+          "category": "ゲーム",
+          "app_id": "6618142292",
+          "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%A9%E3%83%B3%E3%83%99%E3%82%B7%E3%82%A7%E3%83%95-%E3%83%9E%E3%83%BC%E3%82%B8-%E3%82%AF%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0/id6618142292?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/0a/c7/300ac75f-7603-29fd-ced1-30685dedb8a2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "創造性無限大の『フランベシェフ：マージ＆クッキング』の世界で美味しさを追求しましょう！\nどんどん食材をマージし、新レシピをアンロックして、あなたの料理帝国を築き"
+        },
+        {
+          "rank": 97,
+          "name": "今生は恋より茶に生きる",
+          "publisher": "FUNDOLL GLOBAL LIMITED",
+          "category": "ゲーム",
+          "app_id": "6756044415",
+          "url": "https://apps.apple.com/jp/app/%E4%BB%8A%E7%94%9F%E3%81%AF%E6%81%8B%E3%82%88%E3%82%8A%E8%8C%B6%E3%81%AB%E7%94%9F%E3%81%8D%E3%82%8B/id6756044415?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/e5/da/f5e5da31-bbc3-2d1d-9713-3d4f8c9a3644/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "目を覚ますと、秋婉（しゅうわん）はすべてを失う前の過去に戻っていました。家族はまだ無事で、茶楼も彼女の手にあります。前の人生で信じていた王子に裏切られた秋婉は、"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 67,
+          "name": "刀剣乱舞ぱずぎり",
+          "publisher": "EXNOA LLC",
+          "category": "ゲーム",
+          "app_id": "6747331078",
+          "url": "https://apps.apple.com/jp/app/%E5%88%80%E5%89%A3%E4%B9%B1%E8%88%9E%E3%81%B1%E3%81%9A%E3%81%8E%E3%82%8A/id6747331078?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/1b/6a/f51b6a5f-e873-ede4-3c66-6a79b4b858ac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "■なぞって、つなげて、簡単パズル！\n 同じ色の鬼をなぞってつなげると、刀剣男士が一刀両断！\n たくさんつなげるほど攻撃は強力になり、サクッと爽快感を楽しめるパズ"
+        },
+        {
+          "rank": 79,
+          "name": "Tether Up! - ロープで登る協力ゲーム",
+          "publisher": "IBUKI YOSHIDA",
+          "category": "ゲーム",
+          "app_id": "6814103261",
+          "url": "https://apps.apple.com/jp/app/tether-up-%E3%83%AD%E3%83%BC%E3%83%97%E3%81%A7%E7%99%BB%E3%82%8B%E5%8D%94%E5%8A%9B%E3%82%B2%E3%83%BC%E3%83%A0/id6814103261?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/d2/1a/61d21a60-9293-a802-a078-7a2d811f335b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "一本のロープで、ふたりはつながっている。\n\n「Tether Up!」は、相棒とロープで結ばれたまま、どこまでも高く登り続ける協力クライムアクションです。ステージ"
+        },
+        {
+          "rank": 94,
+          "name": "ナンプレ - 数字パズルゲーム",
+          "publisher": "Easybrain Ltd",
+          "category": "ゲーム",
+          "app_id": "1193508329",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8A%E3%83%B3%E3%83%97%E3%83%AC-%E6%95%B0%E5%AD%97%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id1193508329?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/32/b2/5332b246-2237-7b2d-d5de-7f0b8661dd33/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "AppStore から、有数のダウンロード数を誇るナンプレアプリを手に入れて、楽しく脳を鍛えましょう！ナンプレは何百万人という人が毎日プレイしている、老若男女問"
+        },
+        {
+          "rank": 98,
+          "name": "Tetris® - テトリス (公式ゲーム)",
+          "publisher": "PlayStudios",
+          "category": "ゲーム",
+          "app_id": "1491074310",
+          "url": "https://apps.apple.com/jp/app/tetris-%E3%83%86%E3%83%88%E3%83%AA%E3%82%B9-%E5%85%AC%E5%BC%8F%E3%82%B2%E3%83%BC%E3%83%A0/id1491074310?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/a2/42/b2a242dc-c92a-47a7-91a2-47399b9033bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "積む。消す。繰り返す。TETRIS®、世界で最も象徴的なパズルゲームが、ついにモバイルに登場し、あなたのポケットに戻ってきました。サクッと一勝負、ハイスコアを目"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 92,
+          "name": "Jigsort™: Solitaire",
+          "publisher": "静 杜",
+          "category": "ゲーム",
+          "app_id": "6755670637",
+          "url": "https://apps.apple.com/jp/app/jigsort-solitaire/id6755670637?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/03/3d/7f033dc2-eb3f-04c7-40fe-5a2a6fd936a5/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "\\\\ 忙しい毎日に、心ほどける癒しのジグソーパズル世界へようこそ// \n\n日常の疲れを感じていませんか？\nただの暇つぶしではなく、遊ぶことで心からリフレッシュし"
+        },
+        {
+          "rank": 97,
+          "name": "今生は恋より茶に生きる",
+          "publisher": "FUNDOLL GLOBAL LIMITED",
+          "category": "ゲーム",
+          "app_id": "6756044415",
+          "url": "https://apps.apple.com/jp/app/%E4%BB%8A%E7%94%9F%E3%81%AF%E6%81%8B%E3%82%88%E3%82%8A%E8%8C%B6%E3%81%AB%E7%94%9F%E3%81%8D%E3%82%8B/id6756044415?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/e5/da/f5e5da31-bbc3-2d1d-9713-3d4f8c9a3644/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "目を覚ますと、秋婉（しゅうわん）はすべてを失う前の過去に戻っていました。家族はまだ無事で、茶楼も彼女の手にあります。前の人生で信じていた王子に裏切られた秋婉は、"
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 4,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 23,
+          "name": "[グリパチ]スマスロ 新鬼武者3",
+          "publisher": "CommSeed Corporation",
+          "category": "ゲーム",
+          "app_id": "6775338234",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%AA%E3%83%91%E3%83%81-%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E6%96%B0%E9%AC%BC%E6%AD%A6%E8%80%853/id6775338234?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/97/3f/cf973f02-949d-72eb-ab02-6a079380dcf4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "■シリーズ伝統のゲーム性！\n伝統の演出とゲーム性がスマスロで継承・進化した『スマスロ 新鬼武者３』がグリパチに登場！\n蒼剣RUSHとボーナス、上乗せコンボでロン"
+        },
+        {
+          "rank": 28,
+          "name": "7RL少女歌劇 レヴュースタァライト -The SLOT-",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6816938728",
+          "url": "https://apps.apple.com/jp/app/7rl%E5%B0%91%E5%A5%B3%E6%AD%8C%E5%8A%87-%E3%83%AC%E3%83%B4%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%BF%E3%82%A1%E3%83%A9%E3%82%A4%E3%83%88-the-slot/id6816938728?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/d2/dc/bbd2dc33-1285-f2c0-b0f8-f69d310e29d6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\nL少女歌劇 レヴュースタァライト -The SLOT-\n2025年/オーイズミ"
+        },
+        {
+          "rank": 83,
+          "name": "武器の王者：鍛造放置RPG",
+          "publisher": "MOBIBRAIN TECHNOLOGY PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6791394610",
+          "url": "https://apps.apple.com/jp/app/%E6%AD%A6%E5%99%A8%E3%81%AE%E7%8E%8B%E8%80%85-%E9%8D%9B%E9%80%A0%E6%94%BE%E7%BD%AErpg/id6791394610?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/7e/d2/3e7ed206-3396-17dc-c07c-5c0a0ce58e15/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "伝説の武器は、拾うものじゃない。自分で鍛え上げよう。\n『武器の王者：炎に鍛えられし刃』は、武器鍛造・装備収集・放置育成を楽しめる放置RPG。素材と設計図を集め、"
+        },
+        {
+          "rank": 92,
+          "name": "Jigsort™: Solitaire",
+          "publisher": "静 杜",
+          "category": "ゲーム",
+          "app_id": "6755670637",
+          "url": "https://apps.apple.com/jp/app/jigsort-solitaire/id6755670637?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/03/3d/7f033dc2-eb3f-04c7-40fe-5a2a6fd936a5/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "\\\\ 忙しい毎日に、心ほどける癒しのジグソーパズル世界へようこそ// \n\n日常の疲れを感じていませんか？\nただの暇つぶしではなく、遊ぶことで心からリフレッシュし"
+        },
+        {
+          "rank": 96,
+          "name": "フランベシェフ：マージ＆クッキング",
+          "publisher": "Microfun Limited",
+          "category": "ゲーム",
+          "app_id": "6618142292",
+          "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%A9%E3%83%B3%E3%83%99%E3%82%B7%E3%82%A7%E3%83%95-%E3%83%9E%E3%83%BC%E3%82%B8-%E3%82%AF%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0/id6618142292?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/0a/c7/300ac75f-7603-29fd-ced1-30685dedb8a2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "創造性無限大の『フランベシェフ：マージ＆クッキング』の世界で美味しさを追求しましょう！\nどんどん食材をマージし、新レシピをアンロックして、あなたの料理帝国を築き"
+        },
+        {
+          "rank": 97,
+          "name": "今生は恋より茶に生きる",
+          "publisher": "FUNDOLL GLOBAL LIMITED",
+          "category": "ゲーム",
+          "app_id": "6756044415",
+          "url": "https://apps.apple.com/jp/app/%E4%BB%8A%E7%94%9F%E3%81%AF%E6%81%8B%E3%82%88%E3%82%8A%E8%8C%B6%E3%81%AB%E7%94%9F%E3%81%8D%E3%82%8B/id6756044415?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/e5/da/f5e5da31-bbc3-2d1d-9713-3d4f8c9a3644/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "目を覚ますと、秋婉（しゅうわん）はすべてを失う前の過去に戻っていました。家族はまだ無事で、茶楼も彼女の手にあります。前の人生で信じていた王子に裏切られた秋婉は、"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 79,
+          "name": "Helicopter Escape 3D",
+          "publisher": "SayGames Ltd",
+          "category": "Games",
+          "package": "com.rescue.agent"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 92,
+          "name": "Crossword Go!",
+          "publisher": "PlaySimple Games",
+          "category": "Games",
+          "package": "in.playsimple.crossword.go"
+        },
+        {
+          "rank": 98,
+          "name": "Dot Link - Connect the Dots",
+          "publisher": "Bluetile",
+          "category": "Games",
+          "package": "com.playvalve.connect.dots"
+        },
+        {
+          "rank": 99,
+          "name": "Police Chief",
+          "publisher": "VoyagerOne IE",
+          "category": "Games",
+          "package": "com.slg.policewar"
+        },
+        {
+          "rank": 100,
+          "name": "Last Asylum: Plague",
+          "publisher": "37GAMES GLOBAL",
+          "category": "Games",
+          "package": "com.phs.global"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 79,
+          "name": "Helicopter Escape 3D",
+          "publisher": "SayGames Ltd",
+          "category": "Games",
+          "package": "com.rescue.agent"
+        }
+      ]
+    }
+  }
+}
