@@ -1,0 +1,631 @@
+{
+  "date": "2026-10-21",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "砖了个砖",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 10名",
+          "publisher": "消除",
+          "change": "北京简游科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "掼蛋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 5名",
+          "publisher": "牌类",
+          "change": "+2",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "解压打毛线",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 13名",
+          "publisher": "益智",
+          "change": "广州池骋网络科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "永远的蔚蓝星球",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 9名",
+          "publisher": "塔防",
+          "change": "广州颂悦信息技术有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "武侠大明星",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 10名",
+          "publisher": "塔防",
+          "change": "海南盛昌网络科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 7,
+          "name": "星布谷地",
+          "publisher": "miHoYo",
+          "category": "模拟经营",
+          "subcategory": "3D、休闲、社交、种田、多人联机、角色扮演、建造、治愈、模拟"
+        },
+        {
+          "rank": 9,
+          "name": "芙娅之魂",
+          "publisher": "方尖碑",
+          "category": "魂系",
+          "subcategory": "硬核、开放世界、角色扮演"
+        },
+        {
+          "rank": 10,
+          "name": "无限大",
+          "publisher": "网易游戏",
+          "category": "开放世界",
+          "subcategory": "角色扮演、高自由度、都市、二次元、动作、高画质、3D"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 50,
+          "name": "Wordscapes Search - Word Game",
+          "publisher": "PeopleFun, Inc.",
+          "category": "Games",
+          "app_id": "1420294918",
+          "url": "https://apps.apple.com/us/app/wordscapes-search-word-game/id1420294918?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/69/29/5d69296a-21f3-f0b0-90ce-6e6e4cb9bc62/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Would you like to relax, exercise your brain, and expand your vocabulary-all at "
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 17,
+          "name": "Amaze GO!™",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "app_id": "6758326278",
+          "url": "https://apps.apple.com/us/app/amaze-go/id6758326278?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/0f/fc/260ffc9b-c140-cea7-2f77-f788cc61afde/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Amaze GO! A clean arrow puzzle game built to calm a busy mind. Every "
+        }
+      ],
+      "returning": [
+        {
+          "rank": 93,
+          "name": "Bingo Cash - Win Real Money",
+          "publisher": "Papaya Gaming",
+          "category": "Games",
+          "app_id": "1522266397",
+          "url": "https://apps.apple.com/us/app/bingo-cash-win-real-money/id1522266397?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/9f/61/169f619d-d182-90da-6ac7-b9fd202cb47e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Forget the ordinary games. Here you play for something bigger, where winning the"
+        },
+        {
+          "rank": 97,
+          "name": "Crossword Go!",
+          "publisher": "PlaySimple Games Pte Ltd",
+          "category": "Games",
+          "app_id": "6739069151",
+          "url": "https://apps.apple.com/us/app/crossword-go/id6739069151?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/67/34/4f6734cc-6f86-bc1c-7416-dc40380909d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Challenge your mind and compete in real-time crossword duels! \nTrain your brain,"
+        },
+        {
+          "rank": 99,
+          "name": "Catedrop: Card Puzzle",
+          "publisher": "GOODROID,Inc.",
+          "category": "Games",
+          "app_id": "6788647921",
+          "url": "https://apps.apple.com/us/app/catedrop-card-puzzle/id6788647921?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/f9/3e/56f93ed6-ae05-2a45-410d-6b1c1a1ee98c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Collect cards, reveal hidden ones, and clear every stage!\n\nWelcome to Catedrop, "
+        },
+        {
+          "rank": 100,
+          "name": "Bubble Cash",
+          "publisher": "Papaya Gaming",
+          "category": "Games",
+          "app_id": "1475514684",
+          "url": "https://apps.apple.com/us/app/bubble-cash/id1475514684?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/71/a9/3671a978-67bc-13e9-8ed5-a8140be9ac77/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Forget the ordinary games. Here you play for something bigger, where winning the"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 17,
+          "name": "Amaze GO!™",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "app_id": "6758326278",
+          "url": "https://apps.apple.com/us/app/amaze-go/id6758326278?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/0f/fc/260ffc9b-c140-cea7-2f77-f788cc61afde/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Amaze GO! A clean arrow puzzle game built to calm a busy mind. Every "
+        },
+        {
+          "rank": 50,
+          "name": "Wordscapes Search - Word Game",
+          "publisher": "PeopleFun, Inc.",
+          "category": "Games",
+          "app_id": "1420294918",
+          "url": "https://apps.apple.com/us/app/wordscapes-search-word-game/id1420294918?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/69/29/5d69296a-21f3-f0b0-90ce-6e6e4cb9bc62/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Would you like to relax, exercise your brain, and expand your vocabulary-all at "
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "拳皇·命运-福利版",
+          "publisher": "HOOLAI GAME LIMITED",
+          "category": "游戏",
+          "app_id": "6809345559",
+          "url": "https://apps.apple.com/cn/app/%E6%8B%B3%E7%9A%87-%E5%91%BD%E8%BF%90-%E7%A6%8F%E5%88%A9%E7%89%88/id6809345559?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/b8/e1/d0b8e13f-6d00-3d61-0734-205449de164d/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《拳皇·命运》是SNK经典IP“拳皇·命运”正版授权的3D横版格斗手游，游戏以KOF世界观为背景，精心还原了草薙京、八神庵、不知火舞、特瑞等超过40位经典格斗家"
+        },
+        {
+          "rank": 13,
+          "name": "美职篮奇迹梦之队-自由战术无界交易",
+          "publisher": "深圳市柚游信息技术有限公司",
+          "category": "游戏",
+          "app_id": "6796649230",
+          "url": "https://apps.apple.com/cn/app/%E7%BE%8E%E8%81%8C%E7%AF%AE%E5%A5%87%E8%BF%B9%E6%A2%A6%E4%B9%8B%E9%98%9F-%E8%87%AA%E7%94%B1%E6%88%98%E6%9C%AF%E6%97%A0%E7%95%8C%E4%BA%A4%E6%98%93/id6796649230?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/a0/47/90a0475b-030e-eafe-9048-035cca1baa91/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "“一款好玩的篮球游戏应该是什么样的？”\n“一千个人心中有一千个哈姆雷特。“\n“那我们的游戏应该怎么做才能让经理们喜欢呢？”\n“让他们自己去选不就好了。”\n神说要"
+        },
+        {
+          "rank": 43,
+          "name": "Code Cracker",
+          "publisher": "永林 李",
+          "category": "游戏",
+          "app_id": "6748006305",
+          "url": "https://apps.apple.com/cn/app/code-cracker/id6748006305?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/aa/5d/a9aa5d86-b4b7-0ad3-448b-b2694dedfd10/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+          "slogan": "Dive into the thrilling world of \"Code Cracker,\" a captivating logic puzzle game"
+        },
+        {
+          "rank": 58,
+          "name": "炉石传说",
+          "publisher": "Blizzard Entertainment, Inc.",
+          "category": "游戏",
+          "app_id": "841140063",
+          "url": "https://apps.apple.com/cn/app/%E7%82%89%E7%9F%B3%E4%BC%A0%E8%AF%B4/id841140063?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/36/92/18369281-1833-8e75-f2e8-599ddcfc6d5f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "出品了《魔兽世界》和《星际争霸》的暴雪娱乐为你带来了屡获殊荣的卡牌策略游戏——《炉石传说》！收集并构筑强大的套牌，召唤随从并施放法术，掌控瞬息万变的战局！运用你"
+        },
+        {
+          "rank": 65,
+          "name": "我要开网吧",
+          "publisher": "泽威 李",
+          "category": "游戏",
+          "app_id": "6796303300",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E8%A6%81%E5%BC%80%E7%BD%91%E5%90%A7/id6796303300?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/37/01/f137010a-1afc-c9a8-8162-7f9257d9f007/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "想体验一把当网吧老板的感觉吗？「我要开网吧」带你回到霓虹灯下的机房时光。\n\n在这里，你需要打理前台开单、把客人安排到普通区、电竞区或高配区；机器到时间记得结账，"
+        },
+        {
+          "rank": 68,
+          "name": "老大来找茬 - 打工人日记",
+          "publisher": "松焕 麦",
+          "category": "游戏",
+          "app_id": "6779230226",
+          "url": "https://apps.apple.com/cn/app/%E8%80%81%E5%A4%A7%E6%9D%A5%E6%89%BE%E8%8C%AC-%E6%89%93%E5%B7%A5%E4%BA%BA%E6%97%A5%E8%AE%B0/id6779230226?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/1d/8a/151d8ac5-301b-b989-b84a-53b234a07cb5/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "打工人专属解压找茬！\n赛博霓虹风格的职场场景中，潜藏着老板不想让你发现的\"茬点\"——摸鱼现场、会议迷宫、加班深夜……每一关都是打工人的真实写照。限时挑战考验眼力"
+        },
+        {
+          "rank": 92,
+          "name": "杖剑传说",
+          "publisher": "Xiamen Leiting Interactive Network Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6473333072",
+          "url": "https://apps.apple.com/cn/app/%E6%9D%96%E5%89%91%E4%BC%A0%E8%AF%B4/id6473333072?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/26/b2/f726b222-005f-d892-3c89-8a6d8af9271b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《杖剑传说》是一款怪轻松的异世界冒险手游。\n在这里，你将作为冒险者，去自由探索坎斯汀世界的每一个角落。\n你将会在这里拨开地图迷雾，寻得掉落在各地的珍稀宝物，体验"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 2,
+          "name": "失落城堡2",
+          "publisher": "雷霆游戏",
+          "category": "游戏",
+          "app_id": "6762196436",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%B1%E8%90%BD%E5%9F%8E%E5%A0%A12/id6762196436?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/54/fb/8054fb24-50d7-5396-ef51-c13c9d383701/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "继承2000万用户的动作肉鸽开黑爽游来啦！欢迎各位宝藏猎人们回家！\n\n《失落城堡2》手游延续了前作深受大家认可的核心玩法——Roguelike横版动作冒险，同时"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 44,
+          "name": "王者荣耀世界",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1612566389",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E4%B8%96%E7%95%8C/id1612566389?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/1f/d7/f01fd761-fb29-8e46-4a72-bfd9bf25ba54/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【产品介绍】\n《王者荣耀世界》是国民级MOBA手游《王者荣耀》IP旗下的「王者英雄多人战斗冒险游戏」。游戏高度还原王者荣耀世界观，英雄人设故事与技能设定，在3D"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 2,
+          "name": "失落城堡2",
+          "publisher": "雷霆游戏",
+          "category": "游戏",
+          "app_id": "6762196436",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%B1%E8%90%BD%E5%9F%8E%E5%A0%A12/id6762196436?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/54/fb/8054fb24-50d7-5396-ef51-c13c9d383701/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "继承2000万用户的动作肉鸽开黑爽游来啦！欢迎各位宝藏猎人们回家！\n\n《失落城堡2》手游延续了前作深受大家认可的核心玩法——Roguelike横版动作冒险，同时"
+        },
+        {
+          "rank": 13,
+          "name": "美职篮奇迹梦之队-自由战术无界交易",
+          "publisher": "深圳市柚游信息技术有限公司",
+          "category": "游戏",
+          "app_id": "6796649230",
+          "url": "https://apps.apple.com/cn/app/%E7%BE%8E%E8%81%8C%E7%AF%AE%E5%A5%87%E8%BF%B9%E6%A2%A6%E4%B9%8B%E9%98%9F-%E8%87%AA%E7%94%B1%E6%88%98%E6%9C%AF%E6%97%A0%E7%95%8C%E4%BA%A4%E6%98%93/id6796649230?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/a0/47/90a0475b-030e-eafe-9048-035cca1baa91/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "“一款好玩的篮球游戏应该是什么样的？”\n“一千个人心中有一千个哈姆雷特。“\n“那我们的游戏应该怎么做才能让经理们喜欢呢？”\n“让他们自己去选不就好了。”\n神说要"
+        },
+        {
+          "rank": 43,
+          "name": "Code Cracker",
+          "publisher": "永林 李",
+          "category": "游戏",
+          "app_id": "6748006305",
+          "url": "https://apps.apple.com/cn/app/code-cracker/id6748006305?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/aa/5d/a9aa5d86-b4b7-0ad3-448b-b2694dedfd10/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+          "slogan": "Dive into the thrilling world of \"Code Cracker,\" a captivating logic puzzle game"
+        },
+        {
+          "rank": 58,
+          "name": "炉石传说",
+          "publisher": "Blizzard Entertainment, Inc.",
+          "category": "游戏",
+          "app_id": "841140063",
+          "url": "https://apps.apple.com/cn/app/%E7%82%89%E7%9F%B3%E4%BC%A0%E8%AF%B4/id841140063?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/36/92/18369281-1833-8e75-f2e8-599ddcfc6d5f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "出品了《魔兽世界》和《星际争霸》的暴雪娱乐为你带来了屡获殊荣的卡牌策略游戏——《炉石传说》！收集并构筑强大的套牌，召唤随从并施放法术，掌控瞬息万变的战局！运用你"
+        },
+        {
+          "rank": 65,
+          "name": "我要开网吧",
+          "publisher": "泽威 李",
+          "category": "游戏",
+          "app_id": "6796303300",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E8%A6%81%E5%BC%80%E7%BD%91%E5%90%A7/id6796303300?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/37/01/f137010a-1afc-c9a8-8162-7f9257d9f007/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "想体验一把当网吧老板的感觉吗？「我要开网吧」带你回到霓虹灯下的机房时光。\n\n在这里，你需要打理前台开单、把客人安排到普通区、电竞区或高配区；机器到时间记得结账，"
+        },
+        {
+          "rank": 68,
+          "name": "老大来找茬 - 打工人日记",
+          "publisher": "松焕 麦",
+          "category": "游戏",
+          "app_id": "6779230226",
+          "url": "https://apps.apple.com/cn/app/%E8%80%81%E5%A4%A7%E6%9D%A5%E6%89%BE%E8%8C%AC-%E6%89%93%E5%B7%A5%E4%BA%BA%E6%97%A5%E8%AE%B0/id6779230226?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/1d/8a/151d8ac5-301b-b989-b84a-53b234a07cb5/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "打工人专属解压找茬！\n赛博霓虹风格的职场场景中，潜藏着老板不想让你发现的\"茬点\"——摸鱼现场、会议迷宫、加班深夜……每一关都是打工人的真实写照。限时挑战考验眼力"
+        },
+        {
+          "rank": 92,
+          "name": "杖剑传说",
+          "publisher": "Xiamen Leiting Interactive Network Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6473333072",
+          "url": "https://apps.apple.com/cn/app/%E6%9D%96%E5%89%91%E4%BC%A0%E8%AF%B4/id6473333072?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/26/b2/f726b222-005f-d892-3c89-8a6d8af9271b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《杖剑传说》是一款怪轻松的异世界冒险手游。\n在这里，你将作为冒险者，去自由探索坎斯汀世界的每一个角落。\n你将会在这里拨开地图迷雾，寻得掉落在各地的珍稀宝物，体验"
+        }
+      ],
+      "totals": {
+        "new_to_board": 8,
+        "returning": 1,
+        "new_publishers": 7
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "拳皇·命运-福利版",
+          "publisher": "HOOLAI GAME LIMITED",
+          "category": "游戏",
+          "app_id": "6809345559",
+          "url": "https://apps.apple.com/cn/app/%E6%8B%B3%E7%9A%87-%E5%91%BD%E8%BF%90-%E7%A6%8F%E5%88%A9%E7%89%88/id6809345559?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/b8/e1/d0b8e13f-6d00-3d61-0734-205449de164d/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《拳皇·命运》是SNK经典IP“拳皇·命运”正版授权的3D横版格斗手游，游戏以KOF世界观为背景，精心还原了草薙京、八神庵、不知火舞、特瑞等超过40位经典格斗家"
+        },
+        {
+          "rank": 2,
+          "name": "失落城堡2",
+          "publisher": "雷霆游戏",
+          "category": "游戏",
+          "app_id": "6762196436",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%B1%E8%90%BD%E5%9F%8E%E5%A0%A12/id6762196436?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/54/fb/8054fb24-50d7-5396-ef51-c13c9d383701/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "继承2000万用户的动作肉鸽开黑爽游来啦！欢迎各位宝藏猎人们回家！\n\n《失落城堡2》手游延续了前作深受大家认可的核心玩法——Roguelike横版动作冒险，同时"
+        },
+        {
+          "rank": 13,
+          "name": "美职篮奇迹梦之队-自由战术无界交易",
+          "publisher": "深圳市柚游信息技术有限公司",
+          "category": "游戏",
+          "app_id": "6796649230",
+          "url": "https://apps.apple.com/cn/app/%E7%BE%8E%E8%81%8C%E7%AF%AE%E5%A5%87%E8%BF%B9%E6%A2%A6%E4%B9%8B%E9%98%9F-%E8%87%AA%E7%94%B1%E6%88%98%E6%9C%AF%E6%97%A0%E7%95%8C%E4%BA%A4%E6%98%93/id6796649230?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/a0/47/90a0475b-030e-eafe-9048-035cca1baa91/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "“一款好玩的篮球游戏应该是什么样的？”\n“一千个人心中有一千个哈姆雷特。“\n“那我们的游戏应该怎么做才能让经理们喜欢呢？”\n“让他们自己去选不就好了。”\n神说要"
+        },
+        {
+          "rank": 43,
+          "name": "Code Cracker",
+          "publisher": "永林 李",
+          "category": "游戏",
+          "app_id": "6748006305",
+          "url": "https://apps.apple.com/cn/app/code-cracker/id6748006305?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/aa/5d/a9aa5d86-b4b7-0ad3-448b-b2694dedfd10/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+          "slogan": "Dive into the thrilling world of \"Code Cracker,\" a captivating logic puzzle game"
+        },
+        {
+          "rank": 58,
+          "name": "炉石传说",
+          "publisher": "Blizzard Entertainment, Inc.",
+          "category": "游戏",
+          "app_id": "841140063",
+          "url": "https://apps.apple.com/cn/app/%E7%82%89%E7%9F%B3%E4%BC%A0%E8%AF%B4/id841140063?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/36/92/18369281-1833-8e75-f2e8-599ddcfc6d5f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "出品了《魔兽世界》和《星际争霸》的暴雪娱乐为你带来了屡获殊荣的卡牌策略游戏——《炉石传说》！收集并构筑强大的套牌，召唤随从并施放法术，掌控瞬息万变的战局！运用你"
+        },
+        {
+          "rank": 65,
+          "name": "我要开网吧",
+          "publisher": "泽威 李",
+          "category": "游戏",
+          "app_id": "6796303300",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E8%A6%81%E5%BC%80%E7%BD%91%E5%90%A7/id6796303300?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/37/01/f137010a-1afc-c9a8-8162-7f9257d9f007/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "想体验一把当网吧老板的感觉吗？「我要开网吧」带你回到霓虹灯下的机房时光。\n\n在这里，你需要打理前台开单、把客人安排到普通区、电竞区或高配区；机器到时间记得结账，"
+        },
+        {
+          "rank": 68,
+          "name": "老大来找茬 - 打工人日记",
+          "publisher": "松焕 麦",
+          "category": "游戏",
+          "app_id": "6779230226",
+          "url": "https://apps.apple.com/cn/app/%E8%80%81%E5%A4%A7%E6%9D%A5%E6%89%BE%E8%8C%AC-%E6%89%93%E5%B7%A5%E4%BA%BA%E6%97%A5%E8%AE%B0/id6779230226?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/1d/8a/151d8ac5-301b-b989-b84a-53b234a07cb5/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "打工人专属解压找茬！\n赛博霓虹风格的职场场景中，潜藏着老板不想让你发现的\"茬点\"——摸鱼现场、会议迷宫、加班深夜……每一关都是打工人的真实写照。限时挑战考验眼力"
+        },
+        {
+          "rank": 92,
+          "name": "杖剑传说",
+          "publisher": "Xiamen Leiting Interactive Network Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6473333072",
+          "url": "https://apps.apple.com/cn/app/%E6%9D%96%E5%89%91%E4%BC%A0%E8%AF%B4/id6473333072?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/26/b2/f726b222-005f-d892-3c89-8a6d8af9271b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《杖剑传说》是一款怪轻松的异世界冒险手游。\n在这里，你将作为冒险者，去自由探索坎斯汀世界的每一个角落。\n你将会在这里拨开地图迷雾，寻得掉落在各地的珍稀宝物，体验"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 97,
+          "name": "Bus Crowd - バスゲーム渋滞脱出パズル",
+          "publisher": "Hyper Surfer Games",
+          "category": "ゲーム",
+          "app_id": "6754059516",
+          "url": "https://apps.apple.com/jp/app/bus-crowd-%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0%E6%B8%8B%E6%BB%9E%E8%84%B1%E5%87%BA%E3%83%91%E3%82%BA%E3%83%AB/id6754059516?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/4b/b2/8b4bb23a-38ce-3c7b-4adb-7f07effb9998/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Bus Crowdへようこそ。交通渋滞の戦略、乗客マッチ、賢い駐車選択を組み合わせた、カラフルなバスパズルゲームです。\n\n混雑した駅には乗車を待つ乗客がいっぱい"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 46,
+          "name": "TOY BLOX トイブロックス-トリマ公式ブロックパズル",
+          "publisher": "GeoTechnologies, Inc.",
+          "category": "ゲーム",
+          "app_id": "6789060737",
+          "url": "https://apps.apple.com/jp/app/toy-blox-%E3%83%88%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%88%E3%83%AA%E3%83%9E%E5%85%AC%E5%BC%8F%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB/id6789060737?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/43/68/3a43682c-aa6c-db8a-3e8a-518fdf8998c3/AppIcon-production-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【TOY BLOXとは】\n大人気ポイ活アプリ「トリマ」からブロックパズルゲーム「TOY BLOX（トイブロックス）」が誕生しました！\nトイブロックスは、初心者か"
+        },
+        {
+          "rank": 96,
+          "name": "Detective Difference: 楽しむ間違い探し",
+          "publisher": "LONGSEA LINK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6738576262",
+          "url": "https://apps.apple.com/jp/app/detective-difference-%E6%A5%BD%E3%81%97%E3%82%80%E9%96%93%E9%81%95%E3%81%84%E6%8E%A2%E3%81%97/id6738576262?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/4e/c6/054ec6cf-a4ae-e68c-5cde-56883961db15/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Detective Difference: Spot Fun - いつでもどこでも目を鍛えて頭をテストしよう！違いを見つける楽しさを体験しよう！隠れた違いの世界"
+        },
+        {
+          "rank": 100,
+          "name": "トゥーンブラスト",
+          "publisher": "Peak Games",
+          "category": "ゲーム",
+          "app_id": "1176027022",
+          "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88/id1176027022?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/2a/ca/6a2aca94-240b-0909-0af1-52ab365e4425/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "最高にエキサイティングな爆破パズル、トゥンブラへようこそ！\n\n『Toy Blast』のクリエイターが贈る、ユニークなゲームプレイがいつまでも楽しめる究極パズルゲ"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 97,
+          "name": "Bus Crowd - バスゲーム渋滞脱出パズル",
+          "publisher": "Hyper Surfer Games",
+          "category": "ゲーム",
+          "app_id": "6754059516",
+          "url": "https://apps.apple.com/jp/app/bus-crowd-%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0%E6%B8%8B%E6%BB%9E%E8%84%B1%E5%87%BA%E3%83%91%E3%82%BA%E3%83%AB/id6754059516?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/4b/b2/8b4bb23a-38ce-3c7b-4adb-7f07effb9998/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Bus Crowdへようこそ。交通渋滞の戦略、乗客マッチ、賢い駐車選択を組み合わせた、カラフルなバスパズルゲームです。\n\n混雑した駅には乗車を待つ乗客がいっぱい"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 16,
+          "name": "Tank Busters: Cannon Battle",
+          "publisher": "SayGames Ltd",
+          "category": "Games",
+          "package": "com.tank.busters"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 82,
+          "name": "Hidden Object Games: Seek It",
+          "publisher": "NimbleMind Network Inc.",
+          "category": "Games",
+          "package": "hidden.object.find.seek.search.mystery.puzzle.games.free"
+        },
+        {
+          "rank": 85,
+          "name": "Tiki Smash!",
+          "publisher": "PeopleFun",
+          "category": "Games",
+          "package": "com.thrivegames.bashbest"
+        },
+        {
+          "rank": 92,
+          "name": "Cube Land Puzzle Game",
+          "publisher": "Rotatelab Yazilim ve Bilisim A.S.",
+          "category": "Games",
+          "package": "com.rotatelab.cubeblast"
+        },
+        {
+          "rank": 94,
+          "name": "Treasure Master",
+          "publisher": "Gimica GmbH",
+          "category": "Games",
+          "package": "com.gimica.treasuremaster"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 16,
+          "name": "Tank Busters: Cannon Battle",
+          "publisher": "SayGames Ltd",
+          "category": "Games",
+          "package": "com.tank.busters"
+        }
+      ]
+    }
+  }
+}
