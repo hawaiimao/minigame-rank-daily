@@ -1,0 +1,654 @@
+{
+  "date": "2026-10-22",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 7,
+          "name": "解压超给力",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 6名",
+          "publisher": "消除",
+          "change": "--",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "指尖快消",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 7名",
+          "publisher": "消除",
+          "change": "厦门营火科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 7,
+          "name": "解压超给力",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 6名",
+          "publisher": "消除",
+          "change": "--",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "神器传说",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 9名",
+          "publisher": "益智",
+          "change": "深圳全民互动科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "空格之境",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "模拟经营",
+          "change": "江西启游互动科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "肥鹅美食街",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 12名",
+          "publisher": "模拟经营",
+          "change": "北京豪腾创想科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "这关可真行",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 17名",
+          "publisher": "塔防",
+          "change": "深圳市石晟科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 9,
+          "name": "魔法星座",
+          "publisher": "游灵网络",
+          "category": "卡牌",
+          "subcategory": "收集"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "饥困荒野",
+          "publisher": "腾讯",
+          "category": "沙盒",
+          "subcategory": "生存、多人联机、饥荒、冒险"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 9,
+          "name": "魔法星座",
+          "publisher": "游灵网络",
+          "category": "卡牌",
+          "subcategory": "收集"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "魔法星座",
+          "publisher": "游灵网络",
+          "category": "卡牌",
+          "subcategory": "收集"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 70,
+          "name": "Water Sort Puzzle: Get Color",
+          "publisher": "Tripledot Studios",
+          "category": "Games",
+          "app_id": "1569776448",
+          "url": "https://apps.apple.com/us/app/water-sort-puzzle-get-color/id1569776448?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/7c/80/b47c80d7-2358-20c6-adf3-2c3dbbe9b559/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Need personal coloring therapy? Get Color - Water Sort Puzzle is a great stress "
+        },
+        {
+          "rank": 96,
+          "name": "Speed Stars",
+          "publisher": "Miniclip.com",
+          "category": "Games",
+          "app_id": "1573039936",
+          "url": "https://apps.apple.com/us/app/speed-stars/id1573039936?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/66/0e/00660e09-1962-5398-b1d5-1abfa8f60cc7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Simple yet tricky, competitive, fast-paced physics game! Use two-finger touch co"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 32,
+          "name": "Woodoku Blast: Block Puzzle",
+          "publisher": "Tripledot Studios",
+          "category": "Games",
+          "app_id": "6608975929",
+          "url": "https://apps.apple.com/us/app/woodoku-blast-block-puzzle/id6608975929?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/b1/20/17b120d8-7514-902d-10ea-d298ed9d380a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Woodoku Blast: The Mesmerizing Colorful Block Puzzle Game!\nPrepare yo"
+        },
+        {
+          "rank": 84,
+          "name": "Solitaire Smash: Real Cash!",
+          "publisher": "Play Perfect",
+          "category": "Games",
+          "app_id": "6446482475",
+          "url": "https://apps.apple.com/us/app/solitaire-smash-real-cash/id6446482475?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/51/e4/6c51e4a0-b027-9b93-18df-f949951f9301/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Looking for a Solitaire game that offers a fun and challenging gameplay experien"
+        },
+        {
+          "rank": 89,
+          "name": "Foodstars: Merge & Cook",
+          "publisher": "Happibits",
+          "category": "Games",
+          "app_id": "6753862216",
+          "url": "https://apps.apple.com/us/app/foodstars-merge-cook/id6753862216?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/0a/3e/4d0a3ec2-d831-079f-2eea-03fabac58c33/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Dream of becoming a Star Chef? Now’s your chance!\nEver imagined learning the sec"
+        },
+        {
+          "rank": 93,
+          "name": "Travel Town - Merge Adventure",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "app_id": "1521236603",
+          "url": "https://apps.apple.com/us/app/travel-town-merge-adventure/id1521236603?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/a0/c1/90a0c125-b286-fdc3-4398-7f53162b7b0b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Explore Travel Town, where you can combine everything into better and more usefu"
+        },
+        {
+          "rank": 100,
+          "name": "Lavish Luck Casino",
+          "publisher": "Prudent Owl Limited",
+          "category": "Games",
+          "app_id": "6738905436",
+          "url": "https://apps.apple.com/us/app/lavish-luck-casino/id6738905436?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/c3/f7/b6c3f7f1-c102-83bd-66fd-8259f6ddcd34/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the exciting world of Lavish Luck Casino! Experience authentic Las Veg"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 5,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 70,
+          "name": "Water Sort Puzzle: Get Color",
+          "publisher": "Tripledot Studios",
+          "category": "Games",
+          "app_id": "1569776448",
+          "url": "https://apps.apple.com/us/app/water-sort-puzzle-get-color/id1569776448?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/7c/80/b47c80d7-2358-20c6-adf3-2c3dbbe9b559/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Need personal coloring therapy? Get Color - Water Sort Puzzle is a great stress "
+        },
+        {
+          "rank": 96,
+          "name": "Speed Stars",
+          "publisher": "Miniclip.com",
+          "category": "Games",
+          "app_id": "1573039936",
+          "url": "https://apps.apple.com/us/app/speed-stars/id1573039936?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/66/0e/00660e09-1962-5398-b1d5-1abfa8f60cc7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Simple yet tricky, competitive, fast-paced physics game! Use two-finger touch co"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "希望之启航：哈比兔喊你归队了",
+          "publisher": "Hangzhou Runhe Network Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6810632075",
+          "url": "https://apps.apple.com/cn/app/%E5%B8%8C%E6%9C%9B%E4%B9%8B%E5%90%AF%E8%88%AA-%E5%93%88%E6%AF%94%E5%85%94%E5%96%8A%E4%BD%A0%E5%BD%92%E9%98%9F%E4%BA%86/id6810632075?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/30/dc/1730dc6d-31d1-5075-3ecb-af6513316a51/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《希望之启航》是一款经典Q版3D MMORPG手游，还原希望经典玩法。六大职业自由选择，上百种萌宠收集养成，组队开荒军团争霸，希尔特大陆等你归来！\n\n【希尔特冒"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 1,
+          "name": "篮球少女：飞跃巅峰",
+          "publisher": "Lingxi Games Inc.",
+          "category": "游戏",
+          "app_id": "6800167533",
+          "url": "https://apps.apple.com/cn/app/%E7%AF%AE%E7%90%83%E5%B0%91%E5%A5%B3-%E9%A3%9E%E8%B7%83%E5%B7%85%E5%B3%B0/id6800167533?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/f7/85/55f78515-ee43-bf22-293b-0d604e6aefcc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《篮球少女：飞跃巅峰》是新一代运动少女养成游戏。这里有你前所未见的篮球赛场，你将担任教练，带领一群热血篮球少女冲击全国大赛！\n\n【教练，你见过这样的赛场吗？】\n"
+        },
+        {
+          "rank": 3,
+          "name": "星途天城",
+          "publisher": "梦趣游戏",
+          "category": "游戏",
+          "app_id": "6503579813",
+          "url": "https://apps.apple.com/cn/app/%E6%98%9F%E9%80%94%E5%A4%A9%E5%9F%8E/id6503579813?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/07/55/8e07553c-b115-852a-af35-79be661e436b/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "【游戏特点】\n\n穿越！蒸汽幻想，巡游天城\n《星途天城》以19世纪工业幻想为基底，融合蒸汽朋克、神秘学与神话元素，构建出一个多文明并存的幻想大陆。调查员将驾驭飞艇"
+        },
+        {
+          "rank": 52,
+          "name": "小小英杰：合战天下",
+          "publisher": "Shanghai Sparking Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6781578236",
+          "url": "https://apps.apple.com/cn/app/%E5%B0%8F%E5%B0%8F%E8%8B%B1%E6%9D%B0-%E5%90%88%E6%88%98%E5%A4%A9%E4%B8%8B/id6781578236?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/e5/84/89e58437-96ab-e1eb-e1b8-c5e3a15e8843/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《小小英杰：合战天下》是一款以群雄争霸为题材的策略卡牌放置手游。你将招募各路英杰，组建专属阵容，运用不同武将定位、技能搭配与阵营组合，在乱世中逐步扩张势力，体验"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 96,
+          "name": "天天爱消除",
+          "publisher": "Tencent Mobile Games",
+          "category": "游戏",
+          "app_id": "654897098",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E7%88%B1%E6%B6%88%E9%99%A4/id654897098?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/97/9e/9d979e9b-ea6f-188f-f200-64928d70b9ca/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
+          "slogan": "《天天爱消除》是一款以“消除烦恼，治愈心灵”为主题的萌系治愈向消除手游，陪伴玩家度过了10个寒暑！轻划手指，将三个相同的小动物旗子连成一行或一列，即可完成一次消"
+        },
+        {
+          "rank": 99,
+          "name": "美职篮全明星",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "6711336814",
+          "url": "https://apps.apple.com/cn/app/%E7%BE%8E%E8%81%8C%E7%AF%AE%E5%85%A8%E6%98%8E%E6%98%9F/id6711336814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/69/69/f1/6969f1cb-5940-136a-a794-6cac36222b2c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《NBA2K All Star》（美职篮全明星）是由NBA正版授权、2K团队携手腾讯联合打造的竞技篮球手游。游戏采用全新的2K引擎研发，沿袭了NBA2K系列在画"
+        },
+        {
+          "rank": 100,
+          "name": "绝区零",
+          "publisher": "miHoYo Games",
+          "category": "游戏",
+          "app_id": "1606359076",
+          "url": "https://apps.apple.com/cn/app/%E7%BB%9D%E5%8C%BA%E9%9B%B6/id1606359076?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/3f/f5/bf3ff510-7b42-85f3-3fc3-6b5775486308/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "不要进入空洞。\n我知道我知道，空洞里有以太资源、有异化造物、甚至有旧文明的遗产，全都是珍贵的财富。\n但是别忘了，那里面空间紊乱，怪物肆虐，异变横生，终究是一场吞"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "篮球少女：飞跃巅峰",
+          "publisher": "Lingxi Games Inc.",
+          "category": "游戏",
+          "app_id": "6800167533",
+          "url": "https://apps.apple.com/cn/app/%E7%AF%AE%E7%90%83%E5%B0%91%E5%A5%B3-%E9%A3%9E%E8%B7%83%E5%B7%85%E5%B3%B0/id6800167533?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/f7/85/55f78515-ee43-bf22-293b-0d604e6aefcc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《篮球少女：飞跃巅峰》是新一代运动少女养成游戏。这里有你前所未见的篮球赛场，你将担任教练，带领一群热血篮球少女冲击全国大赛！\n\n【教练，你见过这样的赛场吗？】\n"
+        },
+        {
+          "rank": 3,
+          "name": "星途天城",
+          "publisher": "梦趣游戏",
+          "category": "游戏",
+          "app_id": "6503579813",
+          "url": "https://apps.apple.com/cn/app/%E6%98%9F%E9%80%94%E5%A4%A9%E5%9F%8E/id6503579813?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/07/55/8e07553c-b115-852a-af35-79be661e436b/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "【游戏特点】\n\n穿越！蒸汽幻想，巡游天城\n《星途天城》以19世纪工业幻想为基底，融合蒸汽朋克、神秘学与神话元素，构建出一个多文明并存的幻想大陆。调查员将驾驭飞艇"
+        },
+        {
+          "rank": 8,
+          "name": "希望之启航：哈比兔喊你归队了",
+          "publisher": "Hangzhou Runhe Network Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6810632075",
+          "url": "https://apps.apple.com/cn/app/%E5%B8%8C%E6%9C%9B%E4%B9%8B%E5%90%AF%E8%88%AA-%E5%93%88%E6%AF%94%E5%85%94%E5%96%8A%E4%BD%A0%E5%BD%92%E9%98%9F%E4%BA%86/id6810632075?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/30/dc/1730dc6d-31d1-5075-3ecb-af6513316a51/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《希望之启航》是一款经典Q版3D MMORPG手游，还原希望经典玩法。六大职业自由选择，上百种萌宠收集养成，组队开荒军团争霸，希尔特大陆等你归来！\n\n【希尔特冒"
+        },
+        {
+          "rank": 52,
+          "name": "小小英杰：合战天下",
+          "publisher": "Shanghai Sparking Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6781578236",
+          "url": "https://apps.apple.com/cn/app/%E5%B0%8F%E5%B0%8F%E8%8B%B1%E6%9D%B0-%E5%90%88%E6%88%98%E5%A4%A9%E4%B8%8B/id6781578236?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/e5/84/89e58437-96ab-e1eb-e1b8-c5e3a15e8843/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《小小英杰：合战天下》是一款以群雄争霸为题材的策略卡牌放置手游。你将招募各路英杰，组建专属阵容，运用不同武将定位、技能搭配与阵营组合，在乱世中逐步扩张势力，体验"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 3,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "篮球少女：飞跃巅峰",
+          "publisher": "Lingxi Games Inc.",
+          "category": "游戏",
+          "app_id": "6800167533",
+          "url": "https://apps.apple.com/cn/app/%E7%AF%AE%E7%90%83%E5%B0%91%E5%A5%B3-%E9%A3%9E%E8%B7%83%E5%B7%85%E5%B3%B0/id6800167533?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/f7/85/55f78515-ee43-bf22-293b-0d604e6aefcc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《篮球少女：飞跃巅峰》是新一代运动少女养成游戏。这里有你前所未见的篮球赛场，你将担任教练，带领一群热血篮球少女冲击全国大赛！\n\n【教练，你见过这样的赛场吗？】\n"
+        },
+        {
+          "rank": 3,
+          "name": "星途天城",
+          "publisher": "梦趣游戏",
+          "category": "游戏",
+          "app_id": "6503579813",
+          "url": "https://apps.apple.com/cn/app/%E6%98%9F%E9%80%94%E5%A4%A9%E5%9F%8E/id6503579813?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/07/55/8e07553c-b115-852a-af35-79be661e436b/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "【游戏特点】\n\n穿越！蒸汽幻想，巡游天城\n《星途天城》以19世纪工业幻想为基底，融合蒸汽朋克、神秘学与神话元素，构建出一个多文明并存的幻想大陆。调查员将驾驭飞艇"
+        },
+        {
+          "rank": 8,
+          "name": "希望之启航：哈比兔喊你归队了",
+          "publisher": "Hangzhou Runhe Network Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6810632075",
+          "url": "https://apps.apple.com/cn/app/%E5%B8%8C%E6%9C%9B%E4%B9%8B%E5%90%AF%E8%88%AA-%E5%93%88%E6%AF%94%E5%85%94%E5%96%8A%E4%BD%A0%E5%BD%92%E9%98%9F%E4%BA%86/id6810632075?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/30/dc/1730dc6d-31d1-5075-3ecb-af6513316a51/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《希望之启航》是一款经典Q版3D MMORPG手游，还原希望经典玩法。六大职业自由选择，上百种萌宠收集养成，组队开荒军团争霸，希尔特大陆等你归来！\n\n【希尔特冒"
+        },
+        {
+          "rank": 52,
+          "name": "小小英杰：合战天下",
+          "publisher": "Shanghai Sparking Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6781578236",
+          "url": "https://apps.apple.com/cn/app/%E5%B0%8F%E5%B0%8F%E8%8B%B1%E6%9D%B0-%E5%90%88%E6%88%98%E5%A4%A9%E4%B8%8B/id6781578236?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/e5/84/89e58437-96ab-e1eb-e1b8-c5e3a15e8843/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《小小英杰：合战天下》是一款以群雄争霸为题材的策略卡牌放置手游。你将招募各路英杰，组建专属阵容，运用不同武将定位、技能搭配与阵营组合，在乱世中逐步扩张势力，体验"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 3,
+          "name": "キタキタ王様",
+          "publisher": "EFUN FRONT COMPANY LIMITED",
+          "category": "ゲーム",
+          "app_id": "6768868898",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AD%E3%82%BF%E3%82%AD%E3%82%BF%E7%8E%8B%E6%A7%98/id6768868898?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/4b/02/654b0260-1964-c96b-19b7-6fbf963f17c5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "あのちゃんがアンバサダーを務める『キタキタ王様』が事前登録受付中！\nランダムスキルに合成、編成――彼女と共に、運と決断で戦況をひっくり返せ！\n\n幸運キタキタ、運"
+        },
+        {
+          "rank": 95,
+          "name": "ダンジョンスラッシャー：ローグライクRPG",
+          "publisher": "gihyeon lim",
+          "category": "ゲーム",
+          "app_id": "1620305888",
+          "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%B9%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A3%E3%83%BC-%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%82%AFrpg/id1620305888?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/06/7d/2a067df4-80d4-18cf-6033-6b1373d36cd9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "いつでもどこでも楽しめる、横スクロール×ローグライクの本格アクションRPG！\nスキルと遺物を組み合わせ、毎回異なるビルドで強敵に挑もう。\n\n【ゲームの特徴】\n\n"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 87,
+          "name": "パズル&サバイバル",
+          "publisher": "BUILDING-BLOCKS NETWORK TECHNOLOGY CO.,LIMITED",
+          "category": "ゲーム",
+          "app_id": "1517980891",
+          "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%82%BA%E3%83%AB-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id1517980891?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/ff/59/28ff596a-db88-a20e-0f56-80df96244451/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "突然のウイルスによって、人類はゾンビと化した。終末に聞こえてくるのは、ゾンビのささやきなのか、または生存者の叫びなのか、それとも避難所の警報なのか\n「パズル＆サ"
+        },
+        {
+          "rank": 88,
+          "name": "オフラインゲーム - 暇つぶし ゲーム - パズルゲーム",
+          "publisher": "Moreno Maio",
+          "category": "ゲーム",
+          "app_id": "6448104157",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0-%E6%9A%87%E3%81%A4%E3%81%B6%E3%81%97-%E3%82%B2%E3%83%BC%E3%83%A0-%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6448104157?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/31/b8/c431b886-ec97-a961-b096-d14420542794/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「オフラインゲーム」の準備をしよう：すべての年齢層に楽しい、そして頭脳トレーニングにもなる！このオフラインゲームコレクションは、20以上のユニークなミニゲームが"
+        },
+        {
+          "rank": 90,
+          "name": "Battle Kiss",
+          "publisher": "Smart Fun Limited",
+          "category": "ゲーム",
+          "app_id": "6739955204",
+          "url": "https://apps.apple.com/jp/app/battle-kiss/id6739955204?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/43/58/3243587c-57b0-b7d5-9710-d14296580bb8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ランダムに生成されるレベルマップ、敵の構成、そして特別なイベントで戦い、すべての旅が新たな冒険となる！\n高速で弾幕が張られる中、毎秒、致命的な選択を迫られる。「"
+        },
+        {
+          "rank": 93,
+          "name": "どうぶつタワーバトル - オンライン対戦ゲーム",
+          "publisher": "Yabuzaki Company, Inc.",
+          "category": "ゲーム",
+          "app_id": "1173389241",
+          "url": "https://apps.apple.com/jp/app/%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%82%BF%E3%83%AF%E3%83%BC%E3%83%90%E3%83%88%E3%83%AB-%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E5%AF%BE%E6%88%A6%E3%82%B2%E3%83%BC%E3%83%A0/id1173389241?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/ec/ed/f1eced41-fef4-aa51-7f45-19b5cbfd7409/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "▼▽かわいくリアルな動物を積んでいくゲーム「どうぶつタワー」がリアルタイム対戦できるようになりました▼▽\n\n▼▽iOSアプリ無料総合ランキング１位獲得しました▼"
+        },
+        {
+          "rank": 99,
+          "name": "ねじねじパズル",
+          "publisher": "Chengdu Warrior Tech Limited",
+          "category": "ゲーム",
+          "app_id": "6737022506",
+          "url": "https://apps.apple.com/jp/app/%E3%81%AD%E3%81%98%E3%81%AD%E3%81%98%E3%83%91%E3%82%BA%E3%83%AB/id6737022506?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/22/7e/05227e1c-9524-19ee-ef8e-1454b16b1b04/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "ネジをひねって、プレッシャーから解放！巧みに配置されたネジをすべて外し、パネルを完全に空にするパズルゲームです。遊び方はシンプルですが、頭を使う奥深いチャレンジ"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 3,
+          "name": "キタキタ王様",
+          "publisher": "EFUN FRONT COMPANY LIMITED",
+          "category": "ゲーム",
+          "app_id": "6768868898",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AD%E3%82%BF%E3%82%AD%E3%82%BF%E7%8E%8B%E6%A7%98/id6768868898?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/4b/02/654b0260-1964-c96b-19b7-6fbf963f17c5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "あのちゃんがアンバサダーを務める『キタキタ王様』が事前登録受付中！\nランダムスキルに合成、編成――彼女と共に、運と決断で戦況をひっくり返せ！\n\n幸運キタキタ、運"
+        },
+        {
+          "rank": 95,
+          "name": "ダンジョンスラッシャー：ローグライクRPG",
+          "publisher": "gihyeon lim",
+          "category": "ゲーム",
+          "app_id": "1620305888",
+          "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%B9%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A3%E3%83%BC-%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%82%AFrpg/id1620305888?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/06/7d/2a067df4-80d4-18cf-6033-6b1373d36cd9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "いつでもどこでも楽しめる、横スクロール×ローグライクの本格アクションRPG！\nスキルと遺物を組み合わせ、毎回異なるビルドで強敵に挑もう。\n\n【ゲームの特徴】\n\n"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 5,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 3,
+          "name": "キタキタ王様",
+          "publisher": "EFUN FRONT COMPANY LIMITED",
+          "category": "ゲーム",
+          "app_id": "6768868898",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AD%E3%82%BF%E3%82%AD%E3%82%BF%E7%8E%8B%E6%A7%98/id6768868898?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/4b/02/654b0260-1964-c96b-19b7-6fbf963f17c5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "あのちゃんがアンバサダーを務める『キタキタ王様』が事前登録受付中！\nランダムスキルに合成、編成――彼女と共に、運と決断で戦況をひっくり返せ！\n\n幸運キタキタ、運"
+        },
+        {
+          "rank": 95,
+          "name": "ダンジョンスラッシャー：ローグライクRPG",
+          "publisher": "gihyeon lim",
+          "category": "ゲーム",
+          "app_id": "1620305888",
+          "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%B9%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A3%E3%83%BC-%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%82%AFrpg/id1620305888?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/06/7d/2a067df4-80d4-18cf-6033-6b1373d36cd9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "いつでもどこでも楽しめる、横スクロール×ローグライクの本格アクションRPG！\nスキルと遺物を組み合わせ、毎回異なるビルドで強敵に挑もう。\n\n【ゲームの特徴】\n\n"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 95,
+          "name": "Click Wood",
+          "publisher": "Heartsnet",
+          "category": "Games",
+          "package": "com.heartsnet.clickwood.gp"
+        },
+        {
+          "rank": 99,
+          "name": "Color Maze",
+          "publisher": "Beijing Youyoutang Technology Co.,ltd.",
+          "category": "Games",
+          "package": "com.red.arrows.android"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 98,
+          "name": "Dot Link - Connect the Dots",
+          "publisher": "Bluetile",
+          "category": "Games",
+          "package": "com.playvalve.connect.dots"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 95,
+          "name": "Click Wood",
+          "publisher": "Heartsnet",
+          "category": "Games",
+          "package": "com.heartsnet.clickwood.gp"
+        },
+        {
+          "rank": 99,
+          "name": "Color Maze",
+          "publisher": "Beijing Youyoutang Technology Co.,ltd.",
+          "category": "Games",
+          "package": "com.red.arrows.android"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 95,
+          "name": "Click Wood",
+          "publisher": "Heartsnet",
+          "category": "Games",
+          "package": "com.heartsnet.clickwood.gp"
+        },
+        {
+          "rank": 99,
+          "name": "Color Maze",
+          "publisher": "Beijing Youyoutang Technology Co.,ltd.",
+          "category": "Games",
+          "package": "com.red.arrows.android"
+        }
+      ]
+    }
+  }
+}
