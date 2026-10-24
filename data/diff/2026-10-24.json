@@ -1,0 +1,655 @@
+{
+  "date": "2026-10-24",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "甄嬛传",
+          "publisher": "雷霆游戏",
+          "category": "模拟",
+          "subcategory": "休闲、模拟经营、养成、换装、放置"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 39,
+          "name": "Manhunt: Hide & Seek",
+          "publisher": "Integrated Reality Labs Inc.",
+          "category": "Games",
+          "app_id": "6560107504",
+          "url": "https://apps.apple.com/us/app/manhunt-hide-seek/id6560107504?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/1d/e5/9f1de5bf-e474-7865-293a-50bb770b52d3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "Play Manhunt and Hide & Seek anywhere in the world. With extensive location find"
+        },
+        {
+          "rank": 100,
+          "name": "Just a Rock",
+          "publisher": "Heseri Games Inc",
+          "category": "Games",
+          "app_id": "6810886970",
+          "url": "https://apps.apple.com/us/app/just-a-rock/id6810886970?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/fb/27/c2fb2777-87be-cd91-6d6d-81e2d51d4d64/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Grow a bigger rock with every run. Slingshot it downhill, smash everything in yo"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 71,
+          "name": "Imposter Game - Party Edition",
+          "publisher": "Sven Vucak",
+          "category": "Games",
+          "app_id": "6745120053",
+          "url": "https://apps.apple.com/us/app/imposter-game-party-edition/id6745120053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/69/e0/1069e0bd-1564-9f77-7ea4-a8072e6e90ff/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.png",
+          "slogan": "Are you the imposter - or will you expose them?\n\nImposter is the perfect game fo"
+        },
+        {
+          "rank": 79,
+          "name": "Geometry Dash Lite",
+          "publisher": "RobTop Games AB",
+          "category": "Games",
+          "app_id": "698255242",
+          "url": "https://apps.apple.com/us/app/geometry-dash-lite/id698255242?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d3/97/d0/d397d053-137e-e7e5-82b2-123cabb4ffa8/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "Jump and fly your way through danger in this rhythm-based action platformer!\n\n\"F"
+        },
+        {
+          "rank": 87,
+          "name": "Clash Royale",
+          "publisher": "Supercell",
+          "category": "Games",
+          "app_id": "1053012308",
+          "url": "https://apps.apple.com/us/app/clash-royale/id1053012308?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/dd/c2/e1ddc25b-e234-42ac-7748-1c663d309cf9/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "Enter the Arena! Build your Battle Deck and outsmart the enemy in fast real-time"
+        },
+        {
+          "rank": 90,
+          "name": "Satisfying Clean ASMR",
+          "publisher": "DongZ Game",
+          "category": "Games",
+          "app_id": "6767180267",
+          "url": "https://apps.apple.com/us/app/satisfying-clean-asmr/id6767180267?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2f/4d/c7/2f4dc74a-4460-8b84-864f-d45f0ffd0a35/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "Clean, Restore & Relax in Satisfying Clean ASMR — the ultimate stress relief and"
+        },
+        {
+          "rank": 92,
+          "name": "EA SPORTS FC Soccer Mobile 27",
+          "publisher": "Electronic Arts",
+          "category": "Games",
+          "app_id": "1094930513",
+          "url": "https://apps.apple.com/us/app/ea-sports-fc-soccer-mobile-27/id1094930513?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/d1/84/41d18457-ec03-6812-f0a7-8a83686c6009/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This game includes optional in-game purchases of virtual currency that can be us"
+        },
+        {
+          "rank": 95,
+          "name": "Brawl Stars",
+          "publisher": "Supercell",
+          "category": "Games",
+          "app_id": "1229016807",
+          "url": "https://apps.apple.com/us/app/brawl-stars/id1229016807?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/98/dd/2798dd4e-f772-d93b-0a82-588d3fb55302/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Fast paced 3v3 & 5v5 MOBA and Battle Royale made for mobile! Play online with fr"
+        },
+        {
+          "rank": 96,
+          "name": "Police Chief",
+          "publisher": "VoyagerOne",
+          "category": "Games",
+          "app_id": "6757350661",
+          "url": "https://apps.apple.com/us/app/police-chief/id6757350661?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/66/6e/f6666e27-941a-f9fe-823e-177b0d34271f/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "The world is shrouded in crime. Cities teem with gangs, smuggling rings, and ass"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 39,
+          "name": "Manhunt: Hide & Seek",
+          "publisher": "Integrated Reality Labs Inc.",
+          "category": "Games",
+          "app_id": "6560107504",
+          "url": "https://apps.apple.com/us/app/manhunt-hide-seek/id6560107504?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/1d/e5/9f1de5bf-e474-7865-293a-50bb770b52d3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "Play Manhunt and Hide & Seek anywhere in the world. With extensive location find"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 7,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 39,
+          "name": "Manhunt: Hide & Seek",
+          "publisher": "Integrated Reality Labs Inc.",
+          "category": "Games",
+          "app_id": "6560107504",
+          "url": "https://apps.apple.com/us/app/manhunt-hide-seek/id6560107504?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/1d/e5/9f1de5bf-e474-7865-293a-50bb770b52d3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "Play Manhunt and Hide & Seek anywhere in the world. With extensive location find"
+        },
+        {
+          "rank": 100,
+          "name": "Just a Rock",
+          "publisher": "Heseri Games Inc",
+          "category": "Games",
+          "app_id": "6810886970",
+          "url": "https://apps.apple.com/us/app/just-a-rock/id6810886970?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/fb/27/c2fb2777-87be-cd91-6d6d-81e2d51d4d64/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Grow a bigger rock with every run. Slingshot it downhill, smash everything in yo"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 17,
+          "name": "找茬我最强-慧眼探玄机",
+          "publisher": "俊杰 赵",
+          "category": "游戏",
+          "app_id": "6812693698",
+          "url": "https://apps.apple.com/cn/app/%E6%89%BE%E8%8C%AC%E6%88%91%E6%9C%80%E5%BC%BA-%E6%85%A7%E7%9C%BC%E6%8E%A2%E7%8E%84%E6%9C%BA/id6812693698?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/5a/f7/c65af7c8-647f-329b-7ab5-33090aae502c/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "眼力大考验，等你来挑战《找茬我最强》化身萌趣侦查能手，投身海量精美找茬关卡。双图对比玩法上线，两张相似画面藏满小玄机，紧盯画面细节，按照提示指引，在规定时限找出"
+        },
+        {
+          "rank": 36,
+          "name": "方块我最强-草甸碎块记",
+          "publisher": "俊博 王",
+          "category": "游戏",
+          "app_id": "6809443639",
+          "url": "https://apps.apple.com/cn/app/%E6%96%B9%E5%9D%97%E6%88%91%E6%9C%80%E5%BC%BA-%E8%8D%89%E7%94%B8%E7%A2%8E%E5%9D%97%E8%AE%B0/id6809443639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/dd/56/6cdd5627-d81f-b99a-7735-9a44b671941c/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "踏入风草摇曳的辽阔草原，化身一往无前的草原骑士，一场与方块小妖交锋的趣味冒险，自此正式启程。\n草原各处散落着色彩斑斓的方块小妖，它们以棱角分明的形态盘踞关卡，或"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 71,
+          "name": "迷你枪战精英",
+          "publisher": "Hainan Mengxing Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "1551614000",
+          "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E6%9E%AA%E6%88%98%E7%B2%BE%E8%8B%B1/id1551614000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/c5/f3/20c5f3ba-6c83-5c95-a1c3-51b5f60ddac9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《迷你枪战精英》是迷你世界IP矩阵下全新推出的一款射击手游。明亮清新的Q版画风，紧张刺激的团队对抗，提供不同以往的 游戏体验。游戏内小艾、幻音、幻-零式、华乐等"
+        },
+        {
+          "rank": 89,
+          "name": "洛克王国：世界",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "6478654994",
+          "url": "https://apps.apple.com/cn/app/%E6%B4%9B%E5%85%8B%E7%8E%8B%E5%9B%BD-%E4%B8%96%E7%95%8C/id6478654994?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/0f/62/830f6288-348c-6985-4710-626f9ccfb7ef/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "《洛克王国：世界》是腾讯魔方工作室群自主研发的精灵大世界游戏。基于童年回忆“洛克王国”IP，集精灵收集对战、开放世界探索与自由轻松社交于一体，打造充满回忆与美好"
+        },
+        {
+          "rank": 90,
+          "name": "消俄罗斯方块 - 经典消除益智小游戏",
+          "publisher": "巧莲 李",
+          "category": "游戏",
+          "app_id": "6758330501",
+          "url": "https://apps.apple.com/cn/app/%E6%B6%88%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97-%E7%BB%8F%E5%85%B8%E6%B6%88%E9%99%A4%E7%9B%8A%E6%99%BA%E5%B0%8F%E6%B8%B8%E6%88%8F/id6758330501?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/68/e5/ee68e592-925f-8017-a541-81b9ac086f69/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "经典俄罗斯方块玩法全新升级！拖动方块填充棋盘，满行 / 满列即可一键消除，轻松解锁连消快感。\n怀旧画风搭配解压音效，碎片时间随时畅玩，从 “连消新人” 到 “消"
+        },
+        {
+          "rank": 94,
+          "name": "模拟城市：我是市长",
+          "publisher": "Beijing Bewinner Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "1174766830",
+          "url": "https://apps.apple.com/cn/app/%E6%A8%A1%E6%8B%9F%E5%9F%8E%E5%B8%82-%E6%88%91%E6%98%AF%E5%B8%82%E9%95%BF/id1174766830?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/83/06/3c83064f-0fc2-5c12-8135-ddb673ffa183/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "享誉全球的经典3D模拟经营手游，倾情打造全新“开元古都”国风资料片！\n\n由EA开发、蜂巢游戏独家国内发行的《模拟城市：我是市长》，即将迎来市民入驻啦！一起建设高"
+        },
+        {
+          "rank": 96,
+          "name": "云•王者荣耀",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "6468988672",
+          "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/id6468988672?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/46/25/ca4625d5-342c-5c37-c127-49e2d6af42d3/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "《云•王者荣耀》是由腾讯先锋云游戏和《王者荣耀》联合发布的云游戏版本。约30M的超小包体即可体验游戏完整内容，免更新、不发热、低耗电、一键下载，立即体验!\n\n王"
+        },
+        {
+          "rank": 97,
+          "name": "逆水寒",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1541570980",
+          "url": "https://apps.apple.com/cn/app/%E9%80%86%E6%B0%B4%E5%AF%92/id1541570980?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/53/77/6653776f-25b2-caec-4424-2075dac481c9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《逆水寒》手游是一款国风开放世界武侠游戏，以精湛细腻的画质、真实灵动的江湖氛围、颠覆传统MMO套路、智能AI深度植入影响游戏世界而著称，被称为“会呼吸的江湖”。"
+        },
+        {
+          "rank": 98,
+          "name": "鸣潮",
+          "publisher": "库洛游戏",
+          "category": "游戏",
+          "app_id": "6450693428",
+          "url": "https://apps.apple.com/cn/app/%E9%B8%A3%E6%BD%AE/id6450693428?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/cf/3f/e4cf3f12-fccf-58c3-9c87-de268c3d3e2e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《鸣潮》是一款跨平台开放世界动作游戏，主打高自由度的动作战斗玩法与丰富多样的开放世界探索。而你，在这个世界苏醒的漂泊者，将在找回记忆、寻找自我身份的同时结识无数"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 17,
+          "name": "找茬我最强-慧眼探玄机",
+          "publisher": "俊杰 赵",
+          "category": "游戏",
+          "app_id": "6812693698",
+          "url": "https://apps.apple.com/cn/app/%E6%89%BE%E8%8C%AC%E6%88%91%E6%9C%80%E5%BC%BA-%E6%85%A7%E7%9C%BC%E6%8E%A2%E7%8E%84%E6%9C%BA/id6812693698?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/5a/f7/c65af7c8-647f-329b-7ab5-33090aae502c/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "眼力大考验，等你来挑战《找茬我最强》化身萌趣侦查能手，投身海量精美找茬关卡。双图对比玩法上线，两张相似画面藏满小玄机，紧盯画面细节，按照提示指引，在规定时限找出"
+        },
+        {
+          "rank": 36,
+          "name": "方块我最强-草甸碎块记",
+          "publisher": "俊博 王",
+          "category": "游戏",
+          "app_id": "6809443639",
+          "url": "https://apps.apple.com/cn/app/%E6%96%B9%E5%9D%97%E6%88%91%E6%9C%80%E5%BC%BA-%E8%8D%89%E7%94%B8%E7%A2%8E%E5%9D%97%E8%AE%B0/id6809443639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/dd/56/6cdd5627-d81f-b99a-7735-9a44b671941c/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "踏入风草摇曳的辽阔草原，化身一往无前的草原骑士，一场与方块小妖交锋的趣味冒险，自此正式启程。\n草原各处散落着色彩斑斓的方块小妖，它们以棱角分明的形态盘踞关卡，或"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 7,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 17,
+          "name": "找茬我最强-慧眼探玄机",
+          "publisher": "俊杰 赵",
+          "category": "游戏",
+          "app_id": "6812693698",
+          "url": "https://apps.apple.com/cn/app/%E6%89%BE%E8%8C%AC%E6%88%91%E6%9C%80%E5%BC%BA-%E6%85%A7%E7%9C%BC%E6%8E%A2%E7%8E%84%E6%9C%BA/id6812693698?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/5a/f7/c65af7c8-647f-329b-7ab5-33090aae502c/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "眼力大考验，等你来挑战《找茬我最强》化身萌趣侦查能手，投身海量精美找茬关卡。双图对比玩法上线，两张相似画面藏满小玄机，紧盯画面细节，按照提示指引，在规定时限找出"
+        },
+        {
+          "rank": 36,
+          "name": "方块我最强-草甸碎块记",
+          "publisher": "俊博 王",
+          "category": "游戏",
+          "app_id": "6809443639",
+          "url": "https://apps.apple.com/cn/app/%E6%96%B9%E5%9D%97%E6%88%91%E6%9C%80%E5%BC%BA-%E8%8D%89%E7%94%B8%E7%A2%8E%E5%9D%97%E8%AE%B0/id6809443639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/dd/56/6cdd5627-d81f-b99a-7735-9a44b671941c/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "踏入风草摇曳的辽阔草原，化身一往无前的草原骑士，一场与方块小妖交锋的趣味冒险，自此正式启程。\n草原各处散落着色彩斑斓的方块小妖，它们以棱角分明的形态盘踞关卡，或"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 4,
+          "name": "ポリスチーフ",
+          "publisher": "VoyagerOne",
+          "category": "ゲーム",
+          "app_id": "6757350661",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%83%AA%E3%82%B9%E3%83%81%E3%83%BC%E3%83%95/id6757350661?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/66/6e/f6666e27-941a-f9fe-823e-177b0d34271f/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "ここは犯罪の影に覆われた世界。ギャングがのさばり、ドラッグが蔓延り、暗殺組織が猛威を振るう街で、市民は不安に怯えながら暮らしています。\n\n新任の警察署長となり、"
+        },
+        {
+          "rank": 10,
+          "name": "新・都道府県ゲーム",
+          "publisher": "masato nishikawa",
+          "category": "ゲーム",
+          "app_id": "6823042308",
+          "url": "https://apps.apple.com/jp/app/%E6%96%B0-%E9%83%BD%E9%81%93%E5%BA%9C%E7%9C%8C%E3%82%B2%E3%83%BC%E3%83%A0/id6823042308?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/a7/7f/f8a77faa-9345-f178-afdc-933a2d819737/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "地図で隣り合う都道府県だけが、本物の地図どおりにくっつくパズルゲームです。\n\n東京都と神奈川県、大阪府と京都府……隣の県同士が箱の中で触れると、県境がぴったり合"
+        },
+        {
+          "rank": 87,
+          "name": "ダダサバイバー",
+          "publisher": "HABBY",
+          "category": "ゲーム",
+          "app_id": "1528941310",
+          "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%80%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id1528941310?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/7b/c0/d87bc0da-bcb5-3c22-c986-680143ec4cd4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "危険なゾンビが襲ってきた！街が大ピンチ！\n夢の試練から目覚めたキミが、責任を背負っている戦士になった！\n無限の可能性を秘めた人間の戦士よ、他の生存者たちとともに"
+        },
+        {
+          "rank": 91,
+          "name": "脱出ゲーム ハロウィンの夜",
+          "publisher": "daichi simada",
+          "category": "ゲーム",
+          "app_id": "6823125665",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E3%83%8F%E3%83%AD%E3%82%A6%E3%82%A3%E3%83%B3%E3%81%AE%E5%A4%9C/id6823125665?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/57/87/fa578704-6b13-dd78-b74a-f2ea64754d03/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【このゲームの特徴】\n・ハロウィンが舞台のユニークな脱出ゲーム\n・グラフィックにこだわった美しいビジュアル\n・BGMと効果音がゲームの雰囲気を盛り上げる\n・操作"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 21,
+          "name": "悪魔城ドラキュラ",
+          "publisher": "KONAMI",
+          "category": "ゲーム",
+          "app_id": "1498019884",
+          "url": "https://apps.apple.com/jp/app/%E6%82%AA%E9%AD%94%E5%9F%8E%E3%83%89%E3%83%A9%E3%82%AD%E3%83%A5%E3%83%A9/id1498019884?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/27/af/ed27afe5-3d3a-2033-a2f0-2f5b42e15baa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "シリーズの原点「悪魔城ドラキュラ」が期間限定でスマートフォンに復活。\n\n□ストーリー\n\n中世ヨーロッパにある平和な小国トランシルバニア。この国にはドラキュラにま"
+        },
+        {
+          "rank": 73,
+          "name": "荒野行動-スマホ版バトロワ",
+          "publisher": "NetEase Games",
+          "category": "ゲーム",
+          "app_id": "1312031248",
+          "url": "https://apps.apple.com/jp/app/%E8%8D%92%E9%87%8E%E8%A1%8C%E5%8B%95-%E3%82%B9%E3%83%9E%E3%83%9B%E7%89%88%E3%83%90%E3%83%88%E3%83%AD%E3%83%AF/id1312031248?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/bd/1c/92bd1c3b-bcd0-dbe2-e5e2-d0552f4913f3/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "荒野9周年祭、盛大に開催中！\nイベント参加で金車・金銃・金衣装GET！さらに、史上初！殿堂銃器までイベントでもらえる！\nメインストリート新マップ「激戦渋谷」開放"
+        },
+        {
+          "rank": 78,
+          "name": "ウッドパズル：Screw ネジ外すゲーム  - 人気 脳トレ",
+          "publisher": "LONGSEA LINK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6642698438",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A6%E3%83%83%E3%83%89%E3%83%91%E3%82%BA%E3%83%AB-screw-%E3%83%8D%E3%82%B8%E5%A4%96%E3%81%99%E3%82%B2%E3%83%BC%E3%83%A0-%E4%BA%BA%E6%B0%97-%E8%84%B3%E3%83%88%E3%83%AC/id6642698438?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/55/fe/bc55fe57-6a59-fd30-76d2-8c3d8f7f55e1/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "「ウッドパズル：Screw ネジ外すゲーム - 人気 脳トレ」へようこそ！\nシンプルな操作で誰でも楽しめる「ウッドパズル：Screw ネジ外すゲーム」は、ナット"
+        },
+        {
+          "rank": 89,
+          "name": "ワクワク電車ライフ - 街を発展！車掌ゲーム",
+          "publisher": "ONIGIRI GAMES",
+          "category": "ゲーム",
+          "app_id": "6780728551",
+          "url": "https://apps.apple.com/jp/app/%E3%83%AF%E3%82%AF%E3%83%AF%E3%82%AF%E9%9B%BB%E8%BB%8A%E3%83%A9%E3%82%A4%E3%83%95-%E8%A1%97%E3%82%92%E7%99%BA%E5%B1%95-%E8%BB%8A%E6%8E%8C%E3%82%B2%E3%83%BC%E3%83%A0/id6780728551?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/69/08/5f6908e5-a1c6-c92d-e514-7dbca5c452d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "日本の電車を運転して、たくさんの乗客を駅まで届けよう！\n乗客を運ぶほどコインが増え、車両のスピードや性能をどんどんアップグレード！\n\nあなたの選択によって路線や"
+        },
+        {
+          "rank": 90,
+          "name": "ペタペタペンギン団",
+          "publisher": "MOREFUN (H.K.) LIMITED",
+          "category": "ゲーム",
+          "app_id": "6742937695",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9A%E3%82%BF%E3%83%9A%E3%82%BF%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3%E5%9B%A3/id6742937695?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/fa/57/61fa5759-f2c1-0003-d642-1b4ee404af89/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【無料で３０００連ガチャ、豪華特典ゲット！】\nペタペタペンギン団、予約数100万突破！今DLして無料で3000連ガチャを引ける！さらに地域限定スキン・「剣魂」（"
+        },
+        {
+          "rank": 93,
+          "name": "ニッポン征服 - 面白い 選択ゲーム",
+          "publisher": "ONIGIRI GAMES",
+          "category": "ゲーム",
+          "app_id": "6743064514",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E5%BE%81%E6%9C%8D-%E9%9D%A2%E7%99%BD%E3%81%84-%E9%81%B8%E6%8A%9E%E3%82%B2%E3%83%BC%E3%83%A0/id6743064514?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/3e/57/a03e5793-1f84-d17a-3446-b23835020825/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "あなたの選択で国が変わる！\n\n\nあなたは日本の総理大臣として、さまざまな政策を選択し、理想の国づくりを目指します。\n正しい選択をすれば、人口・お金・頭脳が増加し"
+        },
+        {
+          "rank": 95,
+          "name": "耳だけ捜査線 - 暇つぶし論理パズルゲーム",
+          "publisher": "FTY LLC.",
+          "category": "ゲーム",
+          "app_id": "6754370732",
+          "url": "https://apps.apple.com/jp/app/%E8%80%B3%E3%81%A0%E3%81%91%E6%8D%9C%E6%9F%BB%E7%B7%9A-%E6%9A%87%E3%81%A4%E3%81%B6%E3%81%97%E8%AB%96%E7%90%86%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6754370732?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/0a/63/c90a630a-b840-1f50-2065-5fea3d1bd08c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "今日もパトロールご苦労様です！\n\n警察署のメンバーと一緒に事件を解決してください！\n事件解決の鍵は参考人たちの証言。だれも嘘をつかないこの世界では証言を頼りに無"
+        },
+        {
+          "rank": 97,
+          "name": "Family Farm Merge",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6760998152",
+          "url": "https://apps.apple.com/jp/app/family-farm-merge/id6760998152?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/ab/d0/caabd008-7c04-5ba5-31eb-efb1bc636c35/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Family Farm Merge：自然へと戻るマージの冒険！\n\n『Family Farm Merge』へようこそ。これは、名作『Family Farm』シリー"
+        },
+        {
+          "rank": 99,
+          "name": "魔法のタイルズ 3™: 音ゲー ピアノタイル",
+          "publisher": "Amanotes Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "1443446174",
+          "url": "https://apps.apple.com/jp/app/%E9%AD%94%E6%B3%95%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%BA-3-%E9%9F%B3%E3%82%B2%E3%83%BC-%E3%83%94%E3%82%A2%E3%83%8E%E3%82%BF%E3%82%A4%E3%83%AB/id1443446174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5a/ff/24/5aff2443-13ae-423c-caa8-10d4ec4b08a5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一年で一番大切な瞬間を、リズムにのって楽しみましょう！ヒット曲のビートで、魂ごとを音楽にのせていきましょう。\n\n\nMagic Tiles 3では、ポップス、ラッ"
+        },
+        {
+          "rank": 100,
+          "name": "にゃんこ大戦争",
+          "publisher": "ponos corporation",
+          "category": "ゲーム",
+          "app_id": "547145938",
+          "url": "https://apps.apple.com/jp/app/%E3%81%AB%E3%82%83%E3%82%93%E3%81%93%E5%A4%A7%E6%88%A6%E4%BA%89/id547145938?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/c5/ee/abc5ee63-5b7b-433a-bf99-a8b86339c447/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "にゃんこ大戦争は全世界累計1億2000万DL達成！\n世界中で大人気！ 誰でもお手軽プレイ!!\nにゃんこバトルゲーム!!\n「キモかわにゃんこ」が日本を、未来を、\n"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "新・都道府県ゲーム",
+          "publisher": "masato nishikawa",
+          "category": "ゲーム",
+          "app_id": "6823042308",
+          "url": "https://apps.apple.com/jp/app/%E6%96%B0-%E9%83%BD%E9%81%93%E5%BA%9C%E7%9C%8C%E3%82%B2%E3%83%BC%E3%83%A0/id6823042308?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/a7/7f/f8a77faa-9345-f178-afdc-933a2d819737/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "地図で隣り合う都道府県だけが、本物の地図どおりにくっつくパズルゲームです。\n\n東京都と神奈川県、大阪府と京都府……隣の県同士が箱の中で触れると、県境がぴったり合"
+        },
+        {
+          "rank": 87,
+          "name": "ダダサバイバー",
+          "publisher": "HABBY",
+          "category": "ゲーム",
+          "app_id": "1528941310",
+          "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%80%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id1528941310?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/7b/c0/d87bc0da-bcb5-3c22-c986-680143ec4cd4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "危険なゾンビが襲ってきた！街が大ピンチ！\n夢の試練から目覚めたキミが、責任を背負っている戦士になった！\n無限の可能性を秘めた人間の戦士よ、他の生存者たちとともに"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 10,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "ポリスチーフ",
+          "publisher": "VoyagerOne",
+          "category": "ゲーム",
+          "app_id": "6757350661",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%83%AA%E3%82%B9%E3%83%81%E3%83%BC%E3%83%95/id6757350661?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/66/6e/f6666e27-941a-f9fe-823e-177b0d34271f/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "ここは犯罪の影に覆われた世界。ギャングがのさばり、ドラッグが蔓延り、暗殺組織が猛威を振るう街で、市民は不安に怯えながら暮らしています。\n\n新任の警察署長となり、"
+        },
+        {
+          "rank": 10,
+          "name": "新・都道府県ゲーム",
+          "publisher": "masato nishikawa",
+          "category": "ゲーム",
+          "app_id": "6823042308",
+          "url": "https://apps.apple.com/jp/app/%E6%96%B0-%E9%83%BD%E9%81%93%E5%BA%9C%E7%9C%8C%E3%82%B2%E3%83%BC%E3%83%A0/id6823042308?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/a7/7f/f8a77faa-9345-f178-afdc-933a2d819737/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "地図で隣り合う都道府県だけが、本物の地図どおりにくっつくパズルゲームです。\n\n東京都と神奈川県、大阪府と京都府……隣の県同士が箱の中で触れると、県境がぴったり合"
+        },
+        {
+          "rank": 87,
+          "name": "ダダサバイバー",
+          "publisher": "HABBY",
+          "category": "ゲーム",
+          "app_id": "1528941310",
+          "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%80%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id1528941310?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/7b/c0/d87bc0da-bcb5-3c22-c986-680143ec4cd4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "危険なゾンビが襲ってきた！街が大ピンチ！\n夢の試練から目覚めたキミが、責任を背負っている戦士になった！\n無限の可能性を秘めた人間の戦士よ、他の生存者たちとともに"
+        },
+        {
+          "rank": 91,
+          "name": "脱出ゲーム ハロウィンの夜",
+          "publisher": "daichi simada",
+          "category": "ゲーム",
+          "app_id": "6823125665",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E3%83%8F%E3%83%AD%E3%82%A6%E3%82%A3%E3%83%B3%E3%81%AE%E5%A4%9C/id6823125665?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/57/87/fa578704-6b13-dd78-b74a-f2ea64754d03/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【このゲームの特徴】\n・ハロウィンが舞台のユニークな脱出ゲーム\n・グラフィックにこだわった美しいビジュアル\n・BGMと効果音がゲームの雰囲気を盛り上げる\n・操作"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 87,
+          "name": "Maze Master: Tap Away Puzzle",
+          "publisher": "Malpa Games",
+          "category": "Games",
+          "package": "com.openmygame.games.android.arrows"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 68,
+          "name": "Wordscapes Search: Word Games",
+          "publisher": "PeopleFun",
+          "category": "Games",
+          "package": "com.peoplefun.wordsearch"
+        },
+        {
+          "rank": 82,
+          "name": "Solar Smash",
+          "publisher": "Paradyme Games",
+          "category": "Games",
+          "package": "com.paradyme.solarsmash"
+        },
+        {
+          "rank": 97,
+          "name": "Solitaire",
+          "publisher": "Mouse Games",
+          "category": "Games",
+          "package": "com.smilerlee.klondike"
+        },
+        {
+          "rank": 99,
+          "name": "Bus Traffic Fever!",
+          "publisher": "GOODROID,Inc.",
+          "category": "Games",
+          "package": "jp.co.goodroid.hyper.busflow"
+        },
+        {
+          "rank": 100,
+          "name": "Mystery Town: Merge Games",
+          "publisher": "Cedar Games Studio",
+          "category": "Games",
+          "package": "com.cedargames.mysterytown"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 87,
+          "name": "Maze Master: Tap Away Puzzle",
+          "publisher": "Malpa Games",
+          "category": "Games",
+          "package": "com.openmygame.games.android.arrows"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 5,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 87,
+          "name": "Maze Master: Tap Away Puzzle",
+          "publisher": "Malpa Games",
+          "category": "Games",
+          "package": "com.openmygame.games.android.arrows"
+        }
+      ]
+    }
+  }
+}
