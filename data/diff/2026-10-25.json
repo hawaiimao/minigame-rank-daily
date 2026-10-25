@@ -1,0 +1,463 @@
+{
+  "date": "2026-10-25",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "追逐卡蕾多",
+          "publisher": "腾讯",
+          "category": "摩托车",
+          "subcategory": "美少女、二次元"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 44,
+          "name": "Charades - Family & Party Game",
+          "publisher": "Dmytro Cheverda",
+          "category": "Games",
+          "app_id": "1453837845",
+          "url": "https://apps.apple.com/us/app/charades-family-party-game/id1453837845?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/79/23/aa7923e9-8abb-1801-3c00-69f3f84a08e9/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+          "slogan": "Fun and easy to play game will cheer up your party or family gathering.\n\nGuess t"
+        },
+        {
+          "rank": 45,
+          "name": "Charades Guess Game · Guessly",
+          "publisher": "smak apps",
+          "category": "Games",
+          "app_id": "6473058122",
+          "url": "https://apps.apple.com/us/app/charades-guess-game-guessly/id6473058122?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/b3/02/fcb302ed-e67a-5ed4-1302-ae9be7b50db1/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.jpeg/100x100bb.png",
+          "slogan": "Ready to turn ordinary hangouts into unforgettable moments? Meet Guessly — a cha"
+        },
+        {
+          "rank": 86,
+          "name": "Hole.io - Original Hole Game",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "1389111413",
+          "url": "https://apps.apple.com/us/app/hole-io-original-hole-game/id1389111413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/12/0c/4b120c70-624d-0f1d-19f3-45ceeaa8c214/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Hole.io, the wildly satisfying eat-the-world game played by millions!"
+        },
+        {
+          "rank": 87,
+          "name": "Shoot & Hide",
+          "publisher": "Crazy Labs",
+          "category": "Games",
+          "app_id": "6747033069",
+          "url": "https://apps.apple.com/us/app/shoot-hide/id6747033069?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/6f/03/7f6f0361-c657-24ea-a6e4-0f5f9f68d646/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Test your timing and reflexes in a fast, satisfying game of risk and precision. "
+        },
+        {
+          "rank": 96,
+          "name": "CrownCoins Casino",
+          "publisher": "Sunflower",
+          "category": "Games",
+          "app_id": "6450413462",
+          "url": "https://apps.apple.com/us/app/crowncoins-casino/id6450413462?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/cc/1a/adcc1aea-145e-15ad-9416-1aa8f5e4a4d2/HalloweenPumpkinIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "CROWN COINS CASINO. America loves it. You will too! \nPLAY. WIN. REDEEM. REPEAT. "
+        },
+        {
+          "rank": 97,
+          "name": "Exposed - Who's Most Likely To",
+          "publisher": "vysgames",
+          "category": "Games",
+          "app_id": "1553777064",
+          "url": "https://apps.apple.com/us/app/exposed-whos-most-likely-to/id1553777064?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/05/d0/1e05d00a-12b8-03fb-11fc-457c119243ac/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Exposed is the party game that finds out who in your group is the most likely to"
+        },
+        {
+          "rank": 99,
+          "name": "2 Player Games : Offline Games",
+          "publisher": "Moreno Maio",
+          "category": "Games",
+          "app_id": "1465731199",
+          "url": "https://apps.apple.com/us/app/2-player-games-offline-games/id1465731199?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7c/14/c1/7c14c1e3-502e-ed28-e663-1d42507eabfb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "If you want to play with your friend on the same device, this is the right game!"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 7,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 92,
+          "name": "Feather and Flower",
+          "publisher": "Pranav Gokhale",
+          "category": "游戏",
+          "app_id": "6822820310",
+          "url": "https://apps.apple.com/cn/app/feather-and-flower/id6822820310?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/b1/da/a3b1da67-4394-e0d4-1e9d-defdea8ed535/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Feather and Flower is a colorful and relaxing puzzle game designed for kids, fam"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 81,
+          "name": "喵骑战域",
+          "publisher": "EasyGame Limited",
+          "category": "游戏",
+          "app_id": "6814706023",
+          "url": "https://apps.apple.com/cn/app/%E5%96%B5%E9%AA%91%E6%88%98%E5%9F%9F/id6814706023?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/48/43/1548436b-6fcd-9936-30a7-4b6927ef5a49/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "小爪子大枪?! 最可爱的放置射击RPG来啦!\n如果可爱毛茸茸的猫咪带着巨大的枪去冒险会怎样?\n可爱大爆发+刺激的火力+令人上瘾的射击游戏的结合!\n现在就来建立你"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 82,
+          "name": "The Phenomenon",
+          "publisher": "Kokots LLC",
+          "category": "游戏",
+          "app_id": "1288758206",
+          "url": "https://apps.apple.com/cn/app/the-phenomenon/id1288758206?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/d5/d6/89d5d6b6-ed6e-4675-4884-df144cc23f9b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "The Phenomenon 是一款章节式生存恐怖游戏，具有很高的重玩性，支持在线合作多人模式和跨平台游玩。游戏最早于 2015 年作为一款由一人独立开发的游戏"
+        },
+        {
+          "rank": 95,
+          "name": "时尚百货城",
+          "publisher": "深圳市爱的番茄科技有限公司",
+          "category": "游戏",
+          "app_id": "6752632961",
+          "url": "https://apps.apple.com/cn/app/%E6%97%B6%E5%B0%9A%E7%99%BE%E8%B4%A7%E5%9F%8E/id6752632961?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/f3/37/e9f337e2-a26e-7ff6-12fc-277f766e5bd9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《时尚百货城》是一款超休闲百货经营手游。每次逛街看到百货商场里琳琅满目的店铺，是不是也幻想过自己当老板的样子？是不是经常和闺蜜手挽手逛街，却发现每家店铺都大同小"
+        },
+        {
+          "rank": 96,
+          "name": "猛鬼宿舍",
+          "publisher": "Beijing Mihuan Games Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "1609347000",
+          "url": "https://apps.apple.com/cn/app/%E7%8C%9B%E9%AC%BC%E5%AE%BF%E8%88%8D/id1609347000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/b6/cc/d2b6cc90-ab64-1605-8bb3-2d84064029e9/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+          "slogan": "《猛鬼宿舍》是一款2D塔防小游戏。游戏中玩家需躲避猎梦者的追捕，寻找适合自己的宿舍躲避，并发展经济建造炮台，抵御猎梦者。游戏中玩家只可以在房间中的空地板上进行建"
+        },
+        {
+          "rank": 98,
+          "name": "香肠派对",
+          "publisher": "X.D. Network Inc.",
+          "category": "游戏",
+          "app_id": "1326730621",
+          "url": "https://apps.apple.com/cn/app/%E9%A6%99%E8%82%A0%E6%B4%BE%E5%AF%B9/id1326730621?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/e6/09/45e609aa-71a5-6378-8565-8f28a0891576/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "SS27赛季：创造与破坏 肆意的建造还是疯狂的破坏由你来决定！\n\n经典派对新武器—砖砖发射器，支持实时搭建与拆解建筑结构，战术维度全面升级！新武器—QLU-11"
+        },
+        {
+          "rank": 99,
+          "name": "极品飞车：集结",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1598249037",
+          "url": "https://apps.apple.com/cn/app/%E6%9E%81%E5%93%81%E9%A3%9E%E8%BD%A6-%E9%9B%86%E7%BB%93/id1598249037?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/bb/8d/7bbb8d29-a2b0-fe15-b7b3-3c5c36c77074/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【开放世界 自由探索】\n欢迎来到一亿平米热湾大世界，在这里，12种风貌各异的区域，20个地标以及500个玩法点等你来探索。高自由度地图搭配上丰富的单人以及多人玩"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 81,
+          "name": "喵骑战域",
+          "publisher": "EasyGame Limited",
+          "category": "游戏",
+          "app_id": "6814706023",
+          "url": "https://apps.apple.com/cn/app/%E5%96%B5%E9%AA%91%E6%88%98%E5%9F%9F/id6814706023?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/48/43/1548436b-6fcd-9936-30a7-4b6927ef5a49/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "小爪子大枪?! 最可爱的放置射击RPG来啦!\n如果可爱毛茸茸的猫咪带着巨大的枪去冒险会怎样?\n可爱大爆发+刺激的火力+令人上瘾的射击游戏的结合!\n现在就来建立你"
+        },
+        {
+          "rank": 92,
+          "name": "Feather and Flower",
+          "publisher": "Pranav Gokhale",
+          "category": "游戏",
+          "app_id": "6822820310",
+          "url": "https://apps.apple.com/cn/app/feather-and-flower/id6822820310?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/b1/da/a3b1da67-4394-e0d4-1e9d-defdea8ed535/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Feather and Flower is a colorful and relaxing puzzle game designed for kids, fam"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 5,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 81,
+          "name": "喵骑战域",
+          "publisher": "EasyGame Limited",
+          "category": "游戏",
+          "app_id": "6814706023",
+          "url": "https://apps.apple.com/cn/app/%E5%96%B5%E9%AA%91%E6%88%98%E5%9F%9F/id6814706023?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/48/43/1548436b-6fcd-9936-30a7-4b6927ef5a49/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "小爪子大枪?! 最可爱的放置射击RPG来啦!\n如果可爱毛茸茸的猫咪带着巨大的枪去冒险会怎样?\n可爱大爆发+刺激的火力+令人上瘾的射击游戏的结合!\n现在就来建立你"
+        },
+        {
+          "rank": 92,
+          "name": "Feather and Flower",
+          "publisher": "Pranav Gokhale",
+          "category": "游戏",
+          "app_id": "6822820310",
+          "url": "https://apps.apple.com/cn/app/feather-and-flower/id6822820310?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/b1/da/a3b1da67-4394-e0d4-1e9d-defdea8ed535/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Feather and Flower is a colorful and relaxing puzzle game designed for kids, fam"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 79,
+          "name": "惑星破壊ニャンニャニャン：マージサバイバー",
+          "publisher": "Veroplay",
+          "category": "ゲーム",
+          "app_id": "6803396660",
+          "url": "https://apps.apple.com/jp/app/%E6%83%91%E6%98%9F%E7%A0%B4%E5%A3%8A%E3%83%8B%E3%83%A3%E3%83%B3%E3%83%8B%E3%83%A3%E3%83%8B%E3%83%A3%E3%83%B3-%E3%83%9E%E3%83%BC%E3%82%B8%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6803396660?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/35/05/11350585-51db-3dd7-1cb0-ce5eeee7869c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "宇宙最強のネコ軍団を率いて、ブラック企業から生き延びろ!\n\n惑星3〜4個分の荷物を運んでいた末端の配送ロボットが、配送事故で未知の惑星に不時着！ さらに最悪なこ"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 71,
+          "name": "Brain Puzzle 2: Logic Twist",
+          "publisher": "SmallStep Dev Team",
+          "category": "ゲーム",
+          "app_id": "6747063674",
+          "url": "https://apps.apple.com/jp/app/brain-puzzle-2-logic-twist/id6747063674?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/e5/74/98e57453-a2a0-1a46-291f-21130a55e10a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "今回は、前作のユーモラスなストーリーテリングと脳を揺さぶるデザインを継承し、さらに豊かで驚きに満ちたパズル体験をお届けします。\n\nこのまったく新しい続編では、風"
+        },
+        {
+          "rank": 87,
+          "name": "マイステッカールーム (My Sticker Room)",
+          "publisher": "SayGames LTD",
+          "category": "ゲーム",
+          "app_id": "6743738094",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BC%E3%83%A0-my-sticker-room/id6743738094?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/3c/6d/723c6dc7-affc-41c4-74cc-5ae0981d13de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "最高に心地よいシールゲーム\n\n生きていれば辛いことだってあります。ですので時間を作ってリラックスすることはとっても大切。そして可憐でかわいいゲームなら、他では味"
+        },
+        {
+          "rank": 93,
+          "name": "Paper.io 2",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "1423046460",
+          "url": "https://apps.apple.com/jp/app/paper-io-2/id1423046460?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/2f/36/c12f368f-131c-3424-6038-b23d4645af19/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "世界中の何百万人ものプレイヤーと一緒に、最高にハマるioゲームを体験しよう！アリーナを移動して線を引き、陣地を広げて、誰かに道を断たれる前にゾーンを確保しよう。"
+        },
+        {
+          "rank": 96,
+          "name": "セルサバイバー - シューティングゲーム",
+          "publisher": "Snap Brain Games",
+          "category": "ゲーム",
+          "app_id": "6746465127",
+          "url": "https://apps.apple.com/jp/app/%E3%82%BB%E3%83%AB%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC-%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B2%E3%83%BC%E3%83%A0/id6746465127?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/b7/d8/18b7d831-1f26-7276-e807-aa12819f8abf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "旅立ちの準備をして、エキサイティングな細胞防衛の大冒険へ出かけよう！\nあなたのミッションはただの守護ではありません。全ての細胞を率いて百戦百勝の守護者となり、厄"
+        },
+        {
+          "rank": 99,
+          "name": "トリミン3！-暇つぶしに最適な脱出ゲーム",
+          "publisher": "ONIGIRI GAMES",
+          "category": "ゲーム",
+          "app_id": "6775674610",
+          "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%AA%E3%83%9F%E3%83%B33-%E6%9A%87%E3%81%A4%E3%81%B6%E3%81%97%E3%81%AB%E6%9C%80%E9%81%A9%E3%81%AA%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0/id6775674610?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/e5/86/7ee586fe-cafa-1f5a-f687-9e2039f1f8ee/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "画面内のアイテムを動かしながら、イラストの変化や仕掛けを見つけていくパズルゲームです。\n\nシリーズの特徴である「アイテムを動かして答えを探す」遊び方をベースに、"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 79,
+          "name": "惑星破壊ニャンニャニャン：マージサバイバー",
+          "publisher": "Veroplay",
+          "category": "ゲーム",
+          "app_id": "6803396660",
+          "url": "https://apps.apple.com/jp/app/%E6%83%91%E6%98%9F%E7%A0%B4%E5%A3%8A%E3%83%8B%E3%83%A3%E3%83%B3%E3%83%8B%E3%83%A3%E3%83%8B%E3%83%A3%E3%83%B3-%E3%83%9E%E3%83%BC%E3%82%B8%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6803396660?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/35/05/11350585-51db-3dd7-1cb0-ce5eeee7869c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "宇宙最強のネコ軍団を率いて、ブラック企業から生き延びろ!\n\n惑星3〜4個分の荷物を運んでいた末端の配送ロボットが、配送事故で未知の惑星に不時着！ さらに最悪なこ"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 5,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 79,
+          "name": "惑星破壊ニャンニャニャン：マージサバイバー",
+          "publisher": "Veroplay",
+          "category": "ゲーム",
+          "app_id": "6803396660",
+          "url": "https://apps.apple.com/jp/app/%E6%83%91%E6%98%9F%E7%A0%B4%E5%A3%8A%E3%83%8B%E3%83%A3%E3%83%B3%E3%83%8B%E3%83%A3%E3%83%8B%E3%83%A3%E3%83%B3-%E3%83%9E%E3%83%BC%E3%82%B8%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6803396660?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/35/05/11350585-51db-3dd7-1cb0-ce5eeee7869c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "宇宙最強のネコ軍団を率いて、ブラック企業から生き延びろ!\n\n惑星3〜4個分の荷物を運んでいた末端の配送ロボットが、配送事故で未知の惑星に不時着！ さらに最悪なこ"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 57,
+          "name": "Relax Mini Games",
+          "publisher": "SUPERIOR  STUDIO",
+          "category": "Games",
+          "package": "com.yg.mini.games"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 79,
+          "name": "Jigsaw Drop: Solitaire Puzzle",
+          "publisher": "Runyou",
+          "category": "Games",
+          "package": "jigsaw.solitaire.match.games.free"
+        },
+        {
+          "rank": 80,
+          "name": "Treasure Master",
+          "publisher": "Gimica GmbH",
+          "category": "Games",
+          "package": "com.gimica.treasuremaster"
+        },
+        {
+          "rank": 82,
+          "name": "Cube Land Puzzle Game",
+          "publisher": "Rotatelab Yazilim ve Bilisim A.S.",
+          "category": "Games",
+          "package": "com.rotatelab.cubeblast"
+        },
+        {
+          "rank": 93,
+          "name": "Find The Cat 2 - Spot It!",
+          "publisher": "Agave Games",
+          "category": "Games",
+          "package": "com.agavegames.findthecat2"
+        },
+        {
+          "rank": 99,
+          "name": "Toca Boca World",
+          "publisher": "Toca Boca",
+          "category": "Games",
+          "package": "com.tocaboca.tocalifeworld"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 57,
+          "name": "Relax Mini Games",
+          "publisher": "SUPERIOR  STUDIO",
+          "category": "Games",
+          "package": "com.yg.mini.games"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 5,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 57,
+          "name": "Relax Mini Games",
+          "publisher": "SUPERIOR  STUDIO",
+          "category": "Games",
+          "package": "com.yg.mini.games"
+        }
+      ]
+    }
+  }
+}
