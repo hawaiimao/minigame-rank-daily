@@ -1,0 +1,528 @@
+{
+  "date": "2026-10-27",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 20,
+          "name": "武器铸造大师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 16名",
+          "publisher": "益智",
+          "change": "--",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "砖了个砖",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 12名",
+          "publisher": "消除",
+          "change": "北京简游科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "天天斗地主真人版",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 2名",
+          "publisher": "牌类",
+          "change": "+2",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "欢乐麻将",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 3名",
+          "publisher": "牌类",
+          "change": "深圳市腾讯计算机系统有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "天天象棋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 4名",
+          "publisher": "棋类",
+          "change": "+2",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 20,
+          "name": "武器铸造大师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 16名",
+          "publisher": "益智",
+          "change": "--",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "王者征途",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 3名",
+          "publisher": "MMO",
+          "change": "上海巨人统平网络科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "永远的蔚蓝星球",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 10名",
+          "publisher": "塔防",
+          "change": "广州颂悦信息技术有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "空格之境",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "模拟经营",
+          "change": "江西启游互动科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "饥困荒野",
+          "publisher": "腾讯",
+          "category": "沙盒",
+          "subcategory": "生存、多人联机、饥荒、冒险"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 21,
+          "name": "VAMPIR",
+          "publisher": "Netmarble Corporation",
+          "category": "Games",
+          "app_id": "6738163891",
+          "url": "https://apps.apple.com/us/app/vampir/id6738163891?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/46/4d/1f464d8e-58e6-2b11-adf1-1e966f1d501d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "The Vampire MMORPG. VAMPIR!\n\n\n■ Break the Taboo, Unleash Your Desire\nA brutal ye"
+        },
+        {
+          "rank": 100,
+          "name": "Make it Fit - Packing Puzzle",
+          "publisher": "Luong Vuong",
+          "category": "Games",
+          "app_id": "6796574369",
+          "url": "https://apps.apple.com/us/app/make-it-fit-packing-puzzle/id6796574369?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/db/6a/97db6a2f-48a9-936a-8ab4-14b8f09d276a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Think you can pack smarter? Make It Fit is a fresh puzzle game where you don't j"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 81,
+          "name": "Victory Blast Casino",
+          "publisher": "Luma Field Inc",
+          "category": "Games",
+          "app_id": "6761896313",
+          "url": "https://apps.apple.com/us/app/victory-blast-casino/id6761896313?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/87/43/5c87434b-9dc4-72f3-ea4f-ba3eea37eef3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Victory Blast Casino, a vibrant social casino experience filled with "
+        },
+        {
+          "rank": 83,
+          "name": "Jackpot Nights",
+          "publisher": "Lucky Link Ltd.",
+          "category": "Games",
+          "app_id": "6754009969",
+          "url": "https://apps.apple.com/us/app/jackpot-nights/id6754009969?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/d4/08/81d408a2-24a4-6d64-592e-2fc01c22119f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Jackpot Nights—Spin Wild.Win Big.Redeem Real Prizes!\n\nSpin into the heart-poundi"
+        },
+        {
+          "rank": 87,
+          "name": "Lavish Luck Casino",
+          "publisher": "Prudent Owl Limited",
+          "category": "Games",
+          "app_id": "6738905436",
+          "url": "https://apps.apple.com/us/app/lavish-luck-casino/id6738905436?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/c3/f7/b6c3f7f1-c102-83bd-66fd-8259f6ddcd34/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the exciting world of Lavish Luck Casino! Experience authentic Las Veg"
+        },
+        {
+          "rank": 91,
+          "name": "Find Hidden Objects - Spot It!",
+          "publisher": "Yolo Game Studios",
+          "category": "Games",
+          "app_id": "6474133872",
+          "url": "https://apps.apple.com/us/app/find-hidden-objects-spot-it/id6474133872?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/e2/aa/cae2aa49-2e07-cd90-ae49-618bae4f75dd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Embark on a relaxing and enjoyable journey through hundreds of levels. Have fun "
+        },
+        {
+          "rank": 95,
+          "name": "Everyday Puzzles: Mini Games",
+          "publisher": "Fanatee",
+          "category": "Games",
+          "app_id": "1580601028",
+          "url": "https://apps.apple.com/us/app/everyday-puzzles-mini-games/id1580601028?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/99/9e/0c999e35-fe2b-803e-5643-863d4ba31ce5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Everyday Puzzles - Multiple Games in One App!\nA hub of word puzzles and brain te"
+        },
+        {
+          "rank": 97,
+          "name": "Z Route: Redemption",
+          "publisher": "BUILDING-BLOCKS NETWORK TECHNOLOGY CO.,LIMITED",
+          "category": "Games",
+          "app_id": "6762268182",
+          "url": "https://apps.apple.com/us/app/z-route-redemption/id6762268182?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/f0/41/bcf04188-9e35-c6ff-e7de-1692321862b0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "The world has turned to ash, dominated by zombies. Z Route—it is your final path"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 21,
+          "name": "VAMPIR",
+          "publisher": "Netmarble Corporation",
+          "category": "Games",
+          "app_id": "6738163891",
+          "url": "https://apps.apple.com/us/app/vampir/id6738163891?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/46/4d/1f464d8e-58e6-2b11-adf1-1e966f1d501d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "The Vampire MMORPG. VAMPIR!\n\n\n■ Break the Taboo, Unleash Your Desire\nA brutal ye"
+        },
+        {
+          "rank": 100,
+          "name": "Make it Fit - Packing Puzzle",
+          "publisher": "Luong Vuong",
+          "category": "Games",
+          "app_id": "6796574369",
+          "url": "https://apps.apple.com/us/app/make-it-fit-packing-puzzle/id6796574369?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/db/6a/97db6a2f-48a9-936a-8ab4-14b8f09d276a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Think you can pack smarter? Make It Fit is a fresh puzzle game where you don't j"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 6,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 21,
+          "name": "VAMPIR",
+          "publisher": "Netmarble Corporation",
+          "category": "Games",
+          "app_id": "6738163891",
+          "url": "https://apps.apple.com/us/app/vampir/id6738163891?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/46/4d/1f464d8e-58e6-2b11-adf1-1e966f1d501d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "The Vampire MMORPG. VAMPIR!\n\n\n■ Break the Taboo, Unleash Your Desire\nA brutal ye"
+        },
+        {
+          "rank": 100,
+          "name": "Make it Fit - Packing Puzzle",
+          "publisher": "Luong Vuong",
+          "category": "Games",
+          "app_id": "6796574369",
+          "url": "https://apps.apple.com/us/app/make-it-fit-packing-puzzle/id6796574369?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/db/6a/97db6a2f-48a9-936a-8ab4-14b8f09d276a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Think you can pack smarter? Make It Fit is a fresh puzzle game where you don't j"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 35,
+          "name": "桃园：将帅录",
+          "publisher": "Zhejiang UmarkNetwork Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6812216260",
+          "url": "https://apps.apple.com/cn/app/%E6%A1%83%E5%9B%AD-%E5%B0%86%E5%B8%85%E5%BD%95/id6812216260?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/59/03/c05903fc-ff2c-4c8c-dbd9-9942248740a9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《桃园：将帅录》是一款以三国为背景的Q版3D半即时回合制MMORPG。游戏采用虚幻3引擎开发，以Q版风格呈现角色与场景，在三国历史基础上加入幻想元素。玩家可穿越"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 80,
+          "name": "无尽冬日",
+          "publisher": "Shanghai Qingdi Technology Company Limited",
+          "category": "游戏",
+          "app_id": "6478492012",
+          "url": "https://apps.apple.com/cn/app/%E6%97%A0%E5%B0%BD%E5%86%AC%E6%97%A5/id6478492012?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/96/a5/9c96a5a5-a92a-9405-d252-b2aa7b9aa8ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《无尽冬日》是一款将策略和放置结合的冰雪末日生存游戏，玩法独特，细节丰富，等你探索。\r\n\r\n一场突如其来的全球性气温骤降彻底地摧毁了人类文明，人类失去了赖以生存"
+        },
+        {
+          "rank": 97,
+          "name": "向僵尸开炮-尸潮来袭",
+          "publisher": "Hainan Shengchang Network Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6474293468",
+          "url": "https://apps.apple.com/cn/app/%E5%90%91%E5%83%B5%E5%B0%B8%E5%BC%80%E7%82%AE-%E5%B0%B8%E6%BD%AE%E6%9D%A5%E8%A2%AD/id6474293468?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/63/cd/4363cd87-84de-69c3-dc1f-71ac02b1590e/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《向僵尸开炮》是一款制作精良、画风精美的射击Roguelike手游。故事背景设定在未来时代，某日天灾席卷地球，僵尸横行，自然资源与科技文明受到重创；为了保护人类"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 35,
+          "name": "桃园：将帅录",
+          "publisher": "Zhejiang UmarkNetwork Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6812216260",
+          "url": "https://apps.apple.com/cn/app/%E6%A1%83%E5%9B%AD-%E5%B0%86%E5%B8%85%E5%BD%95/id6812216260?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/59/03/c05903fc-ff2c-4c8c-dbd9-9942248740a9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《桃园：将帅录》是一款以三国为背景的Q版3D半即时回合制MMORPG。游戏采用虚幻3引擎开发，以Q版风格呈现角色与场景，在三国历史基础上加入幻想元素。玩家可穿越"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 35,
+          "name": "桃园：将帅录",
+          "publisher": "Zhejiang UmarkNetwork Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6812216260",
+          "url": "https://apps.apple.com/cn/app/%E6%A1%83%E5%9B%AD-%E5%B0%86%E5%B8%85%E5%BD%95/id6812216260?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/59/03/c05903fc-ff2c-4c8c-dbd9-9942248740a9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《桃园：将帅录》是一款以三国为背景的Q版3D半即时回合制MMORPG。游戏采用虚幻3引擎开发，以Q版风格呈现角色与场景，在三国历史基础上加入幻想元素。玩家可穿越"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 15,
+          "name": "Top Force: Commander",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6761893238",
+          "url": "https://apps.apple.com/jp/app/top-force-commander/id6761893238?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/92/91/c6929180-f898-45c1-f4e6-0f3927f99ce0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Top Forceへようこそ！気軽に楽しめる、爽快な軍事ストラテジーゲームです！\n最前線に軍事基地を建設し、兵士を武装させ、支援を行いながら敵を撃破しましょう！"
+        },
+        {
+          "rank": 16,
+          "name": "ミカ：ダンジョンの旅人",
+          "publisher": "Tae won Go",
+          "category": "ゲーム",
+          "app_id": "6761421604",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9F%E3%82%AB-%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AE%E6%97%85%E4%BA%BA/id6761421604?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/ae/c0/e5aec0b7-3f9d-a696-0915-8f08ef611938/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「奴は、100年もの時を待ち続けていた」\n\n大陸の各地が、次々とダンジョンへと呑み込まれていく世界――ストニア。\nダンジョンサポーター「ミカ」は、\n100年前に"
+        },
+        {
+          "rank": 99,
+          "name": "毛糸クラッシュ - パーキングゲーム バスのゲーム",
+          "publisher": "Astrasen Global",
+          "category": "ゲーム",
+          "app_id": "6743385713",
+          "url": "https://apps.apple.com/jp/app/%E6%AF%9B%E7%B3%B8%E3%82%AF%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B2%E3%83%BC%E3%83%A0-%E3%83%90%E3%82%B9%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0/id6743385713?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/18/b7/ef18b77a-b046-c0be-e823-753305a27173/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "毛糸の冒険へ、ようこそ！\n新感覚のカジュアル3Dパズルに飛び込もう！ かわいい毛糸、いたずら好きなドラゴン、ワクワクの救出劇が待ってるよ！\n色とりどりのおてんば"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 81,
+          "name": "BRAVE FRONTIER LEGION",
+          "publisher": "株式会社 GrandSoft",
+          "category": "ゲーム",
+          "app_id": "6744011639",
+          "url": "https://apps.apple.com/jp/app/brave-frontier-legion/id6744011639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/72/c4/be72c4ea-65a8-2a7b-ab4c-17e9e05f8dee/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "BRAVE FRONTIER LEGION 1周年!!\nレギオンバトルに参加で最大1000連召喚プレゼント中!!\n\nその力は、古より伝わる召喚の術。\n異界に眠る"
+        },
+        {
+          "rank": 88,
+          "name": "Colorever",
+          "publisher": "Oakever Games",
+          "category": "ゲーム",
+          "app_id": "6761757565",
+          "url": "https://apps.apple.com/jp/app/colorever/id6761757565?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/c0/12/cec012ab-258b-2cdf-d7ff-300026d38ced/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Coloreverは、タップするたびにきらめくピクセルアートが姿を現す、リラックス系ジェム並べ替えパズルです。\n\nジェムをタップすると、つながったグループがきら"
+        },
+        {
+          "rank": 100,
+          "name": "ナンプレ - 数字パズルゲーム",
+          "publisher": "Easybrain Ltd",
+          "category": "ゲーム",
+          "app_id": "1193508329",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8A%E3%83%B3%E3%83%97%E3%83%AC-%E6%95%B0%E5%AD%97%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id1193508329?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/32/b2/5332b246-2237-7b2d-d5de-7f0b8661dd33/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "AppStore から、有数のダウンロード数を誇るナンプレアプリを手に入れて、楽しく脳を鍛えましょう！ナンプレは何百万人という人が毎日プレイしている、老若男女問"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 16,
+          "name": "ミカ：ダンジョンの旅人",
+          "publisher": "Tae won Go",
+          "category": "ゲーム",
+          "app_id": "6761421604",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9F%E3%82%AB-%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AE%E6%97%85%E4%BA%BA/id6761421604?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/ae/c0/e5aec0b7-3f9d-a696-0915-8f08ef611938/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「奴は、100年もの時を待ち続けていた」\n\n大陸の各地が、次々とダンジョンへと呑み込まれていく世界――ストニア。\nダンジョンサポーター「ミカ」は、\n100年前に"
+        },
+        {
+          "rank": 99,
+          "name": "毛糸クラッシュ - パーキングゲーム バスのゲーム",
+          "publisher": "Astrasen Global",
+          "category": "ゲーム",
+          "app_id": "6743385713",
+          "url": "https://apps.apple.com/jp/app/%E6%AF%9B%E7%B3%B8%E3%82%AF%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B2%E3%83%BC%E3%83%A0-%E3%83%90%E3%82%B9%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0/id6743385713?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/18/b7/ef18b77a-b046-c0be-e823-753305a27173/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "毛糸の冒険へ、ようこそ！\n新感覚のカジュアル3Dパズルに飛び込もう！ かわいい毛糸、いたずら好きなドラゴン、ワクワクの救出劇が待ってるよ！\n色とりどりのおてんば"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 3,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 15,
+          "name": "Top Force: Commander",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6761893238",
+          "url": "https://apps.apple.com/jp/app/top-force-commander/id6761893238?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/92/91/c6929180-f898-45c1-f4e6-0f3927f99ce0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Top Forceへようこそ！気軽に楽しめる、爽快な軍事ストラテジーゲームです！\n最前線に軍事基地を建設し、兵士を武装させ、支援を行いながら敵を撃破しましょう！"
+        },
+        {
+          "rank": 16,
+          "name": "ミカ：ダンジョンの旅人",
+          "publisher": "Tae won Go",
+          "category": "ゲーム",
+          "app_id": "6761421604",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9F%E3%82%AB-%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AE%E6%97%85%E4%BA%BA/id6761421604?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/ae/c0/e5aec0b7-3f9d-a696-0915-8f08ef611938/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「奴は、100年もの時を待ち続けていた」\n\n大陸の各地が、次々とダンジョンへと呑み込まれていく世界――ストニア。\nダンジョンサポーター「ミカ」は、\n100年前に"
+        },
+        {
+          "rank": 99,
+          "name": "毛糸クラッシュ - パーキングゲーム バスのゲーム",
+          "publisher": "Astrasen Global",
+          "category": "ゲーム",
+          "app_id": "6743385713",
+          "url": "https://apps.apple.com/jp/app/%E6%AF%9B%E7%B3%B8%E3%82%AF%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B2%E3%83%BC%E3%83%A0-%E3%83%90%E3%82%B9%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0/id6743385713?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/18/b7/ef18b77a-b046-c0be-e823-753305a27173/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "毛糸の冒険へ、ようこそ！\n新感覚のカジュアル3Dパズルに飛び込もう！ かわいい毛糸、いたずら好きなドラゴン、ワクワクの救出劇が待ってるよ！\n色とりどりのおてんば"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
