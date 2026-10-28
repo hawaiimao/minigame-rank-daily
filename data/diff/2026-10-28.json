@@ -1,0 +1,539 @@
+{
+  "date": "2026-10-28",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "跳一跳",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 13名",
+          "publisher": "益智",
+          "change": "+2",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "解压打毛线",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 15名",
+          "publisher": "益智",
+          "change": "广州池骋网络科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "梦幻消除战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 16名",
+          "publisher": "模拟经营",
+          "change": "广州喜势网络科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "佣兵小镇",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 1名",
+          "publisher": "卡牌",
+          "change": "成都天象互动文化传播有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "青云诀之伏魔",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 5名",
+          "publisher": "MMO",
+          "change": "海南元游信息技术有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 19,
+          "name": "对子消消乐",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 17名",
+          "publisher": "消除",
+          "change": "厦门市宙火科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 19,
+          "name": "对子消消乐",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 17名",
+          "publisher": "消除",
+          "change": "厦门市宙火科技有限公司",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "Monster Hunter Outlanders",
+          "publisher": "Level Infinite",
+          "category": "Games",
+          "app_id": "6444520814",
+          "url": "https://apps.apple.com/us/app/monster-hunter-outlanders/id6444520814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/73/e0/0073e0c8-a9e4-1956-8966-f83a136ee71e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Monster Hunter Outlanders is a Monster Hunter exploration hunting action game on"
+        },
+        {
+          "rank": 17,
+          "name": "BLEACH Mirrors High",
+          "publisher": "Bandai Namco Entertainment Inc.",
+          "category": "Games",
+          "app_id": "6758332966",
+          "url": "https://apps.apple.com/us/app/bleach-mirrors-high/id6758332966?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/8a/a6/ce8aa6e7-4330-966e-b816-a746fda2a5f9/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/100x100bb.png",
+          "slogan": "Dive into BLEACH Mirrors High, an officially licensed game created in close coll"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 94,
+          "name": "GOGO! Blast",
+          "publisher": "Nebula Studio",
+          "category": "Games",
+          "app_id": "6776522053",
+          "url": "https://apps.apple.com/us/app/gogo-blast/id6776522053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/7f/22/f07f22ca-2714-87da-cb43-b7153c8f5099/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "GOGO! Blast is a satisfying arrow puzzle game where you tap arrows in the correc"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 77,
+          "name": "Water Sort Puzzle : Challenge",
+          "publisher": "贺翔 段",
+          "category": "Games",
+          "app_id": "6787414784",
+          "url": "https://apps.apple.com/us/app/water-sort-puzzle-challenge/id6787414784?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/77/91/5f779194-85ef-b50e-293d-383f34be36a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Water Sort Puzzle : Challenge is a relaxing color sorting game with simple rules"
+        },
+        {
+          "rank": 100,
+          "name": "Clash Royale",
+          "publisher": "Supercell",
+          "category": "Games",
+          "app_id": "1053012308",
+          "url": "https://apps.apple.com/us/app/clash-royale/id1053012308?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/8f/83/038f835b-27e2-40e4-a196-80444df3a217/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "Enter the Arena! Build your Battle Deck and outsmart the enemy in fast real-time"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 17,
+          "name": "BLEACH Mirrors High",
+          "publisher": "Bandai Namco Entertainment Inc.",
+          "category": "Games",
+          "app_id": "6758332966",
+          "url": "https://apps.apple.com/us/app/bleach-mirrors-high/id6758332966?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/8a/a6/ce8aa6e7-4330-966e-b816-a746fda2a5f9/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/100x100bb.png",
+          "slogan": "Dive into BLEACH Mirrors High, an officially licensed game created in close coll"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "Monster Hunter Outlanders",
+          "publisher": "Level Infinite",
+          "category": "Games",
+          "app_id": "6444520814",
+          "url": "https://apps.apple.com/us/app/monster-hunter-outlanders/id6444520814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/73/e0/0073e0c8-a9e4-1956-8966-f83a136ee71e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Monster Hunter Outlanders is a Monster Hunter exploration hunting action game on"
+        },
+        {
+          "rank": 17,
+          "name": "BLEACH Mirrors High",
+          "publisher": "Bandai Namco Entertainment Inc.",
+          "category": "Games",
+          "app_id": "6758332966",
+          "url": "https://apps.apple.com/us/app/bleach-mirrors-high/id6758332966?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/8a/a6/ce8aa6e7-4330-966e-b816-a746fda2a5f9/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/100x100bb.png",
+          "slogan": "Dive into BLEACH Mirrors High, an officially licensed game created in close coll"
+        },
+        {
+          "rank": 94,
+          "name": "GOGO! Blast",
+          "publisher": "Nebula Studio",
+          "category": "Games",
+          "app_id": "6776522053",
+          "url": "https://apps.apple.com/us/app/gogo-blast/id6776522053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/7f/22/f07f22ca-2714-87da-cb43-b7153c8f5099/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "GOGO! Blast is a satisfying arrow puzzle game where you tap arrows in the correc"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "魔神英雄传-正版授权",
+          "publisher": "Hangzhou Jiulan Network Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6812671122",
+          "url": "https://apps.apple.com/cn/app/%E9%AD%94%E7%A5%9E%E8%8B%B1%E9%9B%84%E4%BC%A0-%E6%AD%A3%E7%89%88%E6%8E%88%E6%9D%83/id6812671122?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/fb/24/4afb24c1-52db-7f81-0219-f5904b7216a3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《魔神英雄传》 是由SUNRISE正版授权开发的冒险放置卡牌手游。你可以在游戏中召唤经典魔神，重温儿时回忆，和“救世主”小渡一起勇闯创界山，拯救神部界；还可以与"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 93,
+          "name": "宾果消消消",
+          "publisher": "柠檬微趣",
+          "category": "游戏",
+          "app_id": "897447840",
+          "url": "https://apps.apple.com/cn/app/%E5%AE%BE%E6%9E%9C%E6%B6%88%E6%B6%88%E6%B6%88/id897447840?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/47/9d/78479dc3-5af7-25ec-92f2-92ad7d191556/AppIcon-0-0-1x_U007emarketing-0-9-0-GLES2_U002c0-85-220.png/100x100bb.png",
+          "slogan": "《宾果消消消》,累计注册用户超过3亿,以三消+开店的形式，让国民连接在一起！\n2021年，3亿玩家的共同选择！\n\n消一消，能开店。奶茶店、蛋糕店、糖果店、花店、"
+        },
+        {
+          "rank": 94,
+          "name": "桃源深处有人家",
+          "publisher": "Tencent Technology (Chengdu) Co., Ltd.",
+          "category": "游戏",
+          "app_id": "1582427876",
+          "url": "https://apps.apple.com/cn/app/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6/id1582427876?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/4a/75/574a757e-6560-23fb-62e7-27a124c6ed4a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.jpeg/100x100bb.png",
+          "slogan": "《桃源深处有人家》是一款悠然治愈的国风山水田园经营手游。游戏以传统文化为基础，以温暖治愈为主题，为简单质朴的田园生活赋予青绿山水的国风美学，打造了一个朴实祥和的"
+        },
+        {
+          "rank": 100,
+          "name": "捕鱼大作战-街机打鱼游戏王者",
+          "publisher": "Tuyoo Online HK Limited",
+          "category": "游戏",
+          "app_id": "1525863146",
+          "url": "https://apps.apple.com/cn/app/%E6%8D%95%E9%B1%BC%E5%A4%A7%E4%BD%9C%E6%88%98-%E8%A1%97%E6%9C%BA%E6%89%93%E9%B1%BC%E6%B8%B8%E6%88%8F%E7%8E%8B%E8%80%85/id1525863146?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/af/06/06af0605-bba9-f1a5-3e6d-88919fbf6d5d/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "欢迎来到《捕鱼大作战》！作为一款备受欢迎的捕鱼游戏，我们始终致力于为玩家提供精彩、有趣的游戏体验。现在，以全新赛季的震撼登场，休闲不肝的趣味玩法，回归用户的丰厚"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 5,
+          "name": "魔神英雄传-正版授权",
+          "publisher": "Hangzhou Jiulan Network Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6812671122",
+          "url": "https://apps.apple.com/cn/app/%E9%AD%94%E7%A5%9E%E8%8B%B1%E9%9B%84%E4%BC%A0-%E6%AD%A3%E7%89%88%E6%8E%88%E6%9D%83/id6812671122?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/fb/24/4afb24c1-52db-7f81-0219-f5904b7216a3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《魔神英雄传》 是由SUNRISE正版授权开发的冒险放置卡牌手游。你可以在游戏中召唤经典魔神，重温儿时回忆，和“救世主”小渡一起勇闯创界山，拯救神部界；还可以与"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "魔神英雄传-正版授权",
+          "publisher": "Hangzhou Jiulan Network Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6812671122",
+          "url": "https://apps.apple.com/cn/app/%E9%AD%94%E7%A5%9E%E8%8B%B1%E9%9B%84%E4%BC%A0-%E6%AD%A3%E7%89%88%E6%8E%88%E6%9D%83/id6812671122?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/fb/24/4afb24c1-52db-7f81-0219-f5904b7216a3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《魔神英雄传》 是由SUNRISE正版授权开发的冒险放置卡牌手游。你可以在游戏中召唤经典魔神，重温儿时回忆，和“救世主”小渡一起勇闯创界山，拯救神部界；还可以与"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "モンスターハンターアウトランダーズ",
+          "publisher": "Level Infinite",
+          "category": "ゲーム",
+          "app_id": "6444520814",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%A2%E3%82%A6%E3%83%88%E3%83%A9%E3%83%B3%E3%83%80%E3%83%BC%E3%82%BA/id6444520814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/73/e0/0073e0c8-a9e4-1956-8966-f83a136ee71e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『モンスターハンターアウトランダーズ』は、CAPCOMの正式ライセンスを受け、TiMi Studio Groupが開発する「モンスターハンター」シリーズの最新作"
+        },
+        {
+          "rank": 2,
+          "name": "BLEACH Mirrors High【ミラハイ】",
+          "publisher": "Bandai Namco Entertainment Inc.",
+          "category": "ゲーム",
+          "app_id": "6747328897",
+          "url": "https://apps.apple.com/jp/app/bleach-mirrors-high-%E3%83%9F%E3%83%A9%E3%83%8F%E3%82%A4/id6747328897?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/f1/a2/c2f1a2f3-82e9-25fa-27ab-1a016496fe2b/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/100x100bb.png",
+          "slogan": "人気の漫画・アニメ『BLEACH（ブリーチ）』の世界に浸る3Dアクションバトルゲーム。\n『BLEACH（ブリーチ）』のアニメ『千年血戦篇』に続く、オリジナルスト"
+        },
+        {
+          "rank": 23,
+          "name": "開拓うさぎ",
+          "publisher": "Kurashiru, Inc",
+          "category": "ゲーム",
+          "app_id": "6808466426",
+          "url": "https://apps.apple.com/jp/app/%E9%96%8B%E6%8B%93%E3%81%86%E3%81%95%E3%81%8E/id6808466426?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/73/3b/97733b3d-2662-0343-f272-1b5538f7e2da/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "【開拓うさぎとは？】\n\n大人気「クラシル」シリーズから、かわいいうさぎと一緒に世界の街を開拓する『開拓うさぎ』が新登場！\n\n画面をタップするだけで、少しずつ街が"
+        },
+        {
+          "rank": 63,
+          "name": "[スロスピ]Lパチスロ 革命機ヴァルヴレイヴ2",
+          "publisher": "SPIRIDGE INC.",
+          "category": "ゲーム",
+          "app_id": "6791407624",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%AD%E3%82%B9%E3%83%94-l%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD-%E9%9D%A9%E5%91%BD%E6%A9%9F%E3%83%B4%E3%82%A1%E3%83%AB%E3%83%B4%E3%83%AC%E3%82%A4%E3%83%B42/id6791407624?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/7a/a2/597aa280-2ca8-28b3-9b7e-9149c61b1172/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "■スマスロ『Lパチスロ 革命機ヴァルヴレイヴ2』がスロスピに登場！\n2025年11月にホール導入された『Lパチスロ 革命機ヴァルヴレイヴ2』を、3Dバーチャルホ"
+        },
+        {
+          "rank": 79,
+          "name": "競輪人生3D",
+          "publisher": "Shuhei Torisaki",
+          "category": "ゲーム",
+          "app_id": "6819018049",
+          "url": "https://apps.apple.com/jp/app/%E7%AB%B6%E8%BC%AA%E4%BA%BA%E7%94%9F3d/id6819018049?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/69/05/ae6905d1-493f-c000-3a4b-a377365a2abd/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "競輪選手の一生を体験する、3D競輪シミュレーション。\n養成所に入った一人の選手を、A級3班のデビューからS級S班、GI制覇、そして年末の「輪界グランプリ」へ。ベ"
+        },
+        {
+          "rank": 89,
+          "name": "火鍋マスター：フードパズル",
+          "publisher": "Chengmai Jiutai Technology Co.. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6758488812",
+          "url": "https://apps.apple.com/jp/app/%E7%81%AB%E9%8D%8B%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC-%E3%83%95%E3%83%BC%E3%83%89%E3%83%91%E3%82%BA%E3%83%AB/id6758488812?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/95/d6/8d95d669-567c-06d5-81df-5c77d11f8cd9/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "「おいしい」脳トレを始めませんか？\n『火鍋マスター：フードパズル』へようこそ。\n\n日常の喧騒を離れ、ぐつぐつ煮える火鍋（ホットポット）の温かな世界へ。湯気の立つ"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 59,
+          "name": "Jigsawcard Solitaire Puzzle",
+          "publisher": "Oakever Games",
+          "category": "ゲーム",
+          "app_id": "6754900673",
+          "url": "https://apps.apple.com/jp/app/jigsawcard-solitaire-puzzle/id6754900673?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/8c/f1/c38cf1bb-ff8d-c1d1-025a-f4ab9371a7d8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Jigsawcard – The HD Jigsaw Puzzle & Solitaire Card Game\nExperience an exciting n"
+        },
+        {
+          "rank": 98,
+          "name": "Detective Difference: 楽しむ間違い探し",
+          "publisher": "LONGSEA LINK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6738576262",
+          "url": "https://apps.apple.com/jp/app/detective-difference-%E6%A5%BD%E3%81%97%E3%82%80%E9%96%93%E9%81%95%E3%81%84%E6%8E%A2%E3%81%97/id6738576262?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/4e/c6/054ec6cf-a4ae-e68c-5cde-56883961db15/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Detective Difference: Spot Fun - いつでもどこでも目を鍛えて頭をテストしよう！違いを見つける楽しさを体験しよう！隠れた違いの世界"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 63,
+          "name": "[スロスピ]Lパチスロ 革命機ヴァルヴレイヴ2",
+          "publisher": "SPIRIDGE INC.",
+          "category": "ゲーム",
+          "app_id": "6791407624",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%AD%E3%82%B9%E3%83%94-l%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD-%E9%9D%A9%E5%91%BD%E6%A9%9F%E3%83%B4%E3%82%A1%E3%83%AB%E3%83%B4%E3%83%AC%E3%82%A4%E3%83%B42/id6791407624?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/7a/a2/597aa280-2ca8-28b3-9b7e-9149c61b1172/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "■スマスロ『Lパチスロ 革命機ヴァルヴレイヴ2』がスロスピに登場！\n2025年11月にホール導入された『Lパチスロ 革命機ヴァルヴレイヴ2』を、3Dバーチャルホ"
+        },
+        {
+          "rank": 79,
+          "name": "競輪人生3D",
+          "publisher": "Shuhei Torisaki",
+          "category": "ゲーム",
+          "app_id": "6819018049",
+          "url": "https://apps.apple.com/jp/app/%E7%AB%B6%E8%BC%AA%E4%BA%BA%E7%94%9F3d/id6819018049?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/69/05/ae6905d1-493f-c000-3a4b-a377365a2abd/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "競輪選手の一生を体験する、3D競輪シミュレーション。\n養成所に入った一人の選手を、A級3班のデビューからS級S班、GI制覇、そして年末の「輪界グランプリ」へ。ベ"
+        },
+        {
+          "rank": 89,
+          "name": "火鍋マスター：フードパズル",
+          "publisher": "Chengmai Jiutai Technology Co.. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6758488812",
+          "url": "https://apps.apple.com/jp/app/%E7%81%AB%E9%8D%8B%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC-%E3%83%95%E3%83%BC%E3%83%89%E3%83%91%E3%82%BA%E3%83%AB/id6758488812?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/95/d6/8d95d669-567c-06d5-81df-5c77d11f8cd9/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "「おいしい」脳トレを始めませんか？\n『火鍋マスター：フードパズル』へようこそ。\n\n日常の喧騒を離れ、ぐつぐつ煮える火鍋（ホットポット）の温かな世界へ。湯気の立つ"
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 2,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "モンスターハンターアウトランダーズ",
+          "publisher": "Level Infinite",
+          "category": "ゲーム",
+          "app_id": "6444520814",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%A2%E3%82%A6%E3%83%88%E3%83%A9%E3%83%B3%E3%83%80%E3%83%BC%E3%82%BA/id6444520814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/73/e0/0073e0c8-a9e4-1956-8966-f83a136ee71e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『モンスターハンターアウトランダーズ』は、CAPCOMの正式ライセンスを受け、TiMi Studio Groupが開発する「モンスターハンター」シリーズの最新作"
+        },
+        {
+          "rank": 2,
+          "name": "BLEACH Mirrors High【ミラハイ】",
+          "publisher": "Bandai Namco Entertainment Inc.",
+          "category": "ゲーム",
+          "app_id": "6747328897",
+          "url": "https://apps.apple.com/jp/app/bleach-mirrors-high-%E3%83%9F%E3%83%A9%E3%83%8F%E3%82%A4/id6747328897?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/f1/a2/c2f1a2f3-82e9-25fa-27ab-1a016496fe2b/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/100x100bb.png",
+          "slogan": "人気の漫画・アニメ『BLEACH（ブリーチ）』の世界に浸る3Dアクションバトルゲーム。\n『BLEACH（ブリーチ）』のアニメ『千年血戦篇』に続く、オリジナルスト"
+        },
+        {
+          "rank": 23,
+          "name": "開拓うさぎ",
+          "publisher": "Kurashiru, Inc",
+          "category": "ゲーム",
+          "app_id": "6808466426",
+          "url": "https://apps.apple.com/jp/app/%E9%96%8B%E6%8B%93%E3%81%86%E3%81%95%E3%81%8E/id6808466426?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/73/3b/97733b3d-2662-0343-f272-1b5538f7e2da/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "【開拓うさぎとは？】\n\n大人気「クラシル」シリーズから、かわいいうさぎと一緒に世界の街を開拓する『開拓うさぎ』が新登場！\n\n画面をタップするだけで、少しずつ街が"
+        },
+        {
+          "rank": 63,
+          "name": "[スロスピ]Lパチスロ 革命機ヴァルヴレイヴ2",
+          "publisher": "SPIRIDGE INC.",
+          "category": "ゲーム",
+          "app_id": "6791407624",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%AD%E3%82%B9%E3%83%94-l%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD-%E9%9D%A9%E5%91%BD%E6%A9%9F%E3%83%B4%E3%82%A1%E3%83%AB%E3%83%B4%E3%83%AC%E3%82%A4%E3%83%B42/id6791407624?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/7a/a2/597aa280-2ca8-28b3-9b7e-9149c61b1172/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "■スマスロ『Lパチスロ 革命機ヴァルヴレイヴ2』がスロスピに登場！\n2025年11月にホール導入された『Lパチスロ 革命機ヴァルヴレイヴ2』を、3Dバーチャルホ"
+        },
+        {
+          "rank": 79,
+          "name": "競輪人生3D",
+          "publisher": "Shuhei Torisaki",
+          "category": "ゲーム",
+          "app_id": "6819018049",
+          "url": "https://apps.apple.com/jp/app/%E7%AB%B6%E8%BC%AA%E4%BA%BA%E7%94%9F3d/id6819018049?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/69/05/ae6905d1-493f-c000-3a4b-a377365a2abd/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "競輪選手の一生を体験する、3D競輪シミュレーション。\n養成所に入った一人の選手を、A級3班のデビューからS級S班、GI制覇、そして年末の「輪界グランプリ」へ。ベ"
+        },
+        {
+          "rank": 89,
+          "name": "火鍋マスター：フードパズル",
+          "publisher": "Chengmai Jiutai Technology Co.. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6758488812",
+          "url": "https://apps.apple.com/jp/app/%E7%81%AB%E9%8D%8B%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC-%E3%83%95%E3%83%BC%E3%83%89%E3%83%91%E3%82%BA%E3%83%AB/id6758488812?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/95/d6/8d95d669-567c-06d5-81df-5c77d11f8cd9/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "「おいしい」脳トレを始めませんか？\n『火鍋マスター：フードパズル』へようこそ。\n\n日常の喧騒を離れ、ぐつぐつ煮える火鍋（ホットポット）の温かな世界へ。湯気の立つ"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
