@@ -1,0 +1,553 @@
+{
+  "date": "2026-10-29",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 12,
+          "name": "益智闯一关",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "益智",
+          "change": "广州尊悦文化发展有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 16,
+          "name": "摸鱼解压馆",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 13名",
+          "publisher": "益智",
+          "change": "武汉智地卓越信息科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "打个螺丝",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 16名",
+          "publisher": "益智",
+          "change": "广州尊悦文化发展有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 12,
+          "name": "益智闯一关",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "益智",
+          "change": "广州尊悦文化发展有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 16,
+          "name": "摸鱼解压馆",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 13名",
+          "publisher": "益智",
+          "change": "武汉智地卓越信息科技有限公司",
+          "change_direction": "down"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [
+        {
+          "rank": 11,
+          "name": "地宫大爆破",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 2名",
+          "publisher": "ARPG",
+          "change": "--",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "神器传说",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 8名",
+          "publisher": "益智",
+          "change": "深圳全民互动科技有限公司",
+          "change_direction": "down"
+        },
+        {
+          "rank": 13,
+          "name": "精英军团",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "竞技 · 2名",
+          "publisher": "塔防",
+          "change": "杭州叙炽网络科技有限公司",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 11,
+          "name": "地宫大爆破",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 2名",
+          "publisher": "ARPG",
+          "change": "--",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "天天象棋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 2名",
+          "publisher": "棋类",
+          "change": "+2",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 3,
+          "name": "暗影格斗传奇战场",
+          "publisher": "Shadow Studio",
+          "category": "动作",
+          "subcategory": "格斗、角色扮演"
+        },
+        {
+          "rank": 9,
+          "name": "花开时见你",
+          "publisher": "广州春芒网络科技有限公司",
+          "category": "模拟经营",
+          "subcategory": "种田、收集、放置、治愈"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 3,
+          "name": "暗影格斗传奇战场",
+          "publisher": "Shadow Studio",
+          "category": "动作",
+          "subcategory": "格斗、角色扮演"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 3,
+          "name": "暗影格斗传奇战场",
+          "publisher": "Shadow Studio",
+          "category": "动作",
+          "subcategory": "格斗、角色扮演"
+        },
+        {
+          "rank": 9,
+          "name": "花开时见你",
+          "publisher": "广州春芒网络科技有限公司",
+          "category": "模拟经营",
+          "subcategory": "种田、收集、放置、治愈"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "No Man's Sky",
+          "publisher": "Hello Games",
+          "category": "Games",
+          "app_id": "1615755735",
+          "url": "https://apps.apple.com/us/app/no-mans-sky/id1615755735?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/6a/57/8f6a57cf-41c9-9afc-205c-95515bf61a50/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "*TRY BEFORE YOU BUY* Play the beginning of the game for free.\nOne-time purchase "
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 89,
+          "name": "Bruno Reels Casino",
+          "publisher": "EverPrime Futures Inc.",
+          "category": "Games",
+          "app_id": "6768564100",
+          "url": "https://apps.apple.com/us/app/bruno-reels-casino/id6768564100?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c4/35/3a/c4353ac7-4e7d-3fc4-6e6c-9b4168048070/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Bruno Reels Casino brings you an exciting casino-style slots experience filled w"
+        },
+        {
+          "rank": 99,
+          "name": "Pokémon GO",
+          "publisher": "Scopely Explore, Inc.",
+          "category": "Games",
+          "app_id": "1094591345",
+          "url": "https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/68/93/396893e0-651d-d627-9377-fd9e7c90e99a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Join Trainers across the globe who are discovering Pokémon as they explore the w"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 5,
+          "name": "No Man's Sky",
+          "publisher": "Hello Games",
+          "category": "Games",
+          "app_id": "1615755735",
+          "url": "https://apps.apple.com/us/app/no-mans-sky/id1615755735?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/6a/57/8f6a57cf-41c9-9afc-205c-95515bf61a50/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "*TRY BEFORE YOU BUY* Play the beginning of the game for free.\nOne-time purchase "
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "No Man's Sky",
+          "publisher": "Hello Games",
+          "category": "Games",
+          "app_id": "1615755735",
+          "url": "https://apps.apple.com/us/app/no-mans-sky/id1615755735?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/6a/57/8f6a57cf-41c9-9afc-205c-95515bf61a50/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "*TRY BEFORE YOU BUY* Play the beginning of the game for free.\nOne-time purchase "
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 98,
+          "name": "鱼乐达人-王者捕鱼电玩街机打鱼游戏",
+          "publisher": "CoolPlus Software (HongKong) Limited",
+          "category": "游戏",
+          "app_id": "1665337957",
+          "url": "https://apps.apple.com/cn/app/%E9%B1%BC%E4%B9%90%E8%BE%BE%E4%BA%BA-%E7%8E%8B%E8%80%85%E6%8D%95%E9%B1%BC%E7%94%B5%E7%8E%A9%E8%A1%97%E6%9C%BA%E6%89%93%E9%B1%BC%E6%B8%B8%E6%88%8F/id1665337957?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/88/8f/97888f7d-f9d5-96c4-8a76-3717591ace88/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【大话联动 主题登场】大话联动主题重磅上线！至尊宝、紫霞仙子、唐僧等经典角色惊喜加入渔场！重温大话旧梦，重温大话旧梦，畅享捕鱼狂欢，感受“爱你一万年，爆金一瞬间"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 77,
+          "name": "时光杂货店",
+          "publisher": "Anhui Leihu Network Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6504324535",
+          "url": "https://apps.apple.com/cn/app/%E6%97%B6%E5%85%89%E6%9D%82%E8%B4%A7%E5%BA%97/id6504324535?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/bc/c7/b6bcc72c-3da8-eee3-bd05-869b8d6ab713/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "开店有套路，重生当首富。诚邀你一同经营时光杂货店，体验“有钱，有店，有点闲”！\n\n——下载送终身特权卡，轻松体验、快乐不停\n——登陆送海量家具，随意打造你温馨的"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 97,
+          "name": "明日之后",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1435567000",
+          "url": "https://apps.apple.com/cn/app/%E6%98%8E%E6%97%A5%E4%B9%8B%E5%90%8E/id1435567000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/31/e9/1731e9ba-e145-f440-491a-7a579b5543e1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "今天，你将重新审视脚下的每一寸土地。这不是一次更新，而是整个世界被推倒重塑后的再次呼吸。迎接「重生日」，不是旧世界的修补，而是从废墟中新的生长。\n《明日之后》「"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 98,
+          "name": "鱼乐达人-王者捕鱼电玩街机打鱼游戏",
+          "publisher": "CoolPlus Software (HongKong) Limited",
+          "category": "游戏",
+          "app_id": "1665337957",
+          "url": "https://apps.apple.com/cn/app/%E9%B1%BC%E4%B9%90%E8%BE%BE%E4%BA%BA-%E7%8E%8B%E8%80%85%E6%8D%95%E9%B1%BC%E7%94%B5%E7%8E%A9%E8%A1%97%E6%9C%BA%E6%89%93%E9%B1%BC%E6%B8%B8%E6%88%8F/id1665337957?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/88/8f/97888f7d-f9d5-96c4-8a76-3717591ace88/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【大话联动 主题登场】大话联动主题重磅上线！至尊宝、紫霞仙子、唐僧等经典角色惊喜加入渔场！重温大话旧梦，重温大话旧梦，畅享捕鱼狂欢，感受“爱你一万年，爆金一瞬间"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 77,
+          "name": "时光杂货店",
+          "publisher": "Anhui Leihu Network Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6504324535",
+          "url": "https://apps.apple.com/cn/app/%E6%97%B6%E5%85%89%E6%9D%82%E8%B4%A7%E5%BA%97/id6504324535?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/bc/c7/b6bcc72c-3da8-eee3-bd05-869b8d6ab713/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "开店有套路，重生当首富。诚邀你一同经营时光杂货店，体验“有钱，有店，有点闲”！\n\n——下载送终身特权卡，轻松体验、快乐不停\n——登陆送海量家具，随意打造你温馨的"
+        },
+        {
+          "rank": 98,
+          "name": "鱼乐达人-王者捕鱼电玩街机打鱼游戏",
+          "publisher": "CoolPlus Software (HongKong) Limited",
+          "category": "游戏",
+          "app_id": "1665337957",
+          "url": "https://apps.apple.com/cn/app/%E9%B1%BC%E4%B9%90%E8%BE%BE%E4%BA%BA-%E7%8E%8B%E8%80%85%E6%8D%95%E9%B1%BC%E7%94%B5%E7%8E%A9%E8%A1%97%E6%9C%BA%E6%89%93%E9%B1%BC%E6%B8%B8%E6%88%8F/id1665337957?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/88/8f/97888f7d-f9d5-96c4-8a76-3717591ace88/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【大话联动 主题登场】大话联动主题重磅上线！至尊宝、紫霞仙子、唐僧等经典角色惊喜加入渔场！重温大话旧梦，重温大话旧梦，畅享捕鱼狂欢，感受“爱你一万年，爆金一瞬间"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 47,
+          "name": "モンスターハンターNow",
+          "publisher": "Scopely Explore, Inc.",
+          "category": "ゲーム",
+          "app_id": "6445906110",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BCnow/id6445906110?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/a2/a4/eca2a402-b5d6-4338-9305-21a90e296a87/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "リアル狩猟解禁！\n\n-現実世界に突如現れたモンスターたち！\n現実世界を探索して素材を集め、「モンスターハンター」の世界から突如現れた「リオレウス」や「ディアブロ"
+        },
+        {
+          "rank": 92,
+          "name": "Mini Soccer Star 2027",
+          "publisher": "VIVA GAMES S.L.",
+          "category": "ゲーム",
+          "app_id": "1636072966",
+          "url": "https://apps.apple.com/jp/app/mini-soccer-star-2027/id1636072966?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/56/c2/c856c27d-78b8-31e5-cb61-62a1eed98c77/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to the MINI SOCCER STAR 2026!\n\nPlay the brand new soccer game Mini Socce"
+        },
+        {
+          "rank": 93,
+          "name": "ポケモンフレンズ",
+          "publisher": "The Pokemon Company",
+          "category": "ゲーム",
+          "app_id": "6741408067",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA/id6741408067?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fe/b4/13/feb413f6-cce8-f1bb-7d80-d3db83fc9c94/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "『ポケモンフレンズ』は今日も、できた！が見つかるひらめきゲームです。\n\n■あたまを「ほぐす」ひらめき問題にチャレンジしましょう。\nひらめき問題は1200以上！​"
+        },
+        {
+          "rank": 98,
+          "name": "No Man's Sky",
+          "publisher": "Hello Games",
+          "category": "ゲーム",
+          "app_id": "1615755735",
+          "url": "https://apps.apple.com/jp/app/no-mans-sky/id1615755735?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/6a/57/8f6a57cf-41c9-9afc-205c-95515bf61a50/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "*購入前にお試し* ゲームの冒頭部分を無料でプレイしよう。\n一度の購入でゲーム全編、さらには10年間分のアップデートもすべてアンロック。\n \nクラシックなサイエ"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 54,
+          "name": "7RL少女歌劇 レヴュースタァライト -The SLOT-",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6816938728",
+          "url": "https://apps.apple.com/jp/app/7rl%E5%B0%91%E5%A5%B3%E6%AD%8C%E5%8A%87-%E3%83%AC%E3%83%B4%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%BF%E3%82%A1%E3%83%A9%E3%82%A4%E3%83%88-the-slot/id6816938728?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/d2/dc/bbd2dc33-1285-f2c0-b0f8-f69d310e29d6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\nL少女歌劇 レヴュースタァライト -The SLOT-\n2025年/オーイズミ"
+        },
+        {
+          "rank": 89,
+          "name": "トゥーンブラスト",
+          "publisher": "Peak Games",
+          "category": "ゲーム",
+          "app_id": "1176027022",
+          "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88/id1176027022?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/dd/6e/3add6ec7-b780-9aff-c964-4cca062fe752/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "最高にエキサイティングな爆破パズル、トゥンブラへようこそ！\n\n『Toy Blast』のクリエイターが贈る、ユニークなゲームプレイがいつまでも楽しめる究極パズルゲ"
+        },
+        {
+          "rank": 97,
+          "name": "ナンプレ - 数字パズルゲーム",
+          "publisher": "Easybrain Ltd",
+          "category": "ゲーム",
+          "app_id": "1193508329",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8A%E3%83%B3%E3%83%97%E3%83%AC-%E6%95%B0%E5%AD%97%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id1193508329?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/32/b2/5332b246-2237-7b2d-d5de-7f0b8661dd33/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "AppStore から、有数のダウンロード数を誇るナンプレアプリを手に入れて、楽しく脳を鍛えましょう！ナンプレは何百万人という人が毎日プレイしている、老若男女問"
+        },
+        {
+          "rank": 99,
+          "name": "オフラインゲーム - 暇つぶし ゲーム - パズルゲーム",
+          "publisher": "Moreno Maio",
+          "category": "ゲーム",
+          "app_id": "6448104157",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0-%E6%9A%87%E3%81%A4%E3%81%B6%E3%81%97-%E3%82%B2%E3%83%BC%E3%83%A0-%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6448104157?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/31/b8/c431b886-ec97-a961-b096-d14420542794/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「オフラインゲーム」の準備をしよう：すべての年齢層に楽しい、そして頭脳トレーニングにもなる！このオフラインゲームコレクションは、20以上のユニークなミニゲームが"
+        },
+        {
+          "rank": 100,
+          "name": "今生は恋より茶に生きる",
+          "publisher": "FUNDOLL GLOBAL LIMITED",
+          "category": "ゲーム",
+          "app_id": "6756044415",
+          "url": "https://apps.apple.com/jp/app/%E4%BB%8A%E7%94%9F%E3%81%AF%E6%81%8B%E3%82%88%E3%82%8A%E8%8C%B6%E3%81%AB%E7%94%9F%E3%81%8D%E3%82%8B/id6756044415?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/e5/da/f5e5da31-bbc3-2d1d-9713-3d4f8c9a3644/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "目を覚ますと、秋婉（しゅうわん）はすべてを失う前の過去に戻っていました。家族はまだ無事で、茶楼も彼女の手にあります。前の人生で信じていた王子に裏切られた秋婉は、"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 92,
+          "name": "Mini Soccer Star 2027",
+          "publisher": "VIVA GAMES S.L.",
+          "category": "ゲーム",
+          "app_id": "1636072966",
+          "url": "https://apps.apple.com/jp/app/mini-soccer-star-2027/id1636072966?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/56/c2/c856c27d-78b8-31e5-cb61-62a1eed98c77/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to the MINI SOCCER STAR 2026!\n\nPlay the brand new soccer game Mini Socce"
+        },
+        {
+          "rank": 98,
+          "name": "No Man's Sky",
+          "publisher": "Hello Games",
+          "category": "ゲーム",
+          "app_id": "1615755735",
+          "url": "https://apps.apple.com/jp/app/no-mans-sky/id1615755735?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/6a/57/8f6a57cf-41c9-9afc-205c-95515bf61a50/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "*購入前にお試し* ゲームの冒頭部分を無料でプレイしよう。\n一度の購入でゲーム全編、さらには10年間分のアップデートもすべてアンロック。\n \nクラシックなサイエ"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 5,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 47,
+          "name": "モンスターハンターNow",
+          "publisher": "Scopely Explore, Inc.",
+          "category": "ゲーム",
+          "app_id": "6445906110",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BCnow/id6445906110?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/a2/a4/eca2a402-b5d6-4338-9305-21a90e296a87/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "リアル狩猟解禁！\n\n-現実世界に突如現れたモンスターたち！\n現実世界を探索して素材を集め、「モンスターハンター」の世界から突如現れた「リオレウス」や「ディアブロ"
+        },
+        {
+          "rank": 92,
+          "name": "Mini Soccer Star 2027",
+          "publisher": "VIVA GAMES S.L.",
+          "category": "ゲーム",
+          "app_id": "1636072966",
+          "url": "https://apps.apple.com/jp/app/mini-soccer-star-2027/id1636072966?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/56/c2/c856c27d-78b8-31e5-cb61-62a1eed98c77/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to the MINI SOCCER STAR 2026!\n\nPlay the brand new soccer game Mini Socce"
+        },
+        {
+          "rank": 93,
+          "name": "ポケモンフレンズ",
+          "publisher": "The Pokemon Company",
+          "category": "ゲーム",
+          "app_id": "6741408067",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA/id6741408067?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fe/b4/13/feb413f6-cce8-f1bb-7d80-d3db83fc9c94/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "『ポケモンフレンズ』は今日も、できた！が見つかるひらめきゲームです。\n\n■あたまを「ほぐす」ひらめき問題にチャレンジしましょう。\nひらめき問題は1200以上！​"
+        },
+        {
+          "rank": 98,
+          "name": "No Man's Sky",
+          "publisher": "Hello Games",
+          "category": "ゲーム",
+          "app_id": "1615755735",
+          "url": "https://apps.apple.com/jp/app/no-mans-sky/id1615755735?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/6a/57/8f6a57cf-41c9-9afc-205c-95515bf61a50/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "*購入前にお試し* ゲームの冒頭部分を無料でプレイしよう。\n一度の購入でゲーム全編、さらには10年間分のアップデートもすべてアンロック。\n \nクラシックなサイエ"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
