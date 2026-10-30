@@ -1,0 +1,444 @@
+{
+  "date": "2026-10-30",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "千次初见",
+          "publisher": "苏州沁游网络科技有限公司",
+          "category": "换装",
+          "subcategory": "恋爱、古风、角色扮演、剧情"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "饼干人联盟",
+          "publisher": "儒意景秀",
+          "category": "角色扮演",
+          "subcategory": "冒险、闯关、3D、多人联机、动作"
+        },
+        {
+          "rank": 6,
+          "name": "应征入伍",
+          "publisher": "玄鑫工作室",
+          "category": "射击",
+          "subcategory": "FPS、竞技"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "千次初见",
+          "publisher": "苏州沁游网络科技有限公司",
+          "category": "换装",
+          "subcategory": "恋爱、古风、角色扮演、剧情"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 45,
+          "name": "Minion Rush: Running game",
+          "publisher": "Gameloft",
+          "category": "Games",
+          "app_id": "596402997",
+          "url": "https://apps.apple.com/us/app/minion-rush-running-game/id596402997?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/aa/51/4b/aa514b60-2bce-962a-9d0d-9a7d9b9241f0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the New Generation of Minion Rush!\n\nGet ready to experience new advent"
+        },
+        {
+          "rank": 89,
+          "name": "Retro Bowl",
+          "publisher": "New Star Games",
+          "category": "Games",
+          "app_id": "1478902583",
+          "url": "https://apps.apple.com/us/app/retro-bowl/id1478902583?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/7d/d8/197dd8db-93d4-f20b-b99b-fd809f070698/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Retro Bowl is the perfect game for the armchair quarterback to finally prove a p"
+        },
+        {
+          "rank": 91,
+          "name": "Lavish Luck Casino",
+          "publisher": "Prudent Owl Limited",
+          "category": "Games",
+          "app_id": "6738905436",
+          "url": "https://apps.apple.com/us/app/lavish-luck-casino/id6738905436?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/bb/30/b5bb306a-618d-1eb3-267a-2af738a8230f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the exciting world of Lavish Luck Casino! Experience authentic Las Veg"
+        },
+        {
+          "rank": 95,
+          "name": "Cube Land Puzzle Game",
+          "publisher": "Rotatelab",
+          "category": "Games",
+          "app_id": "6757154335",
+          "url": "https://apps.apple.com/us/app/cube-land-puzzle-game/id6757154335?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/e3/b5/bce3b505-4234-4189-f269-879a5da32b97/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Blast your way through colorful cube worlds! Cube Land Puzzle Game is a satisfyi"
+        },
+        {
+          "rank": 96,
+          "name": "Satisfying Clean ASMR",
+          "publisher": "DongZ Game",
+          "category": "Games",
+          "app_id": "6767180267",
+          "url": "https://apps.apple.com/us/app/satisfying-clean-asmr/id6767180267?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2f/4d/c7/2f4dc74a-4460-8b84-864f-d45f0ffd0a35/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "Clean, Restore & Relax in Satisfying Clean ASMR — the ultimate stress relief and"
+        },
+        {
+          "rank": 100,
+          "name": "Toon Blast",
+          "publisher": "Peak Games",
+          "category": "Games",
+          "app_id": "1176027022",
+          "url": "https://apps.apple.com/us/app/toon-blast/id1176027022?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/dd/6e/3add6ec7-b780-9aff-c964-4cca062fe752/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to “Toon Blast,” a free match-3 adventure that combines fun and strategy"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 6,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 44,
+          "name": "球球大作战-无条件送超大",
+          "publisher": "巨人网络科技有限公司",
+          "category": "游戏",
+          "app_id": "996509117",
+          "url": "https://apps.apple.com/cn/app/%E7%90%83%E7%90%83%E5%A4%A7%E4%BD%9C%E6%88%98-%E6%97%A0%E6%9D%A1%E4%BB%B6%E9%80%81%E8%B6%85%E5%A4%A7/id996509117?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/50/73/4f5073fc-93bd-d2b7-c138-74bcdec375ec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《球球大作战》（Battle of Balls）是轻松有趣的休闲竞技手游大作，年轻玩家的共同选择！\n这是一款好玩、萌酷、有挑战性的实时对战休闲竞技游戏。在这个球"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 90,
+          "name": "逆水寒",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1541570980",
+          "url": "https://apps.apple.com/cn/app/%E9%80%86%E6%B0%B4%E5%AF%92/id1541570980?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/df/b2/cfdfb2b5-f149-fe29-8052-62b8be853c7a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《逆水寒》手游是一款国风开放世界武侠游戏，以精湛细腻的画质、真实灵动的江湖氛围、颠覆传统MMO套路、智能AI深度植入影响游戏世界而著称，被称为“会呼吸的江湖”。"
+        },
+        {
+          "rank": 97,
+          "name": "模拟城市：我是市长",
+          "publisher": "Beijing Bewinner Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "1174766830",
+          "url": "https://apps.apple.com/cn/app/%E6%A8%A1%E6%8B%9F%E5%9F%8E%E5%B8%82-%E6%88%91%E6%98%AF%E5%B8%82%E9%95%BF/id1174766830?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/d9/3f/65d93fb5-3442-ca43-d8b8-5b5ab5801317/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "享誉全球的经典3D模拟经营手游，倾情打造全新“开元古都”国风资料片！\n\n由EA开发、蜂巢游戏独家国内发行的《模拟城市：我是市长》，即将迎来市民入驻啦！一起建设高"
+        },
+        {
+          "rank": 100,
+          "name": "皇冠斗地主-小团团力荐",
+          "publisher": "弈趣玩科技(北京)有限公司",
+          "category": "游戏",
+          "app_id": "6746925059",
+          "url": "https://apps.apple.com/cn/app/%E7%9A%87%E5%86%A0%E6%96%97%E5%9C%B0%E4%B8%BB-%E5%B0%8F%E5%9B%A2%E5%9B%A2%E5%8A%9B%E8%8D%90/id6746925059?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/49/07/94490745-a59e-9180-e2e0-10ec0c1d5ca5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《皇冠斗地主》人气伙伴小团团欢乐助阵！一起畅玩比牌斗地主、皇冠杠8杠、红中血流等特色玩法，斗地主与麻将乐趣一次集齐，随时开局，欢乐不停！\n\n【小团团陪你欢乐开局"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 44,
+          "name": "球球大作战-无条件送超大",
+          "publisher": "巨人网络科技有限公司",
+          "category": "游戏",
+          "app_id": "996509117",
+          "url": "https://apps.apple.com/cn/app/%E7%90%83%E7%90%83%E5%A4%A7%E4%BD%9C%E6%88%98-%E6%97%A0%E6%9D%A1%E4%BB%B6%E9%80%81%E8%B6%85%E5%A4%A7/id996509117?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/50/73/4f5073fc-93bd-d2b7-c138-74bcdec375ec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《球球大作战》（Battle of Balls）是轻松有趣的休闲竞技手游大作，年轻玩家的共同选择！\n这是一款好玩、萌酷、有挑战性的实时对战休闲竞技游戏。在这个球"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 36,
+          "name": "開拓うさぎ by クラシル",
+          "publisher": "Kurashiru, Inc",
+          "category": "ゲーム",
+          "app_id": "6808466426",
+          "url": "https://apps.apple.com/jp/app/%E9%96%8B%E6%8B%93%E3%81%86%E3%81%95%E3%81%8E-by-%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%AB/id6808466426?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5a/3f/eb/5a3feb36-7519-b6db-fb2e-1e521aca89cf/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "【開拓うさぎとは？】\n\n大人気「クラシル」シリーズから、かわいいうさぎと一緒に世界の街を開拓する『開拓うさぎ』が新登場！\n\n画面をタップするだけで、少しずつ街が"
+        },
+        {
+          "rank": 43,
+          "name": "Warline: スナイパー・ストライク",
+          "publisher": "Powerfantasy",
+          "category": "ゲーム",
+          "app_id": "6742809194",
+          "url": "https://apps.apple.com/jp/app/warline-%E3%82%B9%E3%83%8A%E3%82%A4%E3%83%91%E3%83%BC-%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF/id6742809194?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a7/5b/d6/a75bd655-da6d-12ff-3d0d-02a1bfcbd5a4/AppIcon-Global-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "シューティングとリアルタイムストラテジーが融合！エリート狙撃手かつ陸・海・空軍の最高指揮官となり、戦場を支配せよ！\n\n一撃必殺の腕で戦況をひっくり返せ\n• 逆転"
+        },
+        {
+          "rank": 72,
+          "name": "スキュアジャム：フードゲーム (Skewer Jam)",
+          "publisher": "Zego Global Pte Ltd",
+          "category": "ゲーム",
+          "app_id": "6752386103",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%B8%E3%83%A3%E3%83%A0-%E3%83%95%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0-skewer-jam/id6752386103?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/5e/a6/545ea635-00cc-0dea-0e10-2988891ef05f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Skewer Jam: Food Games は、グルメ好きのための dynamic なフードパズルアドベンチャー！\n\nこの串焼きパズルゲームでは、ジュージュー"
+        },
+        {
+          "rank": 78,
+          "name": "勝利の女神：NIKKE",
+          "publisher": "Level Infinite",
+          "category": "ゲーム",
+          "app_id": "1585915174",
+          "url": "https://apps.apple.com/jp/app/%E5%8B%9D%E5%88%A9%E3%81%AE%E5%A5%B3%E7%A5%9E-nikke/id1585915174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/76/62/f376627d-7f96-b269-c635-34ddb704ec48/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【世界を救う為に、私の指揮官になってください】\n人類は敗北した。\n「ラプチャー」の侵攻は何の前触れもなく始まり、無慈悲で圧倒的であった。 \n目的不明。 交渉不可"
+        },
+        {
+          "rank": 95,
+          "name": "Color Puzzle Jam - バスゲーム 車のジャム",
+          "publisher": "Gloryway Puzzle",
+          "category": "ゲーム",
+          "app_id": "6760389476",
+          "url": "https://apps.apple.com/jp/app/color-puzzle-jam-%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0-%E8%BB%8A%E3%81%AE%E3%82%B8%E3%83%A3%E3%83%A0/id6760389476?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/9f/eb/719feb71-8f07-725d-22a4-bad15e34a17e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "魅力的でハマるパズルアドベンチャーへようこそ！あなたの使命は、ぎっしり詰まった駐車場を空にすること。タップして車を出し、同じ色の待ち客を乗せて列を消していこう。"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 80,
+          "name": "777Real(777リアル) パチンコ･パチスロアプリ",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "1545088576",
+          "url": "https://apps.apple.com/jp/app/777real-777%E3%83%AA%E3%82%A2%E3%83%AB-%E3%83%91%E3%83%81%E3%83%B3%E3%82%B3-%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD%E3%82%A2%E3%83%97%E3%83%AA/id1545088576?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/be/8f/12be8f0b-3505-b935-0e9e-c6b01b846280/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\n777Real（スリーセブンリアル）\n--------------------"
+        },
+        {
+          "rank": 85,
+          "name": "eFootball™",
+          "publisher": "KONAMI",
+          "category": "ゲーム",
+          "app_id": "1117270703",
+          "url": "https://apps.apple.com/jp/app/efootball/id1117270703?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/98/c4/f298c428-1e55-a238-3c3c-a2c59b50523a/PesMobile-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "精細なグラフィックとリアルな操作性の本格サッカーアクションゲーム。\n世界中のクラブ・代表チームの現役選手やレジェンドを獲得・育成し、自由に編成したあなただけのチ"
+        },
+        {
+          "rank": 98,
+          "name": "Family Farm Merge",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6760998152",
+          "url": "https://apps.apple.com/jp/app/family-farm-merge/id6760998152?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/cd/b7/58cdb730-a37a-dd35-6952-e7f3eff0fa8d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Family Farm Merge：自然へと戻るマージの冒険！\n\n『Family Farm Merge』へようこそ。これは、名作『Family Farm』シリー"
+        },
+        {
+          "rank": 99,
+          "name": "ねこ旅",
+          "publisher": "Onyx Hook LLC",
+          "category": "ゲーム",
+          "app_id": "6748996000",
+          "url": "https://apps.apple.com/jp/app/%E3%81%AD%E3%81%93%E6%97%85/id6748996000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/5e/1b/685e1b84-c298-9e0e-0767-fe0dbe430b84/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "猫を旅に出して、のんびり帰りを待つ。\n癒しとちょっとしたワクワクを楽しめる、放置型アプリです。\n\n【遊び方】\n・猫を旅に出そう！\n　持たせるアイテムによって行き"
+        },
+        {
+          "rank": 100,
+          "name": "SUPERSTAR EBiDAN",
+          "publisher": "DalcomSoft Japan, Inc.",
+          "category": "ゲーム",
+          "app_id": "6450412255",
+          "url": "https://apps.apple.com/jp/app/superstar-ebidan/id6450412255?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/0c/4f/050c4ffc-1387-ffea-bc85-6e654d75edba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【全世界累計1億ダウンロードを突破したSUPERSTARシリーズ！】\n\n▼SUPERSTAR EBiDANとは\nデビュー曲から最新曲がリズムゲームで遊べるEBi"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 43,
+          "name": "Warline: スナイパー・ストライク",
+          "publisher": "Powerfantasy",
+          "category": "ゲーム",
+          "app_id": "6742809194",
+          "url": "https://apps.apple.com/jp/app/warline-%E3%82%B9%E3%83%8A%E3%82%A4%E3%83%91%E3%83%BC-%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF/id6742809194?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a7/5b/d6/a75bd655-da6d-12ff-3d0d-02a1bfcbd5a4/AppIcon-Global-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "シューティングとリアルタイムストラテジーが融合！エリート狙撃手かつ陸・海・空軍の最高指揮官となり、戦場を支配せよ！\n\n一撃必殺の腕で戦況をひっくり返せ\n• 逆転"
+        },
+        {
+          "rank": 95,
+          "name": "Color Puzzle Jam - バスゲーム 車のジャム",
+          "publisher": "Gloryway Puzzle",
+          "category": "ゲーム",
+          "app_id": "6760389476",
+          "url": "https://apps.apple.com/jp/app/color-puzzle-jam-%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0-%E8%BB%8A%E3%81%AE%E3%82%B8%E3%83%A3%E3%83%A0/id6760389476?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/9f/eb/719feb71-8f07-725d-22a4-bad15e34a17e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "魅力的でハマるパズルアドベンチャーへようこそ！あなたの使命は、ぎっしり詰まった駐車場を空にすること。タップして車を出し、同じ色の待ち客を乗せて列を消していこう。"
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 5,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 36,
+          "name": "開拓うさぎ by クラシル",
+          "publisher": "Kurashiru, Inc",
+          "category": "ゲーム",
+          "app_id": "6808466426",
+          "url": "https://apps.apple.com/jp/app/%E9%96%8B%E6%8B%93%E3%81%86%E3%81%95%E3%81%8E-by-%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%AB/id6808466426?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5a/3f/eb/5a3feb36-7519-b6db-fb2e-1e521aca89cf/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "【開拓うさぎとは？】\n\n大人気「クラシル」シリーズから、かわいいうさぎと一緒に世界の街を開拓する『開拓うさぎ』が新登場！\n\n画面をタップするだけで、少しずつ街が"
+        },
+        {
+          "rank": 43,
+          "name": "Warline: スナイパー・ストライク",
+          "publisher": "Powerfantasy",
+          "category": "ゲーム",
+          "app_id": "6742809194",
+          "url": "https://apps.apple.com/jp/app/warline-%E3%82%B9%E3%83%8A%E3%82%A4%E3%83%91%E3%83%BC-%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF/id6742809194?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a7/5b/d6/a75bd655-da6d-12ff-3d0d-02a1bfcbd5a4/AppIcon-Global-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "シューティングとリアルタイムストラテジーが融合！エリート狙撃手かつ陸・海・空軍の最高指揮官となり、戦場を支配せよ！\n\n一撃必殺の腕で戦況をひっくり返せ\n• 逆転"
+        },
+        {
+          "rank": 72,
+          "name": "スキュアジャム：フードゲーム (Skewer Jam)",
+          "publisher": "Zego Global Pte Ltd",
+          "category": "ゲーム",
+          "app_id": "6752386103",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%B8%E3%83%A3%E3%83%A0-%E3%83%95%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0-skewer-jam/id6752386103?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/5e/a6/545ea635-00cc-0dea-0e10-2988891ef05f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Skewer Jam: Food Games は、グルメ好きのための dynamic なフードパズルアドベンチャー！\n\nこの串焼きパズルゲームでは、ジュージュー"
+        },
+        {
+          "rank": 78,
+          "name": "勝利の女神：NIKKE",
+          "publisher": "Level Infinite",
+          "category": "ゲーム",
+          "app_id": "1585915174",
+          "url": "https://apps.apple.com/jp/app/%E5%8B%9D%E5%88%A9%E3%81%AE%E5%A5%B3%E7%A5%9E-nikke/id1585915174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/76/62/f376627d-7f96-b269-c635-34ddb704ec48/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【世界を救う為に、私の指揮官になってください】\n人類は敗北した。\n「ラプチャー」の侵攻は何の前触れもなく始まり、無慈悲で圧倒的であった。 \n目的不明。 交渉不可"
+        },
+        {
+          "rank": 95,
+          "name": "Color Puzzle Jam - バスゲーム 車のジャム",
+          "publisher": "Gloryway Puzzle",
+          "category": "ゲーム",
+          "app_id": "6760389476",
+          "url": "https://apps.apple.com/jp/app/color-puzzle-jam-%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0-%E8%BB%8A%E3%81%AE%E3%82%B8%E3%83%A3%E3%83%A0/id6760389476?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/9f/eb/719feb71-8f07-725d-22a4-bad15e34a17e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "魅力的でハマるパズルアドベンチャーへようこそ！あなたの使命は、ぎっしり詰まった駐車場を空にすること。タップして車を出し、同じ色の待ち客を乗せて列を消していこう。"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
