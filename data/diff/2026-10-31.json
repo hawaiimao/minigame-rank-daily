@@ -1,0 +1,473 @@
+{
+  "date": "2026-10-31",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "变形金刚：新纪元",
+          "publisher": "Wanda Game",
+          "category": "策略",
+          "subcategory": "剧情、收集"
+        },
+        {
+          "rank": 9,
+          "name": "无限大",
+          "publisher": "网易游戏",
+          "category": "开放世界",
+          "subcategory": "角色扮演、高自由度、都市、二次元、动作、高画质、3D"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 52,
+          "name": "Parking Loop",
+          "publisher": "Loop Games Oyun Teknolojileri Anonim Sirketi",
+          "category": "Games",
+          "app_id": "6802383216",
+          "url": "https://apps.apple.com/us/app/parking-loop/id6802383216?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/a1/5c/65a15c7c-9422-7a8a-9886-20a38099b565/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Parking Loop, a satisfying puzzle game where everything needs to find"
+        },
+        {
+          "rank": 94,
+          "name": "FanDuel Casino - Real Money",
+          "publisher": "FanDuel, Inc.",
+          "category": "Games",
+          "app_id": "1506229470",
+          "url": "https://apps.apple.com/us/app/fanduel-casino-real-money/id1506229470?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/7b/37/a27b374a-8c31-a62b-d7c5-1af6e0813509/AppIcon-0-0-1x_U007emarketing-0-0-0-11-0-0-85-220.png/100x100bb.png",
+          "slogan": "FanDuel Casino is the #1 Rated Online Casino app, where you can play fully regul"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 96,
+          "name": "Solar Smash",
+          "publisher": "PARADYME LIMITED",
+          "category": "Games",
+          "app_id": "1495723103",
+          "url": "https://apps.apple.com/us/app/solar-smash/id1495723103?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/a5/dc/b2a5dc6f-16ed-26f9-c28e-8a239604cd3d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Harness the power of space and embark on an epic journey of creative destruction"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 38,
+          "name": "Manhunt: Hide & Seek",
+          "publisher": "Integrated Reality Labs Inc.",
+          "category": "Games",
+          "app_id": "6560107504",
+          "url": "https://apps.apple.com/us/app/manhunt-hide-seek/id6560107504?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/3f/41/793f41e7-59b7-bf8b-e078-4191c216019f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Play Manhunt and Hide & Seek anywhere in the world. With extensive location find"
+        },
+        {
+          "rank": 71,
+          "name": "Imposter Game - Party Edition",
+          "publisher": "Sven Vucak",
+          "category": "Games",
+          "app_id": "6745120053",
+          "url": "https://apps.apple.com/us/app/imposter-game-party-edition/id6745120053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/69/e0/1069e0bd-1564-9f77-7ea4-a8072e6e90ff/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.png",
+          "slogan": "Are you the imposter - or will you expose them?\n\nImposter is the perfect game fo"
+        },
+        {
+          "rank": 84,
+          "name": "EA SPORTS FC Soccer Mobile 27",
+          "publisher": "Electronic Arts",
+          "category": "Games",
+          "app_id": "1094930513",
+          "url": "https://apps.apple.com/us/app/ea-sports-fc-soccer-mobile-27/id1094930513?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/d1/84/41d18457-ec03-6812-f0a7-8a83686c6009/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This game includes optional in-game purchases of virtual currency that can be us"
+        },
+        {
+          "rank": 92,
+          "name": "Goods Puzzle: Sort Challenge™",
+          "publisher": "FALCON GAMES",
+          "category": "Games",
+          "app_id": "6482849843",
+          "url": "https://apps.apple.com/us/app/goods-puzzle-sort-challenge/id6482849843?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/af/78/94af78b9-aa38-70a0-9f10-530f77998a0a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready to embark on an exciting matching adventure like never before in Goods"
+        },
+        {
+          "rank": 98,
+          "name": "Brawl Stars",
+          "publisher": "Supercell",
+          "category": "Games",
+          "app_id": "1229016807",
+          "url": "https://apps.apple.com/us/app/brawl-stars/id1229016807?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/98/dd/2798dd4e-f772-d93b-0a82-588d3fb55302/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Fast paced 3v3 & 5v5 MOBA and Battle Royale made for mobile! Play online with fr"
+        },
+        {
+          "rank": 99,
+          "name": "Geometry Dash Lite",
+          "publisher": "RobTop Games AB",
+          "category": "Games",
+          "app_id": "698255242",
+          "url": "https://apps.apple.com/us/app/geometry-dash-lite/id698255242?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d3/97/d0/d397d053-137e-e7e5-82b2-123cabb4ffa8/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "Jump and fly your way through danger in this rhythm-based action platformer!\n\n\"F"
+        },
+        {
+          "rank": 100,
+          "name": "Charades - Family & Party Game",
+          "publisher": "Dmytro Cheverda",
+          "category": "Games",
+          "app_id": "1453837845",
+          "url": "https://apps.apple.com/us/app/charades-family-party-game/id1453837845?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/d5/fb/b9d5fb3f-c91e-73b7-776a-9d405f0cfc66/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+          "slogan": "Fun and easy to play game will cheer up your party or family gathering.\n\nGuess t"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 52,
+          "name": "Parking Loop",
+          "publisher": "Loop Games Oyun Teknolojileri Anonim Sirketi",
+          "category": "Games",
+          "app_id": "6802383216",
+          "url": "https://apps.apple.com/us/app/parking-loop/id6802383216?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/a1/5c/65a15c7c-9422-7a8a-9886-20a38099b565/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Parking Loop, a satisfying puzzle game where everything needs to find"
+        },
+        {
+          "rank": 94,
+          "name": "FanDuel Casino - Real Money",
+          "publisher": "FanDuel, Inc.",
+          "category": "Games",
+          "app_id": "1506229470",
+          "url": "https://apps.apple.com/us/app/fanduel-casino-real-money/id1506229470?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/7b/37/a27b374a-8c31-a62b-d7c5-1af6e0813509/AppIcon-0-0-1x_U007emarketing-0-0-0-11-0-0-85-220.png/100x100bb.png",
+          "slogan": "FanDuel Casino is the #1 Rated Online Casino app, where you can play fully regul"
+        },
+        {
+          "rank": 96,
+          "name": "Solar Smash",
+          "publisher": "PARADYME LIMITED",
+          "category": "Games",
+          "app_id": "1495723103",
+          "url": "https://apps.apple.com/us/app/solar-smash/id1495723103?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/a5/dc/b2a5dc6f-16ed-26f9-c28e-8a239604cd3d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Harness the power of space and embark on an epic journey of creative destruction"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 7,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 52,
+          "name": "Parking Loop",
+          "publisher": "Loop Games Oyun Teknolojileri Anonim Sirketi",
+          "category": "Games",
+          "app_id": "6802383216",
+          "url": "https://apps.apple.com/us/app/parking-loop/id6802383216?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/a1/5c/65a15c7c-9422-7a8a-9886-20a38099b565/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Parking Loop, a satisfying puzzle game where everything needs to find"
+        },
+        {
+          "rank": 94,
+          "name": "FanDuel Casino - Real Money",
+          "publisher": "FanDuel, Inc.",
+          "category": "Games",
+          "app_id": "1506229470",
+          "url": "https://apps.apple.com/us/app/fanduel-casino-real-money/id1506229470?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/7b/37/a27b374a-8c31-a62b-d7c5-1af6e0813509/AppIcon-0-0-1x_U007emarketing-0-0-0-11-0-0-85-220.png/100x100bb.png",
+          "slogan": "FanDuel Casino is the #1 Rated Online Casino app, where you can play fully regul"
+        },
+        {
+          "rank": 96,
+          "name": "Solar Smash",
+          "publisher": "PARADYME LIMITED",
+          "category": "Games",
+          "app_id": "1495723103",
+          "url": "https://apps.apple.com/us/app/solar-smash/id1495723103?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/a5/dc/b2a5dc6f-16ed-26f9-c28e-8a239604cd3d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Harness the power of space and embark on an epic journey of creative destruction"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "疯狂消方块：鸭鸭来解谜",
+          "publisher": "轩 殷",
+          "category": "游戏",
+          "app_id": "6825755236",
+          "url": "https://apps.apple.com/cn/app/%E7%96%AF%E7%8B%82%E6%B6%88%E6%96%B9%E5%9D%97-%E9%B8%AD%E9%B8%AD%E6%9D%A5%E8%A7%A3%E8%B0%9C/id6825755236?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/b4/26/b4b4261c-a6d4-815b-966f-3a5fda7bef38/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "你需要通过有限的线索，一步步揭开隐藏的正确数字密码。每次输入后，系统将反馈数字与位置的精准提示。优先找出正确数字，再巧妙调整排序。\n\n点击任意棋子，系统将自动高"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 86,
+          "name": "崩坏：星穹铁道",
+          "publisher": "miHoYo Games",
+          "category": "游戏",
+          "app_id": "1523037824",
+          "url": "https://apps.apple.com/cn/app/%E5%B4%A9%E5%9D%8F-%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93/id1523037824?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/68/a5/48/68a548c6-05e7-7f18-0adc-f757c19031c8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "这片银河中有名为「星神」的存在，祂们造就现实，抹消星辰，在无数「世界」中留下祂们的痕迹。你——一名特殊的旅客，将与继承「开拓」意志的同伴一起，乘坐星穹列车穿越银"
+        },
+        {
+          "rank": 95,
+          "name": "实况足球",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1347776121",
+          "url": "https://apps.apple.com/cn/app/%E5%AE%9E%E5%86%B5%E8%B6%B3%E7%90%83/id1347776121?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/79/02/0079020a-b439-6ee9-e1bb-ae1f54735c4d/PesMobile-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "■实况足球2027，震撼登场！\n全球10亿下载，实况足球手游现已更新2027赛季年度版本！攻防双阵型时代来临！足坛前沿战术理念在你手中复刻，进攻防守两套阵型动态"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 6,
+          "name": "疯狂消方块：鸭鸭来解谜",
+          "publisher": "轩 殷",
+          "category": "游戏",
+          "app_id": "6825755236",
+          "url": "https://apps.apple.com/cn/app/%E7%96%AF%E7%8B%82%E6%B6%88%E6%96%B9%E5%9D%97-%E9%B8%AD%E9%B8%AD%E6%9D%A5%E8%A7%A3%E8%B0%9C/id6825755236?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/b4/26/b4b4261c-a6d4-815b-966f-3a5fda7bef38/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "你需要通过有限的线索，一步步揭开隐藏的正确数字密码。每次输入后，系统将反馈数字与位置的精准提示。优先找出正确数字，再巧妙调整排序。\n\n点击任意棋子，系统将自动高"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "疯狂消方块：鸭鸭来解谜",
+          "publisher": "轩 殷",
+          "category": "游戏",
+          "app_id": "6825755236",
+          "url": "https://apps.apple.com/cn/app/%E7%96%AF%E7%8B%82%E6%B6%88%E6%96%B9%E5%9D%97-%E9%B8%AD%E9%B8%AD%E6%9D%A5%E8%A7%A3%E8%B0%9C/id6825755236?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/b4/26/b4b4261c-a6d4-815b-966f-3a5fda7bef38/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "你需要通过有限的线索，一步步揭开隐藏的正确数字密码。每次输入后，系统将反馈数字与位置的精准提示。优先找出正确数字，再巧妙调整排序。\n\n点击任意棋子，系统将自动高"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 100,
+          "name": "ハローキティ：マイドリームストア",
+          "publisher": "ACTGames Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6736896540",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8F%E3%83%AD%E3%83%BC%E3%82%AD%E3%83%86%E3%82%A3-%E3%83%9E%E3%82%A4%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%B9%E3%83%88%E3%82%A2/id6736896540?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/d0/29/71d0298a-8d43-a1df-4534-2d710409bf93/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "みんなが遊びに来なくなり、廃れてしまったショッピングタウンを見て悲しむハローキティとクロミ。\nここはもう、みんなのための夢の空間ではなくなってしまいました。\nで"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 70,
+          "name": "荒野行動-スマホ版バトロワ",
+          "publisher": "NetEase Games",
+          "category": "ゲーム",
+          "app_id": "1312031248",
+          "url": "https://apps.apple.com/jp/app/%E8%8D%92%E9%87%8E%E8%A1%8C%E5%8B%95-%E3%82%B9%E3%83%9E%E3%83%9B%E7%89%88%E3%83%90%E3%83%88%E3%83%AD%E3%83%AF/id1312031248?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/bd/1c/92bd1c3b-bcd0-dbe2-e5e2-d0552f4913f3/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "荒野9周年祭、盛大に開催中！\nイベント参加で金車・金銃・金衣装GET！さらに、史上初！殿堂銃器までイベントでもらえる！\nメインストリート新マップ「激戦渋谷」開放"
+        },
+        {
+          "rank": 77,
+          "name": "EDGE POKER (エッジポーカー)",
+          "publisher": "DeNA Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6476597728",
+          "url": "https://apps.apple.com/jp/app/edge-poker-%E3%82%A8%E3%83%83%E3%82%B8%E3%83%9D%E3%83%BC%E3%82%AB%E3%83%BC/id6476597728?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/1b/d8/f31bd87b-21b4-3cf8-6ccc-2a9c315358d1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【踏みだせ、ポーカーのド真ん中へ。AIとともに強くなる、みんなが集まるポーカーの世界】\nDeNAと日本のポーカーブームを牽引するプロポーカープレイヤー「世界のヨ"
+        },
+        {
+          "rank": 88,
+          "name": "No Man's Sky",
+          "publisher": "Hello Games",
+          "category": "ゲーム",
+          "app_id": "1615755735",
+          "url": "https://apps.apple.com/jp/app/no-mans-sky/id1615755735?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/cf/71/aacf71a0-c246-d43b-f3ac-edad11c186b5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "*購入前にお試し* ゲームの冒頭部分を無料でプレイしよう。\n一度の購入でゲーム全編、さらには10年間分のアップデートもすべてアンロック。\n\nSupported "
+        },
+        {
+          "rank": 89,
+          "name": "ホテル・ミステリア",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6752886832",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%86%E3%83%AB-%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%82%A2/id6752886832?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/59/25/aa59252f-f756-7f98-3ee4-b4a93727f641/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ホテルをリノベーション＆プロデュース！\n\n元ホテルスタッフのアリッサは、祖母が遺した謎の遺産…「エステートホテル」を受け継ぐことに…\n個性豊かな仲間と力を合わせ"
+        },
+        {
+          "rank": 92,
+          "name": "Cookingo: Perfect Meal",
+          "publisher": "Higame Global Limited",
+          "category": "ゲーム",
+          "app_id": "6756288168",
+          "url": "https://apps.apple.com/jp/app/cookingo-perfect-meal/id6756288168?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/c1/2a/14c12a84-a079-04c3-4e3a-05c65aafa60a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to Cookingo, your peaceful little escape from the hustle and bustle of e"
+        },
+        {
+          "rank": 93,
+          "name": "火鍋マスター：フードパズル",
+          "publisher": "Chengmai Jiutai Technology Co.. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6758488812",
+          "url": "https://apps.apple.com/jp/app/%E7%81%AB%E9%8D%8B%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC-%E3%83%95%E3%83%BC%E3%83%89%E3%83%91%E3%82%BA%E3%83%AB/id6758488812?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/95/d6/8d95d669-567c-06d5-81df-5c77d11f8cd9/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "「おいしい」脳トレを始めませんか？\n『火鍋マスター：フードパズル』へようこそ。\n\n日常の喧騒を離れ、ぐつぐつ煮える火鍋（ホットポット）の温かな世界へ。湯気の立つ"
+        },
+        {
+          "rank": 94,
+          "name": "オンクレならタイクレ！オンラインクレーンゲーム(オンクレ)",
+          "publisher": "TAITO Corporation",
+          "category": "ゲーム",
+          "app_id": "1276424024",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%B3%E3%82%AF%E3%83%AC%E3%81%AA%E3%82%89%E3%82%BF%E3%82%A4%E3%82%AF%E3%83%AC-%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0-%E3%82%AA%E3%83%B3%E3%82%AF%E3%83%AC/id1276424024?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/38/b6/2838b607-8ef0-08b0-c4ad-4abdca13e346/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "「おうちでクレーンゲーム、しよ？」\n人気の景品が５０００種類以上！欲しい景品がきっと見つかる！\n「タイトーオンラインクレーン」、略して「タイクレ」は３６５日２４"
+        },
+        {
+          "rank": 95,
+          "name": "ペタペタペンギン団",
+          "publisher": "MOREFUN (H.K.) LIMITED",
+          "category": "ゲーム",
+          "app_id": "6742937695",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9A%E3%82%BF%E3%83%9A%E3%82%BF%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3%E5%9B%A3/id6742937695?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/fa/57/61fa5759-f2c1-0003-d642-1b4ee404af89/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【無料で３０００連ガチャ、豪華特典ゲット！】\nペタペタペンギン団、予約数100万突破！今DLして無料で3000連ガチャを引ける！さらに地域限定スキン・「剣魂」（"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 100,
+          "name": "ハローキティ：マイドリームストア",
+          "publisher": "ACTGames Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6736896540",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8F%E3%83%AD%E3%83%BC%E3%82%AD%E3%83%86%E3%82%A3-%E3%83%9E%E3%82%A4%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%B9%E3%83%88%E3%82%A2/id6736896540?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/d0/29/71d0298a-8d43-a1df-4534-2d710409bf93/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "みんなが遊びに来なくなり、廃れてしまったショッピングタウンを見て悲しむハローキティとクロミ。\nここはもう、みんなのための夢の空間ではなくなってしまいました。\nで"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 8,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 100,
+          "name": "ハローキティ：マイドリームストア",
+          "publisher": "ACTGames Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6736896540",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8F%E3%83%AD%E3%83%BC%E3%82%AD%E3%83%86%E3%82%A3-%E3%83%9E%E3%82%A4%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%B9%E3%83%88%E3%82%A2/id6736896540?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/d0/29/71d0298a-8d43-a1df-4534-2d710409bf93/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "みんなが遊びに来なくなり、廃れてしまったショッピングタウンを見て悲しむハローキティとクロミ。\nここはもう、みんなのための夢の空間ではなくなってしまいました。\nで"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
