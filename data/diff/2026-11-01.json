@@ -1,0 +1,503 @@
+{
+  "date": "2026-11-01",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "花开时见你",
+          "publisher": "广州春芒网络科技有限公司",
+          "category": "模拟经营",
+          "subcategory": "种田、收集、放置、治愈"
+        },
+        {
+          "rank": 10,
+          "name": "千次初见",
+          "publisher": "苏州沁游网络科技有限公司",
+          "category": "换装",
+          "subcategory": "恋爱、古风、角色扮演、剧情"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 66,
+          "name": "SCRAM: Hide and Seek",
+          "publisher": "Moveera Pty Ltd",
+          "category": "Games",
+          "app_id": "6817314923",
+          "url": "https://apps.apple.com/us/app/scram-hide-and-seek/id6817314923?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/0d/af/280daff9-3780-efff-c813-8bd6ca863819/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "SCRAM is hide and seek for the real world. Split into hunters and runners, start"
+        },
+        {
+          "rank": 67,
+          "name": "HideZone: GPS Hide & Seek",
+          "publisher": "Robin Morgenstern",
+          "category": "Games",
+          "app_id": "6759913726",
+          "url": "https://apps.apple.com/us/app/hidezone-gps-hide-seek/id6759913726?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/cb/55/62cb55d5-9067-2e1f-45f3-55d988c9ee1e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "TURN YOUR CITY INTO A GIANT GAME\n\nHideZone brings Hide & Seek and other real-lif"
+        },
+        {
+          "rank": 70,
+          "name": "Hunting Game: GPS Manhunt",
+          "publisher": "Jasper Aelvoet",
+          "category": "Games",
+          "app_id": "6471968553",
+          "url": "https://apps.apple.com/us/app/hunting-game-gps-manhunt/id6471968553?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/3c/5f/9e3c5ff3-9c37-5258-03ef-8b18a7c4ea97/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Turn your city into a playground.\n\nHunting Game transforms any outdoor space int"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 61,
+          "name": "Charades Guess Game · Guessly",
+          "publisher": "smak apps",
+          "category": "Games",
+          "app_id": "6473058122",
+          "url": "https://apps.apple.com/us/app/charades-guess-game-guessly/id6473058122?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/94/ce/d494ced3-46fe-f8e9-7bbc-d80356c187a6/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.jpeg/100x100bb.png",
+          "slogan": "Ready to turn ordinary hangouts into unforgettable moments? Meet Guessly — a cha"
+        },
+        {
+          "rank": 75,
+          "name": "Exposed - Who's Most Likely To",
+          "publisher": "vysgames",
+          "category": "Games",
+          "app_id": "1553777064",
+          "url": "https://apps.apple.com/us/app/exposed-whos-most-likely-to/id1553777064?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/05/d0/1e05d00a-12b8-03fb-11fc-457c119243ac/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Exposed is the party game that finds out who in your group is the most likely to"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 66,
+          "name": "SCRAM: Hide and Seek",
+          "publisher": "Moveera Pty Ltd",
+          "category": "Games",
+          "app_id": "6817314923",
+          "url": "https://apps.apple.com/us/app/scram-hide-and-seek/id6817314923?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/0d/af/280daff9-3780-efff-c813-8bd6ca863819/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "SCRAM is hide and seek for the real world. Split into hunters and runners, start"
+        },
+        {
+          "rank": 67,
+          "name": "HideZone: GPS Hide & Seek",
+          "publisher": "Robin Morgenstern",
+          "category": "Games",
+          "app_id": "6759913726",
+          "url": "https://apps.apple.com/us/app/hidezone-gps-hide-seek/id6759913726?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/cb/55/62cb55d5-9067-2e1f-45f3-55d988c9ee1e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "TURN YOUR CITY INTO A GIANT GAME\n\nHideZone brings Hide & Seek and other real-lif"
+        },
+        {
+          "rank": 70,
+          "name": "Hunting Game: GPS Manhunt",
+          "publisher": "Jasper Aelvoet",
+          "category": "Games",
+          "app_id": "6471968553",
+          "url": "https://apps.apple.com/us/app/hunting-game-gps-manhunt/id6471968553?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/3c/5f/9e3c5ff3-9c37-5258-03ef-8b18a7c4ea97/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Turn your city into a playground.\n\nHunting Game transforms any outdoor space int"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 2,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 66,
+          "name": "SCRAM: Hide and Seek",
+          "publisher": "Moveera Pty Ltd",
+          "category": "Games",
+          "app_id": "6817314923",
+          "url": "https://apps.apple.com/us/app/scram-hide-and-seek/id6817314923?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/0d/af/280daff9-3780-efff-c813-8bd6ca863819/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "SCRAM is hide and seek for the real world. Split into hunters and runners, start"
+        },
+        {
+          "rank": 67,
+          "name": "HideZone: GPS Hide & Seek",
+          "publisher": "Robin Morgenstern",
+          "category": "Games",
+          "app_id": "6759913726",
+          "url": "https://apps.apple.com/us/app/hidezone-gps-hide-seek/id6759913726?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/cb/55/62cb55d5-9067-2e1f-45f3-55d988c9ee1e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "TURN YOUR CITY INTO A GIANT GAME\n\nHideZone brings Hide & Seek and other real-lif"
+        },
+        {
+          "rank": 70,
+          "name": "Hunting Game: GPS Manhunt",
+          "publisher": "Jasper Aelvoet",
+          "category": "Games",
+          "app_id": "6471968553",
+          "url": "https://apps.apple.com/us/app/hunting-game-gps-manhunt/id6471968553?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/3c/5f/9e3c5ff3-9c37-5258-03ef-8b18a7c4ea97/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Turn your city into a playground.\n\nHunting Game transforms any outdoor space int"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 97,
+          "name": "Trio em Ordem",
+          "publisher": "Charles Steven Hernandez",
+          "category": "游戏",
+          "app_id": "6816901919",
+          "url": "https://apps.apple.com/cn/app/trio-em-ordem/id6816901919?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/c9/2a/a6c92a50-d10c-1766-27fd-810ae3ec856b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Transforma uma mesa de argila num pequeno mundo em movimento.\n\nEm Trio em Ordem,"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 73,
+          "name": "明日方舟",
+          "publisher": "Shanghai Hypergryph Network Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "1454663939",
+          "url": "https://apps.apple.com/cn/app/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F/id1454663939?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/7f/6d/617f6d74-5328-fd8c-6df4-0b709977abb9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "鹰角网络独立开发运营的策略手游\n\n【世界观】\n大地被起因不明的天灾四处肆虐，经由天灾席卷过的土地上出现了大量的神秘矿物——“源石”。\n依赖于技术的进步，源石蕴含"
+        },
+        {
+          "rank": 81,
+          "name": "迷你枪战精英",
+          "publisher": "Hainan Mengxing Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "1551614000",
+          "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E6%9E%AA%E6%88%98%E7%B2%BE%E8%8B%B1/id1551614000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/b7/f2/f2b7f267-fe48-fa37-3e4d-1609b3289227/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《迷你枪战精英》是迷你世界IP矩阵下全新推出的一款射击手游。明亮清新的Q版画风，紧张刺激的团队对抗，提供不同以往的 游戏体验。游戏内小艾、幻音、幻-零式、华乐等"
+        },
+        {
+          "rank": 93,
+          "name": "我的汤姆猫2-地下探险万圣主题派对",
+          "publisher": "Outfit7 Limited",
+          "category": "游戏",
+          "app_id": "1337578317",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%B1%A4%E5%A7%86%E7%8C%AB2-%E5%9C%B0%E4%B8%8B%E6%8E%A2%E9%99%A9%E4%B8%87%E5%9C%A3%E4%B8%BB%E9%A2%98%E6%B4%BE%E5%AF%B9/id1337578317?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/92/c3/a292c3b4-bcb4-6427-fb9a-3acb8984c423/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/100x100bb.png",
+          "slogan": "超级明星虚拟猫咪将踏上终极宠物冒险之旅，有了你，这将比以往任何时候都更有趣！你最喜爱的有趣朋友已经准备好用他的新服装、惊人技能和特殊功能让你大开眼界。\n\n你能做"
+        },
+        {
+          "rank": 94,
+          "name": "云•王者荣耀",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "6468988672",
+          "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/id6468988672?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/46/25/ca4625d5-342c-5c37-c127-49e2d6af42d3/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "《云•王者荣耀》是由腾讯先锋云游戏和《王者荣耀》联合发布的云游戏版本。约30M的超小包体即可体验游戏完整内容，免更新、不发热、低耗电、一键下载，立即体验!\n\n王"
+        },
+        {
+          "rank": 95,
+          "name": "元梦之星",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1632344522",
+          "url": "https://apps.apple.com/cn/app/%E5%85%83%E6%A2%A6%E4%B9%8B%E6%98%9F/id1632344522?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/71/46/58714613-f8ea-6cc6-9299-ff297c63a514/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "《元梦之星》是一款轻松社交派对游戏，玩家们可以化身星宝，体验纯粹的游玩乐趣，收获简单的快乐。无论i人e人，都能轻松找到属于自己的社交方式。\n\n《元梦之星》的快乐"
+        },
+        {
+          "rank": 96,
+          "name": "鸣潮",
+          "publisher": "库洛游戏",
+          "category": "游戏",
+          "app_id": "6450693428",
+          "url": "https://apps.apple.com/cn/app/%E9%B8%A3%E6%BD%AE/id6450693428?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/cf/3f/e4cf3f12-fccf-58c3-9c87-de268c3d3e2e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《鸣潮》是一款跨平台开放世界动作游戏，主打高自由度的动作战斗玩法与丰富多样的开放世界探索。而你，在这个世界苏醒的漂泊者，将在找回记忆、寻找自我身份的同时结识无数"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 97,
+          "name": "Trio em Ordem",
+          "publisher": "Charles Steven Hernandez",
+          "category": "游戏",
+          "app_id": "6816901919",
+          "url": "https://apps.apple.com/cn/app/trio-em-ordem/id6816901919?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/c9/2a/a6c92a50-d10c-1766-27fd-810ae3ec856b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Transforma uma mesa de argila num pequeno mundo em movimento.\n\nEm Trio em Ordem,"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 6,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 97,
+          "name": "Trio em Ordem",
+          "publisher": "Charles Steven Hernandez",
+          "category": "游戏",
+          "app_id": "6816901919",
+          "url": "https://apps.apple.com/cn/app/trio-em-ordem/id6816901919?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/c9/2a/a6c92a50-d10c-1766-27fd-810ae3ec856b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Transforma uma mesa de argila num pequeno mundo em movimento.\n\nEm Trio em Ordem,"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 64,
+          "name": "Pikmin Bloom",
+          "publisher": "Scopely Explore, Inc.",
+          "category": "ゲーム",
+          "app_id": "1556357398",
+          "url": "https://apps.apple.com/jp/app/pikmin-bloom/id1556357398?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/f0/eb/78f0eb01-8dd6-51a3-8077-1bb19f900964/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "歩くのが楽しくなるアプリ。\n\nPikmin Bloom があれば、ちょっとしたお散歩や毎日の通勤も、今日からはピクミンたちとの楽しいおでかけに。\n\n新しく追加し"
+        },
+        {
+          "rank": 98,
+          "name": "出荷ぶた-養豚場育成ゲーム！放置で癒しの牧場経営",
+          "publisher": "EAGLE, K.K.",
+          "category": "ゲーム",
+          "app_id": "991847114",
+          "url": "https://apps.apple.com/jp/app/%E5%87%BA%E8%8D%B7%E3%81%B6%E3%81%9F-%E9%A4%8A%E8%B1%9A%E5%A0%B4%E8%82%B2%E6%88%90%E3%82%B2%E3%83%BC%E3%83%A0-%E6%94%BE%E7%BD%AE%E3%81%A7%E7%99%92%E3%81%97%E3%81%AE%E7%89%A7%E5%A0%B4%E7%B5%8C%E5%96%B6/id991847114?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/06/3b/d0063b67-67d7-9161-d6e8-8f96a103d834/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.jpeg/100x100bb.png",
+          "slogan": "◆牧場放置ゲーム 出荷ぶた◆\n累計200万ダウンロード！\n\n超可愛い豚にエサをあげて出荷してお金を稼いじゃおう！\n簡単操作で空いた時間に最適、ついついやってしま"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 23,
+          "name": "Parking Loop",
+          "publisher": "Loop Games Oyun Teknolojileri Anonim Sirketi",
+          "category": "ゲーム",
+          "app_id": "6802383216",
+          "url": "https://apps.apple.com/jp/app/parking-loop/id6802383216?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/75/2e/8b752e04-b2ef-0813-552d-15a7f80dd5f2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Parking Loop, a satisfying puzzle game where everything needs to find"
+        },
+        {
+          "rank": 100,
+          "name": "GOGO! Blast",
+          "publisher": "Nebula Studio",
+          "category": "ゲーム",
+          "app_id": "6776522053",
+          "url": "https://apps.apple.com/jp/app/gogo-blast/id6776522053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/7f/22/f07f22ca-2714-87da-cb43-b7153c8f5099/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "GOGO! Blastは、矢印を正しい順番でタップして盤面を空にする、爽快な矢印パズルゲームです。矢印は向いている方向にしか進めないため、一手ごとにちょっとした"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 84,
+          "name": "チート勇者～インベントリ攻略ゲー～RPG",
+          "publisher": "5minlab Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6755585789",
+          "url": "https://apps.apple.com/jp/app/%E3%83%81%E3%83%BC%E3%83%88%E5%8B%87%E8%80%85-%E3%82%A4%E3%83%B3%E3%83%99%E3%83%B3%E3%83%88%E3%83%AA%E6%94%BB%E7%95%A5%E3%82%B2%E3%83%BC-rpg/id6755585789?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/2a/e3/642ae371-c5e5-6557-5c19-c624112bc726/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "チート勇者 – レトロドット絵ローグライクRPG\n『チート勇者』は、レトロなドット絵で楽しめるローグライクRPG。\nマージと合成を駆使し、ペットとともに強くなり"
+        },
+        {
+          "rank": 85,
+          "name": "80億分の1 - 人生シミュレーター",
+          "publisher": "HAYO (Apps)",
+          "category": "ゲーム",
+          "app_id": "6821576483",
+          "url": "https://apps.apple.com/jp/app/80%E5%84%84%E5%88%86%E3%81%AE1-%E4%BA%BA%E7%94%9F%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/id6821576483?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/e3/d1/e6e3d15a-3bf3-9a68-62d4-16580f0c9042/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "80億人のうち、今度はどんな人生を生きますか。\n\n80億分の1は、誕生から最後の思い出までをたどるオフラインの人生カードゲームです。小さな選択が健康、幸福、人間"
+        },
+        {
+          "rank": 88,
+          "name": "にゃんこ大戦争",
+          "publisher": "ponos corporation",
+          "category": "ゲーム",
+          "app_id": "547145938",
+          "url": "https://apps.apple.com/jp/app/%E3%81%AB%E3%82%83%E3%82%93%E3%81%93%E5%A4%A7%E6%88%A6%E4%BA%89/id547145938?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/dc/fd/8bdcfd88-222f-d950-1f35-48b44ed7bec8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "にゃんこ大戦争は全世界累計1億2000万DL達成！\n世界中で大人気！ 誰でもお手軽プレイ!!\nにゃんこバトルゲーム!!\n「キモかわにゃんこ」が日本を、未来を、\n"
+        },
+        {
+          "rank": 91,
+          "name": "Water Sort Puzzle : Challenge",
+          "publisher": "贺翔 段",
+          "category": "ゲーム",
+          "app_id": "6787414784",
+          "url": "https://apps.apple.com/jp/app/water-sort-puzzle-challenge/id6787414784?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/77/91/5f779194-85ef-b50e-293d-383f34be36a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Water Sort Puzzle : Challenge is a relaxing color sorting game with simple rules"
+        },
+        {
+          "rank": 99,
+          "name": "Paper.io 2",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "1423046460",
+          "url": "https://apps.apple.com/jp/app/paper-io-2/id1423046460?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/2f/36/c12f368f-131c-3424-6038-b23d4645af19/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "世界中の何百万人ものプレイヤーと一緒に、最高にハマるioゲームを体験しよう！アリーナを移動して線を引き、陣地を広げて、誰かに道を断たれる前にゾーンを確保しよう。"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 23,
+          "name": "Parking Loop",
+          "publisher": "Loop Games Oyun Teknolojileri Anonim Sirketi",
+          "category": "ゲーム",
+          "app_id": "6802383216",
+          "url": "https://apps.apple.com/jp/app/parking-loop/id6802383216?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/75/2e/8b752e04-b2ef-0813-552d-15a7f80dd5f2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Parking Loop, a satisfying puzzle game where everything needs to find"
+        },
+        {
+          "rank": 98,
+          "name": "出荷ぶた-養豚場育成ゲーム！放置で癒しの牧場経営",
+          "publisher": "EAGLE, K.K.",
+          "category": "ゲーム",
+          "app_id": "991847114",
+          "url": "https://apps.apple.com/jp/app/%E5%87%BA%E8%8D%B7%E3%81%B6%E3%81%9F-%E9%A4%8A%E8%B1%9A%E5%A0%B4%E8%82%B2%E6%88%90%E3%82%B2%E3%83%BC%E3%83%A0-%E6%94%BE%E7%BD%AE%E3%81%A7%E7%99%92%E3%81%97%E3%81%AE%E7%89%A7%E5%A0%B4%E7%B5%8C%E5%96%B6/id991847114?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/06/3b/d0063b67-67d7-9161-d6e8-8f96a103d834/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.jpeg/100x100bb.png",
+          "slogan": "◆牧場放置ゲーム 出荷ぶた◆\n累計200万ダウンロード！\n\n超可愛い豚にエサをあげて出荷してお金を稼いじゃおう！\n簡単操作で空いた時間に最適、ついついやってしま"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 5,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 23,
+          "name": "Parking Loop",
+          "publisher": "Loop Games Oyun Teknolojileri Anonim Sirketi",
+          "category": "ゲーム",
+          "app_id": "6802383216",
+          "url": "https://apps.apple.com/jp/app/parking-loop/id6802383216?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/75/2e/8b752e04-b2ef-0813-552d-15a7f80dd5f2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Parking Loop, a satisfying puzzle game where everything needs to find"
+        },
+        {
+          "rank": 64,
+          "name": "Pikmin Bloom",
+          "publisher": "Scopely Explore, Inc.",
+          "category": "ゲーム",
+          "app_id": "1556357398",
+          "url": "https://apps.apple.com/jp/app/pikmin-bloom/id1556357398?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/f0/eb/78f0eb01-8dd6-51a3-8077-1bb19f900964/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "歩くのが楽しくなるアプリ。\n\nPikmin Bloom があれば、ちょっとしたお散歩や毎日の通勤も、今日からはピクミンたちとの楽しいおでかけに。\n\n新しく追加し"
+        },
+        {
+          "rank": 98,
+          "name": "出荷ぶた-養豚場育成ゲーム！放置で癒しの牧場経営",
+          "publisher": "EAGLE, K.K.",
+          "category": "ゲーム",
+          "app_id": "991847114",
+          "url": "https://apps.apple.com/jp/app/%E5%87%BA%E8%8D%B7%E3%81%B6%E3%81%9F-%E9%A4%8A%E8%B1%9A%E5%A0%B4%E8%82%B2%E6%88%90%E3%82%B2%E3%83%BC%E3%83%A0-%E6%94%BE%E7%BD%AE%E3%81%A7%E7%99%92%E3%81%97%E3%81%AE%E7%89%A7%E5%A0%B4%E7%B5%8C%E5%96%B6/id991847114?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/06/3b/d0063b67-67d7-9161-d6e8-8f96a103d834/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.jpeg/100x100bb.png",
+          "slogan": "◆牧場放置ゲーム 出荷ぶた◆\n累計200万ダウンロード！\n\n超可愛い豚にエサをあげて出荷してお金を稼いじゃおう！\n簡単操作で空いた時間に最適、ついついやってしま"
+        },
+        {
+          "rank": 100,
+          "name": "GOGO! Blast",
+          "publisher": "Nebula Studio",
+          "category": "ゲーム",
+          "app_id": "6776522053",
+          "url": "https://apps.apple.com/jp/app/gogo-blast/id6776522053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/7f/22/f07f22ca-2714-87da-cb43-b7153c8f5099/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "GOGO! Blastは、矢印を正しい順番でタップして盤面を空にする、爽快な矢印パズルゲームです。矢印は向いている方向にしか進めないため、一手ごとにちょっとした"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
