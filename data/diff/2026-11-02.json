@@ -1,0 +1,379 @@
+{
+  "date": "2026-11-02",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "饥困荒野",
+          "publisher": "腾讯",
+          "category": "沙盒",
+          "subcategory": "生存、多人联机、饥荒、冒险"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 60,
+          "name": "Just a Rock",
+          "publisher": "Heseri Games Inc",
+          "category": "Games",
+          "app_id": "6810886970",
+          "url": "https://apps.apple.com/us/app/just-a-rock/id6810886970?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/6c/4e/116c4ec9-5a68-fed7-8013-b922c78da7e0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Grow a bigger rock with every run. Slingshot it downhill, smash everything in yo"
+        },
+        {
+          "rank": 75,
+          "name": "Hole.io - Original Hole Game",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "1389111413",
+          "url": "https://apps.apple.com/us/app/hole-io-original-hole-game/id1389111413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/47/8e/1d478e70-cbb5-a324-0822-2772b6122c49/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Hole.io, the wildly satisfying eat-the-world game played by millions!"
+        },
+        {
+          "rank": 77,
+          "name": "Dice Dreams™",
+          "publisher": "SuperPlay",
+          "category": "Games",
+          "app_id": "1484468651",
+          "url": "https://apps.apple.com/us/app/dice-dreams/id1484468651?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/66/1b/e0661b96-a8ee-c9b1-b84a-35962be579f5/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Dice Dreams!\n\nATTACK, STEAL AND GET REVENGE!\nAttack your friends, ste"
+        },
+        {
+          "rank": 81,
+          "name": "Wordscapes - Word Game",
+          "publisher": "PeopleFun, Inc.",
+          "category": "Games",
+          "app_id": "1207472156",
+          "url": "https://apps.apple.com/us/app/wordscapes-word-game/id1207472156?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/23/af/3923af05-fbe9-7f60-9cb4-2afb402fc85a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Playing Wordscapes 10 mins a day sharpens your mind and prepares you for your da"
+        },
+        {
+          "rank": 88,
+          "name": "Crossword Go!",
+          "publisher": "PlaySimple Games Pte Ltd",
+          "category": "Games",
+          "app_id": "6739069151",
+          "url": "https://apps.apple.com/us/app/crossword-go/id6739069151?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/29/de/6f29de06-3d25-0dc2-6983-22e783dbc1ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Challenge your mind and compete in real-time crossword duels! \nTrain your brain,"
+        },
+        {
+          "rank": 90,
+          "name": "Shoot & Hide",
+          "publisher": "Crazy Labs",
+          "category": "Games",
+          "app_id": "6747033069",
+          "url": "https://apps.apple.com/us/app/shoot-hide/id6747033069?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/6f/03/7f6f0361-c657-24ea-a6e4-0f5f9f68d646/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Test your timing and reflexes in a fast, satisfying game of risk and precision. "
+        },
+        {
+          "rank": 92,
+          "name": "Brain Puzzle 2: Logic Twist",
+          "publisher": "SmallStep Dev Team",
+          "category": "Games",
+          "app_id": "6747063674",
+          "url": "https://apps.apple.com/us/app/brain-puzzle-2-logic-twist/id6747063674?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/e5/74/98e57453-a2a0-1a46-291f-21130a55e10a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This time, we’re continuing the humorous storytelling and brain-teasing design o"
+        },
+        {
+          "rank": 95,
+          "name": "Satisfying Clean ASMR",
+          "publisher": "DongZ Game",
+          "category": "Games",
+          "app_id": "6767180267",
+          "url": "https://apps.apple.com/us/app/satisfying-clean-asmr/id6767180267?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2f/4d/c7/2f4dc74a-4460-8b84-864f-d45f0ffd0a35/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "Clean, Restore & Relax in Satisfying Clean ASMR — the ultimate stress relief and"
+        },
+        {
+          "rank": 96,
+          "name": "Screwdom",
+          "publisher": "Zego Global Pte Ltd",
+          "category": "Games",
+          "app_id": "6740043080",
+          "url": "https://apps.apple.com/us/app/screwdom/id6740043080?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/b2/3b/6ab23bfd-2a02-0883-b026-2ea296ea69fe/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Screwdom is a challenging and brain-teasing screw master 3D game that will put y"
+        },
+        {
+          "rank": 98,
+          "name": "Solar Smash",
+          "publisher": "PARADYME LIMITED",
+          "category": "Games",
+          "app_id": "1495723103",
+          "url": "https://apps.apple.com/us/app/solar-smash/id1495723103?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/a5/dc/b2a5dc6f-16ed-26f9-c28e-8a239604cd3d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Harness the power of space and embark on an epic journey of creative destruction"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 10,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 85,
+          "name": "奔奔王国",
+          "publisher": "Fuzhou Dian Dian Song He Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6748527570",
+          "url": "https://apps.apple.com/cn/app/%E5%A5%94%E5%A5%94%E7%8E%8B%E5%9B%BD/id6748527570?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/f5/0c/6ef50c77-d880-c566-1814-5fb6d0aec346/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《奔奔王国》是一款塔防策略与模拟经营玩法结合的中世纪题材的游戏。\n\n游戏的故事发生在虚构的黑暗时代，曾辉煌的国王城堡已在叛乱战火中化为焦土。废墟之上，势力割据的"
+        },
+        {
+          "rank": 90,
+          "name": "率土之滨",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "909211092",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%87%E5%9C%9F%E4%B9%8B%E6%BB%A8/id909211092?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/93/d1/f993d198-da23-78eb-7610-61527eadd19a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "欢迎来到国人原创的东方战争策略游戏《率土之滨》。\r\n《率土之滨》提供了一个全自由的东方战争策略沙盘，你可以与众多玩家组建同盟，一起在这汉末大争之世中，创造你们的"
+        },
+        {
+          "rank": 96,
+          "name": "王者荣耀世界",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1612566389",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E4%B8%96%E7%95%8C/id1612566389?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/1f/d7/f01fd761-fb29-8e46-4a72-bfd9bf25ba54/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【产品介绍】\n《王者荣耀世界》是国民级MOBA手游《王者荣耀》IP旗下的「王者英雄多人战斗冒险游戏」。游戏高度还原王者荣耀世界观，英雄人设故事与技能设定，在3D"
+        },
+        {
+          "rank": 100,
+          "name": "向僵尸开炮-尸潮来袭",
+          "publisher": "Hainan Shengchang Network Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6474293468",
+          "url": "https://apps.apple.com/cn/app/%E5%90%91%E5%83%B5%E5%B0%B8%E5%BC%80%E7%82%AE-%E5%B0%B8%E6%BD%AE%E6%9D%A5%E8%A2%AD/id6474293468?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/a1/fc/38a1fc7f-4a09-a074-5fa4-358b4ecfee83/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《向僵尸开炮》是一款制作精良、画风精美的射击Roguelike手游。故事背景设定在未来时代，某日天灾席卷地球，僵尸横行，自然资源与科技文明受到重创；为了保护人类"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 87,
+          "name": "Mimic Party !",
+          "publisher": "FoliesAPP",
+          "category": "ゲーム",
+          "app_id": "6813545317",
+          "url": "https://apps.apple.com/jp/app/mimic-party/id6813545317?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/7f/da/6c7fdabd-e519-892e-688c-db0a6fc297bf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A 1-5 player online voice party game. You hear a sound, the whole table gets one"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 73,
+          "name": "Aimy(アイミー)キャラクリ＆着せ替え＆AIチャット",
+          "publisher": "aisaac inc.",
+          "category": "ゲーム",
+          "app_id": "6450537255",
+          "url": "https://apps.apple.com/jp/app/aimy-%E3%82%A2%E3%82%A4%E3%83%9F%E3%83%BC-%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%83%AA-%E7%9D%80%E3%81%9B%E6%9B%BF%E3%81%88-ai%E3%83%81%E3%83%A3%E3%83%83%E3%83%88/id6450537255?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/e1/82/d0e182fe-5e5c-053e-88f9-a7e7c5e2e66d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "アイミーは、アバターのキャラクリ＆着せ替えとAIチャットが楽しめるアプリゲームです。\n\n髪、顔パーツ、メイク、性格、話し方まで細かくカスタマイズして、自分だけの"
+        },
+        {
+          "rank": 78,
+          "name": "みんなで早押しクイズ",
+          "publisher": "Q ONE, Inc.",
+          "category": "ゲーム",
+          "app_id": "1044039663",
+          "url": "https://apps.apple.com/jp/app/%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%E6%97%A9%E6%8A%BC%E3%81%97%E3%82%AF%E3%82%A4%E3%82%BA/id1044039663?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/37/0f/01370f1f-865c-f02f-5cb2-d41e051cd219/AppIcon-2-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "オンライン対戦早押しクイズゲームアプリが登場！\nライバルと対戦してレート上位を目指そう！\n\n選べるモードは、ランダムマッチ・フリーマッチ(フレンド対戦)の2種類"
+        },
+        {
+          "rank": 82,
+          "name": "Mini Soccer Star 2027",
+          "publisher": "VIVA GAMES S.L.",
+          "category": "ゲーム",
+          "app_id": "1636072966",
+          "url": "https://apps.apple.com/jp/app/mini-soccer-star-2027/id1636072966?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/56/c2/c856c27d-78b8-31e5-cb61-62a1eed98c77/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to the MINI SOCCER STAR 2026!\n\nPlay the brand new soccer game Mini Socce"
+        },
+        {
+          "rank": 86,
+          "name": "Jewel Color Sort: ピクセルアートパズル",
+          "publisher": "HappyTapLand Technology Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6772975295",
+          "url": "https://apps.apple.com/jp/app/jewel-color-sort-%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%A2%E3%83%BC%E3%83%88%E3%83%91%E3%82%BA%E3%83%AB/id6772975295?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/ac/4c/3aac4c3e-3afb-acab-552f-e462830ce3b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "鮮やかな色彩とリラックスできるパズルゲームの世界、Jewel Color Sortへようこそ。\nタップして輝く宝石を分類し、正しいカラーゾーンに配置しましょう。"
+        },
+        {
+          "rank": 89,
+          "name": "Tangled Rope: Solve Puzzles!",
+          "publisher": "JoyGame Studio Limited",
+          "category": "ゲーム",
+          "app_id": "6599838025",
+          "url": "https://apps.apple.com/jp/app/tangled-rope-solve-puzzles/id6599838025?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/c2/9f/9ec29f75-e84a-c9be-9b52-6742f454ec0c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Tangled Ropeで究極のパズル体験を解きほぐそう！ますます複雑になる結び目を解くことで、あなたの論理と忍耐を試す準備をしましょう。各レベルは、あなたが思"
+        },
+        {
+          "rank": 94,
+          "name": "フランベシェフ：マージ＆クッキング",
+          "publisher": "Microfun Limited",
+          "category": "ゲーム",
+          "app_id": "6618142292",
+          "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%A9%E3%83%B3%E3%83%99%E3%82%B7%E3%82%A7%E3%83%95-%E3%83%9E%E3%83%BC%E3%82%B8-%E3%82%AF%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0/id6618142292?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/c8/f2/87c8f20b-8055-5338-8fe1-64697b22cebd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "創造性無限大の『フランベシェフ：マージ＆クッキング』の世界で美味しさを追求しましょう！\nどんどん食材をマージし、新レシピをアンロックして、あなたの料理帝国を築き"
+        },
+        {
+          "rank": 99,
+          "name": "ニッポン征服 - 面白い 選択ゲーム",
+          "publisher": "ONIGIRI GAMES",
+          "category": "ゲーム",
+          "app_id": "6743064514",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E5%BE%81%E6%9C%8D-%E9%9D%A2%E7%99%BD%E3%81%84-%E9%81%B8%E6%8A%9E%E3%82%B2%E3%83%BC%E3%83%A0/id6743064514?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/3e/57/a03e5793-1f84-d17a-3446-b23835020825/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "あなたの選択で国が変わる！\n\n\nあなたは日本の総理大臣として、さまざまな政策を選択し、理想の国づくりを目指します。\n正しい選択をすれば、人口・お金・頭脳が増加し"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 87,
+          "name": "Mimic Party !",
+          "publisher": "FoliesAPP",
+          "category": "ゲーム",
+          "app_id": "6813545317",
+          "url": "https://apps.apple.com/jp/app/mimic-party/id6813545317?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/7f/da/6c7fdabd-e519-892e-688c-db0a6fc297bf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A 1-5 player online voice party game. You hear a sound, the whole table gets one"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 7,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 87,
+          "name": "Mimic Party !",
+          "publisher": "FoliesAPP",
+          "category": "ゲーム",
+          "app_id": "6813545317",
+          "url": "https://apps.apple.com/jp/app/mimic-party/id6813545317?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/7f/da/6c7fdabd-e519-892e-688c-db0a6fc297bf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A 1-5 player online voice party game. You hear a sound, the whole table gets one"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
