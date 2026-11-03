@@ -1,0 +1,423 @@
+{
+  "date": "2026-11-03",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 6,
+          "name": "幻想九霄",
+          "publisher": "幻想九霄工作室",
+          "category": "角色扮演",
+          "subcategory": "放置、修仙"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 91,
+          "name": "Water Power!",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "1659387585",
+          "url": "https://apps.apple.com/us/app/water-power/id1659387585?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/26/9a/a0269a39-f04c-795f-b23f-0efc24a17b0e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Join Water Power community and start building your own hydro empire today!\n\nKey "
+        },
+        {
+          "rank": 100,
+          "name": "Cube Smash - Puzzle Game",
+          "publisher": "Combo Games",
+          "category": "Games",
+          "app_id": "6786206777",
+          "url": "https://apps.apple.com/us/app/cube-smash-puzzle-game/id6786206777?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/64/1f/98641f61-ca0a-03b7-e6e3-2fee94a62c7e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Cube Smash is a satisfying 3D puzzle game where every tap removes matching cubes"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 96,
+          "name": "Color Block: Combo Blast",
+          "publisher": "FLYYES TECHNOLOGY PTE. LTD.",
+          "category": "Games",
+          "app_id": "6478063606",
+          "url": "https://apps.apple.com/us/app/color-block-combo-blast/id6478063606?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/60/93/9460931b-9f38-2a8a-6e5f-30861bda4734/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Color Block: The Ultimate Classic Block Puzzle Adventure\n\nExperience the Timeles"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 85,
+          "name": "Wordscapes Search - Word Game",
+          "publisher": "PeopleFun, Inc.",
+          "category": "Games",
+          "app_id": "1420294918",
+          "url": "https://apps.apple.com/us/app/wordscapes-search-word-game/id1420294918?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cc/67/53/cc67535a-b302-505a-84ea-3714f201834f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Would you like to relax, exercise your brain, and expand your vocabulary-all at "
+        },
+        {
+          "rank": 89,
+          "name": "Bruno Reels Casino",
+          "publisher": "EverPrime Futures Inc.",
+          "category": "Games",
+          "app_id": "6768564100",
+          "url": "https://apps.apple.com/us/app/bruno-reels-casino/id6768564100?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c4/35/3a/c4353ac7-4e7d-3fc4-6e6c-9b4168048070/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Bruno Reels Casino brings you an exciting casino-style slots experience filled w"
+        },
+        {
+          "rank": 90,
+          "name": "Find Hidden Objects - Spot It!",
+          "publisher": "Yolo Game Studios",
+          "category": "Games",
+          "app_id": "6474133872",
+          "url": "https://apps.apple.com/us/app/find-hidden-objects-spot-it/id6474133872?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/a5/9f/06a59fa1-a0c4-134f-cf4e-7b79f3bae9f0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Embark on a relaxing and enjoyable journey through hundreds of levels. Have fun "
+        },
+        {
+          "rank": 94,
+          "name": "CrownCoins Casino",
+          "publisher": "Sunflower",
+          "category": "Games",
+          "app_id": "6450413462",
+          "url": "https://apps.apple.com/us/app/crowncoins-casino/id6450413462?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/cf/f2/ddcff2fb-8c88-b75a-e1e0-67d8de645bc9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "CROWN COINS CASINO. America loves it. You will too! \nPLAY. WIN. REDEEM. REPEAT. "
+        },
+        {
+          "rank": 98,
+          "name": "Bingo Cash - Win Real Money",
+          "publisher": "Papaya Gaming",
+          "category": "Games",
+          "app_id": "1522266397",
+          "url": "https://apps.apple.com/us/app/bingo-cash-win-real-money/id1522266397?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/9f/61/169f619d-d182-90da-6ac7-b9fd202cb47e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Forget the ordinary games. Here you play for something bigger, where winning the"
+        },
+        {
+          "rank": 99,
+          "name": "Tile Explorer: Tiles Clear!",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "app_id": "6498883328",
+          "url": "https://apps.apple.com/us/app/tile-explorer-tiles-clear/id6498883328?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/f4/43/89f44301-ffbd-e862-50cc-f384292b1e96/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Looking for a relaxing and addictive tile matching adventure? Tile Explorer is y"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 96,
+          "name": "Color Block: Combo Blast",
+          "publisher": "FLYYES TECHNOLOGY PTE. LTD.",
+          "category": "Games",
+          "app_id": "6478063606",
+          "url": "https://apps.apple.com/us/app/color-block-combo-blast/id6478063606?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/60/93/9460931b-9f38-2a8a-6e5f-30861bda4734/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Color Block: The Ultimate Classic Block Puzzle Adventure\n\nExperience the Timeles"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 6,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 91,
+          "name": "Water Power!",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "1659387585",
+          "url": "https://apps.apple.com/us/app/water-power/id1659387585?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/26/9a/a0269a39-f04c-795f-b23f-0efc24a17b0e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Join Water Power community and start building your own hydro empire today!\n\nKey "
+        },
+        {
+          "rank": 96,
+          "name": "Color Block: Combo Blast",
+          "publisher": "FLYYES TECHNOLOGY PTE. LTD.",
+          "category": "Games",
+          "app_id": "6478063606",
+          "url": "https://apps.apple.com/us/app/color-block-combo-blast/id6478063606?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/60/93/9460931b-9f38-2a8a-6e5f-30861bda4734/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Color Block: The Ultimate Classic Block Puzzle Adventure\n\nExperience the Timeles"
+        },
+        {
+          "rank": 100,
+          "name": "Cube Smash - Puzzle Game",
+          "publisher": "Combo Games",
+          "category": "Games",
+          "app_id": "6786206777",
+          "url": "https://apps.apple.com/us/app/cube-smash-puzzle-game/id6786206777?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/64/1f/98641f61-ca0a-03b7-e6e3-2fee94a62c7e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Cube Smash is a satisfying 3D puzzle game where every tap removes matching cubes"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "蛋仔派对-捣蛋领福利",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1544884479",
+          "url": "https://apps.apple.com/cn/app/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9-%E6%8D%A3%E8%9B%8B%E9%A2%86%E7%A6%8F%E5%88%A9/id1544884479?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/3c/2e/453c2e99-7d46-a456-dfe3-874dae2db8fc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "欢迎光临蛋仔岛！《蛋仔派对》是一款拥有5亿玩家的国民原创乐园游戏。在这里，你将化身Q萌的蛋仔，在盲盒机背后的神秘世界——蛋仔岛，展开一段奇妙的闯关之旅。游戏内含"
+        },
+        {
+          "rank": 79,
+          "name": "正中靶心2",
+          "publisher": "北京金海部落文化有限公司",
+          "category": "游戏",
+          "app_id": "6795378556",
+          "url": "https://apps.apple.com/cn/app/%E6%AD%A3%E4%B8%AD%E9%9D%B6%E5%BF%832/id6795378556?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/4e/8d/3c4e8d9e-f2be-bc3f-b3b7-3aa340912f81/xgw_icon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《正中靶心2》 是一款制作精良，画风简约、玩法细腻的肉鸽塔防游戏。由《正中靶心》一代游戏原班人马倾情创作。因一代作品的成功，在游戏市场上掀起了强烈反响和一大波跟"
+        },
+        {
+          "rank": 95,
+          "name": "韵律源点",
+          "publisher": "X.D. Network Inc.",
+          "category": "游戏",
+          "app_id": "6758203659",
+          "url": "https://apps.apple.com/cn/app/%E9%9F%B5%E5%BE%8B%E6%BA%90%E7%82%B9/id6758203659?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/98/b2/4798b226-2dd3-6bcd-b4eb-f5520f805ca7/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "“一缕和谐的光芒，正于那纷争交错的失落世界中等候着你。”\n\n「回忆」将纯白的世界填满，两名少女于漂浮着众多碎片的穹顶之下苏醒……\n\n韵律源点Arcaea是一款移"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "Dream Road: Online",
+          "publisher": "Bellum Games LLC",
+          "category": "游戏",
+          "app_id": "6741928115",
+          "url": "https://apps.apple.com/cn/app/dream-road-online/id6741928115?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/21/22/0c2122a8-c275-01a0-3d9d-ad6131895d60/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "在《Dream Road：Online》游戏中，你将沉浸在一个超写实的世界中，体验真正的街头赛车手的感觉，尽享自由与肾上腺素飙升的快感。与好友一起在城市街道和高"
+        },
+        {
+          "rank": 96,
+          "name": "钢琴块2",
+          "publisher": "Forward Vision Corporation Limited",
+          "category": "游戏",
+          "app_id": "6448847085",
+          "url": "https://apps.apple.com/cn/app/%E9%92%A2%E7%90%B4%E5%9D%972/id6448847085?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/f2/81/cff2811b-a9d1-4169-ec53-f7580c789829/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+          "slogan": "为了更好地符合区域政策，由猎豹游戏研发运营的《钢琴块2™》中国大陆地区官方版本已正式上线，游戏内容与国际版保持一致，并优化了广告上的体验，期待您的下载与体验！\n"
+        },
+        {
+          "rank": 97,
+          "name": "捕鱼大作战-街机打鱼游戏王者",
+          "publisher": "Tuyoo Online HK Limited",
+          "category": "游戏",
+          "app_id": "1525863146",
+          "url": "https://apps.apple.com/cn/app/%E6%8D%95%E9%B1%BC%E5%A4%A7%E4%BD%9C%E6%88%98-%E8%A1%97%E6%9C%BA%E6%89%93%E9%B1%BC%E6%B8%B8%E6%88%8F%E7%8E%8B%E8%80%85/id1525863146?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/af/06/06af0605-bba9-f1a5-3e6d-88919fbf6d5d/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "欢迎来到《捕鱼大作战》！作为一款备受欢迎的捕鱼游戏，我们始终致力于为玩家提供精彩、有趣的游戏体验。现在，以全新赛季的震撼登场，休闲不肝的趣味玩法，回归用户的丰厚"
+        },
+        {
+          "rank": 100,
+          "name": "宾果消消消",
+          "publisher": "柠檬微趣",
+          "category": "游戏",
+          "app_id": "897447840",
+          "url": "https://apps.apple.com/cn/app/%E5%AE%BE%E6%9E%9C%E6%B6%88%E6%B6%88%E6%B6%88/id897447840?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/47/9d/78479dc3-5af7-25ec-92f2-92ad7d191556/AppIcon-0-0-1x_U007emarketing-0-9-0-GLES2_U002c0-85-220.png/100x100bb.png",
+          "slogan": "《宾果消消消》,累计注册用户超过3亿,以三消+开店的形式，让国民连接在一起！\n2021年，3亿玩家的共同选择！\n\n消一消，能开店。奶茶店、蛋糕店、糖果店、花店、"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 79,
+          "name": "正中靶心2",
+          "publisher": "北京金海部落文化有限公司",
+          "category": "游戏",
+          "app_id": "6795378556",
+          "url": "https://apps.apple.com/cn/app/%E6%AD%A3%E4%B8%AD%E9%9D%B6%E5%BF%832/id6795378556?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/4e/8d/3c4e8d9e-f2be-bc3f-b3b7-3aa340912f81/xgw_icon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《正中靶心2》 是一款制作精良，画风简约、玩法细腻的肉鸽塔防游戏。由《正中靶心》一代游戏原班人马倾情创作。因一代作品的成功，在游戏市场上掀起了强烈反响和一大波跟"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 4,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "蛋仔派对-捣蛋领福利",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1544884479",
+          "url": "https://apps.apple.com/cn/app/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9-%E6%8D%A3%E8%9B%8B%E9%A2%86%E7%A6%8F%E5%88%A9/id1544884479?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/3c/2e/453c2e99-7d46-a456-dfe3-874dae2db8fc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "欢迎光临蛋仔岛！《蛋仔派对》是一款拥有5亿玩家的国民原创乐园游戏。在这里，你将化身Q萌的蛋仔，在盲盒机背后的神秘世界——蛋仔岛，展开一段奇妙的闯关之旅。游戏内含"
+        },
+        {
+          "rank": 79,
+          "name": "正中靶心2",
+          "publisher": "北京金海部落文化有限公司",
+          "category": "游戏",
+          "app_id": "6795378556",
+          "url": "https://apps.apple.com/cn/app/%E6%AD%A3%E4%B8%AD%E9%9D%B6%E5%BF%832/id6795378556?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/4e/8d/3c4e8d9e-f2be-bc3f-b3b7-3aa340912f81/xgw_icon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《正中靶心2》 是一款制作精良，画风简约、玩法细腻的肉鸽塔防游戏。由《正中靶心》一代游戏原班人马倾情创作。因一代作品的成功，在游戏市场上掀起了强烈反响和一大波跟"
+        },
+        {
+          "rank": 95,
+          "name": "韵律源点",
+          "publisher": "X.D. Network Inc.",
+          "category": "游戏",
+          "app_id": "6758203659",
+          "url": "https://apps.apple.com/cn/app/%E9%9F%B5%E5%BE%8B%E6%BA%90%E7%82%B9/id6758203659?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/98/b2/4798b226-2dd3-6bcd-b4eb-f5520f805ca7/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "“一缕和谐的光芒，正于那纷争交错的失落世界中等候着你。”\n\n「回忆」将纯白的世界填满，两名少女于漂浮着众多碎片的穹顶之下苏醒……\n\n韵律源点Arcaea是一款移"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 82,
+          "name": "Playtest Pro by BestPlay",
+          "publisher": "Bestplay Systems",
+          "category": "ゲーム",
+          "app_id": "6503697761",
+          "url": "https://apps.apple.com/jp/app/playtest-pro-by-bestplay/id6503697761?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/d1/44/3dd144e3-cf83-a6c1-8eeb-3b7d0fd3c377/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Playtest Proのご紹介です。あなたの意見を共有し、毎日使う製品やサービスをより良くするための理想的なプラットフォームです。フィードバックが大好きな方も"
+        },
+        {
+          "rank": 92,
+          "name": "にゃんこ大戦争",
+          "publisher": "ponos corporation",
+          "category": "ゲーム",
+          "app_id": "547145938",
+          "url": "https://apps.apple.com/jp/app/%E3%81%AB%E3%82%83%E3%82%93%E3%81%93%E5%A4%A7%E6%88%A6%E4%BA%89/id547145938?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/dc/fd/8bdcfd88-222f-d950-1f35-48b44ed7bec8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "にゃんこ大戦争は全世界累計1億2000万DL達成！\n世界中で大人気！ 誰でもお手軽プレイ!!\nにゃんこバトルゲーム!!\n「キモかわにゃんこ」が日本を、未来を、\n"
+        },
+        {
+          "rank": 96,
+          "name": "にゃんこ銃士：放置育成RPG",
+          "publisher": "Neptune Company",
+          "category": "ゲーム",
+          "app_id": "6764201639",
+          "url": "https://apps.apple.com/jp/app/%E3%81%AB%E3%82%83%E3%82%93%E3%81%93%E9%8A%83%E5%A3%AB-%E6%94%BE%E7%BD%AE%E8%82%B2%E6%88%90rpg/id6764201639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/85/7b/cb857b7b-bb34-b718-aec7-ed144bf06f53/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "障害物を破壊して突き進み、無限に成長しよう！\nシンプルな操作で圧倒的な火力を体感できる！\n■ ゲームの特徴\n▶ 豊富なにゃんこコレクション\n25種類以上のにゃん"
+        },
+        {
+          "rank": 100,
+          "name": "パクパクフィッシュ-Fish Eat Fish.io",
+          "publisher": "MOBIBRAIN TECHNOLOGY PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6453700466",
+          "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%82%AF%E3%83%91%E3%82%AF%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5-fish-eat-fish-io/id6453700466?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/3b/32/7d3b3219-be6c-867d-4f64-7ea4db9da562/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「大きな魚が小さな魚を食う」が、ようやく戻ってきた!\n伝統的なプレイを体験しながら、新しいゲームを楽しみ、この海の冒険に参加しましょう！\n広い海の中で、あなたは"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
