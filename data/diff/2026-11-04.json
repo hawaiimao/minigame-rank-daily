@@ -1,0 +1,434 @@
+{
+  "date": "2026-11-04",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "时之铃",
+          "publisher": "北京水泠喵网络科技有限公司",
+          "category": "二次元",
+          "subcategory": "自走棋、角色扮演、美少女、策略、多人联机"
+        },
+        {
+          "rank": 8,
+          "name": "甄嬛传",
+          "publisher": "雷霆游戏",
+          "category": "模拟",
+          "subcategory": "休闲、模拟经营、养成、换装、放置"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 88,
+          "name": "Make It Fit - Packing Puzzle",
+          "publisher": "Luong Vuong",
+          "category": "Games",
+          "app_id": "6796574369",
+          "url": "https://apps.apple.com/us/app/make-it-fit-packing-puzzle/id6796574369?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/38/10/0b381051-297b-6d9a-84bc-8d88569db6a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Think you can pack smarter? Make It Fit is a fresh puzzle game where you don't j"
+        },
+        {
+          "rank": 92,
+          "name": "Pullz",
+          "publisher": "Delta Two Inc",
+          "category": "Games",
+          "app_id": "6768253096",
+          "url": "https://apps.apple.com/us/app/pullz/id6768253096?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/65/ec/0f65ecd6-c526-f494-f5ff-986da2ea3468/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Pullz!\n\nOpen card packs, reveal real collectible cards, and choose wh"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 83,
+          "name": "Foodie Pop!",
+          "publisher": "ABI GLOBAL LTD.",
+          "category": "Games",
+          "app_id": "6811006356",
+          "url": "https://apps.apple.com/us/app/foodie-pop/id6811006356?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/5e/d2/065ed2b1-9b5a-9674-692b-e48e0c4c621f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Foodie Pop! - The perfect blend of cozy cooking simulation and satisf"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 87,
+          "name": "Victory Blast Casino",
+          "publisher": "Luma Field Inc",
+          "category": "Games",
+          "app_id": "6761896313",
+          "url": "https://apps.apple.com/us/app/victory-blast-casino/id6761896313?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/87/43/5c87434b-9dc4-72f3-ea4f-ba3eea37eef3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Victory Blast Casino, a vibrant social casino experience filled with "
+        },
+        {
+          "rank": 93,
+          "name": "Goods Puzzle: Sort Challenge™",
+          "publisher": "FALCON GAMES",
+          "category": "Games",
+          "app_id": "6482849843",
+          "url": "https://apps.apple.com/us/app/goods-puzzle-sort-challenge/id6482849843?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/f2/77/6af2777b-8d4c-33fc-a96f-c26d7c8f3d3d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready to embark on an exciting matching adventure like never before in Goods"
+        },
+        {
+          "rank": 98,
+          "name": "FanDuel Casino - Real Money",
+          "publisher": "FanDuel, Inc.",
+          "category": "Games",
+          "app_id": "1506229470",
+          "url": "https://apps.apple.com/us/app/fanduel-casino-real-money/id1506229470?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/80/80/0c808046-301b-ec1a-d5e3-55c3144bb16f/AppIcon-0-0-1x_U007emarketing-0-0-0-11-0-0-85-220.png/100x100bb.png",
+          "slogan": "FanDuel Casino is the #1 Rated Online Casino app, where you can play fully regul"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 92,
+          "name": "Pullz",
+          "publisher": "Delta Two Inc",
+          "category": "Games",
+          "app_id": "6768253096",
+          "url": "https://apps.apple.com/us/app/pullz/id6768253096?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/65/ec/0f65ecd6-c526-f494-f5ff-986da2ea3468/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Pullz!\n\nOpen card packs, reveal real collectible cards, and choose wh"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 83,
+          "name": "Foodie Pop!",
+          "publisher": "ABI GLOBAL LTD.",
+          "category": "Games",
+          "app_id": "6811006356",
+          "url": "https://apps.apple.com/us/app/foodie-pop/id6811006356?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/5e/d2/065ed2b1-9b5a-9674-692b-e48e0c4c621f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Foodie Pop! - The perfect blend of cozy cooking simulation and satisf"
+        },
+        {
+          "rank": 88,
+          "name": "Make It Fit - Packing Puzzle",
+          "publisher": "Luong Vuong",
+          "category": "Games",
+          "app_id": "6796574369",
+          "url": "https://apps.apple.com/us/app/make-it-fit-packing-puzzle/id6796574369?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/38/10/0b381051-297b-6d9a-84bc-8d88569db6a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Think you can pack smarter? Make It Fit is a fresh puzzle game where you don't j"
+        },
+        {
+          "rank": 92,
+          "name": "Pullz",
+          "publisher": "Delta Two Inc",
+          "category": "Games",
+          "app_id": "6768253096",
+          "url": "https://apps.apple.com/us/app/pullz/id6768253096?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/65/ec/0f65ecd6-c526-f494-f5ff-986da2ea3468/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Pullz!\n\nOpen card packs, reveal real collectible cards, and choose wh"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 30,
+          "name": "超自然行动组-伊藤润二联动",
+          "publisher": "巨人网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6544797261",
+          "url": "https://apps.apple.com/cn/app/%E8%B6%85%E8%87%AA%E7%84%B6%E8%A1%8C%E5%8A%A8%E7%BB%84-%E4%BC%8A%E8%97%A4%E6%B6%A6%E4%BA%8C%E8%81%94%E5%8A%A8/id6544797261?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/fd/0e/90fd0e24-ae91-a5b5-9e01-176b811c9622/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一个人玩是恐怖游戏，两个人玩是冒险游戏，三个人玩是寻宝游戏，四个人玩是搞笑游戏， 《超自然行动组》作为首款多人组队欢乐恐怖游戏，为你和你的朋友带来多种多样的游戏"
+        },
+        {
+          "rank": 33,
+          "name": "原神",
+          "publisher": "miHoYo Games",
+          "category": "游戏",
+          "app_id": "1467190251",
+          "url": "https://apps.apple.com/cn/app/%E5%8E%9F%E7%A5%9E/id1467190251?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/ab/ae/bfabaee8-79c9-c80e-8cea-0aeb5a8f898d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "陌生的天空下，少年少女立于尘沙。\n你们是一对旅行中的双子，从世界之外漂流而来。你的血亲被陌生的神灵带走，而你也被神封印，陷入沉眠。\n再度醒来，天地间风景已变……"
+        },
+        {
+          "rank": 73,
+          "name": "一路生金",
+          "publisher": "思晴 魏",
+          "category": "游戏",
+          "app_id": "6803427539",
+          "url": "https://apps.apple.com/cn/app/%E4%B8%80%E8%B7%AF%E7%94%9F%E9%87%91/id6803427539?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/ef/6a/06ef6a42-e10d-bf6e-c152-cf3185f4155d/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "滑动鎏金金片、旋转异形组件，规划移动顺序、突破卡位陷阱\n\n玩家操控带有螺旋纹路的鎏金金片，在棋盘内滑动滑行。金片会惯性滑行至边界、障碍或其他组件处停止，搭配可旋"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 94,
+          "name": "云·原神",
+          "publisher": "miHoYo Games",
+          "category": "游戏",
+          "app_id": "1569029742",
+          "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E5%8E%9F%E7%A5%9E/id1569029742?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/f5/7d/ebf57d4b-d04b-b88b-21b1-6d76a9cd7b62/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "无数生灵繁衍聚集的广袤大陆「提瓦特」，天地万象蕴含其间。\n这里是七神统治、七种元素交汇的世界……\n\n陌生的天空下，少年少女立于尘沙。\n你们是一对旅行中的双子，从"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 73,
+          "name": "一路生金",
+          "publisher": "思晴 魏",
+          "category": "游戏",
+          "app_id": "6803427539",
+          "url": "https://apps.apple.com/cn/app/%E4%B8%80%E8%B7%AF%E7%94%9F%E9%87%91/id6803427539?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/ef/6a/06ef6a42-e10d-bf6e-c152-cf3185f4155d/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "滑动鎏金金片、旋转异形组件，规划移动顺序、突破卡位陷阱\n\n玩家操控带有螺旋纹路的鎏金金片，在棋盘内滑动滑行。金片会惯性滑行至边界、障碍或其他组件处停止，搭配可旋"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 30,
+          "name": "超自然行动组-伊藤润二联动",
+          "publisher": "巨人网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6544797261",
+          "url": "https://apps.apple.com/cn/app/%E8%B6%85%E8%87%AA%E7%84%B6%E8%A1%8C%E5%8A%A8%E7%BB%84-%E4%BC%8A%E8%97%A4%E6%B6%A6%E4%BA%8C%E8%81%94%E5%8A%A8/id6544797261?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/fd/0e/90fd0e24-ae91-a5b5-9e01-176b811c9622/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一个人玩是恐怖游戏，两个人玩是冒险游戏，三个人玩是寻宝游戏，四个人玩是搞笑游戏， 《超自然行动组》作为首款多人组队欢乐恐怖游戏，为你和你的朋友带来多种多样的游戏"
+        },
+        {
+          "rank": 33,
+          "name": "原神",
+          "publisher": "miHoYo Games",
+          "category": "游戏",
+          "app_id": "1467190251",
+          "url": "https://apps.apple.com/cn/app/%E5%8E%9F%E7%A5%9E/id1467190251?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/ab/ae/bfabaee8-79c9-c80e-8cea-0aeb5a8f898d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "陌生的天空下，少年少女立于尘沙。\n你们是一对旅行中的双子，从世界之外漂流而来。你的血亲被陌生的神灵带走，而你也被神封印，陷入沉眠。\n再度醒来，天地间风景已变……"
+        },
+        {
+          "rank": 73,
+          "name": "一路生金",
+          "publisher": "思晴 魏",
+          "category": "游戏",
+          "app_id": "6803427539",
+          "url": "https://apps.apple.com/cn/app/%E4%B8%80%E8%B7%AF%E7%94%9F%E9%87%91/id6803427539?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/ef/6a/06ef6a42-e10d-bf6e-c152-cf3185f4155d/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "滑动鎏金金片、旋转异形组件，规划移动顺序、突破卡位陷阱\n\n玩家操控带有螺旋纹路的鎏金金片，在棋盘内滑动滑行。金片会惯性滑行至边界、障碍或其他组件处停止，搭配可旋"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "ディズニー スパークリンク・スターズ",
+          "publisher": "coly, Inc.",
+          "category": "ゲーム",
+          "app_id": "6760274605",
+          "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%B3%E3%82%AF-%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6760274605?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/d1/d2/c5d1d2a9-aca4-7b59-73ce-d04b2ef567b1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "夢を叶えるスパークライダー育成ADV\n\n– WORLD –\n\nみんなのときめく心が「キラメキ」という光の粒となって舞う、\n不思議な輝きに満ちた島ーースパークル諸"
+        },
+        {
+          "rank": 4,
+          "name": "誰ガ為のアルケミスト ポートマスターズ",
+          "publisher": "KMS.Inc",
+          "category": "ゲーム",
+          "app_id": "6781944992",
+          "url": "https://apps.apple.com/jp/app/%E8%AA%B0%E3%82%AC%E7%82%BA%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%B1%E3%83%9F%E3%82%B9%E3%83%88-%E3%83%9D%E3%83%BC%E3%83%88%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6781944992?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/47/29/644729bc-f3c7-0448-55cc-63b7c63a80b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "全世界1,250万DLを突破した『誰ガ為のアルケミスト』の系譜を継ぐ新作。\n歴代の幻影兵たちと編成を組み、ハイスピードな戦略バトルと最大10人のポート戦へ挑め。"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 79,
+          "name": "Cube Smash - Puzzle Game",
+          "publisher": "Combo Games",
+          "category": "ゲーム",
+          "app_id": "6786206777",
+          "url": "https://apps.apple.com/jp/app/cube-smash-puzzle-game/id6786206777?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/64/1f/98641f61-ca0a-03b7-e6e3-2fee94a62c7e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Cube Smash is a satisfying 3D puzzle game where every tap removes matching cubes"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 96,
+          "name": "フランベシェフ：マージ＆クッキング",
+          "publisher": "Microfun Limited",
+          "category": "ゲーム",
+          "app_id": "6618142292",
+          "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%A9%E3%83%B3%E3%83%99%E3%82%B7%E3%82%A7%E3%83%95-%E3%83%9E%E3%83%BC%E3%82%B8-%E3%82%AF%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0/id6618142292?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/c8/f2/87c8f20b-8055-5338-8fe1-64697b22cebd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "創造性無限大の『フランベシェフ：マージ＆クッキング』の世界で美味しさを追求しましょう！\nどんどん食材をマージし、新レシピをアンロックして、あなたの料理帝国を築き"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "ディズニー スパークリンク・スターズ",
+          "publisher": "coly, Inc.",
+          "category": "ゲーム",
+          "app_id": "6760274605",
+          "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%B3%E3%82%AF-%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6760274605?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/d1/d2/c5d1d2a9-aca4-7b59-73ce-d04b2ef567b1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "夢を叶えるスパークライダー育成ADV\n\n– WORLD –\n\nみんなのときめく心が「キラメキ」という光の粒となって舞う、\n不思議な輝きに満ちた島ーースパークル諸"
+        },
+        {
+          "rank": 4,
+          "name": "誰ガ為のアルケミスト ポートマスターズ",
+          "publisher": "KMS.Inc",
+          "category": "ゲーム",
+          "app_id": "6781944992",
+          "url": "https://apps.apple.com/jp/app/%E8%AA%B0%E3%82%AC%E7%82%BA%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%B1%E3%83%9F%E3%82%B9%E3%83%88-%E3%83%9D%E3%83%BC%E3%83%88%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6781944992?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/47/29/644729bc-f3c7-0448-55cc-63b7c63a80b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "全世界1,250万DLを突破した『誰ガ為のアルケミスト』の系譜を継ぐ新作。\n歴代の幻影兵たちと編成を組み、ハイスピードな戦略バトルと最大10人のポート戦へ挑め。"
+        },
+        {
+          "rank": 79,
+          "name": "Cube Smash - Puzzle Game",
+          "publisher": "Combo Games",
+          "category": "ゲーム",
+          "app_id": "6786206777",
+          "url": "https://apps.apple.com/jp/app/cube-smash-puzzle-game/id6786206777?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/64/1f/98641f61-ca0a-03b7-e6e3-2fee94a62c7e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Cube Smash is a satisfying 3D puzzle game where every tap removes matching cubes"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 1,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "ディズニー スパークリンク・スターズ",
+          "publisher": "coly, Inc.",
+          "category": "ゲーム",
+          "app_id": "6760274605",
+          "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%B3%E3%82%AF-%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6760274605?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/d1/d2/c5d1d2a9-aca4-7b59-73ce-d04b2ef567b1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "夢を叶えるスパークライダー育成ADV\n\n– WORLD –\n\nみんなのときめく心が「キラメキ」という光の粒となって舞う、\n不思議な輝きに満ちた島ーースパークル諸"
+        },
+        {
+          "rank": 4,
+          "name": "誰ガ為のアルケミスト ポートマスターズ",
+          "publisher": "KMS.Inc",
+          "category": "ゲーム",
+          "app_id": "6781944992",
+          "url": "https://apps.apple.com/jp/app/%E8%AA%B0%E3%82%AC%E7%82%BA%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%B1%E3%83%9F%E3%82%B9%E3%83%88-%E3%83%9D%E3%83%BC%E3%83%88%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6781944992?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/47/29/644729bc-f3c7-0448-55cc-63b7c63a80b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "全世界1,250万DLを突破した『誰ガ為のアルケミスト』の系譜を継ぐ新作。\n歴代の幻影兵たちと編成を組み、ハイスピードな戦略バトルと最大10人のポート戦へ挑め。"
+        },
+        {
+          "rank": 79,
+          "name": "Cube Smash - Puzzle Game",
+          "publisher": "Combo Games",
+          "category": "ゲーム",
+          "app_id": "6786206777",
+          "url": "https://apps.apple.com/jp/app/cube-smash-puzzle-game/id6786206777?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/64/1f/98641f61-ca0a-03b7-e6e3-2fee94a62c7e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Cube Smash is a satisfying 3D puzzle game where every tap removes matching cubes"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
