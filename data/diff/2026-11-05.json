@@ -1,0 +1,289 @@
+{
+  "date": "2026-11-05",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 2,
+          "name": "崩坏：因缘精灵",
+          "publisher": "miHoYo",
+          "category": "冒险",
+          "subcategory": "宠物、自走棋、崩坏、策略、3D"
+        },
+        {
+          "rank": 7,
+          "name": "纵横修仙界",
+          "publisher": "极致游戏",
+          "category": "修仙",
+          "subcategory": "放置、多人联机、角色扮演、国风"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 90,
+          "name": "Family Farm Merge",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "Games",
+          "app_id": "6760998152",
+          "url": "https://apps.apple.com/us/app/family-farm-merge/id6760998152?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/cd/b7/58cdb730-a37a-dd35-6952-e7f3eff0fa8d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Family Farm Merge: Merge Your Way Back to Nature!\n\nWelcome to Family Farm Merge,"
+        },
+        {
+          "rank": 94,
+          "name": "Playtest Pro by BestPlay",
+          "publisher": "Bestplay Systems",
+          "category": "Games",
+          "app_id": "6503697761",
+          "url": "https://apps.apple.com/us/app/playtest-pro-by-bestplay/id6503697761?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/d1/44/3dd144e3-cf83-a6c1-8eeb-3b7d0fd3c377/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Introducing Playtest Pro, the ideal platform for sharing your insights and shapi"
+        },
+        {
+          "rank": 99,
+          "name": "Lavish Luck Casino",
+          "publisher": "Prudent Owl Limited",
+          "category": "Games",
+          "app_id": "6738905436",
+          "url": "https://apps.apple.com/us/app/lavish-luck-casino/id6738905436?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/bb/30/b5bb306a-618d-1eb3-267a-2af738a8230f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the exciting world of Lavish Luck Casino! Experience authentic Las Veg"
+        },
+        {
+          "rank": 100,
+          "name": "Bubble Cash",
+          "publisher": "Papaya Gaming",
+          "category": "Games",
+          "app_id": "1475514684",
+          "url": "https://apps.apple.com/us/app/bubble-cash/id1475514684?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/93/16/6793163e-c51b-8086-bf5f-ffb75a19d835/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Forget the ordinary games. Here you play for something bigger, where winning the"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "OverPeak",
+          "publisher": "R Rahul",
+          "category": "游戏",
+          "app_id": "6756866602",
+          "url": "https://apps.apple.com/cn/app/overpeak/id6756866602?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/bc/42/6cbc429c-b070-2f3d-699e-eda8d693e9f7/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "OVERPEAK - RISE. DESTROY. CHOOSE.\n\nOverPeak is a chaotic open-world action game "
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 99,
+          "name": "台球世界-桌球斯诺克竞技游戏",
+          "publisher": "Douglas (Hangzhou) Technology Co., LTD",
+          "category": "游戏",
+          "app_id": "548592311",
+          "url": "https://apps.apple.com/cn/app/%E5%8F%B0%E7%90%83%E4%B8%96%E7%95%8C-%E6%A1%8C%E7%90%83%E6%96%AF%E8%AF%BA%E5%85%8B%E7%AB%9E%E6%8A%80%E6%B8%B8%E6%88%8F/id548592311?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/c6/3a/c1c63ab3-7bda-8c2a-7224-7f7354d1ae86/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【设计者手记】\n我自己就是一个台球爱好者，在没做这个台球游戏之前，曾在网上一遍一遍地搜寻逼真的2D台球游戏，但始终不能如愿。\n不可否认，期间有遇到不错的3D台球"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "OverPeak",
+          "publisher": "R Rahul",
+          "category": "游戏",
+          "app_id": "6756866602",
+          "url": "https://apps.apple.com/cn/app/overpeak/id6756866602?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/bc/42/6cbc429c-b070-2f3d-699e-eda8d693e9f7/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "OVERPEAK - RISE. DESTROY. CHOOSE.\n\nOverPeak is a chaotic open-world action game "
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "OverPeak",
+          "publisher": "R Rahul",
+          "category": "游戏",
+          "app_id": "6756866602",
+          "url": "https://apps.apple.com/cn/app/overpeak/id6756866602?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/bc/42/6cbc429c-b070-2f3d-699e-eda8d693e9f7/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "OVERPEAK - RISE. DESTROY. CHOOSE.\n\nOverPeak is a chaotic open-world action game "
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 22,
+          "name": "熱血大作戦！- 三国志キングダムRPG",
+          "publisher": "FW GAME",
+          "category": "ゲーム",
+          "app_id": "6779548466",
+          "url": "https://apps.apple.com/jp/app/%E7%86%B1%E8%A1%80%E5%A4%A7%E4%BD%9C%E6%88%A6-%E4%B8%89%E5%9B%BD%E5%BF%97%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0rpg/id6779548466?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/11/3d/0e113d1a-ab45-c1d2-400c-898e4a3b6e3e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "天地を喰らい尽くせ！\nレトロ×熱血！ドット絵で蘇る本格三国志RPG『熱血大作戦！』\n\n往年の名作アーケードや横スクロールアクションの魂を受け継ぐ、爽快バトル満載"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 77,
+          "name": "Marble Sort!",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "6754558455",
+          "url": "https://apps.apple.com/jp/app/marble-sort/id6754558455?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/2e/7a/6f2e7a3c-31bb-f0f0-c90c-a53143ee1725/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "気持ちいいASMR物理演算と、奥深い戦略パズルが出会った！タイミングよくビー玉を落とし、動き続けるコンベアに乗せて、ベルトが詰まる前にロジックと戦略でぴったり仕"
+        },
+        {
+          "rank": 98,
+          "name": "Mini Soccer Star 2027",
+          "publisher": "VIVA GAMES S.L.",
+          "category": "ゲーム",
+          "app_id": "1636072966",
+          "url": "https://apps.apple.com/jp/app/mini-soccer-star-2027/id1636072966?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/56/c2/c856c27d-78b8-31e5-cb61-62a1eed98c77/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to the MINI SOCCER STAR 2026!\n\nPlay the brand new soccer game Mini Socce"
+        },
+        {
+          "rank": 99,
+          "name": "Detective Difference: 楽しむ間違い探し",
+          "publisher": "LONGSEA LINK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6738576262",
+          "url": "https://apps.apple.com/jp/app/detective-difference-%E6%A5%BD%E3%81%97%E3%82%80%E9%96%93%E9%81%95%E3%81%84%E6%8E%A2%E3%81%97/id6738576262?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/4e/c6/054ec6cf-a4ae-e68c-5cde-56883961db15/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Detective Difference: Spot Fun - いつでもどこでも目を鍛えて頭をテストしよう！違いを見つける楽しさを体験しよう！隠れた違いの世界"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 22,
+          "name": "熱血大作戦！- 三国志キングダムRPG",
+          "publisher": "FW GAME",
+          "category": "ゲーム",
+          "app_id": "6779548466",
+          "url": "https://apps.apple.com/jp/app/%E7%86%B1%E8%A1%80%E5%A4%A7%E4%BD%9C%E6%88%A6-%E4%B8%89%E5%9B%BD%E5%BF%97%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0rpg/id6779548466?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/11/3d/0e113d1a-ab45-c1d2-400c-898e4a3b6e3e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "天地を喰らい尽くせ！\nレトロ×熱血！ドット絵で蘇る本格三国志RPG『熱血大作戦！』\n\n往年の名作アーケードや横スクロールアクションの魂を受け継ぐ、爽快バトル満載"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 22,
+          "name": "熱血大作戦！- 三国志キングダムRPG",
+          "publisher": "FW GAME",
+          "category": "ゲーム",
+          "app_id": "6779548466",
+          "url": "https://apps.apple.com/jp/app/%E7%86%B1%E8%A1%80%E5%A4%A7%E4%BD%9C%E6%88%A6-%E4%B8%89%E5%9B%BD%E5%BF%97%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0rpg/id6779548466?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/11/3d/0e113d1a-ab45-c1d2-400c-898e4a3b6e3e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "天地を喰らい尽くせ！\nレトロ×熱血！ドット絵で蘇る本格三国志RPG『熱血大作戦！』\n\n往年の名作アーケードや横スクロールアクションの魂を受け継ぐ、爽快バトル満載"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
