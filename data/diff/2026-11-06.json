@@ -1,0 +1,342 @@
+{
+  "date": "2026-11-06",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 7,
+          "name": "时之铃",
+          "publisher": "北京水泠喵网络科技有限公司",
+          "category": "二次元",
+          "subcategory": "自走棋、角色扮演、美少女、策略、多人联机"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 25,
+          "name": "Warline: Sniper Squad",
+          "publisher": "Powerfantasy",
+          "category": "Games",
+          "app_id": "6742809194",
+          "url": "https://apps.apple.com/us/app/warline-sniper-squad/id6742809194?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/da/be/e6dabe74-dc92-76c8-e9ba-a5e6e161b5b2/AppIcon-Global-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Take the Shot, Win the War.\n\nFight on the front line as an elite sniper while co"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 97,
+          "name": "Lordrush",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "Games",
+          "app_id": "6759788962",
+          "url": "https://apps.apple.com/us/app/lordrush/id6759788962?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/03/6d/28036dbd-e45a-0504-8b7d-ecc256213083/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Lordrush is a medieval tower defense strategy game where you rebuild a ruined fo"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 94,
+          "name": "Jewel Coloring",
+          "publisher": "Ta Ta Game Technology Limited",
+          "category": "Games",
+          "app_id": "6759081967",
+          "url": "https://apps.apple.com/us/app/jewel-coloring/id6759081967?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/5a/63/395a63fe-9c3f-5a76-a4e1-27dba77589da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Jewel Coloring: Sparkle & Create with Pixel Art Puzzles\nEnter a vibrant world of"
+        },
+        {
+          "rank": 96,
+          "name": "Crossword Go!",
+          "publisher": "PlaySimple Games Pte Ltd",
+          "category": "Games",
+          "app_id": "6739069151",
+          "url": "https://apps.apple.com/us/app/crossword-go/id6739069151?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/29/de/6f29de06-3d25-0dc2-6983-22e783dbc1ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Challenge your mind and compete in real-time crossword duels! \nTrain your brain,"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 25,
+          "name": "Warline: Sniper Squad",
+          "publisher": "Powerfantasy",
+          "category": "Games",
+          "app_id": "6742809194",
+          "url": "https://apps.apple.com/us/app/warline-sniper-squad/id6742809194?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/da/be/e6dabe74-dc92-76c8-e9ba-a5e6e161b5b2/AppIcon-Global-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Take the Shot, Win the War.\n\nFight on the front line as an elite sniper while co"
+        },
+        {
+          "rank": 97,
+          "name": "Lordrush",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "Games",
+          "app_id": "6759788962",
+          "url": "https://apps.apple.com/us/app/lordrush/id6759788962?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/03/6d/28036dbd-e45a-0504-8b7d-ecc256213083/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Lordrush is a medieval tower defense strategy game where you rebuild a ruined fo"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 93,
+          "name": "JJ象棋-经典中国象棋游戏",
+          "publisher": "JJWorld(Beijing) Network Technology Company Limited",
+          "category": "游戏",
+          "app_id": "979859989",
+          "url": "https://apps.apple.com/cn/app/jj%E8%B1%A1%E6%A3%8B-%E7%BB%8F%E5%85%B8%E4%B8%AD%E5%9B%BD%E8%B1%A1%E6%A3%8B%E6%B8%B8%E6%88%8F/id979859989?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/33/2d/19332dab-2aa2-bf96-0aae-f0d90d87ef73/AppIcon_chess-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《JJ象棋》竞技世界倾力巨献，汇聚十余年棋牌精髓，打造专业级象棋盛宴！游戏涵盖经典象棋、趣味揭棋、残局闯关、人机对战等多种玩法，百万玩家在线，即刻开战无需等待。"
+        },
+        {
+          "rank": 99,
+          "name": "保卫萝卜",
+          "publisher": "Beijing Kai Luo Tian Xia Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "534453594",
+          "url": "https://apps.apple.com/cn/app/%E4%BF%9D%E5%8D%AB%E8%90%9D%E5%8D%9C/id534453594?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/cd/8a/b1cd8aa8-cdbf-ee89-629b-50a3729396ec/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/100x100bb.png",
+          "slogan": "进入超过70个国家总榜、游戏榜TOP10，在整个亚太地区各市场排行榜TOP1-TOP5，欧美地区43个国家TOP25，被全球101个国家推荐为“热门游戏”，短短"
+        },
+        {
+          "rank": 100,
+          "name": "保卫萝卜2",
+          "publisher": "Beijing Kai Luo Tian Xia Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "689888397",
+          "url": "https://apps.apple.com/cn/app/%E4%BF%9D%E5%8D%AB%E8%90%9D%E5%8D%9C2/id689888397?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/ba/2f/06ba2f8e-0636-1fc1-3d30-322519247beb/AppIcon_cn-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "2012年4月，保卫萝卜1代苹果版正式封包测试，开启了走向国民萌系塔防的第一步，转眼8年时间，保卫萝卜系列游戏已经拥有超过4.3亿玩家，谨代表萝卜团队，感谢你们"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 4,
+          "name": "Warline: スナイパー",
+          "publisher": "Powerfantasy",
+          "category": "ゲーム",
+          "app_id": "6742809194",
+          "url": "https://apps.apple.com/jp/app/warline-%E3%82%B9%E3%83%8A%E3%82%A4%E3%83%91%E3%83%BC/id6742809194?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/da/be/e6dabe74-dc92-76c8-e9ba-a5e6e161b5b2/AppIcon-Global-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "シューティングとリアルタイムストラテジーが融合！エリート狙撃手かつ陸・海・空軍の最高指揮官となり、戦場を支配せよ！\n\n一撃必殺の腕で戦況をひっくり返せ\n• 逆転"
+        },
+        {
+          "rank": 23,
+          "name": "Top Force: 最強指揮官",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6761893238",
+          "url": "https://apps.apple.com/jp/app/top-force-%E6%9C%80%E5%BC%B7%E6%8C%87%E6%8F%AE%E5%AE%98/id6761893238?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/7a/7f/5b7a7f60-105d-2f60-0990-7ee949bd06be/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Top Forceへようこそ！気軽に楽しめる、爽快な軍事ストラテジーゲームです！\n最前線に軍事基地を建設し、兵士を武装させ、支援を行いながら敵を撃破しましょう！"
+        },
+        {
+          "rank": 56,
+          "name": "脱出ゲーム Past Floor",
+          "publisher": "Jammsworks Inc.",
+          "category": "ゲーム",
+          "app_id": "6804630049",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-past-floor/id6804630049?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/40/e9/d140e997-3bff-b759-d05a-def50b47769e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "扉の向こうに、次の謎。\nエレベーターでフロアを巡り、部屋に隠された手がかりを探そう。\n見つけたアイテムを使い、各フロアの手がかりをつなげて脱出を目指そう。\n\n【"
+        },
+        {
+          "rank": 83,
+          "name": "マイキャリ｜野球シミュレーションゲーム",
+          "publisher": "Yudai Yodogawa",
+          "category": "ゲーム",
+          "app_id": "6809578554",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%AA-%E9%87%8E%E7%90%83%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id6809578554?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/56/6d/32566d70-f5ec-8d62-e421-a4413411e58d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "小学生からプロ、そしてメジャーへ。\nひとりの選手として、あなただけの野球人生を歩もう。\n\nマイキャリ（MY BASEBALL CAREER／マイベースボールキャ"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 96,
+          "name": "GO FRIEND",
+          "publisher": "takumi suzuki",
+          "category": "ゲーム",
+          "app_id": "1420003965",
+          "url": "https://apps.apple.com/jp/app/go-friend/id1420003965?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/02/24/7e/02247e46-7038-7214-0aa7-3f6ee76331d4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "GO FRIEND(ゴーフレンド)は世界各地の招待レイド（リモートレイド）への参加、招待レイドの参加者募集ができる他、共有マップでレイド、リワード、ポケモンの巣"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 56,
+          "name": "脱出ゲーム Past Floor",
+          "publisher": "Jammsworks Inc.",
+          "category": "ゲーム",
+          "app_id": "6804630049",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-past-floor/id6804630049?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/40/e9/d140e997-3bff-b759-d05a-def50b47769e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "扉の向こうに、次の謎。\nエレベーターでフロアを巡り、部屋に隠された手がかりを探そう。\n見つけたアイテムを使い、各フロアの手がかりをつなげて脱出を目指そう。\n\n【"
+        },
+        {
+          "rank": 83,
+          "name": "マイキャリ｜野球シミュレーションゲーム",
+          "publisher": "Yudai Yodogawa",
+          "category": "ゲーム",
+          "app_id": "6809578554",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%AA-%E9%87%8E%E7%90%83%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id6809578554?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/56/6d/32566d70-f5ec-8d62-e421-a4413411e58d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "小学生からプロ、そしてメジャーへ。\nひとりの選手として、あなただけの野球人生を歩もう。\n\nマイキャリ（MY BASEBALL CAREER／マイベースボールキャ"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 1,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "Warline: スナイパー",
+          "publisher": "Powerfantasy",
+          "category": "ゲーム",
+          "app_id": "6742809194",
+          "url": "https://apps.apple.com/jp/app/warline-%E3%82%B9%E3%83%8A%E3%82%A4%E3%83%91%E3%83%BC/id6742809194?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/da/be/e6dabe74-dc92-76c8-e9ba-a5e6e161b5b2/AppIcon-Global-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "シューティングとリアルタイムストラテジーが融合！エリート狙撃手かつ陸・海・空軍の最高指揮官となり、戦場を支配せよ！\n\n一撃必殺の腕で戦況をひっくり返せ\n• 逆転"
+        },
+        {
+          "rank": 23,
+          "name": "Top Force: 最強指揮官",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6761893238",
+          "url": "https://apps.apple.com/jp/app/top-force-%E6%9C%80%E5%BC%B7%E6%8C%87%E6%8F%AE%E5%AE%98/id6761893238?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/7a/7f/5b7a7f60-105d-2f60-0990-7ee949bd06be/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Top Forceへようこそ！気軽に楽しめる、爽快な軍事ストラテジーゲームです！\n最前線に軍事基地を建設し、兵士を武装させ、支援を行いながら敵を撃破しましょう！"
+        },
+        {
+          "rank": 56,
+          "name": "脱出ゲーム Past Floor",
+          "publisher": "Jammsworks Inc.",
+          "category": "ゲーム",
+          "app_id": "6804630049",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-past-floor/id6804630049?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/40/e9/d140e997-3bff-b759-d05a-def50b47769e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "扉の向こうに、次の謎。\nエレベーターでフロアを巡り、部屋に隠された手がかりを探そう。\n見つけたアイテムを使い、各フロアの手がかりをつなげて脱出を目指そう。\n\n【"
+        },
+        {
+          "rank": 83,
+          "name": "マイキャリ｜野球シミュレーションゲーム",
+          "publisher": "Yudai Yodogawa",
+          "category": "ゲーム",
+          "app_id": "6809578554",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%AA-%E9%87%8E%E7%90%83%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id6809578554?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/56/6d/32566d70-f5ec-8d62-e421-a4413411e58d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "小学生からプロ、そしてメジャーへ。\nひとりの選手として、あなただけの野球人生を歩もう。\n\nマイキャリ（MY BASEBALL CAREER／マイベースボールキャ"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
