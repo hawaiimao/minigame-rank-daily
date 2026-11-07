@@ -1,0 +1,471 @@
+{
+  "date": "2026-11-07",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "未眠野",
+          "publisher": "悦然互动",
+          "category": "开放世界",
+          "subcategory": "高自由度、角色扮演、冒险、动作、高画质"
+        },
+        {
+          "rank": 9,
+          "name": "山海奇旅",
+          "publisher": "网易游戏",
+          "category": "模拟经营",
+          "subcategory": "治愈、多人联机、建造、模拟"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 100,
+          "name": "WendyQuest",
+          "publisher": "81 Monkeys Game Studios Inc.",
+          "category": "Games",
+          "app_id": "6480134807",
+          "url": "https://apps.apple.com/us/app/wendyquest/id6480134807?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/45/ef/d545efe4-5d4e-b3ab-f67d-851cc981df1e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "From Wendy’s & 81Monkeys comes WendyQuest: Legend of the Four Corner Stones, a c"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 78,
+          "name": "Imposter Game - Party Edition",
+          "publisher": "Sven Vucak",
+          "category": "Games",
+          "app_id": "6745120053",
+          "url": "https://apps.apple.com/us/app/imposter-game-party-edition/id6745120053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/69/e0/1069e0bd-1564-9f77-7ea4-a8072e6e90ff/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.png",
+          "slogan": "Are you the imposter - or will you expose them?\n\nImposter is the perfect game fo"
+        },
+        {
+          "rank": 82,
+          "name": "Dark War:Survival",
+          "publisher": "Omnilojo Pte Ltd",
+          "category": "Games",
+          "app_id": "6670441558",
+          "url": "https://apps.apple.com/us/app/dark-war-survival/id6670441558?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/0c/4d/2a0c4d5a-5169-d413-7132-6fd18ebe0df3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Gear up and brace yourself for the ultimate test of zombie apocalypse survival! "
+        },
+        {
+          "rank": 86,
+          "name": "Retro Bowl",
+          "publisher": "New Star Games",
+          "category": "Games",
+          "app_id": "1478902583",
+          "url": "https://apps.apple.com/us/app/retro-bowl/id1478902583?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/7d/d8/197dd8db-93d4-f20b-b99b-fd809f070698/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Retro Bowl is the perfect game for the armchair quarterback to finally prove a p"
+        },
+        {
+          "rank": 88,
+          "name": "Brawl Stars",
+          "publisher": "Supercell",
+          "category": "Games",
+          "app_id": "1229016807",
+          "url": "https://apps.apple.com/us/app/brawl-stars/id1229016807?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/d3/a3/ead3a3b6-7ace-a7b6-9912-1902036c6dee/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Fast paced 3v3 & 5v5 MOBA and Battle Royale made for mobile! Play online with fr"
+        },
+        {
+          "rank": 91,
+          "name": "EA SPORTS FC Soccer Mobile 27",
+          "publisher": "Electronic Arts",
+          "category": "Games",
+          "app_id": "1094930513",
+          "url": "https://apps.apple.com/us/app/ea-sports-fc-soccer-mobile-27/id1094930513?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/d1/84/41d18457-ec03-6812-f0a7-8a83686c6009/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This game includes optional in-game purchases of virtual currency that can be us"
+        },
+        {
+          "rank": 94,
+          "name": "Hole.io - Original Hole Game",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "1389111413",
+          "url": "https://apps.apple.com/us/app/hole-io-original-hole-game/id1389111413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/a6/c2/bca6c2bd-2e9a-5319-882f-69d2362474f6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Hole.io, the wildly satisfying eat-the-world game played by millions!"
+        },
+        {
+          "rank": 95,
+          "name": "Geometry Dash Lite",
+          "publisher": "RobTop Games AB",
+          "category": "Games",
+          "app_id": "698255242",
+          "url": "https://apps.apple.com/us/app/geometry-dash-lite/id698255242?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d3/97/d0/d397d053-137e-e7e5-82b2-123cabb4ffa8/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "Jump and fly your way through danger in this rhythm-based action platformer!\n\n\"F"
+        },
+        {
+          "rank": 96,
+          "name": "Pokémon GO",
+          "publisher": "Scopely Explore, Inc.",
+          "category": "Games",
+          "app_id": "1094591345",
+          "url": "https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/dc/39/eadc39e3-9f46-fe9e-7810-3b943989bf96/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Join Trainers across the globe who are discovering Pokémon as they explore the w"
+        },
+        {
+          "rank": 97,
+          "name": "Clash Royale",
+          "publisher": "Supercell",
+          "category": "Games",
+          "app_id": "1053012308",
+          "url": "https://apps.apple.com/us/app/clash-royale/id1053012308?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/9e/a7/829ea73c-c333-1953-f5fb-c16ea2ed80e3/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "Enter the Arena! Build your Battle Deck and outsmart the enemy in fast real-time"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 100,
+          "name": "WendyQuest",
+          "publisher": "81 Monkeys Game Studios Inc.",
+          "category": "Games",
+          "app_id": "6480134807",
+          "url": "https://apps.apple.com/us/app/wendyquest/id6480134807?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/45/ef/d545efe4-5d4e-b3ab-f67d-851cc981df1e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "From Wendy’s & 81Monkeys comes WendyQuest: Legend of the Four Corner Stones, a c"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 9,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 100,
+          "name": "WendyQuest",
+          "publisher": "81 Monkeys Game Studios Inc.",
+          "category": "Games",
+          "app_id": "6480134807",
+          "url": "https://apps.apple.com/us/app/wendyquest/id6480134807?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/45/ef/d545efe4-5d4e-b3ab-f67d-851cc981df1e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "From Wendy’s & 81Monkeys comes WendyQuest: Legend of the Four Corner Stones, a c"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 92,
+          "name": "超级整理师 - 找一找隐藏的物品",
+          "publisher": "AkerSun Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6824357074",
+          "url": "https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E6%95%B4%E7%90%86%E5%B8%88-%E6%89%BE%E4%B8%80%E6%89%BE%E9%9A%90%E8%97%8F%E7%9A%84%E7%89%A9%E5%93%81/id6824357074?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/68/49/46/68494699-df1e-84fa-dcfa-d295579376f1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "房间乱成小山？用指尖把散落的物品一件件收回上方的物品栏，体验那种从凌乱到有序的满足感。\n\n把注意力放回当下：用手指点选房间中的各类物品，将它们整理到上方的目标栏"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "蛋仔派对",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1544884479",
+          "url": "https://apps.apple.com/cn/app/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/id1544884479?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/f4/5d/b6f45dcc-742a-a7dd-2c9c-0ceb606412a3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "欢迎光临蛋仔岛！《蛋仔派对》是一款拥有5亿玩家的国民原创乐园游戏。在这里，你将化身Q萌的蛋仔，在盲盒机背后的神秘世界——蛋仔岛，展开一段奇妙的闯关之旅。游戏内含"
+        },
+        {
+          "rank": 82,
+          "name": "我的汤姆猫2-地下探险万圣主题派对",
+          "publisher": "Outfit7 Limited",
+          "category": "游戏",
+          "app_id": "1337578317",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%B1%A4%E5%A7%86%E7%8C%AB2-%E5%9C%B0%E4%B8%8B%E6%8E%A2%E9%99%A9%E4%B8%87%E5%9C%A3%E4%B8%BB%E9%A2%98%E6%B4%BE%E5%AF%B9/id1337578317?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/33/8c/48338ca0-12aa-eb38-5736-c9ea4b3ec577/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/100x100bb.png",
+          "slogan": "超级明星虚拟猫咪将踏上终极宠物冒险之旅，有了你，这将比以往任何时候都更有趣！你最喜爱的有趣朋友已经准备好用他的新服装、惊人技能和特殊功能让你大开眼界。\n\n你能做"
+        },
+        {
+          "rank": 94,
+          "name": "捕鱼大作战-街机打鱼游戏王者",
+          "publisher": "Tuyoo Online HK Limited",
+          "category": "游戏",
+          "app_id": "1525863146",
+          "url": "https://apps.apple.com/cn/app/%E6%8D%95%E9%B1%BC%E5%A4%A7%E4%BD%9C%E6%88%98-%E8%A1%97%E6%9C%BA%E6%89%93%E9%B1%BC%E6%B8%B8%E6%88%8F%E7%8E%8B%E8%80%85/id1525863146?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/af/06/06af0605-bba9-f1a5-3e6d-88919fbf6d5d/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "欢迎来到《捕鱼大作战》！作为一款备受欢迎的捕鱼游戏，我们始终致力于为玩家提供精彩、有趣的游戏体验。现在，以全新赛季的震撼登场，休闲不肝的趣味玩法，回归用户的丰厚"
+        },
+        {
+          "rank": 98,
+          "name": "实况足球",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1347776121",
+          "url": "https://apps.apple.com/cn/app/%E5%AE%9E%E5%86%B5%E8%B6%B3%E7%90%83/id1347776121?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/79/02/0079020a-b439-6ee9-e1bb-ae1f54735c4d/PesMobile-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "■实况足球2027，震撼登场！\n全球10亿下载，实况足球手游现已更新2027赛季年度版本！攻防双阵型时代来临！足坛前沿战术理念在你手中复刻，进攻防守两套阵型动态"
+        },
+        {
+          "rank": 99,
+          "name": "恋与深空",
+          "publisher": "Paper Games",
+          "category": "游戏",
+          "app_id": "1618911882",
+          "url": "https://apps.apple.com/cn/app/%E6%81%8B%E4%B8%8E%E6%B7%B1%E7%A9%BA/id1618911882?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/8d/48/e38d4881-0bdf-e2b1-41e6-dd2386beb412/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《恋与深空》延续《恋与》系列世界观，是一款近未来幻想的高沉浸3D恋爱游戏。通过超沉浸的第一人称视角演出、丰富恋爱互动、多感官玩法设置提供高拟真恋爱体验， 让爱触"
+        },
+        {
+          "rank": 100,
+          "name": "天天象棋",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "403941510",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E8%B1%A1%E6%A3%8B/id403941510?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/3b/8d/4f3b8d0f-55ed-2c1a-c684-7f370019cb3e/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《天天象棋》是腾讯出品的中国象棋，除了象棋、揭棋、翻棋三大玩法，还增加学棋模块，助力棋友棋力大涨。\n【棋力评测】棋友公认的棋力评测系统，新增局势分析。\n【智能复"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 6,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 92,
+          "name": "超级整理师 - 找一找隐藏的物品",
+          "publisher": "AkerSun Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6824357074",
+          "url": "https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E6%95%B4%E7%90%86%E5%B8%88-%E6%89%BE%E4%B8%80%E6%89%BE%E9%9A%90%E8%97%8F%E7%9A%84%E7%89%A9%E5%93%81/id6824357074?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/68/49/46/68494699-df1e-84fa-dcfa-d295579376f1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "房间乱成小山？用指尖把散落的物品一件件收回上方的物品栏，体验那种从凌乱到有序的满足感。\n\n把注意力放回当下：用手指点选房间中的各类物品，将它们整理到上方的目标栏"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 37,
+          "name": "電車運転ゲーム-東湾線・地下鉄わかば線編-",
+          "publisher": "合同会社たでぃまる",
+          "category": "ゲーム",
+          "app_id": "6827000949",
+          "url": "https://apps.apple.com/jp/app/%E9%9B%BB%E8%BB%8A%E9%81%8B%E8%BB%A2%E3%82%B2%E3%83%BC%E3%83%A0-%E6%9D%B1%E6%B9%BE%E7%B7%9A-%E5%9C%B0%E4%B8%8B%E9%89%84%E3%82%8F%E3%81%8B%E3%81%B0%E7%B7%9A%E7%B7%A8/id6827000949?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/38/87/d938877d-041a-ec20-0f13-3da4be6187b3/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "その時、運転士はどう動くか。\n\n急病人救護、防護無線、踏切の異常。路線のすべての電車が一つのダイヤで走る中で起きる出来事に、運転台から対処する電車運転ゲームです"
+        },
+        {
+          "rank": 55,
+          "name": "Supermarket chaos to order",
+          "publisher": "Warlock Arts",
+          "category": "ゲーム",
+          "app_id": "6790139777",
+          "url": "https://apps.apple.com/jp/app/supermarket-chaos-to-order/id6790139777?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/00/52/a90052cd-fc41-e47c-d577-fb70b056dc07/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Turn Supermarket chaos to order into the most organized store ever!\nStep into a "
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 48,
+          "name": "TOY BLOX トイブロックス-トリマ公式ブロックパズル",
+          "publisher": "GeoTechnologies, Inc.",
+          "category": "ゲーム",
+          "app_id": "6789060737",
+          "url": "https://apps.apple.com/jp/app/toy-blox-%E3%83%88%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%88%E3%83%AA%E3%83%9E%E5%85%AC%E5%BC%8F%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB/id6789060737?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/1e/bb/6d1ebb47-d491-7677-6708-22a2d6ed075c/AppIcon-production-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【TOY BLOXとは】\n大人気ポイ活アプリ「トリマ」からブロックパズルゲーム「TOY BLOX（トイブロックス）」が誕生しました！\nトイブロックスは、初心者か"
+        },
+        {
+          "rank": 82,
+          "name": "ホテル・ミステリア",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6752886832",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%86%E3%83%AB-%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%82%A2/id6752886832?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/ef/65/83ef6570-4e48-c69d-7daf-bba69502d1ea/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ホテルをリノベーション＆プロデュース！\n\n元ホテルスタッフのアリッサは、祖母が遺した謎の遺産…「エステートホテル」を受け継ぐことに…\n個性豊かな仲間と力を合わせ"
+        },
+        {
+          "rank": 84,
+          "name": "トップウォー",
+          "publisher": "River Game HK Limited",
+          "category": "ゲーム",
+          "app_id": "1479198816",
+          "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%83%E3%83%97%E3%82%A6%E3%82%A9%E3%83%BC/id1479198816?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/11/ff/9711ff85-256a-ac97-503f-e1891d35831d/AppIcon-gl-1-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "指揮官、暗黒軍団がやってくる!\r\nこの暴君たちが世界を支配する!\r\n絶え間ない戦争、各地に散らばる難民、そして希望に満ちた世界。我々を解放するのは誰なのか？\r\n"
+        },
+        {
+          "rank": 87,
+          "name": "eFootball™",
+          "publisher": "KONAMI",
+          "category": "ゲーム",
+          "app_id": "1117270703",
+          "url": "https://apps.apple.com/jp/app/efootball/id1117270703?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/98/c4/f298c428-1e55-a238-3c3c-a2c59b50523a/PesMobile-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "精細なグラフィックとリアルな操作性の本格サッカーアクションゲーム。\n世界中のクラブ・代表チームの現役選手やレジェンドを獲得・育成し、自由に編成したあなただけのチ"
+        },
+        {
+          "rank": 92,
+          "name": "魔法のタイルズ 3™: 音ゲー ピアノタイル",
+          "publisher": "Amanotes Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "1443446174",
+          "url": "https://apps.apple.com/jp/app/%E9%AD%94%E6%B3%95%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%BA-3-%E9%9F%B3%E3%82%B2%E3%83%BC-%E3%83%94%E3%82%A2%E3%83%8E%E3%82%BF%E3%82%A4%E3%83%AB/id1443446174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/ec/5b/25ec5be5-898c-f870-8a7e-1bfeb524e3cf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一年で一番大切な瞬間を、リズムにのって楽しみましょう！ヒット曲のビートで、魂ごとを音楽にのせていきましょう。\n\n\nMagic Tiles 3では、ポップス、ラッ"
+        },
+        {
+          "rank": 93,
+          "name": "X-Clash: サバイバル",
+          "publisher": "9z Games(HK)",
+          "category": "ゲーム",
+          "app_id": "6749109552",
+          "url": "https://apps.apple.com/jp/app/x-clash-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id6749109552?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/37/82/e7378210-0267-93e4-cd3d-20bb50553700/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "邪悪なる虚無が大陸を引き裂き、アンデッドの疫病が文明の最後の残滓を貪り尽くす！この二重の終末において、真に相応しき者のみが王国を再建できるのだ！\r\n\r\nこの大災"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 37,
+          "name": "電車運転ゲーム-東湾線・地下鉄わかば線編-",
+          "publisher": "合同会社たでぃまる",
+          "category": "ゲーム",
+          "app_id": "6827000949",
+          "url": "https://apps.apple.com/jp/app/%E9%9B%BB%E8%BB%8A%E9%81%8B%E8%BB%A2%E3%82%B2%E3%83%BC%E3%83%A0-%E6%9D%B1%E6%B9%BE%E7%B7%9A-%E5%9C%B0%E4%B8%8B%E9%89%84%E3%82%8F%E3%81%8B%E3%81%B0%E7%B7%9A%E7%B7%A8/id6827000949?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/38/87/d938877d-041a-ec20-0f13-3da4be6187b3/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "その時、運転士はどう動くか。\n\n急病人救護、防護無線、踏切の異常。路線のすべての電車が一つのダイヤで走る中で起きる出来事に、運転台から対処する電車運転ゲームです"
+        },
+        {
+          "rank": 55,
+          "name": "Supermarket chaos to order",
+          "publisher": "Warlock Arts",
+          "category": "ゲーム",
+          "app_id": "6790139777",
+          "url": "https://apps.apple.com/jp/app/supermarket-chaos-to-order/id6790139777?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/00/52/a90052cd-fc41-e47c-d577-fb70b056dc07/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Turn Supermarket chaos to order into the most organized store ever!\nStep into a "
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 6,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 37,
+          "name": "電車運転ゲーム-東湾線・地下鉄わかば線編-",
+          "publisher": "合同会社たでぃまる",
+          "category": "ゲーム",
+          "app_id": "6827000949",
+          "url": "https://apps.apple.com/jp/app/%E9%9B%BB%E8%BB%8A%E9%81%8B%E8%BB%A2%E3%82%B2%E3%83%BC%E3%83%A0-%E6%9D%B1%E6%B9%BE%E7%B7%9A-%E5%9C%B0%E4%B8%8B%E9%89%84%E3%82%8F%E3%81%8B%E3%81%B0%E7%B7%9A%E7%B7%A8/id6827000949?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/38/87/d938877d-041a-ec20-0f13-3da4be6187b3/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "その時、運転士はどう動くか。\n\n急病人救護、防護無線、踏切の異常。路線のすべての電車が一つのダイヤで走る中で起きる出来事に、運転台から対処する電車運転ゲームです"
+        },
+        {
+          "rank": 55,
+          "name": "Supermarket chaos to order",
+          "publisher": "Warlock Arts",
+          "category": "ゲーム",
+          "app_id": "6790139777",
+          "url": "https://apps.apple.com/jp/app/supermarket-chaos-to-order/id6790139777?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/00/52/a90052cd-fc41-e47c-d577-fb70b056dc07/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Turn Supermarket chaos to order into the most organized store ever!\nStep into a "
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
