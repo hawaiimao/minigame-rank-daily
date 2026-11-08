@@ -1,0 +1,441 @@
+{
+  "date": "2026-11-08",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "极境：垂钓者",
+          "publisher": "紫龙游戏",
+          "category": "钓鱼",
+          "subcategory": "模拟、休闲、体育、角色扮演、MMORPG、治愈、多人联机、探索、工艺、支持Steam家庭共享、支持手柄、第一人称视角、3D、单人、合作、抓宠"
+        },
+        {
+          "rank": 10,
+          "name": "小苔屋",
+          "publisher": "猫猫世纪工作室",
+          "category": "休闲"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 99,
+          "name": "Bus Crowd - Traffic Jam",
+          "publisher": "Hyper Surfer Games",
+          "category": "Games",
+          "app_id": "6754059516",
+          "url": "https://apps.apple.com/us/app/bus-crowd-traffic-jam/id6754059516?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/d4/9d/08d49d75-6d59-fb0c-04da-c593ee00ce1d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Bus Crowd, a colorful bus puzzle game built around traffic jam strate"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 39,
+          "name": "Manhunt: Hide & Seek",
+          "publisher": "Integrated Reality Labs Inc.",
+          "category": "Games",
+          "app_id": "6560107504",
+          "url": "https://apps.apple.com/us/app/manhunt-hide-seek/id6560107504?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/f9/20/a2f9201b-93a1-6b0f-93f4-97fac9612492/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Play Manhunt and Hide & Seek anywhere in the world. With extensive location find"
+        },
+        {
+          "rank": 65,
+          "name": "Charades Guess Game · Guessly",
+          "publisher": "smak apps",
+          "category": "Games",
+          "app_id": "6473058122",
+          "url": "https://apps.apple.com/us/app/charades-guess-game-guessly/id6473058122?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/94/ce/d494ced3-46fe-f8e9-7bbc-d80356c187a6/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.jpeg/100x100bb.png",
+          "slogan": "Ready to turn ordinary hangouts into unforgettable moments? Meet Guessly — a cha"
+        },
+        {
+          "rank": 84,
+          "name": "Charades - Family & Party Game",
+          "publisher": "Dmytro Cheverda",
+          "category": "Games",
+          "app_id": "1453837845",
+          "url": "https://apps.apple.com/us/app/charades-family-party-game/id1453837845?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/d5/fb/b9d5fb3f-c91e-73b7-776a-9d405f0cfc66/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+          "slogan": "Fun and easy to play game will cheer up your party or family gathering.\n\nGuess t"
+        },
+        {
+          "rank": 92,
+          "name": "Color Block Jam",
+          "publisher": "Rollic Games",
+          "category": "Games",
+          "app_id": "6504332779",
+          "url": "https://apps.apple.com/us/app/color-block-jam/id6504332779?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/8b/f7/ab8bf777-ce42-ab5b-9ad5-b84432e3c922/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Color Block Jam: A Fun & Challenging Puzzle Adventure\r\nGet ready for an exciting"
+        },
+        {
+          "rank": 94,
+          "name": "2 Player Games : Offline Games",
+          "publisher": "Moreno Maio",
+          "category": "Games",
+          "app_id": "1465731199",
+          "url": "https://apps.apple.com/us/app/2-player-games-offline-games/id1465731199?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/21/73/b42173ba-ff97-524d-e384-db5e0c53052d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "If you want to play with your friend on the same device, this is the right game!"
+        },
+        {
+          "rank": 97,
+          "name": "Last Asylum: Plague",
+          "publisher": "WISENESS GAME ONLINE INTERNATIONAL LTD",
+          "category": "Games",
+          "app_id": "6756989323",
+          "url": "https://apps.apple.com/us/app/last-asylum-plague/id6756989323?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/99/38/96993894-c67d-43b9-7cb7-36df8fc4190e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Includes random-item purchases\n\nOne sanctuary. One doctor. One last chance.\nA my"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 99,
+          "name": "Bus Crowd - Traffic Jam",
+          "publisher": "Hyper Surfer Games",
+          "category": "Games",
+          "app_id": "6754059516",
+          "url": "https://apps.apple.com/us/app/bus-crowd-traffic-jam/id6754059516?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/d4/9d/08d49d75-6d59-fb0c-04da-c593ee00ce1d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Bus Crowd, a colorful bus puzzle game built around traffic jam strate"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 6,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 99,
+          "name": "Bus Crowd - Traffic Jam",
+          "publisher": "Hyper Surfer Games",
+          "category": "Games",
+          "app_id": "6754059516",
+          "url": "https://apps.apple.com/us/app/bus-crowd-traffic-jam/id6754059516?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/d4/9d/08d49d75-6d59-fb0c-04da-c593ee00ce1d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Bus Crowd, a colorful bus puzzle game built around traffic jam strate"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 65,
+          "name": "熊出没之熊大快跑 - 顶富玩家首选正版跑酷手游",
+          "publisher": "乐堂动漫信息技术有限公司",
+          "category": "游戏",
+          "app_id": "897841116",
+          "url": "https://apps.apple.com/cn/app/%E7%86%8A%E5%87%BA%E6%B2%A1%E4%B9%8B%E7%86%8A%E5%A4%A7%E5%BF%AB%E8%B7%91-%E9%A1%B6%E5%AF%8C%E7%8E%A9%E5%AE%B6%E9%A6%96%E9%80%89%E6%AD%A3%E7%89%88%E8%B7%91%E9%85%B7%E6%89%8B%E6%B8%B8/id897841116?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/94/e6/ef94e6c4-991e-a4fd-f771-0f71c038130b/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+          "slogan": "春日森林焕新，熊大熊二引领跑酷新纪元！全新版本重磅来袭，带来颠覆性全面升级。\n【视觉革新 沉浸体验】\nUI 界面全量重构，彻底告别旧版粗糙简陋。采用全新圆润森林"
+        },
+        {
+          "rank": 92,
+          "name": "最佳球会-全新赛季版本",
+          "publisher": "Gala Sports Technology Limited",
+          "category": "游戏",
+          "app_id": "1532699610",
+          "url": "https://apps.apple.com/cn/app/%E6%9C%80%E4%BD%B3%E7%90%83%E4%BC%9A-%E5%85%A8%E6%96%B0%E8%B5%9B%E5%AD%A3%E7%89%88%E6%9C%AC/id1532699610?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/77/fd/ba77fdc5-b132-98ea-e480-855a8dfe9931/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【轻松操控，纯粹足球】《最佳球会》告别梅西特别纪念系列活动正式开启，梅西与他生涯中多名伙伴齐聚球会开启星耀时代；\n登录即送年轻梅西，青春球王即刻到手；26/27"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 87,
+          "name": "元梦之星",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1632344522",
+          "url": "https://apps.apple.com/cn/app/%E5%85%83%E6%A2%A6%E4%B9%8B%E6%98%9F/id1632344522?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/41/b7/f041b717-85d3-bd92-eb7a-7bdf3d7fa2ef/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "《元梦之星》是一款轻松社交派对游戏，玩家们可以化身星宝，体验纯粹的游玩乐趣，收获简单的快乐。无论i人e人，都能轻松找到属于自己的社交方式。\n\n《元梦之星》的快乐"
+        },
+        {
+          "rank": 89,
+          "name": "迷你枪战精英",
+          "publisher": "Hainan Mengxing Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "1551614000",
+          "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E6%9E%AA%E6%88%98%E7%B2%BE%E8%8B%B1/id1551614000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/b7/f2/f2b7f267-fe48-fa37-3e4d-1609b3289227/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《迷你枪战精英》是迷你世界IP矩阵下全新推出的一款射击手游。明亮清新的Q版画风，紧张刺激的团队对抗，提供不同以往的 游戏体验。游戏内小艾、幻音、幻-零式、华乐等"
+        },
+        {
+          "rank": 96,
+          "name": "绝区零",
+          "publisher": "miHoYo Games",
+          "category": "游戏",
+          "app_id": "1606359076",
+          "url": "https://apps.apple.com/cn/app/%E7%BB%9D%E5%8C%BA%E9%9B%B6/id1606359076?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/68/b9/9668b943-f1f8-8a86-57b0-978e1527b35f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "不要进入空洞。\n我知道我知道，空洞里有以太资源、有异化造物、甚至有旧文明的遗产，全都是珍贵的财富。\n但是别忘了，那里面空间紊乱，怪物肆虐，异变横生，终究是一场吞"
+        },
+        {
+          "rank": 98,
+          "name": "云•王者荣耀",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "6468988672",
+          "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/id6468988672?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/46/25/ca4625d5-342c-5c37-c127-49e2d6af42d3/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "《云•王者荣耀》是由腾讯先锋云游戏和《王者荣耀》联合发布的云游戏版本。约30M的超小包体即可体验游戏完整内容，免更新、不发热、低耗电、一键下载，立即体验!\n\n王"
+        },
+        {
+          "rank": 99,
+          "name": "鸣潮",
+          "publisher": "库洛游戏",
+          "category": "游戏",
+          "app_id": "6450693428",
+          "url": "https://apps.apple.com/cn/app/%E9%B8%A3%E6%BD%AE/id6450693428?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/cf/3f/e4cf3f12-fccf-58c3-9c87-de268c3d3e2e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《鸣潮》是一款跨平台开放世界动作游戏，主打高自由度的动作战斗玩法与丰富多样的开放世界探索。而你，在这个世界苏醒的漂泊者，将在找回记忆、寻找自我身份的同时结识无数"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 65,
+          "name": "熊出没之熊大快跑 - 顶富玩家首选正版跑酷手游",
+          "publisher": "乐堂动漫信息技术有限公司",
+          "category": "游戏",
+          "app_id": "897841116",
+          "url": "https://apps.apple.com/cn/app/%E7%86%8A%E5%87%BA%E6%B2%A1%E4%B9%8B%E7%86%8A%E5%A4%A7%E5%BF%AB%E8%B7%91-%E9%A1%B6%E5%AF%8C%E7%8E%A9%E5%AE%B6%E9%A6%96%E9%80%89%E6%AD%A3%E7%89%88%E8%B7%91%E9%85%B7%E6%89%8B%E6%B8%B8/id897841116?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/94/e6/ef94e6c4-991e-a4fd-f771-0f71c038130b/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+          "slogan": "春日森林焕新，熊大熊二引领跑酷新纪元！全新版本重磅来袭，带来颠覆性全面升级。\n【视觉革新 沉浸体验】\nUI 界面全量重构，彻底告别旧版粗糙简陋。采用全新圆润森林"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 5,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 65,
+          "name": "熊出没之熊大快跑 - 顶富玩家首选正版跑酷手游",
+          "publisher": "乐堂动漫信息技术有限公司",
+          "category": "游戏",
+          "app_id": "897841116",
+          "url": "https://apps.apple.com/cn/app/%E7%86%8A%E5%87%BA%E6%B2%A1%E4%B9%8B%E7%86%8A%E5%A4%A7%E5%BF%AB%E8%B7%91-%E9%A1%B6%E5%AF%8C%E7%8E%A9%E5%AE%B6%E9%A6%96%E9%80%89%E6%AD%A3%E7%89%88%E8%B7%91%E9%85%B7%E6%89%8B%E6%B8%B8/id897841116?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/94/e6/ef94e6c4-991e-a4fd-f771-0f71c038130b/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+          "slogan": "春日森林焕新，熊大熊二引领跑酷新纪元！全新版本重磅来袭，带来颠覆性全面升级。\n【视觉革新 沉浸体验】\nUI 界面全量重构，彻底告别旧版粗糙简陋。采用全新圆润森林"
+        },
+        {
+          "rank": 92,
+          "name": "最佳球会-全新赛季版本",
+          "publisher": "Gala Sports Technology Limited",
+          "category": "游戏",
+          "app_id": "1532699610",
+          "url": "https://apps.apple.com/cn/app/%E6%9C%80%E4%BD%B3%E7%90%83%E4%BC%9A-%E5%85%A8%E6%96%B0%E8%B5%9B%E5%AD%A3%E7%89%88%E6%9C%AC/id1532699610?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/77/fd/ba77fdc5-b132-98ea-e480-855a8dfe9931/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【轻松操控，纯粹足球】《最佳球会》告别梅西特别纪念系列活动正式开启，梅西与他生涯中多名伙伴齐聚球会开启星耀时代；\n登录即送年轻梅西，青春球王即刻到手；26/27"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 47,
+          "name": "SOFT TENNIS 3D",
+          "publisher": "Yusuke Sarashina",
+          "category": "ゲーム",
+          "app_id": "6826721746",
+          "url": "https://apps.apple.com/jp/app/soft-tennis-3d/id6826721746?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/ca/83/4dca837b-dfc9-2ed8-b08a-9830e8cc82e9/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "スマホで、ダブルス。\n前衛と後衛で組んで戦う、ソフトテニスの3Dゲームです。\n\n左のスティックで動いて、右のボタンを押したまま構えて、離して打つ。それだけで遊べ"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 24,
+          "name": "麻雀ブラスト (Mahjong Blast)",
+          "publisher": "Nebula Studio",
+          "category": "ゲーム",
+          "app_id": "6747492600",
+          "url": "https://apps.apple.com/jp/app/%E9%BA%BB%E9%9B%80%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88-mahjong-blast/id6747492600?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/4f/a2/f94fa251-94ca-2074-7904-476b5476bda2/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Mahjong Blast — クラシック麻雀・まーじゃん無料タイルゲーム\n\nMahjong Blast は、麻雀 と まーじゃん を中核にした\nまーじゃん無料"
+        },
+        {
+          "rank": 74,
+          "name": "Tether Up! - ロープで登る協力ゲーム",
+          "publisher": "IBUKI YOSHIDA",
+          "category": "ゲーム",
+          "app_id": "6814103261",
+          "url": "https://apps.apple.com/jp/app/tether-up-%E3%83%AD%E3%83%BC%E3%83%97%E3%81%A7%E7%99%BB%E3%82%8B%E5%8D%94%E5%8A%9B%E3%82%B2%E3%83%BC%E3%83%A0/id6814103261?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/d2/1a/61d21a60-9293-a802-a078-7a2d811f335b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "一本のロープで、ふたりはつながっている。\n\n「Tether Up!」は、相棒とロープで結ばれたまま、どこまでも高く登り続ける協力クライムアクションです。ステージ"
+        },
+        {
+          "rank": 90,
+          "name": "Paper.io 2",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "1423046460",
+          "url": "https://apps.apple.com/jp/app/paper-io-2/id1423046460?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/48/63/9b48631a-4774-48a9-9c27-4925bdb4e89d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "世界中の何百万人ものプレイヤーと一緒に、最高にハマるioゲームを体験しよう！アリーナを移動して線を引き、陣地を広げて、誰かに道を断たれる前にゾーンを確保しよう。"
+        },
+        {
+          "rank": 95,
+          "name": "Water Sort Puzzle : Challenge",
+          "publisher": "贺翔 段",
+          "category": "ゲーム",
+          "app_id": "6787414784",
+          "url": "https://apps.apple.com/jp/app/water-sort-puzzle-challenge/id6787414784?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/77/91/5f779194-85ef-b50e-293d-383f34be36a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Water Sort Puzzle : Challenge is a relaxing color sorting game with simple rules"
+        },
+        {
+          "rank": 96,
+          "name": "ペタペタペンギン団",
+          "publisher": "MOREFUN (H.K.) LIMITED",
+          "category": "ゲーム",
+          "app_id": "6742937695",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9A%E3%82%BF%E3%83%9A%E3%82%BF%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3%E5%9B%A3/id6742937695?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/fa/57/61fa5759-f2c1-0003-d642-1b4ee404af89/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【無料で３０００連ガチャ、豪華特典ゲット！】\nペタペタペンギン団、予約数100万突破！今DLして無料で3000連ガチャを引ける！さらに地域限定スキン・「剣魂」（"
+        },
+        {
+          "rank": 98,
+          "name": "Level Devil - NOT A Troll Game",
+          "publisher": "WebVentures B.V.",
+          "category": "ゲーム",
+          "app_id": "6477413486",
+          "url": "https://apps.apple.com/jp/app/level-devil-not-a-troll-game/id6477413486?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/a4/12/6da412c7-ae22-1176-de69-14404e15e3fa/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "素敵で穏やかなプラットフォーマー\n\n走って、跳んで、ドアにたどり着き、完全に公平なステージ、親切なトゲ、信頼できる足場、そしてごく普通のサプライズに満ちた穏やか"
+        },
+        {
+          "rank": 100,
+          "name": "ブレードウォー",
+          "publisher": "EVISTA PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6769617371",
+          "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%AC%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A9%E3%83%BC/id6769617371?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/ee/bd/beeebdf2-03ad-7096-f31a-64bc1f4f1fd2/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "厳しい寒さが三国の大地を襲った。さあ、今、新たな物語があなたの手で始まろうとしている！\n仁義の心を持つ領主として、城門を開きさまよう難民を迎え、無料で獲得したS"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 47,
+          "name": "SOFT TENNIS 3D",
+          "publisher": "Yusuke Sarashina",
+          "category": "ゲーム",
+          "app_id": "6826721746",
+          "url": "https://apps.apple.com/jp/app/soft-tennis-3d/id6826721746?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/ca/83/4dca837b-dfc9-2ed8-b08a-9830e8cc82e9/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "スマホで、ダブルス。\n前衛と後衛で組んで戦う、ソフトテニスの3Dゲームです。\n\n左のスティックで動いて、右のボタンを押したまま構えて、離して打つ。それだけで遊べ"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 7,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 47,
+          "name": "SOFT TENNIS 3D",
+          "publisher": "Yusuke Sarashina",
+          "category": "ゲーム",
+          "app_id": "6826721746",
+          "url": "https://apps.apple.com/jp/app/soft-tennis-3d/id6826721746?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/ca/83/4dca837b-dfc9-2ed8-b08a-9830e8cc82e9/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "スマホで、ダブルス。\n前衛と後衛で組んで戦う、ソフトテニスの3Dゲームです。\n\n左のスティックで動いて、右のボタンを押したまま構えて、離して打つ。それだけで遊べ"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
