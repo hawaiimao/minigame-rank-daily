@@ -1,0 +1,412 @@
+{
+  "date": "2026-11-10",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 4,
+          "name": "饥困荒野",
+          "publisher": "腾讯",
+          "category": "沙盒",
+          "subcategory": "生存、多人联机、饥荒、冒险"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 85,
+          "name": "Cutie Sort - Magic Color Fever",
+          "publisher": "Ladaneta Games",
+          "category": "Games",
+          "app_id": "6796547048",
+          "url": "https://apps.apple.com/us/app/cutie-sort-magic-color-fever/id6796547048?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/f7/92/3ff79260-99e6-3b3b-d482-31ad3fe7f811/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Welcome! Cutie Sort is a pure logic brain teaser designed for puzzle lovers, per"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 77,
+          "name": "All Dubs",
+          "publisher": "Vaulty Studios Inc.",
+          "category": "Games",
+          "app_id": "6797929772",
+          "url": "https://apps.apple.com/us/app/all-dubs/id6797929772?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/2a/37/ca2a37c5-9b94-8e63-a0ae-180fa7d060dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Can you build the perfect team and finish the season undefeated? \n\nALL DUBS is t"
+        },
+        {
+          "rank": 84,
+          "name": "CrownCoins Casino",
+          "publisher": "Sunflower",
+          "category": "Games",
+          "app_id": "6450413462",
+          "url": "https://apps.apple.com/us/app/crowncoins-casino/id6450413462?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/cf/f2/ddcff2fb-8c88-b75a-e1e0-67d8de645bc9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "CROWN COINS CASINO. America loves it. You will too! \nPLAY. WIN. REDEEM. REPEAT. "
+        },
+        {
+          "rank": 88,
+          "name": "Bruno Reels Casino",
+          "publisher": "EverPrime Futures Inc.",
+          "category": "Games",
+          "app_id": "6768564100",
+          "url": "https://apps.apple.com/us/app/bruno-reels-casino/id6768564100?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/23/ba/bf23ba31-1193-6c10-acd0-d2ead14e8d8b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Bruno Reels Casino brings you an exciting casino-style slots experience filled w"
+        },
+        {
+          "rank": 91,
+          "name": "Bingo Cash - Win Real Money",
+          "publisher": "Papaya Gaming",
+          "category": "Games",
+          "app_id": "1522266397",
+          "url": "https://apps.apple.com/us/app/bingo-cash-win-real-money/id1522266397?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/eb/94/28eb9487-42bf-befd-5416-3736ee932de7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Forget the ordinary games. Here you play for something bigger, where winning the"
+        },
+        {
+          "rank": 92,
+          "name": "Jewel Coloring",
+          "publisher": "Ta Ta Game Technology Limited",
+          "category": "Games",
+          "app_id": "6759081967",
+          "url": "https://apps.apple.com/us/app/jewel-coloring/id6759081967?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/5a/63/395a63fe-9c3f-5a76-a4e1-27dba77589da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Jewel Coloring: Sparkle & Create with Pixel Art Puzzles\nEnter a vibrant world of"
+        },
+        {
+          "rank": 97,
+          "name": "Family Farm Merge",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "Games",
+          "app_id": "6760998152",
+          "url": "https://apps.apple.com/us/app/family-farm-merge/id6760998152?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/f5/05/acf50537-5fec-b513-4e51-e8d124e5dfa9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Family Farm Merge: Merge Your Way Back to Nature!\n\nWelcome to Family Farm Merge,"
+        },
+        {
+          "rank": 98,
+          "name": "Woodoku Blast: Block Puzzle",
+          "publisher": "Tripledot Studios",
+          "category": "Games",
+          "app_id": "6608975929",
+          "url": "https://apps.apple.com/us/app/woodoku-blast-block-puzzle/id6608975929?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/e2/ba/a8e2ba7f-1687-b5bc-058c-d501e0b506ed/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Woodoku Blast: The Mesmerizing Colorful Block Puzzle Game!\nPrepare yo"
+        },
+        {
+          "rank": 100,
+          "name": "Wordscapes Search - Word Game",
+          "publisher": "PeopleFun, Inc.",
+          "category": "Games",
+          "app_id": "1420294918",
+          "url": "https://apps.apple.com/us/app/wordscapes-search-word-game/id1420294918?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/d4/d5/cdd4d523-3805-d410-6dde-695c6715b99d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Would you like to relax, exercise your brain, and expand your vocabulary-all at "
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 85,
+          "name": "Cutie Sort - Magic Color Fever",
+          "publisher": "Ladaneta Games",
+          "category": "Games",
+          "app_id": "6796547048",
+          "url": "https://apps.apple.com/us/app/cutie-sort-magic-color-fever/id6796547048?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/f7/92/3ff79260-99e6-3b3b-d482-31ad3fe7f811/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Welcome! Cutie Sort is a pure logic brain teaser designed for puzzle lovers, per"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 8,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 85,
+          "name": "Cutie Sort - Magic Color Fever",
+          "publisher": "Ladaneta Games",
+          "category": "Games",
+          "app_id": "6796547048",
+          "url": "https://apps.apple.com/us/app/cutie-sort-magic-color-fever/id6796547048?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/f7/92/3ff79260-99e6-3b3b-d482-31ad3fe7f811/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Welcome! Cutie Sort is a pure logic brain teaser designed for puzzle lovers, per"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "烽烟破晓",
+          "publisher": "杭州云欣谷网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6756720174",
+          "url": "https://apps.apple.com/cn/app/%E7%83%BD%E7%83%9F%E7%A0%B4%E6%99%93/id6756720174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/19/01/e419013d-2db4-10f8-1579-42ab2b56d288/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《烽烟破晓》摒弃了传统MMORPG中各种多余的社交元素，将经典MMO游戏中物竞天择、胜者为王的生存法则重塑至极致。在这里，实力便是一切，赢者即可通吃！我们信奉绝"
+        },
+        {
+          "rank": 73,
+          "name": "消个沙子",
+          "publisher": "秀芹 孙",
+          "category": "游戏",
+          "app_id": "6817291096",
+          "url": "https://apps.apple.com/cn/app/%E6%B6%88%E4%B8%AA%E6%B2%99%E5%AD%90/id6817291096?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/d2/ca/4fd2cadb-bbc1-8ff2-24a6-633f255e76f8/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "海风呼啸，海底怪物集体登陆沙滩，向着海边小屋发起进攻！\n你需要利用战场左右固定部署位，放置炮台抵御来袭的海洋怪物。\n点击底部炮台，在点位安放；拖动两个同等级炮台"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 93,
+          "name": "猫咪整理师 - 房间造景布置小屋 整理解压收纳达人",
+          "publisher": "Togother Many Information Technology Co, Ltd.",
+          "category": "游戏",
+          "app_id": "6752363458",
+          "url": "https://apps.apple.com/cn/app/%E7%8C%AB%E5%92%AA%E6%95%B4%E7%90%86%E5%B8%88-%E6%88%BF%E9%97%B4%E9%80%A0%E6%99%AF%E5%B8%83%E7%BD%AE%E5%B0%8F%E5%B1%8B-%E6%95%B4%E7%90%86%E8%A7%A3%E5%8E%8B%E6%94%B6%E7%BA%B3%E8%BE%BE%E4%BA%BA/id6752363458?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/e4/00/58e40096-f5fc-88b3-86d4-6a1eb16d4284/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "欢迎来到你的专属解压小天地！在这里，动动手指，像玩贴纸一样，就能DIY出独一无二的可爱场景。\n\n拿起你的小镊子，把各种各样的家具和物品贴到它们该去的地方。看着乱"
+        },
+        {
+          "rank": 98,
+          "name": "桃源深处有人家",
+          "publisher": "Tencent Technology (Chengdu) Co., Ltd.",
+          "category": "游戏",
+          "app_id": "1582427876",
+          "url": "https://apps.apple.com/cn/app/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6/id1582427876?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/4a/75/574a757e-6560-23fb-62e7-27a124c6ed4a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.jpeg/100x100bb.png",
+          "slogan": "《桃源深处有人家》是一款悠然治愈的国风山水田园经营手游。游戏以传统文化为基础，以温暖治愈为主题，为简单质朴的田园生活赋予青绿山水的国风美学，打造了一个朴实祥和的"
+        },
+        {
+          "rank": 99,
+          "name": "喵骑战域",
+          "publisher": "EasyGame Limited",
+          "category": "游戏",
+          "app_id": "6814706023",
+          "url": "https://apps.apple.com/cn/app/%E5%96%B5%E9%AA%91%E6%88%98%E5%9F%9F/id6814706023?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/b7/d6/0fb7d603-ec42-1333-3896-4a8220d44ced/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "小爪子大枪?! 最可爱的放置射击RPG来啦!\n如果可爱毛茸茸的猫咪带着巨大的枪去冒险会怎样?\n可爱大爆发+刺激的火力+令人上瘾的射击游戏的结合!\n现在就来建立你"
+        },
+        {
+          "rank": 100,
+          "name": "宾果消消消",
+          "publisher": "柠檬微趣",
+          "category": "游戏",
+          "app_id": "897447840",
+          "url": "https://apps.apple.com/cn/app/%E5%AE%BE%E6%9E%9C%E6%B6%88%E6%B6%88%E6%B6%88/id897447840?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/eb/b2/bcebb2e4-b039-30ca-ef7d-752fa0d46540/AppIcon-0-0-1x_U007emarketing-0-9-0-GLES2_U002c0-85-220.png/100x100bb.png",
+          "slogan": "《宾果消消消》,累计注册用户超过3亿,以三消+开店的形式，让国民连接在一起！\n2021年，3亿玩家的共同选择！\n\n消一消，能开店。奶茶店、蛋糕店、糖果店、花店、"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "烽烟破晓",
+          "publisher": "杭州云欣谷网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6756720174",
+          "url": "https://apps.apple.com/cn/app/%E7%83%BD%E7%83%9F%E7%A0%B4%E6%99%93/id6756720174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/19/01/e419013d-2db4-10f8-1579-42ab2b56d288/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《烽烟破晓》摒弃了传统MMORPG中各种多余的社交元素，将经典MMO游戏中物竞天择、胜者为王的生存法则重塑至极致。在这里，实力便是一切，赢者即可通吃！我们信奉绝"
+        },
+        {
+          "rank": 73,
+          "name": "消个沙子",
+          "publisher": "秀芹 孙",
+          "category": "游戏",
+          "app_id": "6817291096",
+          "url": "https://apps.apple.com/cn/app/%E6%B6%88%E4%B8%AA%E6%B2%99%E5%AD%90/id6817291096?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/d2/ca/4fd2cadb-bbc1-8ff2-24a6-633f255e76f8/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "海风呼啸，海底怪物集体登陆沙滩，向着海边小屋发起进攻！\n你需要利用战场左右固定部署位，放置炮台抵御来袭的海洋怪物。\n点击底部炮台，在点位安放；拖动两个同等级炮台"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 4,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "烽烟破晓",
+          "publisher": "杭州云欣谷网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6756720174",
+          "url": "https://apps.apple.com/cn/app/%E7%83%BD%E7%83%9F%E7%A0%B4%E6%99%93/id6756720174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/19/01/e419013d-2db4-10f8-1579-42ab2b56d288/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《烽烟破晓》摒弃了传统MMORPG中各种多余的社交元素，将经典MMO游戏中物竞天择、胜者为王的生存法则重塑至极致。在这里，实力便是一切，赢者即可通吃！我们信奉绝"
+        },
+        {
+          "rank": 73,
+          "name": "消个沙子",
+          "publisher": "秀芹 孙",
+          "category": "游戏",
+          "app_id": "6817291096",
+          "url": "https://apps.apple.com/cn/app/%E6%B6%88%E4%B8%AA%E6%B2%99%E5%AD%90/id6817291096?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/d2/ca/4fd2cadb-bbc1-8ff2-24a6-633f255e76f8/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "海风呼啸，海底怪物集体登陆沙滩，向着海边小屋发起进攻！\n你需要利用战场左右固定部署位，放置炮台抵御来袭的海洋怪物。\n点击底部炮台，在点位安放；拖动两个同等级炮台"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 83,
+          "name": "火鍋マスター：フードパズル",
+          "publisher": "Chengmai Jiutai Technology Co.. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6758488812",
+          "url": "https://apps.apple.com/jp/app/%E7%81%AB%E9%8D%8B%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC-%E3%83%95%E3%83%BC%E3%83%89%E3%83%91%E3%82%BA%E3%83%AB/id6758488812?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/41/3c/c2413cfe-8bf0-eb63-70be-25a2c6ffe97f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「おいしい」脳トレを始めませんか？\n『火鍋マスター：フードパズル』へようこそ。\n\n日常の喧騒を離れ、ぐつぐつ煮える火鍋（ホットポット）の温かな世界へ。湯気の立つ"
+        },
+        {
+          "rank": 85,
+          "name": "EDGE POKER (エッジポーカー)",
+          "publisher": "DeNA Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6476597728",
+          "url": "https://apps.apple.com/jp/app/edge-poker-%E3%82%A8%E3%83%83%E3%82%B8%E3%83%9D%E3%83%BC%E3%82%AB%E3%83%BC/id6476597728?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/1b/d8/f31bd87b-21b4-3cf8-6ccc-2a9c315358d1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【踏みだせ、ポーカーのド真ん中へ。AIとともに強くなる、みんなが集まるポーカーの世界】\nDeNAと日本のポーカーブームを牽引するプロポーカープレイヤー「世界のヨ"
+        },
+        {
+          "rank": 91,
+          "name": "Color Puzzle Jam - バスゲーム 車のジャム",
+          "publisher": "Gloryway Puzzle",
+          "category": "ゲーム",
+          "app_id": "6760389476",
+          "url": "https://apps.apple.com/jp/app/color-puzzle-jam-%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0-%E8%BB%8A%E3%81%AE%E3%82%B8%E3%83%A3%E3%83%A0/id6760389476?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/11/ed/e211ed7d-9949-ef6d-165c-1cde12cb1ac8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "魅力的でハマるパズルアドベンチャーへようこそ！あなたの使命は、ぎっしり詰まった駐車場を空にすること。タップして車を出し、同じ色の待ち客を乗せて列を消していこう。"
+        },
+        {
+          "rank": 95,
+          "name": "777Real(777リアル) パチンコ･パチスロアプリ",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "1545088576",
+          "url": "https://apps.apple.com/jp/app/777real-777%E3%83%AA%E3%82%A2%E3%83%AB-%E3%83%91%E3%83%81%E3%83%B3%E3%82%B3-%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD%E3%82%A2%E3%83%97%E3%83%AA/id1545088576?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/e5/92/a4e592f7-b652-9b60-16a2-44cb9c74e76b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\n777Real（スリーセブンリアル）\n--------------------"
+        },
+        {
+          "rank": 97,
+          "name": "Detective Difference: 楽しむ間違い探し",
+          "publisher": "LONGSEA LINK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6738576262",
+          "url": "https://apps.apple.com/jp/app/detective-difference-%E6%A5%BD%E3%81%97%E3%82%80%E9%96%93%E9%81%95%E3%81%84%E6%8E%A2%E3%81%97/id6738576262?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/4e/c6/054ec6cf-a4ae-e68c-5cde-56883961db15/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Detective Difference: Spot Fun - いつでもどこでも目を鍛えて頭をテストしよう！違いを見つける楽しさを体験しよう！隠れた違いの世界"
+        },
+        {
+          "rank": 98,
+          "name": "Bulldozer Master: 壊して採掘",
+          "publisher": "Supercent, Inc.",
+          "category": "ゲーム",
+          "app_id": "6747710694",
+          "url": "https://apps.apple.com/jp/app/bulldozer-master-%E5%A3%8A%E3%81%97%E3%81%A6%E6%8E%A1%E6%8E%98/id6747710694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/23/5e/1c235e24-4ebc-799c-33b6-60063725375b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "強力なブルドーザーのハンドルを握り、ツルハシを手に取り、採掘帝国へと掘り進もう！\nBulldozer Masterでは、豊かな採掘ゾーンを探索し、鉱石を砕き、希"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 6,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
