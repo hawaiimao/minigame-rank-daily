@@ -1,0 +1,318 @@
+{
+  "date": "2026-11-12",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "幻想九霄",
+          "publisher": "幻想九霄工作室",
+          "category": "角色扮演",
+          "subcategory": "放置、修仙"
+        },
+        {
+          "rank": 10,
+          "name": "花开时见你",
+          "publisher": "广州春芒网络科技有限公司",
+          "category": "模拟经营",
+          "subcategory": "种田、收集、放置、治愈"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 87,
+          "name": "FanDuel Casino - Real Money",
+          "publisher": "FanDuel, Inc.",
+          "category": "Games",
+          "app_id": "1506229470",
+          "url": "https://apps.apple.com/us/app/fanduel-casino-real-money/id1506229470?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/d7/bb/bcd7bb94-e294-51b5-ddef-b1b8ba5f123b/AppIcon-0-0-1x_U007emarketing-0-0-0-11-0-0-85-220.png/100x100bb.png",
+          "slogan": "FanDuel Casino is the #1 Rated Online Casino app, where you can play fully regul"
+        },
+        {
+          "rank": 94,
+          "name": "Foodstars: Merge & Cook",
+          "publisher": "Happibits",
+          "category": "Games",
+          "app_id": "6753862216",
+          "url": "https://apps.apple.com/us/app/foodstars-merge-cook/id6753862216?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a4/c0/79a4c011-5069-b76e-3fac-70746d899e45/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Dream of becoming a Star Chef? Now’s your chance!\nEver imagined learning the sec"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 98,
+          "name": "阴阳师",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "895670960",
+          "url": "https://apps.apple.com/cn/app/%E9%98%B4%E9%98%B3%E5%B8%88/id895670960?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/fa/e3/51fae32d-6dc9-d06a-c031-ac2c870bca83/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/100x100bb.png",
+          "slogan": "阴阳师，你我共创的绮美世界\n\n【游戏介绍】\n《阴阳师》是网易游戏匠心巨制的3D半即时回合制RPG手游。以平安时代为背景，讲述人鬼共生的奇幻故事。在唯美写意的画风"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 70,
+          "name": "模拟城市：我是市长",
+          "publisher": "Beijing Bewinner Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "1174766830",
+          "url": "https://apps.apple.com/cn/app/%E6%A8%A1%E6%8B%9F%E5%9F%8E%E5%B8%82-%E6%88%91%E6%98%AF%E5%B8%82%E9%95%BF/id1174766830?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/67/86/4c678682-ce8f-49d3-5319-b67ba3ff9600/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "享誉全球的经典3D模拟经营手游，倾情打造全新“开元古都”国风资料片！\n\n由EA开发、蜂巢游戏独家国内发行的《模拟城市：我是市长》，即将迎来市民入驻啦！一起建设高"
+        },
+        {
+          "rank": 75,
+          "name": "鸣潮",
+          "publisher": "库洛游戏",
+          "category": "游戏",
+          "app_id": "6450693428",
+          "url": "https://apps.apple.com/cn/app/%E9%B8%A3%E6%BD%AE/id6450693428?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/fb/c2/e6fbc2cb-89f1-54d9-45ae-46afa1a693c4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《鸣潮》是一款跨平台开放世界动作游戏，主打高自由度的动作战斗玩法与丰富多样的开放世界探索。而你，在这个世界苏醒的漂泊者，将在找回记忆、寻找自我身份的同时结识无数"
+        },
+        {
+          "rank": 95,
+          "name": "篮球少女：飞跃巅峰",
+          "publisher": "Lingxi Games Inc.",
+          "category": "游戏",
+          "app_id": "6800167533",
+          "url": "https://apps.apple.com/cn/app/%E7%AF%AE%E7%90%83%E5%B0%91%E5%A5%B3-%E9%A3%9E%E8%B7%83%E5%B7%85%E5%B3%B0/id6800167533?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/86/a2/6086a20e-e033-aa06-4f5c-43046cf3e4df/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《篮球少女：飞跃巅峰》是新一代运动少女养成游戏。这里有你前所未见的篮球赛场，你将担任教练，带领一群热血篮球少女冲击全国大赛！\n\n【教练，你见过这样的赛场吗？】\n"
+        },
+        {
+          "rank": 100,
+          "name": "俱乐大玩家",
+          "publisher": "光棱工作室",
+          "category": "游戏",
+          "app_id": "6784163008",
+          "url": "https://apps.apple.com/cn/app/%E4%BF%B1%E4%B9%90%E5%A4%A7%E7%8E%A9%E5%AE%B6/id6784163008?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/67/90/c3679071-e7d1-ad8f-aa27-98867d1c9cbe/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《俱乐大玩家》是一款超有趣的多人策略竞拍休闲手游！沉浸式拍卖玩法全新上线，多人同场实时暗标竞价，全程出价保密，考验你的眼力与心理博弈。\n挑选专属角色解锁特色技能"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 98,
+          "name": "阴阳师",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "895670960",
+          "url": "https://apps.apple.com/cn/app/%E9%98%B4%E9%98%B3%E5%B8%88/id895670960?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/fa/e3/51fae32d-6dc9-d06a-c031-ac2c870bca83/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/100x100bb.png",
+          "slogan": "阴阳师，你我共创的绮美世界\n\n【游戏介绍】\n《阴阳师》是网易游戏匠心巨制的3D半即时回合制RPG手游。以平安时代为背景，讲述人鬼共生的奇幻故事。在唯美写意的画风"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 4,
+          "name": "Bus Fever Party! バス渋滞脱出",
+          "publisher": "Lumi Games",
+          "category": "ゲーム",
+          "app_id": "6746743297",
+          "url": "https://apps.apple.com/jp/app/bus-fever-party-%E3%83%90%E3%82%B9%E6%B8%8B%E6%BB%9E%E8%84%B1%E5%87%BA/id6746743297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/dd/6e/acdd6e9e-de12-21f1-716a-4aa68560f4b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Bus Fever Party!へようこそ！究極の交通渋滞脱出チャレンジに挑戦しよう！\nBus Fever Party!の世界では、交通の混乱と戦略的なパズル解"
+        },
+        {
+          "rank": 91,
+          "name": "お片付け！なんでも",
+          "publisher": "SayGames LTD",
+          "category": "ゲーム",
+          "app_id": "6824655215",
+          "url": "https://apps.apple.com/jp/app/%E3%81%8A%E7%89%87%E4%BB%98%E3%81%91-%E3%81%AA%E3%82%93%E3%81%A7%E3%82%82/id6824655215?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/a5/42/93a54299-b4c0-0824-5b96-d778ff23f5ba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "► 心やすらぐ片付け＆仕分け ゲーム\n\nカラフルなおもちゃが床いっぱいに散らばる、にぎやかなおもちゃ屋さんへようこそ！自由に店内を動き回れる新感覚のソートゲーム"
+        },
+        {
+          "rank": 99,
+          "name": "マジックマッチ (Magic Match)",
+          "publisher": "BY4M STUDIO CO.,LTD.",
+          "category": "ゲーム",
+          "app_id": "6786589102",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%B8%E3%83%83%E3%82%AF%E3%83%9E%E3%83%83%E3%83%81-magic-match/id6786589102?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/7b/d0/bb7bd01a-f4cc-4534-9117-c2548a9add82/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "キラキラ輝く魔法のパズルワールドへようこそ！\n\n同じ色のブロックをそろえて爽快なコンボを決めよう！さまざまなパズルに挑戦しながら、魔法の世界を少しずつよみがえら"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 70,
+          "name": "プロ野球スピリッツＡ",
+          "publisher": "KONAMI",
+          "category": "ゲーム",
+          "app_id": "940320341",
+          "url": "https://apps.apple.com/jp/app/%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83%E3%82%B9%E3%83%94%E3%83%AA%E3%83%83%E3%83%84%EF%BD%81/id940320341?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/6d/2f/616d2f40-e226-b6f3-8535-5da173941e43/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "一般社団法人日本野球機構承認 All other copyrights or trademarks are the property of their resp"
+        },
+        {
+          "rank": 90,
+          "name": "ホテル・ミステリア",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6752886832",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%86%E3%83%AB-%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%82%A2/id6752886832?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/ef/65/83ef6570-4e48-c69d-7daf-bba69502d1ea/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ホテルをリノベーション＆プロデュース！\n\n元ホテルスタッフのアリッサは、祖母が遺した謎の遺産…「エステートホテル」を受け継ぐことに…\n個性豊かな仲間と力を合わせ"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 99,
+          "name": "マジックマッチ (Magic Match)",
+          "publisher": "BY4M STUDIO CO.,LTD.",
+          "category": "ゲーム",
+          "app_id": "6786589102",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%B8%E3%83%83%E3%82%AF%E3%83%9E%E3%83%83%E3%83%81-magic-match/id6786589102?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/7b/d0/bb7bd01a-f4cc-4534-9117-c2548a9add82/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "キラキラ輝く魔法のパズルワールドへようこそ！\n\n同じ色のブロックをそろえて爽快なコンボを決めよう！さまざまなパズルに挑戦しながら、魔法の世界を少しずつよみがえら"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "Bus Fever Party! バス渋滞脱出",
+          "publisher": "Lumi Games",
+          "category": "ゲーム",
+          "app_id": "6746743297",
+          "url": "https://apps.apple.com/jp/app/bus-fever-party-%E3%83%90%E3%82%B9%E6%B8%8B%E6%BB%9E%E8%84%B1%E5%87%BA/id6746743297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/dd/6e/acdd6e9e-de12-21f1-716a-4aa68560f4b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Bus Fever Party!へようこそ！究極の交通渋滞脱出チャレンジに挑戦しよう！\nBus Fever Party!の世界では、交通の混乱と戦略的なパズル解"
+        },
+        {
+          "rank": 91,
+          "name": "お片付け！なんでも",
+          "publisher": "SayGames LTD",
+          "category": "ゲーム",
+          "app_id": "6824655215",
+          "url": "https://apps.apple.com/jp/app/%E3%81%8A%E7%89%87%E4%BB%98%E3%81%91-%E3%81%AA%E3%82%93%E3%81%A7%E3%82%82/id6824655215?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/a5/42/93a54299-b4c0-0824-5b96-d778ff23f5ba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "► 心やすらぐ片付け＆仕分け ゲーム\n\nカラフルなおもちゃが床いっぱいに散らばる、にぎやかなおもちゃ屋さんへようこそ！自由に店内を動き回れる新感覚のソートゲーム"
+        },
+        {
+          "rank": 99,
+          "name": "マジックマッチ (Magic Match)",
+          "publisher": "BY4M STUDIO CO.,LTD.",
+          "category": "ゲーム",
+          "app_id": "6786589102",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%B8%E3%83%83%E3%82%AF%E3%83%9E%E3%83%83%E3%83%81-magic-match/id6786589102?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/7b/d0/bb7bd01a-f4cc-4534-9117-c2548a9add82/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "キラキラ輝く魔法のパズルワールドへようこそ！\n\n同じ色のブロックをそろえて爽快なコンボを決めよう！さまざまなパズルに挑戦しながら、魔法の世界を少しずつよみがえら"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
