@@ -1,0 +1,353 @@
+{
+  "date": "2026-11-14",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "变形金刚：新纪元",
+          "publisher": "Wanda Game",
+          "category": "策略",
+          "subcategory": "剧情、收集"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 4,
+          "name": "PUBG MOBILE FLASH",
+          "publisher": "Tencent Mobile International Limited",
+          "category": "Games",
+          "app_id": "6740521489",
+          "url": "https://apps.apple.com/us/app/pubg-mobile-flash/id6740521489?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/5e/cd/745ecdd3-06e9-0bf9-6c1a-2541a8025888/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【The Original PUBG MOBILE, Now in a FLASH.】\nPUBG MOBILE FLASH is the official li"
+        },
+        {
+          "rank": 79,
+          "name": "Tidy Everything!",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6824655215",
+          "url": "https://apps.apple.com/us/app/tidy-everything/id6824655215?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/44/14/174414ae-5341-7e37-607e-a71a2fddc8b2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "► A SATISFYING ORGANIZING GAME\n\nStep into a bustling toy store where colorful pl"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 73,
+          "name": "Imposter Game - Party Edition",
+          "publisher": "Sven Vucak",
+          "category": "Games",
+          "app_id": "6745120053",
+          "url": "https://apps.apple.com/us/app/imposter-game-party-edition/id6745120053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/a0/85/50a08576-3d84-7b5c-8832-74772aa652b8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Are you the imposter - or will you expose them?\n\nImposter is the perfect game fo"
+        },
+        {
+          "rank": 98,
+          "name": "Charades Guess Game · Guessly",
+          "publisher": "smak apps",
+          "category": "Games",
+          "app_id": "6473058122",
+          "url": "https://apps.apple.com/us/app/charades-guess-game-guessly/id6473058122?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/b3/16/f3b31657-56c5-18e2-3c9e-a6b3ca0b4bec/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.jpeg/100x100bb.png",
+          "slogan": "Ready to turn ordinary hangouts into unforgettable moments? Meet Guessly — a cha"
+        },
+        {
+          "rank": 99,
+          "name": "Goods Puzzle: Sort Challenge™",
+          "publisher": "FALCON GAMES",
+          "category": "Games",
+          "app_id": "6482849843",
+          "url": "https://apps.apple.com/us/app/goods-puzzle-sort-challenge/id6482849843?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/5e/39/085e3931-b43d-0306-21e4-2b5650393539/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready to embark on an exciting matching adventure like never before in Goods"
+        },
+        {
+          "rank": 100,
+          "name": "Hole.io - Original Hole Game",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "1389111413",
+          "url": "https://apps.apple.com/us/app/hole-io-original-hole-game/id1389111413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/a6/c2/bca6c2bd-2e9a-5319-882f-69d2362474f6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Hole.io, the wildly satisfying eat-the-world game played by millions!"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "PUBG MOBILE FLASH",
+          "publisher": "Tencent Mobile International Limited",
+          "category": "Games",
+          "app_id": "6740521489",
+          "url": "https://apps.apple.com/us/app/pubg-mobile-flash/id6740521489?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/5e/cd/745ecdd3-06e9-0bf9-6c1a-2541a8025888/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【The Original PUBG MOBILE, Now in a FLASH.】\nPUBG MOBILE FLASH is the official li"
+        },
+        {
+          "rank": 79,
+          "name": "Tidy Everything!",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6824655215",
+          "url": "https://apps.apple.com/us/app/tidy-everything/id6824655215?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/44/14/174414ae-5341-7e37-607e-a71a2fddc8b2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "► A SATISFYING ORGANIZING GAME\n\nStep into a bustling toy store where colorful pl"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 27,
+          "name": "蚁路生财-隧引归程",
+          "publisher": "涵乐 庞",
+          "category": "游戏",
+          "app_id": "6828398851",
+          "url": "https://apps.apple.com/cn/app/%E8%9A%81%E8%B7%AF%E7%94%9F%E8%B4%A2-%E9%9A%A7%E5%BC%95%E5%BD%92%E7%A8%8B/id6828398851?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/10/72/dc10729c-5e8e-d543-a114-b70f23607f03/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "俯身细观地下蚁国，以指尖为引，铺就通往丰饶的路途。这是一款融合四种妙趣玩法的益智休闲游戏，你将化身为蚁群的引路人，运筹安排，助蚂蚁将四散的食物安稳运回巢穴。\n\n"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 91,
+          "name": "明日方舟：终末地",
+          "publisher": "Shanghai Hypergryph Talos Network Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6753859465",
+          "url": "https://apps.apple.com/cn/app/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F-%E7%BB%88%E6%9C%AB%E5%9C%B0/id6753859465?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/73/70/7f7370d4-6f46-19fe-0941-b24e9713f5e2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《明日方舟：终末地》是一款由鹰角网络自研的3D即时策略RPG，玩家将作为终末地工业的管理员，逐步探索塔卫二，揭开属于这颗星球的秘密，保卫和拓展人类文明的边疆。\n"
+        },
+        {
+          "rank": 97,
+          "name": "无尽冬日",
+          "publisher": "Shanghai Qingdi Technology Company Limited",
+          "category": "游戏",
+          "app_id": "6478492012",
+          "url": "https://apps.apple.com/cn/app/%E6%97%A0%E5%B0%BD%E5%86%AC%E6%97%A5/id6478492012?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/96/a5/9c96a5a5-a92a-9405-d252-b2aa7b9aa8ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《无尽冬日》是一款将策略和放置结合的冰雪末日生存游戏，玩法独特，细节丰富，等你探索。\r\n\r\n一场突如其来的全球性气温骤降彻底地摧毁了人类文明，人类失去了赖以生存"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 27,
+          "name": "蚁路生财-隧引归程",
+          "publisher": "涵乐 庞",
+          "category": "游戏",
+          "app_id": "6828398851",
+          "url": "https://apps.apple.com/cn/app/%E8%9A%81%E8%B7%AF%E7%94%9F%E8%B4%A2-%E9%9A%A7%E5%BC%95%E5%BD%92%E7%A8%8B/id6828398851?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/10/72/dc10729c-5e8e-d543-a114-b70f23607f03/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "俯身细观地下蚁国，以指尖为引，铺就通往丰饶的路途。这是一款融合四种妙趣玩法的益智休闲游戏，你将化身为蚁群的引路人，运筹安排，助蚂蚁将四散的食物安稳运回巢穴。\n\n"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 27,
+          "name": "蚁路生财-隧引归程",
+          "publisher": "涵乐 庞",
+          "category": "游戏",
+          "app_id": "6828398851",
+          "url": "https://apps.apple.com/cn/app/%E8%9A%81%E8%B7%AF%E7%94%9F%E8%B4%A2-%E9%9A%A7%E5%BC%95%E5%BD%92%E7%A8%8B/id6828398851?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/10/72/dc10729c-5e8e-d543-a114-b70f23607f03/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "俯身细观地下蚁国，以指尖为引，铺就通往丰饶的路途。这是一款融合四种妙趣玩法的益智休闲游戏，你将化身为蚁群的引路人，运筹安排，助蚂蚁将四散的食物安稳运回巢穴。\n\n"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 70,
+          "name": "Sort Streak: Color Puzzle",
+          "publisher": "Oakever Games",
+          "category": "ゲーム",
+          "app_id": "6812166638",
+          "url": "https://apps.apple.com/jp/app/sort-streak-color-puzzle/id6812166638?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/bb/9b/3ebb9b5e-540e-81a9-7b51-49383883ae02/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "SORT STREAK: COLOR PUZZLE\n\nSort, match, and arrange colorful flowers in a satisf"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 79,
+          "name": "ペタペタペンギン団",
+          "publisher": "MOREFUN (H.K.) LIMITED",
+          "category": "ゲーム",
+          "app_id": "6742937695",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9A%E3%82%BF%E3%83%9A%E3%82%BF%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3%E5%9B%A3/id6742937695?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/fa/57/61fa5759-f2c1-0003-d642-1b4ee404af89/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【無料で３０００連ガチャ、豪華特典ゲット！】\nペタペタペンギン団、予約数100万突破！今DLして無料で3000連ガチャを引ける！さらに地域限定スキン・「剣魂」（"
+        },
+        {
+          "rank": 81,
+          "name": "LINE：ディズニー ツムツム",
+          "publisher": "LINE Corporation",
+          "category": "ゲーム",
+          "app_id": "724594093",
+          "url": "https://apps.apple.com/jp/app/line-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%83%84%E3%83%A0%E3%83%84%E3%83%A0/id724594093?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/f5/70/1ef570b1-0987-ffcc-b832-0cc176076ed9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.jpeg/100x100bb.png",
+          "slogan": "ディズニーストアで大人気のぬいぐるみTSUM TSUM(ツムツム)を集めてつなげる簡単パズルゲームがLINEに登場！\nミッキーマウスや､ドナルドダック､くまのプ"
+        },
+        {
+          "rank": 91,
+          "name": "ニッポン征服 - 面白い 選択ゲーム",
+          "publisher": "ONIGIRI GAMES",
+          "category": "ゲーム",
+          "app_id": "6743064514",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E5%BE%81%E6%9C%8D-%E9%9D%A2%E7%99%BD%E3%81%84-%E9%81%B8%E6%8A%9E%E3%82%B2%E3%83%BC%E3%83%A0/id6743064514?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/3e/57/a03e5793-1f84-d17a-3446-b23835020825/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "あなたの選択で国が変わる！\n\n\nあなたは日本の総理大臣として、さまざまな政策を選択し、理想の国づくりを目指します。\n正しい選択をすれば、人口・お金・頭脳が増加し"
+        },
+        {
+          "rank": 97,
+          "name": "ワクワク電車ライフ - 街を発展！車掌ゲーム",
+          "publisher": "ONIGIRI GAMES",
+          "category": "ゲーム",
+          "app_id": "6780728551",
+          "url": "https://apps.apple.com/jp/app/%E3%83%AF%E3%82%AF%E3%83%AF%E3%82%AF%E9%9B%BB%E8%BB%8A%E3%83%A9%E3%82%A4%E3%83%95-%E8%A1%97%E3%82%92%E7%99%BA%E5%B1%95-%E8%BB%8A%E6%8E%8C%E3%82%B2%E3%83%BC%E3%83%A0/id6780728551?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/69/08/5f6908e5-a1c6-c92d-e514-7dbca5c452d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "日本の電車を運転して、たくさんの乗客を駅まで届けよう！\n乗客を運ぶほどコインが増え、車両のスピードや性能をどんどんアップグレード！\n\nあなたの選択によって路線や"
+        },
+        {
+          "rank": 98,
+          "name": "魔法のタイルズ 3™: 音ゲー ピアノタイル",
+          "publisher": "Amanotes Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "1443446174",
+          "url": "https://apps.apple.com/jp/app/%E9%AD%94%E6%B3%95%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%BA-3-%E9%9F%B3%E3%82%B2%E3%83%BC-%E3%83%94%E3%82%A2%E3%83%8E%E3%82%BF%E3%82%A4%E3%83%AB/id1443446174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/48/d8/7f48d83f-7ef2-f3a6-6a82-5cb579c04acc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一年で一番大切な瞬間を、リズムにのって楽しみましょう！ヒット曲のビートで、魂ごとを音楽にのせていきましょう。\n\n\nMagic Tiles 3では、ポップス、ラッ"
+        },
+        {
+          "rank": 100,
+          "name": "ホテル・ミステリア",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6752886832",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%86%E3%83%AB-%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%82%A2/id6752886832?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/ef/65/83ef6570-4e48-c69d-7daf-bba69502d1ea/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ホテルをリノベーション＆プロデュース！\n\n元ホテルスタッフのアリッサは、祖母が遺した謎の遺産…「エステートホテル」を受け継ぐことに…\n個性豊かな仲間と力を合わせ"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 6,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 70,
+          "name": "Sort Streak: Color Puzzle",
+          "publisher": "Oakever Games",
+          "category": "ゲーム",
+          "app_id": "6812166638",
+          "url": "https://apps.apple.com/jp/app/sort-streak-color-puzzle/id6812166638?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/bb/9b/3ebb9b5e-540e-81a9-7b51-49383883ae02/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "SORT STREAK: COLOR PUZZLE\n\nSort, match, and arrange colorful flowers in a satisf"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
