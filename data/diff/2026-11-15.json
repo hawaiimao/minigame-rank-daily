@@ -1,0 +1,363 @@
+{
+  "date": "2026-11-15",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "龙岛异兽起源",
+          "publisher": "微乐游戏",
+          "category": "生存",
+          "subcategory": "开放世界、冒险、恐龙"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 65,
+          "name": "Street League Football",
+          "publisher": "Hues House LLC",
+          "category": "Games",
+          "app_id": "6824124102",
+          "url": "https://apps.apple.com/us/app/street-league-football/id6824124102?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/f4/f9/3df4f9ff-6660-836d-b401-ddba5f8703b4/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Arcade American football on a street field, where every catch, tackle and juke c"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 59,
+          "name": "Sort Streak: Color Puzzle",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "app_id": "6812166638",
+          "url": "https://apps.apple.com/us/app/sort-streak-color-puzzle/id6812166638?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/bb/9b/3ebb9b5e-540e-81a9-7b51-49383883ae02/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "SORT STREAK: COLOR PUZZLE\n\nSort, match, and arrange colorful flowers in a satisf"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 36,
+          "name": "Manhunt: Hide & Seek",
+          "publisher": "Integrated Reality Labs Inc.",
+          "category": "Games",
+          "app_id": "6560107504",
+          "url": "https://apps.apple.com/us/app/manhunt-hide-seek/id6560107504?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/57/94/ec579416-0164-0b6a-7ecc-27dbbd9abf42/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Play Manhunt and Hide & Seek anywhere in the world. With extensive location find"
+        },
+        {
+          "rank": 81,
+          "name": "Charades - Family & Party Game",
+          "publisher": "Dmytro Cheverda",
+          "category": "Games",
+          "app_id": "1453837845",
+          "url": "https://apps.apple.com/us/app/charades-family-party-game/id1453837845?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/ae/52/89ae52aa-4c29-ef97-1309-31610f8b574b/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+          "slogan": "Fun and easy to play game will cheer up your party or family gathering.\n\nGuess t"
+        },
+        {
+          "rank": 88,
+          "name": "Police Chief",
+          "publisher": "VoyagerOne",
+          "category": "Games",
+          "app_id": "6757350661",
+          "url": "https://apps.apple.com/us/app/police-chief/id6757350661?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/44/a1/7044a1d2-c3d0-544d-1cfe-5b3f865e333e/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "The world is shrouded in crime. Cities teem with gangs, smuggling rings, and ass"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 65,
+          "name": "Street League Football",
+          "publisher": "Hues House LLC",
+          "category": "Games",
+          "app_id": "6824124102",
+          "url": "https://apps.apple.com/us/app/street-league-football/id6824124102?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/f4/f9/3df4f9ff-6660-836d-b401-ddba5f8703b4/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Arcade American football on a street field, where every catch, tackle and juke c"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 59,
+          "name": "Sort Streak: Color Puzzle",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "app_id": "6812166638",
+          "url": "https://apps.apple.com/us/app/sort-streak-color-puzzle/id6812166638?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/bb/9b/3ebb9b5e-540e-81a9-7b51-49383883ae02/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "SORT STREAK: COLOR PUZZLE\n\nSort, match, and arrange colorful flowers in a satisf"
+        },
+        {
+          "rank": 65,
+          "name": "Street League Football",
+          "publisher": "Hues House LLC",
+          "category": "Games",
+          "app_id": "6824124102",
+          "url": "https://apps.apple.com/us/app/street-league-football/id6824124102?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/f4/f9/3df4f9ff-6660-836d-b401-ddba5f8703b4/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Arcade American football on a street field, where every catch, tackle and juke c"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 35,
+          "name": "天天爱数独-这关我不会数独大师",
+          "publisher": "贺涛 周",
+          "category": "游戏",
+          "app_id": "1470558945",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E7%88%B1%E6%95%B0%E7%8B%AC-%E8%BF%99%E5%85%B3%E6%88%91%E4%B8%8D%E4%BC%9A%E6%95%B0%E7%8B%AC%E5%A4%A7%E5%B8%88/id1470558945?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/73/af/0d73af79-6e6d-64bf-faa6-edb64824ca1d/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《天天爱数独》是一款猫咪主题的休闲益智解谜小游戏，把传统数独逻辑与消除闯关玩法结合，不用数字，改用放置萌猫来解谜，上手轻松，主打逻辑推理解压。\n核心规则\n1. "
+        },
+        {
+          "rank": 95,
+          "name": "实况足球",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1347776121",
+          "url": "https://apps.apple.com/cn/app/%E5%AE%9E%E5%86%B5%E8%B6%B3%E7%90%83/id1347776121?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/79/02/0079020a-b439-6ee9-e1bb-ae1f54735c4d/PesMobile-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "■实况足球2027，震撼登场！\n全球10亿下载，实况足球手游现已更新2027赛季年度版本！攻防双阵型时代来临！足坛前沿战术理念在你手中复刻，进攻防守两套阵型动态"
+        },
+        {
+          "rank": 96,
+          "name": "台球世界-桌球斯诺克竞技游戏",
+          "publisher": "Douglas (Hangzhou) Technology Co., LTD",
+          "category": "游戏",
+          "app_id": "548592311",
+          "url": "https://apps.apple.com/cn/app/%E5%8F%B0%E7%90%83%E4%B8%96%E7%95%8C-%E6%A1%8C%E7%90%83%E6%96%AF%E8%AF%BA%E5%85%8B%E7%AB%9E%E6%8A%80%E6%B8%B8%E6%88%8F/id548592311?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/76/46/6d/76466dca-643b-b514-0670-97d297508427/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【设计者手记】\n我自己就是一个台球爱好者，在没做这个台球游戏之前，曾在网上一遍一遍地搜寻逼真的2D台球游戏，但始终不能如愿。\n不可否认，期间有遇到不错的3D台球"
+        },
+        {
+          "rank": 98,
+          "name": "极品飞车：集结",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1598249037",
+          "url": "https://apps.apple.com/cn/app/%E6%9E%81%E5%93%81%E9%A3%9E%E8%BD%A6-%E9%9B%86%E7%BB%93/id1598249037?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/bb/8d/7bbb8d29-a2b0-fe15-b7b3-3c5c36c77074/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【开放世界 自由探索】\n欢迎来到一亿平米热湾大世界，在这里，12种风貌各异的区域，20个地标以及500个玩法点等你来探索。高自由度地图搭配上丰富的单人以及多人玩"
+        },
+        {
+          "rank": 99,
+          "name": "香肠派对",
+          "publisher": "X.D. Network Inc.",
+          "category": "游戏",
+          "app_id": "1326730621",
+          "url": "https://apps.apple.com/cn/app/%E9%A6%99%E8%82%A0%E6%B4%BE%E5%AF%B9/id1326730621?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/61/b3/0d61b3ac-9149-be0b-1468-ffdd6e4a3d5a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "SS27赛季：创造与破坏 肆意的建造还是疯狂的破坏由你来决定！\n\n经典派对新武器—砖砖发射器，支持实时搭建与拆解建筑结构，战术维度全面升级！新武器—QLU-11"
+        },
+        {
+          "rank": 100,
+          "name": "元梦之星",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1632344522",
+          "url": "https://apps.apple.com/cn/app/%E5%85%83%E6%A2%A6%E4%B9%8B%E6%98%9F/id1632344522?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/41/b7/f041b717-85d3-bd92-eb7a-7bdf3d7fa2ef/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "《元梦之星》是一款轻松社交派对游戏，玩家们可以化身星宝，体验纯粹的游玩乐趣，收获简单的快乐。无论i人e人，都能轻松找到属于自己的社交方式。\n\n《元梦之星》的快乐"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 6,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 89,
+          "name": "ヒーローウォーズ：アライアンス — アクションバトルにRPG",
+          "publisher": "Nexters Global LTD",
+          "category": "ゲーム",
+          "app_id": "1158967485",
+          "url": "https://apps.apple.com/jp/app/%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA-%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%90%E3%83%88%E3%83%AB%E3%81%ABrpg/id1158967485?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/64/08/e164084e-e87c-83c1-8fe6-b7cbe6dfb0cb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "伝説のヒーローをバトルに導こう！敵と戦い、ボスを倒して、ドミニオンを統治しよう！\n伝説はここで生まれる。\n\n大悪魔が勝利した。守護者たちは落ちぶれ、今や多くの者"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 75,
+          "name": "Hole.io",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "1389111413",
+          "url": "https://apps.apple.com/jp/app/hole-io/id1389111413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/a6/c2/bca6c2bd-2e9a-5319-882f-69d2362474f6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "何百万人ものプレイヤーが夢中になっている、最高に爽快な世界丸飲みゲーム「Hole.io」へようこそ！賑やかなニューヨーク、海賊の入り江、または輝くSFの巨大都市"
+        },
+        {
+          "rank": 91,
+          "name": "ナンバーマッチ - 数字パズル",
+          "publisher": "Easybrain Ltd",
+          "category": "ゲーム",
+          "app_id": "1545567989",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E3%83%9E%E3%83%83%E3%83%81-%E6%95%B0%E5%AD%97%E3%83%91%E3%82%BA%E3%83%AB/id1545567989?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/39/8b/66398be1-3c5c-db79-0248-a096170e6efe/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Number Matchは、ペアをマッチさせてボードから消す、シンプルなルールのハマれるパズルゲームです。ナンバーマッチは脳を使ったいい暇つぶしにもなります。論"
+        },
+        {
+          "rank": 94,
+          "name": "Paper.io 2",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "1423046460",
+          "url": "https://apps.apple.com/jp/app/paper-io-2/id1423046460?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/48/63/9b48631a-4774-48a9-9c27-4925bdb4e89d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "世界中の何百万人ものプレイヤーと一緒に、最高にハマるioゲームを体験しよう！アリーナを移動して線を引き、陣地を広げて、誰かに道を断たれる前にゾーンを確保しよう。"
+        },
+        {
+          "rank": 96,
+          "name": "ヴィータ麻雀(Vita Mahjong)",
+          "publisher": "Vita Studio",
+          "category": "ゲーム",
+          "app_id": "6468921495",
+          "url": "https://apps.apple.com/jp/app/%E3%83%B4%E3%82%A3%E3%83%BC%E3%82%BF%E9%BA%BB%E9%9B%80-vita-mahjong/id6468921495?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/95/47/84954751-4132-82e0-d6af-58d9905c14ac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "• 期間限定カンフー・パンダコラボ開催中！\n\nポーを牌合わせの相棒に、平和の谷へ。期間限定で、Vita Mahjong の定番麻雀パズルがもたらす穏やかな楽しさ"
+        },
+        {
+          "rank": 98,
+          "name": "Bulldozer Master: 壊して採掘",
+          "publisher": "Supercent, Inc.",
+          "category": "ゲーム",
+          "app_id": "6747710694",
+          "url": "https://apps.apple.com/jp/app/bulldozer-master-%E5%A3%8A%E3%81%97%E3%81%A6%E6%8E%A1%E6%8E%98/id6747710694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/9d/ea/e69dea06-4b3d-95b2-896a-d6f3b0d7ec14/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "強力なブルドーザーのハンドルを握り、ツルハシを手に取り、採掘帝国へと掘り進もう！\nBulldozer Masterでは、豊かな採掘ゾーンを探索し、鉱石を砕き、希"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 89,
+          "name": "ヒーローウォーズ：アライアンス — アクションバトルにRPG",
+          "publisher": "Nexters Global LTD",
+          "category": "ゲーム",
+          "app_id": "1158967485",
+          "url": "https://apps.apple.com/jp/app/%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA-%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%90%E3%83%88%E3%83%AB%E3%81%ABrpg/id1158967485?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/64/08/e164084e-e87c-83c1-8fe6-b7cbe6dfb0cb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "伝説のヒーローをバトルに導こう！敵と戦い、ボスを倒して、ドミニオンを統治しよう！\n伝説はここで生まれる。\n\n大悪魔が勝利した。守護者たちは落ちぶれ、今や多くの者"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 5,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 89,
+          "name": "ヒーローウォーズ：アライアンス — アクションバトルにRPG",
+          "publisher": "Nexters Global LTD",
+          "category": "ゲーム",
+          "app_id": "1158967485",
+          "url": "https://apps.apple.com/jp/app/%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA-%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%90%E3%83%88%E3%83%AB%E3%81%ABrpg/id1158967485?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/64/08/e164084e-e87c-83c1-8fe6-b7cbe6dfb0cb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "伝説のヒーローをバトルに導こう！敵と戦い、ボスを倒して、ドミニオンを統治しよう！\n伝説はここで生まれる。\n\n大悪魔が勝利した。守護者たちは落ちぶれ、今や多くの者"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
