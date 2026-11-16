@@ -1,0 +1,369 @@
+{
+  "date": "2026-11-16",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "代号：新生（TapTap测试版）",
+          "publisher": "末班车工作室",
+          "category": "射击",
+          "subcategory": "俯视角、搜打撤、多人联机、3D、动作"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 80,
+          "name": "Foundation: Galactic Frontier",
+          "publisher": "FunPlus International AG",
+          "category": "Games",
+          "app_id": "6737595599",
+          "url": "https://apps.apple.com/us/app/foundation-galactic-frontier/id6737595599?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/2a/00/f22a00ea-1bf9-6519-bc0b-72cef3573cc7/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "(This game includes in-game purchases (including random items).)\nIgnite engines,"
+        },
+        {
+          "rank": 96,
+          "name": "Number Match - Numbers Game",
+          "publisher": "Easybrain Ltd",
+          "category": "Games",
+          "app_id": "1545567989",
+          "url": "https://apps.apple.com/us/app/number-match-numbers-game/id1545567989?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/39/8b/66398be1-3c5c-db79-0248-a096170e6efe/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Number Match is an addictive puzzle game with simple rules: match pairs and clea"
+        },
+        {
+          "rank": 97,
+          "name": "EA College Football Mobile 27",
+          "publisher": "Electronic Arts",
+          "category": "Games",
+          "app_id": "6759412341",
+          "url": "https://apps.apple.com/us/app/ea-college-football-mobile-27/id6759412341?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/92/21/9692210d-23fb-f4ef-553f-7d76da85bbb3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "This game includes optional in-game purchases of virtual currency that can be us"
+        },
+        {
+          "rank": 98,
+          "name": "Z Route: Redemption",
+          "publisher": "BUILDING-BLOCKS NETWORK TECHNOLOGY CO.,LIMITED",
+          "category": "Games",
+          "app_id": "6762268182",
+          "url": "https://apps.apple.com/us/app/z-route-redemption/id6762268182?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/19/43/611943c1-896e-498a-1826-abad00c0f8dc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "The world has turned to ash, dominated by zombies. Z Route—it is your final path"
+        },
+        {
+          "rank": 99,
+          "name": "Goods Puzzle: Sort Challenge™",
+          "publisher": "FALCON GAMES",
+          "category": "Games",
+          "app_id": "6482849843",
+          "url": "https://apps.apple.com/us/app/goods-puzzle-sort-challenge/id6482849843?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/5e/39/085e3931-b43d-0306-21e4-2b5650393539/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready to embark on an exciting matching adventure like never before in Goods"
+        },
+        {
+          "rank": 100,
+          "name": "Goods Puzzle: 3D Sorting Games",
+          "publisher": "Guru Smart Holding Limited",
+          "category": "Games",
+          "app_id": "6499306806",
+          "url": "https://apps.apple.com/us/app/goods-puzzle-3d-sorting-games/id6499306806?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/8b/4f/878b4fde-8d1a-31c3-bbda-4ce7ebdd609e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready for an exciting matching adventure like never before in Goods Puzzle: "
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 6,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 78,
+          "name": "滑雪大冒险 - 空翻才是灵魂",
+          "publisher": "Yodo1, LTD",
+          "category": "游戏",
+          "app_id": "564672254",
+          "url": "https://apps.apple.com/cn/app/%E6%BB%91%E9%9B%AA%E5%A4%A7%E5%86%92%E9%99%A9-%E7%A9%BA%E7%BF%BB%E6%89%8D%E6%98%AF%E7%81%B5%E9%AD%82/id564672254?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/e5/26/a6e52616-10c6-f3cc-5b6a-20c5ab19d9b3/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "*正版官方授权免费版本*\n\n雪崩来啦！快点跑呀！\n还在做美梦的小摔哥在雪崩中惊醒，展开滑雪大逃亡。换上酷炫技能套装、骑上战车，加速躲避障碍，勇往直前！一路上，唐"
+        },
+        {
+          "rank": 79,
+          "name": "奔奔王国",
+          "publisher": "Fuzhou Dian Dian Song He Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6748527570",
+          "url": "https://apps.apple.com/cn/app/%E5%A5%94%E5%A5%94%E7%8E%8B%E5%9B%BD/id6748527570?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/f5/0c/6ef50c77-d880-c566-1814-5fb6d0aec346/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《奔奔王国》是一款塔防策略与模拟经营玩法结合的中世纪题材的游戏。\n\n游戏的故事发生在虚构的黑暗时代，曾辉煌的国王城堡已在叛乱战火中化为焦土。废墟之上，势力割据的"
+        },
+        {
+          "rank": 82,
+          "name": "我的花园世界",
+          "publisher": "厦门麟贝互娱科技有限公司",
+          "category": "游戏",
+          "app_id": "6746321359",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E8%8A%B1%E5%9B%AD%E4%B8%96%E7%95%8C/id6746321359?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/26/7c/43267c58-648d-5539-cb1b-03c55c458cbd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "指尖耕耘，清香入怀。玩「我的花园世界」有机会收获真实花束！\n\n《我的花园世界》是一款模拟经营类的花坊营建治愈手游，在游戏里玩家可以种下玫瑰、雏菊、郁金香等数百种"
+        },
+        {
+          "rank": 97,
+          "name": "天天爱消除",
+          "publisher": "Tencent Mobile Games",
+          "category": "游戏",
+          "app_id": "654897098",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E7%88%B1%E6%B6%88%E9%99%A4/id654897098?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/76/f2/ef76f20c-9b4d-4342-1b29-5aa859dea484/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "《天天爱消除》是一款以“消除烦恼，治愈心灵”为主题的萌系治愈向消除手游，陪伴玩家度过了10个寒暑！轻划手指，将三个相同的小动物旗子连成一行或一列，即可完成一次消"
+        },
+        {
+          "rank": 98,
+          "name": "正中靶心2",
+          "publisher": "北京金海部落文化有限公司",
+          "category": "游戏",
+          "app_id": "6795378556",
+          "url": "https://apps.apple.com/cn/app/%E6%AD%A3%E4%B8%AD%E9%9D%B6%E5%BF%832/id6795378556?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/4e/8d/3c4e8d9e-f2be-bc3f-b3b7-3aa340912f81/xgw_icon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《正中靶心2》 是一款制作精良，画风简约、玩法细腻的肉鸽塔防游戏。由《正中靶心》一代游戏原班人马倾情创作。因一代作品的成功，在游戏市场上掀起了强烈反响和一大波跟"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 5,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 56,
+          "name": "SOFT TENNIS SPARK",
+          "publisher": "Ko Keruma",
+          "category": "ゲーム",
+          "app_id": "6806596060",
+          "url": "https://apps.apple.com/jp/app/soft-tennis-spark/id6806596060?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/ce/d7/66ced7c2-c0ac-a7b7-0b06-63a9dbba1901/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "SOFT TENNIS SPARKは、iPhone・iPadで遊べる本格派3Dソフトテニス対戦ゲームです。ストローク、ボレー、スマッシュをフリック操作で打ち分け"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 33,
+          "name": "パラノイズ",
+          "publisher": "ZigZaGame Inc.",
+          "category": "ゲーム",
+          "app_id": "6639605332",
+          "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%83%A9%E3%83%8E%E3%82%A4%E3%82%BA/id6639605332?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/2f/30/032f30b2-e8f1-28b5-916a-e31e9cb497a6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "巨大な何かが岐阜県山岳部に墜落してから11年。\n稽古場で木刀を振るう盲目の青年は、その声に導かれる。第29回日本アカデミー賞・最優秀音楽賞受賞作曲家の佐藤直紀が"
+        },
+        {
+          "rank": 85,
+          "name": "みんなで早押しクイズ",
+          "publisher": "Q ONE, Inc.",
+          "category": "ゲーム",
+          "app_id": "1044039663",
+          "url": "https://apps.apple.com/jp/app/%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%E6%97%A9%E6%8A%BC%E3%81%97%E3%82%AF%E3%82%A4%E3%82%BA/id1044039663?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/3d/ad/3d3dada8-e248-657f-fe1a-696f1c283263/AppIcon-Pingu-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "オンライン対戦早押しクイズゲームアプリが登場！\nライバルと対戦してレート上位を目指そう！\n\n選べるモードは、ランダムマッチ・フリーマッチ(フレンド対戦)の2種類"
+        },
+        {
+          "rank": 89,
+          "name": "Connect Tracks: ロジックパズル",
+          "publisher": "Oakever Games",
+          "category": "ゲーム",
+          "app_id": "6793115010",
+          "url": "https://apps.apple.com/jp/app/connect-tracks-%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB/id6793115010?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/59/6f/e9596f95-af86-19fa-25dd-28cb8f29ddcf/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "リラックスしながら、同時に頭もフル回転させられるゲームはいかがですか？Connect Tracks へようこそ！古典的な線路パズルを核にしたロジックパズルゲーム"
+        },
+        {
+          "rank": 92,
+          "name": "EDGE POKER (エッジポーカー)",
+          "publisher": "DeNA Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6476597728",
+          "url": "https://apps.apple.com/jp/app/edge-poker-%E3%82%A8%E3%83%83%E3%82%B8%E3%83%9D%E3%83%BC%E3%82%AB%E3%83%BC/id6476597728?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/1b/d8/f31bd87b-21b4-3cf8-6ccc-2a9c315358d1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【踏みだせ、ポーカーのド真ん中へ。AIとともに強くなる、みんなが集まるポーカーの世界】\nDeNAと日本のポーカーブームを牽引するプロポーカープレイヤー「世界のヨ"
+        },
+        {
+          "rank": 94,
+          "name": "ソリティア：パズルゲーム 脳トレ カードゲーム 暇つぶし連想",
+          "publisher": "Hitapps Games LTD",
+          "category": "ゲーム",
+          "app_id": "6748950306",
+          "url": "https://apps.apple.com/jp/app/%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2-%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0-%E8%84%B3%E3%83%88%E3%83%AC-%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0-%E6%9A%87%E3%81%A4%E3%81%B6%E3%81%97%E9%80%A3%E6%83%B3/id6748950306?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/35/fa/cd35fab7-013e-6907-4e09-9f91655f2cb1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ソリティア - ワードゲームは単なるワードゲームではありません。意味で単語をつなげ、巧みな連想を発見し、脳に挑戦するユニークで夢中になるワードパズルです。今すぐ"
+        },
+        {
+          "rank": 95,
+          "name": "Color Puzzle Jam - バスゲーム 車のジャム",
+          "publisher": "Gloryway Puzzle",
+          "category": "ゲーム",
+          "app_id": "6760389476",
+          "url": "https://apps.apple.com/jp/app/color-puzzle-jam-%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0-%E8%BB%8A%E3%81%AE%E3%82%B8%E3%83%A3%E3%83%A0/id6760389476?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/a3/86/f6a3862d-8b67-43be-34ff-3eaa72e16f7d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "魅力的でハマるパズルアドベンチャーへようこそ！あなたの使命は、ぎっしり詰まった駐車場を空にすること。タップして車を出し、同じ色の待ち客を乗せて列を消していこう。"
+        },
+        {
+          "rank": 96,
+          "name": "Water Sort Puzzle : Challenge",
+          "publisher": "贺翔 段",
+          "category": "ゲーム",
+          "app_id": "6787414784",
+          "url": "https://apps.apple.com/jp/app/water-sort-puzzle-challenge/id6787414784?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/77/91/5f779194-85ef-b50e-293d-383f34be36a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Water Sort Puzzle : Challenge is a relaxing color sorting game with simple rules"
+        },
+        {
+          "rank": 97,
+          "name": "777Real(777リアル) パチンコ･パチスロアプリ",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "1545088576",
+          "url": "https://apps.apple.com/jp/app/777real-777%E3%83%AA%E3%82%A2%E3%83%AB-%E3%83%91%E3%83%81%E3%83%B3%E3%82%B3-%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD%E3%82%A2%E3%83%97%E3%83%AA/id1545088576?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/e5/92/a4e592f7-b652-9b60-16a2-44cb9c74e76b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\n777Real（スリーセブンリアル）\n--------------------"
+        },
+        {
+          "rank": 99,
+          "name": "ミステリータウン：マージゲーム (Mystery Town)",
+          "publisher": "Cedar Games Studio",
+          "category": "ゲーム",
+          "app_id": "6503603603",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%82%BF%E3%82%A6%E3%83%B3-%E3%83%9E%E3%83%BC%E3%82%B8%E3%82%B2%E3%83%BC%E3%83%A0-mystery-town/id6503603603?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/60/99/26/609926d2-d43a-af8d-bb8d-5790a1a18b13/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.png",
+          "slogan": "ミステリータウンへようこそ！ここには長年埋もれていた秘密が眠る…\nオーロラがついにおじさんの家に到着すると、なんと家が燃えていた！さらに、怪物のような影が逃げ去"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 56,
+          "name": "SOFT TENNIS SPARK",
+          "publisher": "Ko Keruma",
+          "category": "ゲーム",
+          "app_id": "6806596060",
+          "url": "https://apps.apple.com/jp/app/soft-tennis-spark/id6806596060?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/ce/d7/66ced7c2-c0ac-a7b7-0b06-63a9dbba1901/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "SOFT TENNIS SPARKは、iPhone・iPadで遊べる本格派3Dソフトテニス対戦ゲームです。ストローク、ボレー、スマッシュをフリック操作で打ち分け"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 9,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 56,
+          "name": "SOFT TENNIS SPARK",
+          "publisher": "Ko Keruma",
+          "category": "ゲーム",
+          "app_id": "6806596060",
+          "url": "https://apps.apple.com/jp/app/soft-tennis-spark/id6806596060?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/ce/d7/66ced7c2-c0ac-a7b7-0b06-63a9dbba1901/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "SOFT TENNIS SPARKは、iPhone・iPadで遊べる本格派3Dソフトテニス対戦ゲームです。ストローク、ボレー、スマッシュをフリック操作で打ち分け"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
