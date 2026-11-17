@@ -1,0 +1,481 @@
+{
+  "date": "2026-11-17",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "花开时见你",
+          "publisher": "广州春芒网络科技有限公司",
+          "category": "模拟经营",
+          "subcategory": "种田、收集、放置、治愈"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 73,
+          "name": "Victory Blast Casino",
+          "publisher": "Luma Field Inc",
+          "category": "Games",
+          "app_id": "6761896313",
+          "url": "https://apps.apple.com/us/app/victory-blast-casino/id6761896313?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/87/43/5c87434b-9dc4-72f3-ea4f-ba3eea37eef3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Victory Blast Casino, a vibrant social casino experience filled with "
+        },
+        {
+          "rank": 87,
+          "name": "Everyday Puzzles: Mini Games",
+          "publisher": "Fanatee",
+          "category": "Games",
+          "app_id": "1580601028",
+          "url": "https://apps.apple.com/us/app/everyday-puzzles-mini-games/id1580601028?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/99/9e/0c999e35-fe2b-803e-5643-863d4ba31ce5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Everyday Puzzles - Multiple Games in One App!\nA hub of word puzzles and brain te"
+        },
+        {
+          "rank": 92,
+          "name": "CrownCoins Casino",
+          "publisher": "Sunflower",
+          "category": "Games",
+          "app_id": "6450413462",
+          "url": "https://apps.apple.com/us/app/crowncoins-casino/id6450413462?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/14/7e/42147eba-b1da-8f89-6bc7-8f1388219443/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "CROWN COINS CASINO. America loves it. You will too! \nPLAY. WIN. REDEEM. REPEAT. "
+        },
+        {
+          "rank": 97,
+          "name": "Jewel Coloring",
+          "publisher": "Ta Ta Game Technology Limited",
+          "category": "Games",
+          "app_id": "6759081967",
+          "url": "https://apps.apple.com/us/app/jewel-coloring/id6759081967?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/5a/63/395a63fe-9c3f-5a76-a4e1-27dba77589da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Jewel Coloring: Sparkle & Create with Pixel Art Puzzles\nEnter a vibrant world of"
+        },
+        {
+          "rank": 98,
+          "name": "Bulldozer Master: Crush & Mine",
+          "publisher": "Supercent, Inc.",
+          "category": "Games",
+          "app_id": "6747710694",
+          "url": "https://apps.apple.com/us/app/bulldozer-master-crush-mine/id6747710694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/9d/ea/e69dea06-4b3d-95b2-896a-d6f3b0d7ec14/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get behind the wheel of powerful bulldozers, grab your pickaxe, and dig your way"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 5,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "我在古代有座城",
+          "publisher": "安徽盈趣网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6821266319",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E5%9C%A8%E5%8F%A4%E4%BB%A3%E6%9C%89%E5%BA%A7%E5%9F%8E/id6821266319?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/49/70/2849701e-6f29-fd32-a291-ef9690647473/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "乱世开局，别人忙着打仗，你却开起了医馆！\n\n《我在古代有座城》是一款休闲医馆经营游戏。你将从一间破败医馆起步，救治百姓、妙手回春，面对各种疑难杂症，想方设法救活"
+        },
+        {
+          "rank": 48,
+          "name": "哈利波特：魔法觉醒",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1476656987",
+          "url": "https://apps.apple.com/cn/app/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9-%E9%AD%94%E6%B3%95%E8%A7%89%E9%86%92/id1476656987?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/fc/c2/53fcc26c-c720-75e0-62a2-e0ccd1c3a9f2/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《哈利·波特》官方授权手游《哈利波特：魔法觉醒》，邀你重返霍格沃茨，书写属于你的魔法世界新篇章！\r\n\r\n你将成为一名霍格沃茨新生，实现期待已久的魔法梦想。在奇妙"
+        },
+        {
+          "rank": 50,
+          "name": "QQ农场",
+          "publisher": "Tencent Mobile Games",
+          "category": "游戏",
+          "app_id": "506655146",
+          "url": "https://apps.apple.com/cn/app/qq%E5%86%9C%E5%9C%BA/id506655146?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/c2/d2/c2c2d25b-b14c-bc5f-53ba-bcdf6bbe9f0b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "官方微信：wx-qqfarm\n\n更多精彩访问官方下载页：nc.qq.com\n\n---特别说明---\n\n在游戏《QQ农场》中，用户使用QQ账号登录，能够同步游戏中"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 94,
+          "name": "桃源深处有人家",
+          "publisher": "Tencent Technology (Chengdu) Co., Ltd.",
+          "category": "游戏",
+          "app_id": "1582427876",
+          "url": "https://apps.apple.com/cn/app/%E6%A1%83%E6%BA%90%E6%B7%B1%E5%A4%84%E6%9C%89%E4%BA%BA%E5%AE%B6/id1582427876?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/4a/75/574a757e-6560-23fb-62e7-27a124c6ed4a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.jpeg/100x100bb.png",
+          "slogan": "《桃源深处有人家》是一款悠然治愈的国风山水田园经营手游。游戏以传统文化为基础，以温暖治愈为主题，为简单质朴的田园生活赋予青绿山水的国风美学，打造了一个朴实祥和的"
+        },
+        {
+          "rank": 99,
+          "name": "登山赛车2 - Hill Climb Racing 2",
+          "publisher": "Fingersoft",
+          "category": "游戏",
+          "app_id": "1146465836",
+          "url": "https://apps.apple.com/cn/app/%E7%99%BB%E5%B1%B1%E8%B5%9B%E8%BD%A62-hill-climb-racing-2/id1146465836?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/d5/fd/bfd5fd9e-cf2b-c88b-5372-9becadda1ad8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "《Hill Climb Racing》重磅回归！规模更大、体验更佳，乐趣也更上一层楼！与全球数百万玩家一同畅玩这款物理效果逼真、满载火爆场面的赛车游戏吧！\n\n《"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "我在古代有座城",
+          "publisher": "安徽盈趣网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6821266319",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E5%9C%A8%E5%8F%A4%E4%BB%A3%E6%9C%89%E5%BA%A7%E5%9F%8E/id6821266319?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/49/70/2849701e-6f29-fd32-a291-ef9690647473/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "乱世开局，别人忙着打仗，你却开起了医馆！\n\n《我在古代有座城》是一款休闲医馆经营游戏。你将从一间破败医馆起步，救治百姓、妙手回春，面对各种疑难杂症，想方设法救活"
+        },
+        {
+          "rank": 48,
+          "name": "哈利波特：魔法觉醒",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1476656987",
+          "url": "https://apps.apple.com/cn/app/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9-%E9%AD%94%E6%B3%95%E8%A7%89%E9%86%92/id1476656987?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/fc/c2/53fcc26c-c720-75e0-62a2-e0ccd1c3a9f2/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《哈利·波特》官方授权手游《哈利波特：魔法觉醒》，邀你重返霍格沃茨，书写属于你的魔法世界新篇章！\r\n\r\n你将成为一名霍格沃茨新生，实现期待已久的魔法梦想。在奇妙"
+        },
+        {
+          "rank": 50,
+          "name": "QQ农场",
+          "publisher": "Tencent Mobile Games",
+          "category": "游戏",
+          "app_id": "506655146",
+          "url": "https://apps.apple.com/cn/app/qq%E5%86%9C%E5%9C%BA/id506655146?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/c2/d2/c2c2d25b-b14c-bc5f-53ba-bcdf6bbe9f0b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "官方微信：wx-qqfarm\n\n更多精彩访问官方下载页：nc.qq.com\n\n---特别说明---\n\n在游戏《QQ农场》中，用户使用QQ账号登录，能够同步游戏中"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "スヌーピー ゲームズ ～サクッと脳トレパズル",
+          "publisher": "TV TOKYO Communications Corporation",
+          "category": "ゲーム",
+          "app_id": "6797800901",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%8C%E3%83%BC%E3%83%94%E3%83%BC-%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BA-%E3%82%B5%E3%82%AF%E3%83%83%E3%81%A8%E8%84%B3%E3%83%88%E3%83%AC%E3%83%91%E3%82%BA%E3%83%AB/id6797800901?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/9b/65/069b65bc-57b8-6ee1-59d7-78eb3be5a0da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "かわいいキャラクターたちが彩る世界で、パズルゲームを楽しもう！\nPEANUTSの魅力がつまった、シンプルで遊びやすいパズルとアクションゲームが登場。\n\nちょっと"
+        },
+        {
+          "rank": 62,
+          "name": "Bus Rush: パーキングゲーム",
+          "publisher": "Longwind Studio",
+          "category": "ゲーム",
+          "app_id": "6737542739",
+          "url": "https://apps.apple.com/jp/app/bus-rush-%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B2%E3%83%BC%E3%83%A0/id6737542739?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/1b/a2/b61ba292-40d0-b087-44c7-fbd1cc218779/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "カラフルな駐車チャレンジの世界へようこそ！「Car Escape：駐車場 パーキングジャム」で遊ぼう！超刺激的なゲームでは、さまざまな車と同じ色の乗客をマッチン"
+        },
+        {
+          "rank": 75,
+          "name": "ReLevel",
+          "publisher": "PONIX LLC",
+          "category": "ゲーム",
+          "app_id": "6817345425",
+          "url": "https://apps.apple.com/jp/app/relevel/id6817345425?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/4a/7a/ac4a7adc-4e9b-d1e8-8012-5c9d4faec01d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ReLevel ― 十日間の冒険を、何度でも。\n\n主人公に与えられた旅の時間は、わずか10日。\n敵と戦い、装備を集め、仲間を育てながら、限られた時間でどこまで進"
+        },
+        {
+          "rank": 86,
+          "name": "Butcher Hero：放置系アクションRPG",
+          "publisher": "MULTICAST GAMES LIMITED",
+          "category": "ゲーム",
+          "app_id": "6757722046",
+          "url": "https://apps.apple.com/jp/app/butcher-hero-%E6%94%BE%E7%BD%AE%E7%B3%BB%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3rpg/id6757722046?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/71/1c/a6711ca5-b357-c711-c956-fe39c54427ae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Butcher - hook & consume\nEvery hooked and consumed enemy = a permanent stat boos"
+        },
+        {
+          "rank": 95,
+          "name": "間違い探し - 違いを見つけよう",
+          "publisher": "LONGSEA LINK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6738576262",
+          "url": "https://apps.apple.com/jp/app/%E9%96%93%E9%81%95%E3%81%84%E6%8E%A2%E3%81%97-%E9%81%95%E3%81%84%E3%82%92%E8%A6%8B%E3%81%A4%E3%81%91%E3%82%88%E3%81%86/id6738576262?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/84/c9/2184c9e8-b80b-bddc-71ad-693cd0fff4a7/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "間違い探し - 違いを見つけよう - いつでもどこでも目を鍛えて頭をテストしよう！違いを見つける楽しさを体験しよう！隠れた違いの世界を発見しよう！\n\n子供の頃の"
+        },
+        {
+          "rank": 98,
+          "name": "学園アイドルマスター",
+          "publisher": "Bandai Namco Entertainment Inc.",
+          "category": "ゲーム",
+          "app_id": "6446659989",
+          "url": "https://apps.apple.com/jp/app/%E5%AD%A6%E5%9C%92%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/id6446659989?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/59/eb/5b59ebf6-a9a2-2910-689d-8ff5aa701a7d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「アイドルマスター」シリーズ完全新作の、学園アイドル育成シミュレーションが登場！\r\n様々な魅力と問題を秘めたアイドルの卵たちを、あなたのプロデュースで輝かせよう"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 76,
+          "name": "トゥーンブラスト",
+          "publisher": "Peak Games",
+          "category": "ゲーム",
+          "app_id": "1176027022",
+          "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88/id1176027022?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/59/8a/88598a2b-85dd-b703-9ba8-3bd5d14216ae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "最高にエキサイティングな爆破パズル、トゥンブラへようこそ！\n\n『Toy Blast』のクリエイターが贈る、ユニークなゲームプレイがいつまでも楽しめる究極パズルゲ"
+        },
+        {
+          "rank": 88,
+          "name": "トラベルソート：カラー＆マッチ (Travel Sort)",
+          "publisher": "Happy Hour Games",
+          "category": "ゲーム",
+          "app_id": "6751308308",
+          "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88-%E3%82%AB%E3%83%A9%E3%83%BC-%E3%83%9E%E3%83%83%E3%83%81-travel-sort/id6751308308?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/cd/26/45cd2654-d831-6f3a-0a75-6ef36997a000/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "トラベルソートで、水を注いで、色をそろえて、リラックス！\nカラフルな水をボトルからボトルへ注ぎ、すべてのボトルを1色ずつそろえましょう。ルールは簡単ですが、隠れ"
+        },
+        {
+          "rank": 89,
+          "name": "ヴィータ麻雀(Vita Mahjong)",
+          "publisher": "Vita Studio",
+          "category": "ゲーム",
+          "app_id": "6468921495",
+          "url": "https://apps.apple.com/jp/app/%E3%83%B4%E3%82%A3%E3%83%BC%E3%82%BF%E9%BA%BB%E9%9B%80-vita-mahjong/id6468921495?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/95/47/84954751-4132-82e0-d6af-58d9905c14ac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "• 期間限定カンフー・パンダコラボ開催中！\n\nポーを牌合わせの相棒に、平和の谷へ。期間限定で、Vita Mahjong の定番麻雀パズルがもたらす穏やかな楽しさ"
+        },
+        {
+          "rank": 94,
+          "name": "Supermarket chaos to order",
+          "publisher": "Warlock Arts",
+          "category": "ゲーム",
+          "app_id": "6790139777",
+          "url": "https://apps.apple.com/jp/app/supermarket-chaos-to-order/id6790139777?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/00/52/a90052cd-fc41-e47c-d577-fb70b056dc07/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Turn Supermarket chaos to order into the most organized store ever!\nStep into a "
+        },
+        {
+          "rank": 96,
+          "name": "Royal Smash! - Physics Puzzle",
+          "publisher": "Cypher Games",
+          "category": "ゲーム",
+          "app_id": "6780891673",
+          "url": "https://apps.apple.com/jp/app/royal-smash-physics-puzzle/id6780891673?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/37/a7/5d37a768-14ce-61fa-72d8-f325a4660b7d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Royal Smash, the ultimate physics puzzle game! It takes seconds to le"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "スヌーピー ゲームズ ～サクッと脳トレパズル",
+          "publisher": "TV TOKYO Communications Corporation",
+          "category": "ゲーム",
+          "app_id": "6797800901",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%8C%E3%83%BC%E3%83%94%E3%83%BC-%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BA-%E3%82%B5%E3%82%AF%E3%83%83%E3%81%A8%E8%84%B3%E3%83%88%E3%83%AC%E3%83%91%E3%82%BA%E3%83%AB/id6797800901?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/9b/65/069b65bc-57b8-6ee1-59d7-78eb3be5a0da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "かわいいキャラクターたちが彩る世界で、パズルゲームを楽しもう！\nPEANUTSの魅力がつまった、シンプルで遊びやすいパズルとアクションゲームが登場。\n\nちょっと"
+        },
+        {
+          "rank": 62,
+          "name": "Bus Rush: パーキングゲーム",
+          "publisher": "Longwind Studio",
+          "category": "ゲーム",
+          "app_id": "6737542739",
+          "url": "https://apps.apple.com/jp/app/bus-rush-%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B2%E3%83%BC%E3%83%A0/id6737542739?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/1b/a2/b61ba292-40d0-b087-44c7-fbd1cc218779/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "カラフルな駐車チャレンジの世界へようこそ！「Car Escape：駐車場 パーキングジャム」で遊ぼう！超刺激的なゲームでは、さまざまな車と同じ色の乗客をマッチン"
+        },
+        {
+          "rank": 75,
+          "name": "ReLevel",
+          "publisher": "PONIX LLC",
+          "category": "ゲーム",
+          "app_id": "6817345425",
+          "url": "https://apps.apple.com/jp/app/relevel/id6817345425?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/4a/7a/ac4a7adc-4e9b-d1e8-8012-5c9d4faec01d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ReLevel ― 十日間の冒険を、何度でも。\n\n主人公に与えられた旅の時間は、わずか10日。\n敵と戦い、装備を集め、仲間を育てながら、限られた時間でどこまで進"
+        },
+        {
+          "rank": 86,
+          "name": "Butcher Hero：放置系アクションRPG",
+          "publisher": "MULTICAST GAMES LIMITED",
+          "category": "ゲーム",
+          "app_id": "6757722046",
+          "url": "https://apps.apple.com/jp/app/butcher-hero-%E6%94%BE%E7%BD%AE%E7%B3%BB%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3rpg/id6757722046?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/71/1c/a6711ca5-b357-c711-c956-fe39c54427ae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Butcher - hook & consume\nEvery hooked and consumed enemy = a permanent stat boos"
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 5,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "スヌーピー ゲームズ ～サクッと脳トレパズル",
+          "publisher": "TV TOKYO Communications Corporation",
+          "category": "ゲーム",
+          "app_id": "6797800901",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%8C%E3%83%BC%E3%83%94%E3%83%BC-%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BA-%E3%82%B5%E3%82%AF%E3%83%83%E3%81%A8%E8%84%B3%E3%83%88%E3%83%AC%E3%83%91%E3%82%BA%E3%83%AB/id6797800901?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/9b/65/069b65bc-57b8-6ee1-59d7-78eb3be5a0da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "かわいいキャラクターたちが彩る世界で、パズルゲームを楽しもう！\nPEANUTSの魅力がつまった、シンプルで遊びやすいパズルとアクションゲームが登場。\n\nちょっと"
+        },
+        {
+          "rank": 62,
+          "name": "Bus Rush: パーキングゲーム",
+          "publisher": "Longwind Studio",
+          "category": "ゲーム",
+          "app_id": "6737542739",
+          "url": "https://apps.apple.com/jp/app/bus-rush-%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B2%E3%83%BC%E3%83%A0/id6737542739?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/1b/a2/b61ba292-40d0-b087-44c7-fbd1cc218779/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "カラフルな駐車チャレンジの世界へようこそ！「Car Escape：駐車場 パーキングジャム」で遊ぼう！超刺激的なゲームでは、さまざまな車と同じ色の乗客をマッチン"
+        },
+        {
+          "rank": 75,
+          "name": "ReLevel",
+          "publisher": "PONIX LLC",
+          "category": "ゲーム",
+          "app_id": "6817345425",
+          "url": "https://apps.apple.com/jp/app/relevel/id6817345425?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/4a/7a/ac4a7adc-4e9b-d1e8-8012-5c9d4faec01d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ReLevel ― 十日間の冒険を、何度でも。\n\n主人公に与えられた旅の時間は、わずか10日。\n敵と戦い、装備を集め、仲間を育てながら、限られた時間でどこまで進"
+        },
+        {
+          "rank": 86,
+          "name": "Butcher Hero：放置系アクションRPG",
+          "publisher": "MULTICAST GAMES LIMITED",
+          "category": "ゲーム",
+          "app_id": "6757722046",
+          "url": "https://apps.apple.com/jp/app/butcher-hero-%E6%94%BE%E7%BD%AE%E7%B3%BB%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3rpg/id6757722046?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/71/1c/a6711ca5-b357-c711-c956-fe39c54427ae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Butcher - hook & consume\nEvery hooked and consumed enemy = a permanent stat boos"
+        },
+        {
+          "rank": 95,
+          "name": "間違い探し - 違いを見つけよう",
+          "publisher": "LONGSEA LINK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6738576262",
+          "url": "https://apps.apple.com/jp/app/%E9%96%93%E9%81%95%E3%81%84%E6%8E%A2%E3%81%97-%E9%81%95%E3%81%84%E3%82%92%E8%A6%8B%E3%81%A4%E3%81%91%E3%82%88%E3%81%86/id6738576262?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/84/c9/2184c9e8-b80b-bddc-71ad-693cd0fff4a7/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "間違い探し - 違いを見つけよう - いつでもどこでも目を鍛えて頭をテストしよう！違いを見つける楽しさを体験しよう！隠れた違いの世界を発見しよう！\n\n子供の頃の"
+        },
+        {
+          "rank": 98,
+          "name": "学園アイドルマスター",
+          "publisher": "Bandai Namco Entertainment Inc.",
+          "category": "ゲーム",
+          "app_id": "6446659989",
+          "url": "https://apps.apple.com/jp/app/%E5%AD%A6%E5%9C%92%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/id6446659989?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/59/eb/5b59ebf6-a9a2-2910-689d-8ff5aa701a7d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「アイドルマスター」シリーズ完全新作の、学園アイドル育成シミュレーションが登場！\r\n様々な魅力と問題を秘めたアイドルの卵たちを、あなたのプロデュースで輝かせよう"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
