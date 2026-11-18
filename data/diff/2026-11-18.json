@@ -1,0 +1,404 @@
+{
+  "date": "2026-11-18",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "变形金刚：新纪元",
+          "publisher": "Wanda Game",
+          "category": "策略",
+          "subcategory": "剧情、收集"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 79,
+          "name": "Word Jam - Screw Puzzle",
+          "publisher": "Zego Global Pte Ltd",
+          "category": "Games",
+          "app_id": "6761419783",
+          "url": "https://apps.apple.com/us/app/word-jam-screw-puzzle/id6761419783?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/7b/ca/697bca75-2a01-96f1-18c9-92d9dce69309/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready to twist, turn, and spell your way to victory in Word Jam – Screw Puzz"
+        },
+        {
+          "rank": 96,
+          "name": "Little Farm Story: Idle Tycoon",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6733244789",
+          "url": "https://apps.apple.com/us/app/little-farm-story-idle-tycoon/id6733244789?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/20/e3/4a20e329-3b23-d9e0-7405-66b5a691c5f3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A FUN-GI TO BE AROUND\nCalling all entrepreneurial farmers: come dive into a fant"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 65,
+          "name": "Last Beacon: Survival",
+          "publisher": "YG Technology FZ-LLC",
+          "category": "Games",
+          "app_id": "6761043541",
+          "url": "https://apps.apple.com/us/app/last-beacon-survival/id6761043541?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/9e/3c/ce9e3cb6-4b25-25f7-9383-2a282db3e5c8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This is a post-apocalyptic ocean survival game where you will experience thrilli"
+        },
+        {
+          "rank": 90,
+          "name": "Coin Master - Board Adventure",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "app_id": "6745761596",
+          "url": "https://apps.apple.com/us/app/coin-master-board-adventure/id6745761596?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/e3/5e/71e35edd-91b1-80ba-7655-0baf87a0a65f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Roll, raid, and rule the board!\n\nWelcome to Coin Master: Board Adventure, where "
+        },
+        {
+          "rank": 94,
+          "name": "Bubble Cash",
+          "publisher": "Papaya Gaming",
+          "category": "Games",
+          "app_id": "1475514684",
+          "url": "https://apps.apple.com/us/app/bubble-cash/id1475514684?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/e7/87/d8e78702-89b1-cde7-205c-679dcc6ac124/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Forget the ordinary games. Here you play for something bigger, where winning the"
+        },
+        {
+          "rank": 95,
+          "name": "PUBG MOBILE",
+          "publisher": "Tencent Mobile International Limited",
+          "category": "Games",
+          "app_id": "1330123889",
+          "url": "https://apps.apple.com/us/app/pubg-mobile/id1330123889?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/1a/dc/0c1adcc0-b63f-6bdb-3cba-d74161aad06a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "【Epic battle royale masterpiece】\nLots of events for you to explore.Climb to the "
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 79,
+          "name": "Word Jam - Screw Puzzle",
+          "publisher": "Zego Global Pte Ltd",
+          "category": "Games",
+          "app_id": "6761419783",
+          "url": "https://apps.apple.com/us/app/word-jam-screw-puzzle/id6761419783?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/7b/ca/697bca75-2a01-96f1-18c9-92d9dce69309/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready to twist, turn, and spell your way to victory in Word Jam – Screw Puzz"
+        },
+        {
+          "rank": 96,
+          "name": "Little Farm Story: Idle Tycoon",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6733244789",
+          "url": "https://apps.apple.com/us/app/little-farm-story-idle-tycoon/id6733244789?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/20/e3/4a20e329-3b23-d9e0-7405-66b5a691c5f3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A FUN-GI TO BE AROUND\nCalling all entrepreneurial farmers: come dive into a fant"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 15,
+          "name": "斗罗大陆：诛邪传说",
+          "publisher": "Guangzhou Zhongxu Shuke Information Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6748218382",
+          "url": "https://apps.apple.com/cn/app/%E6%96%97%E7%BD%97%E5%A4%A7%E9%99%86-%E8%AF%9B%E9%82%AA%E4%BC%A0%E8%AF%B4/id6748218382?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/81/50/c68150e5-2200-6743-93a0-58d12ba2a9bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《斗罗大陆：诛邪传说》是以东方奇幻小说《斗罗大陆》IP为故事背景的一款角色扮演大型多人在线手游，玩家可以在游戏中扮演一名魂师展开冒险，探索斗罗大陆享受奇幻之旅。"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 97,
+          "name": "猫咪整理师 - 房间造景布置小屋 整理解压收纳达人",
+          "publisher": "Togother Many Information Technology Co, Ltd.",
+          "category": "游戏",
+          "app_id": "6752363458",
+          "url": "https://apps.apple.com/cn/app/%E7%8C%AB%E5%92%AA%E6%95%B4%E7%90%86%E5%B8%88-%E6%88%BF%E9%97%B4%E9%80%A0%E6%99%AF%E5%B8%83%E7%BD%AE%E5%B0%8F%E5%B1%8B-%E6%95%B4%E7%90%86%E8%A7%A3%E5%8E%8B%E6%94%B6%E7%BA%B3%E8%BE%BE%E4%BA%BA/id6752363458?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/e4/00/58e40096-f5fc-88b3-86d4-6a1eb16d4284/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "欢迎来到你的专属解压小天地！在这里，动动手指，像玩贴纸一样，就能DIY出独一无二的可爱场景。\n\n拿起你的小镊子，把各种各样的家具和物品贴到它们该去的地方。看着乱"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 15,
+          "name": "斗罗大陆：诛邪传说",
+          "publisher": "Guangzhou Zhongxu Shuke Information Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6748218382",
+          "url": "https://apps.apple.com/cn/app/%E6%96%97%E7%BD%97%E5%A4%A7%E9%99%86-%E8%AF%9B%E9%82%AA%E4%BC%A0%E8%AF%B4/id6748218382?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/81/50/c68150e5-2200-6743-93a0-58d12ba2a9bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《斗罗大陆：诛邪传说》是以东方奇幻小说《斗罗大陆》IP为故事背景的一款角色扮演大型多人在线手游，玩家可以在游戏中扮演一名魂师展开冒险，探索斗罗大陆享受奇幻之旅。"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 98,
+          "name": "ラストパイロット",
+          "publisher": "Ibuki Hara",
+          "category": "ゲーム",
+          "app_id": "6816302152",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%82%B9%E3%83%88%E3%83%91%E3%82%A4%E3%83%AD%E3%83%83%E3%83%88/id6816302152?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/d9/06/9ad906ce-8b07-a4c9-c356-144c94a03f37/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "最後のパイロットとして、たった 1 機で宇宙の果てを目指せ。\n\n自機は自動で動いて、自動で撃つ。\nあなたの仕事は、稼いだお金で強化を選ぶこと。\nどこまで遠くへ進"
+        },
+        {
+          "rank": 100,
+          "name": "Line Tangle - 紐解きひもゲームロープ",
+          "publisher": "Shycheese",
+          "category": "ゲーム",
+          "app_id": "6805725616",
+          "url": "https://apps.apple.com/jp/app/line-tangle-%E7%B4%90%E8%A7%A3%E3%81%8D%E3%81%B2%E3%82%82%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%AD%E3%83%BC%E3%83%97/id6805725616?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/bf/5e/36bf5e66-b4e8-92fe-54ac-06a6087b0c95/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "色とりどりの線が絡み合って一枚の絵を形作ります。デザインをほどき、その本当の形を明らかにするのを待っているのはあなたです。ノードをタップするだけで、秩序が少しず"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 84,
+          "name": "Cube Land Puzzle Game",
+          "publisher": "Rotatelab",
+          "category": "ゲーム",
+          "app_id": "6757154335",
+          "url": "https://apps.apple.com/jp/app/cube-land-puzzle-game/id6757154335?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/0e/6a/730e6a63-4fb3-2550-b632-1314e03e56c0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "カラフルなキューブワールドをブラストしながら進もう！Cube Land Puzzle Game は、すべてのショットが重要な、満足感のある3Dブロックパズルです"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 85,
+          "name": "Connect Tracks: ロジックパズル",
+          "publisher": "Oakever Games",
+          "category": "ゲーム",
+          "app_id": "6793115010",
+          "url": "https://apps.apple.com/jp/app/connect-tracks-%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB/id6793115010?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/59/6f/e9596f95-af86-19fa-25dd-28cb8f29ddcf/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "リラックスしながら、同時に頭もフル回転させられるゲームはいかがですか？Connect Tracks へようこそ！古典的な線路パズルを核にしたロジックパズルゲーム"
+        },
+        {
+          "rank": 88,
+          "name": "ラストアサイラム：プレイグ",
+          "publisher": "WISENESS GAME ONLINE INTERNATIONAL LTD",
+          "category": "ゲーム",
+          "app_id": "6756989323",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%82%B9%E3%83%88%E3%82%A2%E3%82%B5%E3%82%A4%E3%83%A9%E3%83%A0-%E3%83%97%E3%83%AC%E3%82%A4%E3%82%B0/id6756989323?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/0c/30/620c3086-731a-710a-1bc5-6ff74bf2ff5d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "終末のペストの中、ペストマスクが生き残るチャンスを取り戻す！\n突如として発生したペストに吞み込まれた村、医療崩壊、治安崩壊、そしてネズミの大群が迫っている。あな"
+        },
+        {
+          "rank": 89,
+          "name": "Travel Town - マージアドベンチャー",
+          "publisher": "Moon Active",
+          "category": "ゲーム",
+          "app_id": "1521236603",
+          "url": "https://apps.apple.com/jp/app/travel-town-%E3%83%9E%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC/id1521236603?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/a3/17/5ba31784-a5b2-9710-8b53-ba4c53b3ec61/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "マージゲームの傑作、トラベルタウンがついに日本上陸！\n\n嵐で破壊されてしまった街に美しさを取り戻そう！\n\n面白いイベントやカードも盛りだくさん！\n\n◆はじめに　"
+        },
+        {
+          "rank": 91,
+          "name": "LINE：ブロックジャム",
+          "publisher": "LINE Corporation",
+          "category": "ゲーム",
+          "app_id": "6753668357",
+          "url": "https://apps.apple.com/jp/app/line-%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%82%B8%E3%83%A3%E3%83%A0/id6753668357?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/b5/3f/34b53f59-8f62-8ddc-f71e-6186acc7e4ce/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ブロックをスライドして同じ色のゲートに運ぼう！\n気軽に遊べるカラーブロックパズル\nタイムリミットがくる前に全てのブロックをゲートに運ぼう\nステージクリアで獲得し"
+        },
+        {
+          "rank": 92,
+          "name": "Z ルート：リデンプション",
+          "publisher": "BUILDING-BLOCKS NETWORK TECHNOLOGY CO.,LIMITED",
+          "category": "ゲーム",
+          "app_id": "6762268182",
+          "url": "https://apps.apple.com/jp/app/z-%E3%83%AB%E3%83%BC%E3%83%88-%E3%83%AA%E3%83%87%E3%83%B3%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3/id6762268182?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/19/43/611943c1-896e-498a-1826-abad00c0f8dc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "この世界はすでに灰燼と化し、ゾンビがすべてを支配している。Z Route——それは最後の救済へと続く道、終末の死闘が繰り広げられる戦場だ。逃げ場はない。ただ銃を"
+        },
+        {
+          "rank": 95,
+          "name": "マージファッション：ロマンス ストーリー & 着せ替え",
+          "publisher": "Wind's Choice Tech Limited",
+          "category": "ゲーム",
+          "app_id": "6737874398",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3-%E3%83%AD%E3%83%9E%E3%83%B3%E3%82%B9-%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC-%E7%9D%80%E3%81%9B%E6%9B%BF%E3%81%88/id6737874398?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/df/d6/62dfd69d-6b5c-d35f-16ed-d390c0b2bdc8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "マージファッション：ロマンスストーリーへようこそ！\n\n恋人にひどく裏切られたアリスは、自分の人生を変えることを決意します。新しいスタイルに生まれ変わり、自信を取"
+        },
+        {
+          "rank": 96,
+          "name": "Mini Soccer Star 2027",
+          "publisher": "VIVA GAMES S.L.",
+          "category": "ゲーム",
+          "app_id": "1636072966",
+          "url": "https://apps.apple.com/jp/app/mini-soccer-star-2027/id1636072966?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/4b/72/e64b723f-8bf6-9298-c6b2-8ac2774aaf8b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to the MINI SOCCER STAR 2026!\n\nPlay the brand new soccer game Mini Socce"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 84,
+          "name": "Cube Land Puzzle Game",
+          "publisher": "Rotatelab",
+          "category": "ゲーム",
+          "app_id": "6757154335",
+          "url": "https://apps.apple.com/jp/app/cube-land-puzzle-game/id6757154335?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/0e/6a/730e6a63-4fb3-2550-b632-1314e03e56c0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "カラフルなキューブワールドをブラストしながら進もう！Cube Land Puzzle Game は、すべてのショットが重要な、満足感のある3Dブロックパズルです"
+        },
+        {
+          "rank": 98,
+          "name": "ラストパイロット",
+          "publisher": "Ibuki Hara",
+          "category": "ゲーム",
+          "app_id": "6816302152",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%82%B9%E3%83%88%E3%83%91%E3%82%A4%E3%83%AD%E3%83%83%E3%83%88/id6816302152?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/d9/06/9ad906ce-8b07-a4c9-c356-144c94a03f37/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "最後のパイロットとして、たった 1 機で宇宙の果てを目指せ。\n\n自機は自動で動いて、自動で撃つ。\nあなたの仕事は、稼いだお金で強化を選ぶこと。\nどこまで遠くへ進"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 7,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 84,
+          "name": "Cube Land Puzzle Game",
+          "publisher": "Rotatelab",
+          "category": "ゲーム",
+          "app_id": "6757154335",
+          "url": "https://apps.apple.com/jp/app/cube-land-puzzle-game/id6757154335?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/0e/6a/730e6a63-4fb3-2550-b632-1314e03e56c0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "カラフルなキューブワールドをブラストしながら進もう！Cube Land Puzzle Game は、すべてのショットが重要な、満足感のある3Dブロックパズルです"
+        },
+        {
+          "rank": 98,
+          "name": "ラストパイロット",
+          "publisher": "Ibuki Hara",
+          "category": "ゲーム",
+          "app_id": "6816302152",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%82%B9%E3%83%88%E3%83%91%E3%82%A4%E3%83%AD%E3%83%83%E3%83%88/id6816302152?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/d9/06/9ad906ce-8b07-a4c9-c356-144c94a03f37/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "最後のパイロットとして、たった 1 機で宇宙の果てを目指せ。\n\n自機は自動で動いて、自動で撃つ。\nあなたの仕事は、稼いだお金で強化を選ぶこと。\nどこまで遠くへ進"
+        },
+        {
+          "rank": 100,
+          "name": "Line Tangle - 紐解きひもゲームロープ",
+          "publisher": "Shycheese",
+          "category": "ゲーム",
+          "app_id": "6805725616",
+          "url": "https://apps.apple.com/jp/app/line-tangle-%E7%B4%90%E8%A7%A3%E3%81%8D%E3%81%B2%E3%82%82%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%AD%E3%83%BC%E3%83%97/id6805725616?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/bf/5e/36bf5e66-b4e8-92fe-54ac-06a6087b0c95/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "色とりどりの線が絡み合って一枚の絵を形作ります。デザインをほどき、その本当の形を明らかにするのを待っているのはあなたです。ノードをタップするだけで、秩序が少しず"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
