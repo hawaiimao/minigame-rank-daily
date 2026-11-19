@@ -1,0 +1,529 @@
+{
+  "date": "2026-11-19",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 2,
+          "name": "伍六七：暗影交锋",
+          "publisher": "啊吉游",
+          "category": "角色扮演",
+          "subcategory": "国漫、像素、动作、冒险、模拟经营、横版、2D、多人联机、APRG、热血"
+        },
+        {
+          "rank": 10,
+          "name": "应征入伍",
+          "publisher": "玄鑫工作室",
+          "category": "射击",
+          "subcategory": "FPS、竞技"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 75,
+          "name": "Bruno Reels Casino",
+          "publisher": "EverPrime Futures Inc.",
+          "category": "Games",
+          "app_id": "6768564100",
+          "url": "https://apps.apple.com/us/app/bruno-reels-casino/id6768564100?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/23/ba/bf23ba31-1193-6c10-acd0-d2ead14e8d8b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Bruno Reels Casino brings you an exciting casino-style slots experience filled w"
+        },
+        {
+          "rank": 89,
+          "name": "Cash Avalanche:Casino Slot",
+          "publisher": "Spruce Interactive Inc",
+          "category": "Games",
+          "app_id": "6751794501",
+          "url": "https://apps.apple.com/us/app/cash-avalanche-casino-slot/id6751794501?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/4a/84/9d4a8482-b730-3bf5-39b4-c88dce6587f1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Cash Avalanche — Spin Into the Excitement\n\nCash Avalanche delivers an immersive "
+        },
+        {
+          "rank": 92,
+          "name": "Jackpot Go: Slots Casino",
+          "publisher": "WISE WISHES STUDIO LIMITED",
+          "category": "Games",
+          "app_id": "6739792763",
+          "url": "https://apps.apple.com/us/app/jackpot-go-slots-casino/id6739792763?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/2a/c2/fa2ac2cd-0577-8050-09e0-61686954f9b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Jackpot Go delivers an immersive slots experience like no other. Featuring a vas"
+        },
+        {
+          "rank": 95,
+          "name": "Gleaming Slots - Win Real Cash",
+          "publisher": "ETERNAL BOOM LIMITED",
+          "category": "Games",
+          "app_id": "6566176181",
+          "url": "https://apps.apple.com/us/app/gleaming-slots-win-real-cash/id6566176181?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/b3/9c/20b39c03-4ef9-5703-6f0a-d03d83c227da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Step into a revolutionary world of slot gaming with Gleaming Slots – your top de"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 11,
+          "name": "地铁跑酷 - 时光十三载热爱一直在",
+          "publisher": "iDreamSky Technology Limited",
+          "category": "游戏",
+          "app_id": "995122577",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E9%93%81%E8%B7%91%E9%85%B7-%E6%97%B6%E5%85%89%E5%8D%81%E4%B8%89%E8%BD%BD%E7%83%AD%E7%88%B1%E4%B8%80%E7%9B%B4%E5%9C%A8/id995122577?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/ff/ad/38ffadff-fb43-2cdf-4080-04dab575cd31/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【游戏特色】\n《地铁跑酷》13周年庆典盛开启！踏入奇趣微境，开启充满想象力的微观冒险，艾蕾娜、薇奥拉、咔琪、阿胧等全新角色惊喜登场，带来梦幻与趣味交织的全新体验"
+        },
+        {
+          "rank": 47,
+          "name": "GTA 5 Mobile Multiplayer 2022",
+          "publisher": "Mehmet Ugurlu",
+          "category": "游戏",
+          "app_id": "1632001599",
+          "url": "https://apps.apple.com/cn/app/gta-5-mobile-multiplayer-2022/id1632001599?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/69/f9/7b/69f97b67-79bd-e4dc-01df-954152b725a1/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+          "slogan": "Interchangeable Tool\nAnimated Character\nIn-Vehicle Use\nDifferent sprays for vehi"
+        },
+        {
+          "rank": 59,
+          "name": "开放世界游戏grand黑帮黑手党罪恶都市",
+          "publisher": "Muhammad Tayyab Rafique Muhammad Rafique",
+          "category": "游戏",
+          "app_id": "6466411875",
+          "url": "https://apps.apple.com/cn/app/%E5%BC%80%E6%94%BE%E4%B8%96%E7%95%8C%E6%B8%B8%E6%88%8Fgrand%E9%BB%91%E5%B8%AE%E9%BB%91%E6%89%8B%E5%85%9A%E7%BD%AA%E6%81%B6%E9%83%BD%E5%B8%82/id6466411875?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/25/97/80259735-9b55-6fb1-dcbc-08dc9068247e/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.png",
+          "slogan": "This game boasts a multitude of exciting features that immerse players in an ent"
+        },
+        {
+          "rank": 63,
+          "name": "匹配大师",
+          "publisher": "TBG LIMITED",
+          "category": "游戏",
+          "app_id": "6805887054",
+          "url": "https://apps.apple.com/cn/app/%E5%8C%B9%E9%85%8D%E5%A4%A7%E5%B8%88/id6805887054?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/d6/6a/9ed66ad3-04d5-3a16-9d43-b1e2a0e2cf54/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "和蜡笔小新一起成为匹配大师，开启欢乐消除大冒险！\n《匹配大师》是蜡笔小新正版授权休闲益智手游，创新配对消除玩法，找出相同物件完成配对消除，轻松上手，解压上头。\n"
+        },
+        {
+          "rank": 84,
+          "name": "超萌趣消消",
+          "publisher": "梦游",
+          "category": "游戏",
+          "app_id": "6810902589",
+          "url": "https://apps.apple.com/cn/app/%E8%B6%85%E8%90%8C%E8%B6%A3%E6%B6%88%E6%B6%88/id6810902589?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/82/90/6f82900d-d5f4-b13c-15df-0530980f8394/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "把乱糟糟的货架理整齐，真的会上瘾！\n\n《超萌趣消消》是一款以杂货铺货架为主题的萌系三消手游。滑动手指，把三件相同的商品凑到一起就能消除——零食、饮料、日用品……"
+        },
+        {
+          "rank": 86,
+          "name": "Mafia City RP:Grand Open World",
+          "publisher": "Ngoc vinh trading service company limited",
+          "category": "游戏",
+          "app_id": "6803818063",
+          "url": "https://apps.apple.com/cn/app/mafia-city-rp-grand-open-world/id6803818063?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/3a/bc/343abcae-78c1-9162-873e-8cb31599b2b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to the bustling streets of Mafia City RP:Grand Open World, a vibrant met"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 96,
+          "name": "明日之后",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1435567000",
+          "url": "https://apps.apple.com/cn/app/%E6%98%8E%E6%97%A5%E4%B9%8B%E5%90%8E/id1435567000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/a2/74/22a27434-20e0-9641-76f7-bf9c1ab73341/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "八年前，幸存者们初入废土，在简陋的工作台前组装出第一把UZI、在远星城攥着莫辛纳甘开镜远瞄、在秋日森林挥着铁丝球棍边跑边跳，靠着三把武器撑过了一波又一波感染潮。"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 47,
+          "name": "GTA 5 Mobile Multiplayer 2022",
+          "publisher": "Mehmet Ugurlu",
+          "category": "游戏",
+          "app_id": "1632001599",
+          "url": "https://apps.apple.com/cn/app/gta-5-mobile-multiplayer-2022/id1632001599?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/69/f9/7b/69f97b67-79bd-e4dc-01df-954152b725a1/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+          "slogan": "Interchangeable Tool\nAnimated Character\nIn-Vehicle Use\nDifferent sprays for vehi"
+        },
+        {
+          "rank": 59,
+          "name": "开放世界游戏grand黑帮黑手党罪恶都市",
+          "publisher": "Muhammad Tayyab Rafique Muhammad Rafique",
+          "category": "游戏",
+          "app_id": "6466411875",
+          "url": "https://apps.apple.com/cn/app/%E5%BC%80%E6%94%BE%E4%B8%96%E7%95%8C%E6%B8%B8%E6%88%8Fgrand%E9%BB%91%E5%B8%AE%E9%BB%91%E6%89%8B%E5%85%9A%E7%BD%AA%E6%81%B6%E9%83%BD%E5%B8%82/id6466411875?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/25/97/80259735-9b55-6fb1-dcbc-08dc9068247e/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.png",
+          "slogan": "This game boasts a multitude of exciting features that immerse players in an ent"
+        },
+        {
+          "rank": 63,
+          "name": "匹配大师",
+          "publisher": "TBG LIMITED",
+          "category": "游戏",
+          "app_id": "6805887054",
+          "url": "https://apps.apple.com/cn/app/%E5%8C%B9%E9%85%8D%E5%A4%A7%E5%B8%88/id6805887054?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/d6/6a/9ed66ad3-04d5-3a16-9d43-b1e2a0e2cf54/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "和蜡笔小新一起成为匹配大师，开启欢乐消除大冒险！\n《匹配大师》是蜡笔小新正版授权休闲益智手游，创新配对消除玩法，找出相同物件完成配对消除，轻松上手，解压上头。\n"
+        },
+        {
+          "rank": 84,
+          "name": "超萌趣消消",
+          "publisher": "梦游",
+          "category": "游戏",
+          "app_id": "6810902589",
+          "url": "https://apps.apple.com/cn/app/%E8%B6%85%E8%90%8C%E8%B6%A3%E6%B6%88%E6%B6%88/id6810902589?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/82/90/6f82900d-d5f4-b13c-15df-0530980f8394/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "把乱糟糟的货架理整齐，真的会上瘾！\n\n《超萌趣消消》是一款以杂货铺货架为主题的萌系三消手游。滑动手指，把三件相同的商品凑到一起就能消除——零食、饮料、日用品……"
+        },
+        {
+          "rank": 86,
+          "name": "Mafia City RP:Grand Open World",
+          "publisher": "Ngoc vinh trading service company limited",
+          "category": "游戏",
+          "app_id": "6803818063",
+          "url": "https://apps.apple.com/cn/app/mafia-city-rp-grand-open-world/id6803818063?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/3a/bc/343abcae-78c1-9162-873e-8cb31599b2b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to the bustling streets of Mafia City RP:Grand Open World, a vibrant met"
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 1,
+        "new_publishers": 5
+      },
+      "new_to_board": [
+        {
+          "rank": 11,
+          "name": "地铁跑酷 - 时光十三载热爱一直在",
+          "publisher": "iDreamSky Technology Limited",
+          "category": "游戏",
+          "app_id": "995122577",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E9%93%81%E8%B7%91%E9%85%B7-%E6%97%B6%E5%85%89%E5%8D%81%E4%B8%89%E8%BD%BD%E7%83%AD%E7%88%B1%E4%B8%80%E7%9B%B4%E5%9C%A8/id995122577?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/ff/ad/38ffadff-fb43-2cdf-4080-04dab575cd31/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【游戏特色】\n《地铁跑酷》13周年庆典盛开启！踏入奇趣微境，开启充满想象力的微观冒险，艾蕾娜、薇奥拉、咔琪、阿胧等全新角色惊喜登场，带来梦幻与趣味交织的全新体验"
+        },
+        {
+          "rank": 47,
+          "name": "GTA 5 Mobile Multiplayer 2022",
+          "publisher": "Mehmet Ugurlu",
+          "category": "游戏",
+          "app_id": "1632001599",
+          "url": "https://apps.apple.com/cn/app/gta-5-mobile-multiplayer-2022/id1632001599?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/69/f9/7b/69f97b67-79bd-e4dc-01df-954152b725a1/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+          "slogan": "Interchangeable Tool\nAnimated Character\nIn-Vehicle Use\nDifferent sprays for vehi"
+        },
+        {
+          "rank": 59,
+          "name": "开放世界游戏grand黑帮黑手党罪恶都市",
+          "publisher": "Muhammad Tayyab Rafique Muhammad Rafique",
+          "category": "游戏",
+          "app_id": "6466411875",
+          "url": "https://apps.apple.com/cn/app/%E5%BC%80%E6%94%BE%E4%B8%96%E7%95%8C%E6%B8%B8%E6%88%8Fgrand%E9%BB%91%E5%B8%AE%E9%BB%91%E6%89%8B%E5%85%9A%E7%BD%AA%E6%81%B6%E9%83%BD%E5%B8%82/id6466411875?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/25/97/80259735-9b55-6fb1-dcbc-08dc9068247e/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.png",
+          "slogan": "This game boasts a multitude of exciting features that immerse players in an ent"
+        },
+        {
+          "rank": 63,
+          "name": "匹配大师",
+          "publisher": "TBG LIMITED",
+          "category": "游戏",
+          "app_id": "6805887054",
+          "url": "https://apps.apple.com/cn/app/%E5%8C%B9%E9%85%8D%E5%A4%A7%E5%B8%88/id6805887054?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/d6/6a/9ed66ad3-04d5-3a16-9d43-b1e2a0e2cf54/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "和蜡笔小新一起成为匹配大师，开启欢乐消除大冒险！\n《匹配大师》是蜡笔小新正版授权休闲益智手游，创新配对消除玩法，找出相同物件完成配对消除，轻松上手，解压上头。\n"
+        },
+        {
+          "rank": 84,
+          "name": "超萌趣消消",
+          "publisher": "梦游",
+          "category": "游戏",
+          "app_id": "6810902589",
+          "url": "https://apps.apple.com/cn/app/%E8%B6%85%E8%90%8C%E8%B6%A3%E6%B6%88%E6%B6%88/id6810902589?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/82/90/6f82900d-d5f4-b13c-15df-0530980f8394/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "把乱糟糟的货架理整齐，真的会上瘾！\n\n《超萌趣消消》是一款以杂货铺货架为主题的萌系三消手游。滑动手指，把三件相同的商品凑到一起就能消除——零食、饮料、日用品……"
+        },
+        {
+          "rank": 86,
+          "name": "Mafia City RP:Grand Open World",
+          "publisher": "Ngoc vinh trading service company limited",
+          "category": "游戏",
+          "app_id": "6803818063",
+          "url": "https://apps.apple.com/cn/app/mafia-city-rp-grand-open-world/id6803818063?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/3a/bc/343abcae-78c1-9162-873e-8cb31599b2b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to the bustling streets of Mafia City RP:Grand Open World, a vibrant met"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "ルミナサーガ：夢と冒険のMMORPG",
+          "publisher": "HYPER HEAT",
+          "category": "ゲーム",
+          "app_id": "6808535967",
+          "url": "https://apps.apple.com/jp/app/%E3%83%AB%E3%83%9F%E3%83%8A%E3%82%B5%E3%83%BC%E3%82%AC-%E5%A4%A2%E3%81%A8%E5%86%92%E9%99%BA%E3%81%AEmmorpg/id6808535967?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/32/d5/2b32d54b-73b5-b84c-acb2-43e955bf62cb/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "『ルミナサーガ』は、幻想世界を自由に旅しながら、仲間との出会いや冒険を楽しめるMMORPGです。\nジョブやスキルを自分らしく組み合わせて戦うもよし、仲間と力を合"
+        },
+        {
+          "rank": 25,
+          "name": "AfterRoom",
+          "publisher": "Kawamata Koichiro",
+          "category": "ゲーム",
+          "app_id": "6832176911",
+          "url": "https://apps.apple.com/jp/app/afterroom/id6832176911?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/be/08/92be08be-1151-f559-e8c2-f206bcecdbde/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "退去後のお部屋、片付けます。\n\nあなたは片付け会社「アフタールーム」の新人作業員。\n担当はマンション「メゾン白百合」。住人が出ていったあとの部屋には、たくさんの"
+        },
+        {
+          "rank": 83,
+          "name": "Wool Craze - 毛糸外し外す ソートパズルのゲーム",
+          "publisher": "Ladaneta Games",
+          "category": "ゲーム",
+          "app_id": "6744317674",
+          "url": "https://apps.apple.com/jp/app/wool-craze-%E6%AF%9B%E7%B3%B8%E5%A4%96%E3%81%97%E5%A4%96%E3%81%99-%E3%82%BD%E3%83%BC%E3%83%88%E3%83%91%E3%82%BA%E3%83%AB%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0/id6744317674?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/73/5e/91/735e9125-64bd-9617-b11b-ed920890ed5f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "色彩セラピー、指先で「ストレス解消の達人」！\n生活に少し色が足りないと感じていませんか？仕事や勉強のストレスが大きくて、気分転換が必要ですか？心配しないで、『W"
+        },
+        {
+          "rank": 96,
+          "name": "クレトレ - クレーンゲーム練習シミュレーター",
+          "publisher": "Yuto Otani",
+          "category": "ゲーム",
+          "app_id": "6819570474",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AF%E3%83%AC%E3%83%88%E3%83%AC-%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0%E7%B7%B4%E7%BF%92%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/id6819570474?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/cc/ec/fcccec05-f4e3-74ed-e4f0-90646f6146f9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "本番の前に、ここで練習！\n\nクレトレは、クレーンゲームの「リング掛け」（輪っか引っかけ）の台を3Dで何度でも練習できる、無料のクレーンゲーム練習シミュレーターで"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 77,
+          "name": "Supermarket chaos to order",
+          "publisher": "Warlock Arts",
+          "category": "ゲーム",
+          "app_id": "6790139777",
+          "url": "https://apps.apple.com/jp/app/supermarket-chaos-to-order/id6790139777?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/00/52/a90052cd-fc41-e47c-d577-fb70b056dc07/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Turn Supermarket chaos to order into the most organized store ever!\nStep into a "
+        },
+        {
+          "rank": 91,
+          "name": "ハローキティ：マイドリームストア",
+          "publisher": "ACTGames Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6736896540",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8F%E3%83%AD%E3%83%BC%E3%82%AD%E3%83%86%E3%82%A3-%E3%83%9E%E3%82%A4%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%B9%E3%83%88%E3%82%A2/id6736896540?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/f3/58/e7f35866-93be-28b8-3e2c-a5d2da45bad8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "みんなが遊びに来なくなり、廃れてしまったショッピングタウンを見て悲しむハローキティとクロミ。\nここはもう、みんなのための夢の空間ではなくなってしまいました。\nで"
+        },
+        {
+          "rank": 93,
+          "name": "Royal Smash! - Physics Puzzle",
+          "publisher": "Cypher Games",
+          "category": "ゲーム",
+          "app_id": "6780891673",
+          "url": "https://apps.apple.com/jp/app/royal-smash-physics-puzzle/id6780891673?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/37/a7/5d37a768-14ce-61fa-72d8-f325a4660b7d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Royal Smash, the ultimate physics puzzle game! It takes seconds to le"
+        },
+        {
+          "rank": 99,
+          "name": "Smash Fest!",
+          "publisher": "Flow Games Bilisim Yazilim ve Pazarlama Anonim Sirketi",
+          "category": "ゲーム",
+          "app_id": "6748084174",
+          "url": "https://apps.apple.com/jp/app/smash-fest/id6748084174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/4e/02/174e02bf-c0b2-e644-7b77-2f96865b08c1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Smash Fest!\nGet ready for the most explosive festival in town! Step i"
+        },
+        {
+          "rank": 100,
+          "name": "ダンジョンスラッシャー：ローグライクRPG",
+          "publisher": "gihyeon lim",
+          "category": "ゲーム",
+          "app_id": "1620305888",
+          "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%B9%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A3%E3%83%BC-%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%82%AFrpg/id1620305888?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/e9/09/81e909e6-4a8e-a4f0-8de3-48b92360c26e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "いつでもどこでも楽しめる、横スクロール×ローグライクの本格アクションRPG！\nスキルと遺物を組み合わせ、毎回異なるビルドで強敵に挑もう。\n\n【ゲームの特徴】\n\n"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "ルミナサーガ：夢と冒険のMMORPG",
+          "publisher": "HYPER HEAT",
+          "category": "ゲーム",
+          "app_id": "6808535967",
+          "url": "https://apps.apple.com/jp/app/%E3%83%AB%E3%83%9F%E3%83%8A%E3%82%B5%E3%83%BC%E3%82%AC-%E5%A4%A2%E3%81%A8%E5%86%92%E9%99%BA%E3%81%AEmmorpg/id6808535967?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/32/d5/2b32d54b-73b5-b84c-acb2-43e955bf62cb/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "『ルミナサーガ』は、幻想世界を自由に旅しながら、仲間との出会いや冒険を楽しめるMMORPGです。\nジョブやスキルを自分らしく組み合わせて戦うもよし、仲間と力を合"
+        },
+        {
+          "rank": 25,
+          "name": "AfterRoom",
+          "publisher": "Kawamata Koichiro",
+          "category": "ゲーム",
+          "app_id": "6832176911",
+          "url": "https://apps.apple.com/jp/app/afterroom/id6832176911?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/be/08/92be08be-1151-f559-e8c2-f206bcecdbde/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "退去後のお部屋、片付けます。\n\nあなたは片付け会社「アフタールーム」の新人作業員。\n担当はマンション「メゾン白百合」。住人が出ていったあとの部屋には、たくさんの"
+        },
+        {
+          "rank": 96,
+          "name": "クレトレ - クレーンゲーム練習シミュレーター",
+          "publisher": "Yuto Otani",
+          "category": "ゲーム",
+          "app_id": "6819570474",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AF%E3%83%AC%E3%83%88%E3%83%AC-%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0%E7%B7%B4%E7%BF%92%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/id6819570474?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/cc/ec/fcccec05-f4e3-74ed-e4f0-90646f6146f9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "本番の前に、ここで練習！\n\nクレトレは、クレーンゲームの「リング掛け」（輪っか引っかけ）の台を3Dで何度でも練習できる、無料のクレーンゲーム練習シミュレーターで"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 5,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "ルミナサーガ：夢と冒険のMMORPG",
+          "publisher": "HYPER HEAT",
+          "category": "ゲーム",
+          "app_id": "6808535967",
+          "url": "https://apps.apple.com/jp/app/%E3%83%AB%E3%83%9F%E3%83%8A%E3%82%B5%E3%83%BC%E3%82%AC-%E5%A4%A2%E3%81%A8%E5%86%92%E9%99%BA%E3%81%AEmmorpg/id6808535967?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/32/d5/2b32d54b-73b5-b84c-acb2-43e955bf62cb/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "『ルミナサーガ』は、幻想世界を自由に旅しながら、仲間との出会いや冒険を楽しめるMMORPGです。\nジョブやスキルを自分らしく組み合わせて戦うもよし、仲間と力を合"
+        },
+        {
+          "rank": 25,
+          "name": "AfterRoom",
+          "publisher": "Kawamata Koichiro",
+          "category": "ゲーム",
+          "app_id": "6832176911",
+          "url": "https://apps.apple.com/jp/app/afterroom/id6832176911?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/be/08/92be08be-1151-f559-e8c2-f206bcecdbde/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "退去後のお部屋、片付けます。\n\nあなたは片付け会社「アフタールーム」の新人作業員。\n担当はマンション「メゾン白百合」。住人が出ていったあとの部屋には、たくさんの"
+        },
+        {
+          "rank": 83,
+          "name": "Wool Craze - 毛糸外し外す ソートパズルのゲーム",
+          "publisher": "Ladaneta Games",
+          "category": "ゲーム",
+          "app_id": "6744317674",
+          "url": "https://apps.apple.com/jp/app/wool-craze-%E6%AF%9B%E7%B3%B8%E5%A4%96%E3%81%97%E5%A4%96%E3%81%99-%E3%82%BD%E3%83%BC%E3%83%88%E3%83%91%E3%82%BA%E3%83%AB%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0/id6744317674?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/73/5e/91/735e9125-64bd-9617-b11b-ed920890ed5f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "色彩セラピー、指先で「ストレス解消の達人」！\n生活に少し色が足りないと感じていませんか？仕事や勉強のストレスが大きくて、気分転換が必要ですか？心配しないで、『W"
+        },
+        {
+          "rank": 96,
+          "name": "クレトレ - クレーンゲーム練習シミュレーター",
+          "publisher": "Yuto Otani",
+          "category": "ゲーム",
+          "app_id": "6819570474",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AF%E3%83%AC%E3%83%88%E3%83%AC-%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0%E7%B7%B4%E7%BF%92%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/id6819570474?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/cc/ec/fcccec05-f4e3-74ed-e4f0-90646f6146f9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "本番の前に、ここで練習！\n\nクレトレは、クレーンゲームの「リング掛け」（輪っか引っかけ）の台を3Dで何度でも練習できる、無料のクレーンゲーム練習シミュレーターで"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
