@@ -1,0 +1,510 @@
+{
+  "date": "2026-11-20",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 9,
+          "name": "代号T3",
+          "publisher": "江南工作室",
+          "category": "角色扮演",
+          "subcategory": "射击、动作、刷宝、科幻、冒险、高画质、开放世界"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 7,
+          "name": "千次初见",
+          "publisher": "苏州沁游网络科技有限公司",
+          "category": "换装",
+          "subcategory": "恋爱、古风、角色扮演、剧情、穿越"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 9,
+          "name": "代号T3",
+          "publisher": "江南工作室",
+          "category": "角色扮演",
+          "subcategory": "射击、动作、刷宝、科幻、冒险、高画质、开放世界"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "代号T3",
+          "publisher": "江南工作室",
+          "category": "角色扮演",
+          "subcategory": "射击、动作、刷宝、科幻、冒险、高画质、开放世界"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 66,
+          "name": "Sin Streets: Open World RPG",
+          "publisher": "Pixelvoid Games Ltd",
+          "category": "Games",
+          "app_id": "6748948029",
+          "url": "https://apps.apple.com/us/app/sin-streets-open-world-rpg/id6748948029?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/d3/c9/ebd3c9f0-baf0-65ee-80c7-269ebe7d5270/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A new life begins the moment you step into a city where every choice matters. Yo"
+        },
+        {
+          "rank": 81,
+          "name": "Line Tangle - Dots Jam Escape",
+          "publisher": "Shycheese",
+          "category": "Games",
+          "app_id": "6805725616",
+          "url": "https://apps.apple.com/us/app/line-tangle-dots-jam-escape/id6805725616?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/bf/5e/36bf5e66-b4e8-92fe-54ac-06a6087b0c95/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "Colorful lines intertwine to form a picture, waiting for you to unravel the desi"
+        },
+        {
+          "rank": 97,
+          "name": "GTA: Vice City – Definitive",
+          "publisher": "Rockstar Games",
+          "category": "Games",
+          "app_id": "6468845173",
+          "url": "https://apps.apple.com/us/app/gta-vice-city-definitive/id6468845173?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/f9/85/a2f98568-b585-479e-fcc7-db9c6291fd64/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Download and play GTA: Vice City - Definitive for up to thirty minutes as a free"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 89,
+          "name": "EA SPORTS FC Soccer Mobile 27",
+          "publisher": "Electronic Arts",
+          "category": "Games",
+          "app_id": "1094930513",
+          "url": "https://apps.apple.com/us/app/ea-sports-fc-soccer-mobile-27/id1094930513?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/d1/84/41d18457-ec03-6812-f0a7-8a83686c6009/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This game includes optional in-game purchases of virtual currency that can be us"
+        },
+        {
+          "rank": 91,
+          "name": "Family Farm Merge",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "Games",
+          "app_id": "6760998152",
+          "url": "https://apps.apple.com/us/app/family-farm-merge/id6760998152?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/f5/05/acf50537-5fec-b513-4e51-e8d124e5dfa9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Family Farm Merge: Merge Your Way Back to Nature!\n\nWelcome to Family Farm Merge,"
+        },
+        {
+          "rank": 95,
+          "name": "Bingo Cash - Win Real Money",
+          "publisher": "Papaya Gaming",
+          "category": "Games",
+          "app_id": "1522266397",
+          "url": "https://apps.apple.com/us/app/bingo-cash-win-real-money/id1522266397?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/7b/ff/807bfff2-3fa3-2b97-811f-f7ec2a08fc85/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Forget the ordinary games. Here you play for something bigger, where winning the"
+        },
+        {
+          "rank": 100,
+          "name": "Lavish Luck Casino",
+          "publisher": "Prudent Owl Limited",
+          "category": "Games",
+          "app_id": "6738905436",
+          "url": "https://apps.apple.com/us/app/lavish-luck-casino/id6738905436?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/bb/30/b5bb306a-618d-1eb3-267a-2af738a8230f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the exciting world of Lavish Luck Casino! Experience authentic Las Veg"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 66,
+          "name": "Sin Streets: Open World RPG",
+          "publisher": "Pixelvoid Games Ltd",
+          "category": "Games",
+          "app_id": "6748948029",
+          "url": "https://apps.apple.com/us/app/sin-streets-open-world-rpg/id6748948029?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/d3/c9/ebd3c9f0-baf0-65ee-80c7-269ebe7d5270/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A new life begins the moment you step into a city where every choice matters. Yo"
+        },
+        {
+          "rank": 97,
+          "name": "GTA: Vice City – Definitive",
+          "publisher": "Rockstar Games",
+          "category": "Games",
+          "app_id": "6468845173",
+          "url": "https://apps.apple.com/us/app/gta-vice-city-definitive/id6468845173?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/f9/85/a2f98568-b585-479e-fcc7-db9c6291fd64/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Download and play GTA: Vice City - Definitive for up to thirty minutes as a free"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 4,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 66,
+          "name": "Sin Streets: Open World RPG",
+          "publisher": "Pixelvoid Games Ltd",
+          "category": "Games",
+          "app_id": "6748948029",
+          "url": "https://apps.apple.com/us/app/sin-streets-open-world-rpg/id6748948029?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/d3/c9/ebd3c9f0-baf0-65ee-80c7-269ebe7d5270/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A new life begins the moment you step into a city where every choice matters. Yo"
+        },
+        {
+          "rank": 81,
+          "name": "Line Tangle - Dots Jam Escape",
+          "publisher": "Shycheese",
+          "category": "Games",
+          "app_id": "6805725616",
+          "url": "https://apps.apple.com/us/app/line-tangle-dots-jam-escape/id6805725616?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/bf/5e/36bf5e66-b4e8-92fe-54ac-06a6087b0c95/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "Colorful lines intertwine to form a picture, waiting for you to unravel the desi"
+        },
+        {
+          "rank": 97,
+          "name": "GTA: Vice City – Definitive",
+          "publisher": "Rockstar Games",
+          "category": "Games",
+          "app_id": "6468845173",
+          "url": "https://apps.apple.com/us/app/gta-vice-city-definitive/id6468845173?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/f9/85/a2f98568-b585-479e-fcc7-db9c6291fd64/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Download and play GTA: Vice City - Definitive for up to thirty minutes as a free"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "无尽宝藏",
+          "publisher": "Moli Games",
+          "category": "游戏",
+          "app_id": "6804922021",
+          "url": "https://apps.apple.com/cn/app/%E6%97%A0%E5%B0%BD%E5%AE%9D%E8%97%8F/id6804922021?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/6e/22/316e223c-2429-54ee-b9cc-7702fa722a60/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "> 横版竖屏暗黑刷宝 ARPG，摸鱼挂机也能爽刷爆装！\n\n《无尽宝藏》融合放置挂机与暗黑刷宝玩法，主打**轻松摸鱼 + 深度 BD 构筑**双重体验。\n无需繁琐"
+        },
+        {
+          "rank": 65,
+          "name": "超萌趣消消 - 货架收纳消除小游戏",
+          "publisher": "梦游",
+          "category": "游戏",
+          "app_id": "6810902589",
+          "url": "https://apps.apple.com/cn/app/%E8%B6%85%E8%90%8C%E8%B6%A3%E6%B6%88%E6%B6%88-%E8%B4%A7%E6%9E%B6%E6%94%B6%E7%BA%B3%E6%B6%88%E9%99%A4%E5%B0%8F%E6%B8%B8%E6%88%8F/id6810902589?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/b7/62/17b7624e-0e9e-fa4a-0adb-4df0843861ca/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "把乱糟糟的货架理整齐，真的会上瘾！\n\n《超萌趣消消》是一款以杂货铺货架为主题的萌系三消手游。滑动手指，把三件相同的商品凑到一起就能消除——零食、饮料、日用品……"
+        },
+        {
+          "rank": 84,
+          "name": "我的盛唐时代",
+          "publisher": "明凯 尹",
+          "category": "游戏",
+          "app_id": "6820919948",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E7%9B%9B%E5%94%90%E6%97%B6%E4%BB%A3/id6820919948?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/e7/7c/0be77cde-d448-f49d-0673-7dcfb1ba21d8/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "梦回盛唐，营建一座属于你的繁华市井。\n\n踏入这幅古色长卷，亲手打造独属于你的长安小城。可滑动的广阔地图上，民宅、酒馆、农田、商铺依次铺展，每一栋建筑随等级提升，"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 49,
+          "name": "黄油猫",
+          "publisher": "Team Woll",
+          "category": "游戏",
+          "app_id": "6749843060",
+          "url": "https://apps.apple.com/cn/app/%E9%BB%84%E6%B2%B9%E7%8C%AB/id6749843060?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/b3/a5/e7b3a55d-79b9-3306-41f0-89693641a1bc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "荒诞又可爱、颠覆物理规则的解谜游戏——黄油猫正式登陆你的手机！\n《黄油猫》是一款像素风益智平台解谜游戏。你需要同时操控猫咪与吐司，在分离与组合之间破解机关，完成"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 94,
+          "name": "实况足球",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1347776121",
+          "url": "https://apps.apple.com/cn/app/%E5%AE%9E%E5%86%B5%E8%B6%B3%E7%90%83/id1347776121?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/a8/91/51a8910f-e247-d6c6-cbc0-94caceb51f95/PesMobile-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "■实况足球2027，震撼登场！\n全球10亿下载，实况足球手游现已更新2027赛季年度版本！攻防双阵型时代来临！足坛前沿战术理念在你手中复刻，进攻防守两套阵型动态"
+        },
+        {
+          "rank": 99,
+          "name": "登山赛车2 - Hill Climb Racing 2",
+          "publisher": "Fingersoft",
+          "category": "游戏",
+          "app_id": "1146465836",
+          "url": "https://apps.apple.com/cn/app/%E7%99%BB%E5%B1%B1%E8%B5%9B%E8%BD%A62-hill-climb-racing-2/id1146465836?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/d5/fd/bfd5fd9e-cf2b-c88b-5372-9becadda1ad8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "《Hill Climb Racing》重磅回归！规模更大、体验更佳，乐趣也更上一层楼！与全球数百万玩家一同畅玩这款物理效果逼真、满载火爆场面的赛车游戏吧！\n\n《"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 6,
+          "name": "无尽宝藏",
+          "publisher": "Moli Games",
+          "category": "游戏",
+          "app_id": "6804922021",
+          "url": "https://apps.apple.com/cn/app/%E6%97%A0%E5%B0%BD%E5%AE%9D%E8%97%8F/id6804922021?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/6e/22/316e223c-2429-54ee-b9cc-7702fa722a60/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "> 横版竖屏暗黑刷宝 ARPG，摸鱼挂机也能爽刷爆装！\n\n《无尽宝藏》融合放置挂机与暗黑刷宝玩法，主打**轻松摸鱼 + 深度 BD 构筑**双重体验。\n无需繁琐"
+        },
+        {
+          "rank": 49,
+          "name": "黄油猫",
+          "publisher": "Team Woll",
+          "category": "游戏",
+          "app_id": "6749843060",
+          "url": "https://apps.apple.com/cn/app/%E9%BB%84%E6%B2%B9%E7%8C%AB/id6749843060?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/b3/a5/e7b3a55d-79b9-3306-41f0-89693641a1bc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "荒诞又可爱、颠覆物理规则的解谜游戏——黄油猫正式登陆你的手机！\n《黄油猫》是一款像素风益智平台解谜游戏。你需要同时操控猫咪与吐司，在分离与组合之间破解机关，完成"
+        },
+        {
+          "rank": 84,
+          "name": "我的盛唐时代",
+          "publisher": "明凯 尹",
+          "category": "游戏",
+          "app_id": "6820919948",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E7%9B%9B%E5%94%90%E6%97%B6%E4%BB%A3/id6820919948?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/e7/7c/0be77cde-d448-f49d-0673-7dcfb1ba21d8/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "梦回盛唐，营建一座属于你的繁华市井。\n\n踏入这幅古色长卷，亲手打造独属于你的长安小城。可滑动的广阔地图上，民宅、酒馆、农田、商铺依次铺展，每一栋建筑随等级提升，"
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 2,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "无尽宝藏",
+          "publisher": "Moli Games",
+          "category": "游戏",
+          "app_id": "6804922021",
+          "url": "https://apps.apple.com/cn/app/%E6%97%A0%E5%B0%BD%E5%AE%9D%E8%97%8F/id6804922021?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/6e/22/316e223c-2429-54ee-b9cc-7702fa722a60/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "> 横版竖屏暗黑刷宝 ARPG，摸鱼挂机也能爽刷爆装！\n\n《无尽宝藏》融合放置挂机与暗黑刷宝玩法，主打**轻松摸鱼 + 深度 BD 构筑**双重体验。\n无需繁琐"
+        },
+        {
+          "rank": 49,
+          "name": "黄油猫",
+          "publisher": "Team Woll",
+          "category": "游戏",
+          "app_id": "6749843060",
+          "url": "https://apps.apple.com/cn/app/%E9%BB%84%E6%B2%B9%E7%8C%AB/id6749843060?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/b3/a5/e7b3a55d-79b9-3306-41f0-89693641a1bc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "荒诞又可爱、颠覆物理规则的解谜游戏——黄油猫正式登陆你的手机！\n《黄油猫》是一款像素风益智平台解谜游戏。你需要同时操控猫咪与吐司，在分离与组合之间破解机关，完成"
+        },
+        {
+          "rank": 65,
+          "name": "超萌趣消消 - 货架收纳消除小游戏",
+          "publisher": "梦游",
+          "category": "游戏",
+          "app_id": "6810902589",
+          "url": "https://apps.apple.com/cn/app/%E8%B6%85%E8%90%8C%E8%B6%A3%E6%B6%88%E6%B6%88-%E8%B4%A7%E6%9E%B6%E6%94%B6%E7%BA%B3%E6%B6%88%E9%99%A4%E5%B0%8F%E6%B8%B8%E6%88%8F/id6810902589?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/b7/62/17b7624e-0e9e-fa4a-0adb-4df0843861ca/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "把乱糟糟的货架理整齐，真的会上瘾！\n\n《超萌趣消消》是一款以杂货铺货架为主题的萌系三消手游。滑动手指，把三件相同的商品凑到一起就能消除——零食、饮料、日用品……"
+        },
+        {
+          "rank": 84,
+          "name": "我的盛唐时代",
+          "publisher": "明凯 尹",
+          "category": "游戏",
+          "app_id": "6820919948",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E7%9B%9B%E5%94%90%E6%97%B6%E4%BB%A3/id6820919948?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/e7/7c/0be77cde-d448-f49d-0673-7dcfb1ba21d8/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "梦回盛唐，营建一座属于你的繁华市井。\n\n踏入这幅古色长卷，亲手打造独属于你的长安小城。可滑动的广阔地图上，民宅、酒馆、农田、商铺依次铺展，每一栋建筑随等级提升，"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 97,
+          "name": "カードオブデーモンスレイヤー: デッキ構築ローグライクRPG",
+          "publisher": "cookapps",
+          "category": "ゲーム",
+          "app_id": "6824833886",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AB%E3%83%BC%E3%83%89%E3%82%AA%E3%83%96%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC-%E3%83%87%E3%83%83%E3%82%AD%E6%A7%8B%E7%AF%89%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%82%AFrpg/id6824833886?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/6c/33/866c3342-7a0b-5790-992b-eab94613ef69/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "カードオブデーモンスレイヤー｜デッキ構築型ローグライクRPG\n\n自分だけのデッキを組み、分岐するダンジョンを進むデッキ構築型ローグライクRPG。カードの組み合わ"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 66,
+          "name": "Top Force: 最強指揮官",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6761893238",
+          "url": "https://apps.apple.com/jp/app/top-force-%E6%9C%80%E5%BC%B7%E6%8C%87%E6%8F%AE%E5%AE%98/id6761893238?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/db/cd/a6/dbcda688-44b2-a006-f463-08d2a2fb97aa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Top Forceへようこそ！気軽に楽しめる、爽快な軍事ストラテジーゲームです！\n最前線に軍事基地を建設し、兵士を武装させ、支援を行いながら敵を撃破しましょう！"
+        },
+        {
+          "rank": 70,
+          "name": "SUPERSTAR EBiDAN",
+          "publisher": "DalcomSoft Japan, Inc.",
+          "category": "ゲーム",
+          "app_id": "6450412255",
+          "url": "https://apps.apple.com/jp/app/superstar-ebidan/id6450412255?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/0c/4f/050c4ffc-1387-ffea-bc85-6e654d75edba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【全世界累計1億ダウンロードを突破したSUPERSTARシリーズ！】\n\n▼SUPERSTAR EBiDANとは\nデビュー曲から最新曲がリズムゲームで遊べるEBi"
+        },
+        {
+          "rank": 83,
+          "name": "Line Tangle - 紐解きひもゲームロープ",
+          "publisher": "Shycheese",
+          "category": "ゲーム",
+          "app_id": "6805725616",
+          "url": "https://apps.apple.com/jp/app/line-tangle-%E7%B4%90%E8%A7%A3%E3%81%8D%E3%81%B2%E3%82%82%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%AD%E3%83%BC%E3%83%97/id6805725616?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/bf/5e/36bf5e66-b4e8-92fe-54ac-06a6087b0c95/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "色とりどりの線が絡み合って一枚の絵を形作ります。デザインをほどき、その本当の形を明らかにするのを待っているのはあなたです。ノードをタップするだけで、秩序が少しず"
+        },
+        {
+          "rank": 86,
+          "name": "Mimic Party !",
+          "publisher": "FoliesAPP",
+          "category": "ゲーム",
+          "app_id": "6813545317",
+          "url": "https://apps.apple.com/jp/app/mimic-party/id6813545317?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/9c/af/989caffe-2e75-02e8-7887-26ca753275d5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A 1-5 player online voice party game. You hear a sound, the whole table gets one"
+        },
+        {
+          "rank": 95,
+          "name": "オフラインゲーム - 暇つぶし ゲーム - パズルゲーム",
+          "publisher": "Moreno Maio",
+          "category": "ゲーム",
+          "app_id": "6448104157",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0-%E6%9A%87%E3%81%A4%E3%81%B6%E3%81%97-%E3%82%B2%E3%83%BC%E3%83%A0-%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6448104157?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/d5/34/dcd53487-5c8d-f9b8-b353-008eeb4d43f7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「オフラインゲーム」の準備をしよう：すべての年齢層に楽しい、そして頭脳トレーニングにもなる！このオフラインゲームコレクションは、20以上のユニークなミニゲームが"
+        },
+        {
+          "rank": 100,
+          "name": "オンクレならタイクレ！オンラインクレーンゲーム(オンクレ)",
+          "publisher": "TAITO Corporation",
+          "category": "ゲーム",
+          "app_id": "1276424024",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%B3%E3%82%AF%E3%83%AC%E3%81%AA%E3%82%89%E3%82%BF%E3%82%A4%E3%82%AF%E3%83%AC-%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0-%E3%82%AA%E3%83%B3%E3%82%AF%E3%83%AC/id1276424024?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/db/32/32/db323233-2561-d7cc-168c-333efa817e12/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "「おうちでクレーンゲーム、しよ？」\n人気の景品が５０００種類以上！欲しい景品がきっと見つかる！\n「タイトーオンラインクレーン」、略して「タイクレ」は３６５日２４"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 97,
+          "name": "カードオブデーモンスレイヤー: デッキ構築ローグライクRPG",
+          "publisher": "cookapps",
+          "category": "ゲーム",
+          "app_id": "6824833886",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AB%E3%83%BC%E3%83%89%E3%82%AA%E3%83%96%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC-%E3%83%87%E3%83%83%E3%82%AD%E6%A7%8B%E7%AF%89%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%82%AFrpg/id6824833886?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/6c/33/866c3342-7a0b-5790-992b-eab94613ef69/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "カードオブデーモンスレイヤー｜デッキ構築型ローグライクRPG\n\n自分だけのデッキを組み、分岐するダンジョンを進むデッキ構築型ローグライクRPG。カードの組み合わ"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 6,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 97,
+          "name": "カードオブデーモンスレイヤー: デッキ構築ローグライクRPG",
+          "publisher": "cookapps",
+          "category": "ゲーム",
+          "app_id": "6824833886",
+          "url": "https://apps.apple.com/jp/app/%E3%82%AB%E3%83%BC%E3%83%89%E3%82%AA%E3%83%96%E3%83%87%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC-%E3%83%87%E3%83%83%E3%82%AD%E6%A7%8B%E7%AF%89%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%82%AFrpg/id6824833886?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/6c/33/866c3342-7a0b-5790-992b-eab94613ef69/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "カードオブデーモンスレイヤー｜デッキ構築型ローグライクRPG\n\n自分だけのデッキを組み、分岐するダンジョンを進むデッキ構築型ローグライクRPG。カードの組み合わ"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
