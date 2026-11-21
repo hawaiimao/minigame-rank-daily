@@ -1,0 +1,556 @@
+{
+  "date": "2026-11-21",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "群星漫卡",
+          "publisher": "流光工作室 Chroma Lab",
+          "category": "休闲",
+          "subcategory": "卡牌"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "应征入伍",
+          "publisher": "玄鑫工作室",
+          "category": "射击",
+          "subcategory": "FPS、竞技"
+        },
+        {
+          "rank": 10,
+          "name": "变形金刚：新纪元",
+          "publisher": "Wanda Game",
+          "category": "策略",
+          "subcategory": "剧情、收集"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 6,
+          "name": "群星漫卡",
+          "publisher": "流光工作室 Chroma Lab",
+          "category": "休闲",
+          "subcategory": "卡牌"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "群星漫卡",
+          "publisher": "流光工作室 Chroma Lab",
+          "category": "休闲",
+          "subcategory": "卡牌"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 99,
+          "name": "Manhunt: Hide and Seek",
+          "publisher": "Integrated Reality Labs Inc.",
+          "category": "Games",
+          "app_id": "6560107504",
+          "url": "https://apps.apple.com/us/app/manhunt-hide-and-seek/id6560107504?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/39/11/653911c7-7cf7-5755-b9f3-5f7372ebd582/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Play Manhunt and Hide & Seek anywhere in the world. With extensive location find"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 53,
+          "name": "Pokémon GO",
+          "publisher": "Scopely Explore, Inc.",
+          "category": "Games",
+          "app_id": "1094591345",
+          "url": "https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/7b/eb/d67beb51-9b15-fa10-ee24-7d600eaab720/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Join Trainers across the globe who are discovering Pokémon as they explore the w"
+        },
+        {
+          "rank": 58,
+          "name": "Charades Guess Game · Guessly",
+          "publisher": "smak apps",
+          "category": "Games",
+          "app_id": "6473058122",
+          "url": "https://apps.apple.com/us/app/charades-guess-game-guessly/id6473058122?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/70/4d/7c704daf-029f-d808-9300-dc4928fded70/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.jpeg/100x100bb.png",
+          "slogan": "Ready to turn ordinary hangouts into unforgettable moments? Meet Guessly — a cha"
+        },
+        {
+          "rank": 63,
+          "name": "Imposter Game - Party Edition",
+          "publisher": "Sven Vucak",
+          "category": "Games",
+          "app_id": "6745120053",
+          "url": "https://apps.apple.com/us/app/imposter-game-party-edition/id6745120053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/a0/85/50a08576-3d84-7b5c-8832-74772aa652b8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Are you the imposter - or will you expose them?\n\nImposter is the perfect game fo"
+        },
+        {
+          "rank": 83,
+          "name": "GOGO! Blast",
+          "publisher": "Nebula Studio",
+          "category": "Games",
+          "app_id": "6776522053",
+          "url": "https://apps.apple.com/us/app/gogo-blast/id6776522053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/24/f2/99/24f29949-e276-3423-ea40-f52926ffbdb1/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "GOGO! Blast is a satisfying arrow puzzle game where you tap arrows in the correc"
+        },
+        {
+          "rank": 89,
+          "name": "OneState RP: Role Play Online",
+          "publisher": "CHILLBASE LTD",
+          "category": "Games",
+          "app_id": "1597760047",
+          "url": "https://apps.apple.com/us/app/onestate-rp-role-play-online/id1597760047?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/8a/75/1b8a756b-0d05-9df4-0bca-fa56431b4f74/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "OneState – Live Free, Play Real\n\nIn OneState, real players run everything — the "
+        },
+        {
+          "rank": 90,
+          "name": "Treasure Masters",
+          "publisher": "Gimica GmbH",
+          "category": "Games",
+          "app_id": "6444407009",
+          "url": "https://apps.apple.com/us/app/treasure-masters/id6444407009?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/fe/26/11fe261a-6a1c-09b7-263b-f3cf62d95b6a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Treasure Masters will take you on an endless treasure hunt! \n\nDifferent Monsters"
+        },
+        {
+          "rank": 92,
+          "name": "Number Match - Numbers Game",
+          "publisher": "Easybrain Ltd",
+          "category": "Games",
+          "app_id": "1545567989",
+          "url": "https://apps.apple.com/us/app/number-match-numbers-game/id1545567989?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/94/f1/e994f156-b69c-3c32-14b8-ee41abdce30c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Number Match is an addictive puzzle game with simple rules: match pairs and clea"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 7,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 99,
+          "name": "Manhunt: Hide and Seek",
+          "publisher": "Integrated Reality Labs Inc.",
+          "category": "Games",
+          "app_id": "6560107504",
+          "url": "https://apps.apple.com/us/app/manhunt-hide-and-seek/id6560107504?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/39/11/653911c7-7cf7-5755-b9f3-5f7372ebd582/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Play Manhunt and Hide & Seek anywhere in the world. With extensive location find"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 73,
+          "name": "得意满满-闲趣喵旅",
+          "publisher": "雅婷 樊",
+          "category": "游戏",
+          "app_id": "6834297973",
+          "url": "https://apps.apple.com/cn/app/%E5%BE%97%E6%84%8F%E6%BB%A1%E6%BB%A1-%E9%97%B2%E8%B6%A3%E5%96%B5%E6%97%85/id6834297973?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/65/de/4765dea5-26ac-bb91-af24-4d3db62265bc/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "化身为软乎乎的小猫，踏入梦幻的极光城堡，开启一场温柔有趣的奇妙漫游！这里藏着十处风格各异的秘境，每一处都藏着独属于它的小游戏，玩法各不相同，新鲜感永不落幕。\n来"
+        },
+        {
+          "rank": 85,
+          "name": "航海大厨:  烹饪游戏",
+          "publisher": "Nordcurrent UAB",
+          "category": "游戏",
+          "app_id": "6793120047",
+          "url": "https://apps.apple.com/cn/app/%E8%88%AA%E6%B5%B7%E5%A4%A7%E5%8E%A8-%E7%83%B9%E9%A5%AA%E6%B8%B8%E6%88%8F/id6793120047?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/41/e7/5241e7c9-6a0b-0581-80d9-b1db1563a7b9/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "与《航海大厨》一起扬帆启航！这是一款令人欲罢不能的豪华邮轮时间管理趣味烹饪游戏，由《飞机大厨》和《烹饪发烧友》的原班人马倾力打造！\n\n登上邮轮，立即开启一场美味"
+        },
+        {
+          "rank": 92,
+          "name": "迷失",
+          "publisher": "咪咕互动娱乐有限公司",
+          "category": "游戏",
+          "app_id": "6801017547",
+          "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E5%A4%B1/id6801017547?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/d2/e5/82d2e558-0ff0-1550-72b5-56cde989e3ac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《迷失：恐龙纪元》是一款将恐龙驯化、塔防与长线策略结合的竖屏冰雪末世生存游戏。冰封灾难席卷世界，旧文明在严寒中崩塌，沉睡于远古时代的巨兽再次出现在冰原之上。面对"
+        },
+        {
+          "rank": 96,
+          "name": "累趴侠",
+          "publisher": "Ming Gao",
+          "category": "游戏",
+          "app_id": "6751429694",
+          "url": "https://apps.apple.com/cn/app/%E7%B4%AF%E8%B6%B4%E4%BE%A0/id6751429694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/ad/40/d6ad40ba-b381-03ea-4618-297faa38adbd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "累趴侠是一款物理喜剧游戏，你要帮助一个疲惫至极的人熬过对他（她）至关重要的一晚。趴着做任何事，依据你的品位布置房间，根据你的选择迎来今晚的结局。\n\n特点：\n• "
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 27,
+          "name": "超自然行动组",
+          "publisher": "巨人网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6544797261",
+          "url": "https://apps.apple.com/cn/app/%E8%B6%85%E8%87%AA%E7%84%B6%E8%A1%8C%E5%8A%A8%E7%BB%84/id6544797261?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/32/2c/0f322cd8-5dfd-7c13-5297-f350677b3ab1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一个人玩是恐怖游戏，两个人玩是冒险游戏，三个人玩是寻宝游戏，四个人玩是搞笑游戏， 《超自然行动组》作为首款多人组队欢乐恐怖游戏，为你和你的朋友带来多种多样的游戏"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 80,
+          "name": "崩坏：星穹铁道",
+          "publisher": "miHoYo Games",
+          "category": "游戏",
+          "app_id": "1523037824",
+          "url": "https://apps.apple.com/cn/app/%E5%B4%A9%E5%9D%8F-%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93/id1523037824?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/96/83/7996837b-22e5-4eec-f395-150b8cfc3ca1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "这片银河中有名为「星神」的存在，祂们造就现实，抹消星辰，在无数「世界」中留下祂们的痕迹。你——一名特殊的旅客，将与继承「开拓」意志的同伴一起，乘坐星穹列车穿越银"
+        },
+        {
+          "rank": 89,
+          "name": "老大来找茬 - 打工人日记",
+          "publisher": "松焕 麦",
+          "category": "游戏",
+          "app_id": "6779230226",
+          "url": "https://apps.apple.com/cn/app/%E8%80%81%E5%A4%A7%E6%9D%A5%E6%89%BE%E8%8C%AC-%E6%89%93%E5%B7%A5%E4%BA%BA%E6%97%A5%E8%AE%B0/id6779230226?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/1d/8a/151d8ac5-301b-b989-b84a-53b234a07cb5/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "打工人专属解压找茬！\n赛博霓虹风格的职场场景中，潜藏着老板不想让你发现的\"茬点\"——摸鱼现场、会议迷宫、加班深夜……每一关都是打工人的真实写照。限时挑战考验眼力"
+        },
+        {
+          "rank": 91,
+          "name": "绝区零",
+          "publisher": "miHoYo Games",
+          "category": "游戏",
+          "app_id": "1606359076",
+          "url": "https://apps.apple.com/cn/app/%E7%BB%9D%E5%8C%BA%E9%9B%B6/id1606359076?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/68/b9/9668b943-f1f8-8a86-57b0-978e1527b35f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "不要进入空洞。\n我知道我知道，空洞里有以太资源、有异化造物、甚至有旧文明的遗产，全都是珍贵的财富。\n但是别忘了，那里面空间紊乱，怪物肆虐，异变横生，终究是一场吞"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 73,
+          "name": "得意满满-闲趣喵旅",
+          "publisher": "雅婷 樊",
+          "category": "游戏",
+          "app_id": "6834297973",
+          "url": "https://apps.apple.com/cn/app/%E5%BE%97%E6%84%8F%E6%BB%A1%E6%BB%A1-%E9%97%B2%E8%B6%A3%E5%96%B5%E6%97%85/id6834297973?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/65/de/4765dea5-26ac-bb91-af24-4d3db62265bc/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "化身为软乎乎的小猫，踏入梦幻的极光城堡，开启一场温柔有趣的奇妙漫游！这里藏着十处风格各异的秘境，每一处都藏着独属于它的小游戏，玩法各不相同，新鲜感永不落幕。\n来"
+        },
+        {
+          "rank": 92,
+          "name": "迷失",
+          "publisher": "咪咕互动娱乐有限公司",
+          "category": "游戏",
+          "app_id": "6801017547",
+          "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E5%A4%B1/id6801017547?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/d2/e5/82d2e558-0ff0-1550-72b5-56cde989e3ac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《迷失：恐龙纪元》是一款将恐龙驯化、塔防与长线策略结合的竖屏冰雪末世生存游戏。冰封灾难席卷世界，旧文明在严寒中崩塌，沉睡于远古时代的巨兽再次出现在冰原之上。面对"
+        },
+        {
+          "rank": 96,
+          "name": "累趴侠",
+          "publisher": "Ming Gao",
+          "category": "游戏",
+          "app_id": "6751429694",
+          "url": "https://apps.apple.com/cn/app/%E7%B4%AF%E8%B6%B4%E4%BE%A0/id6751429694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/ad/40/d6ad40ba-b381-03ea-4618-297faa38adbd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "累趴侠是一款物理喜剧游戏，你要帮助一个疲惫至极的人熬过对他（她）至关重要的一晚。趴着做任何事，依据你的品位布置房间，根据你的选择迎来今晚的结局。\n\n特点：\n• "
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 3,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 27,
+          "name": "超自然行动组",
+          "publisher": "巨人网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6544797261",
+          "url": "https://apps.apple.com/cn/app/%E8%B6%85%E8%87%AA%E7%84%B6%E8%A1%8C%E5%8A%A8%E7%BB%84/id6544797261?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/32/2c/0f322cd8-5dfd-7c13-5297-f350677b3ab1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一个人玩是恐怖游戏，两个人玩是冒险游戏，三个人玩是寻宝游戏，四个人玩是搞笑游戏， 《超自然行动组》作为首款多人组队欢乐恐怖游戏，为你和你的朋友带来多种多样的游戏"
+        },
+        {
+          "rank": 73,
+          "name": "得意满满-闲趣喵旅",
+          "publisher": "雅婷 樊",
+          "category": "游戏",
+          "app_id": "6834297973",
+          "url": "https://apps.apple.com/cn/app/%E5%BE%97%E6%84%8F%E6%BB%A1%E6%BB%A1-%E9%97%B2%E8%B6%A3%E5%96%B5%E6%97%85/id6834297973?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/65/de/4765dea5-26ac-bb91-af24-4d3db62265bc/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "化身为软乎乎的小猫，踏入梦幻的极光城堡，开启一场温柔有趣的奇妙漫游！这里藏着十处风格各异的秘境，每一处都藏着独属于它的小游戏，玩法各不相同，新鲜感永不落幕。\n来"
+        },
+        {
+          "rank": 85,
+          "name": "航海大厨:  烹饪游戏",
+          "publisher": "Nordcurrent UAB",
+          "category": "游戏",
+          "app_id": "6793120047",
+          "url": "https://apps.apple.com/cn/app/%E8%88%AA%E6%B5%B7%E5%A4%A7%E5%8E%A8-%E7%83%B9%E9%A5%AA%E6%B8%B8%E6%88%8F/id6793120047?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/41/e7/5241e7c9-6a0b-0581-80d9-b1db1563a7b9/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "与《航海大厨》一起扬帆启航！这是一款令人欲罢不能的豪华邮轮时间管理趣味烹饪游戏，由《飞机大厨》和《烹饪发烧友》的原班人马倾力打造！\n\n登上邮轮，立即开启一场美味"
+        },
+        {
+          "rank": 92,
+          "name": "迷失",
+          "publisher": "咪咕互动娱乐有限公司",
+          "category": "游戏",
+          "app_id": "6801017547",
+          "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E5%A4%B1/id6801017547?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/d2/e5/82d2e558-0ff0-1550-72b5-56cde989e3ac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《迷失：恐龙纪元》是一款将恐龙驯化、塔防与长线策略结合的竖屏冰雪末世生存游戏。冰封灾难席卷世界，旧文明在严寒中崩塌，沉睡于远古时代的巨兽再次出现在冰原之上。面对"
+        },
+        {
+          "rank": 96,
+          "name": "累趴侠",
+          "publisher": "Ming Gao",
+          "category": "游戏",
+          "app_id": "6751429694",
+          "url": "https://apps.apple.com/cn/app/%E7%B4%AF%E8%B6%B4%E4%BE%A0/id6751429694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/ad/40/d6ad40ba-b381-03ea-4618-297faa38adbd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "累趴侠是一款物理喜剧游戏，你要帮助一个疲惫至极的人熬过对他（她）至关重要的一晚。趴着做任何事，依据你的品位布置房间，根据你的选择迎来今晚的结局。\n\n特点：\n• "
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 13,
+          "name": "Cube Smash - キューブパズル",
+          "publisher": "Combo Games",
+          "category": "ゲーム",
+          "app_id": "6786206777",
+          "url": "https://apps.apple.com/jp/app/cube-smash-%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%96%E3%83%91%E3%82%BA%E3%83%AB/id6786206777?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/a4/26/10a42662-3f8e-547d-d32e-04c2ba8d6ba3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Cube Smash - キューブパズルは、タップするたびに同じ色のキューブが消え、カラフルな立体作品を少しずつ崩していく、爽快な3Dパズルゲームです。遊び方は"
+        },
+        {
+          "rank": 74,
+          "name": "Sand Hole: Block Sort Jam",
+          "publisher": "Tripledot Studios",
+          "category": "ゲーム",
+          "app_id": "6795585457",
+          "url": "https://apps.apple.com/jp/app/sand-hole-block-sort-jam/id6795585457?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d7/90/7c/d7907c11-a31c-7761-36ec-143b6ef144e2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Sand Hole: Block Sort Jam is a color sort puzzle where the sand really moves.\n\nD"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 84,
+          "name": "Tank Busters: Cannon Battle",
+          "publisher": "SayGames LTD",
+          "category": "ゲーム",
+          "app_id": "6818465459",
+          "url": "https://apps.apple.com/jp/app/tank-busters-cannon-battle/id6818465459?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/2a/6f/042a6fa1-9f6a-2640-bf3f-ce91b71f83ae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "TANK BATTLES WHERE EVERYTHING BREAKS\n\nAim your cannon, choose the perfect angle,"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 78,
+          "name": "Pokémon TCG Pocket",
+          "publisher": "The Pokemon Company",
+          "category": "ゲーム",
+          "app_id": "6479970832",
+          "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-tcg-pocket/id6479970832?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cc/36/be/cc36be7e-34a8-367e-5ebb-343175027e2a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『ポケポケ』は世界150の国と地域で遊ばれているアプリです。\nいつでもどこでもスマホで『ポケモンカード』を気軽に楽しもう！\n\n■毎日パックを開封してカードを手に"
+        },
+        {
+          "rank": 79,
+          "name": "トラベルソート：カラー＆マッチ (Travel Sort)",
+          "publisher": "Happy Hour Games",
+          "category": "ゲーム",
+          "app_id": "6751308308",
+          "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88-%E3%82%AB%E3%83%A9%E3%83%BC-%E3%83%9E%E3%83%83%E3%83%81-travel-sort/id6751308308?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/cd/26/45cd2654-d831-6f3a-0a75-6ef36997a000/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "トラベルソートで、水を注いで、色をそろえて、リラックス！\nカラフルな水をボトルからボトルへ注ぎ、すべてのボトルを1色ずつそろえましょう。ルールは簡単ですが、隠れ"
+        },
+        {
+          "rank": 92,
+          "name": "スチームパンク：クロノ要塞",
+          "publisher": "Flame Games",
+          "category": "ゲーム",
+          "app_id": "6787008950",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%81%E3%83%BC%E3%83%A0%E3%83%91%E3%83%B3%E3%82%AF-%E3%82%AF%E3%83%AD%E3%83%8E%E8%A6%81%E5%A1%9E/id6787008950?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/03/1b/8b031ba5-8fa5-6010-0dd3-ea415b175ff6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "源質の暴動、時空を超えた冒険へ――\n\n蒸気パンク末世に蠢く怪獣軍団。\n個性豊かな英雄たちと共に、移動要塞で文明最後の砦を守れ!\n指揮官よ、廃土大陸で機動作戦を展"
+        },
+        {
+          "rank": 93,
+          "name": "魔法のタイルズ 3™: 音ゲー ピアノタイル",
+          "publisher": "Amanotes Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "1443446174",
+          "url": "https://apps.apple.com/jp/app/%E9%AD%94%E6%B3%95%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%BA-3-%E9%9F%B3%E3%82%B2%E3%83%BC-%E3%83%94%E3%82%A2%E3%83%8E%E3%82%BF%E3%82%A4%E3%83%AB/id1443446174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/09/85/2109855a-4b74-8685-6801-b0b2c3756364/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一年で一番大切な瞬間を、リズムにのって楽しみましょう！ヒット曲のビートで、魂ごとを音楽にのせていきましょう。\n\n\nMagic Tiles 3では、ポップス、ラッ"
+        },
+        {
+          "rank": 95,
+          "name": "Color Puzzle Jam - バスゲーム 車のジャム",
+          "publisher": "Gloryway Puzzle",
+          "category": "ゲーム",
+          "app_id": "6760389476",
+          "url": "https://apps.apple.com/jp/app/color-puzzle-jam-%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0-%E8%BB%8A%E3%81%AE%E3%82%B8%E3%83%A3%E3%83%A0/id6760389476?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/eb/e7/01ebe759-bfac-499d-eb6c-610065cbc9ab/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "魅力的でハマるパズルアドベンチャーへようこそ！あなたの使命は、ぎっしり詰まった駐車場を空にすること。タップして車を出し、同じ色の待ち客を乗せて列を消していこう。"
+        },
+        {
+          "rank": 96,
+          "name": "Pikmin Bloom",
+          "publisher": "Scopely Explore, Inc.",
+          "category": "ゲーム",
+          "app_id": "1556357398",
+          "url": "https://apps.apple.com/jp/app/pikmin-bloom/id1556357398?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/17/b2/b517b2cc-2cd5-2ed5-edd6-3a2097a6517b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "歩くのが楽しくなるアプリ。\n\nPikmin Bloom があれば、ちょっとしたお散歩や毎日の通勤も、今日からはピクミンたちとの楽しいおでかけに。\n\n新しく追加し"
+        },
+        {
+          "rank": 99,
+          "name": "荒野行動-スマホ版バトロワ",
+          "publisher": "NetEase Games",
+          "category": "ゲーム",
+          "app_id": "1312031248",
+          "url": "https://apps.apple.com/jp/app/%E8%8D%92%E9%87%8E%E8%A1%8C%E5%8B%95-%E3%82%B9%E3%83%9E%E3%83%9B%E7%89%88%E3%83%90%E3%83%88%E3%83%AD%E3%83%AF/id1312031248?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/30/65/ee3065c0-8252-076e-3daf-8b13ecfa10e4/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "荒野×コードギアスコラボ好評開催中！\nイベント参加で最大35連分、「C.C.拘束衣Ver.」＆ボイスパックなどをGET！さらにルルーシュとC.C.を切り替えて楽"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 7,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 13,
+          "name": "Cube Smash - キューブパズル",
+          "publisher": "Combo Games",
+          "category": "ゲーム",
+          "app_id": "6786206777",
+          "url": "https://apps.apple.com/jp/app/cube-smash-%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%96%E3%83%91%E3%82%BA%E3%83%AB/id6786206777?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/a4/26/10a42662-3f8e-547d-d32e-04c2ba8d6ba3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Cube Smash - キューブパズルは、タップするたびに同じ色のキューブが消え、カラフルな立体作品を少しずつ崩していく、爽快な3Dパズルゲームです。遊び方は"
+        },
+        {
+          "rank": 74,
+          "name": "Sand Hole: Block Sort Jam",
+          "publisher": "Tripledot Studios",
+          "category": "ゲーム",
+          "app_id": "6795585457",
+          "url": "https://apps.apple.com/jp/app/sand-hole-block-sort-jam/id6795585457?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d7/90/7c/d7907c11-a31c-7761-36ec-143b6ef144e2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Sand Hole: Block Sort Jam is a color sort puzzle where the sand really moves.\n\nD"
+        },
+        {
+          "rank": 84,
+          "name": "Tank Busters: Cannon Battle",
+          "publisher": "SayGames LTD",
+          "category": "ゲーム",
+          "app_id": "6818465459",
+          "url": "https://apps.apple.com/jp/app/tank-busters-cannon-battle/id6818465459?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/2a/6f/042a6fa1-9f6a-2640-bf3f-ce91b71f83ae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "TANK BATTLES WHERE EVERYTHING BREAKS\n\nAim your cannon, choose the perfect angle,"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
