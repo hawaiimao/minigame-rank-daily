@@ -1,0 +1,554 @@
+{
+  "date": "2026-11-22",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "千次初见",
+          "publisher": "苏州沁游网络科技有限公司",
+          "category": "换装",
+          "subcategory": "恋爱、古风、角色扮演、剧情、穿越"
+        },
+        {
+          "rank": 10,
+          "name": "龙岛异兽起源",
+          "publisher": "微乐游戏",
+          "category": "生存",
+          "subcategory": "开放世界、冒险、恐龙"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 56,
+          "name": "Tidy Room!",
+          "publisher": "Circle Games",
+          "category": "Games",
+          "app_id": "6831317859",
+          "url": "https://apps.apple.com/us/app/tidy-room/id6831317859?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/7f/5e/6f7f5ec0-7bf8-cec6-f7f9-29642e63c0d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A bedroom floor full of stray things. A kitchen counter lost under mugs. A study"
+        },
+        {
+          "rank": 96,
+          "name": "Enjoy - AI Town",
+          "publisher": "Enjoy Global, Inc.",
+          "category": "Games",
+          "app_id": "6468901311",
+          "url": "https://apps.apple.com/us/app/enjoy-ai-town/id6468901311?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/7f/57/577f57ef-7f54-6a0d-a9ce-bdbe4033218c/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the world of Enjoy and meet any or all of its thousands of residents. "
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 44,
+          "name": "Tank Busters: Cannon Battle",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6818465459",
+          "url": "https://apps.apple.com/us/app/tank-busters-cannon-battle/id6818465459?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/2a/6f/042a6fa1-9f6a-2640-bf3f-ce91b71f83ae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "TANK BATTLES WHERE EVERYTHING BREAKS\n\nAim your cannon, choose the perfect angle,"
+        },
+        {
+          "rank": 85,
+          "name": "Meta Horizon",
+          "publisher": "Meta Platforms, Inc.",
+          "category": "Games",
+          "app_id": "1366478176",
+          "url": "https://apps.apple.com/us/app/meta-horizon/id1366478176?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/da/f8/45daf8fc-1c91-4c2c-c27c-a65532ee86bf/AppIcon-MetaHorizon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Discover Meta Horizon - where play, connection, and creativity come together.\n\nJ"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 61,
+          "name": "Charades - Family & Party Game",
+          "publisher": "Dmytro Cheverda",
+          "category": "Games",
+          "app_id": "1453837845",
+          "url": "https://apps.apple.com/us/app/charades-family-party-game/id1453837845?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/27/04/ac270450-57e8-4093-517c-f2c5d7a4c8c8/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+          "slogan": "Fun and easy to play game will cheer up your party or family gathering.\n\nGuess t"
+        },
+        {
+          "rank": 82,
+          "name": "Foodstars: Merge & Cook",
+          "publisher": "Happibits",
+          "category": "Games",
+          "app_id": "6753862216",
+          "url": "https://apps.apple.com/us/app/foodstars-merge-cook/id6753862216?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/05/bc/d405bc1a-fe82-9f37-9191-a0a6a4959d25/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Dream of becoming a Star Chef? Now’s your chance!\nEver imagined learning the sec"
+        },
+        {
+          "rank": 92,
+          "name": "Bulldozer Master: Crush & Mine",
+          "publisher": "Supercent, Inc.",
+          "category": "Games",
+          "app_id": "6747710694",
+          "url": "https://apps.apple.com/us/app/bulldozer-master-crush-mine/id6747710694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/9d/ea/e69dea06-4b3d-95b2-896a-d6f3b0d7ec14/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get behind the wheel of powerful bulldozers, grab your pickaxe, and dig your way"
+        },
+        {
+          "rank": 94,
+          "name": "We Are Cooking",
+          "publisher": "Matryoshka Games (CY) LTD",
+          "category": "Games",
+          "app_id": "6498920694",
+          "url": "https://apps.apple.com/us/app/we-are-cooking/id6498920694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/4b/0e/614b0e03-f48b-3507-9382-cd04a92c51b4/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to We Are Cooking, a game designed for food lovers who enjoy cooking at "
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 56,
+          "name": "Tidy Room!",
+          "publisher": "Circle Games",
+          "category": "Games",
+          "app_id": "6831317859",
+          "url": "https://apps.apple.com/us/app/tidy-room/id6831317859?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/7f/5e/6f7f5ec0-7bf8-cec6-f7f9-29642e63c0d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A bedroom floor full of stray things. A kitchen counter lost under mugs. A study"
+        },
+        {
+          "rank": 85,
+          "name": "Meta Horizon",
+          "publisher": "Meta Platforms, Inc.",
+          "category": "Games",
+          "app_id": "1366478176",
+          "url": "https://apps.apple.com/us/app/meta-horizon/id1366478176?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/da/f8/45daf8fc-1c91-4c2c-c27c-a65532ee86bf/AppIcon-MetaHorizon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Discover Meta Horizon - where play, connection, and creativity come together.\n\nJ"
+        },
+        {
+          "rank": 96,
+          "name": "Enjoy - AI Town",
+          "publisher": "Enjoy Global, Inc.",
+          "category": "Games",
+          "app_id": "6468901311",
+          "url": "https://apps.apple.com/us/app/enjoy-ai-town/id6468901311?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/7f/57/577f57ef-7f54-6a0d-a9ce-bdbe4033218c/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the world of Enjoy and meet any or all of its thousands of residents. "
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 4,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 44,
+          "name": "Tank Busters: Cannon Battle",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6818465459",
+          "url": "https://apps.apple.com/us/app/tank-busters-cannon-battle/id6818465459?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/2a/6f/042a6fa1-9f6a-2640-bf3f-ce91b71f83ae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "TANK BATTLES WHERE EVERYTHING BREAKS\n\nAim your cannon, choose the perfect angle,"
+        },
+        {
+          "rank": 56,
+          "name": "Tidy Room!",
+          "publisher": "Circle Games",
+          "category": "Games",
+          "app_id": "6831317859",
+          "url": "https://apps.apple.com/us/app/tidy-room/id6831317859?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/7f/5e/6f7f5ec0-7bf8-cec6-f7f9-29642e63c0d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A bedroom floor full of stray things. A kitchen counter lost under mugs. A study"
+        },
+        {
+          "rank": 85,
+          "name": "Meta Horizon",
+          "publisher": "Meta Platforms, Inc.",
+          "category": "Games",
+          "app_id": "1366478176",
+          "url": "https://apps.apple.com/us/app/meta-horizon/id1366478176?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/da/f8/45daf8fc-1c91-4c2c-c27c-a65532ee86bf/AppIcon-MetaHorizon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Discover Meta Horizon - where play, connection, and creativity come together.\n\nJ"
+        },
+        {
+          "rank": 96,
+          "name": "Enjoy - AI Town",
+          "publisher": "Enjoy Global, Inc.",
+          "category": "Games",
+          "app_id": "6468901311",
+          "url": "https://apps.apple.com/us/app/enjoy-ai-town/id6468901311?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/7f/57/577f57ef-7f54-6a0d-a9ce-bdbe4033218c/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the world of Enjoy and meet any or all of its thousands of residents. "
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 11,
+          "name": "土豆兄弟(Brotato)",
+          "publisher": "杭州星帆广告传媒有限公司",
+          "category": "游戏",
+          "app_id": "1672897666",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%9F%E8%B1%86%E5%85%84%E5%BC%9F-brotato/id1672897666?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/72/08/3e72081e-1788-1d25-3390-6587754842b0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Steam好评如潮的正版授权移植肉鸽爽游！超2万玩家97%好评如潮！\n《土豆兄弟》是一款融合弹幕射击、割草生存与Roguelike构筑的动作游戏。你将操控能够同"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 86,
+          "name": "明日方舟：终末地",
+          "publisher": "Shanghai Hypergryph Talos Network Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6753859465",
+          "url": "https://apps.apple.com/cn/app/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F-%E7%BB%88%E6%9C%AB%E5%9C%B0/id6753859465?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/73/70/7f7370d4-6f46-19fe-0941-b24e9713f5e2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《明日方舟：终末地》是一款由鹰角网络自研的3D即时策略RPG，玩家将作为终末地工业的管理员，逐步探索塔卫二，揭开属于这颗星球的秘密，保卫和拓展人类文明的边疆。\n"
+        },
+        {
+          "rank": 93,
+          "name": "极品飞车：集结",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1598249037",
+          "url": "https://apps.apple.com/cn/app/%E6%9E%81%E5%93%81%E9%A3%9E%E8%BD%A6-%E9%9B%86%E7%BB%93/id1598249037?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/bb/8d/7bbb8d29-a2b0-fe15-b7b3-3c5c36c77074/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【开放世界 自由探索】\n欢迎来到一亿平米热湾大世界，在这里，12种风貌各异的区域，20个地标以及500个玩法点等你来探索。高自由度地图搭配上丰富的单人以及多人玩"
+        },
+        {
+          "rank": 95,
+          "name": "我的汤姆猫2-地下探险万圣主题派对",
+          "publisher": "Outfit7 Limited",
+          "category": "游戏",
+          "app_id": "1337578317",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E6%B1%A4%E5%A7%86%E7%8C%AB2-%E5%9C%B0%E4%B8%8B%E6%8E%A2%E9%99%A9%E4%B8%87%E5%9C%A3%E4%B8%BB%E9%A2%98%E6%B4%BE%E5%AF%B9/id1337578317?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/33/8c/48338ca0-12aa-eb38-5736-c9ea4b3ec577/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/100x100bb.png",
+          "slogan": "超级明星虚拟猫咪将踏上终极宠物冒险之旅，有了你，这将比以往任何时候都更有趣！你最喜爱的有趣朋友已经准备好用他的新服装、惊人技能和特殊功能让你大开眼界。\n\n你能做"
+        },
+        {
+          "rank": 97,
+          "name": "王牌竞速-车姬",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1570194962",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E7%89%8C%E7%AB%9E%E9%80%9F-%E8%BD%A6%E5%A7%AC/id1570194962?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/b0/83/84b0837e-90f3-e1b7-09be-a1b2ca948f28/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【开车放大招——漂移逮虾户，不飙寻常路】\n闪现穿墙、变形凌空、狂野冲锋，每台车都拥有专属大招！大招一开，你就是王牌！\n创新不按套路的开车游戏才好玩！\n\n【全实景"
+        },
+        {
+          "rank": 99,
+          "name": "香肠派对",
+          "publisher": "X.D. Network Inc.",
+          "category": "游戏",
+          "app_id": "1326730621",
+          "url": "https://apps.apple.com/cn/app/%E9%A6%99%E8%82%A0%E6%B4%BE%E5%AF%B9/id1326730621?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/61/b3/0d61b3ac-9149-be0b-1468-ffdd6e4a3d5a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "SS27赛季：创造与破坏 肆意的建造还是疯狂的破坏由你来决定！\n\n经典派对新武器—砖砖发射器，支持实时搭建与拆解建筑结构，战术维度全面升级！新武器—QLU-11"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 11,
+          "name": "土豆兄弟(Brotato)",
+          "publisher": "杭州星帆广告传媒有限公司",
+          "category": "游戏",
+          "app_id": "1672897666",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%9F%E8%B1%86%E5%85%84%E5%BC%9F-brotato/id1672897666?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/72/08/3e72081e-1788-1d25-3390-6587754842b0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Steam好评如潮的正版授权移植肉鸽爽游！超2万玩家97%好评如潮！\n《土豆兄弟》是一款融合弹幕射击、割草生存与Roguelike构筑的动作游戏。你将操控能够同"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 5,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 11,
+          "name": "土豆兄弟(Brotato)",
+          "publisher": "杭州星帆广告传媒有限公司",
+          "category": "游戏",
+          "app_id": "1672897666",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%9F%E8%B1%86%E5%85%84%E5%BC%9F-brotato/id1672897666?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/72/08/3e72081e-1788-1d25-3390-6587754842b0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Steam好评如潮的正版授权移植肉鸽爽游！超2万玩家97%好评如潮！\n《土豆兄弟》是一款融合弹幕射击、割草生存与Roguelike构筑的动作游戏。你将操控能够同"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 53,
+          "name": "Tidy Room!",
+          "publisher": "Circle Games",
+          "category": "ゲーム",
+          "app_id": "6831317859",
+          "url": "https://apps.apple.com/jp/app/tidy-room/id6831317859?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/7f/5e/6f7f5ec0-7bf8-cec6-f7f9-29642e63c0d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A bedroom floor full of stray things. A kitchen counter lost under mugs. A study"
+        },
+        {
+          "rank": 59,
+          "name": "ソフトテニススタジアム",
+          "publisher": "Odenplan Lab",
+          "category": "ゲーム",
+          "app_id": "6833251224",
+          "url": "https://apps.apple.com/jp/app/%E3%82%BD%E3%83%95%E3%83%88%E3%83%86%E3%83%8B%E3%82%B9%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%A2%E3%83%A0/id6833251224?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/dc/39/85dc3924-6bae-a606-e3da-158fa1b22f21/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "ソフトテニスを、スマホで。ダブルスもシングルスも。\n前衛も、後衛も。部活の友達と対戦しよう。\n\n■ 友達と（フレンド部屋）\n・部屋を作って、6けたの部屋の番号を"
+        },
+        {
+          "rank": 88,
+          "name": "呪術廻戦 ファントムパレード",
+          "publisher": "Sumzap Inc.",
+          "category": "ゲーム",
+          "app_id": "1551798277",
+          "url": "https://apps.apple.com/jp/app/%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6-%E3%83%95%E3%82%A1%E3%83%B3%E3%83%88%E3%83%A0%E3%83%91%E3%83%AC%E3%83%BC%E3%83%89/id1551798277?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fb/41/3e/fb413e3f-de67-e0cc-27f9-a7fd332c417f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『呪術廻戦 ファントムパレード（ファンパレ）』とは\n\n\n◆”TVアニメ”の世界観と”ゲーム”ならではの『呪術廻戦』の物語◆\n\nアニメのストーリーを新規フルボイス"
+        },
+        {
+          "rank": 89,
+          "name": "サクラスクールシミュレーター",
+          "publisher": "Garusoft LLC",
+          "category": "ゲーム",
+          "app_id": "1439434588",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B5%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/id1439434588?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/c5/6b/75c56bcb-514a-6f38-a92b-63f942ba67eb/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "高校と小さな街で、生徒や住人と交流しながら生活していくシミュレーションゲームです。\nバトルなどのミッションもあります。（更新で少しずつ増えていきます。）\nはちゃ"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 92,
+          "name": "Mob Control",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "1562817072",
+          "url": "https://apps.apple.com/jp/app/mob-control/id1562817072?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/c1/6b/f5c16bad-fb7c-9087-a981-7fc2c8a50604/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "導き、増やし、征服せよ！Mob Controlは、モブを成長させ、強力なChampionsを配置し、敵の基地を粉砕する、スリリングなtower defenseア"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 71,
+          "name": "Bulldozer Master: 壊して採掘",
+          "publisher": "Supercent, Inc.",
+          "category": "ゲーム",
+          "app_id": "6747710694",
+          "url": "https://apps.apple.com/jp/app/bulldozer-master-%E5%A3%8A%E3%81%97%E3%81%A6%E6%8E%A1%E6%8E%98/id6747710694?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/9d/ea/e69dea06-4b3d-95b2-896a-d6f3b0d7ec14/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "強力なブルドーザーのハンドルを握り、ツルハシを手に取り、採掘帝国へと掘り進もう！\nBulldozer Masterでは、豊かな採掘ゾーンを探索し、鉱石を砕き、希"
+        },
+        {
+          "rank": 96,
+          "name": "ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG",
+          "publisher": "SQUARE ENIX",
+          "category": "ゲーム",
+          "app_id": "6747736697",
+          "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%B9%E3%83%9E%E3%83%83%E3%82%B7%E3%83%A5%E3%82%B0%E3%83%AD%E3%82%A6-%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A8%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%88rpg/id6747736697?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/d8/21/b7d8214d-f74c-f6f6-a042-45c0f3430da4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ドラゴンクエスト×直感＆爽快フィールドバトル！\n\nローグライトRPGで始まる新たなる冒険の旅へ\n\n直感操作でモンスターの群れを斬ってかわして、必殺技で一気に吹き"
+        },
+        {
+          "rank": 98,
+          "name": "Connect Tracks: ロジックパズル",
+          "publisher": "Oakever Games",
+          "category": "ゲーム",
+          "app_id": "6793115010",
+          "url": "https://apps.apple.com/jp/app/connect-tracks-%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB/id6793115010?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/33/24/b23324d8-cebe-8576-9b0a-9ab7769406b5/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "リラックスしながら、同時に頭もフル回転させられるゲームはいかがですか？Connect Tracks へようこそ！古典的な線路パズルを核にしたロジックパズルゲーム"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 53,
+          "name": "Tidy Room!",
+          "publisher": "Circle Games",
+          "category": "ゲーム",
+          "app_id": "6831317859",
+          "url": "https://apps.apple.com/jp/app/tidy-room/id6831317859?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/7f/5e/6f7f5ec0-7bf8-cec6-f7f9-29642e63c0d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A bedroom floor full of stray things. A kitchen counter lost under mugs. A study"
+        },
+        {
+          "rank": 59,
+          "name": "ソフトテニススタジアム",
+          "publisher": "Odenplan Lab",
+          "category": "ゲーム",
+          "app_id": "6833251224",
+          "url": "https://apps.apple.com/jp/app/%E3%82%BD%E3%83%95%E3%83%88%E3%83%86%E3%83%8B%E3%82%B9%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%A2%E3%83%A0/id6833251224?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/dc/39/85dc3924-6bae-a606-e3da-158fa1b22f21/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "ソフトテニスを、スマホで。ダブルスもシングルスも。\n前衛も、後衛も。部活の友達と対戦しよう。\n\n■ 友達と（フレンド部屋）\n・部屋を作って、6けたの部屋の番号を"
+        },
+        {
+          "rank": 88,
+          "name": "呪術廻戦 ファントムパレード",
+          "publisher": "Sumzap Inc.",
+          "category": "ゲーム",
+          "app_id": "1551798277",
+          "url": "https://apps.apple.com/jp/app/%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6-%E3%83%95%E3%82%A1%E3%83%B3%E3%83%88%E3%83%A0%E3%83%91%E3%83%AC%E3%83%BC%E3%83%89/id1551798277?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fb/41/3e/fb413e3f-de67-e0cc-27f9-a7fd332c417f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『呪術廻戦 ファントムパレード（ファンパレ）』とは\n\n\n◆”TVアニメ”の世界観と”ゲーム”ならではの『呪術廻戦』の物語◆\n\nアニメのストーリーを新規フルボイス"
+        },
+        {
+          "rank": 89,
+          "name": "サクラスクールシミュレーター",
+          "publisher": "Garusoft LLC",
+          "category": "ゲーム",
+          "app_id": "1439434588",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B5%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/id1439434588?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/c5/6b/75c56bcb-514a-6f38-a92b-63f942ba67eb/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "高校と小さな街で、生徒や住人と交流しながら生活していくシミュレーションゲームです。\nバトルなどのミッションもあります。（更新で少しずつ増えていきます。）\nはちゃ"
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 3,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 53,
+          "name": "Tidy Room!",
+          "publisher": "Circle Games",
+          "category": "ゲーム",
+          "app_id": "6831317859",
+          "url": "https://apps.apple.com/jp/app/tidy-room/id6831317859?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/7f/5e/6f7f5ec0-7bf8-cec6-f7f9-29642e63c0d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A bedroom floor full of stray things. A kitchen counter lost under mugs. A study"
+        },
+        {
+          "rank": 59,
+          "name": "ソフトテニススタジアム",
+          "publisher": "Odenplan Lab",
+          "category": "ゲーム",
+          "app_id": "6833251224",
+          "url": "https://apps.apple.com/jp/app/%E3%82%BD%E3%83%95%E3%83%88%E3%83%86%E3%83%8B%E3%82%B9%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%A2%E3%83%A0/id6833251224?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/dc/39/85dc3924-6bae-a606-e3da-158fa1b22f21/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "ソフトテニスを、スマホで。ダブルスもシングルスも。\n前衛も、後衛も。部活の友達と対戦しよう。\n\n■ 友達と（フレンド部屋）\n・部屋を作って、6けたの部屋の番号を"
+        },
+        {
+          "rank": 88,
+          "name": "呪術廻戦 ファントムパレード",
+          "publisher": "Sumzap Inc.",
+          "category": "ゲーム",
+          "app_id": "1551798277",
+          "url": "https://apps.apple.com/jp/app/%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6-%E3%83%95%E3%82%A1%E3%83%B3%E3%83%88%E3%83%A0%E3%83%91%E3%83%AC%E3%83%BC%E3%83%89/id1551798277?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fb/41/3e/fb413e3f-de67-e0cc-27f9-a7fd332c417f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『呪術廻戦 ファントムパレード（ファンパレ）』とは\n\n\n◆”TVアニメ”の世界観と”ゲーム”ならではの『呪術廻戦』の物語◆\n\nアニメのストーリーを新規フルボイス"
+        },
+        {
+          "rank": 89,
+          "name": "サクラスクールシミュレーター",
+          "publisher": "Garusoft LLC",
+          "category": "ゲーム",
+          "app_id": "1439434588",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B5%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/id1439434588?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/c5/6b/75c56bcb-514a-6f38-a92b-63f942ba67eb/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "高校と小さな街で、生徒や住人と交流しながら生活していくシミュレーションゲームです。\nバトルなどのミッションもあります。（更新で少しずつ増えていきます。）\nはちゃ"
+        },
+        {
+          "rank": 92,
+          "name": "Mob Control",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "1562817072",
+          "url": "https://apps.apple.com/jp/app/mob-control/id1562817072?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/c1/6b/f5c16bad-fb7c-9087-a981-7fc2c8a50604/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "導き、増やし、征服せよ！Mob Controlは、モブを成長させ、強力なChampionsを配置し、敵の基地を粉砕する、スリリングなtower defenseア"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
