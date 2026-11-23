@@ -1,0 +1,484 @@
+{
+  "date": "2026-11-23",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "生存日记",
+          "publisher": "五月四工作室",
+          "category": "生存",
+          "subcategory": "角色扮演"
+        },
+        {
+          "rank": 10,
+          "name": "拉尼亚",
+          "publisher": "广州鬼马网络有限公司",
+          "category": "休闲",
+          "subcategory": "策略、回合制、角色扮演、PVP"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "崩坏：因缘精灵",
+          "publisher": "miHoYo",
+          "category": "冒险",
+          "subcategory": "宠物、自走棋、崩坏、策略、3D"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 8,
+          "name": "生存日记",
+          "publisher": "五月四工作室",
+          "category": "生存",
+          "subcategory": "角色扮演"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "生存日记",
+          "publisher": "五月四工作室",
+          "category": "生存",
+          "subcategory": "角色扮演"
+        },
+        {
+          "rank": 10,
+          "name": "拉尼亚",
+          "publisher": "广州鬼马网络有限公司",
+          "category": "休闲",
+          "subcategory": "策略、回合制、角色扮演、PVP"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 96,
+          "name": "Hole It 3D",
+          "publisher": "SUPERSONIC STUDIOS LTD",
+          "category": "Games",
+          "app_id": "6740699102",
+          "url": "https://apps.apple.com/us/app/hole-it-3d/id6740699102?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/2f/c3/0b2fc39f-6c6c-bd59-a989-a899888e901f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Hole it: Black Hole Puzzle Game\nSwallow the world, one puzzle at a time!\n\nGet re"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 71,
+          "name": "Everyday Puzzles: Mini Games",
+          "publisher": "Fanatee",
+          "category": "Games",
+          "app_id": "1580601028",
+          "url": "https://apps.apple.com/us/app/everyday-puzzles-mini-games/id1580601028?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/b2/f6/4ab2f6e7-df02-dafd-e99d-10ff3f52a56d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Everyday Puzzles - Multiple Games in One App!\nA hub of word puzzles and brain te"
+        },
+        {
+          "rank": 89,
+          "name": "FanDuel Casino - Real Money",
+          "publisher": "FanDuel, Inc.",
+          "category": "Games",
+          "app_id": "1506229470",
+          "url": "https://apps.apple.com/us/app/fanduel-casino-real-money/id1506229470?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/d7/bb/bcd7bb94-e294-51b5-ddef-b1b8ba5f123b/AppIcon-0-0-1x_U007emarketing-0-0-0-11-0-0-85-220.png/100x100bb.png",
+          "slogan": "FanDuel Casino is the #1 Rated Online Casino app, where you can play fully regul"
+        },
+        {
+          "rank": 94,
+          "name": "Hole.io - Original Hole Game",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "1389111413",
+          "url": "https://apps.apple.com/us/app/hole-io-original-hole-game/id1389111413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/40/6d/f4406db2-7ddb-7f19-5ad9-dd1ef76954e6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Hole.io, the wildly satisfying eat-the-world game played by millions!"
+        },
+        {
+          "rank": 100,
+          "name": "Foundation: Galactic Frontier",
+          "publisher": "FunPlus International AG",
+          "category": "Games",
+          "app_id": "6737595599",
+          "url": "https://apps.apple.com/us/app/foundation-galactic-frontier/id6737595599?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/2a/00/f22a00ea-1bf9-6519-bc0b-72cef3573cc7/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "(This game includes in-game purchases (including random items).)\nIgnite engines,"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 96,
+          "name": "Hole It 3D",
+          "publisher": "SUPERSONIC STUDIOS LTD",
+          "category": "Games",
+          "app_id": "6740699102",
+          "url": "https://apps.apple.com/us/app/hole-it-3d/id6740699102?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/2f/c3/0b2fc39f-6c6c-bd59-a989-a899888e901f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Hole it: Black Hole Puzzle Game\nSwallow the world, one puzzle at a time!\n\nGet re"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 4,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 96,
+          "name": "Hole It 3D",
+          "publisher": "SUPERSONIC STUDIOS LTD",
+          "category": "Games",
+          "app_id": "6740699102",
+          "url": "https://apps.apple.com/us/app/hole-it-3d/id6740699102?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/2f/c3/0b2fc39f-6c6c-bd59-a989-a899888e901f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Hole it: Black Hole Puzzle Game\nSwallow the world, one puzzle at a time!\n\nGet re"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 99,
+          "name": "搬砖达人:无限乐趣",
+          "publisher": "学源 庞",
+          "category": "游戏",
+          "app_id": "6824365803",
+          "url": "https://apps.apple.com/cn/app/%E6%90%AC%E7%A0%96%E8%BE%BE%E4%BA%BA-%E6%97%A0%E9%99%90%E4%B9%90%E8%B6%A3/id6824365803?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/d2/cc/f1d2cc12-499d-e580-9169-77bbe72da67c/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/100x100bb.png",
+          "slogan": "一块砖，五种玩法，无限欢乐。\n\n欢迎来到「搬砖达人」！这里有一位戴着安全帽的小砖块——砖宝，它每天的工作就是……搬砖！不过在这里，搬砖一点也不枯燥：走迷宫、找虫"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 81,
+          "name": "登山赛车2 - Hill Climb Racing 2",
+          "publisher": "Fingersoft",
+          "category": "游戏",
+          "app_id": "1146465836",
+          "url": "https://apps.apple.com/cn/app/%E7%99%BB%E5%B1%B1%E8%B5%9B%E8%BD%A62-hill-climb-racing-2/id1146465836?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/d5/fd/bfd5fd9e-cf2b-c88b-5372-9becadda1ad8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "《Hill Climb Racing》重磅回归！规模更大、体验更佳，乐趣也更上一层楼！与全球数百万玩家一同畅玩这款物理效果逼真、满载火爆场面的赛车游戏吧！\n\n《"
+        },
+        {
+          "rank": 88,
+          "name": "我叫MT：崛起",
+          "publisher": "Chengmai Wulin Interactive Entertainment Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6808532104",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E5%8F%ABmt-%E5%B4%9B%E8%B5%B7/id6808532104?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/a2/c5/7aa2c5f1-8b57-39b7-336c-bc01f5c750bf/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《我叫MT：崛起》是一款以魔幻世界为背景的卡牌放置类手游，在MT的世界里，你将作为一位异世大陆冒险者，与哀木涕以及菊爆大队的一众伙伴并肩同行，重温原汁原味的大陆"
+        },
+        {
+          "rank": 93,
+          "name": "猫咪整理师 - 房间造景布置小屋 整理解压收纳达人",
+          "publisher": "Togother Many Information Technology Co, Ltd.",
+          "category": "游戏",
+          "app_id": "6752363458",
+          "url": "https://apps.apple.com/cn/app/%E7%8C%AB%E5%92%AA%E6%95%B4%E7%90%86%E5%B8%88-%E6%88%BF%E9%97%B4%E9%80%A0%E6%99%AF%E5%B8%83%E7%BD%AE%E5%B0%8F%E5%B1%8B-%E6%95%B4%E7%90%86%E8%A7%A3%E5%8E%8B%E6%94%B6%E7%BA%B3%E8%BE%BE%E4%BA%BA/id6752363458?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/e4/00/58e40096-f5fc-88b3-86d4-6a1eb16d4284/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "欢迎来到你的专属解压小天地！在这里，动动手指，像玩贴纸一样，就能DIY出独一无二的可爱场景。\n\n拿起你的小镊子，把各种各样的家具和物品贴到它们该去的地方。看着乱"
+        },
+        {
+          "rank": 94,
+          "name": "部落冲突：皇室战争（CR）",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1595603720",
+          "url": "https://apps.apple.com/cn/app/%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81-%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89-cr/id1595603720?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/54/8c/65548cac-5cfa-f702-7199-2dfb515b2fbf/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "欢迎加入皇室竞技场！配置卡组，智取对手，体验实时对战！\n\n《部落冲突:皇室战争》是由风靡全球的手游《部落冲突》主创成员打造的又一力作。在这里，您可以看到您所钟爱"
+        },
+        {
+          "rank": 95,
+          "name": "无尽冬日",
+          "publisher": "Shanghai Qingdi Technology Company Limited",
+          "category": "游戏",
+          "app_id": "6478492012",
+          "url": "https://apps.apple.com/cn/app/%E6%97%A0%E5%B0%BD%E5%86%AC%E6%97%A5/id6478492012?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/ca/37/c8ca378e-b14b-c94b-c923-c1209a47168c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《无尽冬日》是一款将策略和放置结合的冰雪末日生存游戏，玩法独特，细节丰富，等你探索。\r\n\r\n一场突如其来的全球性气温骤降彻底地摧毁了人类文明，人类失去了赖以生存"
+        },
+        {
+          "rank": 97,
+          "name": "天天爱消除",
+          "publisher": "Tencent Mobile Games",
+          "category": "游戏",
+          "app_id": "654897098",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E7%88%B1%E6%B6%88%E9%99%A4/id654897098?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/76/f2/ef76f20c-9b4d-4342-1b29-5aa859dea484/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "《天天爱消除》是一款以“消除烦恼，治愈心灵”为主题的萌系治愈向消除手游，陪伴玩家度过了10个寒暑！轻划手指，将三个相同的小动物旗子连成一行或一列，即可完成一次消"
+        },
+        {
+          "rank": 98,
+          "name": "皇冠斗地主-小团团力荐",
+          "publisher": "弈趣玩科技(北京)有限公司",
+          "category": "游戏",
+          "app_id": "6746925059",
+          "url": "https://apps.apple.com/cn/app/%E7%9A%87%E5%86%A0%E6%96%97%E5%9C%B0%E4%B8%BB-%E5%B0%8F%E5%9B%A2%E5%9B%A2%E5%8A%9B%E8%8D%90/id6746925059?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/9f/92/1d9f9251-3cda-9ae9-4d2d-113149d25c07/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《皇冠斗地主》人气伙伴小团团欢乐助阵！一起畅玩比牌斗地主、皇冠杠8杠、红中血流等特色玩法，斗地主与麻将乐趣一次集齐，随时开局，欢乐不停！\n\n【小团团陪你欢乐开局"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 99,
+          "name": "搬砖达人:无限乐趣",
+          "publisher": "学源 庞",
+          "category": "游戏",
+          "app_id": "6824365803",
+          "url": "https://apps.apple.com/cn/app/%E6%90%AC%E7%A0%96%E8%BE%BE%E4%BA%BA-%E6%97%A0%E9%99%90%E4%B9%90%E8%B6%A3/id6824365803?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/d2/cc/f1d2cc12-499d-e580-9169-77bbe72da67c/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/100x100bb.png",
+          "slogan": "一块砖，五种玩法，无限欢乐。\n\n欢迎来到「搬砖达人」！这里有一位戴着安全帽的小砖块——砖宝，它每天的工作就是……搬砖！不过在这里，搬砖一点也不枯燥：走迷宫、找虫"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 7,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 99,
+          "name": "搬砖达人:无限乐趣",
+          "publisher": "学源 庞",
+          "category": "游戏",
+          "app_id": "6824365803",
+          "url": "https://apps.apple.com/cn/app/%E6%90%AC%E7%A0%96%E8%BE%BE%E4%BA%BA-%E6%97%A0%E9%99%90%E4%B9%90%E8%B6%A3/id6824365803?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/d2/cc/f1d2cc12-499d-e580-9169-77bbe72da67c/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/100x100bb.png",
+          "slogan": "一块砖，五种玩法，无限欢乐。\n\n欢迎来到「搬砖达人」！这里有一位戴着安全帽的小砖块——砖宝，它每天的工作就是……搬砖！不过在这里，搬砖一点也不枯燥：走迷宫、找虫"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 77,
+          "name": "魚は飛ばない",
+          "publisher": "PLAY GO GAMES",
+          "category": "ゲーム",
+          "app_id": "6828078404",
+          "url": "https://apps.apple.com/jp/app/%E9%AD%9A%E3%81%AF%E9%A3%9B%E3%81%B0%E3%81%AA%E3%81%84/id6828078404?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/1c/1c/061c1c66-5bf6-c789-79cb-110cb6b74266/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「自分の人生に、特別なことなんて起こらない。」\n\n平凡で穏やかな毎日を望み、全寮制の高校に入学した主人公。\nところが新学期早々、校内には奇妙な噂が飛び交う。\nく"
+        },
+        {
+          "rank": 85,
+          "name": "ふたりで遊べるゲーム 2人でできるゲーム 2人で遊べるげーむ",
+          "publisher": "Moreno Maio",
+          "category": "ゲーム",
+          "app_id": "1465731199",
+          "url": "https://apps.apple.com/jp/app/%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%A7%E9%81%8A%E3%81%B9%E3%82%8B%E3%82%B2%E3%83%BC%E3%83%A0-2%E4%BA%BA%E3%81%A7%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%B2%E3%83%BC%E3%83%A0-2%E4%BA%BA%E3%81%A7%E9%81%8A%E3%81%B9%E3%82%8B%E3%81%92%E3%83%BC%E3%82%80/id1465731199?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/21/73/b42173ba-ff97-524d-e384-db5e0c53052d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "同じデバイスで友達とプレイしたいなら、このゲームがピッタリです！\r\n1 つのデバイスでマルチプレイヤーのゲームを楽しむ友達がいない場合は、AI と 1 人で対戦"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 96,
+          "name": "Word Jam - Screw Puzzle",
+          "publisher": "Zego Global Pte Ltd",
+          "category": "ゲーム",
+          "app_id": "6761419783",
+          "url": "https://apps.apple.com/jp/app/word-jam-screw-puzzle/id6761419783?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/0f/d3/9c0fd3fd-6584-8451-7ebb-cc28b2eabda7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready to twist, turn, and spell your way to victory in Word Jam – Screw Puzz"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 86,
+          "name": "間違い探し - 違いを見つけよう",
+          "publisher": "LONGSEA LINK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6738576262",
+          "url": "https://apps.apple.com/jp/app/%E9%96%93%E9%81%95%E3%81%84%E6%8E%A2%E3%81%97-%E9%81%95%E3%81%84%E3%82%92%E8%A6%8B%E3%81%A4%E3%81%91%E3%82%88%E3%81%86/id6738576262?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/84/c9/2184c9e8-b80b-bddc-71ad-693cd0fff4a7/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "間違い探し - 違いを見つけよう - いつでもどこでも目を鍛えて頭をテストしよう！違いを見つける楽しさを体験しよう！隠れた違いの世界を発見しよう！\n\n子供の頃の"
+        },
+        {
+          "rank": 92,
+          "name": "ネジ3Dパズル：ピンを外すゲーム",
+          "publisher": "Kiwi Fun HK Limited",
+          "category": "ゲーム",
+          "app_id": "6749300334",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8D%E3%82%B83d%E3%83%91%E3%82%BA%E3%83%AB-%E3%83%94%E3%83%B3%E3%82%92%E5%A4%96%E3%81%99%E3%82%B2%E3%83%BC%E3%83%A0/id6749300334?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/21/6f/e5216f2b-7c9c-2400-0661-47746f5903a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ネジ3Dパズル：ピンを外すゲームは、頭を使いながらリラックスして楽しめる中毒性の高い3Dパズルゲームです。複雑な構造を回転・仕分け・分解しながら、ネジを外す爽快"
+        },
+        {
+          "rank": 93,
+          "name": "Puzzle Time Brainy Challenge",
+          "publisher": "SmallStep Dev Team",
+          "category": "ゲーム",
+          "app_id": "6770503071",
+          "url": "https://apps.apple.com/jp/app/puzzle-time-brainy-challenge/id6770503071?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/93/3c/b7933c48-f738-f887-ab6d-a51338705a29/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "あらゆる年齢層のプレイヤーが楽しめる、学校をテーマにした多彩で楽しい脳トレパズルゲーム！難解すぎて手詰まりになりがちなパズルレベルとは、もうお別れです。学校にま"
+        },
+        {
+          "rank": 98,
+          "name": "XP Hero(ヒーロー)): まずは世界観をのぞいてみて",
+          "publisher": "Supercent, Inc.",
+          "category": "ゲーム",
+          "app_id": "6740618570",
+          "url": "https://apps.apple.com/jp/app/xp-hero-%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC-%E3%81%BE%E3%81%9A%E3%81%AF%E4%B8%96%E7%95%8C%E8%A6%B3%E3%82%92%E3%81%AE%E3%81%9E%E3%81%84%E3%81%A6%E3%81%BF%E3%81%A6/id6740618570?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/fb/b0/6efbb055-5b03-f6cf-abda-5e358f8b41d4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "混沌の中で生き残り、究極のヒーローになる準備はできていますか？\n\nモンスター、闇、そして絶え間ない危険に満ちた神秘的な世界が『XP Hero』であなたを待ってい"
+        },
+        {
+          "rank": 99,
+          "name": "Mimic Party !",
+          "publisher": "FoliesAPP",
+          "category": "ゲーム",
+          "app_id": "6813545317",
+          "url": "https://apps.apple.com/jp/app/mimic-party/id6813545317?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/9c/af/989caffe-2e75-02e8-7887-26ca753275d5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "A 1-5 player online voice party game. You hear a sound, the whole table gets one"
+        },
+        {
+          "rank": 100,
+          "name": "Mini Soccer Star 2027",
+          "publisher": "VIVA GAMES S.L.",
+          "category": "ゲーム",
+          "app_id": "1636072966",
+          "url": "https://apps.apple.com/jp/app/mini-soccer-star-2027/id1636072966?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/4b/72/e64b723f-8bf6-9298-c6b2-8ac2774aaf8b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to the MINI SOCCER STAR 2026!\n\nPlay the brand new soccer game Mini Socce"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 77,
+          "name": "魚は飛ばない",
+          "publisher": "PLAY GO GAMES",
+          "category": "ゲーム",
+          "app_id": "6828078404",
+          "url": "https://apps.apple.com/jp/app/%E9%AD%9A%E3%81%AF%E9%A3%9B%E3%81%B0%E3%81%AA%E3%81%84/id6828078404?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/1c/1c/061c1c66-5bf6-c789-79cb-110cb6b74266/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「自分の人生に、特別なことなんて起こらない。」\n\n平凡で穏やかな毎日を望み、全寮制の高校に入学した主人公。\nところが新学期早々、校内には奇妙な噂が飛び交う。\nく"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 6,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 77,
+          "name": "魚は飛ばない",
+          "publisher": "PLAY GO GAMES",
+          "category": "ゲーム",
+          "app_id": "6828078404",
+          "url": "https://apps.apple.com/jp/app/%E9%AD%9A%E3%81%AF%E9%A3%9B%E3%81%B0%E3%81%AA%E3%81%84/id6828078404?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/1c/1c/061c1c66-5bf6-c789-79cb-110cb6b74266/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「自分の人生に、特別なことなんて起こらない。」\n\n平凡で穏やかな毎日を望み、全寮制の高校に入学した主人公。\nところが新学期早々、校内には奇妙な噂が飛び交う。\nく"
+        },
+        {
+          "rank": 85,
+          "name": "ふたりで遊べるゲーム 2人でできるゲーム 2人で遊べるげーむ",
+          "publisher": "Moreno Maio",
+          "category": "ゲーム",
+          "app_id": "1465731199",
+          "url": "https://apps.apple.com/jp/app/%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%A7%E9%81%8A%E3%81%B9%E3%82%8B%E3%82%B2%E3%83%BC%E3%83%A0-2%E4%BA%BA%E3%81%A7%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%B2%E3%83%BC%E3%83%A0-2%E4%BA%BA%E3%81%A7%E9%81%8A%E3%81%B9%E3%82%8B%E3%81%92%E3%83%BC%E3%82%80/id1465731199?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/21/73/b42173ba-ff97-524d-e384-db5e0c53052d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "同じデバイスで友達とプレイしたいなら、このゲームがピッタリです！\r\n1 つのデバイスでマルチプレイヤーのゲームを楽しむ友達がいない場合は、AI と 1 人で対戦"
+        },
+        {
+          "rank": 96,
+          "name": "Word Jam - Screw Puzzle",
+          "publisher": "Zego Global Pte Ltd",
+          "category": "ゲーム",
+          "app_id": "6761419783",
+          "url": "https://apps.apple.com/jp/app/word-jam-screw-puzzle/id6761419783?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/0f/d3/9c0fd3fd-6584-8451-7ebb-cc28b2eabda7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Get ready to twist, turn, and spell your way to victory in Word Jam – Screw Puzz"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
