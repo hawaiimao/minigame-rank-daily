@@ -1,0 +1,713 @@
+{
+  "date": "2026-11-24",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "现代坦克",
+          "publisher": "海南战火互娱信息技术有限公司",
+          "category": "TPS",
+          "subcategory": "射击、策略"
+        },
+        {
+          "rank": 10,
+          "name": "财富农场",
+          "publisher": "良田万顷工作室",
+          "category": "经营",
+          "subcategory": "放置"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 5,
+          "name": "现代坦克",
+          "publisher": "海南战火互娱信息技术有限公司",
+          "category": "TPS",
+          "subcategory": "射击、策略"
+        },
+        {
+          "rank": 10,
+          "name": "财富农场",
+          "publisher": "良田万顷工作室",
+          "category": "经营",
+          "subcategory": "放置"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 0,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "现代坦克",
+          "publisher": "海南战火互娱信息技术有限公司",
+          "category": "TPS",
+          "subcategory": "射击、策略"
+        },
+        {
+          "rank": 10,
+          "name": "财富农场",
+          "publisher": "良田万顷工作室",
+          "category": "经营",
+          "subcategory": "放置"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 89,
+          "name": "Pullz: TCG Pack Opening",
+          "publisher": "Delta Two Inc",
+          "category": "Games",
+          "app_id": "6768253096",
+          "url": "https://apps.apple.com/us/app/pullz-tcg-pack-opening/id6768253096?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/78/18/7e781882-ba31-121f-264d-80dd8ff0daa9/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Pullz!\n\nOpen card packs, reveal real collectible cards, and choose wh"
+        },
+        {
+          "rank": 99,
+          "name": "Fill It: Organize Puzzle",
+          "publisher": "Quoc Thuan Mai",
+          "category": "Games",
+          "app_id": "6797583890",
+          "url": "https://apps.apple.com/us/app/fill-it-organize-puzzle/id6797583890?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/66/37/40663725-a3fd-25de-dc43-a15c5d562789/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Fill It: Organize Puzzle, a relaxing puzzle game where organizing bec"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 62,
+          "name": "Pocket Sort: Coin Merge Puzzle",
+          "publisher": "SayGames LTD",
+          "category": "Games",
+          "app_id": "6755425214",
+          "url": "https://apps.apple.com/us/app/pocket-sort-coin-merge-puzzle/id6755425214?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/29/80/f6298049-5d3d-329c-413c-80ea6c92628b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "► SORT YOUR WAY TO HAPPINESS\n\nMaster mergers, ready those fingers and get to mat"
+        },
+        {
+          "rank": 72,
+          "name": "Water Sort Puzzle : Challenge",
+          "publisher": "贺翔 段",
+          "category": "Games",
+          "app_id": "6787414784",
+          "url": "https://apps.apple.com/us/app/water-sort-puzzle-challenge/id6787414784?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/77/91/5f779194-85ef-b50e-293d-383f34be36a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Water Sort Puzzle : Challenge is a relaxing color sorting game with simple rules"
+        },
+        {
+          "rank": 92,
+          "name": "Tile Explorer: Tiles Clear!",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "app_id": "6498883328",
+          "url": "https://apps.apple.com/us/app/tile-explorer-tiles-clear/id6498883328?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/d1/a0/64d1a01f-6b17-73c1-57f6-3d449598fa62/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Looking for a relaxing and addictive tile matching adventure? Tile Explorer is y"
+        },
+        {
+          "rank": 97,
+          "name": "Treasure Masters",
+          "publisher": "Gimica GmbH",
+          "category": "Games",
+          "app_id": "6444407009",
+          "url": "https://apps.apple.com/us/app/treasure-masters/id6444407009?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/fe/26/11fe261a-6a1c-09b7-263b-f3cf62d95b6a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Treasure Masters will take you on an endless treasure hunt! \n\nDifferent Monsters"
+        },
+        {
+          "rank": 100,
+          "name": "Line Tangle - Dots Jam Escape",
+          "publisher": "Shycheese",
+          "category": "Games",
+          "app_id": "6805725616",
+          "url": "https://apps.apple.com/us/app/line-tangle-dots-jam-escape/id6805725616?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/93/54/ac935436-c950-b3ba-57cc-93e7cec88018/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "Colorful lines intertwine to form a picture, waiting for you to unravel the desi"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 94,
+          "name": "Fish Sort Puzzle - Bubble Jam",
+          "publisher": "BLANKZONET",
+          "category": "Games",
+          "app_id": "6771681639",
+          "url": "https://apps.apple.com/us/app/fish-sort-puzzle-bubble-jam/id6771681639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/06/f5/6a06f538-1ec1-4360-3a9f-961b2f4afa7b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Dive into an underwater adventure!\nTap the fish and watch them swim into their n"
+        },
+        {
+          "rank": 99,
+          "name": "Fill It: Organize Puzzle",
+          "publisher": "Quoc Thuan Mai",
+          "category": "Games",
+          "app_id": "6797583890",
+          "url": "https://apps.apple.com/us/app/fill-it-organize-puzzle/id6797583890?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/66/37/40663725-a3fd-25de-dc43-a15c5d562789/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Fill It: Organize Puzzle, a relaxing puzzle game where organizing bec"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 5,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 89,
+          "name": "Pullz: TCG Pack Opening",
+          "publisher": "Delta Two Inc",
+          "category": "Games",
+          "app_id": "6768253096",
+          "url": "https://apps.apple.com/us/app/pullz-tcg-pack-opening/id6768253096?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/78/18/7e781882-ba31-121f-264d-80dd8ff0daa9/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Pullz!\n\nOpen card packs, reveal real collectible cards, and choose wh"
+        },
+        {
+          "rank": 99,
+          "name": "Fill It: Organize Puzzle",
+          "publisher": "Quoc Thuan Mai",
+          "category": "Games",
+          "app_id": "6797583890",
+          "url": "https://apps.apple.com/us/app/fill-it-organize-puzzle/id6797583890?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/66/37/40663725-a3fd-25de-dc43-a15c5d562789/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Fill It: Organize Puzzle, a relaxing puzzle game where organizing bec"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 29,
+          "name": "炽武之巅",
+          "publisher": "Hongdong Jushengdeng Network Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6761872455",
+          "url": "https://apps.apple.com/cn/app/%E7%82%BD%E6%AD%A6%E4%B9%8B%E5%B7%85/id6761872455?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/6d/4e/6e6d4ebf-7360-e1db-bfee-5b0d1f843965/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "雨夜都市，回合对决。召集契约者，强化属性、点亮共鸣，闯过冒险与试炼，登上炽武之巅。\n\n组建你的战斗小队，在霓虹雨巷中迎战强敌。清灭敌人、坚守回合、击败首领，一关"
+        },
+        {
+          "rank": 47,
+          "name": "球球大作战-送专属定制嘉年华",
+          "publisher": "巨人网络科技有限公司",
+          "category": "游戏",
+          "app_id": "996509117",
+          "url": "https://apps.apple.com/cn/app/%E7%90%83%E7%90%83%E5%A4%A7%E4%BD%9C%E6%88%98-%E9%80%81%E4%B8%93%E5%B1%9E%E5%AE%9A%E5%88%B6%E5%98%89%E5%B9%B4%E5%8D%8E/id996509117?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/df/e2/11dfe246-0f78-f178-1386-a2b080b33695/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《球球大作战》（Battle of Balls）是轻松有趣的休闲竞技手游大作，年轻玩家的共同选择！\n这是一款好玩、萌酷、有挑战性的实时对战休闲竞技游戏。在这个球"
+        },
+        {
+          "rank": 53,
+          "name": "全力蚁富-蚁汐觅饴",
+          "publisher": "恩瑞 张",
+          "category": "游戏",
+          "app_id": "6829739287",
+          "url": "https://apps.apple.com/cn/app/%E5%85%A8%E5%8A%9B%E8%9A%81%E5%AF%8C-%E8%9A%81%E6%B1%90%E8%A7%85%E9%A5%B4/id6829739287?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/8b/b7/7d8bb77b-852a-2b80-abc7-055983549da5/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "微蚁寻甘，有两重奇境。\n一为沧溟之下，可转方匣、调潮汛，令水势升沉，借流势引蚁趋饴，需审度空间，巧思布局，方得尝甘。\n一为瀛洲孤岛，引蚁循径而行，遍寻诸方甜饵，"
+        },
+        {
+          "rank": 62,
+          "name": "经典方块-天天开心益智游戏",
+          "publisher": "林颖 张",
+          "category": "游戏",
+          "app_id": "1438342351",
+          "url": "https://apps.apple.com/cn/app/%E7%BB%8F%E5%85%B8%E6%96%B9%E5%9D%97-%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83%E7%9B%8A%E6%99%BA%E6%B8%B8%E6%88%8F/id1438342351?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/95/43/a4/9543a464-d93f-d9da-5b72-407858814e20/AppIcon-0-1x_U007emarketing-0-85-220-10.png/100x100bb.png",
+          "slogan": "《经典方块》是一款可以唤起你童年记忆的游戏。玩法跟俄罗斯方块一样，可以拖动不同形状的方块摆放到你想要摆放的位置上，组合成一行后会自动消除。每次挑战都会记录下你的"
+        },
+        {
+          "rank": 71,
+          "name": "迷城幻想",
+          "publisher": "枝江市类操科技有限公司",
+          "category": "游戏",
+          "app_id": "6826064284",
+          "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E5%9F%8E%E5%B9%BB%E6%83%B3/id6826064284?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/67/2b/0d672b4b-c515-f218-9141-97566964be60/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "【属性与职阶：战术体系的骨架】\n元素属性与战斗职阶相互制约，前排承伤、后排输出、辅助控场各司其职。同一套阵容，站位不同，出手顺序不同，战局就会走向不同结果。"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 1,
+          "name": "饥困荒野",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "6479747214",
+          "url": "https://apps.apple.com/cn/app/%E9%A5%A5%E5%9B%B0%E8%8D%92%E9%87%8E/id6479747214?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/04/2b/91042b5f-f899-e437-2dd9-7dd8e69aa7be/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "《饥困荒野》获得Klei正版授权，是以经典PC游戏“饥荒：联机版”为基础开发的全新沙盒生存类手游，冒险家们将从这里进入一个未经探索的奇幻世界，开启一段超高自由度"
+        },
+        {
+          "rank": 19,
+          "name": "幻梦无年",
+          "publisher": "707 INTERACTIVE",
+          "category": "游戏",
+          "app_id": "6761517759",
+          "url": "https://apps.apple.com/cn/app/%E5%B9%BB%E6%A2%A6%E6%97%A0%E5%B9%B4/id6761517759?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/5a/98/535a984c-4181-4b79-2d20-b7a49bb8d335/AppIcon-0-0-1x_U007emarketing-0-8-85-220.jpeg/100x100bb.png",
+          "slogan": "长歌入幻境，神都覆迷烟，\n焚香醉盛世，永夜枕长安。\n精魄凝生死，秘术锁幽魂，\n踏月寻旧誓，清笛隐踪残。\n呓语摇铃乱，迷途引幽潭，\n安神渡若水，清梦引归秦。\n众生"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 76,
+          "name": "我的盛唐时代",
+          "publisher": "明凯 尹",
+          "category": "游戏",
+          "app_id": "6820919948",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E7%9B%9B%E5%94%90%E6%97%B6%E4%BB%A3/id6820919948?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/e7/7c/0be77cde-d448-f49d-0673-7dcfb1ba21d8/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "梦回盛唐，营建一座属于你的繁华市井。\n\n踏入这幅古色长卷，亲手打造独属于你的长安小城。可滑动的广阔地图上，民宅、酒馆、农田、商铺依次铺展，每一栋建筑随等级提升，"
+        },
+        {
+          "rank": 89,
+          "name": "我的花园世界",
+          "publisher": "厦门麟贝互娱科技有限公司",
+          "category": "游戏",
+          "app_id": "6746321359",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E8%8A%B1%E5%9B%AD%E4%B8%96%E7%95%8C/id6746321359?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/9a/3c/449a3c27-62ee-50ce-2b68-5fa40b7107ba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "指尖耕耘，清香入怀。玩「我的花园世界」有机会收获真实花束！\n\n《我的花园世界》是一款模拟经营类的花坊营建治愈手游，在游戏里玩家可以种下玫瑰、雏菊、郁金香等数百种"
+        },
+        {
+          "rank": 91,
+          "name": "地下城与勇士：起源",
+          "publisher": "Tencent Mobile Games",
+          "category": "游戏",
+          "app_id": "1529851592",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E4%B8%8B%E5%9F%8E%E4%B8%8E%E5%8B%87%E5%A3%AB-%E8%B5%B7%E6%BA%90/id1529851592?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/da/aa/e2/daaae209-77fb-0267-3b2c-0ec3e97ad986/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "DNF手游全新满级扩张版本来袭，80版本全职业二觉开启强者之路！延续端游经典情怀，复刻职业连招快感！新增「深渊：失调次元」和「装备升星系统」，多角色组队速刷，超"
+        },
+        {
+          "rank": 96,
+          "name": "正中靶心2",
+          "publisher": "北京金海部落文化有限公司",
+          "category": "游戏",
+          "app_id": "6795378556",
+          "url": "https://apps.apple.com/cn/app/%E6%AD%A3%E4%B8%AD%E9%9D%B6%E5%BF%832/id6795378556?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/12/0c/18120c0d-6ca4-4be5-a414-190f07fe13bd/xgw_icon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《正中靶心2》 是一款制作精良，画风简约、玩法细腻的肉鸽塔防游戏。由《正中靶心》一代游戏原班人马倾情创作。因一代作品的成功，在游戏市场上掀起了强烈反响和一大波跟"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 19,
+          "name": "幻梦无年",
+          "publisher": "707 INTERACTIVE",
+          "category": "游戏",
+          "app_id": "6761517759",
+          "url": "https://apps.apple.com/cn/app/%E5%B9%BB%E6%A2%A6%E6%97%A0%E5%B9%B4/id6761517759?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/5a/98/535a984c-4181-4b79-2d20-b7a49bb8d335/AppIcon-0-0-1x_U007emarketing-0-8-85-220.jpeg/100x100bb.png",
+          "slogan": "长歌入幻境，神都覆迷烟，\n焚香醉盛世，永夜枕长安。\n精魄凝生死，秘术锁幽魂，\n踏月寻旧誓，清笛隐踪残。\n呓语摇铃乱，迷途引幽潭，\n安神渡若水，清梦引归秦。\n众生"
+        },
+        {
+          "rank": 29,
+          "name": "炽武之巅",
+          "publisher": "Hongdong Jushengdeng Network Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6761872455",
+          "url": "https://apps.apple.com/cn/app/%E7%82%BD%E6%AD%A6%E4%B9%8B%E5%B7%85/id6761872455?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/6d/4e/6e6d4ebf-7360-e1db-bfee-5b0d1f843965/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "雨夜都市，回合对决。召集契约者，强化属性、点亮共鸣，闯过冒险与试炼，登上炽武之巅。\n\n组建你的战斗小队，在霓虹雨巷中迎战强敌。清灭敌人、坚守回合、击败首领，一关"
+        },
+        {
+          "rank": 53,
+          "name": "全力蚁富-蚁汐觅饴",
+          "publisher": "恩瑞 张",
+          "category": "游戏",
+          "app_id": "6829739287",
+          "url": "https://apps.apple.com/cn/app/%E5%85%A8%E5%8A%9B%E8%9A%81%E5%AF%8C-%E8%9A%81%E6%B1%90%E8%A7%85%E9%A5%B4/id6829739287?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/8b/b7/7d8bb77b-852a-2b80-abc7-055983549da5/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "微蚁寻甘，有两重奇境。\n一为沧溟之下，可转方匣、调潮汛，令水势升沉，借流势引蚁趋饴，需审度空间，巧思布局，方得尝甘。\n一为瀛洲孤岛，引蚁循径而行，遍寻诸方甜饵，"
+        },
+        {
+          "rank": 62,
+          "name": "经典方块-天天开心益智游戏",
+          "publisher": "林颖 张",
+          "category": "游戏",
+          "app_id": "1438342351",
+          "url": "https://apps.apple.com/cn/app/%E7%BB%8F%E5%85%B8%E6%96%B9%E5%9D%97-%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83%E7%9B%8A%E6%99%BA%E6%B8%B8%E6%88%8F/id1438342351?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/95/43/a4/9543a464-d93f-d9da-5b72-407858814e20/AppIcon-0-1x_U007emarketing-0-85-220-10.png/100x100bb.png",
+          "slogan": "《经典方块》是一款可以唤起你童年记忆的游戏。玩法跟俄罗斯方块一样，可以拖动不同形状的方块摆放到你想要摆放的位置上，组合成一行后会自动消除。每次挑战都会记录下你的"
+        },
+        {
+          "rank": 71,
+          "name": "迷城幻想",
+          "publisher": "枝江市类操科技有限公司",
+          "category": "游戏",
+          "app_id": "6826064284",
+          "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E5%9F%8E%E5%B9%BB%E6%83%B3/id6826064284?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/67/2b/0d672b4b-c515-f218-9141-97566964be60/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "【属性与职阶：战术体系的骨架】\n元素属性与战斗职阶相互制约，前排承伤、后排输出、辅助控场各司其职。同一套阵容，站位不同，出手顺序不同，战局就会走向不同结果。"
+        }
+      ],
+      "totals": {
+        "new_to_board": 7,
+        "returning": 4,
+        "new_publishers": 5
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "饥困荒野",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "6479747214",
+          "url": "https://apps.apple.com/cn/app/%E9%A5%A5%E5%9B%B0%E8%8D%92%E9%87%8E/id6479747214?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/04/2b/91042b5f-f899-e437-2dd9-7dd8e69aa7be/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "《饥困荒野》获得Klei正版授权，是以经典PC游戏“饥荒：联机版”为基础开发的全新沙盒生存类手游，冒险家们将从这里进入一个未经探索的奇幻世界，开启一段超高自由度"
+        },
+        {
+          "rank": 19,
+          "name": "幻梦无年",
+          "publisher": "707 INTERACTIVE",
+          "category": "游戏",
+          "app_id": "6761517759",
+          "url": "https://apps.apple.com/cn/app/%E5%B9%BB%E6%A2%A6%E6%97%A0%E5%B9%B4/id6761517759?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/5a/98/535a984c-4181-4b79-2d20-b7a49bb8d335/AppIcon-0-0-1x_U007emarketing-0-8-85-220.jpeg/100x100bb.png",
+          "slogan": "长歌入幻境，神都覆迷烟，\n焚香醉盛世，永夜枕长安。\n精魄凝生死，秘术锁幽魂，\n踏月寻旧誓，清笛隐踪残。\n呓语摇铃乱，迷途引幽潭，\n安神渡若水，清梦引归秦。\n众生"
+        },
+        {
+          "rank": 29,
+          "name": "炽武之巅",
+          "publisher": "Hongdong Jushengdeng Network Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6761872455",
+          "url": "https://apps.apple.com/cn/app/%E7%82%BD%E6%AD%A6%E4%B9%8B%E5%B7%85/id6761872455?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/6d/4e/6e6d4ebf-7360-e1db-bfee-5b0d1f843965/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "雨夜都市，回合对决。召集契约者，强化属性、点亮共鸣，闯过冒险与试炼，登上炽武之巅。\n\n组建你的战斗小队，在霓虹雨巷中迎战强敌。清灭敌人、坚守回合、击败首领，一关"
+        },
+        {
+          "rank": 47,
+          "name": "球球大作战-送专属定制嘉年华",
+          "publisher": "巨人网络科技有限公司",
+          "category": "游戏",
+          "app_id": "996509117",
+          "url": "https://apps.apple.com/cn/app/%E7%90%83%E7%90%83%E5%A4%A7%E4%BD%9C%E6%88%98-%E9%80%81%E4%B8%93%E5%B1%9E%E5%AE%9A%E5%88%B6%E5%98%89%E5%B9%B4%E5%8D%8E/id996509117?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/df/e2/11dfe246-0f78-f178-1386-a2b080b33695/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《球球大作战》（Battle of Balls）是轻松有趣的休闲竞技手游大作，年轻玩家的共同选择！\n这是一款好玩、萌酷、有挑战性的实时对战休闲竞技游戏。在这个球"
+        },
+        {
+          "rank": 53,
+          "name": "全力蚁富-蚁汐觅饴",
+          "publisher": "恩瑞 张",
+          "category": "游戏",
+          "app_id": "6829739287",
+          "url": "https://apps.apple.com/cn/app/%E5%85%A8%E5%8A%9B%E8%9A%81%E5%AF%8C-%E8%9A%81%E6%B1%90%E8%A7%85%E9%A5%B4/id6829739287?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/8b/b7/7d8bb77b-852a-2b80-abc7-055983549da5/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "微蚁寻甘，有两重奇境。\n一为沧溟之下，可转方匣、调潮汛，令水势升沉，借流势引蚁趋饴，需审度空间，巧思布局，方得尝甘。\n一为瀛洲孤岛，引蚁循径而行，遍寻诸方甜饵，"
+        },
+        {
+          "rank": 62,
+          "name": "经典方块-天天开心益智游戏",
+          "publisher": "林颖 张",
+          "category": "游戏",
+          "app_id": "1438342351",
+          "url": "https://apps.apple.com/cn/app/%E7%BB%8F%E5%85%B8%E6%96%B9%E5%9D%97-%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83%E7%9B%8A%E6%99%BA%E6%B8%B8%E6%88%8F/id1438342351?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/95/43/a4/9543a464-d93f-d9da-5b72-407858814e20/AppIcon-0-1x_U007emarketing-0-85-220-10.png/100x100bb.png",
+          "slogan": "《经典方块》是一款可以唤起你童年记忆的游戏。玩法跟俄罗斯方块一样，可以拖动不同形状的方块摆放到你想要摆放的位置上，组合成一行后会自动消除。每次挑战都会记录下你的"
+        },
+        {
+          "rank": 71,
+          "name": "迷城幻想",
+          "publisher": "枝江市类操科技有限公司",
+          "category": "游戏",
+          "app_id": "6826064284",
+          "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E5%9F%8E%E5%B9%BB%E6%83%B3/id6826064284?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/67/2b/0d672b4b-c515-f218-9141-97566964be60/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "【属性与职阶：战术体系的骨架】\n元素属性与战斗职阶相互制约，前排承伤、后排输出、辅助控场各司其职。同一套阵容，站位不同，出手顺序不同，战局就会走向不同结果。"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 2,
+          "name": "[777Real]パチスロ かぐや様は告らせたい",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6832461356",
+          "url": "https://apps.apple.com/jp/app/777real-%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD-%E3%81%8B%E3%81%90%E3%82%84%E6%A7%98%E3%81%AF%E5%91%8A%E3%82%89%E3%81%9B%E3%81%9F%E3%81%84/id6832461356?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/d8/87/0ad88791-c787-76e9-6f35-24a5ab991adb/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\nパチスロ かぐや様は告らせたい\n2024年/SANKYO\n----------"
+        },
+        {
+          "rank": 9,
+          "name": "ヤンキーサバイバー",
+          "publisher": "SEVEN NEXUS株式会社",
+          "category": "ゲーム",
+          "app_id": "6778303469",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A4%E3%83%B3%E3%82%AD%E3%83%BC%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6778303469?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/71/33/047133b2-3f6f-1b4d-54f1-cbb0e5637c02/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "『ヤンキーサバイバー』は、現代のサラリーマンが平成のヤンキー時代へ転生し、ドット絵の個性派キャラクターたちが大活躍する【平成ヤンキー×サバイバルアクション】です"
+        },
+        {
+          "rank": 69,
+          "name": "脱出ゲーム 星空ATM",
+          "publisher": "MITSUO IMACHI",
+          "category": "ゲーム",
+          "app_id": "6785346096",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E6%98%9F%E7%A9%BAatm/id6785346096?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/7d/c1/107dc10a-9d02-74cb-8580-a8de4073d4c0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "最後のお客様へ。お預かりしていたものをお返しいたします——\n\n夜の街を見下ろす、高層ビルの屋上。\nそこには、古びた小さなATM出張所があった。\n\n来週から取り壊"
+        },
+        {
+          "rank": 75,
+          "name": "Pixelora Flow: 癒しのパズルゲーム",
+          "publisher": "HappyTapLand Technology Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6828679757",
+          "url": "https://apps.apple.com/jp/app/pixelora-flow-%E7%99%92%E3%81%97%E3%81%AE%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6828679757?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/64/3b/9c643b3c-b66d-d62a-b978-555c6d35c960/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "ひとさじの色、小さなヘビ、ピクセルボード――手軽に遊べて、自分のペースでクリアできます。\n\n• 下部にある番号付きの色付きオーブをタップして、その色のヘビを呼び"
+        },
+        {
+          "rank": 89,
+          "name": "Wood Quiz Blast: Trivia Blocks",
+          "publisher": "MNO GO APPS LTD",
+          "category": "ゲーム",
+          "app_id": "6792724152",
+          "url": "https://apps.apple.com/jp/app/wood-quiz-blast-trivia-blocks/id6792724152?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/54/d2/4f54d217-8e0b-b4a0-b2db-643d7ae839b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Trivia Blocksへようこそ！好奇心旺盛で頭の切れるあなたのための究極のクイズゲームです！\n\nTrivia Blocksと一緒に、木のぬくもりを感じる知"
+        },
+        {
+          "rank": 91,
+          "name": "MONOPOLY GO! (モノポリー GO!)",
+          "publisher": "Scopely, Inc.",
+          "category": "ゲーム",
+          "app_id": "1621328561",
+          "url": "https://apps.apple.com/jp/app/monopoly-go-%E3%83%A2%E3%83%8E%E3%83%9D%E3%83%AA%E3%83%BC-go/id1621328561?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/6f/19/e06f191b-fd62-be4d-6bc5-fc2009a1e2c7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "GOを押してサイコロを振り、MONOPOLY GO!——世界で最も象徴的なマルチプレイヤーボードゲームを無料で遊ぼう。クラシックなボードゲームの懐かしさと、スピ"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 88,
+          "name": "ポリスチーフ",
+          "publisher": "VoyagerOne",
+          "category": "ゲーム",
+          "app_id": "6757350661",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%83%AA%E3%82%B9%E3%83%81%E3%83%BC%E3%83%95/id6757350661?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/5b/15/d05b15dd-4ac3-95f5-1cdc-22bb9234d5a9/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "ここは犯罪の影に覆われた世界。ギャングがのさばり、ドラッグが蔓延り、暗殺組織が猛威を振るう街で、市民は不安に怯えながら暮らしています。\n\n新任の警察署長となり、"
+        },
+        {
+          "rank": 94,
+          "name": "Color Puzzle Jam - バスゲーム 車のジャム",
+          "publisher": "Gloryway Puzzle",
+          "category": "ゲーム",
+          "app_id": "6760389476",
+          "url": "https://apps.apple.com/jp/app/color-puzzle-jam-%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0-%E8%BB%8A%E3%81%AE%E3%82%B8%E3%83%A3%E3%83%A0/id6760389476?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/eb/e7/01ebe759-bfac-499d-eb6c-610065cbc9ab/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "魅力的でハマるパズルアドベンチャーへようこそ！あなたの使命は、ぎっしり詰まった駐車場を空にすること。タップして車を出し、同じ色の待ち客を乗せて列を消していこう。"
+        },
+        {
+          "rank": 99,
+          "name": "Tetris® - テトリス (公式ゲーム)",
+          "publisher": "PlayStudios",
+          "category": "ゲーム",
+          "app_id": "1491074310",
+          "url": "https://apps.apple.com/jp/app/tetris-%E3%83%86%E3%83%88%E3%83%AA%E3%82%B9-%E5%85%AC%E5%BC%8F%E3%82%B2%E3%83%BC%E3%83%A0/id1491074310?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/e7/e4/91e7e4ba-c40c-1e71-8ed5-ce5b703067a3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "積む。消す。繰り返す。TETRIS®、世界で最も象徴的なパズルゲームが、ついにモバイルに登場し、あなたのポケットに戻ってきました。サクッと一勝負、ハイスコアを目"
+        },
+        {
+          "rank": 100,
+          "name": "EDGE POKER (エッジポーカー)",
+          "publisher": "DeNA Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6476597728",
+          "url": "https://apps.apple.com/jp/app/edge-poker-%E3%82%A8%E3%83%83%E3%82%B8%E3%83%9D%E3%83%BC%E3%82%AB%E3%83%BC/id6476597728?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/1b/d8/f31bd87b-21b4-3cf8-6ccc-2a9c315358d1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "【踏みだせ、ポーカーのド真ん中へ。AIとともに強くなる、みんなが集まるポーカーの世界】\nDeNAと日本のポーカーブームを牽引するプロポーカープレイヤー「世界のヨ"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 9,
+          "name": "ヤンキーサバイバー",
+          "publisher": "SEVEN NEXUS株式会社",
+          "category": "ゲーム",
+          "app_id": "6778303469",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A4%E3%83%B3%E3%82%AD%E3%83%BC%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6778303469?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/71/33/047133b2-3f6f-1b4d-54f1-cbb0e5637c02/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "『ヤンキーサバイバー』は、現代のサラリーマンが平成のヤンキー時代へ転生し、ドット絵の個性派キャラクターたちが大活躍する【平成ヤンキー×サバイバルアクション】です"
+        },
+        {
+          "rank": 89,
+          "name": "Wood Quiz Blast: Trivia Blocks",
+          "publisher": "MNO GO APPS LTD",
+          "category": "ゲーム",
+          "app_id": "6792724152",
+          "url": "https://apps.apple.com/jp/app/wood-quiz-blast-trivia-blocks/id6792724152?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/54/d2/4f54d217-8e0b-b4a0-b2db-643d7ae839b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Trivia Blocksへようこそ！好奇心旺盛で頭の切れるあなたのための究極のクイズゲームです！\n\nTrivia Blocksと一緒に、木のぬくもりを感じる知"
+        },
+        {
+          "rank": 91,
+          "name": "MONOPOLY GO! (モノポリー GO!)",
+          "publisher": "Scopely, Inc.",
+          "category": "ゲーム",
+          "app_id": "1621328561",
+          "url": "https://apps.apple.com/jp/app/monopoly-go-%E3%83%A2%E3%83%8E%E3%83%9D%E3%83%AA%E3%83%BC-go/id1621328561?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/6f/19/e06f191b-fd62-be4d-6bc5-fc2009a1e2c7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "GOを押してサイコロを振り、MONOPOLY GO!——世界で最も象徴的なマルチプレイヤーボードゲームを無料で遊ぼう。クラシックなボードゲームの懐かしさと、スピ"
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 4,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "[777Real]パチスロ かぐや様は告らせたい",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6832461356",
+          "url": "https://apps.apple.com/jp/app/777real-%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD-%E3%81%8B%E3%81%90%E3%82%84%E6%A7%98%E3%81%AF%E5%91%8A%E3%82%89%E3%81%9B%E3%81%9F%E3%81%84/id6832461356?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/d8/87/0ad88791-c787-76e9-6f35-24a5ab991adb/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\nパチスロ かぐや様は告らせたい\n2024年/SANKYO\n----------"
+        },
+        {
+          "rank": 9,
+          "name": "ヤンキーサバイバー",
+          "publisher": "SEVEN NEXUS株式会社",
+          "category": "ゲーム",
+          "app_id": "6778303469",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A4%E3%83%B3%E3%82%AD%E3%83%BC%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6778303469?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/71/33/047133b2-3f6f-1b4d-54f1-cbb0e5637c02/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "『ヤンキーサバイバー』は、現代のサラリーマンが平成のヤンキー時代へ転生し、ドット絵の個性派キャラクターたちが大活躍する【平成ヤンキー×サバイバルアクション】です"
+        },
+        {
+          "rank": 69,
+          "name": "脱出ゲーム 星空ATM",
+          "publisher": "MITSUO IMACHI",
+          "category": "ゲーム",
+          "app_id": "6785346096",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E6%98%9F%E7%A9%BAatm/id6785346096?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/7d/c1/107dc10a-9d02-74cb-8580-a8de4073d4c0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "最後のお客様へ。お預かりしていたものをお返しいたします——\n\n夜の街を見下ろす、高層ビルの屋上。\nそこには、古びた小さなATM出張所があった。\n\n来週から取り壊"
+        },
+        {
+          "rank": 75,
+          "name": "Pixelora Flow: 癒しのパズルゲーム",
+          "publisher": "HappyTapLand Technology Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6828679757",
+          "url": "https://apps.apple.com/jp/app/pixelora-flow-%E7%99%92%E3%81%97%E3%81%AE%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6828679757?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/64/3b/9c643b3c-b66d-d62a-b978-555c6d35c960/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "ひとさじの色、小さなヘビ、ピクセルボード――手軽に遊べて、自分のペースでクリアできます。\n\n• 下部にある番号付きの色付きオーブをタップして、その色のヘビを呼び"
+        },
+        {
+          "rank": 89,
+          "name": "Wood Quiz Blast: Trivia Blocks",
+          "publisher": "MNO GO APPS LTD",
+          "category": "ゲーム",
+          "app_id": "6792724152",
+          "url": "https://apps.apple.com/jp/app/wood-quiz-blast-trivia-blocks/id6792724152?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/54/d2/4f54d217-8e0b-b4a0-b2db-643d7ae839b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Trivia Blocksへようこそ！好奇心旺盛で頭の切れるあなたのための究極のクイズゲームです！\n\nTrivia Blocksと一緒に、木のぬくもりを感じる知"
+        },
+        {
+          "rank": 91,
+          "name": "MONOPOLY GO! (モノポリー GO!)",
+          "publisher": "Scopely, Inc.",
+          "category": "ゲーム",
+          "app_id": "1621328561",
+          "url": "https://apps.apple.com/jp/app/monopoly-go-%E3%83%A2%E3%83%8E%E3%83%9D%E3%83%AA%E3%83%BC-go/id1621328561?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/6f/19/e06f191b-fd62-be4d-6bc5-fc2009a1e2c7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "GOを押してサイコロを振り、MONOPOLY GO!——世界で最も象徴的なマルチプレイヤーボードゲームを無料で遊ぼう。クラシックなボードゲームの懐かしさと、スピ"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
