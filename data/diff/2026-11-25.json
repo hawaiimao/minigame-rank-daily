@@ -1,0 +1,648 @@
+{
+  "date": "2026-11-25",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "狩",
+          "publisher": "腾讯",
+          "category": "动作",
+          "subcategory": "PVP、多人联机、吃鸡、高画质、竞技"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "超时空街球对决",
+          "publisher": "万象星火工作室",
+          "category": "体育",
+          "subcategory": "篮球、竞技、3V3"
+        },
+        {
+          "rank": 10,
+          "name": "变形金刚：新纪元",
+          "publisher": "Wanda Game",
+          "category": "策略",
+          "subcategory": "剧情、收集"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "狩",
+          "publisher": "腾讯",
+          "category": "动作",
+          "subcategory": "PVP、多人联机、吃鸡、高画质、竞技"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 87,
+          "name": "Pixelora Flow: Pixel Busters",
+          "publisher": "HappyTapLand Technology Co., Ltd.",
+          "category": "Games",
+          "app_id": "6828679757",
+          "url": "https://apps.apple.com/us/app/pixelora-flow-pixel-busters/id6828679757?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/64/3b/9c643b3c-b66d-d62a-b978-555c6d35c960/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "A touch of color, a tiny snake, a pixel board—easy to play, clear it at your own"
+        },
+        {
+          "rank": 88,
+          "name": "Shoot Die Repeat",
+          "publisher": "Heseri Games Inc",
+          "category": "Games",
+          "app_id": "6774321349",
+          "url": "https://apps.apple.com/us/app/shoot-die-repeat/id6774321349?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/f4/58/71f45848-07ed-ba8d-57fe-e773a8db40fd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Shoot Zombies and other mobs as you fight to escape in a world of active ragdoll"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 96,
+          "name": "IQ Boost: Training Brain Games",
+          "publisher": "Brightika, Inc.",
+          "category": "Games",
+          "app_id": "1518047412",
+          "url": "https://apps.apple.com/us/app/iq-boost-training-brain-games/id1518047412?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/3d/3c/703d3c88-35cf-7f9a-1c45-0e45d507a543/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "IQ Boost is a game with tricky puzzles, tasks and logic tests. \nAll the tasks ar"
+        },
+        {
+          "rank": 97,
+          "name": "Match Factory!",
+          "publisher": "Peak Games",
+          "category": "Games",
+          "app_id": "6449094229",
+          "url": "https://apps.apple.com/us/app/match-factory/id6449094229?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/2c/6a/ce2c6a93-21b9-6ccf-6035-e40ea92ad613/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Match Factory - The Ultimate 3D Puzzle Adventure!\n\nDive into the fasc"
+        },
+        {
+          "rank": 99,
+          "name": "Food Hunt: Pixel Puzzle",
+          "publisher": "FUNFINITY PTE. LTD",
+          "category": "Games",
+          "app_id": "6769314786",
+          "url": "https://apps.apple.com/us/app/food-hunt-pixel-puzzle/id6769314786?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/0c/10/920c101b-dca8-662f-c2ee-7342e06e0a3a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Every level is a pixel art masterpiece. Your ants will devour it - one color at "
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 87,
+          "name": "Pixelora Flow: Pixel Busters",
+          "publisher": "HappyTapLand Technology Co., Ltd.",
+          "category": "Games",
+          "app_id": "6828679757",
+          "url": "https://apps.apple.com/us/app/pixelora-flow-pixel-busters/id6828679757?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/64/3b/9c643b3c-b66d-d62a-b978-555c6d35c960/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "A touch of color, a tiny snake, a pixel board—easy to play, clear it at your own"
+        },
+        {
+          "rank": 88,
+          "name": "Shoot Die Repeat",
+          "publisher": "Heseri Games Inc",
+          "category": "Games",
+          "app_id": "6774321349",
+          "url": "https://apps.apple.com/us/app/shoot-die-repeat/id6774321349?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/f4/58/71f45848-07ed-ba8d-57fe-e773a8db40fd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Shoot Zombies and other mobs as you fight to escape in a world of active ragdoll"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 21,
+          "name": "Tool Toss: Spinning Target",
+          "publisher": "Zaira Jane Ceballos",
+          "category": "游戏",
+          "app_id": "6822054618",
+          "url": "https://apps.apple.com/cn/app/tool-toss-spinning-target/id6822054618?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/5f/f2/1f5ff2ce-619f-5d31-1abb-2e4c1a7f4746/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Time your tap, throw your tool and make it stick! Tool Toss is a quick, satisfyi"
+        },
+        {
+          "rank": 24,
+          "name": "植物大战僵尸2-联机加好友",
+          "publisher": "PopCap",
+          "category": "游戏",
+          "app_id": "639516529",
+          "url": "https://apps.apple.com/cn/app/%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B82-%E8%81%94%E6%9C%BA%E5%8A%A0%E5%A5%BD%E5%8F%8B/id639516529?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/6b/ea/8c6bead5-40fc-1a26-830b-403525a533c2/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+          "slogan": "《植物大战僵尸 2》经典塔防策略手游，奇妙时空之旅正式开启！植物与僵尸的史诗对决跨越多重时空维度，全新植物阵容、特色僵尸与创新玩法重磅登场。依托触屏操作革新传统"
+        },
+        {
+          "rank": 46,
+          "name": "honeybearsue",
+          "publisher": "Paola Zamrana",
+          "category": "游戏",
+          "app_id": "6791094428",
+          "url": "https://apps.apple.com/cn/app/honeybearsue/id6791094428?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/9e/97/fd9e97b6-1d67-b675-0a10-0a855d6d734b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Honeybear Sue is a small, honest pixel-art platformer about a hungry little bear"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 2,
+          "name": "蓝色星原：旅谣",
+          "publisher": "蛮啾游戏",
+          "category": "游戏",
+          "app_id": "6754017631",
+          "url": "https://apps.apple.com/cn/app/%E8%93%9D%E8%89%B2%E6%98%9F%E5%8E%9F-%E6%97%85%E8%B0%A3/id6754017631?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/93/fc/5493fcab-6661-ed85-20b1-c39f024177d4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《蓝色星原：旅谣》是由老牌知名厂商蛮啾网络自研的旗舰级星宠结伴·幻想大世界RPG。你将在这片文明、魔法与幻想生物交织的广袤大陆上，邂逅来自不同地域与种族的少女，"
+        },
+        {
+          "rank": 27,
+          "name": "灵宝派对",
+          "publisher": "Xiaoshu Technology Limited",
+          "category": "游戏",
+          "app_id": "6762598411",
+          "url": "https://apps.apple.com/cn/app/%E7%81%B5%E5%AE%9D%E6%B4%BE%E5%AF%B9/id6762598411?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/e2/4b/b4e24ba1-556b-3def-da72-7f28d1af903a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "上班好累，世界好喧嚣，有点喘不过气，好想逃……\n一张被你无意间捡起的传单，竟成了通往异世的密信。\n当你握紧那份神秘的邀约，睁开眼——你竟然真的踏上了这片静谧的世"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 60,
+          "name": "明日方舟：终末地",
+          "publisher": "Shanghai Hypergryph Talos Network Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6753859465",
+          "url": "https://apps.apple.com/cn/app/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F-%E7%BB%88%E6%9C%AB%E5%9C%B0/id6753859465?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/37/a1/2737a1b0-5428-64a6-0c4e-6fb34fc02e05/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《明日方舟：终末地》是一款由鹰角网络自研的3D即时策略RPG，玩家将作为终末地工业的管理员，逐步探索塔卫二，揭开属于这颗星球的秘密，保卫和拓展人类文明的边疆。\n"
+        },
+        {
+          "rank": 98,
+          "name": "四通八达：星轨漫游",
+          "publisher": "桂录 殷",
+          "category": "游戏",
+          "app_id": "6816929413",
+          "url": "https://apps.apple.com/cn/app/%E5%9B%9B%E9%80%9A%E5%85%AB%E8%BE%BE-%E6%98%9F%E8%BD%A8%E6%BC%AB%E6%B8%B8/id6816929413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/7f/6c/687f6ca4-cb13-d6c7-fe03-7facb80a24db/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "在环形航道之间轻点接驳节点，切换航行轨道，操控航船穿行环路之间，沿路收集散落露珠，驶向灯塔完成远航。\n\n晨雾、星潮、逆风三条特色航线，环形多层轨道交错排布。\n点"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 2,
+          "name": "蓝色星原：旅谣",
+          "publisher": "蛮啾游戏",
+          "category": "游戏",
+          "app_id": "6754017631",
+          "url": "https://apps.apple.com/cn/app/%E8%93%9D%E8%89%B2%E6%98%9F%E5%8E%9F-%E6%97%85%E8%B0%A3/id6754017631?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/93/fc/5493fcab-6661-ed85-20b1-c39f024177d4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《蓝色星原：旅谣》是由老牌知名厂商蛮啾网络自研的旗舰级星宠结伴·幻想大世界RPG。你将在这片文明、魔法与幻想生物交织的广袤大陆上，邂逅来自不同地域与种族的少女，"
+        },
+        {
+          "rank": 21,
+          "name": "Tool Toss: Spinning Target",
+          "publisher": "Zaira Jane Ceballos",
+          "category": "游戏",
+          "app_id": "6822054618",
+          "url": "https://apps.apple.com/cn/app/tool-toss-spinning-target/id6822054618?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/5f/f2/1f5ff2ce-619f-5d31-1abb-2e4c1a7f4746/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Time your tap, throw your tool and make it stick! Tool Toss is a quick, satisfyi"
+        },
+        {
+          "rank": 27,
+          "name": "灵宝派对",
+          "publisher": "Xiaoshu Technology Limited",
+          "category": "游戏",
+          "app_id": "6762598411",
+          "url": "https://apps.apple.com/cn/app/%E7%81%B5%E5%AE%9D%E6%B4%BE%E5%AF%B9/id6762598411?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/e2/4b/b4e24ba1-556b-3def-da72-7f28d1af903a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "上班好累，世界好喧嚣，有点喘不过气，好想逃……\n一张被你无意间捡起的传单，竟成了通往异世的密信。\n当你握紧那份神秘的邀约，睁开眼——你竟然真的踏上了这片静谧的世"
+        },
+        {
+          "rank": 46,
+          "name": "honeybearsue",
+          "publisher": "Paola Zamrana",
+          "category": "游戏",
+          "app_id": "6791094428",
+          "url": "https://apps.apple.com/cn/app/honeybearsue/id6791094428?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/9e/97/fd9e97b6-1d67-b675-0a10-0a855d6d734b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Honeybear Sue is a small, honest pixel-art platformer about a hungry little bear"
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 2,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "蓝色星原：旅谣",
+          "publisher": "蛮啾游戏",
+          "category": "游戏",
+          "app_id": "6754017631",
+          "url": "https://apps.apple.com/cn/app/%E8%93%9D%E8%89%B2%E6%98%9F%E5%8E%9F-%E6%97%85%E8%B0%A3/id6754017631?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/93/fc/5493fcab-6661-ed85-20b1-c39f024177d4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《蓝色星原：旅谣》是由老牌知名厂商蛮啾网络自研的旗舰级星宠结伴·幻想大世界RPG。你将在这片文明、魔法与幻想生物交织的广袤大陆上，邂逅来自不同地域与种族的少女，"
+        },
+        {
+          "rank": 21,
+          "name": "Tool Toss: Spinning Target",
+          "publisher": "Zaira Jane Ceballos",
+          "category": "游戏",
+          "app_id": "6822054618",
+          "url": "https://apps.apple.com/cn/app/tool-toss-spinning-target/id6822054618?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/5f/f2/1f5ff2ce-619f-5d31-1abb-2e4c1a7f4746/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Time your tap, throw your tool and make it stick! Tool Toss is a quick, satisfyi"
+        },
+        {
+          "rank": 24,
+          "name": "植物大战僵尸2-联机加好友",
+          "publisher": "PopCap",
+          "category": "游戏",
+          "app_id": "639516529",
+          "url": "https://apps.apple.com/cn/app/%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B82-%E8%81%94%E6%9C%BA%E5%8A%A0%E5%A5%BD%E5%8F%8B/id639516529?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/6b/ea/8c6bead5-40fc-1a26-830b-403525a533c2/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+          "slogan": "《植物大战僵尸 2》经典塔防策略手游，奇妙时空之旅正式开启！植物与僵尸的史诗对决跨越多重时空维度，全新植物阵容、特色僵尸与创新玩法重磅登场。依托触屏操作革新传统"
+        },
+        {
+          "rank": 27,
+          "name": "灵宝派对",
+          "publisher": "Xiaoshu Technology Limited",
+          "category": "游戏",
+          "app_id": "6762598411",
+          "url": "https://apps.apple.com/cn/app/%E7%81%B5%E5%AE%9D%E6%B4%BE%E5%AF%B9/id6762598411?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/e2/4b/b4e24ba1-556b-3def-da72-7f28d1af903a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "上班好累，世界好喧嚣，有点喘不过气，好想逃……\n一张被你无意间捡起的传单，竟成了通往异世的密信。\n当你握紧那份神秘的邀约，睁开眼——你竟然真的踏上了这片静谧的世"
+        },
+        {
+          "rank": 46,
+          "name": "honeybearsue",
+          "publisher": "Paola Zamrana",
+          "category": "游戏",
+          "app_id": "6791094428",
+          "url": "https://apps.apple.com/cn/app/honeybearsue/id6791094428?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/9e/97/fd9e97b6-1d67-b675-0a10-0a855d6d734b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Honeybear Sue is a small, honest pixel-art platformer about a hungry little bear"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "ホロライブ麻雀 -ホロじゃん-",
+          "publisher": "Aiming Inc.",
+          "category": "ゲーム",
+          "app_id": "6762111285",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96%E9%BA%BB%E9%9B%80-%E3%83%9B%E3%83%AD%E3%81%98%E3%82%83%E3%82%93/id6762111285?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/59/6c/ab596ce5-b7f3-fb7f-1b9c-87528fe08207/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "今度の推し活は、麻雀だ！\nホロライブ公式オンライン麻雀ゲームが登場！\n好きなスタンプや麻雀牌をカスタマイズして、いろんなモードで対局できる！\n推しタレントを選ん"
+        },
+        {
+          "rank": 3,
+          "name": "ケロロ軍曹 ぽちっと大出動であります！",
+          "publisher": "G HOLDINGS CO., LTD.",
+          "category": "ゲーム",
+          "app_id": "6805005476",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B1%E3%83%AD%E3%83%AD%E8%BB%8D%E6%9B%B9-%E3%81%BD%E3%81%A1%E3%81%A3%E3%81%A8%E5%A4%A7%E5%87%BA%E5%8B%95%E3%81%A7%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99/id6805005476?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/fe/56/5cfe565e-bc5f-3029-5013-93fcde914272/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『ケロロ軍曹 ぽちっと大出動であります！』略して「ぽちケロ」\nおなじみの仲間たちとバトルに挑戦しよう！\n\n▼今すぐ出動するであります！\n隊員たちはランダムで出動"
+        },
+        {
+          "rank": 5,
+          "name": "アズールプロミリア",
+          "publisher": "YOSTAR LIMITED",
+          "category": "ゲーム",
+          "app_id": "6787982572",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%82%BA%E3%83%BC%E3%83%AB%E3%83%97%E3%83%AD%E3%83%9F%E3%83%AA%E3%82%A2/id6787982572?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/6c/47/156c471a-e3fc-5fba-a0be-8f640e876515/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Manjuu GamesとYostarが贈る、星霊と旅するファンタジーワールドRPG『アズールプロミリア』。\nプレイヤーは予言された「星臨者」としてプロミリア大"
+        },
+        {
+          "rank": 9,
+          "name": "MONSTER HUNTER RISE NETFLIX",
+          "publisher": "Netflix, Inc.",
+          "category": "ゲーム",
+          "app_id": "6740350229",
+          "url": "https://apps.apple.com/jp/app/monster-hunter-rise-netflix/id6740350229?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/86/98/0086984d-6a5d-07e6-e763-c9fba6521600/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Netflixのメンバーシップが必要です。\n\n里を脅かす獰猛なモンスターたちを狩りまくる、マルチプレイアクションゲーム。手に入れた素材を活かし、次なる戦いに備え"
+        },
+        {
+          "rank": 28,
+          "name": "モンモンマスターズ",
+          "publisher": "PLAYHARD",
+          "category": "ゲーム",
+          "app_id": "6760277702",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%83%A2%E3%83%B3%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6760277702?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/1b/61/2b1b611d-828f-195f-2847-4eeb4ad5876f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『モンモンマスターズ』は、テイマーとなって進化形態を含む600種以上の個性豊かなモンモンを集めて育成し、自分だけのチームを編成するモンスター収集RPGです！\nモ"
+        },
+        {
+          "rank": 37,
+          "name": "チーズラン：坂道ころころ逃走ゲーム",
+          "publisher": "Mustafa Bugra Sozeri",
+          "category": "ゲーム",
+          "app_id": "6837705456",
+          "url": "https://apps.apple.com/jp/app/%E3%83%81%E3%83%BC%E3%82%BA%E3%83%A9%E3%83%B3-%E5%9D%82%E9%81%93%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E9%80%83%E8%B5%B0%E3%82%B2%E3%83%BC%E3%83%A0/id6837705456?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/3d/a8/7a3da879-1186-0dfc-faea-d0d5e016425c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "チーズが逃げ出した！村じゅうの人たちが追いかけてくる！\n\n暴走するチーズを操って、どこまでも続く緑の坂道を転がり下りよう。岩や丸太、茂み、干し草をよけて、ジャン"
+        },
+        {
+          "rank": 48,
+          "name": "Fresh Today: Cozy Supermarket",
+          "publisher": "Emre Beyoglu",
+          "category": "ゲーム",
+          "app_id": "6836499974",
+          "url": "https://apps.apple.com/jp/app/fresh-today-cozy-supermarket/id6836499974?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/35/e7/9235e78f-3571-9ba0-b28f-51db8e96ff97/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fresh Todayへようこそ！ここは町でいちばんかわいい小さなスーパーです。\n\n毎朝シャッターを開けて、自分のペースで街角のお店を切り盛りしましょう。問屋か"
+        },
+        {
+          "rank": 96,
+          "name": "Find Em All! - アイテム探し",
+          "publisher": "Agave Games",
+          "category": "ゲーム",
+          "app_id": "6761472533",
+          "url": "https://apps.apple.com/jp/app/find-em-all-%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E6%8E%A2%E3%81%97/id6761472533?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/5a/56/d05a566b-ae1b-1808-f378-4965c3808dfb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Find Em All! は、カラフルで楽しいイラストの中から、隠されたアイテムを見つけていくアイテム探しゲームです。\nじっくり探して、見つけた瞬間のスッキリ感"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 90,
+          "name": "Sand Hole: Block Sort Jam",
+          "publisher": "Tripledot Studios",
+          "category": "ゲーム",
+          "app_id": "6795585457",
+          "url": "https://apps.apple.com/jp/app/sand-hole-block-sort-jam/id6795585457?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/60/e6/8860e609-68d1-217f-e447-57bedbe9de50/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Sand Hole: Block Sort Jam is a color sort puzzle where the sand really moves.\n\nD"
+        },
+        {
+          "rank": 93,
+          "name": "777Real(777リアル) パチンコ･パチスロアプリ",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "1545088576",
+          "url": "https://apps.apple.com/jp/app/777real-777%E3%83%AA%E3%82%A2%E3%83%AB-%E3%83%91%E3%83%81%E3%83%B3%E3%82%B3-%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD%E3%82%A2%E3%83%97%E3%83%AA/id1545088576?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/6d/72/636d723b-f743-f089-72ac-b25d8b3012d3/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\n777Real（スリーセブンリアル）\n--------------------"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "ホロライブ麻雀 -ホロじゃん-",
+          "publisher": "Aiming Inc.",
+          "category": "ゲーム",
+          "app_id": "6762111285",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96%E9%BA%BB%E9%9B%80-%E3%83%9B%E3%83%AD%E3%81%98%E3%82%83%E3%82%93/id6762111285?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/59/6c/ab596ce5-b7f3-fb7f-1b9c-87528fe08207/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "今度の推し活は、麻雀だ！\nホロライブ公式オンライン麻雀ゲームが登場！\n好きなスタンプや麻雀牌をカスタマイズして、いろんなモードで対局できる！\n推しタレントを選ん"
+        },
+        {
+          "rank": 3,
+          "name": "ケロロ軍曹 ぽちっと大出動であります！",
+          "publisher": "G HOLDINGS CO., LTD.",
+          "category": "ゲーム",
+          "app_id": "6805005476",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B1%E3%83%AD%E3%83%AD%E8%BB%8D%E6%9B%B9-%E3%81%BD%E3%81%A1%E3%81%A3%E3%81%A8%E5%A4%A7%E5%87%BA%E5%8B%95%E3%81%A7%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99/id6805005476?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/fe/56/5cfe565e-bc5f-3029-5013-93fcde914272/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『ケロロ軍曹 ぽちっと大出動であります！』略して「ぽちケロ」\nおなじみの仲間たちとバトルに挑戦しよう！\n\n▼今すぐ出動するであります！\n隊員たちはランダムで出動"
+        },
+        {
+          "rank": 5,
+          "name": "アズールプロミリア",
+          "publisher": "YOSTAR LIMITED",
+          "category": "ゲーム",
+          "app_id": "6787982572",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%82%BA%E3%83%BC%E3%83%AB%E3%83%97%E3%83%AD%E3%83%9F%E3%83%AA%E3%82%A2/id6787982572?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/6c/47/156c471a-e3fc-5fba-a0be-8f640e876515/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Manjuu GamesとYostarが贈る、星霊と旅するファンタジーワールドRPG『アズールプロミリア』。\nプレイヤーは予言された「星臨者」としてプロミリア大"
+        },
+        {
+          "rank": 9,
+          "name": "MONSTER HUNTER RISE NETFLIX",
+          "publisher": "Netflix, Inc.",
+          "category": "ゲーム",
+          "app_id": "6740350229",
+          "url": "https://apps.apple.com/jp/app/monster-hunter-rise-netflix/id6740350229?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/86/98/0086984d-6a5d-07e6-e763-c9fba6521600/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Netflixのメンバーシップが必要です。\n\n里を脅かす獰猛なモンスターたちを狩りまくる、マルチプレイアクションゲーム。手に入れた素材を活かし、次なる戦いに備え"
+        },
+        {
+          "rank": 28,
+          "name": "モンモンマスターズ",
+          "publisher": "PLAYHARD",
+          "category": "ゲーム",
+          "app_id": "6760277702",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%83%A2%E3%83%B3%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6760277702?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/1b/61/2b1b611d-828f-195f-2847-4eeb4ad5876f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『モンモンマスターズ』は、テイマーとなって進化形態を含む600種以上の個性豊かなモンモンを集めて育成し、自分だけのチームを編成するモンスター収集RPGです！\nモ"
+        },
+        {
+          "rank": 37,
+          "name": "チーズラン：坂道ころころ逃走ゲーム",
+          "publisher": "Mustafa Bugra Sozeri",
+          "category": "ゲーム",
+          "app_id": "6837705456",
+          "url": "https://apps.apple.com/jp/app/%E3%83%81%E3%83%BC%E3%82%BA%E3%83%A9%E3%83%B3-%E5%9D%82%E9%81%93%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E9%80%83%E8%B5%B0%E3%82%B2%E3%83%BC%E3%83%A0/id6837705456?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/3d/a8/7a3da879-1186-0dfc-faea-d0d5e016425c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "チーズが逃げ出した！村じゅうの人たちが追いかけてくる！\n\n暴走するチーズを操って、どこまでも続く緑の坂道を転がり下りよう。岩や丸太、茂み、干し草をよけて、ジャン"
+        },
+        {
+          "rank": 48,
+          "name": "Fresh Today: Cozy Supermarket",
+          "publisher": "Emre Beyoglu",
+          "category": "ゲーム",
+          "app_id": "6836499974",
+          "url": "https://apps.apple.com/jp/app/fresh-today-cozy-supermarket/id6836499974?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/35/e7/9235e78f-3571-9ba0-b28f-51db8e96ff97/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fresh Todayへようこそ！ここは町でいちばんかわいい小さなスーパーです。\n\n毎朝シャッターを開けて、自分のペースで街角のお店を切り盛りしましょう。問屋か"
+        }
+      ],
+      "totals": {
+        "new_to_board": 8,
+        "returning": 2,
+        "new_publishers": 7
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "ホロライブ麻雀 -ホロじゃん-",
+          "publisher": "Aiming Inc.",
+          "category": "ゲーム",
+          "app_id": "6762111285",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96%E9%BA%BB%E9%9B%80-%E3%83%9B%E3%83%AD%E3%81%98%E3%82%83%E3%82%93/id6762111285?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/59/6c/ab596ce5-b7f3-fb7f-1b9c-87528fe08207/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "今度の推し活は、麻雀だ！\nホロライブ公式オンライン麻雀ゲームが登場！\n好きなスタンプや麻雀牌をカスタマイズして、いろんなモードで対局できる！\n推しタレントを選ん"
+        },
+        {
+          "rank": 3,
+          "name": "ケロロ軍曹 ぽちっと大出動であります！",
+          "publisher": "G HOLDINGS CO., LTD.",
+          "category": "ゲーム",
+          "app_id": "6805005476",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B1%E3%83%AD%E3%83%AD%E8%BB%8D%E6%9B%B9-%E3%81%BD%E3%81%A1%E3%81%A3%E3%81%A8%E5%A4%A7%E5%87%BA%E5%8B%95%E3%81%A7%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99/id6805005476?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/fe/56/5cfe565e-bc5f-3029-5013-93fcde914272/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『ケロロ軍曹 ぽちっと大出動であります！』略して「ぽちケロ」\nおなじみの仲間たちとバトルに挑戦しよう！\n\n▼今すぐ出動するであります！\n隊員たちはランダムで出動"
+        },
+        {
+          "rank": 5,
+          "name": "アズールプロミリア",
+          "publisher": "YOSTAR LIMITED",
+          "category": "ゲーム",
+          "app_id": "6787982572",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%82%BA%E3%83%BC%E3%83%AB%E3%83%97%E3%83%AD%E3%83%9F%E3%83%AA%E3%82%A2/id6787982572?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/6c/47/156c471a-e3fc-5fba-a0be-8f640e876515/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Manjuu GamesとYostarが贈る、星霊と旅するファンタジーワールドRPG『アズールプロミリア』。\nプレイヤーは予言された「星臨者」としてプロミリア大"
+        },
+        {
+          "rank": 9,
+          "name": "MONSTER HUNTER RISE NETFLIX",
+          "publisher": "Netflix, Inc.",
+          "category": "ゲーム",
+          "app_id": "6740350229",
+          "url": "https://apps.apple.com/jp/app/monster-hunter-rise-netflix/id6740350229?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/86/98/0086984d-6a5d-07e6-e763-c9fba6521600/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Netflixのメンバーシップが必要です。\n\n里を脅かす獰猛なモンスターたちを狩りまくる、マルチプレイアクションゲーム。手に入れた素材を活かし、次なる戦いに備え"
+        },
+        {
+          "rank": 28,
+          "name": "モンモンマスターズ",
+          "publisher": "PLAYHARD",
+          "category": "ゲーム",
+          "app_id": "6760277702",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%83%A2%E3%83%B3%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6760277702?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/1b/61/2b1b611d-828f-195f-2847-4eeb4ad5876f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『モンモンマスターズ』は、テイマーとなって進化形態を含む600種以上の個性豊かなモンモンを集めて育成し、自分だけのチームを編成するモンスター収集RPGです！\nモ"
+        },
+        {
+          "rank": 37,
+          "name": "チーズラン：坂道ころころ逃走ゲーム",
+          "publisher": "Mustafa Bugra Sozeri",
+          "category": "ゲーム",
+          "app_id": "6837705456",
+          "url": "https://apps.apple.com/jp/app/%E3%83%81%E3%83%BC%E3%82%BA%E3%83%A9%E3%83%B3-%E5%9D%82%E9%81%93%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E9%80%83%E8%B5%B0%E3%82%B2%E3%83%BC%E3%83%A0/id6837705456?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/3d/a8/7a3da879-1186-0dfc-faea-d0d5e016425c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "チーズが逃げ出した！村じゅうの人たちが追いかけてくる！\n\n暴走するチーズを操って、どこまでも続く緑の坂道を転がり下りよう。岩や丸太、茂み、干し草をよけて、ジャン"
+        },
+        {
+          "rank": 48,
+          "name": "Fresh Today: Cozy Supermarket",
+          "publisher": "Emre Beyoglu",
+          "category": "ゲーム",
+          "app_id": "6836499974",
+          "url": "https://apps.apple.com/jp/app/fresh-today-cozy-supermarket/id6836499974?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/35/e7/9235e78f-3571-9ba0-b28f-51db8e96ff97/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fresh Todayへようこそ！ここは町でいちばんかわいい小さなスーパーです。\n\n毎朝シャッターを開けて、自分のペースで街角のお店を切り盛りしましょう。問屋か"
+        },
+        {
+          "rank": 96,
+          "name": "Find Em All! - アイテム探し",
+          "publisher": "Agave Games",
+          "category": "ゲーム",
+          "app_id": "6761472533",
+          "url": "https://apps.apple.com/jp/app/find-em-all-%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E6%8E%A2%E3%81%97/id6761472533?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/5a/56/d05a566b-ae1b-1808-f378-4965c3808dfb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Find Em All! は、カラフルで楽しいイラストの中から、隠されたアイテムを見つけていくアイテム探しゲームです。\nじっくり探して、見つけた瞬間のスッキリ感"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
