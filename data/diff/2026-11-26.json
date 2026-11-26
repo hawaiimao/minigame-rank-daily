@@ -1,0 +1,545 @@
+{
+  "date": "2026-11-26",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "伍六七：暗影交锋",
+          "publisher": "啊吉游",
+          "category": "角色扮演",
+          "subcategory": "国漫、像素、动作、冒险、模拟经营、横版、2D、多人联机、APRG、热血"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 26,
+          "name": "DIGIMON ALYSION",
+          "publisher": "BANDAI Co., Ltd.",
+          "category": "Games",
+          "app_id": "6745321429",
+          "url": "https://apps.apple.com/us/app/digimon-alysion/id6745321429?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/13/77/4013775c-0838-aebd-96e7-0ffa712e5912/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "DIGIMON ALYSION is finally here!\nEnjoy a brand-new Digimon card game world!\n\n■ O"
+        },
+        {
+          "rank": 82,
+          "name": "Slice Away! - Physics Puzzle",
+          "publisher": "Pickcel Games",
+          "category": "Games",
+          "app_id": "6818054527",
+          "url": "https://apps.apple.com/us/app/slice-away-physics-puzzle/id6818054527?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/6d/18/7f6d1873-d0a8-6741-2d6b-1016cb88117f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "In Slice Away! - Physics Puzzle, swipe to cut objects and make the pieces fall i"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 6,
+          "name": "Jelly Busters: Puzzle Game",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "app_id": "6756058501",
+          "url": "https://apps.apple.com/us/app/jelly-busters-puzzle-game/id6756058501?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ea/cd/76eacdf9-8974-c81a-5e71-379541f5c3fd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Drop into the smoothest skatepark in town with the Jelly Busters crew, a squad o"
+        },
+        {
+          "rank": 69,
+          "name": "Brain Test: Tricky Puzzles",
+          "publisher": "UNICO STUDIO",
+          "category": "Games",
+          "app_id": "1486214495",
+          "url": "https://apps.apple.com/us/app/brain-test-tricky-puzzles/id1486214495?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/b4/9a/f7b49a07-22b8-b430-c1f1-f5934dcaf1b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Brain Test: Tricky Puzzles is a collection of clever and surprising puzzles buil"
+        },
+        {
+          "rank": 73,
+          "name": "Charades - Family & Party Game",
+          "publisher": "Dmytro Cheverda",
+          "category": "Games",
+          "app_id": "1453837845",
+          "url": "https://apps.apple.com/us/app/charades-family-party-game/id1453837845?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/27/04/ac270450-57e8-4093-517c-f2c5d7a4c8c8/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+          "slogan": "Fun and easy to play game will cheer up your party or family gathering.\n\nGuess t"
+        },
+        {
+          "rank": 89,
+          "name": "Line Tangle - Dots Jam Escape",
+          "publisher": "Shycheese",
+          "category": "Games",
+          "app_id": "6805725616",
+          "url": "https://apps.apple.com/us/app/line-tangle-dots-jam-escape/id6805725616?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/bc/78/59bc78ec-8a48-3525-2990-65a80b03ff48/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "Colorful lines intertwine to form a picture, waiting for you to unravel the desi"
+        },
+        {
+          "rank": 90,
+          "name": "Wordscapes - Word Game",
+          "publisher": "PeopleFun, Inc.",
+          "category": "Games",
+          "app_id": "1207472156",
+          "url": "https://apps.apple.com/us/app/wordscapes-word-game/id1207472156?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/91/c2/5591c231-32c9-5ab3-4c8a-b144921e0645/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Playing Wordscapes 10 mins a day sharpens your mind and prepares you for your da"
+        },
+        {
+          "rank": 99,
+          "name": "Fish Sort Puzzle - Bubble Jam",
+          "publisher": "BLANKZONET",
+          "category": "Games",
+          "app_id": "6771681639",
+          "url": "https://apps.apple.com/us/app/fish-sort-puzzle-bubble-jam/id6771681639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/06/f5/6a06f538-1ec1-4360-3a9f-961b2f4afa7b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Dive into an underwater adventure!\nTap the fish and watch them swim into their n"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 26,
+          "name": "DIGIMON ALYSION",
+          "publisher": "BANDAI Co., Ltd.",
+          "category": "Games",
+          "app_id": "6745321429",
+          "url": "https://apps.apple.com/us/app/digimon-alysion/id6745321429?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/13/77/4013775c-0838-aebd-96e7-0ffa712e5912/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "DIGIMON ALYSION is finally here!\nEnjoy a brand-new Digimon card game world!\n\n■ O"
+        },
+        {
+          "rank": 82,
+          "name": "Slice Away! - Physics Puzzle",
+          "publisher": "Pickcel Games",
+          "category": "Games",
+          "app_id": "6818054527",
+          "url": "https://apps.apple.com/us/app/slice-away-physics-puzzle/id6818054527?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/6d/18/7f6d1873-d0a8-6741-2d6b-1016cb88117f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "In Slice Away! - Physics Puzzle, swipe to cut objects and make the pieces fall i"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 6,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 26,
+          "name": "DIGIMON ALYSION",
+          "publisher": "BANDAI Co., Ltd.",
+          "category": "Games",
+          "app_id": "6745321429",
+          "url": "https://apps.apple.com/us/app/digimon-alysion/id6745321429?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/13/77/4013775c-0838-aebd-96e7-0ffa712e5912/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "DIGIMON ALYSION is finally here!\nEnjoy a brand-new Digimon card game world!\n\n■ O"
+        },
+        {
+          "rank": 82,
+          "name": "Slice Away! - Physics Puzzle",
+          "publisher": "Pickcel Games",
+          "category": "Games",
+          "app_id": "6818054527",
+          "url": "https://apps.apple.com/us/app/slice-away-physics-puzzle/id6818054527?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/6d/18/7f6d1873-d0a8-6741-2d6b-1016cb88117f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "In Slice Away! - Physics Puzzle, swipe to cut objects and make the pieces fall i"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 93,
+          "name": "数独 - Sudoku无广告 每日经典版趣味数独小游戏",
+          "publisher": "Wuhan Dobest Information Technology Co, Ltd.",
+          "category": "游戏",
+          "app_id": "1035505740",
+          "url": "https://apps.apple.com/cn/app/%E6%95%B0%E7%8B%AC-sudoku%E6%97%A0%E5%B9%BF%E5%91%8A-%E6%AF%8F%E6%97%A5%E7%BB%8F%E5%85%B8%E7%89%88%E8%B6%A3%E5%91%B3%E6%95%B0%E7%8B%AC%E5%B0%8F%E6%B8%B8%E6%88%8F/id1035505740?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/af/26/81/af2681e4-c103-51eb-5022-1e2d9b26ae69/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "一款拥有几十年历史的数字益智游戏，满足你的逻辑挑战，体验数字的魅力！\n\n游戏特色：\n异形数独、舒尔特方块，挑战你的极限，还有教程教你如何解开数独谜题~~~\n\n玩"
+        },
+        {
+          "rank": 97,
+          "name": "战争警戒",
+          "publisher": "Shanghai Island of Adventure Information Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6447175519",
+          "url": "https://apps.apple.com/cn/app/%E6%88%98%E4%BA%89%E8%AD%A6%E6%88%92/id6447175519?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/d1/68/17d16876-bcec-201b-3367-2bcebb3cef7f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "在《战争警戒》中，迎接第二次世界大战的挑战，成为历史上最伟大的军事领袖之一。这是一款激动人心的实时战略游戏，让你扮演指挥官的角色，征召各种类型的士兵、坦克、火炮"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 91,
+          "name": "奔奔王国",
+          "publisher": "Fuzhou Dian Dian Song He Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6748527570",
+          "url": "https://apps.apple.com/cn/app/%E5%A5%94%E5%A5%94%E7%8E%8B%E5%9B%BD/id6748527570?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/ab/e9/7fabe9a8-1759-fdd4-3e26-0b6c703ca5e1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《奔奔王国》是一款塔防策略与模拟经营玩法结合的中世纪题材的游戏。\n\n游戏的故事发生在虚构的黑暗时代，曾辉煌的国王城堡已在叛乱战火中化为焦土。废墟之上，势力割据的"
+        },
+        {
+          "rank": 96,
+          "name": "JJ象棋-经典中国象棋游戏",
+          "publisher": "JJWorld(Beijing) Network Technology Company Limited",
+          "category": "游戏",
+          "app_id": "979859989",
+          "url": "https://apps.apple.com/cn/app/jj%E8%B1%A1%E6%A3%8B-%E7%BB%8F%E5%85%B8%E4%B8%AD%E5%9B%BD%E8%B1%A1%E6%A3%8B%E6%B8%B8%E6%88%8F/id979859989?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/02/c3/3402c33f-9ed6-3755-a118-64f4e0c14bc5/AppIcon_chess-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《JJ象棋》汇聚经典象棋、趣味揭棋、残局闯关、人机对战等多种玩法。无论是休闲切磋、赛事竞技，还是学棋练棋，都能找到适合自己的对局体验。\n【精彩赛事，参与赛季赢奖"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 97,
+          "name": "战争警戒",
+          "publisher": "Shanghai Island of Adventure Information Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6447175519",
+          "url": "https://apps.apple.com/cn/app/%E6%88%98%E4%BA%89%E8%AD%A6%E6%88%92/id6447175519?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/d1/68/17d16876-bcec-201b-3367-2bcebb3cef7f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "在《战争警戒》中，迎接第二次世界大战的挑战，成为历史上最伟大的军事领袖之一。这是一款激动人心的实时战略游戏，让你扮演指挥官的角色，征召各种类型的士兵、坦克、火炮"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 93,
+          "name": "数独 - Sudoku无广告 每日经典版趣味数独小游戏",
+          "publisher": "Wuhan Dobest Information Technology Co, Ltd.",
+          "category": "游戏",
+          "app_id": "1035505740",
+          "url": "https://apps.apple.com/cn/app/%E6%95%B0%E7%8B%AC-sudoku%E6%97%A0%E5%B9%BF%E5%91%8A-%E6%AF%8F%E6%97%A5%E7%BB%8F%E5%85%B8%E7%89%88%E8%B6%A3%E5%91%B3%E6%95%B0%E7%8B%AC%E5%B0%8F%E6%B8%B8%E6%88%8F/id1035505740?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/af/26/81/af2681e4-c103-51eb-5022-1e2d9b26ae69/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "一款拥有几十年历史的数字益智游戏，满足你的逻辑挑战，体验数字的魅力！\n\n游戏特色：\n异形数独、舒尔特方块，挑战你的极限，还有教程教你如何解开数独谜题~~~\n\n玩"
+        },
+        {
+          "rank": 97,
+          "name": "战争警戒",
+          "publisher": "Shanghai Island of Adventure Information Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6447175519",
+          "url": "https://apps.apple.com/cn/app/%E6%88%98%E4%BA%89%E8%AD%A6%E6%88%92/id6447175519?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/d1/68/17d16876-bcec-201b-3367-2bcebb3cef7f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "在《战争警戒》中，迎接第二次世界大战的挑战，成为历史上最伟大的军事领袖之一。这是一款激动人心的实时战略游戏，让你扮演指挥官的角色，征召各种类型的士兵、坦克、火炮"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 2,
+          "name": "デジモンアリシオン",
+          "publisher": "BANDAI Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6740988190",
+          "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%E3%82%A2%E3%83%AA%E3%82%B7%E3%82%AA%E3%83%B3/id6740988190?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/5d/f0/655df06f-481e-60c0-7319-8b791ea4dc8f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "『デジモンアリシオン』ついに始動！\n新たなデジモンの世界を「デジモンカードゲーム」とともに楽しもう！\n\n■オリジナルストーリー！\nオリジナルキャラクターが織りな"
+        },
+        {
+          "rank": 22,
+          "name": "タンクバスターズ：破壊バトル",
+          "publisher": "SayGames LTD",
+          "category": "ゲーム",
+          "app_id": "6818465459",
+          "url": "https://apps.apple.com/jp/app/%E3%82%BF%E3%83%B3%E3%82%AF%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA-%E7%A0%B4%E5%A3%8A%E3%83%90%E3%83%88%E3%83%AB/id6818465459?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/d1/3f/3dd13f35-3659-a8f6-dafb-cd64142975c2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "► すべてが吹き飛ぶ白熱の戦車バトル\n\n主砲の照準を合わせ、完璧な角度を決めて発射せよ！タンクバスターズでは、たった一発の砲撃が戦況を塗り替えます。壁を粉砕し、"
+        },
+        {
+          "rank": 86,
+          "name": "フックAim - フック設定クレーンゲーム練習",
+          "publisher": "RITO TANAKA",
+          "category": "ゲーム",
+          "app_id": "6831628665",
+          "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%83%E3%82%AFaim-%E3%83%95%E3%83%83%E3%82%AF%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0%E7%B7%B4%E7%BF%92/id6831628665?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/31/bd/a431bd57-84f2-bcef-1e36-7cafe51863f6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "フック設定のクレーンゲームを、iPhoneの3Dで練習できるアプリです。\n横移動と奥移動の2つのボタンで、リングをフックに掛けて、上がりきるまで外れなければ成功"
+        },
+        {
+          "rank": 88,
+          "name": "Easy Drum - Real Music Drum",
+          "publisher": "Avalon Entertainment Co., Limited",
+          "category": "ゲーム",
+          "app_id": "6833913632",
+          "url": "https://apps.apple.com/jp/app/easy-drum-real-music-drum/id6833913632?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/73/e4/75/73e4755e-2cec-b40f-be31-8a305968dbc0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Easy Drum - Real Music Drum は、リズム満載のドラムアプリ兼ゲームです。ゲームプレイは非常にシンプル：リズムを感じて、対応する色のバー"
+        },
+        {
+          "rank": 94,
+          "name": "Merge Restyle",
+          "publisher": "HIGGS TECHNOLOGY CO., LIMITED",
+          "category": "ゲーム",
+          "app_id": "6738049542",
+          "url": "https://apps.apple.com/jp/app/merge-restyle/id6738049542?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/4a/42/be4a42f1-2bf2-a6f3-26dc-cf139db35e0f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "\"Merge Restyleへようこそ – ハウスデザインとペット育成が究極融合したゲーム！\n\n伝説のデザインマスターになる準備はできていますか？ボロボロの家や"
+        },
+        {
+          "rank": 95,
+          "name": "Slice Away! - Physics Puzzle",
+          "publisher": "Pickcel Games",
+          "category": "ゲーム",
+          "app_id": "6818054527",
+          "url": "https://apps.apple.com/jp/app/slice-away-physics-puzzle/id6818054527?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/6d/18/7f6d1873-d0a8-6741-2d6b-1016cb88117f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "In Slice Away! - Physics Puzzle, swipe to cut objects and make the pieces fall i"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 67,
+          "name": "ワクワク電車ライフ - 街を発展！車掌ゲーム",
+          "publisher": "ONIGIRI GAMES",
+          "category": "ゲーム",
+          "app_id": "6780728551",
+          "url": "https://apps.apple.com/jp/app/%E3%83%AF%E3%82%AF%E3%83%AF%E3%82%AF%E9%9B%BB%E8%BB%8A%E3%83%A9%E3%82%A4%E3%83%95-%E8%A1%97%E3%82%92%E7%99%BA%E5%B1%95-%E8%BB%8A%E6%8E%8C%E3%82%B2%E3%83%BC%E3%83%A0/id6780728551?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/69/08/5f6908e5-a1c6-c92d-e514-7dbca5c452d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "日本の電車を運転して、たくさんの乗客を駅まで届けよう！\n乗客を運ぶほどコインが増え、車両のスピードや性能をどんどんアップグレード！\n\nあなたの選択によって路線や"
+        },
+        {
+          "rank": 91,
+          "name": "Line Tangle - 紐解きひもゲームロープ",
+          "publisher": "Shycheese",
+          "category": "ゲーム",
+          "app_id": "6805725616",
+          "url": "https://apps.apple.com/jp/app/line-tangle-%E7%B4%90%E8%A7%A3%E3%81%8D%E3%81%B2%E3%82%82%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%AD%E3%83%BC%E3%83%97/id6805725616?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/bc/78/59bc78ec-8a48-3525-2990-65a80b03ff48/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "色とりどりの線が絡み合って一枚の絵を形作ります。デザインをほどき、その本当の形を明らかにするのを待っているのはあなたです。ノードをタップするだけで、秩序が少しず"
+        },
+        {
+          "rank": 99,
+          "name": "sobosuba",
+          "publisher": "Michael Richard Bryant",
+          "category": "ゲーム",
+          "app_id": "6802116433",
+          "url": "https://apps.apple.com/jp/app/sobosuba/id6802116433?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/7c/c5/aa7cc560-f4d3-c4d0-95a7-7016c3cd1c71/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "No ads! Free to try, with a one-time purchase to unlock the full game. \n\nsobosub"
+        },
+        {
+          "rank": 100,
+          "name": "ミステリータウン：マージゲーム (Mystery Town)",
+          "publisher": "Cedar Games Studio",
+          "category": "ゲーム",
+          "app_id": "6503603603",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%82%BF%E3%82%A6%E3%83%B3-%E3%83%9E%E3%83%BC%E3%82%B8%E3%82%B2%E3%83%BC%E3%83%A0-mystery-town/id6503603603?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/ea/86/7fea86e7-5817-2591-b838-99eb2a5333ff/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.png",
+          "slogan": "ミステリータウンへようこそ！ここには長年埋もれていた秘密が眠る…\nオーロラがついにおじさんの家に到着すると、なんと家が燃えていた！さらに、怪物のような影が逃げ去"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 2,
+          "name": "デジモンアリシオン",
+          "publisher": "BANDAI Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6740988190",
+          "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%E3%82%A2%E3%83%AA%E3%82%B7%E3%82%AA%E3%83%B3/id6740988190?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/5d/f0/655df06f-481e-60c0-7319-8b791ea4dc8f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "『デジモンアリシオン』ついに始動！\n新たなデジモンの世界を「デジモンカードゲーム」とともに楽しもう！\n\n■オリジナルストーリー！\nオリジナルキャラクターが織りな"
+        },
+        {
+          "rank": 86,
+          "name": "フックAim - フック設定クレーンゲーム練習",
+          "publisher": "RITO TANAKA",
+          "category": "ゲーム",
+          "app_id": "6831628665",
+          "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%83%E3%82%AFaim-%E3%83%95%E3%83%83%E3%82%AF%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0%E7%B7%B4%E7%BF%92/id6831628665?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/31/bd/a431bd57-84f2-bcef-1e36-7cafe51863f6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "フック設定のクレーンゲームを、iPhoneの3Dで練習できるアプリです。\n横移動と奥移動の2つのボタンで、リングをフックに掛けて、上がりきるまで外れなければ成功"
+        },
+        {
+          "rank": 88,
+          "name": "Easy Drum - Real Music Drum",
+          "publisher": "Avalon Entertainment Co., Limited",
+          "category": "ゲーム",
+          "app_id": "6833913632",
+          "url": "https://apps.apple.com/jp/app/easy-drum-real-music-drum/id6833913632?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/73/e4/75/73e4755e-2cec-b40f-be31-8a305968dbc0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Easy Drum - Real Music Drum は、リズム満載のドラムアプリ兼ゲームです。ゲームプレイは非常にシンプル：リズムを感じて、対応する色のバー"
+        },
+        {
+          "rank": 94,
+          "name": "Merge Restyle",
+          "publisher": "HIGGS TECHNOLOGY CO., LIMITED",
+          "category": "ゲーム",
+          "app_id": "6738049542",
+          "url": "https://apps.apple.com/jp/app/merge-restyle/id6738049542?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/4a/42/be4a42f1-2bf2-a6f3-26dc-cf139db35e0f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "\"Merge Restyleへようこそ – ハウスデザインとペット育成が究極融合したゲーム！\n\n伝説のデザインマスターになる準備はできていますか？ボロボロの家や"
+        },
+        {
+          "rank": 95,
+          "name": "Slice Away! - Physics Puzzle",
+          "publisher": "Pickcel Games",
+          "category": "ゲーム",
+          "app_id": "6818054527",
+          "url": "https://apps.apple.com/jp/app/slice-away-physics-puzzle/id6818054527?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/6d/18/7f6d1873-d0a8-6741-2d6b-1016cb88117f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "In Slice Away! - Physics Puzzle, swipe to cut objects and make the pieces fall i"
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 4,
+        "new_publishers": 5
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "デジモンアリシオン",
+          "publisher": "BANDAI Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6740988190",
+          "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%E3%82%A2%E3%83%AA%E3%82%B7%E3%82%AA%E3%83%B3/id6740988190?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/5d/f0/655df06f-481e-60c0-7319-8b791ea4dc8f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "『デジモンアリシオン』ついに始動！\n新たなデジモンの世界を「デジモンカードゲーム」とともに楽しもう！\n\n■オリジナルストーリー！\nオリジナルキャラクターが織りな"
+        },
+        {
+          "rank": 22,
+          "name": "タンクバスターズ：破壊バトル",
+          "publisher": "SayGames LTD",
+          "category": "ゲーム",
+          "app_id": "6818465459",
+          "url": "https://apps.apple.com/jp/app/%E3%82%BF%E3%83%B3%E3%82%AF%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA-%E7%A0%B4%E5%A3%8A%E3%83%90%E3%83%88%E3%83%AB/id6818465459?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/d1/3f/3dd13f35-3659-a8f6-dafb-cd64142975c2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "► すべてが吹き飛ぶ白熱の戦車バトル\n\n主砲の照準を合わせ、完璧な角度を決めて発射せよ！タンクバスターズでは、たった一発の砲撃が戦況を塗り替えます。壁を粉砕し、"
+        },
+        {
+          "rank": 86,
+          "name": "フックAim - フック設定クレーンゲーム練習",
+          "publisher": "RITO TANAKA",
+          "category": "ゲーム",
+          "app_id": "6831628665",
+          "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%83%E3%82%AFaim-%E3%83%95%E3%83%83%E3%82%AF%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0%E7%B7%B4%E7%BF%92/id6831628665?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/31/bd/a431bd57-84f2-bcef-1e36-7cafe51863f6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "フック設定のクレーンゲームを、iPhoneの3Dで練習できるアプリです。\n横移動と奥移動の2つのボタンで、リングをフックに掛けて、上がりきるまで外れなければ成功"
+        },
+        {
+          "rank": 88,
+          "name": "Easy Drum - Real Music Drum",
+          "publisher": "Avalon Entertainment Co., Limited",
+          "category": "ゲーム",
+          "app_id": "6833913632",
+          "url": "https://apps.apple.com/jp/app/easy-drum-real-music-drum/id6833913632?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/73/e4/75/73e4755e-2cec-b40f-be31-8a305968dbc0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Easy Drum - Real Music Drum は、リズム満載のドラムアプリ兼ゲームです。ゲームプレイは非常にシンプル：リズムを感じて、対応する色のバー"
+        },
+        {
+          "rank": 94,
+          "name": "Merge Restyle",
+          "publisher": "HIGGS TECHNOLOGY CO., LIMITED",
+          "category": "ゲーム",
+          "app_id": "6738049542",
+          "url": "https://apps.apple.com/jp/app/merge-restyle/id6738049542?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/4a/42/be4a42f1-2bf2-a6f3-26dc-cf139db35e0f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "\"Merge Restyleへようこそ – ハウスデザインとペット育成が究極融合したゲーム！\n\n伝説のデザインマスターになる準備はできていますか？ボロボロの家や"
+        },
+        {
+          "rank": 95,
+          "name": "Slice Away! - Physics Puzzle",
+          "publisher": "Pickcel Games",
+          "category": "ゲーム",
+          "app_id": "6818054527",
+          "url": "https://apps.apple.com/jp/app/slice-away-physics-puzzle/id6818054527?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/6d/18/7f6d1873-d0a8-6741-2d6b-1016cb88117f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "In Slice Away! - Physics Puzzle, swipe to cut objects and make the pieces fall i"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
