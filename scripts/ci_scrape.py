@@ -31,6 +31,7 @@ ROOT = HERE.parent  # repo root
 sys.path.insert(0, str(HERE))
 
 import scrape_rank as core  # noqa: E402
+import scrape_ssr  # noqa: E402
 
 
 # Beijing time (UTC+8) — we want the date label to match Chinese users.
@@ -122,6 +123,36 @@ def main():
             "platforms": {},
             "gravity_error": str(e),
         }
+
+    # Safety net for a dead login session.
+    #
+    # The browser path only reads the list after Vue has re-rendered it from
+    # its own XHRs, and when GRAVITY_AUTH has expired those XHRs answer
+    # code 2001 (「登录异常」) — the app then CLEARS the server-rendered list,
+    # so a platform holding 60 perfectly good public rows collapses to 0.
+    # That is the 2026-10-30 incident: 39 straight days of empty 微信/抖音
+    # while every response still carried the public top 20 per board.
+    #
+    # Recover the public rows straight from the HTML instead of publishing an
+    # empty board. Costs ~1s, needs no browser and no login. Public data is
+    # top 20 per board, so this is a floor, not a replacement for a logged-in
+    # 100-row scrape.
+    platforms = data.setdefault("platforms", {})
+    for pkey in ("wx", "douyin"):
+        if not scrape_ssr.is_empty(platforms.get(pkey)):
+            continue
+        try:
+            frag = scrape_ssr.scrape_platform(pkey, log=log)
+            n_rows = sum(len(b.get("rows", [])) for b in frag.get("boards", []))
+            if n_rows:
+                platforms[pkey] = frag
+                data.setdefault("ssr_fallback", []).append(pkey)
+                log(f"[ssr-fallback] {pkey}: 浏览器路径 0 行，"
+                    f"改用 SSR 公开榜（每榜前 20，共 {n_rows} 行）")
+            else:
+                log(f"[ssr-fallback] {pkey}: SSR 也无可解析行，保持为空")
+        except Exception as e:  # noqa: BLE001
+            log(f"[ssr-fallback] {pkey}: SSR 回退失败: {e}")
 
     # Tag with absolute and Beijing timestamps for the UI.
     data["scraped_at_utc"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
