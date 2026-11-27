@@ -47,6 +47,11 @@ from openpyxl import Workbook  # noqa: E402
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout  # noqa: E402
 
 URL = "https://rank.gravity-engine.com/#/"
+# 2026-11: gravity-engine rewrote the site from hash routing (#/) to path
+# routing. "/" and "/#/" now both 308 to /wechat/day/, and the 抖音 board
+# lives at its own server-rendered path. Keep this explicit instead of
+# relying on a tab click (see switch_to_douyin).
+DOUYIN_URL = "https://rank.gravity-engine.com/douyin/day/"
 DEFAULT_OUT_DIR = Path("D:/claude/rank_output")
 DEFAULT_AUTH_FILE = Path("D:/claude/rank_auth.json")
 
@@ -289,28 +294,72 @@ def scrape_current_platform(page, platform: str, top_n: int, log=print) -> dict:
 
 
 def switch_to_douyin(page, log=print) -> bool:
-    tab = page.locator("img[src*='douyin_tab_rank']").first
+    """Switch the page to the 抖音小游戏 board.
+
+    2026-11 site rewrite: gravity-engine moved from hash routing (#/) to
+    path routing (/wechat/day/, /douyin/day/) and replaced the
+    ``<img src="...douyin_tab_rank">`` tab icon with a plain
+    ``<a href="/douyin/day/" class="platform-tab">`` whose icon is a CSS
+    ``.dot.dot-dy`` span. There is no <img> on that tab any more, so the
+    old locator matched nothing and every run logged "tab switch failed"
+    (抖音 down since 2026-09-30).
+
+    Navigate to the path route directly — it is server-rendered and
+    returns 200 without any tab interaction — and keep the click path as
+    a fallback in case the site ever restores in-page tab switching.
+    """
+    # 1) Preferred: direct navigation to the path route.
     try:
-        tab.scroll_into_view_if_needed(timeout=2000)
-    except Exception:
-        pass
-    try:
-        clickable = tab.locator(
-            "xpath=ancestor::*[self::div or self::a or self::button][1]"
-        )
         try:
             with page.expect_response(
                 lambda r: "rank/public_list" in r.url or "rank/list" in r.url,
-                timeout=8000,
+                timeout=15000,
             ):
-                clickable.click(timeout=4000)
+                page.goto(DOUYIN_URL, wait_until="domcontentloaded",
+                          timeout=90000)
         except PWTimeout:
-            clickable.click(timeout=4000)
-        page.wait_for_timeout(1200)
-        return True
-    except Exception as e:
-        log(f"[warn] could not click 抖音 tab: {e}")
-        return False
+            # Landed, but no fresh XHR fired (cached render). The DOM is
+            # already the 抖音 board; fall through and check it.
+            pass
+        try:
+            page.wait_for_selector(".rank-child-item", timeout=30000)
+        except PWTimeout:
+            log("[warn] 抖音榜单条目 30s 内未出现")
+        if page.locator(".rank-list > div").count() > 0:
+            log("[douyin] 直连 /douyin/day/ 成功")
+            return True
+        log("[warn] 抖音直连导航后未发现榜单容器，回退点击 tab")
+    except Exception as e:  # noqa: BLE001
+        log(f"[warn] 抖音直连导航失败: {e}")
+
+    # 2) Fallback: click the platform tab (current DOM first, then legacy).
+    for sel in ("a.platform-tab[href*='/douyin/']",
+                "img[src*='douyin_tab_rank']"):
+        tab = page.locator(sel).first
+        try:
+            if tab.count() == 0:
+                continue
+            try:
+                tab.scroll_into_view_if_needed(timeout=2000)
+            except Exception:  # noqa: BLE001
+                pass
+            clickable = tab.locator(
+                "xpath=ancestor::*[self::div or self::a or self::button][1]"
+            )
+            try:
+                with page.expect_response(
+                    lambda r: "rank/public_list" in r.url or "rank/list" in r.url,
+                    timeout=8000,
+                ):
+                    clickable.click(timeout=4000)
+            except PWTimeout:
+                clickable.click(timeout=4000)
+            page.wait_for_timeout(1200)
+            log(f"[douyin] 通过 {sel} 点击切换成功")
+            return True
+        except Exception as e:  # noqa: BLE001
+            log(f"[warn] {sel} 点击失败: {e}")
+    return False
 
 
 # ---------- modes ----------

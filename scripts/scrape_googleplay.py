@@ -21,9 +21,16 @@ the United States"). Each table row carries:
 Why AppBrain and not Google Play directly: play.google.com renders the
 chart client-side — the SSR HTML contains no app data (verified). AppBrain
 is SSR, free, and needs only a plain urllib GET (same philosophy as
-scrape_taptap.py). Known caveat: free-tier rate limits — a 429 appeared
-once during probing, so we retry with backoff and keep to one fetch per
-day. ~100 rows per chart.
+scrape_taptap.py). ~100 rows per chart.
+
+STATUS 2026-11: BLOCKED. AppBrain now answers non-browser clients with
+HTTP 429 whose body is the /show_humancheck interstitial. Reproduced from
+a GitHub Actions runner and a CN residential line, and it persists with a
+full Chrome header set — so this is a human check, not a rate limit, and
+the backoff below cannot get through. The Android board has been empty
+since roughly 2026-10. Either drive a real browser through the check or
+switch to another Google Play ranking source; until then this module
+fails fast with AppBrainBlocked so the cause is visible in the CI log.
 
 Emits the standard snapshot fragment consumed by ci_scrape.py:
 
@@ -39,6 +46,7 @@ import html as html_mod
 import json
 import re
 import time
+import urllib.error
 import urllib.request
 from typing import Callable
 
@@ -63,8 +71,22 @@ _PKG_RE = re.compile(r"/app/[^/]+/([A-Za-z0-9_.]+)")
 _CAT_RE = re.compile(r'class="ranking-category-cell"[^>]*>\s*<a[^>]*>([^<]+)</a>', re.S)
 
 
+class AppBrainBlocked(RuntimeError):
+    """AppBrain served its /show_humancheck interstitial instead of the chart."""
+
+
 def _fetch(url: str, timeout: float = 25, retries: int = 3) -> str:
-    """GET with a browser UA; retry on transient errors / 429 with backoff."""
+    """GET with a browser UA; retry on transient errors with backoff.
+
+    2026-11: AppBrain put the ranking pages behind a human check. Anything
+    that is not an interactive browser session gets HTTP 429 whose body is
+    the /show_humancheck interstitial. Verified from both GitHub Actions
+    IPs *and* a CN residential line, and it survives a full set of Chrome
+    headers (Accept / Sec-Fetch-* / br encoding), so the old "transient
+    rate limit, back off and retry" reading no longer holds — retrying
+    just burns ~18s and reports a misleading "429 Too Many Requests".
+    Detect the interstitial and fail fast with an honest reason.
+    """
     last_err: Exception | None = None
     for attempt in range(retries + 1):
         req = urllib.request.Request(url, headers={
@@ -73,12 +95,34 @@ def _fetch(url: str, timeout: float = 25, retries: int = 3) -> str:
         })
         try:
             with urllib.request.urlopen(req, timeout=timeout) as resp:
-                return resp.read().decode("utf-8", "replace")
+                body = resp.read().decode("utf-8", "replace")
+                if "show_humancheck" in body:
+                    raise AppBrainBlocked(
+                        "AppBrain 返回人机验证页 /show_humancheck（非限流，重试无效）"
+                    )
+                return body
+        except AppBrainBlocked:
+            raise
+        except urllib.error.HTTPError as e:  # noqa: PERF203
+            if e.code in (403, 429):
+                try:
+                    blocked_body = e.read().decode("utf-8", "replace")
+                except Exception:  # noqa: BLE001
+                    blocked_body = ""
+                if "show_humancheck" in blocked_body:
+                    raise AppBrainBlocked(
+                        f"AppBrain 人机验证拦截（HTTP {e.code} → /show_humancheck）。"
+                        "需真实浏览器会话或更换数据源，退避重试无效"
+                    ) from None
+            last_err = e
+            if attempt < retries:
+                time.sleep(3 * (attempt + 1))  # 3s, 6s, 9s
+            else:
+                raise
         except Exception as e:  # noqa: BLE001
             last_err = e
-            wait = 3 * (attempt + 1)  # 3s, 6s, 9s, 12s
             if attempt < retries:
-                time.sleep(wait)
+                time.sleep(3 * (attempt + 1))  # 3s, 6s, 9s
             else:
                 raise
     raise last_err  # type: ignore[misc]
