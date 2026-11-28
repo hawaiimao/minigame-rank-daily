@@ -1,0 +1,1179 @@
+{
+  "date": "2026-11-28",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 7,
+          "name": "侏罗纪海底吞噬进化",
+          "category": "休闲",
+          "category_rank": 6,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广西易趣互娱科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 16,
+          "name": "吸管吸干海水",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "砖了个砖",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "北京简游科技有限公司",
+          "change": "1",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 7,
+          "name": "侏罗纪海底吞噬进化",
+          "category": "休闲",
+          "category_rank": 6,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广西易趣互娱科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 7,
+          "name": "侏罗纪海底吞噬进化",
+          "category": "休闲",
+          "category_rank": 6,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广西易趣互娱科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 16,
+          "name": "吸管吸干海水",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "永远的蔚蓝星球",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "广州颂悦信息技术有限公司",
+          "change": "23",
+          "change_direction": "down"
+        },
+        {
+          "rank": 18,
+          "name": "次神：光之觉醒",
+          "category": "角色",
+          "category_rank": 3,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "在线途游（北京）科技有限公司",
+          "change": "5",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "原始征途",
+          "category": "角色",
+          "category_rank": 4,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "巨人网络集团股份有限公司",
+          "change": "8",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 3,
+          "name": "开店赚赚赚",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 8,
+          "name": "暴爽征途",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 14,
+          "name": "暖伴时光",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都布尔凯索科技有限公司",
+          "change": "42",
+          "change_direction": "down"
+        },
+        {
+          "rank": 15,
+          "name": "最牛大冒险",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "17",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "时光旧巷口",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市奇兔软件技术有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 5,
+          "name": "停不下来",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "让我解决它",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门市玩转地球科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "贪吃蛇大作战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉微派网络科技有限公司",
+          "change": "3",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 7,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 3,
+          "name": "开店赚赚赚",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 5,
+          "name": "停不下来",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 8,
+          "name": "暴爽征途",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 14,
+          "name": "暖伴时光",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都布尔凯索科技有限公司",
+          "change": "42",
+          "change_direction": "down"
+        },
+        {
+          "rank": 15,
+          "name": "最牛大冒险",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "17",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "时光旧巷口",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市奇兔软件技术有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "让我解决它",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门市玩转地球科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "欢乐战三国",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南哎呦互娱网络科技有限公司",
+          "change": "31",
+          "change_direction": "down"
+        },
+        {
+          "rank": 10,
+          "name": "跃动小子",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "柏项网络科技（上海）有限公司",
+          "change": "11",
+          "change_direction": "down"
+        },
+        {
+          "rank": 15,
+          "name": "永远的蔚蓝星球",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州颂悦信息技术有限公司",
+          "change": "34",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "无限冒险挑战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州易游互玩科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 11,
+          "name": "突击战场逆袭",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门猫咪游网络科技有限公司",
+          "change": "27",
+          "change_direction": "down"
+        },
+        {
+          "rank": 12,
+          "name": "元素穿梭",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州乐辰科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 13,
+          "name": "你消没我快",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "福州中恒乐游网络科技有限公司",
+          "change": "33",
+          "change_direction": "down"
+        },
+        {
+          "rank": 17,
+          "name": "魔怪幻想",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "江西百羽信息技术有限公司",
+          "change": "22",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "战将大乱斗",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳聚上宝网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "圣翼传说",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州九狐信息科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 15,
+          "name": "闪耀吧！噜咪",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都幻电信息科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 12,
+          "name": "元素穿梭",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州乐辰科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 13,
+          "name": "你消没我快",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "福州中恒乐游网络科技有限公司",
+          "change": "33",
+          "change_direction": "down"
+        },
+        {
+          "rank": 15,
+          "name": "闪耀吧！噜咪",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都幻电信息科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "魔怪幻想",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "江西百羽信息技术有限公司",
+          "change": "22",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "战将大乱斗",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳聚上宝网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "圣翼传说",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州九狐信息科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "totals": {
+        "new_to_board": 8,
+        "returning": 0,
+        "new_publishers": 6
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "无限冒险挑战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州易游互玩科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 11,
+          "name": "突击战场逆袭",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门猫咪游网络科技有限公司",
+          "change": "27",
+          "change_direction": "down"
+        },
+        {
+          "rank": 12,
+          "name": "元素穿梭",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州乐辰科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 13,
+          "name": "你消没我快",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "福州中恒乐游网络科技有限公司",
+          "change": "33",
+          "change_direction": "down"
+        },
+        {
+          "rank": 15,
+          "name": "闪耀吧！噜咪",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都幻电信息科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "魔怪幻想",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "江西百羽信息技术有限公司",
+          "change": "22",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "战将大乱斗",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳聚上宝网络科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "圣翼传说",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州九狐信息科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "douyin/发行人热度榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "发行人热度榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "雾海之下",
+          "publisher": "网易游戏",
+          "category": "多人联机",
+          "subcategory": "搜打撤、冒险"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 59,
+          "name": "Doki Doki Literature Club!",
+          "publisher": "Serenity Forge",
+          "category": "Games",
+          "app_id": "6738281686",
+          "url": "https://apps.apple.com/us/app/doki-doki-literature-club/id6738281686?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/fc/c4/d5fcc44c-2e26-8177-8837-0906670efe2f/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "Hi, Monika here!\n\n\nWelcome to the Literature Club! It's always been a dream of m"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 43,
+          "name": "BRAVE FRONTIER LEGION",
+          "publisher": "ALPSE PTE, LTE.",
+          "category": "Games",
+          "app_id": "6790776425",
+          "url": "https://apps.apple.com/us/app/brave-frontier-legion/id6790776425?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/9b/29/4a9b29f5-c195-f996-f955-e47f5ddf3599/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "oin Legion Battles to get up to 1,000 Summons!!\n\nThat power is the ancient art o"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 92,
+          "name": "Bruno Reels Casino",
+          "publisher": "EverPrime Futures Inc.",
+          "category": "Games",
+          "app_id": "6768564100",
+          "url": "https://apps.apple.com/us/app/bruno-reels-casino/id6768564100?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/23/ba/bf23ba31-1193-6c10-acd0-d2ead14e8d8b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Bruno Reels Casino brings you an exciting casino-style slots experience filled w"
+        },
+        {
+          "rank": 95,
+          "name": "Coin Master",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "app_id": "406889139",
+          "url": "https://apps.apple.com/us/app/coin-master/id406889139?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/6a/96/476a9654-04eb-c0c6-f224-4515f32d4777/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Join your Facebook friends and millions of players around the world for prize-wi"
+        },
+        {
+          "rank": 97,
+          "name": "GOGO! Blast",
+          "publisher": "Nebula Studio",
+          "category": "Games",
+          "app_id": "6776522053",
+          "url": "https://apps.apple.com/us/app/gogo-blast/id6776522053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/dd/a9/65dda96b-2dfe-75d2-d952-6ce627670ba8/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "GOGO! Blast is a satisfying arrow puzzle game where you tap arrows in the correc"
+        },
+        {
+          "rank": 99,
+          "name": "Food Hunt: Pixel Puzzle",
+          "publisher": "FUNFINITY PTE. LTD",
+          "category": "Games",
+          "app_id": "6769314786",
+          "url": "https://apps.apple.com/us/app/food-hunt-pixel-puzzle/id6769314786?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/0c/10/920c101b-dca8-662f-c2ee-7342e06e0a3a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Every level is a pixel art masterpiece. Your ants will devour it - one color at "
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 43,
+          "name": "BRAVE FRONTIER LEGION",
+          "publisher": "ALPSE PTE, LTE.",
+          "category": "Games",
+          "app_id": "6790776425",
+          "url": "https://apps.apple.com/us/app/brave-frontier-legion/id6790776425?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/9b/29/4a9b29f5-c195-f996-f955-e47f5ddf3599/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "oin Legion Battles to get up to 1,000 Summons!!\n\nThat power is the ancient art o"
+        },
+        {
+          "rank": 59,
+          "name": "Doki Doki Literature Club!",
+          "publisher": "Serenity Forge",
+          "category": "Games",
+          "app_id": "6738281686",
+          "url": "https://apps.apple.com/us/app/doki-doki-literature-club/id6738281686?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/fc/c4/d5fcc44c-2e26-8177-8837-0906670efe2f/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "Hi, Monika here!\n\n\nWelcome to the Literature Club! It's always been a dream of m"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 4,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 43,
+          "name": "BRAVE FRONTIER LEGION",
+          "publisher": "ALPSE PTE, LTE.",
+          "category": "Games",
+          "app_id": "6790776425",
+          "url": "https://apps.apple.com/us/app/brave-frontier-legion/id6790776425?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/9b/29/4a9b29f5-c195-f996-f955-e47f5ddf3599/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "oin Legion Battles to get up to 1,000 Summons!!\n\nThat power is the ancient art o"
+        },
+        {
+          "rank": 59,
+          "name": "Doki Doki Literature Club!",
+          "publisher": "Serenity Forge",
+          "category": "Games",
+          "app_id": "6738281686",
+          "url": "https://apps.apple.com/us/app/doki-doki-literature-club/id6738281686?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/fc/c4/d5fcc44c-2e26-8177-8837-0906670efe2f/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "slogan": "Hi, Monika here!\n\n\nWelcome to the Literature Club! It's always been a dream of m"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 22,
+          "name": "敲个锤子-关不住我",
+          "publisher": "光彬 牛",
+          "category": "游戏",
+          "app_id": "6739198146",
+          "url": "https://apps.apple.com/cn/app/%E6%95%B2%E4%B8%AA%E9%94%A4%E5%AD%90-%E5%85%B3%E4%B8%8D%E4%BD%8F%E6%88%91/id6739198146?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/2d/97/e12d972b-0c12-153e-309c-1969d8481b30/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+          "slogan": "游戏背景\n在一个寒冷的冬季，冰面覆盖了整个湖泊。你作为一名滑冰高手，受邀参加一场特殊的比赛。比赛的规则很简单：通过方向盘控制滑冰方向，用冰刀在冰面上切割出冰窟窿"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 67,
+          "name": "王者荣耀世界",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1612566389",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E4%B8%96%E7%95%8C/id1612566389?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/1f/d7/f01fd761-fb29-8e46-4a72-bfd9bf25ba54/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【产品介绍】\n《王者荣耀世界》是国民级MOBA手游《王者荣耀》IP旗下的「王者英雄多人战斗冒险游戏」。游戏高度还原王者荣耀世界观，英雄人设故事与技能设定，在3D"
+        },
+        {
+          "rank": 84,
+          "name": "绝区零",
+          "publisher": "miHoYo Games",
+          "category": "游戏",
+          "app_id": "1606359076",
+          "url": "https://apps.apple.com/cn/app/%E7%BB%9D%E5%8C%BA%E9%9B%B6/id1606359076?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/68/b9/9668b943-f1f8-8a86-57b0-978e1527b35f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "不要进入空洞。\n我知道我知道，空洞里有以太资源、有异化造物、甚至有旧文明的遗产，全都是珍贵的财富。\n但是别忘了，那里面空间紊乱，怪物肆虐，异变横生，终究是一场吞"
+        },
+        {
+          "rank": 92,
+          "name": "香肠派对",
+          "publisher": "X.D. Network Inc.",
+          "category": "游戏",
+          "app_id": "1326730621",
+          "url": "https://apps.apple.com/cn/app/%E9%A6%99%E8%82%A0%E6%B4%BE%E5%AF%B9/id1326730621?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/29/c3/7129c3ec-b975-12d7-d340-83e39ef2d191/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "SS28赛季：颤抖吧！僵尸。恐怖来袭，赛季最强武力就在迷雾之中\n\n经典派对新增伯爵身份卡，化身蝙蝠群自由飞行，攻击命中回血！新防具—僵尸头盔＆僵尸护甲，脱战回复"
+        },
+        {
+          "rank": 95,
+          "name": "明日之后",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1435567000",
+          "url": "https://apps.apple.com/cn/app/%E6%98%8E%E6%97%A5%E4%B9%8B%E5%90%8E/id1435567000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/a2/74/22a27434-20e0-9641-76f7-bf9c1ab73341/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "八年前，幸存者们初入废土，在简陋的工作台前组装出第一把UZI、在远星城攥着莫辛纳甘开镜远瞄、在秋日森林挥着铁丝球棍边跑边跳，靠着三把武器撑过了一波又一波感染潮。"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 22,
+          "name": "敲个锤子-关不住我",
+          "publisher": "光彬 牛",
+          "category": "游戏",
+          "app_id": "6739198146",
+          "url": "https://apps.apple.com/cn/app/%E6%95%B2%E4%B8%AA%E9%94%A4%E5%AD%90-%E5%85%B3%E4%B8%8D%E4%BD%8F%E6%88%91/id6739198146?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/2d/97/e12d972b-0c12-153e-309c-1969d8481b30/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+          "slogan": "游戏背景\n在一个寒冷的冬季，冰面覆盖了整个湖泊。你作为一名滑冰高手，受邀参加一场特殊的比赛。比赛的规则很简单：通过方向盘控制滑冰方向，用冰刀在冰面上切割出冰窟窿"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 4,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 22,
+          "name": "敲个锤子-关不住我",
+          "publisher": "光彬 牛",
+          "category": "游戏",
+          "app_id": "6739198146",
+          "url": "https://apps.apple.com/cn/app/%E6%95%B2%E4%B8%AA%E9%94%A4%E5%AD%90-%E5%85%B3%E4%B8%8D%E4%BD%8F%E6%88%91/id6739198146?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/2d/97/e12d972b-0c12-153e-309c-1969d8481b30/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+          "slogan": "游戏背景\n在一个寒冷的冬季，冰面覆盖了整个湖泊。你作为一名滑冰高手，受邀参加一场特殊的比赛。比赛的规则很简单：通过方向盘控制滑冰方向，用冰刀在冰面上切割出冰窟窿"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "シノビNEXUS ―閃乱カグラ― (シノネク)",
+          "publisher": "HONEY PARADE GAMES Inc.",
+          "category": "ゲーム",
+          "app_id": "6569243522",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%8E%E3%83%93nexus-%E9%96%83%E4%B9%B1%E3%82%AB%E3%82%B0%E3%83%A9-%E3%82%B7%E3%83%8E%E3%83%8D%E3%82%AF/id6569243522?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/27/ff/eb27ff41-ea9d-17b9-03c3-c7ade2ac0811/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『閃乱カグラ』シリーズ最新作！八重樫南が描く新たなシノビ少女たちの物語が、いま幕を開ける――\n忍法を駆使して勝利をつかむハイパーシノビバトル、セルルック3Dで躍"
+        },
+        {
+          "rank": 35,
+          "name": "Tidy House - 収納アイテム探しゲーム",
+          "publisher": "Shycheese",
+          "category": "ゲーム",
+          "app_id": "6829605223",
+          "url": "https://apps.apple.com/jp/app/tidy-house-%E5%8F%8E%E7%B4%8D%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E6%8E%A2%E3%81%97%E3%82%B2%E3%83%BC%E3%83%A0/id6829605223?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/db/84/08db8460-6c51-9814-3fa2-a8e02811332c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "デスクの上が散らかっていますか？ 指先で10分間片付けて、すっきりした気分と達成感を取り戻しましょう。\n\n部屋中にアイテムが散らばっていたら、タップして上部のア"
+        },
+        {
+          "rank": 63,
+          "name": "Sandy Bus: Masterpiece",
+          "publisher": "Hyper Surfer Games",
+          "category": "ゲーム",
+          "app_id": "6807326174",
+          "url": "https://apps.apple.com/jp/app/sandy-bus-masterpiece/id6807326174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/7e/13/ff7e131d-7963-331f-5f53-6e0071d75217/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Sandy Bus: Masterpieceへようこそ！バスの渋滞を解く戦略と、同じ色の砂を集める爽快感がひとつになった、カラフルなバスパズルゲームです。動かす"
+        },
+        {
+          "rank": 70,
+          "name": "Wool Connect：毛糸パズルゲーム",
+          "publisher": "Arcloom., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6814395879",
+          "url": "https://apps.apple.com/jp/app/wool-connect-%E6%AF%9B%E7%B3%B8%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6814395879?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/14/d1/9514d172-b2bf-a8eb-a521-9d8607f2ad36/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "絡まった毛糸も、心あたたまる編み物の絵に変わります。シンプルなタップで色を整理し、ゆっくりとペースを落として、散らかった状態がひとつの完成形へと変わる癒やしのひ"
+        },
+        {
+          "rank": 80,
+          "name": "マージバブル (Merge Bubbles)：ワードゲーム",
+          "publisher": "Cheer Games",
+          "category": "ゲーム",
+          "app_id": "6766297786",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%90%E3%83%96%E3%83%AB-merge-bubbles-%E3%83%AF%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0/id6766297786?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/d9/7e/a3d97e74-6204-97ee-ecfd-632ad371609b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "マージバブルは、言葉の連想とリラックスできるバブルマージのゲームプレイを組み合わせた、新鮮で満足感のあるワードパズルゲームです。同じ言葉のバブルをマージして、隠"
+        },
+        {
+          "rank": 98,
+          "name": "インフィニティニキ",
+          "publisher": "INFOLD PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6502623070",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A3%E3%83%8B%E3%83%86%E3%82%A3%E3%83%8B%E3%82%AD/id6502623070?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/5a/32/fd5a32d6-f38c-8812-6e18-bb0d6866e43d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Infold Gamesが開発した『インフィニティニキ』は、「ニキ」シリーズの第五作となる、Unreal Engine 5（UE5）で制作されたマルチプラットフ"
+        },
+        {
+          "rank": 99,
+          "name": "GO!GO!ネコホッピング",
+          "publisher": "ponos corporation",
+          "category": "ゲーム",
+          "app_id": "1438820170",
+          "url": "https://apps.apple.com/jp/app/go-go-%E3%83%8D%E3%82%B3%E3%83%9B%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0/id1438820170?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/fe/8a/f7fe8ab7-df9f-d89d-8597-ebb2349d9f3a/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/100x100bb.png",
+          "slogan": "今度はネコホッピングが主人公！『にゃんこ大戦争』から飛び出した！？新たな冒険に挑戦！\n\n大人気『にゃんこ大戦争』からのスピンオフアプリ登場！\n今度の主人公は「ネ"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 66,
+          "name": "魔法のタイルズ 3™: 音ゲー ピアノタイル",
+          "publisher": "Amanotes Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "1443446174",
+          "url": "https://apps.apple.com/jp/app/%E9%AD%94%E6%B3%95%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%BA-3-%E9%9F%B3%E3%82%B2%E3%83%BC-%E3%83%94%E3%82%A2%E3%83%8E%E3%82%BF%E3%82%A4%E3%83%AB/id1443446174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2c/f6/7f/2cf67f47-6b51-2db0-ec78-af0f4150c60e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一年で一番大切な瞬間を、リズムにのって楽しみましょう！ヒット曲のビートで、魂ごとを音楽にのせていきましょう。\n\n\nMagic Tiles 3では、ポップス、ラッ"
+        },
+        {
+          "rank": 73,
+          "name": "Pokémon TCG Pocket",
+          "publisher": "The Pokemon Company",
+          "category": "ゲーム",
+          "app_id": "6479970832",
+          "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-tcg-pocket/id6479970832?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cc/36/be/cc36be7e-34a8-367e-5ebb-343175027e2a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『ポケポケ』は世界150の国と地域で遊ばれているアプリです。\nいつでもどこでもスマホで『ポケモンカード』を気軽に楽しもう！\n\n■毎日パックを開封してカードを手に"
+        },
+        {
+          "rank": 76,
+          "name": "ハリウッドマージ",
+          "publisher": "VoyagerOne",
+          "category": "ゲーム",
+          "app_id": "6755455500",
+          "url": "https://apps.apple.com/jp/app/%E3%83%8F%E3%83%AA%E3%82%A6%E3%83%83%E3%83%89%E3%83%9E%E3%83%BC%E3%82%B8/id6755455500?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/d1/4d/8dd14d2a-5b4b-5891-df1e-a13085878837/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "速報：ハリウッドスターの継承者はそこのあなた！\r\nこれまで、エキストラの役をもらうのにも必死な毎日を送っていたあなた。ところが突然、伝説の俳優ピーター・デイクの"
+        },
+        {
+          "rank": 77,
+          "name": "ペタペタペンギン団",
+          "publisher": "MOREFUN (H.K.) LIMITED",
+          "category": "ゲーム",
+          "app_id": "6742937695",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9A%E3%82%BF%E3%83%9A%E3%82%BF%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3%E5%9B%A3/id6742937695?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/37/dc/e2/37dce2bf-74d2-aaee-c42c-d7cc60ba8eda/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【無料で３０００連ガチャ、豪華特典ゲット！】\nペタペタペンギン団、予約数100万突破！今DLして無料で3000連ガチャを引ける！さらに地域限定スキン・「剣魂」（"
+        },
+        {
+          "rank": 95,
+          "name": "Hole.io",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "1389111413",
+          "url": "https://apps.apple.com/jp/app/hole-io/id1389111413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/40/6d/f4406db2-7ddb-7f19-5ad9-dd1ef76954e6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "何百万人ものプレイヤーが夢中になっている、最高に爽快な世界丸飲みゲーム「Hole.io」へようこそ！賑やかなニューヨーク、海賊の入り江、または輝くSFの巨大都市"
+        },
+        {
+          "rank": 96,
+          "name": "LINE：ディズニー ツムツム",
+          "publisher": "LINE Corporation",
+          "category": "ゲーム",
+          "app_id": "724594093",
+          "url": "https://apps.apple.com/jp/app/line-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%83%84%E3%83%A0%E3%83%84%E3%83%A0/id724594093?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/d0/c5/a7d0c56c-ca9f-e83a-c2e8-8f7fea80c087/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.jpeg/100x100bb.png",
+          "slogan": "ディズニーストアで大人気のぬいぐるみTSUM TSUM(ツムツム)を集めてつなげる簡単パズルゲームがLINEに登場！\nミッキーマウスや､ドナルドダック､くまのプ"
+        },
+        {
+          "rank": 97,
+          "name": "トリミン2！-トリッキーミーン2 いじわる脳トレパズルゲーム",
+          "publisher": "FTY LLC.",
+          "category": "ゲーム",
+          "app_id": "6758080238",
+          "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%AA%E3%83%9F%E3%83%B32-%E3%83%88%E3%83%AA%E3%83%83%E3%82%AD%E3%83%BC%E3%83%9F%E3%83%BC%E3%83%B32-%E3%81%84%E3%81%98%E3%82%8F%E3%82%8B%E8%84%B3%E3%83%88%E3%83%AC%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6758080238?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/35/87/db358700-c95b-21dc-a050-056f26e8babe/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "あの“トリミン”に続編登場！『トリッキーミーン2』リリース！\n\nアイテムを動かしてイラストを変化させる、いじわる謎解きゲームがパワーアップ！\n前作で好評だった「"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "シノビNEXUS ―閃乱カグラ― (シノネク)",
+          "publisher": "HONEY PARADE GAMES Inc.",
+          "category": "ゲーム",
+          "app_id": "6569243522",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%8E%E3%83%93nexus-%E9%96%83%E4%B9%B1%E3%82%AB%E3%82%B0%E3%83%A9-%E3%82%B7%E3%83%8E%E3%83%8D%E3%82%AF/id6569243522?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/27/ff/eb27ff41-ea9d-17b9-03c3-c7ade2ac0811/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『閃乱カグラ』シリーズ最新作！八重樫南が描く新たなシノビ少女たちの物語が、いま幕を開ける――\n忍法を駆使して勝利をつかむハイパーシノビバトル、セルルック3Dで躍"
+        },
+        {
+          "rank": 70,
+          "name": "Wool Connect：毛糸パズルゲーム",
+          "publisher": "Arcloom., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6814395879",
+          "url": "https://apps.apple.com/jp/app/wool-connect-%E6%AF%9B%E7%B3%B8%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6814395879?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/14/d1/9514d172-b2bf-a8eb-a521-9d8607f2ad36/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "絡まった毛糸も、心あたたまる編み物の絵に変わります。シンプルなタップで色を整理し、ゆっくりとペースを落として、散らかった状態がひとつの完成形へと変わる癒やしのひ"
+        },
+        {
+          "rank": 80,
+          "name": "マージバブル (Merge Bubbles)：ワードゲーム",
+          "publisher": "Cheer Games",
+          "category": "ゲーム",
+          "app_id": "6766297786",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%90%E3%83%96%E3%83%AB-merge-bubbles-%E3%83%AF%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0/id6766297786?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/d9/7e/a3d97e74-6204-97ee-ecfd-632ad371609b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "マージバブルは、言葉の連想とリラックスできるバブルマージのゲームプレイを組み合わせた、新鮮で満足感のあるワードパズルゲームです。同じ言葉のバブルをマージして、隠"
+        },
+        {
+          "rank": 98,
+          "name": "インフィニティニキ",
+          "publisher": "INFOLD PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6502623070",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A3%E3%83%8B%E3%83%86%E3%82%A3%E3%83%8B%E3%82%AD/id6502623070?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/5a/32/fd5a32d6-f38c-8812-6e18-bb0d6866e43d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Infold Gamesが開発した『インフィニティニキ』は、「ニキ」シリーズの第五作となる、Unreal Engine 5（UE5）で制作されたマルチプラットフ"
+        }
+      ],
+      "totals": {
+        "new_to_board": 7,
+        "returning": 7,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "シノビNEXUS ―閃乱カグラ― (シノネク)",
+          "publisher": "HONEY PARADE GAMES Inc.",
+          "category": "ゲーム",
+          "app_id": "6569243522",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%8E%E3%83%93nexus-%E9%96%83%E4%B9%B1%E3%82%AB%E3%82%B0%E3%83%A9-%E3%82%B7%E3%83%8E%E3%83%8D%E3%82%AF/id6569243522?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/27/ff/eb27ff41-ea9d-17b9-03c3-c7ade2ac0811/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『閃乱カグラ』シリーズ最新作！八重樫南が描く新たなシノビ少女たちの物語が、いま幕を開ける――\n忍法を駆使して勝利をつかむハイパーシノビバトル、セルルック3Dで躍"
+        },
+        {
+          "rank": 35,
+          "name": "Tidy House - 収納アイテム探しゲーム",
+          "publisher": "Shycheese",
+          "category": "ゲーム",
+          "app_id": "6829605223",
+          "url": "https://apps.apple.com/jp/app/tidy-house-%E5%8F%8E%E7%B4%8D%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E6%8E%A2%E3%81%97%E3%82%B2%E3%83%BC%E3%83%A0/id6829605223?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/db/84/08db8460-6c51-9814-3fa2-a8e02811332c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "デスクの上が散らかっていますか？ 指先で10分間片付けて、すっきりした気分と達成感を取り戻しましょう。\n\n部屋中にアイテムが散らばっていたら、タップして上部のア"
+        },
+        {
+          "rank": 63,
+          "name": "Sandy Bus: Masterpiece",
+          "publisher": "Hyper Surfer Games",
+          "category": "ゲーム",
+          "app_id": "6807326174",
+          "url": "https://apps.apple.com/jp/app/sandy-bus-masterpiece/id6807326174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/7e/13/ff7e131d-7963-331f-5f53-6e0071d75217/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Sandy Bus: Masterpieceへようこそ！バスの渋滞を解く戦略と、同じ色の砂を集める爽快感がひとつになった、カラフルなバスパズルゲームです。動かす"
+        },
+        {
+          "rank": 70,
+          "name": "Wool Connect：毛糸パズルゲーム",
+          "publisher": "Arcloom., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6814395879",
+          "url": "https://apps.apple.com/jp/app/wool-connect-%E6%AF%9B%E7%B3%B8%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6814395879?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/14/d1/9514d172-b2bf-a8eb-a521-9d8607f2ad36/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "絡まった毛糸も、心あたたまる編み物の絵に変わります。シンプルなタップで色を整理し、ゆっくりとペースを落として、散らかった状態がひとつの完成形へと変わる癒やしのひ"
+        },
+        {
+          "rank": 80,
+          "name": "マージバブル (Merge Bubbles)：ワードゲーム",
+          "publisher": "Cheer Games",
+          "category": "ゲーム",
+          "app_id": "6766297786",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%90%E3%83%96%E3%83%AB-merge-bubbles-%E3%83%AF%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0/id6766297786?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/d9/7e/a3d97e74-6204-97ee-ecfd-632ad371609b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "マージバブルは、言葉の連想とリラックスできるバブルマージのゲームプレイを組み合わせた、新鮮で満足感のあるワードパズルゲームです。同じ言葉のバブルをマージして、隠"
+        },
+        {
+          "rank": 98,
+          "name": "インフィニティニキ",
+          "publisher": "INFOLD PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6502623070",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A3%E3%83%8B%E3%83%86%E3%82%A3%E3%83%8B%E3%82%AD/id6502623070?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/5a/32/fd5a32d6-f38c-8812-6e18-bb0d6866e43d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Infold Gamesが開発した『インフィニティニキ』は、「ニキ」シリーズの第五作となる、Unreal Engine 5（UE5）で制作されたマルチプラットフ"
+        },
+        {
+          "rank": 99,
+          "name": "GO!GO!ネコホッピング",
+          "publisher": "ponos corporation",
+          "category": "ゲーム",
+          "app_id": "1438820170",
+          "url": "https://apps.apple.com/jp/app/go-go-%E3%83%8D%E3%82%B3%E3%83%9B%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0/id1438820170?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/fe/8a/f7fe8ab7-df9f-d89d-8597-ebb2349d9f3a/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/100x100bb.png",
+          "slogan": "今度はネコホッピングが主人公！『にゃんこ大戦争』から飛び出した！？新たな冒険に挑戦！\n\n大人気『にゃんこ大戦争』からのスピンオフアプリ登場！\n今度の主人公は「ネ"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
